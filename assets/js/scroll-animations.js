@@ -37,7 +37,8 @@ function initCardAnimations() {
   );
 
   cards.forEach(card => {
-    card.style.transition = `opacity 600ms ease-out, transform 600ms ease-out, border-color 0.3s ease`;
+    card.style.opacity = '0';
+    card.style.transition = `opacity 600ms ease-out, transform 600ms ease-out`;
     observer.observe(card);
   });
 }

@@ -32,8 +32,7 @@
   padding: var(--space-48);
   background-color: var(--background-secondary);
   border-left: 3px solid transparent;
-  opacity: 0.6;
-  transition: opacity 0.3s ease, border-color 0.3s ease;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
   cursor: pointer;
   border-top: 1px solid var(--background-divider);
   text-decoration: none;
@@ -49,8 +48,8 @@
 
 .case-card:hover,
 .case-card:focus-visible {
-  opacity: 1;
   border-left-color: var(--accent-primary);
+  background-color: rgba(255, 255, 255, 0.03);
 }
 
 /* Index number (background) */
@@ -180,7 +179,8 @@
   }
 
   .case-card {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     padding: var(--space-32) var(--space-24);
   }
 
@@ -197,15 +197,19 @@
     font-size: clamp(36px, 6vw, 72px);
   }
 
+  /* Flatten right column so CTA can be independently ordered */
   .case-card__right {
-    flex-direction: row;
-    align-items: flex-end;
+    display: contents;
+  }
+
+  .case-card__right > div {
     margin-top: var(--space-32);
   }
 
   .case-card__cta {
-    margin-top: 0;
-    align-self: auto;
+    order: 10;
+    margin-top: var(--space-24);
+    align-self: flex-start;
   }
 }
 
