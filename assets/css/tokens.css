@@ -1,0 +1,57 @@
+:root {
+  /* Background */
+  --background-primary:   #0D0F1A;
+  --background-secondary: #121528;
+  --background-divider:   rgba(255, 255, 255, 0.08);
+
+  /* Text */
+  --text-primary:    rgba(242, 242, 245, 1.00);
+  --text-secondary:  rgba(242, 242, 245, 0.45);
+  --text-muted:      rgba(242, 242, 245, 0.45);
+  --text-ghost:      rgba(242, 242, 245, 0.20);
+  --text-index:      rgba(242, 242, 245, 0.025);
+
+  /* Accent */
+  --accent-primary:  #F4A87C;
+  --accent-muted:    rgba(244, 168, 124, 0.35);
+  --accent-subtle:   rgba(244, 168, 124, 0.12);
+
+  /* Border Radius */
+  --radius-sm:   4px;
+  --radius-md:   8px;
+  --radius-lg:   12px;
+  --radius-full: 100px;
+
+  /* Spacing */
+  --space-4:  4px;
+  --space-8:  8px;
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-20: 20px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-40: 40px;
+  --space-48: 48px;
+  --space-64: 64px;
+  --space-80: 80px;
+
+  /* Typography */
+  --font-display: 'Fraunces', serif;
+  --font-body:    'Inter', sans-serif;
+
+  --size-display:  88px;
+  --size-h1:       80px;
+  --size-h2:       72px;
+  --size-h3:       48px;
+  --size-h4:       40px;
+  --size-body-lg:  18px;
+  --size-body-md:  16px;
+  --size-body-sm:  15px;
+  --size-label:    11px;
+  --size-stat:     64px;
+
+  /* Layout */
+  --max-width:     1440px;
+  --content-width: 1280px;
+  --margin:        80px;
+}

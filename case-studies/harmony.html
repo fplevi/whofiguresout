@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Harmony — Design System case study by Felipe Levi. Five platforms, four years of diverging decisions. We built the system that made good design durable." />
+  <title>Harmony — Felipe Levi</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link rel="stylesheet" href="../assets/css/reset.css" />
+  <link rel="stylesheet" href="../assets/css/tokens.css" />
+  <link rel="stylesheet" href="../assets/css/global.css" />
+  <link rel="stylesheet" href="../assets/css/nav.css" />
+  <link rel="stylesheet" href="../assets/css/contact.css" />
+  <link rel="stylesheet" href="../assets/css/case-study.css" />
+</head>
+<body>
+
+  <header>
+    <nav class="nav" id="nav" aria-label="Main navigation">
+      <a href="../" class="nav__logo">Felipe Levi</a>
+      <ul class="nav__links" role="list">
+        <li><a href="../#work" class="nav__link nav__link--active">Work</a></li>
+        <li><a href="../#about" class="nav__link">About</a></li>
+        <li><a href="../#contact" class="nav__link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Case Header -->
+    <section class="cs-header">
+      <a href="../" class="cs-header__back">← Back to work</a>
+      <span class="section-tag cs-header__tag">Design System</span>
+      <h1 class="cs-header__title">Harmony</h1>
+      <p class="cs-header__hook">Five platforms, four years of diverging decisions. We built the system that made good design durable.</p>
+
+      <div class="cs-meta" role="list">
+        <div class="cs-meta__pill" role="listitem">
+          <p class="cs-meta__label">Role</p>
+          <p class="cs-meta__value">Design Lead</p>
+        </div>
+        <div class="cs-meta__pill" role="listitem">
+          <p class="cs-meta__label">Timeline</p>
+          <p class="cs-meta__value">3 months build · 3 years groundwork</p>
+        </div>
+        <div class="cs-meta__pill" role="listitem">
+          <p class="cs-meta__label">Outcome</p>
+          <p class="cs-meta__value">50% faster delivery</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hero Image -->
+    <div class="cs-hero-image" role="img" aria-label="Harmony design system — hero image">
+      <div class="cs-hero-image__placeholder">Hero image — Harmony design system overview</div>
+    </div>
+
+    <!-- The Problem -->
+    <section class="cs-section" aria-labelledby="harmony-problem">
+      <span class="section-tag cs-section__tag">The Problem</span>
+      <h2 class="cs-section__title" id="harmony-problem">Good decisions couldn't compound.</h2>
+      <div class="cs-problem__layout">
+        <p class="cs-section__body">
+          CASSI's digital ecosystem spans five platforms maintained by separate Figma libraries with different update cycles, inconsistent token structures, and no shared governance. Every pattern solved in one platform had to be re-litigated in the next. Four years of design work existed in five places simultaneously — and effectively in none of them.
+        </p>
+        <aside class="cs-stakes" aria-label="Organizational cost">
+          <p class="cs-stakes__label">Organizational Cost</p>
+          <p class="cs-stakes__content">
+            5 platforms<br>
+            4 diverging libraries<br>
+            0 shared governance<br>
+            400K+ beneficiaries affected
+          </p>
+        </aside>
+      </div>
+    </section>
+
+    <!-- My Role -->
+    <section class="cs-section" aria-labelledby="harmony-role">
+      <span class="section-tag cs-section__tag">My Role</span>
+      <h2 class="cs-section__title" id="harmony-role">End to end — from politics to production.</h2>
+      <p class="cs-section__body">
+        I led Harmony from initial articulation through production launch — including three years of organizational groundwork before a single component was built. Once approved, I defined the governance model, led the hands-on build of components, tokens, and variables, and oversaw adoption across all five platforms.
+      </p>
+    </section>
+
+    <!-- The Decisions -->
+    <section class="cs-section" aria-labelledby="harmony-decisions">
+      <span class="section-tag cs-section__tag">The Decisions</span>
+      <h2 class="cs-section__title" id="harmony-decisions">Three decisions that shaped everything.</h2>
+
+      <div class="cs-decisions">
+
+        <div class="cs-decision">
+          <div class="cs-decision__left">
+            <span class="cs-decision__number">01</span>
+            <h3 class="cs-decision__title">Unification over federation</h3>
+            <p class="cs-decision__body">
+              A federated model gives teams autonomy but creates coordination overhead. For CASSI's team size and cross-platform consistency requirements, one library with well-governed exceptions was the right call — even if it meant harder conversations upfront.
+            </p>
+          </div>
+          <div>
+            <span class="cs-decision__tradeoff">We gained one source of truth.</span>
+          </div>
+        </div>
+
+        <div class="cs-decision">
+          <div class="cs-decision__left">
+            <span class="cs-decision__number">02</span>
+            <h3 class="cs-decision__title">React + Next.js as an organizational decision</h3>
+            <p class="cs-decision__body">
+              Choosing the technology stack wasn't just a technical decision — it was a talent strategy. A dominant market stack widens the available talent pool and reduces onboarding friction for an 80-year-old institution carrying legacy debt.
+            </p>
+          </div>
+          <div>
+            <span class="cs-decision__tradeoff">We traded bleeding-edge for sustainability.</span>
+          </div>
+        </div>
+
+        <div class="cs-decision">
+          <div class="cs-decision__left">
+            <span class="cs-decision__number">03</span>
+            <h3 class="cs-decision__title">Accessibility and content as structural requirements</h3>
+            <p class="cs-decision__body">
+              Both ContentOps standards and accessibility criteria were built into components at the token level — not documented separately. An error state ships with correct contrast, correct ARIA attributes, and a content pattern. Because those aren't three decisions. They're one component.
+            </p>
+          </div>
+          <div>
+            <span class="cs-decision__tradeoff">We traded build speed for zero retrofit cost.</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- What Shipped -->
+    <section class="cs-section" aria-labelledby="harmony-shipped">
+      <span class="section-tag cs-section__tag">What Shipped</span>
+      <h2 class="cs-section__title" id="harmony-shipped">One library. Five platforms. Zero inconsistencies.</h2>
+
+      <div class="cs-image-grid">
+        <div class="cs-image-cell">
+          <div class="cs-image-cell__placeholder">Full library overview — tokens, components, documentation</div>
+          <span class="cs-image-cell__tag">Older</span>
+        </div>
+        <div class="cs-image-cell">
+          <div class="cs-image-cell__placeholder">Harmony design system — Storybook library</div>
+          <span class="cs-image-cell__tag">Newer</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- The Outcome -->
+    <section class="cs-section" aria-labelledby="harmony-outcome">
+      <span class="section-tag cs-section__tag">The Outcome</span>
+      <h2 class="cs-section__title" id="harmony-outcome">Shipped in 3 months. Halved delivery time.</h2>
+
+      <div class="cs-stats" role="list">
+        <div class="cs-stat" role="listitem">
+          <p class="cs-stat__number">50%</p>
+          <p class="cs-stat__label">reduction in delivery cycle time</p>
+        </div>
+        <div class="cs-stat" role="listitem">
+          <p class="cs-stat__number">5</p>
+          <p class="cs-stat__label">platforms unified under one library</p>
+        </div>
+        <div class="cs-stat" role="listitem">
+          <p class="cs-stat__number">16w → 8w</p>
+          <p class="cs-stat__label">second product built in half the time</p>
+        </div>
+        <div class="cs-stat" role="listitem">
+          <p class="cs-stat__number">Jan 2026</p>
+          <p class="cs-stat__label">Storybook library launched</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Next Project -->
+    <div class="cs-next">
+      <p class="cs-next__label">Next project</p>
+      <a href="billing.html" class="cs-next__link">Billing &amp; Debt Recovery →</a>
+      <span class="section-tag cs-next__tag">Product Design</span>
+    </div>
+
+    <!-- Contact -->
+    <section class="contact" id="contact" aria-labelledby="contact-heading">
+      <span class="section-tag contact__tag" id="contact-heading">Contact</span>
+      <p class="contact__sub">Have a project in mind?</p>
+      <h2 class="contact__headline">Let's work together.</h2>
+
+      <div class="contact__links">
+        <a href="mailto:fplevi@gmail.com" class="contact__link">fplevi@gmail.com</a>
+        <span class="contact__separator" aria-hidden="true">·</span>
+        <a href="https://linkedin.com/in/fplevi" class="contact__link" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+
+      <form
+        class="contact__form"
+        id="contact-form"
+        action="https://formspree.io/f/YOUR_FORMSPREE_ID"
+        method="POST"
+        novalidate
+      >
+        <label for="name" class="sr-only">Your name</label>
+        <input type="text" id="name" name="name" class="contact__field" placeholder="Your name" required autocomplete="name" />
+
+        <label for="email" class="sr-only">Your email</label>
+        <input type="email" id="email" name="email" class="contact__field" placeholder="Your email" required autocomplete="email" />
+
+        <label for="message" class="sr-only">Your message</label>
+        <textarea id="message" name="message" class="contact__field contact__field--textarea" placeholder="Your message" required rows="6"></textarea>
+
+        <div class="contact__form-footer">
+          <p class="contact__error" id="contact-error" role="alert" aria-live="polite"></p>
+          <button type="submit" class="btn-primary contact__submit">Send message</button>
+        </div>
+      </form>
+    </section>
+
+  </main>
+
+  <script src="../assets/js/scroll-animations.js" type="module"></script>
+  <script src="../assets/js/contact-form.js" type="module"></script>
+
+</body>
+</html>

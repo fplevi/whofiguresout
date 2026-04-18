@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Felipe Levi — Product Designer based in Brasília, Brazil. Portfolio showcasing design systems, product design, and UX research." />
+  <title>Felipe Levi — Product Designer</title>
+
+  <!-- Preconnect for Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/reset.css" />
+  <link rel="stylesheet" href="assets/css/tokens.css" />
+  <link rel="stylesheet" href="assets/css/global.css" />
+  <link rel="stylesheet" href="assets/css/nav.css" />
+  <link rel="stylesheet" href="assets/css/hero.css" />
+  <link rel="stylesheet" href="assets/css/cards.css" />
+  <link rel="stylesheet" href="assets/css/contact.css" />
+  <link rel="stylesheet" href="assets/css/footer.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAV
+  ============================================================ -->
+  <header>
+    <nav class="nav" id="nav" aria-label="Main navigation">
+      <a href="/" class="nav__logo">Felipe Levi</a>
+      <ul class="nav__links" role="list">
+        <li><a href="#work" class="nav__link nav__link--active">Work</a></li>
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ============================================================
+         HERO
+    ============================================================ -->
+    <section class="hero" id="hero" aria-labelledby="hero-headline">
+
+      <!-- Visually-hidden h1 always present for assistive tech -->
+      <h1 id="hero-headline" class="sr-only">I'm a product designer who figures it out.</h1>
+
+      <!-- Character reveal grid — aria-hidden until revealed -->
+      <div
+        class="hero__grid"
+        id="hero-grid"
+        aria-hidden="true"
+        role="img"
+      ></div>
+
+      <p class="hero__subtitle">
+        Design is a series of decisions made under real constraints. I make them, ship them, and improve them.
+      </p>
+
+      <p class="hero__scroll-hint" aria-hidden="true">↓ scroll</p>
+
+    </section>
+
+    <!-- ============================================================
+         SELECTED WORK
+    ============================================================ -->
+    <section class="work" id="work" aria-labelledby="work-heading">
+
+      <div class="work__header">
+        <span class="section-tag" id="work-heading">Selected Work</span>
+      </div>
+
+      <div class="work__cards">
+
+        <!-- Card 01 — Harmony -->
+        <a href="case-studies/harmony.html" class="case-card" aria-label="Harmony case study — Design System">
+          <span class="case-card__index" aria-hidden="true">01</span>
+          <div class="case-card__left">
+            <span class="section-tag case-card__tag">Design System</span>
+            <h2 class="case-card__title">Harmony</h2>
+            <p class="case-card__hook">Five platforms, four years of diverging decisions. We built the system that made good design durable.</p>
+          </div>
+          <div class="case-card__right">
+            <div>
+              <p class="case-card__stat-number">50%</p>
+              <p class="case-card__stat-label">faster delivery</p>
+            </div>
+            <span class="case-card__cta" aria-hidden="true">Read case study</span>
+          </div>
+        </a>
+
+        <!-- Card 02 — Billing & Debt Recovery -->
+        <a href="case-studies/billing.html" class="case-card" aria-label="Billing & Debt Recovery case study — Product Design">
+          <span class="case-card__index" aria-hidden="true">02</span>
+          <div class="case-card__left">
+            <span class="section-tag case-card__tag">Product Design</span>
+            <h2 class="case-card__title">Billing &amp; Debt Recovery</h2>
+            <p class="case-card__hook">Debt negotiation was a phone call. We made it a five-minute self-service flow — recovering BRL 4.5M in the first year alone.</p>
+          </div>
+          <div class="case-card__right">
+            <div>
+              <p class="case-card__stat-number">BRL 4.5M</p>
+              <p class="case-card__stat-label">recovered in year one</p>
+            </div>
+            <span class="case-card__cta" aria-hidden="true">Read case study</span>
+          </div>
+        </a>
+
+        <!-- Card 03 — Enrollment Journey -->
+        <a href="case-studies/enrollment.html" class="case-card" aria-label="Enrollment Journey case study — UX Research & Design">
+          <span class="case-card__index" aria-hidden="true">03</span>
+          <div class="case-card__left">
+            <span class="section-tag case-card__tag">UX Research &amp; Design</span>
+            <h2 class="case-card__title">Enrollment Journey</h2>
+            <p class="case-card__hook">Most users were abandoning mid-flow and calling a human to finish. We fixed that. Enrollments grew 171% in a year.</p>
+          </div>
+          <div class="case-card__right">
+            <div>
+              <p class="case-card__stat-number">171%</p>
+              <p class="case-card__stat-label">more enrollments</p>
+            </div>
+            <span class="case-card__cta" aria-hidden="true">Read case study</span>
+          </div>
+        </a>
+
+      </div>
+
+      <div class="work__footer">
+        <span class="work__footer-muted">Want more?</span>
+        <a href="#" class="work__footer-link">Show all projects →</a>
+      </div>
+
+    </section>
+
+    <!-- ============================================================
+         CONTACT
+    ============================================================ -->
+    <section class="contact" id="contact" aria-labelledby="contact-heading">
+
+      <span class="section-tag contact__tag" id="contact-heading">Contact</span>
+      <p class="contact__sub">Have a project in mind?</p>
+      <h2 class="contact__headline">Let's work together.</h2>
+
+      <div class="contact__links">
+        <a href="mailto:fplevi@gmail.com" class="contact__link">fplevi@gmail.com</a>
+        <span class="contact__separator" aria-hidden="true">·</span>
+        <a href="https://linkedin.com/in/fplevi" class="contact__link" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+
+      <form
+        class="contact__form"
+        id="contact-form"
+        action="https://formspree.io/f/YOUR_FORMSPREE_ID"
+        method="POST"
+        novalidate
+      >
+        <label for="name" class="sr-only">Your name</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          class="contact__field"
+          placeholder="Your name"
+          required
+          autocomplete="name"
+        />
+
+        <label for="email" class="sr-only">Your email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          class="contact__field"
+          placeholder="Your email"
+          required
+          autocomplete="email"
+        />
+
+        <label for="message" class="sr-only">Your message</label>
+        <textarea
+          id="message"
+          name="message"
+          class="contact__field contact__field--textarea"
+          placeholder="Your message"
+          required
+          rows="6"
+        ></textarea>
+
+        <div class="contact__form-footer">
+          <p class="contact__error" id="contact-error" role="alert" aria-live="polite"></p>
+          <button type="submit" class="btn-primary contact__submit">Send message</button>
+        </div>
+      </form>
+
+    </section>
+
+    <!-- ============================================================
+         ABOUT
+    ============================================================ -->
+    <section class="about" id="about" aria-labelledby="about-heading">
+
+      <span class="section-tag about__tag" id="about-heading">About</span>
+      <p class="about__bio">
+        I'm a product designer based in Brasília, Brazil, with ten years of experience across brand, editorial, and digital product. I'm competitive by nature — I train every day, I set hard goals, and I don't do either halfway. That same instinct is what I bring to design: I show up, I figure it out, and I don't stop until it ships.
+      </p>
+
+    </section>
+
+    <!-- ============================================================
+         PHOTO + BIG NAME
+    ============================================================ -->
+    <section class="photo-name" aria-label="Felipe Levi">
+
+      <!-- Replace div with <img> once photo is available -->
+      <div class="photo-name__photo-placeholder" aria-hidden="true">
+        Photo coming soon
+      </div>
+
+      <span class="photo-name__name" aria-hidden="true">Felipe Levi</span>
+
+    </section>
+
+    <!-- ============================================================
+         FOOTER
+    ============================================================ -->
+    <footer class="footer" role="contentinfo">
+
+      <p class="footer__name" aria-hidden="true">Felipe Levi</p>
+
+      <div class="footer__bottom">
+        <p class="footer__tagline">Found what you were looking for?</p>
+        <a href="assets/felipe-levi-cv.pdf" class="btn-primary footer__cv" download>
+          Download CV ↓
+        </a>
+      </div>
+
+    </footer>
+
+  </main>
+
+  <!-- JS -->
+  <script src="assets/js/hero-reveal.js" type="module"></script>
+  <script src="assets/js/scroll-animations.js" type="module"></script>
+  <script src="assets/js/contact-form.js" type="module"></script>
+
+</body>
+</html>

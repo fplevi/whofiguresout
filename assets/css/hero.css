@@ -1,0 +1,83 @@
+.hero {
+  position: relative;
+  min-height: 100vh;
+  padding-top: 64px; /* nav height */
+  overflow: hidden;
+}
+
+/* Character grid container */
+.hero__grid {
+  position: relative;
+  padding-inline: var(--margin);
+  padding-top: 92px;
+  height: 690px;
+  overflow: hidden;
+}
+
+/* Individual char cells */
+.hero__char {
+  position: absolute;
+  font-family: var(--font-display);
+  font-size: 88px;
+  font-weight: 700;
+  line-height: 115px;
+  color: var(--accent-primary);
+  display: inline-block;
+  transition: color 0.12s ease-out, opacity 0.12s ease-out;
+  user-select: none;
+  pointer-events: none;
+}
+
+/* Subtitle */
+.hero__subtitle {
+  position: absolute;
+  bottom: 148px;
+  left: var(--margin);
+  max-width: 504px;
+  font-size: var(--size-body-lg);
+  color: var(--text-secondary);
+  line-height: 1.55;
+}
+
+/* Scroll hint */
+.hero__scroll-hint {
+  position: absolute;
+  bottom: 40px;
+  left: var(--margin);
+  font-size: var(--size-label);
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-ghost);
+}
+
+/* Reduced motion: show headline immediately */
+@media (prefers-reduced-motion: reduce) {
+  .hero__char {
+    transition: none;
+  }
+}
+
+/* Mobile */
+@media (max-width: 1024px) {
+  .hero__grid {
+    padding-inline: var(--space-24);
+    padding-top: 60px;
+    height: auto;
+    min-height: 400px;
+  }
+
+  .hero__subtitle {
+    position: static;
+    padding-inline: var(--space-24);
+    padding-top: var(--space-40);
+    max-width: 100%;
+  }
+
+  .hero__scroll-hint {
+    position: static;
+    padding-inline: var(--space-24);
+    padding-top: var(--space-24);
+    padding-bottom: var(--space-48);
+  }
+}
