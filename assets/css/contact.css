@@ -2,7 +2,6 @@
   padding-top: var(--space-80);
   padding-bottom: var(--space-80);
   padding-inline: var(--margin);
-  border-top: 1px solid var(--background-divider);
 }
 
 .contact__tag {

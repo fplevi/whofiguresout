@@ -9,7 +9,6 @@
   align-items: center;
   justify-content: space-between;
   padding-bottom: var(--space-24);
-  border-bottom: 1px solid var(--background-divider);
   margin-bottom: var(--space-40);
 }
 

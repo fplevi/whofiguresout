@@ -11,7 +11,7 @@
 }
 
 .cs-header__back {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   gap: var(--space-8);
   font-size: var(--size-body-sm);

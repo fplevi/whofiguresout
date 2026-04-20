@@ -3,7 +3,6 @@
   padding-top: var(--space-80);
   padding-bottom: var(--space-80);
   padding-inline: var(--margin);
-  border-top: 1px solid var(--background-divider);
 }
 
 .about__tag {
@@ -20,17 +19,19 @@
 /* Photo + Big Name section */
 .photo-name {
   position: relative;
-  border-top: 1px solid var(--background-divider);
   overflow: hidden;
+  height: 582px;
 }
 
 .photo-name__photo {
   width: 100%;
-  height: 582px;
+  height: 140%;
   background-color: var(--background-secondary);
   object-fit: cover;
   object-position: center top;
   display: block;
+  will-change: transform;
+  transform: translateY(-10%);
 }
 
 .photo-name__photo-placeholder {
@@ -67,7 +68,6 @@
   padding-top: var(--space-64);
   padding-bottom: var(--space-64);
   padding-inline: var(--margin);
-  border-top: 1px solid var(--background-divider);
   display: flex;
   flex-direction: column;
   gap: var(--space-24);
@@ -129,9 +129,12 @@
     padding-inline: var(--space-24);
   }
 
-  .photo-name__photo,
-  .photo-name__photo-placeholder {
+  .photo-name {
     height: 360px;
+  }
+
+  .photo-name__photo-placeholder {
+    height: 100%;
   }
 
   .footer__bottom {

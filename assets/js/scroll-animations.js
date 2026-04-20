@@ -69,11 +69,38 @@ function initSectionAnimations() {
   });
 }
 
+// Photo parallax
+function initPhotoParallax() {
+  const photo = document.querySelector('.photo-name__photo');
+  const section = document.querySelector('.photo-name');
+  if (!photo || !section) return;
+
+  let ticking = false;
+
+  function update() {
+    const rect = section.getBoundingClientRect();
+    const progress = (window.innerHeight - rect.top) / (window.innerHeight + rect.height);
+    const offset = (progress - 0.5) * rect.height * 0.3;
+    photo.style.transform = `translateY(calc(-10% + ${offset}px))`;
+    ticking = false;
+  }
+
+  window.addEventListener('scroll', () => {
+    if (!ticking) {
+      requestAnimationFrame(update);
+      ticking = true;
+    }
+  }, { passive: true });
+
+  update();
+}
+
 // Skip animations if user prefers reduced motion
 if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
   initNavScroll();
   initCardAnimations();
   initSectionAnimations();
+  initPhotoParallax();
 } else {
   // Still init nav scroll (no animation, just class toggle)
   initNavScroll();
