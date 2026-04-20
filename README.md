@@ -73,7 +73,7 @@ felipelevi/
 | Layer | Tool |
 |---|---|
 | Ideation, copy, code | Claude (Anthropic) |
-| High-fidelity design | Claude |
-| Hero images & GIFs | Google Flow |
-| Animations | Jitter |
+| High-fidelity design | Claude with Figma MCP|
+| Hero images & GIFs | Jitter |
+| Profile Photo | Google Flow |
 | Form handling | Formspree |
