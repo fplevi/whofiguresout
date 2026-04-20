@@ -245,6 +245,18 @@
   object-fit: cover;
 }
 
+.cs-image-figure {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-12);
+}
+
+.cs-image-caption {
+  font-size: var(--size-body-sm);
+  color: var(--text-ghost);
+  line-height: 1.55;
+}
+
 .cs-image-cell--auto {
   height: auto;
 }
