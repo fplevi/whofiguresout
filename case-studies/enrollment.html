@@ -142,13 +142,19 @@
       <span class="section-tag cs-section__tag">What Shipped</span>
       <h2 class="cs-section__title" id="enrollment-shipped">From abandoned mid-flow to 171% more completions.</h2>
 
-      <div class="cs-image-grid">
-        <div class="cs-image-cell">
-          <div class="cs-image-cell__placeholder">Platform screens — participant flow</div>
+      <div class="cs-compare" aria-label="Before and after comparison">
+        <!-- After sits in normal flow to give the container its height -->
+        <div class="cs-compare__after">
+          <img src="../assets/images/enrollment/new-enrollment-journey-simulator.png" alt="New enrollment journey simulator" class="cs-compare__img" />
         </div>
-        <div class="cs-image-cell">
-          <div class="cs-image-cell__placeholder">Back-office dashboard — operator view</div>
+        <!-- Before overlays via clip-path -->
+        <div class="cs-compare__before">
+          <img src="../assets/images/enrollment/old-enrollment-journey-simulator.png" alt="Old enrollment journey simulator" class="cs-compare__img" />
         </div>
+        <input type="range" class="cs-compare__slider" min="0" max="100" value="50" aria-label="Comparison slider" />
+        <div class="cs-compare__handle" aria-hidden="true"></div>
+        <span class="cs-compare__label cs-compare__label--before">Before</span>
+        <span class="cs-compare__label cs-compare__label--after">After</span>
       </div>
     </section>
 

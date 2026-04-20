@@ -223,6 +223,96 @@
   margin-top: var(--space-8);
 }
 
+/* Before/after comparison slider */
+.cs-compare {
+  position: relative;
+  width: 100%;
+  margin-top: var(--space-40);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  user-select: none;
+  cursor: col-resize;
+}
+
+.cs-compare__before {
+  position: absolute;
+  inset: 0;
+  clip-path: inset(0 50% 0 0);
+}
+
+.cs-compare__img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Invisible range input sits on top of everything */
+.cs-compare__slider {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: col-resize;
+  margin: 0;
+  z-index: 3;
+}
+
+.cs-compare__handle {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  background: #fff;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.cs-compare__handle::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+}
+
+.cs-compare__handle::after {
+  content: '⟨ ⟩';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 13px;
+  color: var(--text-secondary);
+  pointer-events: none;
+  letter-spacing: -2px;
+}
+
+.cs-compare__label {
+  position: absolute;
+  bottom: var(--space-16);
+  z-index: 2;
+  padding: var(--space-4) var(--space-12);
+  background: rgba(0,0,0,0.45);
+  border-radius: var(--radius-full);
+  font-size: var(--size-label);
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #fff;
+  pointer-events: none;
+}
+
+.cs-compare__label--before { left: var(--space-16); }
+.cs-compare__label--after  { right: var(--space-16); }
+
 /* What Shipped — image grid */
 .cs-image-grid {
   display: grid;
@@ -354,10 +444,6 @@
 
 .cs-next__link:hover {
   color: var(--accent-primary);
-}
-
-.cs-next__tag {
-  /* uses .section-tag */
 }
 
 /* Mobile */

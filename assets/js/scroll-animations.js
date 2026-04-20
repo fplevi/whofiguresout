@@ -1,18 +1,24 @@
 const nav = document.getElementById('nav');
 const hero = document.getElementById('hero');
 
-// Nav background fill on scroll past hero
+// Nav background fill on scroll past hero (homepage) or immediately on case study pages
 function initNavScroll() {
-  if (!nav || !hero) return;
+  if (!nav) return;
 
-  const observer = new IntersectionObserver(
-    ([entry]) => {
-      nav.classList.toggle('scrolled', !entry.isIntersecting);
-    },
-    { threshold: 0, rootMargin: `-64px 0px 0px 0px` }
-  );
-
-  observer.observe(hero);
+  if (hero) {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        nav.classList.toggle('scrolled', !entry.isIntersecting);
+      },
+      { threshold: 0, rootMargin: `-64px 0px 0px 0px` }
+    );
+    observer.observe(hero);
+  } else {
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 0);
+    }, { passive: true });
+    nav.classList.toggle('scrolled', window.scrollY > 0);
+  }
 }
 
 // Cards entrance animation
@@ -95,15 +101,34 @@ function initPhotoParallax() {
   update();
 }
 
+// Before/after comparison slider
+function initCompareSliders() {
+  document.querySelectorAll('.cs-compare').forEach(container => {
+    const before = container.querySelector('.cs-compare__before');
+    const handle = container.querySelector('.cs-compare__handle');
+    const slider  = container.querySelector('.cs-compare__slider');
+
+    function update(val) {
+      before.style.clipPath = `inset(0 ${100 - val}% 0 0)`;
+      handle.style.left = val + '%';
+    }
+
+    slider.addEventListener('input', () => update(slider.value));
+    update(50);
+  });
+}
+
 // Skip animations if user prefers reduced motion
 if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
   initNavScroll();
   initCardAnimations();
   initSectionAnimations();
   initPhotoParallax();
+  initCompareSliders();
 } else {
   // Still init nav scroll (no animation, just class toggle)
   initNavScroll();
+  initCompareSliders();
   // Make everything visible immediately
   document.querySelectorAll('.case-card, .contact, .about, .photo-name, .footer, .cs-section').forEach(el => {
     el.style.opacity = '1';
