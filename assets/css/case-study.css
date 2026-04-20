@@ -79,7 +79,7 @@
 /* Hero image */
 .cs-hero-image {
   width: 100%;
-  height: 640px;
+  aspect-ratio: 1440 / 650;
   background-color: var(--background-secondary);
   overflow: hidden;
 }
@@ -243,6 +243,17 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.cs-image-cell--auto {
+  height: auto;
+}
+
+.cs-image-cell--auto .cs-image-cell__img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: unset;
 }
 
 .cs-image-cell__placeholder {
