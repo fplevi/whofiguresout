@@ -323,7 +323,6 @@
 
 .cs-image-cell {
   position: relative;
-  height: 480px;
   background-color: var(--background-secondary);
   border-radius: var(--radius-md);
   overflow: hidden;
@@ -331,8 +330,8 @@
 
 .cs-image-cell img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
+  display: block;
 }
 
 .cs-image-figure {
@@ -486,7 +485,7 @@
   }
 
   .cs-image-cell {
-    height: 320px;
+    height: auto;
   }
 
   .cs-stats {
