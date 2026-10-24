@@ -18,7 +18,7 @@ Hook: A dedicated app for partner-plan members, designed from the ground up.
 
 Highlight: Launched
 
-Supporting text: Built from scratch
+Supporting text: on iOS and Android
 
 ## Case header
 
