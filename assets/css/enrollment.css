@@ -22,12 +22,13 @@
   margin-top: var(--space-40);
 }
 
-/* Dense journey captures retain the sidebar and source bounds at the full case width. */
-.cs-decisions--stacked {
+/* Dense evidence keeps the full case width; its explanations keep a reading measure. */
+.enrollment-decisions {
   max-width: none;
 }
 
-.cs-decision__left {
+.enrollment-decisions .cs-decision__left,
+.enrollment-decisions figcaption {
   max-width: 840px;
 }
 
@@ -39,17 +40,11 @@
 
 .enrollment-journey-evidence figcaption,
 .enrollment-submission-evidence figcaption {
-  max-width: 840px;
   margin-bottom: var(--space-24);
 }
 
 .enrollment-journey-evidence h4,
 .enrollment-submission-evidence h4 {
-  font-family: var(--font-display);
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 1.2;
-  color: var(--text-primary);
   margin-bottom: var(--space-16);
 }
 
@@ -78,16 +73,6 @@
   }
 }
 
-/* Dense comparison gets the section width; decision prose keeps its reading measure. */
-.enrollment-decisions {
-  max-width: none;
-}
-
-.enrollment-decisions .cs-decision__left,
-.enrollment-comparison figcaption {
-  max-width: 840px;
-}
-
 .enrollment-comparison {
   margin: var(--space-40) 0 0;
   min-width: 0;
@@ -101,7 +86,7 @@
 /* The native range is transparent; put its keyboard focus on the visible frame. */
 .enrollment-comparison .cs-compare:has(.cs-compare__slider:focus-visible) {
   outline: 2px solid var(--accent-primary);
-  outline-offset: 4px;
+  outline-offset: var(--space-4);
 }
 
 .enrollment-comparison .cs-compare__label {

@@ -1,0 +1,6 @@
+{
+  "cases": 8,
+  "numericToleranceCSSPx": 0.01,
+  "maximumNumericDifference": 0.00048828125,
+  "allTypographySpacingWidthsAndFocusEqual": true
+}

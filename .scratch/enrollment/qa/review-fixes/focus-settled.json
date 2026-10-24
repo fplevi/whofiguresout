@@ -1,0 +1,18 @@
+{
+  "viewport": [
+    320,
+    700
+  ],
+  "motion": "reduce",
+  "wheelSteps": 47,
+  "settleMS": 150,
+  "computed": {
+    "focused": true,
+    "style": "solid",
+    "width": "2px",
+    "offset": "4px",
+    "color": "rgb(244, 168, 124)",
+    "accent": "#F4A87C",
+    "sectionOpacity": "1"
+  }
+}
