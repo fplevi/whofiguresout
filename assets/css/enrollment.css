@@ -106,6 +106,20 @@
   margin-top: var(--space-16);
 }
 
+/* Same text-link treatment as the Convenios store links. */
+.enrollment-live {
+  margin-top: var(--space-32);
+}
+
+.enrollment-live a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  color: var(--accent-primary);
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
 @media (min-width: 1024px) {
   .cs-stats--enrollment {
     grid-template-columns: repeat(3, minmax(0, 1fr));
