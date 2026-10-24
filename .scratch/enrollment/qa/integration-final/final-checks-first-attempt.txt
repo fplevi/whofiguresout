@@ -1,0 +1,22 @@
+2026-10-24: final_checks.py completed measured contrast, six actual navigation
+destinations, all eight contrast cases, original integrity and source crop checks.
+The new historical audit then stopped at:
+
+AssertionError: ('a09eb9e720f2d4219638d28df858d55ee69a1560', '.scratch/enrollment/validation-ticket-05.md')
+
+git diff established that af687df had already appended its integration validation
+note to the incoming report. The current file is exactly af687df's version; the
+incoming report is its complete unchanged prefix. No historical file was edited.
+The audit now explicitly permits only this known extension, requiring both that
+prefix and exact equality with af687df's complete report. Other historical paths
+still require exact bytes (with Git/Windows LF/CRLF normalization for text).
+
+Before execution, source inspection also corrected the manifest audit to read
+ticket 03's originalDimensions as well as tickets 02/04's sourceDimensions.
+Neither harness adjustment changes product files or the passed browser matrix.
+
+The supplementary T3 preview opened this URL successfully; one snapshot call
+returned: Preview snapshot failed: Preview automation snapshot timed out after
+15000ms. The requested existing Playwright QA workflow supplied all executed
+matrix behavior and screenshot evidence. This is a preview-tool diagnostic,
+not a page error recorded by the matrix.

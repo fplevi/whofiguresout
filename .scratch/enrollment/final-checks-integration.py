@@ -65,7 +65,7 @@ for ticket in ['02', '03', '04']:
         source, presentation = ROOT / item['source'], ROOT / item['presentation']
         assert source.read_bytes() == presentation.read_bytes()
         actual = list(Image.open(source).size)
-        declared = item['sourceDimensions']
+        declared = item.get('sourceDimensions', item.get('originalDimensions'))
         if isinstance(declared, dict):
             declared = [declared['width'], declared['height']]
         assert actual == declared
@@ -84,8 +84,15 @@ for ref in result['parents']:
         expected = git('show', f'{ref}:{rel}')
         actual = (ROOT / rel).read_bytes()
         text = Path(rel).suffix in {'.md', '.json', '.txt', '.log'}
-        assert actual == expected or (text and actual.replace(b'\r\n', b'\n') == expected), (ref, rel)
-        history.append({'ref': ref, 'path': rel, 'workingSHA256': sha(actual)})
+        normalized = actual.replace(b'\r\n', b'\n') if text else actual
+        # The integration parent already appended its merger note to the older
+        # incoming report. Preserve that entire newer file and the older prefix.
+        extended_report = (rel == '.scratch/enrollment/validation-ticket-05.md'
+                           and normalized.startswith(expected)
+                           and normalized == git('show', f'af687df:{rel}'))
+        assert actual == expected or normalized == expected or extended_report, (ref, rel)
+        history.append({'ref': ref, 'path': rel, 'workingSHA256': sha(actual),
+                        'olderReportRetainedWithExistingIntegrationAppendix': extended_report and normalized != expected})
 (OUT / 'historical-preservation.json').write_text(json.dumps(history, indent=2), encoding='utf-8')
 result['historicalArtifactsVerifiedByParent'] = {ref: sum(h['ref'] == ref for h in history) for ref in result['parents']}
 
