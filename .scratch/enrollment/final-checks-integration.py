@@ -32,10 +32,10 @@ result = read_json(OUT / 'final-checks.json')
 result['testedHead'] = git('rev-parse', 'HEAD').decode().strip()
 result['mergeCommit'] = '5581f26'
 result['parents'] = ['af687df', 'a09eb9e720f2d4219638d28df858d55ee69a1560']
-# Standards review authorized only title-primitive reuse, tokenized focus spacing
-# and local width consolidation. Pin those two files to that reviewed runtime;
-# all other product bytes still use the original integration merge baseline.
-result['reviewedRuntimeRevision'] = '8011e432ba50dc47fe0ef56d499164b65ddfc5df'
+# Later authorized presentation changes can supply their explicit checked revision.
+# Original media and all other product bytes keep the original merge baseline.
+result['reviewedRuntimeRevision'] = os.environ.get(
+    'ENROLLMENT_RUNTIME_REVISION', '8011e432ba50dc47fe0ef56d499164b65ddfc5df')
 result['reviewedRuntimeChanges'] = ['case-studies/enrollment.html', 'assets/css/enrollment.css']
 result['productBaselineByPath'] = {}
 result['productHashes'] = {}

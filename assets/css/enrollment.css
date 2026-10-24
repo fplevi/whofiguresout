@@ -19,7 +19,46 @@
   display: block;
   width: 100%;
   height: auto;
-  margin-top: var(--space-40);
+}
+
+/* Follow Billing's alternating copy/media rows without changing the reading order. */
+.enrollment-evidence-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-areas: "copy" "media";
+  gap: var(--space-24);
+  align-items: center;
+  max-width: 1440px;
+}
+
+.enrollment-evidence-row > figcaption,
+.enrollment-evidence-row__copy {
+  grid-area: copy;
+  min-width: 0;
+}
+
+.enrollment-evidence-row > img,
+.enrollment-evidence-row > .cs-compare {
+  grid-area: media;
+  min-width: 0;
+  margin-top: 0;
+}
+
+.enrollment-evidence-row > figcaption {
+  margin-bottom: 0;
+}
+
+@media (min-width: 1025px) {
+  .enrollment-evidence-row {
+    grid-template-columns: minmax(0, 4fr) minmax(0, 8fr);
+    grid-template-areas: "copy media";
+    gap: var(--space-64);
+  }
+
+  .enrollment-evidence-row--media-left {
+    grid-template-columns: minmax(0, 8fr) minmax(0, 4fr);
+    grid-template-areas: "media copy";
+  }
 }
 
 /* Dense evidence keeps the full case width; its explanations keep a reading measure. */
@@ -36,11 +75,6 @@
 .enrollment-submission-evidence {
   min-width: 0;
   margin: var(--space-40) 0 0;
-}
-
-.enrollment-journey-evidence figcaption,
-.enrollment-submission-evidence figcaption {
-  margin-bottom: var(--space-24);
 }
 
 .enrollment-journey-evidence h4,

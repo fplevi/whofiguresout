@@ -57,7 +57,7 @@ def matrix(browser):
     report = {'browser': browser.version, 'environment': {'os': platform.platform(), 'python': platform.python_version(),
               'headless': True, 'deviceScaleFactor': 1, 'emulatedTouch': True},
               'testedCommit': subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip(),
-              'integrationTip': subprocess.check_output(['git', 'rev-parse', 'integration/enrollment-visual-narrative'], cwd=ROOT, text=True).strip(),
+              'branch': subprocess.check_output(['git', 'branch', '--show-current'], cwd=ROOT, text=True).strip(),
               'url': URL, 'scope': 'Final combined Enrollment page: one discovery board, four interface screens and one comparison, after all four implementation slices merged.',
               'preservationExclusions': 'Runtime section-root animation styles and asynchronously injected Clarity scripts; authored analytics/head source is checked separately against f8f9034.',
               'cases': [], 'errors': []}
@@ -137,17 +137,28 @@ def matrix(browser):
                     and i['loading'] == 'lazy' and i['decoding'] == 'async' for i in images))
                 # Recheck evidence already delivered by other slices on this merged page.
                 evidence = page.locator('.enrollment-discovery, .enrollment-journey-evidence, .enrollment-submission-evidence').evaluate_all('''es => es.map(e => {
-                    const image=e.querySelector('img'), copy=e.querySelector('figcaption') || e.querySelector('p:last-of-type'),
+                    const image=e.querySelector('img'), copy=e.querySelector('figcaption') || e.querySelector('.enrollment-evidence-row__copy'),
                         a=copy.getBoundingClientRect(), b=image.getBoundingClientRect();
                     return {name:e.getAttribute('aria-labelledby'), images:e.querySelectorAll('img').length,
                         copyFirst:!!(copy.compareDocumentPosition(image)&Node.DOCUMENT_POSITION_FOLLOWING),
-                        copyAbove:a.bottom<=b.top, alt:image.alt,
+                        readableLayout:innerWidth > 1024 ? a.right<=b.left || b.right<=a.left : a.bottom<=b.top, alt:image.alt,
                         font:getComputedStyle(copy.querySelector('p') || copy).fontSize,
                         outside:[...e.querySelectorAll('*')].some(n=>{const r=n.getBoundingClientRect();return r.left < -1 || r.right > innerWidth+1;})};
                 })''')
                 case['integratedEvidence'] = evidence
                 check('discovery and four interface screens remain explained, ordered and fitted', len(evidence) == 5 and all(
-                    e['images'] == 1 and e['copyFirst'] and e['copyAbove'] and len(e['alt']) > 60 and e['font'] == '16px' and not e['outside'] for e in evidence), evidence)
+                    e['images'] == 1 and e['copyFirst'] and e['readableLayout'] and len(e['alt']) > 60 and e['font'] == '16px' and not e['outside'] for e in evidence), evidence)
+                rows = page.locator('.enrollment-evidence-row').evaluate_all('''es => es.map(e => {
+                    const c=e.querySelector('figcaption, .enrollment-evidence-row__copy'), m=e.querySelector('img, .cs-compare'),
+                        a=c.getBoundingClientRect(), b=m.getBoundingClientRect();
+                    return {mediaLeft:b.right<=a.left, mediaRight:a.right<=b.left, copyAbove:a.bottom<=b.top,
+                        width:e.getBoundingClientRect().width, mediaWidth:b.width};
+                })''')
+                case['evidenceRows'] = rows
+                check('six bounded rows alternate on desktop and stack copy first on mobile', len(rows) == 6 and all(
+                    r['width'] <= 1441 and r['mediaWidth'] <= 961 and
+                    ((r['mediaRight'] if i % 2 == 0 else r['mediaLeft']) if width > 1024 else r['copyAbove'])
+                    for i, r in enumerate(rows)), rows)
                 selected = [i['src'].rsplit('/', 1)[-1] for i in images]
                 check('exact final selection; omitted screens absent', len(selected) == 7 and set(selected) == {
                     'Desk%20Research.png', 'parentesco.png', 'dados-parente.png', 'portabilidade-2.png',
@@ -169,9 +180,10 @@ def matrix(browser):
                 geometry = page.evaluate('''() => {const c=document.querySelector('.enrollment-comparison figcaption'),
                     f=document.querySelector('.cs-compare'), a=c.getBoundingClientRect(), b=f.getBoundingClientRect();
                     return {copyBottom:a.bottom,imageTop:b.top,comparisonWidth:b.width,
+                        readableLayout:innerWidth > 1024 ? b.right<=a.left : a.bottom<b.top,
                         fonts:[...c.querySelectorAll('p')].map(e=>getComputedStyle(e).fontSize)};}''')
                 case['composition'] = geometry
-                check('guidance precedes the wide comparison without overlap; body size preserved', geometry['copyBottom'] < geometry['imageTop'] and geometry['comparisonWidth'] >= width - (160 if width == 1440 else 48) - 1 and all(f == '16px' for f in geometry['fonts']))
+                check('comparison guidance has a readable responsive layout; body size preserved', geometry['readableLayout'] and all(f == '16px' for f in geometry['fonts']))
                 caption = page.locator('.enrollment-comparison figcaption')
                 caption.evaluate("e => e.scrollIntoView({block:'start',behavior:'instant'})")
                 page.evaluate('scrollBy(0,-95)')
