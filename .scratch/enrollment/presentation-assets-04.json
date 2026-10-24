@@ -1,0 +1,39 @@
+{
+  "ticket": "04-journey-organization-evidence",
+  "policy": "Reuse untouched originals. No derivatives, reconstruction, retouching, or source edits.",
+  "assets": [
+    {
+      "source": "assets/images/enrollment/parentesco.png",
+      "presentation": "assets/images/enrollment/parentesco.png",
+      "sourceDimensions": [1920, 1200],
+      "presentationDimensions": [1920, 1200],
+      "cropBoundsXYXY": [0, 0, 1920, 1200],
+      "format": "PNG",
+      "operation": "uncropped original reuse",
+      "reason": "The full seven-step sidebar and eligibility guidance establish orientation. Wide placement preserves both, including the closed relationship categories."
+    },
+    {
+      "source": "assets/images/enrollment/dados-parente.png",
+      "presentation": "assets/images/enrollment/dados-parente.png",
+      "sourceDimensions": [1920, 1200],
+      "presentationDimensions": [1920, 1200],
+      "cropBoundsXYXY": [0, 0, 1920, 1200],
+      "format": "PNG",
+      "operation": "uncropped original reuse",
+      "reason": "Retains applicant identity fields, current-stage sidebar and document-copy guidance. The attachment area remains cut off at the original lower boundary; the caption explicitly explains that limit."
+    },
+    {
+      "source": "assets/images/enrollment/portabilidade-2.png",
+      "presentation": "assets/images/enrollment/portabilidade-2.png",
+      "sourceDimensions": [1920, 1200],
+      "presentationDimensions": [1920, 1200],
+      "cropBoundsXYXY": [0, 0, 1920, 1200],
+      "format": "PNG",
+      "operation": "uncropped original reuse",
+      "reason": "The approved explanation/category state retains its sidebar, introductory explanation, request guidance and closed categories. No missing content or accordion details are reconstructed."
+    }
+  ],
+  "composition": "All three dense, two-region screens use the full available case width. Lateral alternation would reduce the sidebar and form detail; copy remains above the image at every width. Mobile HTML explanations are self-contained and do not depend on reading raster microtext.",
+  "integrityEvidence": ".scratch/enrollment/qa/ticket-04/final-checks.json",
+  "renderedEvidence": ".scratch/enrollment/qa/ticket-04/"
+}

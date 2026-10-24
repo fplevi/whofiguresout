@@ -1,0 +1,10 @@
+{
+  "stage": "green",
+  "behavior": "Discovery explanation and one board between role and decisions",
+  "viewport": [
+    375,
+    700
+  ],
+  "motion": "reduce",
+  "status": "passed"
+}
