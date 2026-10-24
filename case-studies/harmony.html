@@ -122,9 +122,11 @@
         <p class="cs-section__body">Primitive scales, semantic roles, and responsive variables describe related layers of that foundation.</p>
       </div>
 
-      <section class="harmony-evidence" aria-labelledby="harmony-primitives">
-        <h3 class="harmony-evidence__title" id="harmony-primitives">Primitive color scales</h3>
-        <p class="harmony-evidence__body" id="harmony-primitives-copy">Selected steps from the Primary blue and Secondary yellow scales illustrate a shared color vocabulary for the foundation.</p>
+      <section class="harmony-evidence harmony-row harmony-row--image-left" aria-labelledby="harmony-primitives">
+        <div class="harmony-row__copy">
+          <h3 class="harmony-evidence__title" id="harmony-primitives">Primitive color scales</h3>
+          <p class="harmony-evidence__body" id="harmony-primitives-copy">Selected steps from the Primary blue and Secondary yellow scales illustrate a shared color vocabulary for the foundation.</p>
+        </div>
         <figure aria-labelledby="harmony-primitives" aria-describedby="harmony-primitives-copy">
           <picture>
             <source media="(min-width: 1025px)" srcset="../assets/images/harmony/editorial/primitive-primary-secondary-scales.png" width="1360" height="548" />
@@ -133,9 +135,11 @@
           <figcaption>Selected source crops. On narrow screens, the two lightest steps from each scale retain their names and values.</figcaption>
         </figure>
       </section>
-      <section class="harmony-evidence" aria-labelledby="harmony-semantics">
-        <h3 class="harmony-evidence__title" id="harmony-semantics">Semantic roles by use</h3>
-        <p class="harmony-evidence__body" id="harmony-semantics-copy">Semantic names describe how color is used. Surface and Border group those uses, with roles such as Default and Soft within each group. This adds intent to the primitive color vocabulary.</p>
+      <section class="harmony-evidence harmony-row" aria-labelledby="harmony-semantics">
+        <div class="harmony-row__copy">
+          <h3 class="harmony-evidence__title" id="harmony-semantics">Semantic roles by use</h3>
+          <p class="harmony-evidence__body" id="harmony-semantics-copy">Semantic names describe how color is used. Surface and Border group those uses, with roles such as Default and Soft within each group. This adds intent to the primitive color vocabulary.</p>
+        </div>
         <figure aria-labelledby="harmony-semantics" aria-describedby="harmony-semantics-copy">
           <picture>
             <source media="(min-width: 1025px)" srcset="../assets/images/harmony/editorial/semantic-surface-border-roles.png" width="1440" height="554" />
@@ -144,9 +148,11 @@
           <figcaption>Surface and Border retain their role names. On narrow screens, the selected roles are Default and Soft.</figcaption>
         </figure>
       </section>
-      <section class="harmony-evidence" aria-labelledby="harmony-responsive">
-        <h3 class="harmony-evidence__title" id="harmony-responsive">Responsive variables</h3>
-        <p class="harmony-evidence__body" id="harmony-responsive-copy">Desktop, Tablet, and Mobile modes adapt the foundation to different screen sizes. Compare ScreenSize and the Gap values across these modes. The source also groups padding, radius, and icon variables, connecting the shared reference to responsive layout decisions.</p>
+      <section class="harmony-evidence harmony-row harmony-row--image-left" aria-labelledby="harmony-responsive">
+        <div class="harmony-row__copy">
+          <h3 class="harmony-evidence__title" id="harmony-responsive">Responsive variables</h3>
+          <p class="harmony-evidence__body" id="harmony-responsive-copy">Desktop, Tablet, and Mobile modes adapt the foundation to different screen sizes. Compare ScreenSize and the Gap values across these modes. The source also groups padding, radius, and icon variables, connecting the shared reference to responsive layout decisions.</p>
+        </div>
         <figure aria-labelledby="harmony-responsive" aria-describedby="harmony-responsive-copy">
           <picture>
             <source media="(min-width: 1025px)" srcset="../assets/images/harmony/variables.png" width="1920" height="1200" />
@@ -163,8 +169,8 @@
       <h2 class="cs-section__title" id="harmony-components">Applying the shared patterns.</h2>
       <p class="harmony-evidence__body">Accessibility and content guidance sit alongside visual tokens and interaction states. Contrast, component semantics, and error messages remain ongoing component requirements, with design and development addressing their respective parts.</p>
 
-      <section class="harmony-evidence harmony-component-row" aria-labelledby="harmony-buttons">
-        <div class="harmony-component-row__copy">
+      <section class="harmony-evidence harmony-row" aria-labelledby="harmony-buttons">
+        <div class="harmony-row__copy">
           <h3 class="harmony-evidence__title" id="harmony-buttons">Button variants, sizes, and states</h3>
           <p class="harmony-evidence__body" id="harmony-buttons-copy">Compare the Standard button's solid and outline variants, with NormalSize above SmallSize. Text, dropdown, and icon-only examples show different state treatments through changes in color, emphasis, and outlines. These selections show how shared foundations inform component decisions.</p>
         </div>
@@ -173,8 +179,8 @@
           <figcaption>Two labelled source selections, separated by a gutter. The original overlapping component names remain; these are design states, not an executed interaction test.</figcaption>
         </figure>
       </section>
-      <section class="harmony-evidence harmony-component-row harmony-component-row--image-left" aria-labelledby="harmony-navigation">
-        <div class="harmony-component-row__copy">
+      <section class="harmony-evidence harmony-row harmony-row--image-left" aria-labelledby="harmony-navigation">
+        <div class="harmony-row__copy">
           <h3 class="harmony-evidence__title" id="harmony-navigation">Navigation across contexts</h3>
           <p class="harmony-evidence__body" id="harmony-navigation-copy">The Portal and Intranet profile menus adapt a shared navigation pattern to different contexts. Portal includes plan and registration entries; Intranet presents a shorter set of account options. Compare the shared profile trigger and menu structure with the content each context needs.</p>
         </div>
@@ -187,31 +193,39 @@
 
     <!-- Template composition follows foundation/component application. -->
     <section class="harmony-templates" aria-labelledby="harmony-templates">
-      <span class="section-tag cs-section__tag">Template composition</span>
-      <h2 class="cs-section__title" id="harmony-templates">Composing page templates</h2>
-      <p class="harmony-evidence__body" id="harmony-templates-copy">Templates compose shared patterns into page layouts. Compare the card-based list with the selected success layout, then inspect its profile switch, breadcrumb level, and content-row options in the design panel. The layouts keep a common navigation and page structure while exposing configuration for different content.</p>
-      <figure aria-labelledby="harmony-templates" aria-describedby="harmony-templates-copy">
-        <picture>
-          <source media="(min-width: 1025px)" srcset="../assets/images/harmony/editorial/template-compositions-configuration-wide.png" width="1826" height="892" />
-          <img src="../assets/images/harmony/editorial/template-card-success-configuration-mobile.png" width="296" height="1012" loading="lazy" decoding="async" alt="Card-based list and selected success page compositions in Figma, with Success configuration for the profile switch, breadcrumb level, alert, and content rows. Narrow screens stack these source selections." />
-        </picture>
-        <figcaption>Design compositions and configuration. On narrow screens, separate source selections show the card-based list, selected success layout, and its configuration panel.</figcaption>
-      </figure>
+      <div class="harmony-row">
+        <div class="harmony-row__copy">
+          <span class="section-tag cs-section__tag">Template composition</span>
+          <h2 class="cs-section__title" id="harmony-templates">Composing page templates</h2>
+          <p class="harmony-evidence__body" id="harmony-templates-copy">Templates compose shared patterns into page layouts. Compare the card-based list with the selected success layout, then inspect its profile switch, breadcrumb level, and content-row options in the design panel. The layouts keep a common navigation and page structure while exposing configuration for different content.</p>
+        </div>
+        <figure aria-labelledby="harmony-templates" aria-describedby="harmony-templates-copy">
+          <picture>
+            <source media="(min-width: 1025px)" srcset="../assets/images/harmony/editorial/template-compositions-configuration-wide.png" width="1826" height="892" />
+            <img src="../assets/images/harmony/editorial/template-card-success-configuration-mobile.png" width="296" height="1012" loading="lazy" decoding="async" alt="Card-based list and selected success page compositions in Figma, with Success configuration for the profile switch, breadcrumb level, alert, and content rows. Narrow screens stack these source selections." />
+          </picture>
+          <figcaption>Design compositions and configuration. On narrow screens, separate source selections show the card-based list, selected success layout, and its configuration panel.</figcaption>
+        </figure>
+      </div>
     </section>
 
     <!-- Documentation connects design decisions to implementation in partnership. -->
     <section class="harmony-storybook" aria-labelledby="harmony-storybook">
-      <span class="section-tag cs-section__tag">Documentation and implementation</span>
-      <h2 class="cs-section__title" id="harmony-storybook">Button properties in Storybook</h2>
-      <p class="harmony-evidence__body" id="harmony-storybook-copy">The Button preview sits alongside named properties: children supplies the label, variant shows solid, and size lists sm and md. Storybook provides a reference for documenting components and discussing their implementation with development.</p>
-      <p class="harmony-evidence__body">React and Next.js were chosen with long-term maintenance and hiring in mind. The intent was to give development a shared technical foundation as new projects adopt Harmony and existing products migrate. I lead design and the ongoing evolution of components; the development team implements the React library in partnership with me.</p>
-      <figure aria-labelledby="harmony-storybook" aria-describedby="harmony-storybook-copy">
-        <picture>
-          <source media="(min-width: 1025px)" srcset="../assets/images/harmony/editorial/storybook-button-properties-wide.png" width="1920" height="980" />
-          <img src="../assets/images/harmony/editorial/storybook-button-selected-properties-mobile.png" width="350" height="640" loading="lazy" decoding="async" alt="Storybook Button preview with children set to Button, variant set to solid, and visible sm and md size choices. Narrow screens pair selected Name and Control column excerpts beneath the preview." />
-        </picture>
-        <figcaption>Static documentation evidence. On narrow screens, separate source excerpts pair property names with their values beneath the preview. The capture does not demonstrate executed interactions or passed tests.</figcaption>
-      </figure>
+      <div class="harmony-row harmony-row--image-left">
+        <div class="harmony-row__copy">
+          <span class="section-tag cs-section__tag">Documentation and implementation</span>
+          <h2 class="cs-section__title" id="harmony-storybook">Button properties in Storybook</h2>
+          <p class="harmony-evidence__body" id="harmony-storybook-copy">The Button preview sits alongside named properties: children supplies the label, variant shows solid, and size lists sm and md. Storybook provides a reference for documenting components and discussing their implementation with development.</p>
+          <p class="harmony-evidence__body">React and Next.js were chosen with long-term maintenance and hiring in mind. The intent was to give development a shared technical foundation as new projects adopt Harmony and existing products migrate. I lead design and the ongoing evolution of components; the development team implements the React library in partnership with me.</p>
+        </div>
+        <figure aria-labelledby="harmony-storybook" aria-describedby="harmony-storybook-copy">
+          <picture>
+            <source media="(min-width: 1025px)" srcset="../assets/images/harmony/editorial/storybook-button-properties-wide.png" width="1920" height="980" />
+            <img src="../assets/images/harmony/editorial/storybook-button-selected-properties-mobile.png" width="350" height="640" loading="lazy" decoding="async" alt="Storybook Button preview with children set to Button, variant set to solid, and visible sm and md size choices. Narrow screens pair selected Name and Control column excerpts beneath the preview." />
+          </picture>
+          <figcaption>Static documentation evidence. On narrow screens, separate source excerpts pair property names with their values beneath the preview. The capture does not demonstrate executed interactions or passed tests.</figcaption>
+        </figure>
+      </div>
     </section>
 
     <!-- The Outcome -->
