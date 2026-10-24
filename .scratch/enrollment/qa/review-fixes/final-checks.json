@@ -1,0 +1,134 @@
+{
+  "assetIntegrityAndManifest": true,
+  "originalsByteUnchanged": 18,
+  "submissionCropPixelIdentity": true,
+  "issue01Unchanged": true,
+  "sharedStylesAndScriptsUnchanged": true,
+  "authoredHeadAndAnalyticsUnchanged": true,
+  "orientationContrastMatrixCases": 8,
+  "proposalGrowthPercent": 170.83333333333331,
+  "contrast": {
+    "guidance": 7.550402230717409,
+    "labelWorstWhiteImage": 19.084682213573785,
+    "handleArrows": 19.084682213573785,
+    "integratedOrientation1": 7.550402230717409,
+    "integratedOrientation2": 7.550402230717409,
+    "integratedOrientation3": 7.550402230717409,
+    "integratedOrientation4": 7.550402230717409,
+    "integratedOrientation5": 7.550402230717409,
+    "integratedOrientation6": 7.550402230717409,
+    "integratedOrientation7": 7.550402230717409
+  },
+  "clickedDestinations": [
+    "http://127.0.0.1:8128/",
+    "http://127.0.0.1:8128/",
+    "http://127.0.0.1:8128/#work",
+    "http://127.0.0.1:8128/#contact",
+    "http://127.0.0.1:8128/#about",
+    "http://127.0.0.1:8128/case-studies/convenios.html"
+  ],
+  "testedHead": "bd2db56430cd592c74359805534d52cf92d84f13",
+  "mergeCommit": "5581f26",
+  "parents": [
+    "af687df",
+    "a09eb9e720f2d4219638d28df858d55ee69a1560"
+  ],
+  "reviewedRuntimeRevision": "8011e432ba50dc47fe0ef56d499164b65ddfc5df",
+  "reviewedRuntimeChanges": [
+    "case-studies/enrollment.html",
+    "assets/css/enrollment.css"
+  ],
+  "productBaselineByPath": {
+    "case-studies/enrollment.html": "8011e432ba50dc47fe0ef56d499164b65ddfc5df",
+    "assets/css/enrollment.css": "8011e432ba50dc47fe0ef56d499164b65ddfc5df",
+    "assets/images/enrollment/submission-analysis.webp": "5581f26",
+    "assets/images/enrollment/Desk Research.png": "5581f26",
+    "assets/images/enrollment/contrato.png": "5581f26",
+    "assets/images/enrollment/dados-parente.png": "5581f26",
+    "assets/images/enrollment/enrollment-poster.webp": "5581f26",
+    "assets/images/enrollment/enrollment.gif": "5581f26",
+    "assets/images/enrollment/enrollment.mp4": "5581f26",
+    "assets/images/enrollment/inicio.png": "5581f26",
+    "assets/images/enrollment/new-enrollment-journey-simulator.jpg": "5581f26",
+    "assets/images/enrollment/new-enrollment-journey-simulator.png": "5581f26",
+    "assets/images/enrollment/old-enrollment-journey-simulator.jpg": "5581f26",
+    "assets/images/enrollment/old-enrollment-journey-simulator.png": "5581f26",
+    "assets/images/enrollment/pagamento.png": "5581f26",
+    "assets/images/enrollment/parentesco.png": "5581f26",
+    "assets/images/enrollment/portabilidade-1.png": "5581f26",
+    "assets/images/enrollment/portabilidade-2.png": "5581f26",
+    "assets/images/enrollment/portabilidade-3.png": "5581f26",
+    "assets/images/enrollment/simulador.png": "5581f26",
+    "assets/images/enrollment/success.png": "5581f26"
+  },
+  "productHashes": {
+    "case-studies/enrollment.html": "6e654b5a241dd123e24ef76eab8fb57bf9cf20cd8434720b5bdee25ae8dd2d19",
+    "assets/css/enrollment.css": "9ee1c1129d2c8e3d990d9bd887cfcc46342b7d22e778231ddfa8ee7f99c2250a",
+    "assets/images/enrollment/submission-analysis.webp": "30a3cd373457f2712b84b61239af12c2a54a9b66e63ba01f2dd1e86f616172e3",
+    "assets/images/enrollment/Desk Research.png": "b1f4cae35535cfedfb1c896f6387ff3db29b1721c9a9c3179ece31abdc7f2eb6",
+    "assets/images/enrollment/contrato.png": "f56fec91525483f933e2cf668dad961431b23968491124e5cdcdd49fcff57b11",
+    "assets/images/enrollment/dados-parente.png": "8e45eb60eae0f7fef155e6d2f5033b357725d934ac612ec496e1dcc517cf468e",
+    "assets/images/enrollment/enrollment-poster.webp": "ccac31f31274ede605856a3156ed22ef41e64abd65a6d9f85ead251864a991fb",
+    "assets/images/enrollment/enrollment.gif": "a22935987af8962e3af45cdf01f4329f7aff99e7dfd90f1375faa5cbfebf32ea",
+    "assets/images/enrollment/enrollment.mp4": "66866172e9a49235dd86dbd914598accc24d1beef40279359e021674b0ee1958",
+    "assets/images/enrollment/inicio.png": "d7ed74d8613e1db778a4d7087925fb080e101e650ebeee54e38fa9dc117a9087",
+    "assets/images/enrollment/new-enrollment-journey-simulator.jpg": "01cc1e7d45faaa682b66bda4bd34f0231d1e84f7883f36e244dd6d5a85fbff0c",
+    "assets/images/enrollment/new-enrollment-journey-simulator.png": "ca0c24a2a67665674b3f60e25aa5ac5ee3e7784c44ea4a107c128c38d3f2b350",
+    "assets/images/enrollment/old-enrollment-journey-simulator.jpg": "e22f2bc24d3c73bc2d891a93140c46fc8d5b8c8d6193356bc1664ca6fc114a05",
+    "assets/images/enrollment/old-enrollment-journey-simulator.png": "00d0ff6defb0f9ba3ddc408ca5db4aa8594d40f7fbbe1766ca073a30f8aebf5c",
+    "assets/images/enrollment/pagamento.png": "3180b336cc8598e12a7da10a842ac75742c65052e78276946f41a3c697998c45",
+    "assets/images/enrollment/parentesco.png": "c2651a25fcbf074efe955b01c78ed354cb01030a4a91f277eb59337cfb6e7ae7",
+    "assets/images/enrollment/portabilidade-1.png": "f888e396ff4a3e6fcdb4edfcf0bf45d47c1e022a691b4993eb771887c0aa75b2",
+    "assets/images/enrollment/portabilidade-2.png": "4d8ce09f4c4d81968f946b2c1e9be50b4d91c279e4c677b728d02a066c8f9525",
+    "assets/images/enrollment/portabilidade-3.png": "5e1fc02aaabc18899b8766a12b970a1b7f62272659ba8817876f54a09e31c8b4",
+    "assets/images/enrollment/simulador.png": "27bcc41274b56173d9eef9daeef579f1f9d9b71358e79fe97800400af3db90c3",
+    "assets/images/enrollment/success.png": "ab7ff33c3da0da87ad9037406bf0bf8f0f08eab690af31c219d9a95a436569d8"
+  },
+  "issue01WorkingSHA256": "b7d1b0127a8fb45274b3e04c78bba05a46f5c32f5d89827cbfd5eca8309ef2e2",
+  "originalDecisionArgumentsAndNotesUnchanged": true,
+  "manifests": [
+    {
+      "path": ".scratch/enrollment/presentation-assets-02.json",
+      "assetsVerified": 1
+    },
+    {
+      "path": ".scratch/enrollment/presentation-assets-03.json",
+      "assetsVerified": 2
+    },
+    {
+      "path": ".scratch/enrollment/presentation-assets-04.json",
+      "assetsVerified": 3
+    }
+  ],
+  "historicalRefs": [
+    "af687df",
+    "a09eb9e720f2d4219638d28df858d55ee69a1560",
+    "c356ef26694dfa6f489764b086589a94b572e0bb"
+  ],
+  "historicalArtifactsVerifiedByParent": {
+    "af687df": 303,
+    "a09eb9e720f2d4219638d28df858d55ee69a1560": 353,
+    "c356ef26694dfa6f489764b086589a94b572e0bb": 537
+  },
+  "matrixSummary": {
+    "passed": 308,
+    "failed": 0
+  },
+  "renderedSelection": {
+    "processBoards": 1,
+    "interfaceScreens": 4,
+    "twoLayerComparisons": 1,
+    "evidenceBlocks": 6
+  },
+  "errors": {
+    "javascriptErrors": [],
+    "console": [],
+    "failedRequests": [],
+    "httpErrors": [],
+    "contactPosts": []
+  },
+  "motionPairs": {
+    "count": 24,
+    "identical": 24
+  }
+}

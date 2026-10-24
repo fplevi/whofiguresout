@@ -1,0 +1,1378 @@
+[
+  {
+    "width": 320,
+    "motion": "no-preference",
+    "rendered": {
+      "headings": [
+        {
+          "text": "Eligibility within the journey",
+          "width": 272,
+          "height": 57.59375,
+          "fontFamily": "Fraunces, serif",
+          "fontSize": "24px",
+          "fontWeight": "700",
+          "lineHeight": "28.8px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "16px",
+          "maxWidth": "none"
+        },
+        {
+          "text": "Personal details and document preparation",
+          "width": 272,
+          "height": 57.59375,
+          "fontFamily": "Fraunces, serif",
+          "fontSize": "24px",
+          "fontWeight": "700",
+          "lineHeight": "28.8px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "16px",
+          "maxWidth": "none"
+        },
+        {
+          "text": "Portability as a specific situation",
+          "width": 272,
+          "height": 57.59375,
+          "fontFamily": "Fraunces, serif",
+          "fontSize": "24px",
+          "fontWeight": "700",
+          "lineHeight": "28.8px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "16px",
+          "maxWidth": "none"
+        },
+        {
+          "text": "Submitted for analysis, with a reference for what comes next",
+          "width": 272,
+          "height": 115.1875,
+          "fontFamily": "Fraunces, serif",
+          "fontSize": "24px",
+          "fontWeight": "700",
+          "lineHeight": "28.8px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "16px",
+          "maxWidth": "none"
+        }
+      ],
+      "prose": [
+        {
+          "text": null,
+          "width": 272,
+          "height": 368.828125,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "0px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 272,
+          "height": 554.234375,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "0px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 272,
+          "height": 424.015625,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "0px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 272,
+          "height": 291.09375,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "24px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 272,
+          "height": 345.46875,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "24px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 272,
+          "height": 399.84375,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "24px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 272,
+          "height": 395.21875,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "0px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 272,
+          "height": 663.75,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "24px",
+          "maxWidth": "840px"
+        }
+      ],
+      "decisions": {
+        "text": null,
+        "width": 272,
+        "height": 4868.5,
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "color": "rgb(242, 242, 245)",
+        "marginBottom": "0px",
+        "maxWidth": "none"
+      },
+      "focus": {
+        "style": "solid",
+        "width": "2px",
+        "offset": "4px",
+        "color": "rgb(244, 168, 124)"
+      }
+    }
+  },
+  {
+    "width": 375,
+    "motion": "no-preference",
+    "rendered": {
+      "headings": [
+        {
+          "text": "Eligibility within the journey",
+          "width": 327,
+          "height": 57.59375,
+          "fontFamily": "Fraunces, serif",
+          "fontSize": "24px",
+          "fontWeight": "700",
+          "lineHeight": "28.8px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "16px",
+          "maxWidth": "none"
+        },
+        {
+          "text": "Personal details and document preparation",
+          "width": 327,
+          "height": 57.59375,
+          "fontFamily": "Fraunces, serif",
+          "fontSize": "24px",
+          "fontWeight": "700",
+          "lineHeight": "28.8px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "16px",
+          "maxWidth": "none"
+        },
+        {
+          "text": "Portability as a specific situation",
+          "width": 327,
+          "height": 57.59375,
+          "fontFamily": "Fraunces, serif",
+          "fontSize": "24px",
+          "fontWeight": "700",
+          "lineHeight": "28.8px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "16px",
+          "maxWidth": "none"
+        },
+        {
+          "text": "Submitted for analysis, with a reference for what comes next",
+          "width": 327,
+          "height": 86.390625,
+          "fontFamily": "Fraunces, serif",
+          "fontSize": "24px",
+          "fontWeight": "700",
+          "lineHeight": "28.8px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "16px",
+          "maxWidth": "none"
+        }
+      ],
+      "prose": [
+        {
+          "text": null,
+          "width": 327,
+          "height": 342.4375,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "0px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 327,
+          "height": 501.453125,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "0px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 327,
+          "height": 368.828125,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "0px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 327,
+          "height": 263.90625,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "24px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 327,
+          "height": 291.09375,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "24px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 327,
+          "height": 345.46875,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "24px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 327,
+          "height": 342.4375,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "0px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 327,
+          "height": 553.390625,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "24px",
+          "maxWidth": "840px"
+        }
+      ],
+      "decisions": {
+        "text": null,
+        "width": 327,
+        "height": 4616.046875,
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "color": "rgb(242, 242, 245)",
+        "marginBottom": "0px",
+        "maxWidth": "none"
+      },
+      "focus": {
+        "style": "solid",
+        "width": "2px",
+        "offset": "4px",
+        "color": "rgb(244, 168, 124)"
+      }
+    }
+  },
+  {
+    "width": 768,
+    "motion": "no-preference",
+    "rendered": {
+      "headings": [
+        {
+          "text": "Eligibility within the journey",
+          "width": 720,
+          "height": 28.796875,
+          "fontFamily": "Fraunces, serif",
+          "fontSize": "24px",
+          "fontWeight": "700",
+          "lineHeight": "28.8px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "16px",
+          "maxWidth": "none"
+        },
+        {
+          "text": "Personal details and document preparation",
+          "width": 720,
+          "height": 28.796875,
+          "fontFamily": "Fraunces, serif",
+          "fontSize": "24px",
+          "fontWeight": "700",
+          "lineHeight": "28.8px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "16px",
+          "maxWidth": "none"
+        },
+        {
+          "text": "Portability as a specific situation",
+          "width": 720,
+          "height": 28.796875,
+          "fontFamily": "Fraunces, serif",
+          "fontSize": "24px",
+          "fontWeight": "700",
+          "lineHeight": "28.8px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "16px",
+          "maxWidth": "none"
+        },
+        {
+          "text": "Submitted for analysis, with a reference for what comes next",
+          "width": 720,
+          "height": 28.796875,
+          "fontFamily": "Fraunces, serif",
+          "fontSize": "24px",
+          "fontWeight": "700",
+          "lineHeight": "28.8px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "16px",
+          "maxWidth": "none"
+        }
+      ],
+      "prose": [
+        {
+          "text": null,
+          "width": 720,
+          "height": 210.46875,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "0px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 720,
+          "height": 235.140625,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "0px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 720,
+          "height": 210.46875,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "0px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 720,
+          "height": 126.359375,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "24px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 720,
+          "height": 153.546875,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "24px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 720,
+          "height": 180.734375,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "24px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 720,
+          "height": 210.46875,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "0px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 720,
+          "height": 251.109375,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "24px",
+          "maxWidth": "840px"
+        }
+      ],
+      "decisions": {
+        "text": null,
+        "width": 720,
+        "height": 4478.546875,
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "color": "rgb(242, 242, 245)",
+        "marginBottom": "0px",
+        "maxWidth": "none"
+      },
+      "focus": {
+        "style": "solid",
+        "width": "2px",
+        "offset": "4px",
+        "color": "rgb(244, 168, 124)"
+      }
+    }
+  },
+  {
+    "width": 1440,
+    "motion": "no-preference",
+    "rendered": {
+      "headings": [
+        {
+          "text": "Eligibility within the journey",
+          "width": 840,
+          "height": 28.796875,
+          "fontFamily": "Fraunces, serif",
+          "fontSize": "24px",
+          "fontWeight": "700",
+          "lineHeight": "28.8px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "16px",
+          "maxWidth": "none"
+        },
+        {
+          "text": "Personal details and document preparation",
+          "width": 840,
+          "height": 28.796875,
+          "fontFamily": "Fraunces, serif",
+          "fontSize": "24px",
+          "fontWeight": "700",
+          "lineHeight": "28.8px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "16px",
+          "maxWidth": "none"
+        },
+        {
+          "text": "Portability as a specific situation",
+          "width": 840,
+          "height": 28.796875,
+          "fontFamily": "Fraunces, serif",
+          "fontSize": "24px",
+          "fontWeight": "700",
+          "lineHeight": "28.8px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "16px",
+          "maxWidth": "none"
+        },
+        {
+          "text": "Submitted for analysis, with a reference for what comes next",
+          "width": 840,
+          "height": 28.796875,
+          "fontFamily": "Fraunces, serif",
+          "fontSize": "24px",
+          "fontWeight": "700",
+          "lineHeight": "28.8px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "16px",
+          "maxWidth": "none"
+        }
+      ],
+      "prose": [
+        {
+          "text": null,
+          "width": 840,
+          "height": 210.46875,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "0px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 840,
+          "height": 235.140625,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "0px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 840,
+          "height": 210.46875,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "0px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 840,
+          "height": 126.359375,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "24px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 840,
+          "height": 126.359375,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "24px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 840,
+          "height": 153.546875,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "24px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 840,
+          "height": 210.46875,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "0px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 840,
+          "height": 251.109375,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "24px",
+          "maxWidth": "840px"
+        }
+      ],
+      "decisions": {
+        "text": null,
+        "width": 1280,
+        "height": 6266.92138671875,
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "color": "rgb(242, 242, 245)",
+        "marginBottom": "0px",
+        "maxWidth": "none"
+      },
+      "focus": {
+        "style": "solid",
+        "width": "2px",
+        "offset": "4px",
+        "color": "rgb(244, 168, 124)"
+      }
+    }
+  },
+  {
+    "width": 320,
+    "motion": "reduce",
+    "rendered": {
+      "headings": [
+        {
+          "text": "Eligibility within the journey",
+          "width": 272,
+          "height": 57.59375,
+          "fontFamily": "Fraunces, serif",
+          "fontSize": "24px",
+          "fontWeight": "700",
+          "lineHeight": "28.8px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "16px",
+          "maxWidth": "none"
+        },
+        {
+          "text": "Personal details and document preparation",
+          "width": 272,
+          "height": 57.59375,
+          "fontFamily": "Fraunces, serif",
+          "fontSize": "24px",
+          "fontWeight": "700",
+          "lineHeight": "28.8px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "16px",
+          "maxWidth": "none"
+        },
+        {
+          "text": "Portability as a specific situation",
+          "width": 272,
+          "height": 57.59375,
+          "fontFamily": "Fraunces, serif",
+          "fontSize": "24px",
+          "fontWeight": "700",
+          "lineHeight": "28.8px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "16px",
+          "maxWidth": "none"
+        },
+        {
+          "text": "Submitted for analysis, with a reference for what comes next",
+          "width": 272,
+          "height": 115.1875,
+          "fontFamily": "Fraunces, serif",
+          "fontSize": "24px",
+          "fontWeight": "700",
+          "lineHeight": "28.8px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "16px",
+          "maxWidth": "none"
+        }
+      ],
+      "prose": [
+        {
+          "text": null,
+          "width": 272,
+          "height": 368.828125,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "0px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 272,
+          "height": 554.234375,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "0px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 272,
+          "height": 424.015625,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "0px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 272,
+          "height": 291.09375,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "24px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 272,
+          "height": 345.46875,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "24px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 272,
+          "height": 399.84375,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "24px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 272,
+          "height": 395.21875,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "0px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 272,
+          "height": 663.75,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "24px",
+          "maxWidth": "840px"
+        }
+      ],
+      "decisions": {
+        "text": null,
+        "width": 272,
+        "height": 4868.5,
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "color": "rgb(242, 242, 245)",
+        "marginBottom": "0px",
+        "maxWidth": "none"
+      },
+      "focus": {
+        "style": "solid",
+        "width": "2px",
+        "offset": "4px",
+        "color": "rgb(244, 168, 124)"
+      }
+    }
+  },
+  {
+    "width": 375,
+    "motion": "reduce",
+    "rendered": {
+      "headings": [
+        {
+          "text": "Eligibility within the journey",
+          "width": 327,
+          "height": 57.59375,
+          "fontFamily": "Fraunces, serif",
+          "fontSize": "24px",
+          "fontWeight": "700",
+          "lineHeight": "28.8px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "16px",
+          "maxWidth": "none"
+        },
+        {
+          "text": "Personal details and document preparation",
+          "width": 327,
+          "height": 57.59375,
+          "fontFamily": "Fraunces, serif",
+          "fontSize": "24px",
+          "fontWeight": "700",
+          "lineHeight": "28.8px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "16px",
+          "maxWidth": "none"
+        },
+        {
+          "text": "Portability as a specific situation",
+          "width": 327,
+          "height": 57.59375,
+          "fontFamily": "Fraunces, serif",
+          "fontSize": "24px",
+          "fontWeight": "700",
+          "lineHeight": "28.8px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "16px",
+          "maxWidth": "none"
+        },
+        {
+          "text": "Submitted for analysis, with a reference for what comes next",
+          "width": 327,
+          "height": 86.390625,
+          "fontFamily": "Fraunces, serif",
+          "fontSize": "24px",
+          "fontWeight": "700",
+          "lineHeight": "28.8px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "16px",
+          "maxWidth": "none"
+        }
+      ],
+      "prose": [
+        {
+          "text": null,
+          "width": 327,
+          "height": 342.4375,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "0px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 327,
+          "height": 501.453125,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "0px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 327,
+          "height": 368.828125,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "0px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 327,
+          "height": 263.90625,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "24px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 327,
+          "height": 291.09375,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "24px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 327,
+          "height": 345.46875,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "24px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 327,
+          "height": 342.4375,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "0px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 327,
+          "height": 553.390625,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "24px",
+          "maxWidth": "840px"
+        }
+      ],
+      "decisions": {
+        "text": null,
+        "width": 327,
+        "height": 4616.046875,
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "color": "rgb(242, 242, 245)",
+        "marginBottom": "0px",
+        "maxWidth": "none"
+      },
+      "focus": {
+        "style": "solid",
+        "width": "2px",
+        "offset": "4px",
+        "color": "rgb(244, 168, 124)"
+      }
+    }
+  },
+  {
+    "width": 768,
+    "motion": "reduce",
+    "rendered": {
+      "headings": [
+        {
+          "text": "Eligibility within the journey",
+          "width": 720,
+          "height": 28.796875,
+          "fontFamily": "Fraunces, serif",
+          "fontSize": "24px",
+          "fontWeight": "700",
+          "lineHeight": "28.8px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "16px",
+          "maxWidth": "none"
+        },
+        {
+          "text": "Personal details and document preparation",
+          "width": 720,
+          "height": 28.796875,
+          "fontFamily": "Fraunces, serif",
+          "fontSize": "24px",
+          "fontWeight": "700",
+          "lineHeight": "28.8px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "16px",
+          "maxWidth": "none"
+        },
+        {
+          "text": "Portability as a specific situation",
+          "width": 720,
+          "height": 28.796875,
+          "fontFamily": "Fraunces, serif",
+          "fontSize": "24px",
+          "fontWeight": "700",
+          "lineHeight": "28.8px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "16px",
+          "maxWidth": "none"
+        },
+        {
+          "text": "Submitted for analysis, with a reference for what comes next",
+          "width": 720,
+          "height": 28.796875,
+          "fontFamily": "Fraunces, serif",
+          "fontSize": "24px",
+          "fontWeight": "700",
+          "lineHeight": "28.8px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "16px",
+          "maxWidth": "none"
+        }
+      ],
+      "prose": [
+        {
+          "text": null,
+          "width": 720,
+          "height": 210.46875,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "0px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 720,
+          "height": 235.140625,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "0px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 720,
+          "height": 210.46875,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "0px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 720,
+          "height": 126.359375,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "24px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 720,
+          "height": 153.546875,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "24px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 720,
+          "height": 180.734375,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "24px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 720,
+          "height": 210.46875,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "0px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 720,
+          "height": 251.109375,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "24px",
+          "maxWidth": "840px"
+        }
+      ],
+      "decisions": {
+        "text": null,
+        "width": 720,
+        "height": 4478.546875,
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "color": "rgb(242, 242, 245)",
+        "marginBottom": "0px",
+        "maxWidth": "none"
+      },
+      "focus": {
+        "style": "solid",
+        "width": "2px",
+        "offset": "4px",
+        "color": "rgb(244, 168, 124)"
+      }
+    }
+  },
+  {
+    "width": 1440,
+    "motion": "reduce",
+    "rendered": {
+      "headings": [
+        {
+          "text": "Eligibility within the journey",
+          "width": 840,
+          "height": 28.796875,
+          "fontFamily": "Fraunces, serif",
+          "fontSize": "24px",
+          "fontWeight": "700",
+          "lineHeight": "28.8px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "16px",
+          "maxWidth": "none"
+        },
+        {
+          "text": "Personal details and document preparation",
+          "width": 840,
+          "height": 28.796875,
+          "fontFamily": "Fraunces, serif",
+          "fontSize": "24px",
+          "fontWeight": "700",
+          "lineHeight": "28.8px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "16px",
+          "maxWidth": "none"
+        },
+        {
+          "text": "Portability as a specific situation",
+          "width": 840,
+          "height": 28.796875,
+          "fontFamily": "Fraunces, serif",
+          "fontSize": "24px",
+          "fontWeight": "700",
+          "lineHeight": "28.8px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "16px",
+          "maxWidth": "none"
+        },
+        {
+          "text": "Submitted for analysis, with a reference for what comes next",
+          "width": 840,
+          "height": 28.796875,
+          "fontFamily": "Fraunces, serif",
+          "fontSize": "24px",
+          "fontWeight": "700",
+          "lineHeight": "28.8px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "16px",
+          "maxWidth": "none"
+        }
+      ],
+      "prose": [
+        {
+          "text": null,
+          "width": 840,
+          "height": 210.46875,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "0px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 840,
+          "height": 235.140625,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "0px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 840,
+          "height": 210.46875,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "0px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 840,
+          "height": 126.359375,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "24px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 840,
+          "height": 126.359375,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "24px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 840,
+          "height": 153.546875,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "24px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 840,
+          "height": 210.46875,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "0px",
+          "maxWidth": "840px"
+        },
+        {
+          "text": null,
+          "width": 840,
+          "height": 251.109375,
+          "fontFamily": "Inter, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(242, 242, 245)",
+          "marginBottom": "24px",
+          "maxWidth": "840px"
+        }
+      ],
+      "decisions": {
+        "text": null,
+        "width": 1280,
+        "height": 6266.921875,
+        "fontFamily": "Inter, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "color": "rgb(242, 242, 245)",
+        "marginBottom": "0px",
+        "maxWidth": "none"
+      },
+      "focus": {
+        "style": "solid",
+        "width": "2px",
+        "offset": "4px",
+        "color": "rgb(244, 168, 124)"
+      }
+    }
+  }
+]
