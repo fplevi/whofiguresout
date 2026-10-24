@@ -1,0 +1,1210 @@
+{
+  "ticket": "02",
+  "excludesSelf": true,
+  "artifacts": [
+    {
+      "path": ".scratch/harmony/qa/components-artifact-integrity.json",
+      "bytes": 6467,
+      "sha256": "48366b44604b5109b48cc274c67c199584c89e5e9c1b69d33d0b2916100aa1ea"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/buttons-1440-no-preference.png",
+      "bytes": 173845,
+      "sha256": "9520812d5ce259284807b1cad5e4f997b5fe7306bc7dba4ca3d33d3eebfaf9e6"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/buttons-1440-reduce.png",
+      "bytes": 173845,
+      "sha256": "9520812d5ce259284807b1cad5e4f997b5fe7306bc7dba4ca3d33d3eebfaf9e6"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/buttons-320-no-preference.png",
+      "bytes": 59961,
+      "sha256": "4a414e580199ec744cd5616dede8e94934efcbde40b00a8ef0a8716075a5d43b"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/buttons-320-reduce.png",
+      "bytes": 59961,
+      "sha256": "4a414e580199ec744cd5616dede8e94934efcbde40b00a8ef0a8716075a5d43b"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/buttons-375-no-preference.png",
+      "bytes": 91322,
+      "sha256": "cc2089a37d188d22091c6aa9d847a6974864c27d7e18330584f9702914804d33"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/buttons-375-reduce.png",
+      "bytes": 91322,
+      "sha256": "cc2089a37d188d22091c6aa9d847a6974864c27d7e18330584f9702914804d33"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/buttons-768-no-preference.png",
+      "bytes": 118992,
+      "sha256": "04d0bccc2b04a394cd39db06d26526e637939fdf56b1600f9ecb27e334835e02"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/buttons-768-reduce.png",
+      "bytes": 118992,
+      "sha256": "04d0bccc2b04a394cd39db06d26526e637939fdf56b1600f9ecb27e334835e02"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/buttons-plate-1440.png",
+      "bytes": 127596,
+      "sha256": "e1f4c56fe551fd0f0723a81d237e0ffaf54e6b3a0371357603b4116747a7aeac"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/buttons-plate-320.png",
+      "bytes": 82236,
+      "sha256": "e94afc9c7671e108a46fbf1f85bf53e5538a160f685875fbfdf8842f5f105b6a"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/buttons-plate-375.png",
+      "bytes": 109381,
+      "sha256": "6a6a41114c4880b039dc83e68dea6204b7aaebaf173c625a58209d0e4a1c038a"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/buttons-plate-768.png",
+      "bytes": 126424,
+      "sha256": "bced6c5d1acd71149e6291302917cc3239f8cd0c48aab6a6ffb074838f045af3"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/component-navigation-1440-no-preference.png",
+      "bytes": 88803,
+      "sha256": "427466e919915959139f18728c0468226daae2f6ac1b7dd360ceaf9b23a6901a"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/component-navigation-1440-reduce.png",
+      "bytes": 88803,
+      "sha256": "427466e919915959139f18728c0468226daae2f6ac1b7dd360ceaf9b23a6901a"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/component-navigation-320-no-preference.png",
+      "bytes": 51787,
+      "sha256": "31c6be75641cc3b78c4d5b7949308189e59233a23d49f89bc81dabb9c5939f3c"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/component-navigation-320-reduce.png",
+      "bytes": 51787,
+      "sha256": "31c6be75641cc3b78c4d5b7949308189e59233a23d49f89bc81dabb9c5939f3c"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/component-navigation-375-no-preference.png",
+      "bytes": 53744,
+      "sha256": "62a174ba88988d72c644652c3433c3595456951a6b27d226aeeb62a711b60f91"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/component-navigation-375-reduce.png",
+      "bytes": 53744,
+      "sha256": "62a174ba88988d72c644652c3433c3595456951a6b27d226aeeb62a711b60f91"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/component-navigation-768-no-preference.png",
+      "bytes": 71120,
+      "sha256": "c371beda41d9131d4cb7c8a4a68944fc900ec0d413c2c2b5704d6ec8db76327b"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/component-navigation-768-reduce.png",
+      "bytes": 71120,
+      "sha256": "c371beda41d9131d4cb7c8a4a68944fc900ec0d413c2c2b5704d6ec8db76327b"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/component-navigation-plate-1440.png",
+      "bytes": 41115,
+      "sha256": "b69f4d2bb24535437865d7479d35c02bbc0ceabe77fbe591bb2d941b14319d42"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/component-navigation-plate-320.png",
+      "bytes": 43922,
+      "sha256": "b299fed041e04e90525e17f38415ba39f7e69951b58dbb8be5d127e16f205ea2"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/component-navigation-plate-375.png",
+      "bytes": 44129,
+      "sha256": "c639a0f70943309ebe1506c104d9f9dfe66349971b54dcbbded021eea1f8b2c2"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/component-navigation-plate-768.png",
+      "bytes": 41110,
+      "sha256": "e8decdc9447ffbe1eafa71b42177c7be4b7a16e601df6ba3d6af1abf0bc29a2e"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/focus-contact-1440.png",
+      "bytes": 35951,
+      "sha256": "4225233b2329daa641dd153f352dcc9ea83a7e5bfc02b0d6a839994897f9e18c"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/focus-contact-320.png",
+      "bytes": 23879,
+      "sha256": "bdac949ec81f276c29f9d93f16ba96cde99be5c2b4b9ab7aea6bdf054c8eeb8d"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/focus-contact-375.png",
+      "bytes": 24279,
+      "sha256": "fccd1fc7c5345abadef0f876967c55d0e19e43a385a45a41ec52090820cd4415"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/focus-contact-768.png",
+      "bytes": 32464,
+      "sha256": "a7e23000640f63d532dd200fd8e6446428f13bba01ec0dc7f8557b836761cedc"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/focus-nav-1440.png",
+      "bytes": 65739,
+      "sha256": "44ee37e82b15705766a6c3f7beaa1910ee6546bd85d7ce728c76d2dbcf8084be"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/focus-nav-320.png",
+      "bytes": 29412,
+      "sha256": "2cfac229f27e858dc833ab951b1bd374e3ad4c30938dabd27553842148f05ddc"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/focus-nav-375.png",
+      "bytes": 31542,
+      "sha256": "c1845657fc9e03a5ff23c16fa0210949ac9b3815053dec5bef2492a5e8697b84"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/focus-nav-768.png",
+      "bytes": 37513,
+      "sha256": "de61ac35c948e2be25cfc83c04beb7e59a02d7af12173a747d7c6402d5278207"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/focus-next-1440.png",
+      "bytes": 61487,
+      "sha256": "567f29c66d7dcc4fe174e5464e499fb7c46382d63ee8a38c8857c57585413f60"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/focus-next-320.png",
+      "bytes": 35288,
+      "sha256": "a43cef952af16028b7b6ee875e07788507ac4bb3eb5c3d011df66b951a1f7ca8"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/focus-next-375.png",
+      "bytes": 39457,
+      "sha256": "a51166e7d6ba142f7d852dc505141c1c6cc71d27c407dde29595f6fea47fad3c"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/focus-next-768.png",
+      "bytes": 3079,
+      "sha256": "23c4f17e5f31dab59c46eadbeea4455d80b7746b5757b1e06f0962b4aca26b9e"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/no-js-1440.png",
+      "bytes": 94108,
+      "sha256": "e94d83bb77ab038f5acd916a305eb7328d0c5d28bbe41a6a8190ff27cde0021e"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/no-js-320.png",
+      "bytes": 43624,
+      "sha256": "438ee6866daff87b5be598e908ae0723753ebc57e9d08a623727ac93c430b5c0"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/no-js-375.png",
+      "bytes": 46488,
+      "sha256": "a55e7ed2201b48f7cf8e811b89d0f9e8573e91fd96fb79203b62953232d0b867"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/no-js-768.png",
+      "bytes": 59335,
+      "sha256": "82f340da2dfeffe036255b0917e2879d32a217716b2bf499399d96d898653e83"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/no-js-buttons-1440.png",
+      "bytes": 174437,
+      "sha256": "dbf393d50b81a767ded9bbaf0f3e157942df796cd74f5593e277729a745f29b4"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/no-js-buttons-320.png",
+      "bytes": 60656,
+      "sha256": "8e22dc818f0dc1bbae2036f73b55b7afd7b90f1c7f4c84cc09379867dac5a47f"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/no-js-buttons-375.png",
+      "bytes": 91869,
+      "sha256": "ee500e416e811e282b412b228e18c1762b0b2f704b0cf7f7c56ab6c87f9813cb"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/no-js-buttons-768.png",
+      "bytes": 119851,
+      "sha256": "3131ca7cb4846bf39abfe9a59ffef6e5816cfe8aef7538cff0d7d05298d115f8"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/no-js-component-navigation-1440.png",
+      "bytes": 90237,
+      "sha256": "7bca60f886c4aa270fd403d0c5507b7a04d40c2650955154847aa41959ddc447"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/no-js-component-navigation-320.png",
+      "bytes": 52661,
+      "sha256": "56ba48668732ba6f43dcd7f77c3acffbf32fc05f5d7e8a20ea24439a281ff80b"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/no-js-component-navigation-375.png",
+      "bytes": 54557,
+      "sha256": "83193c8ee23ab9f2299a4468e917b2a9d1b981503be03c628579fa9f70dcd984"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/no-js-component-navigation-768.png",
+      "bytes": 72364,
+      "sha256": "428fe32919dd0542c1635d4d89104902375c06ffbf056d89da7e47731f80c4f0"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/primitives-1440-no-preference.png",
+      "bytes": 65414,
+      "sha256": "0f244dc73065cb91de092eee44fa52a09acaaa2dcd6c9bd2cbaa13d2af338c0c"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/primitives-1440-reduce.png",
+      "bytes": 65414,
+      "sha256": "0f244dc73065cb91de092eee44fa52a09acaaa2dcd6c9bd2cbaa13d2af338c0c"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/primitives-320-no-preference.png",
+      "bytes": 34510,
+      "sha256": "056ddb0912930ce9786be13c4e472e1f3b2421d6404733c57529e1c4fb593b68"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/primitives-320-reduce.png",
+      "bytes": 34510,
+      "sha256": "056ddb0912930ce9786be13c4e472e1f3b2421d6404733c57529e1c4fb593b68"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/primitives-375-no-preference.png",
+      "bytes": 34212,
+      "sha256": "a6a6b790d566e5f5b43bbbf266508c1915c537d3793beccb0b966f8124d0803e"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/primitives-375-reduce.png",
+      "bytes": 34212,
+      "sha256": "a6a6b790d566e5f5b43bbbf266508c1915c537d3793beccb0b966f8124d0803e"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/primitives-768-no-preference.png",
+      "bytes": 38630,
+      "sha256": "a4db310afe075436c503b0284a426dfd990558ef079f93e80b78b79bab85f098"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/primitives-768-reduce.png",
+      "bytes": 38630,
+      "sha256": "a4db310afe075436c503b0284a426dfd990558ef079f93e80b78b79bab85f098"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/primitives-plate-1440.png",
+      "bytes": 50445,
+      "sha256": "e405d5b55b09ab500c192ab203620bffa2a066ce7878f555c77063e2c8e97149"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/primitives-plate-320.png",
+      "bytes": 13099,
+      "sha256": "77a50c0a027afc6c6f44a300641e3056a54659d146fddeece8d5cc42eb20a74e"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/primitives-plate-375.png",
+      "bytes": 12927,
+      "sha256": "5ee59b1496bd7193ce4dbbc98b0f7500be1941cb7e6f0cb0e9e1078abd759017"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/primitives-plate-768.png",
+      "bytes": 12899,
+      "sha256": "3559d09fc529cfd049df66f51c6bc13d8a2c9f37804f70c8e9ade3532f5de638"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/responsive-1440-no-preference.png",
+      "bytes": 92624,
+      "sha256": "f1d750a95071213d0e4074d08e1b848cc6c5c12aa99b7f8cdedf63c7d6ad4ae9"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/responsive-1440-reduce.png",
+      "bytes": 92624,
+      "sha256": "f1d750a95071213d0e4074d08e1b848cc6c5c12aa99b7f8cdedf63c7d6ad4ae9"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/responsive-320-no-preference.png",
+      "bytes": 42629,
+      "sha256": "6fb8bc8642a2847975617562a2a0360b5d25018357bd64f5cde638c65b4d1fa3"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/responsive-320-reduce.png",
+      "bytes": 42629,
+      "sha256": "6fb8bc8642a2847975617562a2a0360b5d25018357bd64f5cde638c65b4d1fa3"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/responsive-375-no-preference.png",
+      "bytes": 45743,
+      "sha256": "26c62cf169e850eff99813b77aa055884efb40361e3260eaf61852692f089950"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/responsive-375-reduce.png",
+      "bytes": 45743,
+      "sha256": "26c62cf169e850eff99813b77aa055884efb40361e3260eaf61852692f089950"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/responsive-768-no-preference.png",
+      "bytes": 58941,
+      "sha256": "27561e299ef64927c11d710a7143eb74daabde8f12b7b1c24ac52fe5d853f1b9"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/responsive-768-reduce.png",
+      "bytes": 58941,
+      "sha256": "27561e299ef64927c11d710a7143eb74daabde8f12b7b1c24ac52fe5d853f1b9"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/responsive-plate-1440.png",
+      "bytes": 83190,
+      "sha256": "9c0b0657d670cace7ed60bbe068ce62c0d7e007ba391bda41dee7966b0e5f284"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/responsive-plate-320.png",
+      "bytes": 39830,
+      "sha256": "1cc40dbcc6d8aa93a287560d06129380d8e93e6dfa4af37a66597a316b6b539c"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/responsive-plate-375.png",
+      "bytes": 51803,
+      "sha256": "e32d93896b369c3512269de8fedb592d81547dc51f1520ca245017c3e66aa5c9"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/responsive-plate-768.png",
+      "bytes": 73711,
+      "sha256": "ba5ca75e91b01f924a92e017fb2667856f0068fef9004c5a76e4ff6e1145e036"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/results.json",
+      "bytes": 129419,
+      "sha256": "7f11214baad4a53d2bd8851b9ae4d9f443467ba5fbb01139c5a652bf7af70f58"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/semantics-1440-no-preference.png",
+      "bytes": 79893,
+      "sha256": "3d97a5211f20914b50c8dc897eca2dae7797509006fc2b0f00ae41115b9e9919"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/semantics-1440-reduce.png",
+      "bytes": 79893,
+      "sha256": "3d97a5211f20914b50c8dc897eca2dae7797509006fc2b0f00ae41115b9e9919"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/semantics-320-no-preference.png",
+      "bytes": 39482,
+      "sha256": "5348366e00e429efe8d9498f68db54381dd89213f3974fd7cec87f9c10ba3748"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/semantics-320-reduce.png",
+      "bytes": 39482,
+      "sha256": "5348366e00e429efe8d9498f68db54381dd89213f3974fd7cec87f9c10ba3748"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/semantics-375-no-preference.png",
+      "bytes": 41043,
+      "sha256": "b171770fb2169b73bb97f2409b15683f1387ebe251c5f460b1a3eec93b4a3373"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/semantics-375-reduce.png",
+      "bytes": 41043,
+      "sha256": "b171770fb2169b73bb97f2409b15683f1387ebe251c5f460b1a3eec93b4a3373"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/semantics-768-no-preference.png",
+      "bytes": 42317,
+      "sha256": "14a34e226e5cc05305e70b28239456e8733fc2a900610b916fd1017c606a7aa0"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/semantics-768-reduce.png",
+      "bytes": 42317,
+      "sha256": "14a34e226e5cc05305e70b28239456e8733fc2a900610b916fd1017c606a7aa0"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/semantics-plate-1440.png",
+      "bytes": 61240,
+      "sha256": "87ff890652adfa13ad03c0aa88be9da46c40529a09ac998abef3ad619be6942e"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/semantics-plate-320.png",
+      "bytes": 12183,
+      "sha256": "937e0058223cf539559058b6ac719876711d4152ff5af9d8e47627c1a82a4d56"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/semantics-plate-375.png",
+      "bytes": 15344,
+      "sha256": "2576b34d496f6ef6e3fdbd98f87eb928f21a624e2c83b39c7126fabe1865fe1b"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/semantics-plate-768.png",
+      "bytes": 13984,
+      "sha256": "2e8aad8910bd9a51ad830b321721e23cabb2eeba843e21a6cefa6098ed6aa860"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-1440-no-preference-.png",
+      "bytes": 54057,
+      "sha256": "80fbf376cd9024bb8dc6dfb956529712c351603de1199881cb2535cb12ba93fa"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-1440-no-preference-harmony-buttons.png",
+      "bytes": 125883,
+      "sha256": "d7139f719556379b38e9de39719980c2031abbe97f1531c16108ca2e5a919a81"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-1440-no-preference-harmony-components.png",
+      "bytes": 76071,
+      "sha256": "0a47b2d5b63eac146d3722c519f4e4609b6299dfba65227509c6f502d0e02bee"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-1440-no-preference-harmony-decisions.png",
+      "bytes": 57813,
+      "sha256": "ed02cc87786e3c980a12687e57c8463ed12e6488359cfa85e1edca3342aae070"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-1440-no-preference-harmony-foundations.png",
+      "bytes": 77355,
+      "sha256": "9773e3d506e4e273a1be704ebffddce68fe475c8b9c04003307510900a50b6d9"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-1440-no-preference-harmony-navigation.png",
+      "bytes": 95808,
+      "sha256": "5cb45565915c6376aeb9eb5dfdb419791203435d8b2154ba4fa5d9f48f98b724"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-1440-no-preference-harmony-outcome.png",
+      "bytes": 53436,
+      "sha256": "46c11524ef873378a85cdaf89e61416a0ac2eacb378dcdf35cb3f6267deeeefa"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-1440-no-preference-harmony-primitives.png",
+      "bytes": 73161,
+      "sha256": "f7282d786d76c2e29774f37a2e75cd45d88084e026d4af0e4af6401d6ab8a2c8"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-1440-no-preference-harmony-problem.png",
+      "bytes": 265739,
+      "sha256": "ee07df8e412931eccd796473c84ab23b96ab7e855ebd22bef75a511898f272ee"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-1440-no-preference-harmony-progress.png",
+      "bytes": 76499,
+      "sha256": "856efddbf8e2a19a03a5d692f64ff478475d890f7d748ad6a9e05fb63e4968e2"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-1440-no-preference-harmony-responsive.png",
+      "bytes": 85529,
+      "sha256": "b1bfc40532e9b0a26780fa21f1b322c85bef6198eb660c601709c292aae7f624"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-1440-no-preference-harmony-role.png",
+      "bytes": 88882,
+      "sha256": "bc0a7d33d53f169406ad6e5f81406c648df322de1b991e741ca0becfd4fdd932"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-1440-no-preference-harmony-semantics.png",
+      "bytes": 82429,
+      "sha256": "17dfe322c9394107d7b5e1a025b67e9593e460286e77dbd9b11956de216509c8"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-1440-reduce-.png",
+      "bytes": 54057,
+      "sha256": "80fbf376cd9024bb8dc6dfb956529712c351603de1199881cb2535cb12ba93fa"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-1440-reduce-harmony-buttons.png",
+      "bytes": 125883,
+      "sha256": "d7139f719556379b38e9de39719980c2031abbe97f1531c16108ca2e5a919a81"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-1440-reduce-harmony-components.png",
+      "bytes": 82769,
+      "sha256": "57d7a2b0ee6b770cd82d1316319feee3223a33bdfefbe4567fd46d0b341ef261"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-1440-reduce-harmony-decisions.png",
+      "bytes": 57813,
+      "sha256": "ed02cc87786e3c980a12687e57c8463ed12e6488359cfa85e1edca3342aae070"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-1440-reduce-harmony-foundations.png",
+      "bytes": 77355,
+      "sha256": "9773e3d506e4e273a1be704ebffddce68fe475c8b9c04003307510900a50b6d9"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-1440-reduce-harmony-navigation.png",
+      "bytes": 95808,
+      "sha256": "5cb45565915c6376aeb9eb5dfdb419791203435d8b2154ba4fa5d9f48f98b724"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-1440-reduce-harmony-outcome.png",
+      "bytes": 53436,
+      "sha256": "46c11524ef873378a85cdaf89e61416a0ac2eacb378dcdf35cb3f6267deeeefa"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-1440-reduce-harmony-primitives.png",
+      "bytes": 73161,
+      "sha256": "f7282d786d76c2e29774f37a2e75cd45d88084e026d4af0e4af6401d6ab8a2c8"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-1440-reduce-harmony-problem.png",
+      "bytes": 265739,
+      "sha256": "ee07df8e412931eccd796473c84ab23b96ab7e855ebd22bef75a511898f272ee"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-1440-reduce-harmony-progress.png",
+      "bytes": 76499,
+      "sha256": "856efddbf8e2a19a03a5d692f64ff478475d890f7d748ad6a9e05fb63e4968e2"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-1440-reduce-harmony-responsive.png",
+      "bytes": 85529,
+      "sha256": "b1bfc40532e9b0a26780fa21f1b322c85bef6198eb660c601709c292aae7f624"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-1440-reduce-harmony-role.png",
+      "bytes": 88882,
+      "sha256": "bc0a7d33d53f169406ad6e5f81406c648df322de1b991e741ca0becfd4fdd932"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-1440-reduce-harmony-semantics.png",
+      "bytes": 82429,
+      "sha256": "17dfe322c9394107d7b5e1a025b67e9593e460286e77dbd9b11956de216509c8"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-320-no-preference-.png",
+      "bytes": 47628,
+      "sha256": "d652b76629e91209205a0bd628e6c57a59b5782cfe712d57afef3d8a953059ab"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-320-no-preference-harmony-buttons.png",
+      "bytes": 42797,
+      "sha256": "d49d8472043f79deb2f0a5e046d7c5e70ea6ccd726a413aacf29d00616c59f62"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-320-no-preference-harmony-components.png",
+      "bytes": 37958,
+      "sha256": "51d1fdf62c035dcc6a17c3c42ca66b572b94ef017ee8feb7ae4d09e63e035ad0"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-320-no-preference-harmony-decisions.png",
+      "bytes": 36982,
+      "sha256": "2746b126a08621176385e9432288c1d536da7df605233b2b4e73f278c131651b"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-320-no-preference-harmony-foundations.png",
+      "bytes": 44651,
+      "sha256": "d16bdad938733f6c4a21f02878040dccd223907831eadf17633fa93a5ac58f0b"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-320-no-preference-harmony-navigation.png",
+      "bytes": 66966,
+      "sha256": "630b4e436462a7cb0974d3906d27ce61b1917b23eaff257dface2bf669853cbe"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-320-no-preference-harmony-outcome.png",
+      "bytes": 31403,
+      "sha256": "f4ba373898dfeecf9760cd36c6db01561b4442565e2bcd2d018ff93ce0468410"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-320-no-preference-harmony-primitives.png",
+      "bytes": 50275,
+      "sha256": "4ec9c33b64e32e7450c9355055231d74d95c92232432d14047a3c83377a03d92"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-320-no-preference-harmony-problem.png",
+      "bytes": 70181,
+      "sha256": "2cca85dd8cf567505d69f9f5b3b64c4477f9f09368f649f39ad3df06796bb524"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-320-no-preference-harmony-progress.png",
+      "bytes": 37341,
+      "sha256": "b93e93868bd4a8c74c970b4e07c65711fe3a6d9ae8308b363cf87a36c381b0d6"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-320-no-preference-harmony-responsive.png",
+      "bytes": 30890,
+      "sha256": "4528ea7df1bf3f25cd99aad37e9ce72bf8a19305998bd594ff516d478a76a33b"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-320-no-preference-harmony-role.png",
+      "bytes": 40228,
+      "sha256": "22b04b3b31db8abae0a00fc560964c0304fb489a054af1eb9bbb6d1bb97fd845"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-320-no-preference-harmony-semantics.png",
+      "bytes": 32403,
+      "sha256": "0297f32497eb38c830dedf6a1ef4329138c59530cb500b7b759323c2512f8674"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-320-reduce-.png",
+      "bytes": 47628,
+      "sha256": "d652b76629e91209205a0bd628e6c57a59b5782cfe712d57afef3d8a953059ab"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-320-reduce-harmony-buttons.png",
+      "bytes": 42797,
+      "sha256": "d49d8472043f79deb2f0a5e046d7c5e70ea6ccd726a413aacf29d00616c59f62"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-320-reduce-harmony-components.png",
+      "bytes": 37958,
+      "sha256": "51d1fdf62c035dcc6a17c3c42ca66b572b94ef017ee8feb7ae4d09e63e035ad0"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-320-reduce-harmony-decisions.png",
+      "bytes": 36982,
+      "sha256": "2746b126a08621176385e9432288c1d536da7df605233b2b4e73f278c131651b"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-320-reduce-harmony-foundations.png",
+      "bytes": 44651,
+      "sha256": "d16bdad938733f6c4a21f02878040dccd223907831eadf17633fa93a5ac58f0b"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-320-reduce-harmony-navigation.png",
+      "bytes": 66966,
+      "sha256": "630b4e436462a7cb0974d3906d27ce61b1917b23eaff257dface2bf669853cbe"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-320-reduce-harmony-outcome.png",
+      "bytes": 31403,
+      "sha256": "f4ba373898dfeecf9760cd36c6db01561b4442565e2bcd2d018ff93ce0468410"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-320-reduce-harmony-primitives.png",
+      "bytes": 50275,
+      "sha256": "4ec9c33b64e32e7450c9355055231d74d95c92232432d14047a3c83377a03d92"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-320-reduce-harmony-problem.png",
+      "bytes": 70181,
+      "sha256": "2cca85dd8cf567505d69f9f5b3b64c4477f9f09368f649f39ad3df06796bb524"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-320-reduce-harmony-progress.png",
+      "bytes": 37341,
+      "sha256": "b93e93868bd4a8c74c970b4e07c65711fe3a6d9ae8308b363cf87a36c381b0d6"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-320-reduce-harmony-responsive.png",
+      "bytes": 30890,
+      "sha256": "4528ea7df1bf3f25cd99aad37e9ce72bf8a19305998bd594ff516d478a76a33b"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-320-reduce-harmony-role.png",
+      "bytes": 40228,
+      "sha256": "22b04b3b31db8abae0a00fc560964c0304fb489a054af1eb9bbb6d1bb97fd845"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-320-reduce-harmony-semantics.png",
+      "bytes": 32403,
+      "sha256": "0297f32497eb38c830dedf6a1ef4329138c59530cb500b7b759323c2512f8674"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-375-no-preference-.png",
+      "bytes": 39505,
+      "sha256": "cb105fa0d865e7648206d33fdb848e4255af01ad26879a4b2b08fe16dc1d913f"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-375-no-preference-harmony-buttons.png",
+      "bytes": 49864,
+      "sha256": "c671bea0cf86eca68c491c99eb396a3f92f1f702965c9937f748321e46494010"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-375-no-preference-harmony-components.png",
+      "bytes": 38936,
+      "sha256": "c08f99b1a9af6ea84bc2b679dec3b52f6178315abc2abec3f8a0d7cadaaa4375"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-375-no-preference-harmony-decisions.png",
+      "bytes": 39505,
+      "sha256": "cb105fa0d865e7648206d33fdb848e4255af01ad26879a4b2b08fe16dc1d913f"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-375-no-preference-harmony-foundations.png",
+      "bytes": 44421,
+      "sha256": "208fe4b60855eac4428335259900361f0d62ca0697a9e9ea9f5d6f84ce286244"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-375-no-preference-harmony-navigation.png",
+      "bytes": 74045,
+      "sha256": "8308541b9a611dc4aee5674fb896db6e2324a73335b522da8f71f93d45546b06"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-375-no-preference-harmony-outcome.png",
+      "bytes": 42128,
+      "sha256": "f4ffe233f240b25f478258321c545c344f0a056654b31323cad725e0aa5cb063"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-375-no-preference-harmony-primitives.png",
+      "bytes": 48662,
+      "sha256": "3fdbba0bd6c3754ac53ed1c672f4f808c6901f0dde8e601a24ddaae6be4772be"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-375-no-preference-harmony-problem.png",
+      "bytes": 79745,
+      "sha256": "1ed4a4c0ac989e14b4808afcfe7820b626077de6a9b7d45f8d35d28fc0eb6e5a"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-375-no-preference-harmony-progress.png",
+      "bytes": 43876,
+      "sha256": "ea8e1c63c9dd762351908744761e0de2c0285016f4970f022d0aa54040b92693"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-375-no-preference-harmony-responsive.png",
+      "bytes": 42555,
+      "sha256": "b749cdf108653137040fb5bcc6a983911fc8b97f09d9a73f8593b9c784a2a4fe"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-375-no-preference-harmony-role.png",
+      "bytes": 44788,
+      "sha256": "da82a0edfe780ded0bd4e58ba37956ed48e10c149f0dc7c30fffc5f0db00ee8b"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-375-no-preference-harmony-semantics.png",
+      "bytes": 41535,
+      "sha256": "6e9989a2637ce9e847efa702cb5e3122c9d7560766420eb75d40f6eaaa98f1a9"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-375-reduce-.png",
+      "bytes": 39505,
+      "sha256": "cb105fa0d865e7648206d33fdb848e4255af01ad26879a4b2b08fe16dc1d913f"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-375-reduce-harmony-buttons.png",
+      "bytes": 49864,
+      "sha256": "c671bea0cf86eca68c491c99eb396a3f92f1f702965c9937f748321e46494010"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-375-reduce-harmony-components.png",
+      "bytes": 38936,
+      "sha256": "c08f99b1a9af6ea84bc2b679dec3b52f6178315abc2abec3f8a0d7cadaaa4375"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-375-reduce-harmony-decisions.png",
+      "bytes": 39505,
+      "sha256": "cb105fa0d865e7648206d33fdb848e4255af01ad26879a4b2b08fe16dc1d913f"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-375-reduce-harmony-foundations.png",
+      "bytes": 44421,
+      "sha256": "208fe4b60855eac4428335259900361f0d62ca0697a9e9ea9f5d6f84ce286244"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-375-reduce-harmony-navigation.png",
+      "bytes": 74045,
+      "sha256": "8308541b9a611dc4aee5674fb896db6e2324a73335b522da8f71f93d45546b06"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-375-reduce-harmony-outcome.png",
+      "bytes": 42128,
+      "sha256": "f4ffe233f240b25f478258321c545c344f0a056654b31323cad725e0aa5cb063"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-375-reduce-harmony-primitives.png",
+      "bytes": 48662,
+      "sha256": "3fdbba0bd6c3754ac53ed1c672f4f808c6901f0dde8e601a24ddaae6be4772be"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-375-reduce-harmony-problem.png",
+      "bytes": 79745,
+      "sha256": "1ed4a4c0ac989e14b4808afcfe7820b626077de6a9b7d45f8d35d28fc0eb6e5a"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-375-reduce-harmony-progress.png",
+      "bytes": 43876,
+      "sha256": "ea8e1c63c9dd762351908744761e0de2c0285016f4970f022d0aa54040b92693"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-375-reduce-harmony-responsive.png",
+      "bytes": 42555,
+      "sha256": "b749cdf108653137040fb5bcc6a983911fc8b97f09d9a73f8593b9c784a2a4fe"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-375-reduce-harmony-role.png",
+      "bytes": 44788,
+      "sha256": "da82a0edfe780ded0bd4e58ba37956ed48e10c149f0dc7c30fffc5f0db00ee8b"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-375-reduce-harmony-semantics.png",
+      "bytes": 41535,
+      "sha256": "6e9989a2637ce9e847efa702cb5e3122c9d7560766420eb75d40f6eaaa98f1a9"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-768-no-preference-.png",
+      "bytes": 49397,
+      "sha256": "d64b83c5350a8edfb027f74c687d7e54943531b5f5737339b7c4f6874c2ceefa"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-768-no-preference-harmony-buttons.png",
+      "bytes": 102049,
+      "sha256": "90194041495e7dfbd58cb5e9767e2ea6da07ea4032ab1d530fc4542043c977ab"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-768-no-preference-harmony-components.png",
+      "bytes": 57454,
+      "sha256": "73e1fa108f4ceb60de17bb154ba19bc2e3dbb0300e1953153b98129cf778ac55"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-768-no-preference-harmony-decisions.png",
+      "bytes": 47991,
+      "sha256": "ba4038dcaad8b5eaea3f2df0c3ed52e572117b35a3c141066dbc00ceb6b92aeb"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-768-no-preference-harmony-foundations.png",
+      "bytes": 69813,
+      "sha256": "12459f03cb91e816ea22bcd1814d39e14573699f78183aaa99eae5d75b7c06c4"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-768-no-preference-harmony-navigation.png",
+      "bytes": 109044,
+      "sha256": "8786a40a60611b050c7b61fc771867ca0b2b8f79219d9c67f30ce5e16c93406d"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-768-no-preference-harmony-outcome.png",
+      "bytes": 62802,
+      "sha256": "c845d65ff9c96ead2b5f4181fdebed3fbec3be8c4807892dd2549b66c9263d98"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-768-no-preference-harmony-primitives.png",
+      "bytes": 65646,
+      "sha256": "5ac109bf3935f4eca7b034750b7fcf5a0e19f7bbe2abca993d5c51791e331ee6"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-768-no-preference-harmony-problem.png",
+      "bytes": 133576,
+      "sha256": "9d3c7f818411dec65c4b5b540d379d4a317cdf37ae7c0952ec17856d9940b327"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-768-no-preference-harmony-progress.png",
+      "bytes": 64514,
+      "sha256": "e555939719816fe8e32679096532302e9c7c67882fcb3e1fd140d184a038ac0e"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-768-no-preference-harmony-responsive.png",
+      "bytes": 54432,
+      "sha256": "604b05db6aebbc28e3eec14ac1a1a6237eeb6d70d303a05b3ad4c9885c23b0d8"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-768-no-preference-harmony-role.png",
+      "bytes": 73939,
+      "sha256": "5925da37ed28aee9c81c64c707eef2c5bf2d90270c42df4483694df41699b017"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-768-no-preference-harmony-semantics.png",
+      "bytes": 46229,
+      "sha256": "2d9a36898941acd1e19128125321b1c010726b2d458f9f080a79fb7768b6a646"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-768-reduce-.png",
+      "bytes": 49397,
+      "sha256": "d64b83c5350a8edfb027f74c687d7e54943531b5f5737339b7c4f6874c2ceefa"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-768-reduce-harmony-buttons.png",
+      "bytes": 102049,
+      "sha256": "90194041495e7dfbd58cb5e9767e2ea6da07ea4032ab1d530fc4542043c977ab"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-768-reduce-harmony-components.png",
+      "bytes": 57454,
+      "sha256": "73e1fa108f4ceb60de17bb154ba19bc2e3dbb0300e1953153b98129cf778ac55"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-768-reduce-harmony-decisions.png",
+      "bytes": 47991,
+      "sha256": "ba4038dcaad8b5eaea3f2df0c3ed52e572117b35a3c141066dbc00ceb6b92aeb"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-768-reduce-harmony-foundations.png",
+      "bytes": 69813,
+      "sha256": "12459f03cb91e816ea22bcd1814d39e14573699f78183aaa99eae5d75b7c06c4"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-768-reduce-harmony-navigation.png",
+      "bytes": 109044,
+      "sha256": "8786a40a60611b050c7b61fc771867ca0b2b8f79219d9c67f30ce5e16c93406d"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-768-reduce-harmony-outcome.png",
+      "bytes": 62802,
+      "sha256": "c845d65ff9c96ead2b5f4181fdebed3fbec3be8c4807892dd2549b66c9263d98"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-768-reduce-harmony-primitives.png",
+      "bytes": 65646,
+      "sha256": "5ac109bf3935f4eca7b034750b7fcf5a0e19f7bbe2abca993d5c51791e331ee6"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-768-reduce-harmony-problem.png",
+      "bytes": 133576,
+      "sha256": "9d3c7f818411dec65c4b5b540d379d4a317cdf37ae7c0952ec17856d9940b327"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-768-reduce-harmony-progress.png",
+      "bytes": 64514,
+      "sha256": "e555939719816fe8e32679096532302e9c7c67882fcb3e1fd140d184a038ac0e"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-768-reduce-harmony-responsive.png",
+      "bytes": 54432,
+      "sha256": "604b05db6aebbc28e3eec14ac1a1a6237eeb6d70d303a05b3ad4c9885c23b0d8"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-768-reduce-harmony-role.png",
+      "bytes": 73939,
+      "sha256": "5925da37ed28aee9c81c64c707eef2c5bf2d90270c42df4483694df41699b017"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-completed-matrix/wheel-768-reduce-harmony-semantics.png",
+      "bytes": 46229,
+      "sha256": "2d9a36898941acd1e19128125321b1c010726b2d458f9f080a79fb7768b6a646"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-green-buttons/buttons-375.png",
+      "bytes": 147386,
+      "sha256": "2016990765890770d88df81aa9eccfb89b0abb49cad03b73e37e791ed2e0e331"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-green-buttons/results.json",
+      "bytes": 630,
+      "sha256": "4ad50751dce8e13af2bacb0f95b7e28b5dcf1916546a67315876d2ae0e1c4c43"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-green-navigation/component-navigation-375.png",
+      "bytes": 82257,
+      "sha256": "399d722b01c31b0c2ca4e1f2535aa3a08c23958ac551692a716dfac90ade2770"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-green-navigation/results.json",
+      "bytes": 826,
+      "sha256": "0877046e809436f632a674beb2ac5fa1a05e860e60c3740670d8864b780f9f9f"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-reading-captures/buttons-detail-1440-1.png",
+      "bytes": 173845,
+      "sha256": "9520812d5ce259284807b1cad5e4f997b5fe7306bc7dba4ca3d33d3eebfaf9e6"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-reading-captures/buttons-detail-1440-2.png",
+      "bytes": 88914,
+      "sha256": "ded30ae75d53cac1daf872115555c5ad5b11c8eb00efb0a94a4acc4f9e6556d9"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-reading-captures/buttons-detail-320-1.png",
+      "bytes": 98726,
+      "sha256": "789d63f87954b2083160dd984706efb472513da461bd79d8950af51aed53e852"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-reading-captures/buttons-detail-375-1.png",
+      "bytes": 118940,
+      "sha256": "e5fe190283c18dc1593f38e13f1eb2a5c55121a8c7193ef602bce95830f106cb"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-reading-captures/buttons-detail-375-2.png",
+      "bytes": 62398,
+      "sha256": "8512fa08424506e5b246a9c8f5de6fd365f480196f12abf248a0a4339d512767"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-reading-captures/buttons-detail-768-1.png",
+      "bytes": 132002,
+      "sha256": "6b22be46cbda6760cf6ea2168297f222376bf0f2dafb13b41abf11fbb7b488f3"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-reading-captures/buttons-detail-768-2.png",
+      "bytes": 96854,
+      "sha256": "1608d15a8499c996281c4feb354aeb809489fea91418396e8c118b9fd8fed03f"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-reading-captures/component-navigation-detail-1440-1.png",
+      "bytes": 88803,
+      "sha256": "427466e919915959139f18728c0468226daae2f6ac1b7dd360ceaf9b23a6901a"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-reading-captures/component-navigation-detail-1440-2.png",
+      "bytes": 43221,
+      "sha256": "549471c44cd0ee1b11085910c9f0d83050d1412083d5ab0edca69cc4375e5c2b"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-reading-captures/component-navigation-detail-320-1.png",
+      "bytes": 48562,
+      "sha256": "204a45b36ee62bc0c75d323c1e34c74185c3ca518b97ec7f4f14dcec0a17fbdd"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-reading-captures/component-navigation-detail-320-2.png",
+      "bytes": 36168,
+      "sha256": "1e95730cbcac4a4df98f71df405ae1c290c0432e72cac2070f7fc88041c0a9fb"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-reading-captures/component-navigation-detail-375-1.png",
+      "bytes": 49885,
+      "sha256": "28528ac17539fbd9a158990bb92682d6288d3f78fa4924da325eb25259d90aaf"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-reading-captures/component-navigation-detail-375-2.png",
+      "bytes": 34136,
+      "sha256": "230ca79d0b0ab8f7ab9eed6ee0414502460ae4424a802c036fe995de3b24c840"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-reading-captures/component-navigation-detail-768-1.png",
+      "bytes": 53575,
+      "sha256": "2d18470cd391e3bd8cba78c80168b9ae9f97ab713c37b36a4fd95739273f6cce"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-reading-captures/component-navigation-detail-768-2.png",
+      "bytes": 41092,
+      "sha256": "b6df16e9bb9bc69a8cd63c72827951ba856a5bafc2aae63007cf37ae5eee0885"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-reading-captures/primitives-detail-1440-1.png",
+      "bytes": 65389,
+      "sha256": "38433b2a19fcc8dce0510748d357a4a64d7f835382dca5817fddb4a0f37a4487"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-reading-captures/primitives-detail-1440-2.png",
+      "bytes": 92390,
+      "sha256": "6f7e5fc1cbbad2138b1510207c3109e26b27fc05cf874e5d184b4cc83b8482e4"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-reading-captures/primitives-detail-320-1.png",
+      "bytes": 25254,
+      "sha256": "5fe5324232f77dba4c519df994f181837bf2149995a4eee95fea8f7eadfc2acf"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-reading-captures/primitives-detail-375-1.png",
+      "bytes": 25234,
+      "sha256": "4c0e914fb685ad38401c199d2be41371fbbcdbd0095172aa18c01169b013c5bd"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-reading-captures/primitives-detail-768-1.png",
+      "bytes": 26922,
+      "sha256": "aa6cc455a81b69f9eb18a34ff09cbfcb569d39e2365d87967ccfbb7abf70d874"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-reading-captures/responsive-detail-1440-1.png",
+      "bytes": 79529,
+      "sha256": "1a965ccc1f333c6da8e633f097684c2ac18e6a56301b52987f715ed3a06e14fd"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-reading-captures/responsive-detail-1440-2.png",
+      "bytes": 60112,
+      "sha256": "b92ae4fb36560e85f6a6159fe34369247896930ad11073cab4d360a5ec4b1066"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-reading-captures/responsive-detail-320-1.png",
+      "bytes": 30131,
+      "sha256": "5fadbfba2b86aac0e47cb841bc4e6f4962ef78519d1125c5db69c619dae94a86"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-reading-captures/responsive-detail-320-2.png",
+      "bytes": 29479,
+      "sha256": "f43ed49c9f3c1d531e1728c2043667cb496d8976c5d4f859ffc4bbab7ff347d6"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-reading-captures/responsive-detail-375-1.png",
+      "bytes": 33140,
+      "sha256": "2c2243d97f91a80db15ae964b054f6597a0f712953d242f3ca6ed4b1024983ca"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-reading-captures/responsive-detail-375-2.png",
+      "bytes": 35702,
+      "sha256": "9c520341dc7d6b2a4b08b11e85bd2022615ef2c2072c56de1793573946621e98"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-reading-captures/responsive-detail-375-3.png",
+      "bytes": 35978,
+      "sha256": "fda2f98982eac3e3c59f8eb363310ff247fad1b76b0c92b9b34722a4b950d58c"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-reading-captures/responsive-detail-768-1.png",
+      "bytes": 36110,
+      "sha256": "d40e0119192c4a16b18413abed869c57c0a9e424e731971ee163e5fc19d8fcaf"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-reading-captures/responsive-detail-768-2.png",
+      "bytes": 35147,
+      "sha256": "e162bf080df4cbabf41b4e16eee5fceaa80851a8cdbfc8ccd278f9e66909da4d"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-reading-captures/responsive-detail-768-3.png",
+      "bytes": 38288,
+      "sha256": "405b4cd7fc2de359bb0520c090a7972514d08a74a4027ab393dd517c3476b1a1"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-reading-captures/responsive-detail-768-4.png",
+      "bytes": 59496,
+      "sha256": "d251b71b3edc9fec3b572ee3e7a81f5d09239abb828625371fa3cce1a8b1ed03"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-reading-captures/results.json",
+      "bytes": 3262,
+      "sha256": "62505e0b27bffcfff97ffe46a322de511ff7f19ae75546ee3d18006a61c481dc"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-reading-captures/semantics-detail-1440-1.png",
+      "bytes": 76793,
+      "sha256": "29b458627b466e8e83f1e7ccc4cbaa9f545ac26460ede1f1283db1ebe2b9abfd"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-reading-captures/semantics-detail-320-1.png",
+      "bytes": 28073,
+      "sha256": "b184f4e63f4c8ea8bede10ba063583979b2b5507ad00b6daf27872998aaee008"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-reading-captures/semantics-detail-375-1.png",
+      "bytes": 26795,
+      "sha256": "1ca26fa357ebdebfdf29a3172179f947b25bb36857926f7b412d4ff9847e9eac"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-reading-captures/semantics-detail-768-1.png",
+      "bytes": 27347,
+      "sha256": "81eeff57cffac5bc1ba68ac5d858deea3682d7d4c9a94591b1d49cb86cdd7928"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-reading-captures/semantics-detail-768-2.png",
+      "bytes": 55018,
+      "sha256": "33505d865bbb2fa1bce8f5784d5746b44cf9502d47dbb8e6473f1487a87f2880"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-red-buttons/missing-evidence-375.png",
+      "bytes": 31455,
+      "sha256": "b8e022eb17a0385344f713c5c5ded01f311dffc050435061a5ce433d364a47f7"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-red-buttons/results.json",
+      "bytes": 401,
+      "sha256": "f32ac2e8f3059182ce2d6279d451b2a3c0db9b3a25ea8e704902cb1c1f379c16"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-red-navigation/missing-evidence-375.png",
+      "bytes": 31455,
+      "sha256": "b8e022eb17a0385344f713c5c5ded01f311dffc050435061a5ce433d364a47f7"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-red-navigation/results.json",
+      "bytes": 414,
+      "sha256": "c49c89390757102414c4ab40ba4f8bd9541ffe7acd6dc1b81bfec358b32c21df"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-red-navigation-content/missing-evidence-375.png",
+      "bytes": 31455,
+      "sha256": "b8e022eb17a0385344f713c5c5ded01f311dffc050435061a5ce433d364a47f7"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-red-navigation-content/results.json",
+      "bytes": 572,
+      "sha256": "c8f8505770ebe374aabf2bb271f9bcb11095d36a8f6f144e2a7b2ef59cc5f11a"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-source-inspection/buttons-source-detail.png",
+      "bytes": 75687,
+      "sha256": "fa39f6b01a7c8f8444aad75b2d854990b5c3ce211d2fe865ce7092b439f73d82"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-source-inspection/intranet-profile-source-detail.png",
+      "bytes": 23475,
+      "sha256": "b5a4cb02715cf8e1428ef8b2bbe5772d91b0d6e57ffb49222025f5b242de900d"
+    },
+    {
+      "path": ".scratch/harmony/qa/components-source-inspection/portal-profile-source-detail.png",
+      "bytes": 26781,
+      "sha256": "64a721daa129ab2327940b0f41c5ee2c4ce717f69aa69e91c223ced4da01669a"
+    }
+  ],
+  "summary": {
+    "files": 240,
+    "pngs": 232
+  }
+}

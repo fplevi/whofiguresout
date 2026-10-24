@@ -1,0 +1,1119 @@
+{
+  "checks": [
+    {
+      "name": "320: one h1 and no skipped heading level",
+      "ok": true,
+      "detail": [
+        1,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "320: navigation, next project and contact reachable by Tab",
+      "ok": true,
+      "detail": [
+        {
+          "tag": "A",
+          "name": "Felipe Levi",
+          "href": "../",
+          "outline": "solid",
+          "width": "3px",
+          "left": 24,
+          "right": 107
+        },
+        {
+          "tag": "A",
+          "name": "Work",
+          "href": "../#work",
+          "outline": "solid",
+          "width": "2px",
+          "left": 146.859375,
+          "right": 179.046875
+        },
+        {
+          "tag": "A",
+          "name": "Contact",
+          "href": "../#contact",
+          "outline": "solid",
+          "width": "2px",
+          "left": 195.046875,
+          "right": 243.328125
+        },
+        {
+          "tag": "A",
+          "name": "About",
+          "href": "../#about",
+          "outline": "solid",
+          "width": "2px",
+          "left": 259.328125,
+          "right": 296
+        },
+        {
+          "tag": "A",
+          "name": "← Back to work",
+          "href": "../",
+          "outline": "solid",
+          "width": "2px",
+          "left": 24,
+          "right": 296
+        },
+        {
+          "tag": "A",
+          "name": "Billing & Debt Recovery →",
+          "href": "billing.html",
+          "outline": "solid",
+          "width": "2px",
+          "left": 24,
+          "right": 296
+        },
+        {
+          "tag": "A",
+          "name": "fplevi@gmail.com",
+          "href": "mailto:fplevi@gmail.com",
+          "outline": "solid",
+          "width": "2px",
+          "left": 24,
+          "right": 161.28125
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Copy email address",
+          "href": null,
+          "outline": "solid",
+          "width": "2px",
+          "left": 165.28125,
+          "right": 197.28125
+        },
+        {
+          "tag": "A",
+          "name": "LinkedIn",
+          "href": "https://linkedin.com/in/fplevi",
+          "outline": "solid",
+          "width": "2px",
+          "left": 225.890625,
+          "right": 290.453125
+        },
+        {
+          "tag": "INPUT",
+          "name": "Your name",
+          "href": null,
+          "outline": "solid",
+          "width": "2px",
+          "left": 24,
+          "right": 296
+        },
+        {
+          "tag": "INPUT",
+          "name": "Your email",
+          "href": null,
+          "outline": "solid",
+          "width": "2px",
+          "left": 24,
+          "right": 296
+        },
+        {
+          "tag": "TEXTAREA",
+          "name": "Your message",
+          "href": null,
+          "outline": "solid",
+          "width": "2px",
+          "left": 24,
+          "right": 296
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Send message",
+          "href": null,
+          "outline": "solid",
+          "width": "2px",
+          "left": 128,
+          "right": 296
+        }
+      ]
+    },
+    {
+      "name": "320: visible focus on interactive elements",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320: contact present, never submitted",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320: orientation and explanatory text calculated contrast >=4.5",
+      "ok": true,
+      "detail": [
+        {
+          "text": "We chose a shared library as the common reference for compon",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Primitive scales, semantic roles, and responsive variables d",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Selected steps from the Primary blue and Secondary yellow sc",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Selected source crops. On narrow screens, the two lightest s",
+          "font": "15px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Semantic names describe how color is used. Surface and Borde",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Surface and Border retain their role names. On narrow screen",
+          "font": "15px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Desktop, Tablet, and Mobile modes adapt the foundation to di",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "On narrow screens, three source selections pair the same var",
+          "font": "15px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        }
+      ]
+    },
+    {
+      "name": "320: keyboard destination Work",
+      "ok": true,
+      "detail": "http://localhost:8011/#work"
+    },
+    {
+      "name": "320: keyboard destination About",
+      "ok": true,
+      "detail": "http://localhost:8011/#about"
+    },
+    {
+      "name": "320: keyboard destination Contact",
+      "ok": true,
+      "detail": "http://localhost:8011/#contact"
+    },
+    {
+      "name": "320: keyboard destination Felipe Levi",
+      "ok": true,
+      "detail": "http://localhost:8011/"
+    },
+    {
+      "name": "320: keyboard destination ← Back to work",
+      "ok": true,
+      "detail": "http://localhost:8011/"
+    },
+    {
+      "name": "320: keyboard destination Billing & Debt Recovery →",
+      "ok": true,
+      "detail": "http://localhost:8011/case-studies/billing.html"
+    },
+    {
+      "name": "375: one h1 and no skipped heading level",
+      "ok": true,
+      "detail": [
+        1,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "375: navigation, next project and contact reachable by Tab",
+      "ok": true,
+      "detail": [
+        {
+          "tag": "A",
+          "name": "Felipe Levi",
+          "href": "../",
+          "outline": "solid",
+          "width": "3px",
+          "left": 24,
+          "right": 107
+        },
+        {
+          "tag": "A",
+          "name": "Work",
+          "href": "../#work",
+          "outline": "solid",
+          "width": "2px",
+          "left": 201.859375,
+          "right": 234.046875
+        },
+        {
+          "tag": "A",
+          "name": "Contact",
+          "href": "../#contact",
+          "outline": "solid",
+          "width": "2px",
+          "left": 250.046875,
+          "right": 298.328125
+        },
+        {
+          "tag": "A",
+          "name": "About",
+          "href": "../#about",
+          "outline": "solid",
+          "width": "2px",
+          "left": 314.328125,
+          "right": 351
+        },
+        {
+          "tag": "A",
+          "name": "← Back to work",
+          "href": "../",
+          "outline": "solid",
+          "width": "2px",
+          "left": 24,
+          "right": 351
+        },
+        {
+          "tag": "A",
+          "name": "Billing & Debt Recovery →",
+          "href": "billing.html",
+          "outline": "solid",
+          "width": "2px",
+          "left": 24,
+          "right": 351
+        },
+        {
+          "tag": "A",
+          "name": "fplevi@gmail.com",
+          "href": "mailto:fplevi@gmail.com",
+          "outline": "solid",
+          "width": "2px",
+          "left": 24,
+          "right": 161.28125
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Copy email address",
+          "href": null,
+          "outline": "solid",
+          "width": "2px",
+          "left": 165.28125,
+          "right": 197.28125
+        },
+        {
+          "tag": "A",
+          "name": "LinkedIn",
+          "href": "https://linkedin.com/in/fplevi",
+          "outline": "solid",
+          "width": "2px",
+          "left": 225.890625,
+          "right": 290.453125
+        },
+        {
+          "tag": "INPUT",
+          "name": "Your name",
+          "href": null,
+          "outline": "solid",
+          "width": "2px",
+          "left": 24,
+          "right": 351
+        },
+        {
+          "tag": "INPUT",
+          "name": "Your email",
+          "href": null,
+          "outline": "solid",
+          "width": "2px",
+          "left": 24,
+          "right": 351
+        },
+        {
+          "tag": "TEXTAREA",
+          "name": "Your message",
+          "href": null,
+          "outline": "solid",
+          "width": "2px",
+          "left": 24,
+          "right": 351
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Send message",
+          "href": null,
+          "outline": "solid",
+          "width": "2px",
+          "left": 183,
+          "right": 351
+        }
+      ]
+    },
+    {
+      "name": "375: visible focus on interactive elements",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375: contact present, never submitted",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375: orientation and explanatory text calculated contrast >=4.5",
+      "ok": true,
+      "detail": [
+        {
+          "text": "We chose a shared library as the common reference for compon",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Primitive scales, semantic roles, and responsive variables d",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Selected steps from the Primary blue and Secondary yellow sc",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Selected source crops. On narrow screens, the two lightest s",
+          "font": "15px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Semantic names describe how color is used. Surface and Borde",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Surface and Border retain their role names. On narrow screen",
+          "font": "15px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Desktop, Tablet, and Mobile modes adapt the foundation to di",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "On narrow screens, three source selections pair the same var",
+          "font": "15px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        }
+      ]
+    },
+    {
+      "name": "375: keyboard destination Work",
+      "ok": true,
+      "detail": "http://localhost:8011/#work"
+    },
+    {
+      "name": "375: keyboard destination About",
+      "ok": true,
+      "detail": "http://localhost:8011/#about"
+    },
+    {
+      "name": "375: keyboard destination Contact",
+      "ok": true,
+      "detail": "http://localhost:8011/#contact"
+    },
+    {
+      "name": "375: keyboard destination Felipe Levi",
+      "ok": true,
+      "detail": "http://localhost:8011/"
+    },
+    {
+      "name": "375: keyboard destination ← Back to work",
+      "ok": true,
+      "detail": "http://localhost:8011/"
+    },
+    {
+      "name": "375: keyboard destination Billing & Debt Recovery →",
+      "ok": true,
+      "detail": "http://localhost:8011/case-studies/billing.html"
+    },
+    {
+      "name": "768: one h1 and no skipped heading level",
+      "ok": true,
+      "detail": [
+        1,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "768: navigation, next project and contact reachable by Tab",
+      "ok": true,
+      "detail": [
+        {
+          "tag": "A",
+          "name": "Felipe Levi",
+          "href": "../",
+          "outline": "solid",
+          "width": "3px",
+          "left": 24,
+          "right": 107
+        },
+        {
+          "tag": "A",
+          "name": "Work",
+          "href": "../#work",
+          "outline": "solid",
+          "width": "2px",
+          "left": 560.84375,
+          "right": 597.984375
+        },
+        {
+          "tag": "A",
+          "name": "Contact",
+          "href": "../#contact",
+          "outline": "solid",
+          "width": "2px",
+          "left": 621.984375,
+          "right": 677.6875
+        },
+        {
+          "tag": "A",
+          "name": "About",
+          "href": "../#about",
+          "outline": "solid",
+          "width": "2px",
+          "left": 701.6875,
+          "right": 744
+        },
+        {
+          "tag": "A",
+          "name": "← Back to work",
+          "href": "../",
+          "outline": "solid",
+          "width": "2px",
+          "left": 24,
+          "right": 744
+        },
+        {
+          "tag": "A",
+          "name": "Billing & Debt Recovery →",
+          "href": "billing.html",
+          "outline": "solid",
+          "width": "2px",
+          "left": 24,
+          "right": 744
+        },
+        {
+          "tag": "A",
+          "name": "fplevi@gmail.com",
+          "href": "mailto:fplevi@gmail.com",
+          "outline": "solid",
+          "width": "2px",
+          "left": 24,
+          "right": 161.28125
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Copy email address",
+          "href": null,
+          "outline": "solid",
+          "width": "2px",
+          "left": 165.28125,
+          "right": 197.28125
+        },
+        {
+          "tag": "A",
+          "name": "LinkedIn",
+          "href": "https://linkedin.com/in/fplevi",
+          "outline": "solid",
+          "width": "2px",
+          "left": 225.890625,
+          "right": 290.453125
+        },
+        {
+          "tag": "INPUT",
+          "name": "Your name",
+          "href": null,
+          "outline": "solid",
+          "width": "2px",
+          "left": 24,
+          "right": 744
+        },
+        {
+          "tag": "INPUT",
+          "name": "Your email",
+          "href": null,
+          "outline": "solid",
+          "width": "2px",
+          "left": 24,
+          "right": 744
+        },
+        {
+          "tag": "TEXTAREA",
+          "name": "Your message",
+          "href": null,
+          "outline": "solid",
+          "width": "2px",
+          "left": 24,
+          "right": 744
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Send message",
+          "href": null,
+          "outline": "solid",
+          "width": "2px",
+          "left": 576,
+          "right": 744
+        }
+      ]
+    },
+    {
+      "name": "768: visible focus on interactive elements",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768: contact present, never submitted",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768: orientation and explanatory text calculated contrast >=4.5",
+      "ok": true,
+      "detail": [
+        {
+          "text": "We chose a shared library as the common reference for compon",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Primitive scales, semantic roles, and responsive variables d",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Selected steps from the Primary blue and Secondary yellow sc",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Selected source crops. On narrow screens, the two lightest s",
+          "font": "15px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Semantic names describe how color is used. Surface and Borde",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Surface and Border retain their role names. On narrow screen",
+          "font": "15px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Desktop, Tablet, and Mobile modes adapt the foundation to di",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "On narrow screens, three source selections pair the same var",
+          "font": "15px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        }
+      ]
+    },
+    {
+      "name": "768: keyboard destination Work",
+      "ok": true,
+      "detail": "http://localhost:8011/#work"
+    },
+    {
+      "name": "768: keyboard destination About",
+      "ok": true,
+      "detail": "http://localhost:8011/#about"
+    },
+    {
+      "name": "768: keyboard destination Contact",
+      "ok": true,
+      "detail": "http://localhost:8011/#contact"
+    },
+    {
+      "name": "768: keyboard destination Felipe Levi",
+      "ok": true,
+      "detail": "http://localhost:8011/"
+    },
+    {
+      "name": "768: keyboard destination ← Back to work",
+      "ok": true,
+      "detail": "http://localhost:8011/"
+    },
+    {
+      "name": "768: keyboard destination Billing & Debt Recovery →",
+      "ok": true,
+      "detail": "http://localhost:8011/case-studies/billing.html"
+    },
+    {
+      "name": "1440: one h1 and no skipped heading level",
+      "ok": true,
+      "detail": [
+        1,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "1440: navigation, next project and contact reachable by Tab",
+      "ok": true,
+      "detail": [
+        {
+          "tag": "A",
+          "name": "Felipe Levi",
+          "href": "../",
+          "outline": "solid",
+          "width": "3px",
+          "left": 80,
+          "right": 163
+        },
+        {
+          "tag": "A",
+          "name": "Work",
+          "href": "../#work",
+          "outline": "solid",
+          "width": "2px",
+          "left": 1128.84375,
+          "right": 1165.984375
+        },
+        {
+          "tag": "A",
+          "name": "Contact",
+          "href": "../#contact",
+          "outline": "solid",
+          "width": "2px",
+          "left": 1213.984375,
+          "right": 1269.6875
+        },
+        {
+          "tag": "A",
+          "name": "About",
+          "href": "../#about",
+          "outline": "solid",
+          "width": "2px",
+          "left": 1317.6875,
+          "right": 1360
+        },
+        {
+          "tag": "A",
+          "name": "← Back to work",
+          "href": "../",
+          "outline": "solid",
+          "width": "2px",
+          "left": 80,
+          "right": 1360
+        },
+        {
+          "tag": "A",
+          "name": "Billing & Debt Recovery →",
+          "href": "billing.html",
+          "outline": "solid",
+          "width": "2px",
+          "left": 80,
+          "right": 1360
+        },
+        {
+          "tag": "A",
+          "name": "fplevi@gmail.com",
+          "href": "mailto:fplevi@gmail.com",
+          "outline": "solid",
+          "width": "2px",
+          "left": 80,
+          "right": 217.28125
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Copy email address",
+          "href": null,
+          "outline": "solid",
+          "width": "2px",
+          "left": 221.28125,
+          "right": 253.28125
+        },
+        {
+          "tag": "A",
+          "name": "LinkedIn",
+          "href": "https://linkedin.com/in/fplevi",
+          "outline": "solid",
+          "width": "2px",
+          "left": 281.890625,
+          "right": 346.453125
+        },
+        {
+          "tag": "INPUT",
+          "name": "Your name",
+          "href": null,
+          "outline": "solid",
+          "width": "2px",
+          "left": 80,
+          "right": 1360
+        },
+        {
+          "tag": "INPUT",
+          "name": "Your email",
+          "href": null,
+          "outline": "solid",
+          "width": "2px",
+          "left": 80,
+          "right": 1360
+        },
+        {
+          "tag": "TEXTAREA",
+          "name": "Your message",
+          "href": null,
+          "outline": "solid",
+          "width": "2px",
+          "left": 80,
+          "right": 1360
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Send message",
+          "href": null,
+          "outline": "solid",
+          "width": "2px",
+          "left": 1192,
+          "right": 1360
+        }
+      ]
+    },
+    {
+      "name": "1440: visible focus on interactive elements",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440: contact present, never submitted",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440: orientation and explanatory text calculated contrast >=4.5",
+      "ok": true,
+      "detail": [
+        {
+          "text": "We chose a shared library as the common reference for compon",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Primitive scales, semantic roles, and responsive variables d",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Selected steps from the Primary blue and Secondary yellow sc",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Selected source crops. On narrow screens, the two lightest s",
+          "font": "15px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Semantic names describe how color is used. Surface and Borde",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Surface and Border retain their role names. On narrow screen",
+          "font": "15px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Desktop, Tablet, and Mobile modes adapt the foundation to di",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "On narrow screens, three source selections pair the same var",
+          "font": "15px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        }
+      ]
+    },
+    {
+      "name": "1440: keyboard destination Work",
+      "ok": true,
+      "detail": "http://localhost:8011/#work"
+    },
+    {
+      "name": "1440: keyboard destination About",
+      "ok": true,
+      "detail": "http://localhost:8011/#about"
+    },
+    {
+      "name": "1440: keyboard destination Contact",
+      "ok": true,
+      "detail": "http://localhost:8011/#contact"
+    },
+    {
+      "name": "1440: keyboard destination Felipe Levi",
+      "ok": true,
+      "detail": "http://localhost:8011/"
+    },
+    {
+      "name": "1440: keyboard destination ← Back to work",
+      "ok": true,
+      "detail": "http://localhost:8011/"
+    },
+    {
+      "name": "1440: keyboard destination Billing & Debt Recovery →",
+      "ok": true,
+      "detail": "http://localhost:8011/case-studies/billing.html"
+    }
+  ],
+  "console": [],
+  "failed_requests": [],
+  "environment": {
+    "browser": "156.0.8078.4",
+    "url": "http://localhost:8011/case-studies/harmony.html",
+    "viewportHeight": 700
+  },
+  "summary": {
+    "passed": 44,
+    "failed": 0
+  }
+}

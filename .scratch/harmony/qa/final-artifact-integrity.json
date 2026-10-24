@@ -1,0 +1,3421 @@
+{
+  "baseline": "f8f9034fb32de4b7839ac0a003db2bb791af883e",
+  "checks": [
+    {
+      "name": "only authorized existing files changed",
+      "ok": true
+    },
+    {
+      "name": "original bytes preserved: assets/images/harmony/buttons.png",
+      "ok": true
+    },
+    {
+      "name": "original bytes preserved: assets/images/harmony/color=primitives.png",
+      "ok": true
+    },
+    {
+      "name": "original bytes preserved: assets/images/harmony/components.png",
+      "ok": true
+    },
+    {
+      "name": "original bytes preserved: assets/images/harmony/harmony-antes.jpg",
+      "ok": true
+    },
+    {
+      "name": "original bytes preserved: assets/images/harmony/harmony-antes.png",
+      "ok": true
+    },
+    {
+      "name": "original bytes preserved: assets/images/harmony/harmony-depois.jpg",
+      "ok": true
+    },
+    {
+      "name": "original bytes preserved: assets/images/harmony/harmony-depois.png",
+      "ok": true
+    },
+    {
+      "name": "original bytes preserved: assets/images/harmony/harmony-hero-poster.webp",
+      "ok": true
+    },
+    {
+      "name": "original bytes preserved: assets/images/harmony/harmony-hero.gif",
+      "ok": true
+    },
+    {
+      "name": "original bytes preserved: assets/images/harmony/harmony-hero.mp4",
+      "ok": true
+    },
+    {
+      "name": "original bytes preserved: assets/images/harmony/semantic-tokerns.png",
+      "ok": true
+    },
+    {
+      "name": "original bytes preserved: assets/images/harmony/storybook-2.png",
+      "ok": true
+    },
+    {
+      "name": "original bytes preserved: assets/images/harmony/storybook.png",
+      "ok": true
+    },
+    {
+      "name": "original bytes preserved: assets/images/harmony/templates.png",
+      "ok": true
+    },
+    {
+      "name": "original bytes preserved: assets/images/harmony/variables.png",
+      "ok": true
+    },
+    {
+      "name": "historical document preserved: .scratch/harmony/spec.md",
+      "ok": true
+    },
+    {
+      "name": "historical document preserved: .scratch/harmony/visual-narrative-review.md",
+      "ok": true
+    },
+    {
+      "name": "historical document preserved: .scratch/harmony/validation.md",
+      "ok": true
+    },
+    {
+      "name": "historical document preserved: .scratch/harmony/copy-draft.md",
+      "ok": true
+    },
+    {
+      "name": "preserved HTML: navigation",
+      "ok": true
+    },
+    {
+      "name": "preserved HTML: hero and intro",
+      "ok": true
+    },
+    {
+      "name": "preserved HTML: problem and role",
+      "ok": true
+    },
+    {
+      "name": "preserved HTML: outcome, work in progress, next project, contact and footer",
+      "ok": true
+    },
+    {
+      "name": "all analytics and other script tags preserved",
+      "ok": true
+    },
+    {
+      "name": "maintenance and hiring rationale integrated without standalone decisions",
+      "ok": true
+    },
+    {
+      "name": "shared governance and accessibility/content arguments integrated",
+      "ok": true
+    },
+    {
+      "name": "ticket 04 only edits its authorized existing files at integration tip",
+      "ok": true
+    },
+    {
+      "name": "resolved sibling ticket/manifest/helper preserved: .scratch/harmony/issues/01-fundamentos-compartilhados.md",
+      "ok": true
+    },
+    {
+      "name": "resolved sibling ticket/manifest/helper preserved: .scratch/harmony/issues/02-aplicacao-nos-componentes.md",
+      "ok": true
+    },
+    {
+      "name": "resolved sibling ticket/manifest/helper preserved: .scratch/harmony/issues/03-composicao-em-templates.md",
+      "ok": true
+    },
+    {
+      "name": "resolved sibling ticket/manifest/helper preserved: .scratch/harmony/image-manifest.json",
+      "ok": true
+    },
+    {
+      "name": "resolved sibling ticket/manifest/helper preserved: .scratch/harmony/template-image-manifest.json",
+      "ok": true
+    },
+    {
+      "name": "resolved sibling ticket/manifest/helper preserved: .scratch/harmony/template-narrative-qa.py",
+      "ok": true
+    },
+    {
+      "name": "integrated prior record/style preserved as prefix: assets/css/harmony.css",
+      "ok": true
+    },
+    {
+      "name": "integrated prior record/style preserved as prefix: .scratch/harmony/image-manifest.md",
+      "ok": true
+    },
+    {
+      "name": "integrated prior record/style preserved as prefix: .scratch/harmony/visual-narrative-validation.md",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-artifact-integrity.json",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/focus-contact-1440.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/focus-contact-320.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/focus-contact-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/focus-contact-768.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/focus-nav-1440.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/focus-nav-320.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/focus-nav-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/focus-nav-768.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/focus-next-1440.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/focus-next-320.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/focus-next-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/focus-next-768.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/no-js-1440.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/no-js-320.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/no-js-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/no-js-768.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/primitives-1440-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/primitives-1440-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/primitives-320-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/primitives-320-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/primitives-375-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/primitives-375-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/primitives-768-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/primitives-768-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/primitives-plate-1440.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/primitives-plate-320.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/primitives-plate-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/primitives-plate-768.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/responsive-1440-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/responsive-1440-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/responsive-320-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/responsive-320-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/responsive-375-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/responsive-375-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/responsive-768-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/responsive-768-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/responsive-plate-1440.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/responsive-plate-320.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/responsive-plate-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/responsive-plate-768.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/results.json",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/semantics-1440-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/semantics-1440-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/semantics-320-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/semantics-320-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/semantics-375-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/semantics-375-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/semantics-768-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/semantics-768-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/semantics-plate-1440.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/semantics-plate-320.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/semantics-plate-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/semantics-plate-768.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-1440-no-preference-.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-1440-no-preference-harmony-decisions.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-1440-no-preference-harmony-foundations.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-1440-no-preference-harmony-outcome.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-1440-no-preference-harmony-primitives.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-1440-no-preference-harmony-problem.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-1440-no-preference-harmony-progress.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-1440-no-preference-harmony-responsive.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-1440-no-preference-harmony-role.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-1440-no-preference-harmony-semantics.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-1440-reduce-.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-1440-reduce-harmony-decisions.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-1440-reduce-harmony-foundations.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-1440-reduce-harmony-outcome.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-1440-reduce-harmony-primitives.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-1440-reduce-harmony-problem.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-1440-reduce-harmony-progress.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-1440-reduce-harmony-responsive.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-1440-reduce-harmony-role.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-1440-reduce-harmony-semantics.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-320-no-preference-.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-320-no-preference-harmony-decisions.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-320-no-preference-harmony-foundations.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-320-no-preference-harmony-outcome.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-320-no-preference-harmony-primitives.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-320-no-preference-harmony-problem.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-320-no-preference-harmony-progress.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-320-no-preference-harmony-responsive.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-320-no-preference-harmony-role.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-320-no-preference-harmony-semantics.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-320-reduce-.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-320-reduce-harmony-decisions.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-320-reduce-harmony-foundations.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-320-reduce-harmony-outcome.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-320-reduce-harmony-primitives.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-320-reduce-harmony-problem.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-320-reduce-harmony-progress.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-320-reduce-harmony-responsive.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-320-reduce-harmony-role.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-320-reduce-harmony-semantics.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-375-no-preference-.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-375-no-preference-harmony-decisions.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-375-no-preference-harmony-foundations.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-375-no-preference-harmony-outcome.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-375-no-preference-harmony-primitives.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-375-no-preference-harmony-problem.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-375-no-preference-harmony-progress.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-375-no-preference-harmony-responsive.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-375-no-preference-harmony-role.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-375-no-preference-harmony-semantics.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-375-reduce-.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-375-reduce-harmony-decisions.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-375-reduce-harmony-foundations.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-375-reduce-harmony-outcome.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-375-reduce-harmony-primitives.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-375-reduce-harmony-problem.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-375-reduce-harmony-progress.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-375-reduce-harmony-responsive.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-375-reduce-harmony-role.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-375-reduce-harmony-semantics.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-768-no-preference-.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-768-no-preference-harmony-decisions.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-768-no-preference-harmony-foundations.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-768-no-preference-harmony-outcome.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-768-no-preference-harmony-primitives.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-768-no-preference-harmony-problem.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-768-no-preference-harmony-progress.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-768-no-preference-harmony-responsive.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-768-no-preference-harmony-role.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-768-no-preference-harmony-semantics.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-768-reduce-.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-768-reduce-harmony-decisions.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-768-reduce-harmony-foundations.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-768-reduce-harmony-outcome.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-768-reduce-harmony-primitives.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-768-reduce-harmony-problem.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-768-reduce-harmony-progress.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-768-reduce-harmony-responsive.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-768-reduce-harmony-role.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/completed-foundations/wheel-768-reduce-harmony-semantics.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-artifact-index.json",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-artifact-integrity.json",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/buttons-1440-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/buttons-1440-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/buttons-320-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/buttons-320-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/buttons-375-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/buttons-375-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/buttons-768-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/buttons-768-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/buttons-plate-1440.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/buttons-plate-320.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/buttons-plate-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/buttons-plate-768.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/component-navigation-1440-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/component-navigation-1440-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/component-navigation-320-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/component-navigation-320-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/component-navigation-375-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/component-navigation-375-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/component-navigation-768-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/component-navigation-768-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/component-navigation-plate-1440.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/component-navigation-plate-320.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/component-navigation-plate-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/component-navigation-plate-768.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/focus-contact-1440.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/focus-contact-320.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/focus-contact-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/focus-contact-768.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/focus-nav-1440.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/focus-nav-320.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/focus-nav-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/focus-nav-768.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/focus-next-1440.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/focus-next-320.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/focus-next-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/focus-next-768.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/no-js-1440.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/no-js-320.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/no-js-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/no-js-768.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/no-js-buttons-1440.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/no-js-buttons-320.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/no-js-buttons-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/no-js-buttons-768.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/no-js-component-navigation-1440.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/no-js-component-navigation-320.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/no-js-component-navigation-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/no-js-component-navigation-768.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/primitives-1440-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/primitives-1440-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/primitives-320-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/primitives-320-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/primitives-375-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/primitives-375-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/primitives-768-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/primitives-768-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/primitives-plate-1440.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/primitives-plate-320.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/primitives-plate-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/primitives-plate-768.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/responsive-1440-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/responsive-1440-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/responsive-320-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/responsive-320-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/responsive-375-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/responsive-375-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/responsive-768-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/responsive-768-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/responsive-plate-1440.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/responsive-plate-320.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/responsive-plate-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/responsive-plate-768.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/results.json",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/semantics-1440-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/semantics-1440-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/semantics-320-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/semantics-320-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/semantics-375-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/semantics-375-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/semantics-768-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/semantics-768-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/semantics-plate-1440.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/semantics-plate-320.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/semantics-plate-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/semantics-plate-768.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-1440-no-preference-.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-1440-no-preference-harmony-buttons.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-1440-no-preference-harmony-components.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-1440-no-preference-harmony-decisions.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-1440-no-preference-harmony-foundations.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-1440-no-preference-harmony-navigation.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-1440-no-preference-harmony-outcome.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-1440-no-preference-harmony-primitives.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-1440-no-preference-harmony-problem.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-1440-no-preference-harmony-progress.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-1440-no-preference-harmony-responsive.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-1440-no-preference-harmony-role.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-1440-no-preference-harmony-semantics.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-1440-reduce-.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-1440-reduce-harmony-buttons.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-1440-reduce-harmony-components.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-1440-reduce-harmony-decisions.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-1440-reduce-harmony-foundations.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-1440-reduce-harmony-navigation.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-1440-reduce-harmony-outcome.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-1440-reduce-harmony-primitives.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-1440-reduce-harmony-problem.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-1440-reduce-harmony-progress.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-1440-reduce-harmony-responsive.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-1440-reduce-harmony-role.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-1440-reduce-harmony-semantics.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-320-no-preference-.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-320-no-preference-harmony-buttons.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-320-no-preference-harmony-components.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-320-no-preference-harmony-decisions.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-320-no-preference-harmony-foundations.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-320-no-preference-harmony-navigation.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-320-no-preference-harmony-outcome.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-320-no-preference-harmony-primitives.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-320-no-preference-harmony-problem.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-320-no-preference-harmony-progress.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-320-no-preference-harmony-responsive.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-320-no-preference-harmony-role.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-320-no-preference-harmony-semantics.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-320-reduce-.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-320-reduce-harmony-buttons.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-320-reduce-harmony-components.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-320-reduce-harmony-decisions.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-320-reduce-harmony-foundations.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-320-reduce-harmony-navigation.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-320-reduce-harmony-outcome.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-320-reduce-harmony-primitives.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-320-reduce-harmony-problem.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-320-reduce-harmony-progress.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-320-reduce-harmony-responsive.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-320-reduce-harmony-role.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-320-reduce-harmony-semantics.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-375-no-preference-.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-375-no-preference-harmony-buttons.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-375-no-preference-harmony-components.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-375-no-preference-harmony-decisions.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-375-no-preference-harmony-foundations.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-375-no-preference-harmony-navigation.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-375-no-preference-harmony-outcome.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-375-no-preference-harmony-primitives.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-375-no-preference-harmony-problem.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-375-no-preference-harmony-progress.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-375-no-preference-harmony-responsive.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-375-no-preference-harmony-role.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-375-no-preference-harmony-semantics.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-375-reduce-.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-375-reduce-harmony-buttons.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-375-reduce-harmony-components.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-375-reduce-harmony-decisions.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-375-reduce-harmony-foundations.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-375-reduce-harmony-navigation.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-375-reduce-harmony-outcome.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-375-reduce-harmony-primitives.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-375-reduce-harmony-problem.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-375-reduce-harmony-progress.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-375-reduce-harmony-responsive.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-375-reduce-harmony-role.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-375-reduce-harmony-semantics.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-768-no-preference-.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-768-no-preference-harmony-buttons.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-768-no-preference-harmony-components.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-768-no-preference-harmony-decisions.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-768-no-preference-harmony-foundations.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-768-no-preference-harmony-navigation.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-768-no-preference-harmony-outcome.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-768-no-preference-harmony-primitives.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-768-no-preference-harmony-problem.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-768-no-preference-harmony-progress.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-768-no-preference-harmony-responsive.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-768-no-preference-harmony-role.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-768-no-preference-harmony-semantics.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-768-reduce-.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-768-reduce-harmony-buttons.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-768-reduce-harmony-components.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-768-reduce-harmony-decisions.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-768-reduce-harmony-foundations.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-768-reduce-harmony-navigation.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-768-reduce-harmony-outcome.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-768-reduce-harmony-primitives.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-768-reduce-harmony-problem.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-768-reduce-harmony-progress.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-768-reduce-harmony-responsive.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-768-reduce-harmony-role.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-completed-matrix/wheel-768-reduce-harmony-semantics.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-green-buttons/buttons-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-green-buttons/results.json",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-green-navigation/component-navigation-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-green-navigation/results.json",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-reading-captures/buttons-detail-1440-1.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-reading-captures/buttons-detail-1440-2.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-reading-captures/buttons-detail-320-1.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-reading-captures/buttons-detail-375-1.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-reading-captures/buttons-detail-375-2.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-reading-captures/buttons-detail-768-1.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-reading-captures/buttons-detail-768-2.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-reading-captures/component-navigation-detail-1440-1.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-reading-captures/component-navigation-detail-1440-2.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-reading-captures/component-navigation-detail-320-1.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-reading-captures/component-navigation-detail-320-2.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-reading-captures/component-navigation-detail-375-1.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-reading-captures/component-navigation-detail-375-2.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-reading-captures/component-navigation-detail-768-1.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-reading-captures/component-navigation-detail-768-2.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-reading-captures/primitives-detail-1440-1.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-reading-captures/primitives-detail-1440-2.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-reading-captures/primitives-detail-320-1.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-reading-captures/primitives-detail-375-1.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-reading-captures/primitives-detail-768-1.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-reading-captures/responsive-detail-1440-1.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-reading-captures/responsive-detail-1440-2.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-reading-captures/responsive-detail-320-1.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-reading-captures/responsive-detail-320-2.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-reading-captures/responsive-detail-375-1.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-reading-captures/responsive-detail-375-2.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-reading-captures/responsive-detail-375-3.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-reading-captures/responsive-detail-768-1.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-reading-captures/responsive-detail-768-2.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-reading-captures/responsive-detail-768-3.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-reading-captures/responsive-detail-768-4.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-reading-captures/results.json",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-reading-captures/semantics-detail-1440-1.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-reading-captures/semantics-detail-320-1.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-reading-captures/semantics-detail-375-1.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-reading-captures/semantics-detail-768-1.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-reading-captures/semantics-detail-768-2.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-red-buttons/missing-evidence-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-red-buttons/results.json",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-red-navigation-content/missing-evidence-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-red-navigation-content/results.json",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-red-navigation/missing-evidence-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-red-navigation/results.json",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-source-inspection/buttons-source-detail.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-source-inspection/intranet-profile-source-detail.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/components-source-inspection/portal-profile-source-detail.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-foundations/no-js-1440.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-foundations/no-js-320.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-foundations/no-js-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-foundations/no-js-768.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-foundations/primitives-1440-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-foundations/primitives-1440-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-foundations/primitives-320-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-foundations/primitives-320-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-foundations/primitives-375-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-foundations/primitives-375-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-foundations/primitives-768-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-foundations/primitives-768-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-foundations/primitives-plate-1440.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-foundations/primitives-plate-320.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-foundations/primitives-plate-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-foundations/primitives-plate-768.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-foundations/responsive-1440-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-foundations/responsive-1440-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-foundations/responsive-320-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-foundations/responsive-320-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-foundations/responsive-375-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-foundations/responsive-375-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-foundations/responsive-768-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-foundations/responsive-768-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-foundations/responsive-plate-1440.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-foundations/responsive-plate-320.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-foundations/responsive-plate-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-foundations/responsive-plate-768.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-foundations/semantics-1440-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-foundations/semantics-1440-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-foundations/semantics-320-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-foundations/semantics-320-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-foundations/semantics-375-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-foundations/semantics-375-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-foundations/semantics-768-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-foundations/semantics-768-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-foundations/semantics-plate-1440.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-foundations/semantics-plate-320.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-foundations/semantics-plate-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-foundations/semantics-plate-768.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-navigation-focus/focus-contact-1440.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-navigation-focus/focus-contact-320.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-navigation-focus/focus-contact-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-navigation-focus/focus-contact-768.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-navigation-focus/focus-nav-1440.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-navigation-focus/focus-nav-320.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-navigation-focus/focus-nav-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-navigation-focus/focus-nav-768.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-navigation-focus/focus-next-1440.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-navigation-focus/focus-next-320.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-navigation-focus/focus-next-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-navigation-focus/focus-next-768.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-navigation-focus/results.json",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-primitives/primitives-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-primitives/results.json",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-responsive/responsive-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-responsive/results.json",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-semantics/results.json",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/green-semantics/semantics-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/navigation-focus/focus-contact-1440.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/navigation-focus/focus-contact-320.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/navigation-focus/focus-contact-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/navigation-focus/focus-contact-768.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/navigation-focus/focus-nav-1440.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/navigation-focus/focus-nav-320.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/navigation-focus/focus-nav-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/navigation-focus/focus-nav-768.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/navigation-focus/focus-next-1440.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/navigation-focus/focus-next-320.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/navigation-focus/focus-next-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/navigation-focus/focus-next-768.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/navigation-focus/results.json",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/reading-captures/primitives-detail-1440-1.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/reading-captures/primitives-detail-1440-2.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/reading-captures/primitives-detail-320-1.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/reading-captures/primitives-detail-375-1.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/reading-captures/primitives-detail-768-1.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/reading-captures/responsive-detail-1440-1.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/reading-captures/responsive-detail-1440-2.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/reading-captures/responsive-detail-320-1.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/reading-captures/responsive-detail-320-2.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/reading-captures/responsive-detail-375-1.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/reading-captures/responsive-detail-375-2.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/reading-captures/responsive-detail-375-3.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/reading-captures/responsive-detail-768-1.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/reading-captures/responsive-detail-768-2.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/reading-captures/responsive-detail-768-3.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/reading-captures/responsive-detail-768-4.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/reading-captures/results.json",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/reading-captures/semantics-detail-1440-1.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/reading-captures/semantics-detail-320-1.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/reading-captures/semantics-detail-375-1.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/reading-captures/semantics-detail-768-1.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/reading-captures/semantics-detail-768-2.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/red-mobile-width/primitives-1440-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/red-mobile-width/primitives-1440-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/red-mobile-width/primitives-320-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/red-mobile-width/primitives-320-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/red-mobile-width/primitives-375-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/red-mobile-width/primitives-375-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/red-mobile-width/primitives-768-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/red-mobile-width/primitives-768-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/red-mobile-width/primitives-plate-1440.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/red-mobile-width/primitives-plate-320.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/red-mobile-width/primitives-plate-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/red-mobile-width/primitives-plate-768.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/red-mobile-width/responsive-1440-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/red-mobile-width/responsive-1440-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/red-mobile-width/responsive-320-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/red-mobile-width/responsive-320-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/red-mobile-width/responsive-375-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/red-mobile-width/responsive-375-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/red-mobile-width/responsive-768-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/red-mobile-width/responsive-768-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/red-mobile-width/responsive-plate-1440.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/red-mobile-width/responsive-plate-320.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/red-mobile-width/responsive-plate-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/red-mobile-width/responsive-plate-768.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/red-mobile-width/results.json",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/red-mobile-width/semantics-1440-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/red-mobile-width/semantics-1440-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/red-mobile-width/semantics-320-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/red-mobile-width/semantics-320-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/red-mobile-width/semantics-375-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/red-mobile-width/semantics-375-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/red-mobile-width/semantics-768-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/red-mobile-width/semantics-768-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/red-mobile-width/semantics-plate-1440.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/red-mobile-width/semantics-plate-320.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/red-mobile-width/semantics-plate-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/red-mobile-width/semantics-plate-768.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/red-primitives/missing-evidence-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/red-primitives/results.json",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/red-responsive/missing-evidence-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/red-responsive/results.json",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/red-semantics/missing-evidence-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/red-semantics/results.json",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/source-inspection/color=primitives.png.jpg",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/source-inspection/semantic-tokerns.png.jpg",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/source-inspection/variables.png.jpg",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/source-integrity.json",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-artifact-integrity.json",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/primitives-320-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/primitives-320-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/primitives-375-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/primitives-plate-320.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/responsive-320-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/responsive-320-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/responsive-375-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/responsive-plate-320.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/results.json",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/semantics-320-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/semantics-320-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/semantics-375-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/semantics-plate-320.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/templates-320-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/templates-320-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/templates-375-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/templates-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/templates-detail-320-1.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/templates-detail-320-2.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/templates-detail-320-3.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/templates-plate-320.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/wheel-320-no-preference-.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/wheel-320-no-preference-harmony-decisions.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/wheel-320-no-preference-harmony-foundations.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/wheel-320-no-preference-harmony-outcome.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/wheel-320-no-preference-harmony-primitives.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/wheel-320-no-preference-harmony-problem.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/wheel-320-no-preference-harmony-progress.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/wheel-320-no-preference-harmony-responsive.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/wheel-320-no-preference-harmony-role.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/wheel-320-no-preference-harmony-semantics.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/wheel-320-no-preference-harmony-templates.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/wheel-320-reduce-.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/wheel-320-reduce-harmony-decisions.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/wheel-320-reduce-harmony-foundations.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/wheel-320-reduce-harmony-outcome.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/wheel-320-reduce-harmony-primitives.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/wheel-320-reduce-harmony-problem.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/wheel-320-reduce-harmony-progress.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/wheel-320-reduce-harmony-responsive.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/wheel-320-reduce-harmony-role.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/wheel-320-reduce-harmony-semantics.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/wheel-320-reduce-harmony-templates.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/wheel-375-no-preference-.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/wheel-375-no-preference-harmony-decisions.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/wheel-375-no-preference-harmony-foundations.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/wheel-375-no-preference-harmony-outcome.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/wheel-375-no-preference-harmony-primitives.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/wheel-375-no-preference-harmony-problem.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/wheel-375-no-preference-harmony-progress.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/wheel-375-no-preference-harmony-responsive.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/wheel-375-no-preference-harmony-role.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/wheel-375-no-preference-harmony-semantics.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/wheel-375-no-preference-harmony-templates.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/wheel-375-reduce-.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/wheel-375-reduce-harmony-decisions.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/wheel-375-reduce-harmony-foundations.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/wheel-375-reduce-harmony-outcome.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/wheel-375-reduce-harmony-primitives.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/wheel-375-reduce-harmony-problem.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/wheel-375-reduce-harmony-progress.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/wheel-375-reduce-harmony-responsive.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/wheel-375-reduce-harmony-role.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/wheel-375-reduce-harmony-semantics.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-complete/wheel-375-reduce-harmony-templates.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-green-wrapping/heading-320.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-green-wrapping/results.json",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-green-wrapping/templates-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-green/results.json",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-green/templates-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-red-wrapping/heading-320.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-red-wrapping/results.json",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-red-wrapping/templates-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-red/missing-template-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-red/results.json",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/focus-contact-1440.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/focus-contact-320.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/focus-contact-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/focus-contact-768.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/focus-nav-1440.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/focus-nav-320.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/focus-nav-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/focus-nav-768.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/focus-next-1440.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/focus-next-320.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/focus-next-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/focus-next-768.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/no-js-1440.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/no-js-320.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/no-js-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/no-js-768.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/primitives-1440-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/primitives-1440-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/primitives-320-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/primitives-320-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/primitives-375-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/primitives-375-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/primitives-768-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/primitives-768-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/primitives-plate-1440.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/primitives-plate-320.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/primitives-plate-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/primitives-plate-768.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/responsive-1440-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/responsive-1440-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/responsive-320-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/responsive-320-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/responsive-375-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/responsive-375-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/responsive-768-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/responsive-768-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/responsive-plate-1440.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/responsive-plate-320.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/responsive-plate-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/responsive-plate-768.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/results.json",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/semantics-1440-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/semantics-1440-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/semantics-320-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/semantics-320-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/semantics-375-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/semantics-375-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/semantics-768-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/semantics-768-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/semantics-plate-1440.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/semantics-plate-320.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/semantics-plate-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/semantics-plate-768.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/templates-1440-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/templates-1440-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/templates-320-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/templates-320-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/templates-375-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/templates-375-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/templates-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/templates-768-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/templates-768-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/templates-detail-1440-1.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/templates-detail-1440-2.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/templates-detail-320-1.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/templates-detail-320-2.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/templates-detail-320-3.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/templates-detail-375-1.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/templates-detail-375-2.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/templates-detail-375-3.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/templates-detail-768-1.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/templates-detail-768-2.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/templates-detail-768-3.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/templates-plate-1440.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/templates-plate-320.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/templates-plate-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/templates-plate-768.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-1440-no-preference-.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-1440-no-preference-harmony-decisions.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-1440-no-preference-harmony-foundations.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-1440-no-preference-harmony-outcome.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-1440-no-preference-harmony-primitives.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-1440-no-preference-harmony-problem.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-1440-no-preference-harmony-progress.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-1440-no-preference-harmony-responsive.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-1440-no-preference-harmony-role.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-1440-no-preference-harmony-semantics.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-1440-no-preference-harmony-templates.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-1440-reduce-.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-1440-reduce-harmony-decisions.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-1440-reduce-harmony-foundations.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-1440-reduce-harmony-outcome.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-1440-reduce-harmony-primitives.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-1440-reduce-harmony-problem.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-1440-reduce-harmony-progress.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-1440-reduce-harmony-responsive.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-1440-reduce-harmony-role.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-1440-reduce-harmony-semantics.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-1440-reduce-harmony-templates.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-320-no-preference-.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-320-no-preference-harmony-decisions.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-320-no-preference-harmony-foundations.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-320-no-preference-harmony-outcome.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-320-no-preference-harmony-primitives.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-320-no-preference-harmony-problem.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-320-no-preference-harmony-progress.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-320-no-preference-harmony-responsive.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-320-no-preference-harmony-role.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-320-no-preference-harmony-semantics.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-320-no-preference-harmony-templates.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-320-reduce-.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-320-reduce-harmony-decisions.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-320-reduce-harmony-foundations.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-320-reduce-harmony-outcome.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-320-reduce-harmony-primitives.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-320-reduce-harmony-problem.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-320-reduce-harmony-progress.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-320-reduce-harmony-responsive.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-320-reduce-harmony-role.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-320-reduce-harmony-semantics.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-320-reduce-harmony-templates.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-375-no-preference-.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-375-no-preference-harmony-decisions.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-375-no-preference-harmony-foundations.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-375-no-preference-harmony-outcome.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-375-no-preference-harmony-primitives.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-375-no-preference-harmony-problem.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-375-no-preference-harmony-progress.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-375-no-preference-harmony-responsive.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-375-no-preference-harmony-role.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-375-no-preference-harmony-semantics.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-375-no-preference-harmony-templates.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-375-reduce-.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-375-reduce-harmony-decisions.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-375-reduce-harmony-foundations.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-375-reduce-harmony-outcome.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-375-reduce-harmony-primitives.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-375-reduce-harmony-problem.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-375-reduce-harmony-progress.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-375-reduce-harmony-responsive.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-375-reduce-harmony-role.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-375-reduce-harmony-semantics.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-375-reduce-harmony-templates.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-768-no-preference-.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-768-no-preference-harmony-decisions.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-768-no-preference-harmony-foundations.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-768-no-preference-harmony-outcome.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-768-no-preference-harmony-primitives.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-768-no-preference-harmony-problem.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-768-no-preference-harmony-progress.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-768-no-preference-harmony-responsive.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-768-no-preference-harmony-role.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-768-no-preference-harmony-semantics.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-768-no-preference-harmony-templates.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-768-reduce-.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-768-reduce-harmony-decisions.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-768-reduce-harmony-foundations.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-768-reduce-harmony-outcome.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-768-reduce-harmony-primitives.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-768-reduce-harmony-problem.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-768-reduce-harmony-progress.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-768-reduce-harmony-responsive.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-768-reduce-harmony-role.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-768-reduce-harmony-semantics.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/template-verified/wheel-768-reduce-harmony-templates.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/verified-matrix.log",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/verified-matrix/primitives-320-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/verified-matrix/primitives-320-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/verified-matrix/primitives-375-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/verified-matrix/primitives-375-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/verified-matrix/primitives-768-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/verified-matrix/primitives-plate-320.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/verified-matrix/primitives-plate-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/verified-matrix/responsive-320-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/verified-matrix/responsive-320-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/verified-matrix/responsive-375-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/verified-matrix/responsive-375-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/verified-matrix/responsive-768-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/verified-matrix/responsive-plate-320.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/verified-matrix/responsive-plate-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/verified-matrix/results.json",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/verified-matrix/semantics-320-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/verified-matrix/semantics-320-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/verified-matrix/semantics-375-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/verified-matrix/semantics-375-reduce.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/verified-matrix/semantics-768-no-preference.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/verified-matrix/semantics-plate-320.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: .scratch/harmony/qa/verified-matrix/semantics-plate-375.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: assets/images/harmony/buttons.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: assets/images/harmony/color=primitives.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: assets/images/harmony/components.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: assets/images/harmony/editorial/button-standard-solid-outline-normal-small.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: assets/images/harmony/editorial/portal-intranet-profile-navigation.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: assets/images/harmony/editorial/primitive-primary-secondary-scales.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: assets/images/harmony/editorial/primitive-selected-light-steps-mobile.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: assets/images/harmony/editorial/responsive-mode-selections-mobile.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: assets/images/harmony/editorial/semantic-default-soft-roles-mobile.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: assets/images/harmony/editorial/semantic-surface-border-roles.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: assets/images/harmony/editorial/template-card-success-configuration-mobile.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: assets/images/harmony/editorial/template-compositions-configuration-wide.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: assets/images/harmony/harmony-antes.jpg",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: assets/images/harmony/harmony-antes.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: assets/images/harmony/harmony-depois.jpg",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: assets/images/harmony/harmony-depois.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: assets/images/harmony/harmony-hero-poster.webp",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: assets/images/harmony/harmony-hero.gif",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: assets/images/harmony/harmony-hero.mp4",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: assets/images/harmony/semantic-tokerns.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: assets/images/harmony/storybook-2.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: assets/images/harmony/storybook.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: assets/images/harmony/templates.png",
+      "ok": true
+    },
+    {
+      "name": "historical evidence/asset preserved: assets/images/harmony/variables.png",
+      "ok": true
+    },
+    {
+      "name": "manifest and faithful source pixels: assets/images/harmony/editorial/primitive-primary-secondary-scales.png",
+      "ok": true
+    },
+    {
+      "name": "manifest and faithful source pixels: assets/images/harmony/editorial/primitive-selected-light-steps-mobile.png",
+      "ok": true
+    },
+    {
+      "name": "manifest and faithful source pixels: assets/images/harmony/editorial/semantic-surface-border-roles.png",
+      "ok": true
+    },
+    {
+      "name": "manifest and faithful source pixels: assets/images/harmony/editorial/semantic-default-soft-roles-mobile.png",
+      "ok": true
+    },
+    {
+      "name": "manifest and faithful source pixels: assets/images/harmony/editorial/responsive-mode-selections-mobile.png",
+      "ok": true
+    },
+    {
+      "name": "manifest and faithful source pixels: assets/images/harmony/editorial/button-standard-solid-outline-normal-small.png",
+      "ok": true
+    },
+    {
+      "name": "manifest and faithful source pixels: assets/images/harmony/editorial/portal-intranet-profile-navigation.png",
+      "ok": true
+    },
+    {
+      "name": "manifest and faithful source pixels: assets/images/harmony/editorial/template-compositions-configuration-wide.png",
+      "ok": true
+    },
+    {
+      "name": "manifest and faithful source pixels: assets/images/harmony/editorial/template-card-success-configuration-mobile.png",
+      "ok": true
+    },
+    {
+      "name": "manifest and faithful source pixels: assets/images/harmony/editorial/storybook-button-properties-wide.png",
+      "ok": true
+    },
+    {
+      "name": "manifest and faithful source pixels: assets/images/harmony/editorial/storybook-button-selected-properties-mobile.png",
+      "ok": true
+    },
+    {
+      "name": "every derivative used and old pair absent from rendered HTML",
+      "ok": true
+    }
+  ],
+  "summary": {
+    "passed": 853,
+    "failed": 0
+  }
+}

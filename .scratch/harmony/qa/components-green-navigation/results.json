@@ -1,0 +1,35 @@
+{
+  "checks": [
+    {
+      "name": "component-navigation: named evidence and explanatory heading exist",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "component-navigation: one loaded evidence with alternative",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "component-navigation: explanation precedes image",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "accessibility and content remain ongoing requirements within component application",
+      "ok": true,
+      "detail": null
+    }
+  ],
+  "console": [],
+  "failed_requests": [],
+  "environment": {
+    "browser": "156.0.8078.4",
+    "url": "http://localhost:8015/case-studies/harmony.html",
+    "viewportHeight": 700
+  },
+  "summary": {
+    "passed": 4,
+    "failed": 0
+  }
+}

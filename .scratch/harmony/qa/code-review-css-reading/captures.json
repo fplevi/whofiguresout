@@ -1,0 +1,792 @@
+{
+  "baseline": "3a466dbb17c20b7522a62128503281fdc0f48a7f",
+  "mode": "reduce",
+  "height": 700,
+  "loadedRows": 56,
+  "captures": [
+    {
+      "label": "before",
+      "width": 320,
+      "row": "primitives",
+      "part": "explanation",
+      "capture": "before-primitives-320-explanation.png"
+    },
+    {
+      "label": "before",
+      "width": 320,
+      "row": "primitives",
+      "part": "caption",
+      "capture": "before-primitives-320-caption.png"
+    },
+    {
+      "label": "before",
+      "width": 320,
+      "row": "semantics",
+      "part": "explanation",
+      "capture": "before-semantics-320-explanation.png"
+    },
+    {
+      "label": "before",
+      "width": 320,
+      "row": "semantics",
+      "part": "caption",
+      "capture": "before-semantics-320-caption.png"
+    },
+    {
+      "label": "before",
+      "width": 320,
+      "row": "responsive",
+      "part": "explanation",
+      "capture": "before-responsive-320-explanation.png"
+    },
+    {
+      "label": "before",
+      "width": 320,
+      "row": "responsive",
+      "part": "caption",
+      "capture": "before-responsive-320-caption.png"
+    },
+    {
+      "label": "before",
+      "width": 320,
+      "row": "buttons",
+      "part": "explanation",
+      "capture": "before-buttons-320-explanation.png"
+    },
+    {
+      "label": "before",
+      "width": 320,
+      "row": "buttons",
+      "part": "caption",
+      "capture": "before-buttons-320-caption.png"
+    },
+    {
+      "label": "before",
+      "width": 320,
+      "row": "component-navigation",
+      "part": "explanation",
+      "capture": "before-component-navigation-320-explanation.png"
+    },
+    {
+      "label": "before",
+      "width": 320,
+      "row": "component-navigation",
+      "part": "caption",
+      "capture": "before-component-navigation-320-caption.png"
+    },
+    {
+      "label": "before",
+      "width": 320,
+      "row": "templates",
+      "part": "explanation",
+      "capture": "before-templates-320-explanation.png"
+    },
+    {
+      "label": "before",
+      "width": 320,
+      "row": "templates",
+      "part": "caption",
+      "capture": "before-templates-320-caption.png"
+    },
+    {
+      "label": "before",
+      "width": 320,
+      "row": "storybook",
+      "part": "explanation",
+      "capture": "before-storybook-320-explanation.png"
+    },
+    {
+      "label": "before",
+      "width": 320,
+      "row": "storybook",
+      "part": "caption",
+      "capture": "before-storybook-320-caption.png"
+    },
+    {
+      "label": "after",
+      "width": 320,
+      "row": "primitives",
+      "part": "explanation",
+      "capture": "after-primitives-320-explanation.png"
+    },
+    {
+      "label": "after",
+      "width": 320,
+      "row": "primitives",
+      "part": "caption",
+      "capture": "after-primitives-320-caption.png"
+    },
+    {
+      "label": "after",
+      "width": 320,
+      "row": "semantics",
+      "part": "explanation",
+      "capture": "after-semantics-320-explanation.png"
+    },
+    {
+      "label": "after",
+      "width": 320,
+      "row": "semantics",
+      "part": "caption",
+      "capture": "after-semantics-320-caption.png"
+    },
+    {
+      "label": "after",
+      "width": 320,
+      "row": "responsive",
+      "part": "explanation",
+      "capture": "after-responsive-320-explanation.png"
+    },
+    {
+      "label": "after",
+      "width": 320,
+      "row": "responsive",
+      "part": "caption",
+      "capture": "after-responsive-320-caption.png"
+    },
+    {
+      "label": "after",
+      "width": 320,
+      "row": "buttons",
+      "part": "explanation",
+      "capture": "after-buttons-320-explanation.png"
+    },
+    {
+      "label": "after",
+      "width": 320,
+      "row": "buttons",
+      "part": "caption",
+      "capture": "after-buttons-320-caption.png"
+    },
+    {
+      "label": "after",
+      "width": 320,
+      "row": "component-navigation",
+      "part": "explanation",
+      "capture": "after-component-navigation-320-explanation.png"
+    },
+    {
+      "label": "after",
+      "width": 320,
+      "row": "component-navigation",
+      "part": "caption",
+      "capture": "after-component-navigation-320-caption.png"
+    },
+    {
+      "label": "after",
+      "width": 320,
+      "row": "templates",
+      "part": "explanation",
+      "capture": "after-templates-320-explanation.png"
+    },
+    {
+      "label": "after",
+      "width": 320,
+      "row": "templates",
+      "part": "caption",
+      "capture": "after-templates-320-caption.png"
+    },
+    {
+      "label": "after",
+      "width": 320,
+      "row": "storybook",
+      "part": "explanation",
+      "capture": "after-storybook-320-explanation.png"
+    },
+    {
+      "label": "after",
+      "width": 320,
+      "row": "storybook",
+      "part": "caption",
+      "capture": "after-storybook-320-caption.png"
+    },
+    {
+      "label": "before",
+      "width": 375,
+      "row": "primitives",
+      "part": "explanation",
+      "capture": "before-primitives-375-explanation.png"
+    },
+    {
+      "label": "before",
+      "width": 375,
+      "row": "primitives",
+      "part": "caption",
+      "capture": "before-primitives-375-caption.png"
+    },
+    {
+      "label": "before",
+      "width": 375,
+      "row": "semantics",
+      "part": "explanation",
+      "capture": "before-semantics-375-explanation.png"
+    },
+    {
+      "label": "before",
+      "width": 375,
+      "row": "semantics",
+      "part": "caption",
+      "capture": "before-semantics-375-caption.png"
+    },
+    {
+      "label": "before",
+      "width": 375,
+      "row": "responsive",
+      "part": "explanation",
+      "capture": "before-responsive-375-explanation.png"
+    },
+    {
+      "label": "before",
+      "width": 375,
+      "row": "responsive",
+      "part": "caption",
+      "capture": "before-responsive-375-caption.png"
+    },
+    {
+      "label": "before",
+      "width": 375,
+      "row": "buttons",
+      "part": "explanation",
+      "capture": "before-buttons-375-explanation.png"
+    },
+    {
+      "label": "before",
+      "width": 375,
+      "row": "buttons",
+      "part": "caption",
+      "capture": "before-buttons-375-caption.png"
+    },
+    {
+      "label": "before",
+      "width": 375,
+      "row": "component-navigation",
+      "part": "explanation",
+      "capture": "before-component-navigation-375-explanation.png"
+    },
+    {
+      "label": "before",
+      "width": 375,
+      "row": "component-navigation",
+      "part": "caption",
+      "capture": "before-component-navigation-375-caption.png"
+    },
+    {
+      "label": "before",
+      "width": 375,
+      "row": "templates",
+      "part": "explanation",
+      "capture": "before-templates-375-explanation.png"
+    },
+    {
+      "label": "before",
+      "width": 375,
+      "row": "templates",
+      "part": "caption",
+      "capture": "before-templates-375-caption.png"
+    },
+    {
+      "label": "before",
+      "width": 375,
+      "row": "storybook",
+      "part": "explanation",
+      "capture": "before-storybook-375-explanation.png"
+    },
+    {
+      "label": "before",
+      "width": 375,
+      "row": "storybook",
+      "part": "caption",
+      "capture": "before-storybook-375-caption.png"
+    },
+    {
+      "label": "after",
+      "width": 375,
+      "row": "primitives",
+      "part": "explanation",
+      "capture": "after-primitives-375-explanation.png"
+    },
+    {
+      "label": "after",
+      "width": 375,
+      "row": "primitives",
+      "part": "caption",
+      "capture": "after-primitives-375-caption.png"
+    },
+    {
+      "label": "after",
+      "width": 375,
+      "row": "semantics",
+      "part": "explanation",
+      "capture": "after-semantics-375-explanation.png"
+    },
+    {
+      "label": "after",
+      "width": 375,
+      "row": "semantics",
+      "part": "caption",
+      "capture": "after-semantics-375-caption.png"
+    },
+    {
+      "label": "after",
+      "width": 375,
+      "row": "responsive",
+      "part": "explanation",
+      "capture": "after-responsive-375-explanation.png"
+    },
+    {
+      "label": "after",
+      "width": 375,
+      "row": "responsive",
+      "part": "caption",
+      "capture": "after-responsive-375-caption.png"
+    },
+    {
+      "label": "after",
+      "width": 375,
+      "row": "buttons",
+      "part": "explanation",
+      "capture": "after-buttons-375-explanation.png"
+    },
+    {
+      "label": "after",
+      "width": 375,
+      "row": "buttons",
+      "part": "caption",
+      "capture": "after-buttons-375-caption.png"
+    },
+    {
+      "label": "after",
+      "width": 375,
+      "row": "component-navigation",
+      "part": "explanation",
+      "capture": "after-component-navigation-375-explanation.png"
+    },
+    {
+      "label": "after",
+      "width": 375,
+      "row": "component-navigation",
+      "part": "caption",
+      "capture": "after-component-navigation-375-caption.png"
+    },
+    {
+      "label": "after",
+      "width": 375,
+      "row": "templates",
+      "part": "explanation",
+      "capture": "after-templates-375-explanation.png"
+    },
+    {
+      "label": "after",
+      "width": 375,
+      "row": "templates",
+      "part": "caption",
+      "capture": "after-templates-375-caption.png"
+    },
+    {
+      "label": "after",
+      "width": 375,
+      "row": "storybook",
+      "part": "explanation",
+      "capture": "after-storybook-375-explanation.png"
+    },
+    {
+      "label": "after",
+      "width": 375,
+      "row": "storybook",
+      "part": "caption",
+      "capture": "after-storybook-375-caption.png"
+    },
+    {
+      "label": "before",
+      "width": 768,
+      "row": "primitives",
+      "part": "explanation",
+      "capture": "before-primitives-768-explanation.png"
+    },
+    {
+      "label": "before",
+      "width": 768,
+      "row": "primitives",
+      "part": "caption",
+      "capture": "before-primitives-768-caption.png"
+    },
+    {
+      "label": "before",
+      "width": 768,
+      "row": "semantics",
+      "part": "explanation",
+      "capture": "before-semantics-768-explanation.png"
+    },
+    {
+      "label": "before",
+      "width": 768,
+      "row": "semantics",
+      "part": "caption",
+      "capture": "before-semantics-768-caption.png"
+    },
+    {
+      "label": "before",
+      "width": 768,
+      "row": "responsive",
+      "part": "explanation",
+      "capture": "before-responsive-768-explanation.png"
+    },
+    {
+      "label": "before",
+      "width": 768,
+      "row": "responsive",
+      "part": "caption",
+      "capture": "before-responsive-768-caption.png"
+    },
+    {
+      "label": "before",
+      "width": 768,
+      "row": "buttons",
+      "part": "explanation",
+      "capture": "before-buttons-768-explanation.png"
+    },
+    {
+      "label": "before",
+      "width": 768,
+      "row": "buttons",
+      "part": "caption",
+      "capture": "before-buttons-768-caption.png"
+    },
+    {
+      "label": "before",
+      "width": 768,
+      "row": "component-navigation",
+      "part": "explanation",
+      "capture": "before-component-navigation-768-explanation.png"
+    },
+    {
+      "label": "before",
+      "width": 768,
+      "row": "component-navigation",
+      "part": "caption",
+      "capture": "before-component-navigation-768-caption.png"
+    },
+    {
+      "label": "before",
+      "width": 768,
+      "row": "templates",
+      "part": "explanation",
+      "capture": "before-templates-768-explanation.png"
+    },
+    {
+      "label": "before",
+      "width": 768,
+      "row": "templates",
+      "part": "caption",
+      "capture": "before-templates-768-caption.png"
+    },
+    {
+      "label": "before",
+      "width": 768,
+      "row": "storybook",
+      "part": "explanation",
+      "capture": "before-storybook-768-explanation.png"
+    },
+    {
+      "label": "before",
+      "width": 768,
+      "row": "storybook",
+      "part": "caption",
+      "capture": "before-storybook-768-caption.png"
+    },
+    {
+      "label": "after",
+      "width": 768,
+      "row": "primitives",
+      "part": "explanation",
+      "capture": "after-primitives-768-explanation.png"
+    },
+    {
+      "label": "after",
+      "width": 768,
+      "row": "primitives",
+      "part": "caption",
+      "capture": "after-primitives-768-caption.png"
+    },
+    {
+      "label": "after",
+      "width": 768,
+      "row": "semantics",
+      "part": "explanation",
+      "capture": "after-semantics-768-explanation.png"
+    },
+    {
+      "label": "after",
+      "width": 768,
+      "row": "semantics",
+      "part": "caption",
+      "capture": "after-semantics-768-caption.png"
+    },
+    {
+      "label": "after",
+      "width": 768,
+      "row": "responsive",
+      "part": "explanation",
+      "capture": "after-responsive-768-explanation.png"
+    },
+    {
+      "label": "after",
+      "width": 768,
+      "row": "responsive",
+      "part": "caption",
+      "capture": "after-responsive-768-caption.png"
+    },
+    {
+      "label": "after",
+      "width": 768,
+      "row": "buttons",
+      "part": "explanation",
+      "capture": "after-buttons-768-explanation.png"
+    },
+    {
+      "label": "after",
+      "width": 768,
+      "row": "buttons",
+      "part": "caption",
+      "capture": "after-buttons-768-caption.png"
+    },
+    {
+      "label": "after",
+      "width": 768,
+      "row": "component-navigation",
+      "part": "explanation",
+      "capture": "after-component-navigation-768-explanation.png"
+    },
+    {
+      "label": "after",
+      "width": 768,
+      "row": "component-navigation",
+      "part": "caption",
+      "capture": "after-component-navigation-768-caption.png"
+    },
+    {
+      "label": "after",
+      "width": 768,
+      "row": "templates",
+      "part": "explanation",
+      "capture": "after-templates-768-explanation.png"
+    },
+    {
+      "label": "after",
+      "width": 768,
+      "row": "templates",
+      "part": "caption",
+      "capture": "after-templates-768-caption.png"
+    },
+    {
+      "label": "after",
+      "width": 768,
+      "row": "storybook",
+      "part": "explanation",
+      "capture": "after-storybook-768-explanation.png"
+    },
+    {
+      "label": "after",
+      "width": 768,
+      "row": "storybook",
+      "part": "caption",
+      "capture": "after-storybook-768-caption.png"
+    },
+    {
+      "label": "before",
+      "width": 1440,
+      "row": "primitives",
+      "part": "explanation",
+      "capture": "before-primitives-1440-explanation.png"
+    },
+    {
+      "label": "before",
+      "width": 1440,
+      "row": "primitives",
+      "part": "caption",
+      "capture": "before-primitives-1440-caption.png"
+    },
+    {
+      "label": "before",
+      "width": 1440,
+      "row": "semantics",
+      "part": "explanation",
+      "capture": "before-semantics-1440-explanation.png"
+    },
+    {
+      "label": "before",
+      "width": 1440,
+      "row": "semantics",
+      "part": "caption",
+      "capture": "before-semantics-1440-caption.png"
+    },
+    {
+      "label": "before",
+      "width": 1440,
+      "row": "responsive",
+      "part": "explanation",
+      "capture": "before-responsive-1440-explanation.png"
+    },
+    {
+      "label": "before",
+      "width": 1440,
+      "row": "responsive",
+      "part": "caption",
+      "capture": "before-responsive-1440-caption.png"
+    },
+    {
+      "label": "before",
+      "width": 1440,
+      "row": "buttons",
+      "part": "explanation",
+      "capture": "before-buttons-1440-explanation.png"
+    },
+    {
+      "label": "before",
+      "width": 1440,
+      "row": "buttons",
+      "part": "caption",
+      "capture": "before-buttons-1440-caption.png"
+    },
+    {
+      "label": "before",
+      "width": 1440,
+      "row": "component-navigation",
+      "part": "explanation",
+      "capture": "before-component-navigation-1440-explanation.png"
+    },
+    {
+      "label": "before",
+      "width": 1440,
+      "row": "component-navigation",
+      "part": "caption",
+      "capture": "before-component-navigation-1440-caption.png"
+    },
+    {
+      "label": "before",
+      "width": 1440,
+      "row": "templates",
+      "part": "explanation",
+      "capture": "before-templates-1440-explanation.png"
+    },
+    {
+      "label": "before",
+      "width": 1440,
+      "row": "templates",
+      "part": "caption",
+      "capture": "before-templates-1440-caption.png"
+    },
+    {
+      "label": "before",
+      "width": 1440,
+      "row": "storybook",
+      "part": "explanation",
+      "capture": "before-storybook-1440-explanation.png"
+    },
+    {
+      "label": "before",
+      "width": 1440,
+      "row": "storybook",
+      "part": "caption",
+      "capture": "before-storybook-1440-caption.png"
+    },
+    {
+      "label": "after",
+      "width": 1440,
+      "row": "primitives",
+      "part": "explanation",
+      "capture": "after-primitives-1440-explanation.png"
+    },
+    {
+      "label": "after",
+      "width": 1440,
+      "row": "primitives",
+      "part": "caption",
+      "capture": "after-primitives-1440-caption.png"
+    },
+    {
+      "label": "after",
+      "width": 1440,
+      "row": "semantics",
+      "part": "explanation",
+      "capture": "after-semantics-1440-explanation.png"
+    },
+    {
+      "label": "after",
+      "width": 1440,
+      "row": "semantics",
+      "part": "caption",
+      "capture": "after-semantics-1440-caption.png"
+    },
+    {
+      "label": "after",
+      "width": 1440,
+      "row": "responsive",
+      "part": "explanation",
+      "capture": "after-responsive-1440-explanation.png"
+    },
+    {
+      "label": "after",
+      "width": 1440,
+      "row": "responsive",
+      "part": "caption",
+      "capture": "after-responsive-1440-caption.png"
+    },
+    {
+      "label": "after",
+      "width": 1440,
+      "row": "buttons",
+      "part": "explanation",
+      "capture": "after-buttons-1440-explanation.png"
+    },
+    {
+      "label": "after",
+      "width": 1440,
+      "row": "buttons",
+      "part": "caption",
+      "capture": "after-buttons-1440-caption.png"
+    },
+    {
+      "label": "after",
+      "width": 1440,
+      "row": "component-navigation",
+      "part": "explanation",
+      "capture": "after-component-navigation-1440-explanation.png"
+    },
+    {
+      "label": "after",
+      "width": 1440,
+      "row": "component-navigation",
+      "part": "caption",
+      "capture": "after-component-navigation-1440-caption.png"
+    },
+    {
+      "label": "after",
+      "width": 1440,
+      "row": "templates",
+      "part": "explanation",
+      "capture": "after-templates-1440-explanation.png"
+    },
+    {
+      "label": "after",
+      "width": 1440,
+      "row": "templates",
+      "part": "caption",
+      "capture": "after-templates-1440-caption.png"
+    },
+    {
+      "label": "after",
+      "width": 1440,
+      "row": "storybook",
+      "part": "explanation",
+      "capture": "after-storybook-1440-explanation.png"
+    },
+    {
+      "label": "after",
+      "width": 1440,
+      "row": "storybook",
+      "part": "caption",
+      "capture": "after-storybook-1440-caption.png"
+    }
+  ]
+}

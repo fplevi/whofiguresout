@@ -1,0 +1,138 @@
+/* Harmony's dense evidence stays static: no tall ancestor enters the shared
+   section-reveal observer. Copy and images remain available with or without JS. */
+.harmony-case .harmony-foundations {
+  padding: var(--space-80) var(--margin);
+  border-top: 1px solid var(--background-divider);
+}
+
+/* Ticket 03: wide composition context; focused source selections on mobile.
+   Static section avoids gating this tall evidence on reveal animation. */
+.harmony-case .harmony-templates {
+  padding: var(--space-80) var(--margin);
+  border-top: 1px solid var(--background-divider);
+}
+
+@media (max-width: 1024px) {
+  .harmony-case .harmony-templates {
+    padding-inline: var(--space-24);
+  }
+}
+
+.harmony-case .harmony-foundations__intro .cs-section__body {
+  color: var(--text-secondary-strong);
+}
+
+.harmony-case .harmony-evidence {
+  margin-top: var(--space-80);
+}
+
+.harmony-case .harmony-evidence__title {
+  font-family: var(--font-display);
+  font-size: var(--size-h4);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  margin-bottom: var(--space-24);
+}
+
+.harmony-case .harmony-evidence__body {
+  max-width: 840px;
+  font-size: var(--size-body-md);
+  line-height: 1.7;
+  color: var(--text-secondary-strong);
+  margin-bottom: var(--space-32);
+}
+
+.harmony-case .harmony-evidence figure,
+.harmony-case .harmony-templates figure,
+.harmony-case .harmony-storybook figure {
+  margin: 0;
+}
+
+.harmony-case .harmony-evidence img,
+.harmony-case .harmony-templates img,
+.harmony-case .harmony-storybook img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  margin-inline: auto;
+  border-radius: var(--radius-md);
+}
+
+.harmony-case .harmony-evidence figcaption,
+.harmony-case .harmony-templates figcaption,
+.harmony-case .harmony-storybook figcaption {
+  max-width: 840px;
+  margin-top: var(--space-16);
+  font-size: var(--size-body-sm);
+  line-height: 1.7;
+  color: var(--text-secondary-strong);
+}
+
+/* Keep the existing contact fields and keyboard path; strengthen their focus
+   cue locally where the shared field rule suppresses the global outline. */
+.harmony-case .contact__field:focus-visible {
+  outline: 2px solid var(--accent-primary);
+  outline-offset: 3px;
+}
+
+@media (max-width: 1024px) {
+  .harmony-case .harmony-foundations {
+    padding-inline: var(--space-24);
+  }
+}
+
+/* Focal component selections retain prose-first reading order while their
+   desktop presentation can alternate. Their static ancestor stays observable. */
+.harmony-case .harmony-components {
+  padding: var(--space-80) var(--margin);
+  border-top: 1px solid var(--background-divider);
+}
+
+.harmony-case .harmony-component-row {
+  display: grid;
+  gap: var(--space-32);
+  align-items: start;
+}
+
+.harmony-case .harmony-component-row .harmony-evidence__body {
+  margin-bottom: 0;
+}
+
+@media (min-width: 1025px) {
+  .harmony-case .harmony-component-row {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: var(--space-80);
+    align-items: center;
+  }
+
+  .harmony-case .harmony-component-row--image-left .harmony-component-row__copy {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .harmony-case .harmony-component-row--image-left figure {
+    grid-column: 1;
+    grid-row: 1;
+  }
+}
+
+@media (max-width: 1024px) {
+  .harmony-case .harmony-components {
+    padding-inline: var(--space-24);
+  }
+}
+
+/* Final documentation evidence remains static and wide; mobile uses faithful
+   property selections without entering the shared section reveal observer. */
+.harmony-case .harmony-storybook {
+  padding: var(--space-80) var(--margin);
+  border-top: 1px solid var(--background-divider);
+}
+
+@media (max-width: 1024px) {
+  .harmony-case .harmony-storybook {
+    padding-inline: var(--space-24);
+  }
+}

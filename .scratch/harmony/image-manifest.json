@@ -1,0 +1,377 @@
+{
+  "coordinateSystem": "(x0,y0,x1,y1), right and bottom exclusive; pasteAt=(x,y)",
+  "derivatives": [
+    {
+      "source": "assets/images/harmony/color=primitives.png",
+      "sourceDimensions": [
+        1920,
+        1200
+      ],
+      "sourceSha256": "31c6b657c75e9478155f7ad93c2e54e0ccfa880112208f195191bc9b50000930",
+      "derivative": "assets/images/harmony/editorial/primitive-primary-secondary-scales.png",
+      "dimensions": [
+        1360,
+        548
+      ],
+      "format": "PNG, lossless RGB, optimize=True; no resizing or text redrawing",
+      "fragments": [
+        {
+          "crop": [
+            130,
+            510,
+            1490,
+            1058
+          ],
+          "pasteAt": [
+            0,
+            0
+          ]
+        }
+      ],
+      "background": "#0d0f13",
+      "bytes": 47986
+    },
+    {
+      "source": "assets/images/harmony/color=primitives.png",
+      "sourceDimensions": [
+        1920,
+        1200
+      ],
+      "sourceSha256": "31c6b657c75e9478155f7ad93c2e54e0ccfa880112208f195191bc9b50000930",
+      "derivative": "assets/images/harmony/editorial/primitive-selected-light-steps-mobile.png",
+      "dimensions": [
+        296,
+        480
+      ],
+      "format": "PNG, lossless RGB, optimize=True; no resizing or text redrawing",
+      "fragments": [
+        {
+          "crop": [
+            140,
+            520,
+            265,
+            552
+          ],
+          "pasteAt": [
+            16,
+            16
+          ]
+        },
+        {
+          "crop": [
+            140,
+            570,
+            404,
+            732
+          ],
+          "pasteAt": [
+            16,
+            60
+          ]
+        },
+        {
+          "crop": [
+            140,
+            825,
+            285,
+            862
+          ],
+          "pasteAt": [
+            16,
+            254
+          ]
+        },
+        {
+          "crop": [
+            140,
+            876,
+            404,
+            1038
+          ],
+          "pasteAt": [
+            16,
+            302
+          ]
+        }
+      ],
+      "background": "#0d0f13",
+      "bytes": 12794
+    },
+    {
+      "source": "assets/images/harmony/semantic-tokerns.png",
+      "sourceDimensions": [
+        1920,
+        1200
+      ],
+      "sourceSha256": "8fe021a0c9605cd9db8566c04001ca01dc9bab72c69626ae122d1e20ff50801d",
+      "derivative": "assets/images/harmony/editorial/semantic-surface-border-roles.png",
+      "dimensions": [
+        1440,
+        554
+      ],
+      "format": "PNG, lossless RGB, optimize=True; no resizing or text redrawing",
+      "fragments": [
+        {
+          "crop": [
+            135,
+            454,
+            1575,
+            1008
+          ],
+          "pasteAt": [
+            0,
+            0
+          ]
+        }
+      ],
+      "background": "#0d0f13",
+      "bytes": 61359
+    },
+    {
+      "source": "assets/images/harmony/semantic-tokerns.png",
+      "sourceDimensions": [
+        1920,
+        1200
+      ],
+      "sourceSha256": "8fe021a0c9605cd9db8566c04001ca01dc9bab72c69626ae122d1e20ff50801d",
+      "derivative": "assets/images/harmony/editorial/semantic-default-soft-roles-mobile.png",
+      "dimensions": [
+        344,
+        508
+      ],
+      "format": "PNG, lossless RGB, optimize=True; no resizing or text redrawing",
+      "fragments": [
+        {
+          "crop": [
+            148,
+            464,
+            268,
+            497
+          ],
+          "pasteAt": [
+            16,
+            16
+          ]
+        },
+        {
+          "crop": [
+            148,
+            510,
+            460,
+            695
+          ],
+          "pasteAt": [
+            16,
+            62
+          ]
+        },
+        {
+          "crop": [
+            148,
+            768,
+            260,
+            798
+          ],
+          "pasteAt": [
+            16,
+            275
+          ]
+        },
+        {
+          "crop": [
+            148,
+            810,
+            460,
+            995
+          ],
+          "pasteAt": [
+            16,
+            317
+          ]
+        }
+      ],
+      "background": "#0d0f13",
+      "bytes": 13809
+    },
+    {
+      "source": "assets/images/harmony/variables.png",
+      "sourceDimensions": [
+        1920,
+        1200
+      ],
+      "sourceSha256": "af8662eb4bc78af993619327f7ac814503b97534a2f4dedcbeb34f2ac3bc352d",
+      "derivative": "assets/images/harmony/editorial/responsive-mode-selections-mobile.png",
+      "dimensions": [
+        467,
+        1520
+      ],
+      "format": "PNG, lossless RGB, optimize=True; no resizing or text redrawing",
+      "fragments": [
+        {
+          "crop": [
+            450,
+            60,
+            680,
+            540
+          ],
+          "pasteAt": [
+            16,
+            16
+          ]
+        },
+        {
+          "crop": [
+            815,
+            60,
+            1020,
+            540
+          ],
+          "pasteAt": [
+            246,
+            16
+          ]
+        },
+        {
+          "crop": [
+            450,
+            60,
+            680,
+            540
+          ],
+          "pasteAt": [
+            16,
+            520
+          ]
+        },
+        {
+          "crop": [
+            1180,
+            60,
+            1385,
+            540
+          ],
+          "pasteAt": [
+            246,
+            520
+          ]
+        },
+        {
+          "crop": [
+            450,
+            60,
+            680,
+            540
+          ],
+          "pasteAt": [
+            16,
+            1024
+          ]
+        },
+        {
+          "crop": [
+            1548,
+            60,
+            1753,
+            540
+          ],
+          "pasteAt": [
+            246,
+            1024
+          ]
+        }
+      ],
+      "background": "#151515",
+      "bytes": 79157
+    },
+    {
+      "ticket": "02",
+      "source": "assets/images/harmony/buttons.png",
+      "sourceDimensions": [
+        1920,
+        1200
+      ],
+      "sourceSha256": "945ba9b7c1897c9b224d334e93d18e1708b61155b1fffd5ce4df147cd66ffabd",
+      "derivative": "assets/images/harmony/editorial/button-standard-solid-outline-normal-small.png",
+      "dimensions": [
+        400,
+        687
+      ],
+      "derivativeSha256": "4ddf00c145554d32df7f8015a863f89cd06d4ab49137f9da519097419c3eda7a",
+      "format": "PNG, lossless RGB, optimize=True; no resizing or text redrawing",
+      "fragments": [
+        {
+          "crop": [
+            160,
+            32,
+            560,
+            380
+          ],
+          "pasteAt": [
+            0,
+            0
+          ]
+        },
+        {
+          "crop": [
+            160,
+            655,
+            560,
+            970
+          ],
+          "pasteAt": [
+            0,
+            372
+          ]
+        }
+      ],
+      "background": "#1e1e1e",
+      "bytes": 138477,
+      "purpose": "Standard solid/outline selections, NormalSize above SmallSize; source names, text/dropdown/icon-only examples and state treatments retained. The gutter separates selections. Original overlapping Figma names remain unaltered."
+    },
+    {
+      "ticket": "02",
+      "source": "assets/images/harmony/components.png",
+      "sourceDimensions": [
+        1920,
+        1200
+      ],
+      "sourceSha256": "8e107b48bdcdcf45ec5366f4d466318ad7e4607fd52cf126626b0ad4a64a6477",
+      "derivative": "assets/images/harmony/editorial/portal-intranet-profile-navigation.png",
+      "dimensions": [
+        300,
+        670
+      ],
+      "derivativeSha256": "45d24a5263fcef7cee266226f4743ff5001a68b6e277a4bbb437962ddcd0870e",
+      "format": "PNG, lossless RGB, optimize=True; no resizing or text redrawing",
+      "fragments": [
+        {
+          "crop": [
+            60,
+            402,
+            360,
+            725
+          ],
+          "pasteAt": [
+            0,
+            0
+          ]
+        },
+        {
+          "crop": [
+            1100,
+            402,
+            1400,
+            725
+          ],
+          "pasteAt": [
+            0,
+            347
+          ]
+        }
+      ],
+      "background": "#1e1e1e",
+      "bytes": 46820,
+      "purpose": "PortalProfileButton and IntranetProfileButton selections in that order; complete context names, account trigger, menu entries and exit action retained. The gutter separates source selections, not an application layout. Excludes the unfinished responsive panels cut off at the source bottom."
+    }
+  ]
+}

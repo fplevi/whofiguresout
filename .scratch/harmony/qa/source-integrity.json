@@ -1,0 +1,152 @@
+[
+  {
+    "path": "assets/images/harmony/buttons.png",
+    "unchanged": true,
+    "comparison": "exact bytes"
+  },
+  {
+    "path": "assets/images/harmony/color=primitives.png",
+    "unchanged": true,
+    "comparison": "exact bytes"
+  },
+  {
+    "path": "assets/images/harmony/components.png",
+    "unchanged": true,
+    "comparison": "exact bytes"
+  },
+  {
+    "path": "assets/images/harmony/harmony-antes.jpg",
+    "unchanged": true,
+    "comparison": "exact bytes"
+  },
+  {
+    "path": "assets/images/harmony/harmony-antes.png",
+    "unchanged": true,
+    "comparison": "exact bytes"
+  },
+  {
+    "path": "assets/images/harmony/harmony-depois.jpg",
+    "unchanged": true,
+    "comparison": "exact bytes"
+  },
+  {
+    "path": "assets/images/harmony/harmony-depois.png",
+    "unchanged": true,
+    "comparison": "exact bytes"
+  },
+  {
+    "path": "assets/images/harmony/harmony-hero-poster.webp",
+    "unchanged": true,
+    "comparison": "exact bytes"
+  },
+  {
+    "path": "assets/images/harmony/harmony-hero.gif",
+    "unchanged": true,
+    "comparison": "exact bytes"
+  },
+  {
+    "path": "assets/images/harmony/harmony-hero.mp4",
+    "unchanged": true,
+    "comparison": "exact bytes"
+  },
+  {
+    "path": "assets/images/harmony/semantic-tokerns.png",
+    "unchanged": true,
+    "comparison": "exact bytes"
+  },
+  {
+    "path": "assets/images/harmony/storybook-2.png",
+    "unchanged": true,
+    "comparison": "exact bytes"
+  },
+  {
+    "path": "assets/images/harmony/storybook.png",
+    "unchanged": true,
+    "comparison": "exact bytes"
+  },
+  {
+    "path": "assets/images/harmony/templates.png",
+    "unchanged": true,
+    "comparison": "exact bytes"
+  },
+  {
+    "path": "assets/images/harmony/variables.png",
+    "unchanged": true,
+    "comparison": "exact bytes"
+  },
+  {
+    "path": ".scratch/harmony/validation.md",
+    "unchanged": true,
+    "comparison": "text with normalized checkout line endings"
+  },
+  {
+    "path": "assets/js/scroll-animations.js",
+    "unchanged": true,
+    "comparison": "text with normalized checkout line endings"
+  },
+  {
+    "path": "assets/css/case-study.css",
+    "unchanged": true,
+    "comparison": "text with normalized checkout line endings"
+  },
+  {
+    "path": "header, hero, problem and role",
+    "unchanged": true,
+    "comparison": "exact HTML region"
+  },
+  {
+    "path": "outcome, WIP, next project, contact and scripts",
+    "unchanged": true,
+    "comparison": "exact HTML region"
+  },
+  {
+    "path": "analytics scripts",
+    "unchanged": true,
+    "comparison": "all inline/external script elements exact"
+  },
+  {
+    "path": "React + Next.js for the product ecosystem/cs-decision__body",
+    "unchanged": true,
+    "comparison": "retained argument HTML"
+  },
+  {
+    "path": "React + Next.js for the product ecosystem/cs-decision__note",
+    "unchanged": true,
+    "comparison": "retained argument HTML"
+  },
+  {
+    "path": "Accessibility and content in component design/cs-decision__body",
+    "unchanged": true,
+    "comparison": "retained argument HTML"
+  },
+  {
+    "path": "Accessibility and content in component design/cs-decision__note",
+    "unchanged": true,
+    "comparison": "retained argument HTML"
+  },
+  {
+    "path": "assets/images/harmony/editorial/primitive-primary-secondary-scales.png",
+    "dimensionsMatch": true,
+    "sourceHashMatches": true
+  },
+  {
+    "path": "assets/images/harmony/editorial/primitive-selected-light-steps-mobile.png",
+    "dimensionsMatch": true,
+    "sourceHashMatches": true
+  },
+  {
+    "path": "assets/images/harmony/editorial/semantic-surface-border-roles.png",
+    "dimensionsMatch": true,
+    "sourceHashMatches": true
+  },
+  {
+    "path": "assets/images/harmony/editorial/semantic-default-soft-roles-mobile.png",
+    "dimensionsMatch": true,
+    "sourceHashMatches": true
+  },
+  {
+    "path": "assets/images/harmony/editorial/responsive-mode-selections-mobile.png",
+    "dimensionsMatch": true,
+    "sourceHashMatches": true
+  }
+]
