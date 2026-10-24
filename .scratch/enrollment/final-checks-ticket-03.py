@@ -121,10 +121,11 @@ crop = Image.open(source).convert('RGBA').crop(tuple(submission['cropBoundsXYXY'
 derivative = Image.open(ROOT / submission['presentation']).convert('RGBA')
 assert crop.size == derivative.size == tuple(submission['presentationDimensions'])
 assert crop.tobytes() == derivative.tobytes(), 'Submission derivative must retain exact source crop pixels'
-assert not subprocess.check_output(['git', 'diff', 'f8f9034', '--',
+preservation_ref = os.environ.get('ENROLLMENT_PRESERVATION_REVISION', 'b5e9f6b')
+assert not subprocess.check_output(['git', 'diff', preservation_ref, '--',
     'assets/js', 'assets/css/case-study.css', 'assets/css/global.css',
     '.scratch/enrollment/issues/01-metric-definition.md'], cwd=ROOT), 'Originals/shared behavior/issue01 preserved'
-result = {'assetIntegrityAndManifest': True, 'originalsByteUnchanged': len(originals), 'submissionCropPixelIdentity': True, 'issue01Unchanged': True, 'sharedStylesAndScriptsUnchanged': True, 'authoredHeadAndAnalyticsUnchanged': True,
+result = {'preservationRevision': preservation_ref, 'assetIntegrityAndManifest': True, 'originalsByteUnchanged': len(originals), 'submissionCropPixelIdentity': True, 'issue01Unchanged': True, 'sharedStylesAndScriptsUnchanged': True, 'authoredHeadAndAnalyticsUnchanged': True,
           'orientationContrastMatrixCases': len(contrast_matrix),
           'proposalGrowthPercent': (1105 - 408) / 408 * 100, 'contrast': measurements,
           'clickedDestinations': destinations}

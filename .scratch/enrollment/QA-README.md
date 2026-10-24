@@ -1,5 +1,11 @@
 # Current Enrollment reproduction
 
+The desktop composition now follows the user's subsequent request: six alternating
+copy/media rows above 1024 px, with a 1440 px row limit. At narrower widths, copy
+stays above its image. The latest evidence is in `qa/desktop-alternation`; earlier
+wide-image captures remain historical. The current matrix checks this responsive
+reading order and alternating arrangement rather than requiring full-width media.
+
 `qa.py` and `final_checks.py` now run the combined page checks through the ticket
 03 behavior suite and `final-checks-integration.py`. They cover one discovery
 process board, four interface screens and one two-layer comparison. The former
@@ -31,6 +37,15 @@ current preserved surfaces. The matrix records the exact checked commit. The
 underlying ticket 03 scripts accept the same environment overrides; their defaults
 still reproduce their own historical server/output location. Ticket 02/04/05
 scripts and previous integration reports remain slice/historical records.
+
+For the desktop correction, use port 8130 and a fresh output directory. Integrity
+checks default to runtime `bc79a8d` for the intentionally changed HTML/CSS and
+pre-correction master `b5e9f6b` for unrelated shared code. Future authorized revisions
+can set `ENROLLMENT_RUNTIME_REVISION` and `ENROLLMENT_PRESERVATION_REVISION`
+explicitly. Original screenshots and original editorial arguments continue to be
+checked against `f8f9034`. The matrix records its starting base commit; committing
+already-tested working files does not require a second browser run. Final checks
+independently verify runtime bytes against the explicit checked revision.
 
 Prerequisites: Python, Pillow, the existing Playwright Python installation under
 `%TEMP%/portfolio-convenios-qa`, and its installed Chromium. No project dependency

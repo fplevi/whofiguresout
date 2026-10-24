@@ -121,6 +121,16 @@ Combinar alternância lateral no desktop com blocos largos para material denso. 
 
 ## Answer
 
+### Subsequent desktop correction requested by the user
+
+On 2026-10-24 the user requested text and images side by side on desktop,
+alternating their sides as in Billing, because the full-width presentation made
+the screenshots excessively large. This supersedes the earlier wide-block
+presentation choices for discovery, the comparator and the four interface screens.
+All six evidence rows now alternate above 1024 px, use a bounded layout and retain
+copy-first DOM/mobile order. Copy, approved assets, factual limits and original
+media stay preserved. See [desktop correction validation](validation-desktop-alternation.md).
+
 Implemented on integration/enrollment-visual-narrative. Tickets 02–05 are resolved: discovery synthesis, the relocated accessible plan comparison, three journey-organization screens, and submission-for-analysis evidence. Issue 01 remains needs-info and unchanged.
 
 The full rendered-page matrix passed 308 checks across 320, 375, 768 and 1440 px with normal and reduced motion. The independent Spec review found no actionable issues; all three P3 Standards findings were corrected in one implementation and verified with 308 passing checks and 48 pixel-identical evidence screenshots. The reviewed fixes reached integration in 6d3766b; runtime and QA hashes match the tested implementation.

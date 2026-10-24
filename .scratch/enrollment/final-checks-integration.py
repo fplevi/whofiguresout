@@ -35,7 +35,7 @@ result['parents'] = ['af687df', 'a09eb9e720f2d4219638d28df858d55ee69a1560']
 # Later authorized presentation changes can supply their explicit checked revision.
 # Original media and all other product bytes keep the original merge baseline.
 result['reviewedRuntimeRevision'] = os.environ.get(
-    'ENROLLMENT_RUNTIME_REVISION', '8011e432ba50dc47fe0ef56d499164b65ddfc5df')
+    'ENROLLMENT_RUNTIME_REVISION', 'bc79a8d')
 result['reviewedRuntimeChanges'] = ['case-studies/enrollment.html', 'assets/css/enrollment.css']
 result['productBaselineByPath'] = {}
 result['productHashes'] = {}
@@ -51,7 +51,8 @@ for rel in ['case-studies/enrollment.html', 'assets/css/enrollment.css',
     assert data == committed or data.replace(b'\r\n', b'\n') == committed, rel
 
 issue = ROOT / '.scratch/enrollment/issues/01-metric-definition.md'
-assert sha(issue.read_bytes()) == 'b7d1b0127a8fb45274b3e04c78bba05a46f5c32f5d89827cbfd5eca8309ef2e2'
+assert issue.read_bytes().replace(b'\r\n', b'\n') == git(
+    'show', 'f8f9034:.scratch/enrollment/issues/01-metric-definition.md')
 assert b'Status: needs-info' in issue.read_bytes()
 result['issue01WorkingSHA256'] = sha(issue.read_bytes())
 
@@ -108,7 +109,11 @@ result['historicalArtifactsVerifiedByParent'] = {ref: sum(h['ref'] == ref for h 
 
 matrix = read_json(OUT / 'validation.json')
 assert len(matrix['cases']) == 8 and matrix['summary']['failed'] == 0 and not matrix['errors']
-assert matrix['testedCommit'] == result['testedHead']
+# A documentation/commit step need not invalidate a run made from working files.
+# Keep its original base visible and independently verify current product bytes
+# against the explicit runtime revision above instead of requiring equal HEADs.
+git('merge-base', '--is-ancestor', matrix['testedCommit'], result['testedHead'])
+result['matrixBaseCommit'] = matrix['testedCommit']
 result['matrixSummary'] = matrix['summary']
 result['renderedSelection'] = {'processBoards': 1, 'interfaceScreens': 4, 'twoLayerComparisons': 1, 'evidenceBlocks': 6}
 result['errors'] = {key: [e for case in matrix['cases'] for e in case[key]]

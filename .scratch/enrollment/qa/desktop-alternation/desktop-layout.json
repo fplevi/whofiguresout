@@ -1,0 +1,386 @@
+[
+  {
+    "viewport": [
+      375,
+      900
+    ],
+    "motion": "reduce",
+    "rows": [
+      {
+        "title": "Organizing discovery.",
+        "copyFirst": true,
+        "side": "below",
+        "copyAbove": true,
+        "rowWidth": 327,
+        "mediaWidth": 327,
+        "nativeWidth": 1672
+      },
+      {
+        "title": "From plan cards to aligned benefits.",
+        "copyFirst": true,
+        "side": "below",
+        "copyAbove": true,
+        "rowWidth": 327,
+        "mediaWidth": 327,
+        "nativeWidth": 1440
+      },
+      {
+        "title": "Eligibility within the journey",
+        "copyFirst": true,
+        "side": "below",
+        "copyAbove": true,
+        "rowWidth": 327,
+        "mediaWidth": 327,
+        "nativeWidth": 1920
+      },
+      {
+        "title": "Personal details and document preparation",
+        "copyFirst": true,
+        "side": "below",
+        "copyAbove": true,
+        "rowWidth": 327,
+        "mediaWidth": 327,
+        "nativeWidth": 1920
+      },
+      {
+        "title": "Portability as a specific situation",
+        "copyFirst": true,
+        "side": "below",
+        "copyAbove": true,
+        "rowWidth": 327,
+        "mediaWidth": 327,
+        "nativeWidth": 1920
+      },
+      {
+        "title": "Submitted for analysis, with a reference for what comes next",
+        "copyFirst": true,
+        "side": "below",
+        "copyAbove": true,
+        "rowWidth": 327,
+        "mediaWidth": 327,
+        "nativeWidth": 1920
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "viewport": [
+      1024,
+      900
+    ],
+    "motion": "reduce",
+    "rows": [
+      {
+        "title": "Organizing discovery.",
+        "copyFirst": true,
+        "side": "below",
+        "copyAbove": true,
+        "rowWidth": 976,
+        "mediaWidth": 976,
+        "nativeWidth": 1672
+      },
+      {
+        "title": "From plan cards to aligned benefits.",
+        "copyFirst": true,
+        "side": "below",
+        "copyAbove": true,
+        "rowWidth": 976,
+        "mediaWidth": 976,
+        "nativeWidth": 1440
+      },
+      {
+        "title": "Eligibility within the journey",
+        "copyFirst": true,
+        "side": "below",
+        "copyAbove": true,
+        "rowWidth": 976,
+        "mediaWidth": 976,
+        "nativeWidth": 1920
+      },
+      {
+        "title": "Personal details and document preparation",
+        "copyFirst": true,
+        "side": "below",
+        "copyAbove": true,
+        "rowWidth": 976,
+        "mediaWidth": 976,
+        "nativeWidth": 1920
+      },
+      {
+        "title": "Portability as a specific situation",
+        "copyFirst": true,
+        "side": "below",
+        "copyAbove": true,
+        "rowWidth": 976,
+        "mediaWidth": 976,
+        "nativeWidth": 1920
+      },
+      {
+        "title": "Submitted for analysis, with a reference for what comes next",
+        "copyFirst": true,
+        "side": "below",
+        "copyAbove": true,
+        "rowWidth": 976,
+        "mediaWidth": 976,
+        "nativeWidth": 1920
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "viewport": [
+      1280,
+      900
+    ],
+    "motion": "reduce",
+    "rows": [
+      {
+        "title": "Organizing discovery.",
+        "copyFirst": true,
+        "side": "right",
+        "copyAbove": false,
+        "rowWidth": 1120,
+        "mediaWidth": 704,
+        "nativeWidth": 1672
+      },
+      {
+        "title": "From plan cards to aligned benefits.",
+        "copyFirst": true,
+        "side": "left",
+        "copyAbove": false,
+        "rowWidth": 1120,
+        "mediaWidth": 704,
+        "nativeWidth": 1440
+      },
+      {
+        "title": "Eligibility within the journey",
+        "copyFirst": true,
+        "side": "right",
+        "copyAbove": false,
+        "rowWidth": 1120,
+        "mediaWidth": 704,
+        "nativeWidth": 1920
+      },
+      {
+        "title": "Personal details and document preparation",
+        "copyFirst": true,
+        "side": "left",
+        "copyAbove": false,
+        "rowWidth": 1120,
+        "mediaWidth": 704,
+        "nativeWidth": 1920
+      },
+      {
+        "title": "Portability as a specific situation",
+        "copyFirst": true,
+        "side": "right",
+        "copyAbove": false,
+        "rowWidth": 1120,
+        "mediaWidth": 704,
+        "nativeWidth": 1920
+      },
+      {
+        "title": "Submitted for analysis, with a reference for what comes next",
+        "copyFirst": true,
+        "side": "left",
+        "copyAbove": false,
+        "rowWidth": 1120,
+        "mediaWidth": 704,
+        "nativeWidth": 1920
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "viewport": [
+      1440,
+      900
+    ],
+    "motion": "reduce",
+    "rows": [
+      {
+        "title": "Organizing discovery.",
+        "copyFirst": true,
+        "side": "right",
+        "copyAbove": false,
+        "rowWidth": 1280,
+        "mediaWidth": 810.671875,
+        "nativeWidth": 1672
+      },
+      {
+        "title": "From plan cards to aligned benefits.",
+        "copyFirst": true,
+        "side": "left",
+        "copyAbove": false,
+        "rowWidth": 1280,
+        "mediaWidth": 810.65625,
+        "nativeWidth": 1440
+      },
+      {
+        "title": "Eligibility within the journey",
+        "copyFirst": true,
+        "side": "right",
+        "copyAbove": false,
+        "rowWidth": 1280,
+        "mediaWidth": 810.671875,
+        "nativeWidth": 1920
+      },
+      {
+        "title": "Personal details and document preparation",
+        "copyFirst": true,
+        "side": "left",
+        "copyAbove": false,
+        "rowWidth": 1280,
+        "mediaWidth": 810.65625,
+        "nativeWidth": 1920
+      },
+      {
+        "title": "Portability as a specific situation",
+        "copyFirst": true,
+        "side": "right",
+        "copyAbove": false,
+        "rowWidth": 1280,
+        "mediaWidth": 810.671875,
+        "nativeWidth": 1920
+      },
+      {
+        "title": "Submitted for analysis, with a reference for what comes next",
+        "copyFirst": true,
+        "side": "left",
+        "copyAbove": false,
+        "rowWidth": 1280,
+        "mediaWidth": 810.65625,
+        "nativeWidth": 1920
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "viewport": [
+      1920,
+      900
+    ],
+    "motion": "reduce",
+    "rows": [
+      {
+        "title": "Organizing discovery.",
+        "copyFirst": true,
+        "side": "right",
+        "copyAbove": false,
+        "rowWidth": 1440,
+        "mediaWidth": 917.34375,
+        "nativeWidth": 1672
+      },
+      {
+        "title": "From plan cards to aligned benefits.",
+        "copyFirst": true,
+        "side": "left",
+        "copyAbove": false,
+        "rowWidth": 1440,
+        "mediaWidth": 917.328125,
+        "nativeWidth": 1440
+      },
+      {
+        "title": "Eligibility within the journey",
+        "copyFirst": true,
+        "side": "right",
+        "copyAbove": false,
+        "rowWidth": 1440,
+        "mediaWidth": 917.34375,
+        "nativeWidth": 1920
+      },
+      {
+        "title": "Personal details and document preparation",
+        "copyFirst": true,
+        "side": "left",
+        "copyAbove": false,
+        "rowWidth": 1440,
+        "mediaWidth": 917.328125,
+        "nativeWidth": 1920
+      },
+      {
+        "title": "Portability as a specific situation",
+        "copyFirst": true,
+        "side": "right",
+        "copyAbove": false,
+        "rowWidth": 1440,
+        "mediaWidth": 917.34375,
+        "nativeWidth": 1920
+      },
+      {
+        "title": "Submitted for analysis, with a reference for what comes next",
+        "copyFirst": true,
+        "side": "left",
+        "copyAbove": false,
+        "rowWidth": 1440,
+        "mediaWidth": 917.328125,
+        "nativeWidth": 1920
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "viewport": [
+      2560,
+      900
+    ],
+    "motion": "reduce",
+    "rows": [
+      {
+        "title": "Organizing discovery.",
+        "copyFirst": true,
+        "side": "right",
+        "copyAbove": false,
+        "rowWidth": 1440,
+        "mediaWidth": 917.34375,
+        "nativeWidth": 1672
+      },
+      {
+        "title": "From plan cards to aligned benefits.",
+        "copyFirst": true,
+        "side": "left",
+        "copyAbove": false,
+        "rowWidth": 1440,
+        "mediaWidth": 917.328125,
+        "nativeWidth": 1440
+      },
+      {
+        "title": "Eligibility within the journey",
+        "copyFirst": true,
+        "side": "right",
+        "copyAbove": false,
+        "rowWidth": 1440,
+        "mediaWidth": 917.34375,
+        "nativeWidth": 1920
+      },
+      {
+        "title": "Personal details and document preparation",
+        "copyFirst": true,
+        "side": "left",
+        "copyAbove": false,
+        "rowWidth": 1440,
+        "mediaWidth": 917.328125,
+        "nativeWidth": 1920
+      },
+      {
+        "title": "Portability as a specific situation",
+        "copyFirst": true,
+        "side": "right",
+        "copyAbove": false,
+        "rowWidth": 1440,
+        "mediaWidth": 917.34375,
+        "nativeWidth": 1920
+      },
+      {
+        "title": "Submitted for analysis, with a reference for what comes next",
+        "copyFirst": true,
+        "side": "left",
+        "copyAbove": false,
+        "rowWidth": 1440,
+        "mediaWidth": 917.328125,
+        "nativeWidth": 1920
+      }
+    ],
+    "overflow": false
+  }
+]

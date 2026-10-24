@@ -1,0 +1,415 @@
+[
+  {
+    "width": 320,
+    "block": "evidence",
+    "dimensions": [
+      272,
+      860
+    ],
+    "identicalPixels": true,
+    "differenceBounds": null,
+    "meanDifference": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "normalSHA256": "b11cf8ac84f0cc20acca987cda3a1fc3e729a345f4689a6b467b6d571fd63811",
+    "reducedSHA256": "b11cf8ac84f0cc20acca987cda3a1fc3e729a345f4689a6b467b6d571fd63811"
+  },
+  {
+    "width": 320,
+    "block": "enrollment-discovery",
+    "dimensions": [
+      320,
+      972
+    ],
+    "identicalPixels": true,
+    "differenceBounds": null,
+    "meanDifference": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "normalSHA256": "ca3910190c2c764c560df0440afc6d9fbf4a210ebdcbb5df4c71cea48bc940c6",
+    "reducedSHA256": "ca3910190c2c764c560df0440afc6d9fbf4a210ebdcbb5df4c71cea48bc940c6"
+  },
+  {
+    "width": 320,
+    "block": "enrollment-eligibility",
+    "dimensions": [
+      272,
+      486
+    ],
+    "identicalPixels": true,
+    "differenceBounds": null,
+    "meanDifference": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "normalSHA256": "2f7c85c38c095c2f6d937c161f1f38e3382f6cc3dc530ac46cab6a861f4c747e",
+    "reducedSHA256": "2f7c85c38c095c2f6d937c161f1f38e3382f6cc3dc530ac46cab6a861f4c747e"
+  },
+  {
+    "width": 320,
+    "block": "enrollment-personal-details",
+    "dimensions": [
+      272,
+      540
+    ],
+    "identicalPixels": true,
+    "differenceBounds": null,
+    "meanDifference": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "normalSHA256": "81328c98918ce7891dd7174b4dd139a3184e49c6396b4408add1af7260d07b25",
+    "reducedSHA256": "81328c98918ce7891dd7174b4dd139a3184e49c6396b4408add1af7260d07b25"
+  },
+  {
+    "width": 320,
+    "block": "enrollment-portability",
+    "dimensions": [
+      272,
+      595
+    ],
+    "identicalPixels": true,
+    "differenceBounds": null,
+    "meanDifference": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "normalSHA256": "51bb1086b1f9cc3a2651756f73f2b1a559cf30c92e05d21a24d29e87a79a5b19",
+    "reducedSHA256": "51bb1086b1f9cc3a2651756f73f2b1a559cf30c92e05d21a24d29e87a79a5b19"
+  },
+  {
+    "width": 320,
+    "block": "enrollment-submission-title",
+    "dimensions": [
+      272,
+      794
+    ],
+    "identicalPixels": true,
+    "differenceBounds": null,
+    "meanDifference": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "normalSHA256": "f9ee9d27bee1b9403e128aa2f3b2004b85a81e9b9cce349441c6cffa5a6c7964",
+    "reducedSHA256": "f9ee9d27bee1b9403e128aa2f3b2004b85a81e9b9cce349441c6cffa5a6c7964"
+  },
+  {
+    "width": 375,
+    "block": "evidence",
+    "dimensions": [
+      327,
+      864
+    ],
+    "identicalPixels": true,
+    "differenceBounds": null,
+    "meanDifference": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "normalSHA256": "03fad9c608efe188d3bfa2448c4f7b8b8108978fe288d2cf4c30c400df257115",
+    "reducedSHA256": "03fad9c608efe188d3bfa2448c4f7b8b8108978fe288d2cf4c30c400df257115"
+  },
+  {
+    "width": 375,
+    "block": "enrollment-discovery",
+    "dimensions": [
+      375,
+      912
+    ],
+    "identicalPixels": true,
+    "differenceBounds": null,
+    "meanDifference": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "normalSHA256": "9472bb8f2334eb3aafc706bc69aa289ec002a507a565b14cef16a392f2b479c0",
+    "reducedSHA256": "9472bb8f2334eb3aafc706bc69aa289ec002a507a565b14cef16a392f2b479c0"
+  },
+  {
+    "width": 375,
+    "block": "enrollment-eligibility",
+    "dimensions": [
+      327,
+      493
+    ],
+    "identicalPixels": true,
+    "differenceBounds": null,
+    "meanDifference": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "normalSHA256": "219b0894260e9ee3f49eb559611693f8ecd81fd473dacf2c8fe91a83b74f1677",
+    "reducedSHA256": "219b0894260e9ee3f49eb559611693f8ecd81fd473dacf2c8fe91a83b74f1677"
+  },
+  {
+    "width": 375,
+    "block": "enrollment-personal-details",
+    "dimensions": [
+      327,
+      520
+    ],
+    "identicalPixels": true,
+    "differenceBounds": null,
+    "meanDifference": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "normalSHA256": "12e0f34b80866f73e5aeb9c73d2e52af97617959cd6aa73dc9d183b5ab66b71d",
+    "reducedSHA256": "12e0f34b80866f73e5aeb9c73d2e52af97617959cd6aa73dc9d183b5ab66b71d"
+  },
+  {
+    "width": 375,
+    "block": "enrollment-portability",
+    "dimensions": [
+      327,
+      575
+    ],
+    "identicalPixels": true,
+    "differenceBounds": null,
+    "meanDifference": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "normalSHA256": "82f27997c6d7931756261de6907e099093f0880ffd9e2719dbeed7f9d75f3636",
+    "reducedSHA256": "82f27997c6d7931756261de6907e099093f0880ffd9e2719dbeed7f9d75f3636"
+  },
+  {
+    "width": 375,
+    "block": "enrollment-submission-title",
+    "dimensions": [
+      327,
+      704
+    ],
+    "identicalPixels": true,
+    "differenceBounds": null,
+    "meanDifference": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "normalSHA256": "f8544e5c6db9e400907855538cb085c389562e9074d76317b2c363cf693b360c",
+    "reducedSHA256": "f8544e5c6db9e400907855538cb085c389562e9074d76317b2c363cf693b360c"
+  },
+  {
+    "width": 768,
+    "block": "evidence",
+    "dimensions": [
+      720,
+      1002
+    ],
+    "identicalPixels": true,
+    "differenceBounds": null,
+    "meanDifference": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "normalSHA256": "31c1363c50874e167bf0a4ce8ecf982a42421793016ef0b8b323f0e82e610a04",
+    "reducedSHA256": "31c1363c50874e167bf0a4ce8ecf982a42421793016ef0b8b323f0e82e610a04"
+  },
+  {
+    "width": 768,
+    "block": "enrollment-discovery",
+    "dimensions": [
+      768,
+      824
+    ],
+    "identicalPixels": true,
+    "differenceBounds": null,
+    "meanDifference": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "normalSHA256": "75192575b066737ef621adae58bc5319c52dadfba5eb8775a716e2ca330dcef5",
+    "reducedSHA256": "75192575b066737ef621adae58bc5319c52dadfba5eb8775a716e2ca330dcef5"
+  },
+  {
+    "width": 768,
+    "block": "enrollment-eligibility",
+    "dimensions": [
+      720,
+      601
+    ],
+    "identicalPixels": true,
+    "differenceBounds": null,
+    "meanDifference": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "normalSHA256": "0916254c2abe59b15216ed847f75371120b73a9ccbcc8b1a597066ce1ad88357",
+    "reducedSHA256": "0916254c2abe59b15216ed847f75371120b73a9ccbcc8b1a597066ce1ad88357"
+  },
+  {
+    "width": 768,
+    "block": "enrollment-personal-details",
+    "dimensions": [
+      720,
+      629
+    ],
+    "identicalPixels": true,
+    "differenceBounds": null,
+    "meanDifference": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "normalSHA256": "d0302d25a9daefcb9eec788045575cadb56341f3324c203abec04294ba68c0c8",
+    "reducedSHA256": "d0302d25a9daefcb9eec788045575cadb56341f3324c203abec04294ba68c0c8"
+  },
+  {
+    "width": 768,
+    "block": "enrollment-portability",
+    "dimensions": [
+      720,
+      656
+    ],
+    "identicalPixels": true,
+    "differenceBounds": null,
+    "meanDifference": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "normalSHA256": "70b5f13a4d9e06824a9da0df1ceaa306f5186617aa0e29deb6f6bcc384103635",
+    "reducedSHA256": "70b5f13a4d9e06824a9da0df1ceaa306f5186617aa0e29deb6f6bcc384103635"
+  },
+  {
+    "width": 768,
+    "block": "enrollment-submission-title",
+    "dimensions": [
+      720,
+      553
+    ],
+    "identicalPixels": true,
+    "differenceBounds": null,
+    "meanDifference": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "normalSHA256": "185d745e795e031170d6eaa51f5e8878c311581596a81972bfb5add9e4e90294",
+    "reducedSHA256": "185d745e795e031170d6eaa51f5e8878c311581596a81972bfb5add9e4e90294"
+  },
+  {
+    "width": 1440,
+    "block": "evidence",
+    "dimensions": [
+      1280,
+      837
+    ],
+    "identicalPixels": false,
+    "differenceBounds": [
+      464,
+      10,
+      469,
+      11
+    ],
+    "meanDifference": [
+      0.0,
+      0.0,
+      1.8667861409796893e-06
+    ],
+    "normalSHA256": "fd938e75815a94b0843dddd5dfcefc1676aa25fb3070f8cfb1888563c47de644",
+    "reducedSHA256": "3b98d969243f5c467e9d140c45ac2074401bd7ffb42ec8af642143ec1915cd77"
+  },
+  {
+    "width": 1440,
+    "block": "enrollment-discovery",
+    "dimensions": [
+      1440,
+      677
+    ],
+    "identicalPixels": true,
+    "differenceBounds": null,
+    "meanDifference": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "normalSHA256": "eb2fdebe0719dba071b27c0b0e58a83022d9518e0e70b24b728fb3562810a82c",
+    "reducedSHA256": "eb2fdebe0719dba071b27c0b0e58a83022d9518e0e70b24b728fb3562810a82c"
+  },
+  {
+    "width": 1440,
+    "block": "enrollment-eligibility",
+    "dimensions": [
+      1280,
+      507
+    ],
+    "identicalPixels": true,
+    "differenceBounds": null,
+    "meanDifference": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "normalSHA256": "e792ee68d5aa6c88e1eef834a4302b3dc92fc995787fa162962b9d8da2219a90",
+    "reducedSHA256": "e792ee68d5aa6c88e1eef834a4302b3dc92fc995787fa162962b9d8da2219a90"
+  },
+  {
+    "width": 1440,
+    "block": "enrollment-personal-details",
+    "dimensions": [
+      1280,
+      508
+    ],
+    "identicalPixels": true,
+    "differenceBounds": null,
+    "meanDifference": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "normalSHA256": "061822ac22f9bac5401f0590d15b3c8b76c43ca4ca1e56714c6034cf89a144b7",
+    "reducedSHA256": "061822ac22f9bac5401f0590d15b3c8b76c43ca4ca1e56714c6034cf89a144b7"
+  },
+  {
+    "width": 1440,
+    "block": "enrollment-portability",
+    "dimensions": [
+      1280,
+      508
+    ],
+    "identicalPixels": true,
+    "differenceBounds": null,
+    "meanDifference": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "normalSHA256": "8c3a33034a339bcd660708f351f2c8a71dc98c93a2bb3416bd79ef66b136974a",
+    "reducedSHA256": "8c3a33034a339bcd660708f351f2c8a71dc98c93a2bb3416bd79ef66b136974a"
+  },
+  {
+    "width": 1440,
+    "block": "enrollment-submission-title",
+    "dimensions": [
+      1280,
+      417
+    ],
+    "identicalPixels": true,
+    "differenceBounds": null,
+    "meanDifference": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "normalSHA256": "c6d46d8acdb3d1015fd3af91abcac391b8fe8fbd7225946074cb07c1da9e279b",
+    "reducedSHA256": "c6d46d8acdb3d1015fd3af91abcac391b8fe8fbd7225946074cb07c1da9e279b"
+  }
+]
