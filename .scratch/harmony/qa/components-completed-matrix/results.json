@@ -1,0 +1,4235 @@
+{
+  "checks": [
+    {
+      "name": "320/no-preference: content visible when reached by wheel",
+      "ok": true,
+      "detail": {
+        "observedElements": 49,
+        "concealed": []
+      }
+    },
+    {
+      "name": "320/no-preference: wheel traverses from top to document bottom",
+      "ok": true,
+      "detail": {
+        "startY": 0,
+        "endY": 12619,
+        "steps": 43,
+        "arrivals": [
+          {
+            "id": "harmony-problem",
+            "text": "Separate libraries. Repeated decisions.",
+            "scrollY": 600,
+            "capture": "wheel-320-no-preference-harmony-problem.png"
+          },
+          {
+            "id": "harmony-role",
+            "text": "Leading design, working with development.",
+            "scrollY": 1500,
+            "capture": "wheel-320-no-preference-harmony-role.png"
+          },
+          {
+            "id": "harmony-foundations",
+            "text": "Building a shared foundation.",
+            "scrollY": 2400,
+            "capture": "wheel-320-no-preference-harmony-foundations.png"
+          },
+          {
+            "id": "harmony-primitives",
+            "text": "Primitive color scales",
+            "scrollY": 2700,
+            "capture": "wheel-320-no-preference-harmony-primitives.png"
+          },
+          {
+            "id": "harmony-semantics",
+            "text": "Semantic roles by use",
+            "scrollY": 3600,
+            "capture": "wheel-320-no-preference-harmony-semantics.png"
+          },
+          {
+            "id": "harmony-responsive",
+            "text": "Responsive variables",
+            "scrollY": 4500,
+            "capture": "wheel-320-no-preference-harmony-responsive.png"
+          },
+          {
+            "id": "harmony-components",
+            "text": "Applying the shared patterns.",
+            "scrollY": 6300,
+            "capture": "wheel-320-no-preference-harmony-components.png"
+          },
+          {
+            "id": "harmony-buttons",
+            "text": "Button variants, sizes, and states",
+            "scrollY": 6600,
+            "capture": "wheel-320-no-preference-harmony-buttons.png"
+          },
+          {
+            "id": "harmony-navigation",
+            "text": "Navigation across contexts",
+            "scrollY": 7800,
+            "capture": "wheel-320-no-preference-harmony-navigation.png"
+          },
+          {
+            "id": "harmony-decisions",
+            "text": "Supporting the product ecosystem.",
+            "scrollY": 9300,
+            "capture": "wheel-320-no-preference-harmony-decisions.png"
+          },
+          {
+            "id": "",
+            "text": "React + Next.js for the product ecosystem",
+            "scrollY": 9600,
+            "capture": "wheel-320-no-preference-.png"
+          },
+          {
+            "id": "harmony-outcome",
+            "text": "Adopted in new projects. Evolving with the team.",
+            "scrollY": 10200,
+            "capture": "wheel-320-no-preference-harmony-outcome.png"
+          },
+          {
+            "id": "harmony-progress",
+            "text": "Prototyping with AI, exploring the path to React.",
+            "scrollY": 11100,
+            "capture": "wheel-320-no-preference-harmony-progress.png"
+          }
+        ]
+      }
+    },
+    {
+      "name": "320/no-preference: no horizontal overflow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference: foundations in approved reading order",
+      "ok": true,
+      "detail": [
+        "Primitive color scales",
+        "Semantic roles by use",
+        "Responsive variables",
+        "Button variants, sizes, and states",
+        "Navigation across contexts",
+        "React + Next.js for the product ecosystem"
+      ]
+    },
+    {
+      "name": "320/no-preference: component application follows foundations in approved order",
+      "ok": true,
+      "detail": [
+        "Primitive color scales",
+        "Semantic roles by use",
+        "Responsive variables",
+        "Button variants, sizes, and states",
+        "Navigation across contexts",
+        "React + Next.js for the product ecosystem"
+      ]
+    },
+    {
+      "name": "320/no-preference: exactly five static evidence images for tickets 01–02",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference/primitives: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Selected Primary blue and Secondary yellow steps with their scale names and numeric values.",
+        "ratio": 0.6166353749690036,
+        "sourceRatio": 0.6166666666666667,
+        "width": 271.984375,
+        "naturalWidth": 296,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "disjoint": true,
+        "imageLeft": false,
+        "imageRight": false,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8015/assets/images/harmony/editorial/primitive-selected-light-steps-mobile.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "320/no-preference/primitives: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference/primitives: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference/primitives: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference/primitives: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference/semantics: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Selected roles in the Surface and Border color groups, including Default and Soft.",
+        "ratio": 0.6771307425992921,
+        "sourceRatio": 0.6771653543307087,
+        "width": 271.984375,
+        "naturalWidth": 344,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "disjoint": true,
+        "imageLeft": false,
+        "imageRight": false,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8015/assets/images/harmony/editorial/semantic-default-soft-roles-mobile.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "320/no-preference/semantics: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference/semantics: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference/semantics: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference/semantics: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference/responsive: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Desktop, Tablet, and Mobile variable modes with ScreenSize values 1440, 768, and 390, and selected Gap values. On narrow screens, the three labelled mode selections are stacked.",
+        "ratio": 0.30722391853015407,
+        "sourceRatio": 0.30723684210526314,
+        "width": 271.984375,
+        "naturalWidth": 467,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "disjoint": true,
+        "imageLeft": false,
+        "imageRight": false,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8015/assets/images/harmony/editorial/responsive-mode-selections-mobile.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "320/no-preference/responsive: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference/responsive: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference/responsive: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference/responsive: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference/buttons: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Standard solid and outline button selections in NormalSize and SmallSize, showing text, dropdown and icon-only examples in blue, outlined and faded state treatments.",
+        "ratio": 0.5822128570472941,
+        "sourceRatio": 0.5822416302765647,
+        "width": 271.984375,
+        "naturalWidth": 400,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "disjoint": true,
+        "imageLeft": false,
+        "imageRight": false,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8015/assets/images/harmony/editorial/button-standard-solid-outline-normal-small.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "320/no-preference/buttons: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference/buttons: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference/buttons: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference/buttons: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference/component-navigation: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "PortalProfileButton above IntranetProfileButton: two labelled profile-menu selections with shared account and exit patterns, and different menu entries for each context.",
+        "ratio": 0.44774545361010365,
+        "sourceRatio": 0.44776119402985076,
+        "width": 271.984375,
+        "naturalWidth": 300,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "disjoint": true,
+        "imageLeft": false,
+        "imageRight": false,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8015/assets/images/harmony/editorial/portal-intranet-profile-navigation.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "320/no-preference/component-navigation: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference/component-navigation: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference/component-navigation: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference/component-navigation: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce: content visible when reached by wheel",
+      "ok": true,
+      "detail": {
+        "observedElements": 49,
+        "concealed": []
+      }
+    },
+    {
+      "name": "320/reduce: wheel traverses from top to document bottom",
+      "ok": true,
+      "detail": {
+        "startY": 0,
+        "endY": 12619,
+        "steps": 43,
+        "arrivals": [
+          {
+            "id": "harmony-problem",
+            "text": "Separate libraries. Repeated decisions.",
+            "scrollY": 600,
+            "capture": "wheel-320-reduce-harmony-problem.png"
+          },
+          {
+            "id": "harmony-role",
+            "text": "Leading design, working with development.",
+            "scrollY": 1500,
+            "capture": "wheel-320-reduce-harmony-role.png"
+          },
+          {
+            "id": "harmony-foundations",
+            "text": "Building a shared foundation.",
+            "scrollY": 2400,
+            "capture": "wheel-320-reduce-harmony-foundations.png"
+          },
+          {
+            "id": "harmony-primitives",
+            "text": "Primitive color scales",
+            "scrollY": 2700,
+            "capture": "wheel-320-reduce-harmony-primitives.png"
+          },
+          {
+            "id": "harmony-semantics",
+            "text": "Semantic roles by use",
+            "scrollY": 3600,
+            "capture": "wheel-320-reduce-harmony-semantics.png"
+          },
+          {
+            "id": "harmony-responsive",
+            "text": "Responsive variables",
+            "scrollY": 4500,
+            "capture": "wheel-320-reduce-harmony-responsive.png"
+          },
+          {
+            "id": "harmony-components",
+            "text": "Applying the shared patterns.",
+            "scrollY": 6300,
+            "capture": "wheel-320-reduce-harmony-components.png"
+          },
+          {
+            "id": "harmony-buttons",
+            "text": "Button variants, sizes, and states",
+            "scrollY": 6600,
+            "capture": "wheel-320-reduce-harmony-buttons.png"
+          },
+          {
+            "id": "harmony-navigation",
+            "text": "Navigation across contexts",
+            "scrollY": 7800,
+            "capture": "wheel-320-reduce-harmony-navigation.png"
+          },
+          {
+            "id": "harmony-decisions",
+            "text": "Supporting the product ecosystem.",
+            "scrollY": 9300,
+            "capture": "wheel-320-reduce-harmony-decisions.png"
+          },
+          {
+            "id": "",
+            "text": "React + Next.js for the product ecosystem",
+            "scrollY": 9600,
+            "capture": "wheel-320-reduce-.png"
+          },
+          {
+            "id": "harmony-outcome",
+            "text": "Adopted in new projects. Evolving with the team.",
+            "scrollY": 10200,
+            "capture": "wheel-320-reduce-harmony-outcome.png"
+          },
+          {
+            "id": "harmony-progress",
+            "text": "Prototyping with AI, exploring the path to React.",
+            "scrollY": 11100,
+            "capture": "wheel-320-reduce-harmony-progress.png"
+          }
+        ]
+      }
+    },
+    {
+      "name": "320/reduce: no horizontal overflow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce: foundations in approved reading order",
+      "ok": true,
+      "detail": [
+        "Primitive color scales",
+        "Semantic roles by use",
+        "Responsive variables",
+        "Button variants, sizes, and states",
+        "Navigation across contexts",
+        "React + Next.js for the product ecosystem"
+      ]
+    },
+    {
+      "name": "320/reduce: component application follows foundations in approved order",
+      "ok": true,
+      "detail": [
+        "Primitive color scales",
+        "Semantic roles by use",
+        "Responsive variables",
+        "Button variants, sizes, and states",
+        "Navigation across contexts",
+        "React + Next.js for the product ecosystem"
+      ]
+    },
+    {
+      "name": "320/reduce: exactly five static evidence images for tickets 01–02",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce/primitives: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Selected Primary blue and Secondary yellow steps with their scale names and numeric values.",
+        "ratio": 0.6166353749690036,
+        "sourceRatio": 0.6166666666666667,
+        "width": 271.984375,
+        "naturalWidth": 296,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "disjoint": true,
+        "imageLeft": false,
+        "imageRight": false,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8015/assets/images/harmony/editorial/primitive-selected-light-steps-mobile.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "320/reduce/primitives: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce/primitives: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce/primitives: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce/primitives: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce/semantics: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Selected roles in the Surface and Border color groups, including Default and Soft.",
+        "ratio": 0.6771307425992921,
+        "sourceRatio": 0.6771653543307087,
+        "width": 271.984375,
+        "naturalWidth": 344,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "disjoint": true,
+        "imageLeft": false,
+        "imageRight": false,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8015/assets/images/harmony/editorial/semantic-default-soft-roles-mobile.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "320/reduce/semantics: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce/semantics: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce/semantics: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce/semantics: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce/responsive: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Desktop, Tablet, and Mobile variable modes with ScreenSize values 1440, 768, and 390, and selected Gap values. On narrow screens, the three labelled mode selections are stacked.",
+        "ratio": 0.30722391853015407,
+        "sourceRatio": 0.30723684210526314,
+        "width": 271.984375,
+        "naturalWidth": 467,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "disjoint": true,
+        "imageLeft": false,
+        "imageRight": false,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8015/assets/images/harmony/editorial/responsive-mode-selections-mobile.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "320/reduce/responsive: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce/responsive: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce/responsive: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce/responsive: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce/buttons: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Standard solid and outline button selections in NormalSize and SmallSize, showing text, dropdown and icon-only examples in blue, outlined and faded state treatments.",
+        "ratio": 0.5822128570472941,
+        "sourceRatio": 0.5822416302765647,
+        "width": 271.984375,
+        "naturalWidth": 400,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "disjoint": true,
+        "imageLeft": false,
+        "imageRight": false,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8015/assets/images/harmony/editorial/button-standard-solid-outline-normal-small.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "320/reduce/buttons: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce/buttons: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce/buttons: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce/buttons: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce/component-navigation: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "PortalProfileButton above IntranetProfileButton: two labelled profile-menu selections with shared account and exit patterns, and different menu entries for each context.",
+        "ratio": 0.44774545361010365,
+        "sourceRatio": 0.44776119402985076,
+        "width": 271.984375,
+        "naturalWidth": 300,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "disjoint": true,
+        "imageLeft": false,
+        "imageRight": false,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8015/assets/images/harmony/editorial/portal-intranet-profile-navigation.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "320/reduce/component-navigation: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce/component-navigation: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce/component-navigation: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce/component-navigation: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference: content visible when reached by wheel",
+      "ok": true,
+      "detail": {
+        "observedElements": 49,
+        "concealed": []
+      }
+    },
+    {
+      "name": "375/no-preference: wheel traverses from top to document bottom",
+      "ok": true,
+      "detail": {
+        "startY": 0,
+        "endY": 12133,
+        "steps": 41,
+        "arrivals": [
+          {
+            "id": "harmony-problem",
+            "text": "Separate libraries. Repeated decisions.",
+            "scrollY": 600,
+            "capture": "wheel-375-no-preference-harmony-problem.png"
+          },
+          {
+            "id": "harmony-role",
+            "text": "Leading design, working with development.",
+            "scrollY": 1500,
+            "capture": "wheel-375-no-preference-harmony-role.png"
+          },
+          {
+            "id": "harmony-foundations",
+            "text": "Building a shared foundation.",
+            "scrollY": 2100,
+            "capture": "wheel-375-no-preference-harmony-foundations.png"
+          },
+          {
+            "id": "harmony-primitives",
+            "text": "Primitive color scales",
+            "scrollY": 2700,
+            "capture": "wheel-375-no-preference-harmony-primitives.png"
+          },
+          {
+            "id": "harmony-semantics",
+            "text": "Semantic roles by use",
+            "scrollY": 3600,
+            "capture": "wheel-375-no-preference-harmony-semantics.png"
+          },
+          {
+            "id": "harmony-responsive",
+            "text": "Responsive variables",
+            "scrollY": 4500,
+            "capture": "wheel-375-no-preference-harmony-responsive.png"
+          },
+          {
+            "id": "harmony-components",
+            "text": "Applying the shared patterns.",
+            "scrollY": 6300,
+            "capture": "wheel-375-no-preference-harmony-components.png"
+          },
+          {
+            "id": "harmony-buttons",
+            "text": "Button variants, sizes, and states",
+            "scrollY": 6600,
+            "capture": "wheel-375-no-preference-harmony-buttons.png"
+          },
+          {
+            "id": "harmony-navigation",
+            "text": "Navigation across contexts",
+            "scrollY": 7800,
+            "capture": "wheel-375-no-preference-harmony-navigation.png"
+          },
+          {
+            "id": "harmony-decisions",
+            "text": "Supporting the product ecosystem.",
+            "scrollY": 9300,
+            "capture": "wheel-375-no-preference-harmony-decisions.png"
+          },
+          {
+            "id": "",
+            "text": "React + Next.js for the product ecosystem",
+            "scrollY": 9300,
+            "capture": "wheel-375-no-preference-.png"
+          },
+          {
+            "id": "harmony-outcome",
+            "text": "Adopted in new projects. Evolving with the team.",
+            "scrollY": 9900,
+            "capture": "wheel-375-no-preference-harmony-outcome.png"
+          },
+          {
+            "id": "harmony-progress",
+            "text": "Prototyping with AI, exploring the path to React.",
+            "scrollY": 10800,
+            "capture": "wheel-375-no-preference-harmony-progress.png"
+          }
+        ]
+      }
+    },
+    {
+      "name": "375/no-preference: no horizontal overflow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference: foundations in approved reading order",
+      "ok": true,
+      "detail": [
+        "Primitive color scales",
+        "Semantic roles by use",
+        "Responsive variables",
+        "Button variants, sizes, and states",
+        "Navigation across contexts",
+        "React + Next.js for the product ecosystem"
+      ]
+    },
+    {
+      "name": "375/no-preference: component application follows foundations in approved order",
+      "ok": true,
+      "detail": [
+        "Primitive color scales",
+        "Semantic roles by use",
+        "Responsive variables",
+        "Button variants, sizes, and states",
+        "Navigation across contexts",
+        "React + Next.js for the product ecosystem"
+      ]
+    },
+    {
+      "name": "375/no-preference: exactly five static evidence images for tickets 01–02",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference/primitives: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Selected Primary blue and Secondary yellow steps with their scale names and numeric values.",
+        "ratio": 0.6166666666666667,
+        "sourceRatio": 0.6166666666666667,
+        "width": 296,
+        "naturalWidth": 296,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "disjoint": true,
+        "imageLeft": false,
+        "imageRight": false,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8015/assets/images/harmony/editorial/primitive-selected-light-steps-mobile.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "375/no-preference/primitives: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference/primitives: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference/primitives: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference/primitives: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference/semantics: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Selected roles in the Surface and Border color groups, including Default and Soft.",
+        "ratio": 0.6771396214204821,
+        "sourceRatio": 0.6771653543307087,
+        "width": 326.984375,
+        "naturalWidth": 344,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "disjoint": true,
+        "imageLeft": false,
+        "imageRight": false,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8015/assets/images/harmony/editorial/semantic-default-soft-roles-mobile.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "375/no-preference/semantics: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference/semantics: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference/semantics: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference/semantics: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference/responsive: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Desktop, Tablet, and Mobile variable modes with ScreenSize values 1440, 768, and 390, and selected Gap values. On narrow screens, the three labelled mode selections are stacked.",
+        "ratio": 0.3072259087439074,
+        "sourceRatio": 0.30723684210526314,
+        "width": 326.984375,
+        "naturalWidth": 467,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "disjoint": true,
+        "imageLeft": false,
+        "imageRight": false,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8015/assets/images/harmony/editorial/responsive-mode-selections-mobile.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "375/no-preference/responsive: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference/responsive: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference/responsive: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference/responsive: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference/buttons: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Standard solid and outline button selections in NormalSize and SmallSize, showing text, dropdown and icon-only examples in blue, outlined and faded state treatments.",
+        "ratio": 0.5822274156303036,
+        "sourceRatio": 0.5822416302765647,
+        "width": 326.984375,
+        "naturalWidth": 400,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "disjoint": true,
+        "imageLeft": false,
+        "imageRight": false,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8015/assets/images/harmony/editorial/button-standard-solid-outline-normal-small.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "375/no-preference/buttons: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference/buttons: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference/buttons: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference/buttons: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference/component-navigation: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "PortalProfileButton above IntranetProfileButton: two labelled profile-menu selections with shared account and exit patterns, and different menu entries for each context.",
+        "ratio": 0.44776119402985076,
+        "sourceRatio": 0.44776119402985076,
+        "width": 300,
+        "naturalWidth": 300,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "disjoint": true,
+        "imageLeft": false,
+        "imageRight": false,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8015/assets/images/harmony/editorial/portal-intranet-profile-navigation.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "375/no-preference/component-navigation: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference/component-navigation: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference/component-navigation: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference/component-navigation: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/reduce: content visible when reached by wheel",
+      "ok": true,
+      "detail": {
+        "observedElements": 49,
+        "concealed": []
+      }
+    },
+    {
+      "name": "375/reduce: wheel traverses from top to document bottom",
+      "ok": true,
+      "detail": {
+        "startY": 0,
+        "endY": 12133,
+        "steps": 41,
+        "arrivals": [
+          {
+            "id": "harmony-problem",
+            "text": "Separate libraries. Repeated decisions.",
+            "scrollY": 600,
+            "capture": "wheel-375-reduce-harmony-problem.png"
+          },
+          {
+            "id": "harmony-role",
+            "text": "Leading design, working with development.",
+            "scrollY": 1500,
+            "capture": "wheel-375-reduce-harmony-role.png"
+          },
+          {
+            "id": "harmony-foundations",
+            "text": "Building a shared foundation.",
+            "scrollY": 2100,
+            "capture": "wheel-375-reduce-harmony-foundations.png"
+          },
+          {
+            "id": "harmony-primitives",
+            "text": "Primitive color scales",
+            "scrollY": 2700,
+            "capture": "wheel-375-reduce-harmony-primitives.png"
+          },
+          {
+            "id": "harmony-semantics",
+            "text": "Semantic roles by use",
+            "scrollY": 3600,
+            "capture": "wheel-375-reduce-harmony-semantics.png"
+          },
+          {
+            "id": "harmony-responsive",
+            "text": "Responsive variables",
+            "scrollY": 4500,
+            "capture": "wheel-375-reduce-harmony-responsive.png"
+          },
+          {
+            "id": "harmony-components",
+            "text": "Applying the shared patterns.",
+            "scrollY": 6300,
+            "capture": "wheel-375-reduce-harmony-components.png"
+          },
+          {
+            "id": "harmony-buttons",
+            "text": "Button variants, sizes, and states",
+            "scrollY": 6600,
+            "capture": "wheel-375-reduce-harmony-buttons.png"
+          },
+          {
+            "id": "harmony-navigation",
+            "text": "Navigation across contexts",
+            "scrollY": 7800,
+            "capture": "wheel-375-reduce-harmony-navigation.png"
+          },
+          {
+            "id": "harmony-decisions",
+            "text": "Supporting the product ecosystem.",
+            "scrollY": 9300,
+            "capture": "wheel-375-reduce-harmony-decisions.png"
+          },
+          {
+            "id": "",
+            "text": "React + Next.js for the product ecosystem",
+            "scrollY": 9300,
+            "capture": "wheel-375-reduce-.png"
+          },
+          {
+            "id": "harmony-outcome",
+            "text": "Adopted in new projects. Evolving with the team.",
+            "scrollY": 9900,
+            "capture": "wheel-375-reduce-harmony-outcome.png"
+          },
+          {
+            "id": "harmony-progress",
+            "text": "Prototyping with AI, exploring the path to React.",
+            "scrollY": 10800,
+            "capture": "wheel-375-reduce-harmony-progress.png"
+          }
+        ]
+      }
+    },
+    {
+      "name": "375/reduce: no horizontal overflow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/reduce: foundations in approved reading order",
+      "ok": true,
+      "detail": [
+        "Primitive color scales",
+        "Semantic roles by use",
+        "Responsive variables",
+        "Button variants, sizes, and states",
+        "Navigation across contexts",
+        "React + Next.js for the product ecosystem"
+      ]
+    },
+    {
+      "name": "375/reduce: component application follows foundations in approved order",
+      "ok": true,
+      "detail": [
+        "Primitive color scales",
+        "Semantic roles by use",
+        "Responsive variables",
+        "Button variants, sizes, and states",
+        "Navigation across contexts",
+        "React + Next.js for the product ecosystem"
+      ]
+    },
+    {
+      "name": "375/reduce: exactly five static evidence images for tickets 01–02",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/reduce/primitives: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Selected Primary blue and Secondary yellow steps with their scale names and numeric values.",
+        "ratio": 0.6166666666666667,
+        "sourceRatio": 0.6166666666666667,
+        "width": 296,
+        "naturalWidth": 296,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "disjoint": true,
+        "imageLeft": false,
+        "imageRight": false,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8015/assets/images/harmony/editorial/primitive-selected-light-steps-mobile.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "375/reduce/primitives: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/reduce/primitives: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/reduce/primitives: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/reduce/primitives: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/reduce/semantics: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Selected roles in the Surface and Border color groups, including Default and Soft.",
+        "ratio": 0.6771396214204821,
+        "sourceRatio": 0.6771653543307087,
+        "width": 326.984375,
+        "naturalWidth": 344,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "disjoint": true,
+        "imageLeft": false,
+        "imageRight": false,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8015/assets/images/harmony/editorial/semantic-default-soft-roles-mobile.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "375/reduce/semantics: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/reduce/semantics: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/reduce/semantics: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/reduce/semantics: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/reduce/responsive: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Desktop, Tablet, and Mobile variable modes with ScreenSize values 1440, 768, and 390, and selected Gap values. On narrow screens, the three labelled mode selections are stacked.",
+        "ratio": 0.3072259087439074,
+        "sourceRatio": 0.30723684210526314,
+        "width": 326.984375,
+        "naturalWidth": 467,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "disjoint": true,
+        "imageLeft": false,
+        "imageRight": false,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8015/assets/images/harmony/editorial/responsive-mode-selections-mobile.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "375/reduce/responsive: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/reduce/responsive: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/reduce/responsive: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/reduce/responsive: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/reduce/buttons: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Standard solid and outline button selections in NormalSize and SmallSize, showing text, dropdown and icon-only examples in blue, outlined and faded state treatments.",
+        "ratio": 0.5822274156303036,
+        "sourceRatio": 0.5822416302765647,
+        "width": 326.984375,
+        "naturalWidth": 400,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "disjoint": true,
+        "imageLeft": false,
+        "imageRight": false,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8015/assets/images/harmony/editorial/button-standard-solid-outline-normal-small.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "375/reduce/buttons: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/reduce/buttons: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/reduce/buttons: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/reduce/buttons: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/reduce/component-navigation: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "PortalProfileButton above IntranetProfileButton: two labelled profile-menu selections with shared account and exit patterns, and different menu entries for each context.",
+        "ratio": 0.44776119402985076,
+        "sourceRatio": 0.44776119402985076,
+        "width": 300,
+        "naturalWidth": 300,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "disjoint": true,
+        "imageLeft": false,
+        "imageRight": false,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8015/assets/images/harmony/editorial/portal-intranet-profile-navigation.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "375/reduce/component-navigation: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/reduce/component-navigation: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/reduce/component-navigation: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/reduce/component-navigation: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/no-preference: content visible when reached by wheel",
+      "ok": true,
+      "detail": {
+        "observedElements": 49,
+        "concealed": []
+      }
+    },
+    {
+      "name": "768/no-preference: wheel traverses from top to document bottom",
+      "ok": true,
+      "detail": {
+        "startY": 0,
+        "endY": 10333,
+        "steps": 35,
+        "arrivals": [
+          {
+            "id": "harmony-problem",
+            "text": "Separate libraries. Repeated decisions.",
+            "scrollY": 900,
+            "capture": "wheel-768-no-preference-harmony-problem.png"
+          },
+          {
+            "id": "harmony-role",
+            "text": "Leading design, working with development.",
+            "scrollY": 1200,
+            "capture": "wheel-768-no-preference-harmony-role.png"
+          },
+          {
+            "id": "harmony-foundations",
+            "text": "Building a shared foundation.",
+            "scrollY": 1800,
+            "capture": "wheel-768-no-preference-harmony-foundations.png"
+          },
+          {
+            "id": "harmony-primitives",
+            "text": "Primitive color scales",
+            "scrollY": 2100,
+            "capture": "wheel-768-no-preference-harmony-primitives.png"
+          },
+          {
+            "id": "harmony-semantics",
+            "text": "Semantic roles by use",
+            "scrollY": 3000,
+            "capture": "wheel-768-no-preference-harmony-semantics.png"
+          },
+          {
+            "id": "harmony-responsive",
+            "text": "Responsive variables",
+            "scrollY": 3600,
+            "capture": "wheel-768-no-preference-harmony-responsive.png"
+          },
+          {
+            "id": "harmony-components",
+            "text": "Applying the shared patterns.",
+            "scrollY": 5700,
+            "capture": "wheel-768-no-preference-harmony-components.png"
+          },
+          {
+            "id": "harmony-buttons",
+            "text": "Button variants, sizes, and states",
+            "scrollY": 6000,
+            "capture": "wheel-768-no-preference-harmony-buttons.png"
+          },
+          {
+            "id": "harmony-navigation",
+            "text": "Navigation across contexts",
+            "scrollY": 6900,
+            "capture": "wheel-768-no-preference-harmony-navigation.png"
+          },
+          {
+            "id": "harmony-decisions",
+            "text": "Supporting the product ecosystem.",
+            "scrollY": 8100,
+            "capture": "wheel-768-no-preference-harmony-decisions.png"
+          },
+          {
+            "id": "",
+            "text": "React + Next.js for the product ecosystem",
+            "scrollY": 8400,
+            "capture": "wheel-768-no-preference-.png"
+          },
+          {
+            "id": "harmony-outcome",
+            "text": "Adopted in new projects. Evolving with the team.",
+            "scrollY": 8700,
+            "capture": "wheel-768-no-preference-harmony-outcome.png"
+          },
+          {
+            "id": "harmony-progress",
+            "text": "Prototyping with AI, exploring the path to React.",
+            "scrollY": 9300,
+            "capture": "wheel-768-no-preference-harmony-progress.png"
+          }
+        ]
+      }
+    },
+    {
+      "name": "768/no-preference: no horizontal overflow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/no-preference: foundations in approved reading order",
+      "ok": true,
+      "detail": [
+        "Primitive color scales",
+        "Semantic roles by use",
+        "Responsive variables",
+        "Button variants, sizes, and states",
+        "Navigation across contexts",
+        "React + Next.js for the product ecosystem"
+      ]
+    },
+    {
+      "name": "768/no-preference: component application follows foundations in approved order",
+      "ok": true,
+      "detail": [
+        "Primitive color scales",
+        "Semantic roles by use",
+        "Responsive variables",
+        "Button variants, sizes, and states",
+        "Navigation across contexts",
+        "React + Next.js for the product ecosystem"
+      ]
+    },
+    {
+      "name": "768/no-preference: exactly five static evidence images for tickets 01–02",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/no-preference/primitives: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Selected Primary blue and Secondary yellow steps with their scale names and numeric values.",
+        "ratio": 0.6166666666666667,
+        "sourceRatio": 0.6166666666666667,
+        "width": 296,
+        "naturalWidth": 296,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "disjoint": true,
+        "imageLeft": false,
+        "imageRight": false,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8015/assets/images/harmony/editorial/primitive-selected-light-steps-mobile.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "768/no-preference/primitives: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/no-preference/primitives: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/no-preference/primitives: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/no-preference/primitives: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/no-preference/semantics: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Selected roles in the Surface and Border color groups, including Default and Soft.",
+        "ratio": 0.6771653543307087,
+        "sourceRatio": 0.6771653543307087,
+        "width": 344,
+        "naturalWidth": 344,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "disjoint": true,
+        "imageLeft": false,
+        "imageRight": false,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8015/assets/images/harmony/editorial/semantic-default-soft-roles-mobile.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "768/no-preference/semantics: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/no-preference/semantics: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/no-preference/semantics: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/no-preference/semantics: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/no-preference/responsive: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Desktop, Tablet, and Mobile variable modes with ScreenSize values 1440, 768, and 390, and selected Gap values. On narrow screens, the three labelled mode selections are stacked.",
+        "ratio": 0.30723684210526314,
+        "sourceRatio": 0.30723684210526314,
+        "width": 467,
+        "naturalWidth": 467,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "disjoint": true,
+        "imageLeft": false,
+        "imageRight": false,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8015/assets/images/harmony/editorial/responsive-mode-selections-mobile.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "768/no-preference/responsive: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/no-preference/responsive: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/no-preference/responsive: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/no-preference/responsive: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/no-preference/buttons: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Standard solid and outline button selections in NormalSize and SmallSize, showing text, dropdown and icon-only examples in blue, outlined and faded state treatments.",
+        "ratio": 0.5822416302765647,
+        "sourceRatio": 0.5822416302765647,
+        "width": 400,
+        "naturalWidth": 400,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "disjoint": true,
+        "imageLeft": false,
+        "imageRight": false,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8015/assets/images/harmony/editorial/button-standard-solid-outline-normal-small.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "768/no-preference/buttons: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/no-preference/buttons: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/no-preference/buttons: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/no-preference/buttons: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/no-preference/component-navigation: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "PortalProfileButton above IntranetProfileButton: two labelled profile-menu selections with shared account and exit patterns, and different menu entries for each context.",
+        "ratio": 0.44776119402985076,
+        "sourceRatio": 0.44776119402985076,
+        "width": 300,
+        "naturalWidth": 300,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "disjoint": true,
+        "imageLeft": false,
+        "imageRight": false,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8015/assets/images/harmony/editorial/portal-intranet-profile-navigation.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "768/no-preference/component-navigation: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/no-preference/component-navigation: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/no-preference/component-navigation: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/no-preference/component-navigation: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/reduce: content visible when reached by wheel",
+      "ok": true,
+      "detail": {
+        "observedElements": 49,
+        "concealed": []
+      }
+    },
+    {
+      "name": "768/reduce: wheel traverses from top to document bottom",
+      "ok": true,
+      "detail": {
+        "startY": 0,
+        "endY": 10333,
+        "steps": 35,
+        "arrivals": [
+          {
+            "id": "harmony-problem",
+            "text": "Separate libraries. Repeated decisions.",
+            "scrollY": 900,
+            "capture": "wheel-768-reduce-harmony-problem.png"
+          },
+          {
+            "id": "harmony-role",
+            "text": "Leading design, working with development.",
+            "scrollY": 1200,
+            "capture": "wheel-768-reduce-harmony-role.png"
+          },
+          {
+            "id": "harmony-foundations",
+            "text": "Building a shared foundation.",
+            "scrollY": 1800,
+            "capture": "wheel-768-reduce-harmony-foundations.png"
+          },
+          {
+            "id": "harmony-primitives",
+            "text": "Primitive color scales",
+            "scrollY": 2100,
+            "capture": "wheel-768-reduce-harmony-primitives.png"
+          },
+          {
+            "id": "harmony-semantics",
+            "text": "Semantic roles by use",
+            "scrollY": 3000,
+            "capture": "wheel-768-reduce-harmony-semantics.png"
+          },
+          {
+            "id": "harmony-responsive",
+            "text": "Responsive variables",
+            "scrollY": 3600,
+            "capture": "wheel-768-reduce-harmony-responsive.png"
+          },
+          {
+            "id": "harmony-components",
+            "text": "Applying the shared patterns.",
+            "scrollY": 5700,
+            "capture": "wheel-768-reduce-harmony-components.png"
+          },
+          {
+            "id": "harmony-buttons",
+            "text": "Button variants, sizes, and states",
+            "scrollY": 6000,
+            "capture": "wheel-768-reduce-harmony-buttons.png"
+          },
+          {
+            "id": "harmony-navigation",
+            "text": "Navigation across contexts",
+            "scrollY": 6900,
+            "capture": "wheel-768-reduce-harmony-navigation.png"
+          },
+          {
+            "id": "harmony-decisions",
+            "text": "Supporting the product ecosystem.",
+            "scrollY": 8100,
+            "capture": "wheel-768-reduce-harmony-decisions.png"
+          },
+          {
+            "id": "",
+            "text": "React + Next.js for the product ecosystem",
+            "scrollY": 8400,
+            "capture": "wheel-768-reduce-.png"
+          },
+          {
+            "id": "harmony-outcome",
+            "text": "Adopted in new projects. Evolving with the team.",
+            "scrollY": 8700,
+            "capture": "wheel-768-reduce-harmony-outcome.png"
+          },
+          {
+            "id": "harmony-progress",
+            "text": "Prototyping with AI, exploring the path to React.",
+            "scrollY": 9300,
+            "capture": "wheel-768-reduce-harmony-progress.png"
+          }
+        ]
+      }
+    },
+    {
+      "name": "768/reduce: no horizontal overflow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/reduce: foundations in approved reading order",
+      "ok": true,
+      "detail": [
+        "Primitive color scales",
+        "Semantic roles by use",
+        "Responsive variables",
+        "Button variants, sizes, and states",
+        "Navigation across contexts",
+        "React + Next.js for the product ecosystem"
+      ]
+    },
+    {
+      "name": "768/reduce: component application follows foundations in approved order",
+      "ok": true,
+      "detail": [
+        "Primitive color scales",
+        "Semantic roles by use",
+        "Responsive variables",
+        "Button variants, sizes, and states",
+        "Navigation across contexts",
+        "React + Next.js for the product ecosystem"
+      ]
+    },
+    {
+      "name": "768/reduce: exactly five static evidence images for tickets 01–02",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/reduce/primitives: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Selected Primary blue and Secondary yellow steps with their scale names and numeric values.",
+        "ratio": 0.6166666666666667,
+        "sourceRatio": 0.6166666666666667,
+        "width": 296,
+        "naturalWidth": 296,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "disjoint": true,
+        "imageLeft": false,
+        "imageRight": false,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8015/assets/images/harmony/editorial/primitive-selected-light-steps-mobile.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "768/reduce/primitives: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/reduce/primitives: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/reduce/primitives: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/reduce/primitives: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/reduce/semantics: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Selected roles in the Surface and Border color groups, including Default and Soft.",
+        "ratio": 0.6771653543307087,
+        "sourceRatio": 0.6771653543307087,
+        "width": 344,
+        "naturalWidth": 344,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "disjoint": true,
+        "imageLeft": false,
+        "imageRight": false,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8015/assets/images/harmony/editorial/semantic-default-soft-roles-mobile.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "768/reduce/semantics: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/reduce/semantics: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/reduce/semantics: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/reduce/semantics: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/reduce/responsive: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Desktop, Tablet, and Mobile variable modes with ScreenSize values 1440, 768, and 390, and selected Gap values. On narrow screens, the three labelled mode selections are stacked.",
+        "ratio": 0.30723684210526314,
+        "sourceRatio": 0.30723684210526314,
+        "width": 467,
+        "naturalWidth": 467,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "disjoint": true,
+        "imageLeft": false,
+        "imageRight": false,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8015/assets/images/harmony/editorial/responsive-mode-selections-mobile.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "768/reduce/responsive: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/reduce/responsive: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/reduce/responsive: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/reduce/responsive: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/reduce/buttons: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Standard solid and outline button selections in NormalSize and SmallSize, showing text, dropdown and icon-only examples in blue, outlined and faded state treatments.",
+        "ratio": 0.5822416302765647,
+        "sourceRatio": 0.5822416302765647,
+        "width": 400,
+        "naturalWidth": 400,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "disjoint": true,
+        "imageLeft": false,
+        "imageRight": false,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8015/assets/images/harmony/editorial/button-standard-solid-outline-normal-small.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "768/reduce/buttons: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/reduce/buttons: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/reduce/buttons: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/reduce/buttons: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/reduce/component-navigation: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "PortalProfileButton above IntranetProfileButton: two labelled profile-menu selections with shared account and exit patterns, and different menu entries for each context.",
+        "ratio": 0.44776119402985076,
+        "sourceRatio": 0.44776119402985076,
+        "width": 300,
+        "naturalWidth": 300,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "disjoint": true,
+        "imageLeft": false,
+        "imageRight": false,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8015/assets/images/harmony/editorial/portal-intranet-profile-navigation.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "768/reduce/component-navigation: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/reduce/component-navigation: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/reduce/component-navigation: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/reduce/component-navigation: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/no-preference: content visible when reached by wheel",
+      "ok": true,
+      "detail": {
+        "observedElements": 49,
+        "concealed": []
+      }
+    },
+    {
+      "name": "1440/no-preference: wheel traverses from top to document bottom",
+      "ok": true,
+      "detail": {
+        "startY": 0,
+        "endY": 9276,
+        "steps": 31,
+        "arrivals": [
+          {
+            "id": "harmony-problem",
+            "text": "Separate libraries. Repeated decisions.",
+            "scrollY": 900,
+            "capture": "wheel-1440-no-preference-harmony-problem.png"
+          },
+          {
+            "id": "harmony-role",
+            "text": "Leading design, working with development.",
+            "scrollY": 1500,
+            "capture": "wheel-1440-no-preference-harmony-role.png"
+          },
+          {
+            "id": "harmony-foundations",
+            "text": "Building a shared foundation.",
+            "scrollY": 1800,
+            "capture": "wheel-1440-no-preference-harmony-foundations.png"
+          },
+          {
+            "id": "harmony-primitives",
+            "text": "Primitive color scales",
+            "scrollY": 2100,
+            "capture": "wheel-1440-no-preference-harmony-primitives.png"
+          },
+          {
+            "id": "harmony-semantics",
+            "text": "Semantic roles by use",
+            "scrollY": 3000,
+            "capture": "wheel-1440-no-preference-harmony-semantics.png"
+          },
+          {
+            "id": "harmony-responsive",
+            "text": "Responsive variables",
+            "scrollY": 3900,
+            "capture": "wheel-1440-no-preference-harmony-responsive.png"
+          },
+          {
+            "id": "harmony-components",
+            "text": "Applying the shared patterns.",
+            "scrollY": 5100,
+            "capture": "wheel-1440-no-preference-harmony-components.png"
+          },
+          {
+            "id": "harmony-buttons",
+            "text": "Button variants, sizes, and states",
+            "scrollY": 5400,
+            "capture": "wheel-1440-no-preference-harmony-buttons.png"
+          },
+          {
+            "id": "harmony-navigation",
+            "text": "Navigation across contexts",
+            "scrollY": 6300,
+            "capture": "wheel-1440-no-preference-harmony-navigation.png"
+          },
+          {
+            "id": "harmony-decisions",
+            "text": "Supporting the product ecosystem.",
+            "scrollY": 6900,
+            "capture": "wheel-1440-no-preference-harmony-decisions.png"
+          },
+          {
+            "id": "",
+            "text": "React + Next.js for the product ecosystem",
+            "scrollY": 7200,
+            "capture": "wheel-1440-no-preference-.png"
+          },
+          {
+            "id": "harmony-outcome",
+            "text": "Adopted in new projects. Evolving with the team.",
+            "scrollY": 7500,
+            "capture": "wheel-1440-no-preference-harmony-outcome.png"
+          },
+          {
+            "id": "harmony-progress",
+            "text": "Prototyping with AI, exploring the path to React.",
+            "scrollY": 8100,
+            "capture": "wheel-1440-no-preference-harmony-progress.png"
+          }
+        ]
+      }
+    },
+    {
+      "name": "1440/no-preference: no horizontal overflow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/no-preference: foundations in approved reading order",
+      "ok": true,
+      "detail": [
+        "Primitive color scales",
+        "Semantic roles by use",
+        "Responsive variables",
+        "Button variants, sizes, and states",
+        "Navigation across contexts",
+        "React + Next.js for the product ecosystem"
+      ]
+    },
+    {
+      "name": "1440/no-preference: component application follows foundations in approved order",
+      "ok": true,
+      "detail": [
+        "Primitive color scales",
+        "Semantic roles by use",
+        "Responsive variables",
+        "Button variants, sizes, and states",
+        "Navigation across contexts",
+        "React + Next.js for the product ecosystem"
+      ]
+    },
+    {
+      "name": "1440/no-preference: exactly five static evidence images for tickets 01–02",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/no-preference/primitives: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Selected Primary blue and Secondary yellow steps with their scale names and numeric values.",
+        "ratio": 2.4817317014057196,
+        "sourceRatio": 2.4817518248175183,
+        "width": 1279.953125,
+        "naturalWidth": 1360,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "disjoint": true,
+        "imageLeft": false,
+        "imageRight": false,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8015/assets/images/harmony/editorial/primitive-primary-secondary-scales.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "1440/no-preference/primitives: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/no-preference/primitives: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/no-preference/primitives: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/no-preference/primitives: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/no-preference/semantics: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Selected roles in the Surface and Border color groups, including Default and Soft.",
+        "ratio": 2.5992511740068536,
+        "sourceRatio": 2.5992779783393503,
+        "width": 1279.96875,
+        "naturalWidth": 1440,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "disjoint": true,
+        "imageLeft": false,
+        "imageRight": false,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8015/assets/images/harmony/editorial/semantic-surface-border-roles.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "1440/no-preference/semantics: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/no-preference/semantics: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/no-preference/semantics: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/no-preference/semantics: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/no-preference/responsive: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Desktop, Tablet, and Mobile variable modes with ScreenSize values 1440, 768, and 390, and selected Gap values. On narrow screens, the three labelled mode selections are stacked.",
+        "ratio": 1.6,
+        "sourceRatio": 1.6,
+        "width": 1280,
+        "naturalWidth": 1920,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "disjoint": true,
+        "imageLeft": false,
+        "imageRight": false,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8015/assets/images/harmony/variables.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "1440/no-preference/responsive: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/no-preference/responsive: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/no-preference/responsive: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/no-preference/responsive: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/no-preference/buttons: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Standard solid and outline button selections in NormalSize and SmallSize, showing text, dropdown and icon-only examples in blue, outlined and faded state treatments.",
+        "ratio": 0.5822416302765647,
+        "sourceRatio": 0.5822416302765647,
+        "width": 400,
+        "naturalWidth": 400,
+        "images": 1,
+        "domFirst": true,
+        "above": false,
+        "disjoint": true,
+        "imageLeft": false,
+        "imageRight": true,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8015/assets/images/harmony/editorial/button-standard-solid-outline-normal-small.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "1440/no-preference/buttons: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/no-preference/buttons: focal evidence alternates laterally",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/no-preference/buttons: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/no-preference/buttons: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/no-preference/buttons: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/no-preference/component-navigation: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "PortalProfileButton above IntranetProfileButton: two labelled profile-menu selections with shared account and exit patterns, and different menu entries for each context.",
+        "ratio": 0.44776119402985076,
+        "sourceRatio": 0.44776119402985076,
+        "width": 300,
+        "naturalWidth": 300,
+        "images": 1,
+        "domFirst": true,
+        "above": false,
+        "disjoint": true,
+        "imageLeft": true,
+        "imageRight": false,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8015/assets/images/harmony/editorial/portal-intranet-profile-navigation.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "1440/no-preference/component-navigation: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/no-preference/component-navigation: focal evidence alternates laterally",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/no-preference/component-navigation: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/no-preference/component-navigation: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/no-preference/component-navigation: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/reduce: content visible when reached by wheel",
+      "ok": true,
+      "detail": {
+        "observedElements": 49,
+        "concealed": []
+      }
+    },
+    {
+      "name": "1440/reduce: wheel traverses from top to document bottom",
+      "ok": true,
+      "detail": {
+        "startY": 0,
+        "endY": 9276,
+        "steps": 31,
+        "arrivals": [
+          {
+            "id": "harmony-problem",
+            "text": "Separate libraries. Repeated decisions.",
+            "scrollY": 900,
+            "capture": "wheel-1440-reduce-harmony-problem.png"
+          },
+          {
+            "id": "harmony-role",
+            "text": "Leading design, working with development.",
+            "scrollY": 1500,
+            "capture": "wheel-1440-reduce-harmony-role.png"
+          },
+          {
+            "id": "harmony-foundations",
+            "text": "Building a shared foundation.",
+            "scrollY": 1800,
+            "capture": "wheel-1440-reduce-harmony-foundations.png"
+          },
+          {
+            "id": "harmony-primitives",
+            "text": "Primitive color scales",
+            "scrollY": 2100,
+            "capture": "wheel-1440-reduce-harmony-primitives.png"
+          },
+          {
+            "id": "harmony-semantics",
+            "text": "Semantic roles by use",
+            "scrollY": 3000,
+            "capture": "wheel-1440-reduce-harmony-semantics.png"
+          },
+          {
+            "id": "harmony-responsive",
+            "text": "Responsive variables",
+            "scrollY": 3900,
+            "capture": "wheel-1440-reduce-harmony-responsive.png"
+          },
+          {
+            "id": "harmony-components",
+            "text": "Applying the shared patterns.",
+            "scrollY": 5100,
+            "capture": "wheel-1440-reduce-harmony-components.png"
+          },
+          {
+            "id": "harmony-buttons",
+            "text": "Button variants, sizes, and states",
+            "scrollY": 5400,
+            "capture": "wheel-1440-reduce-harmony-buttons.png"
+          },
+          {
+            "id": "harmony-navigation",
+            "text": "Navigation across contexts",
+            "scrollY": 6300,
+            "capture": "wheel-1440-reduce-harmony-navigation.png"
+          },
+          {
+            "id": "harmony-decisions",
+            "text": "Supporting the product ecosystem.",
+            "scrollY": 6900,
+            "capture": "wheel-1440-reduce-harmony-decisions.png"
+          },
+          {
+            "id": "",
+            "text": "React + Next.js for the product ecosystem",
+            "scrollY": 7200,
+            "capture": "wheel-1440-reduce-.png"
+          },
+          {
+            "id": "harmony-outcome",
+            "text": "Adopted in new projects. Evolving with the team.",
+            "scrollY": 7500,
+            "capture": "wheel-1440-reduce-harmony-outcome.png"
+          },
+          {
+            "id": "harmony-progress",
+            "text": "Prototyping with AI, exploring the path to React.",
+            "scrollY": 8100,
+            "capture": "wheel-1440-reduce-harmony-progress.png"
+          }
+        ]
+      }
+    },
+    {
+      "name": "1440/reduce: no horizontal overflow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/reduce: foundations in approved reading order",
+      "ok": true,
+      "detail": [
+        "Primitive color scales",
+        "Semantic roles by use",
+        "Responsive variables",
+        "Button variants, sizes, and states",
+        "Navigation across contexts",
+        "React + Next.js for the product ecosystem"
+      ]
+    },
+    {
+      "name": "1440/reduce: component application follows foundations in approved order",
+      "ok": true,
+      "detail": [
+        "Primitive color scales",
+        "Semantic roles by use",
+        "Responsive variables",
+        "Button variants, sizes, and states",
+        "Navigation across contexts",
+        "React + Next.js for the product ecosystem"
+      ]
+    },
+    {
+      "name": "1440/reduce: exactly five static evidence images for tickets 01–02",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/reduce/primitives: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Selected Primary blue and Secondary yellow steps with their scale names and numeric values.",
+        "ratio": 2.4817317014057196,
+        "sourceRatio": 2.4817518248175183,
+        "width": 1279.953125,
+        "naturalWidth": 1360,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "disjoint": true,
+        "imageLeft": false,
+        "imageRight": false,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8015/assets/images/harmony/editorial/primitive-primary-secondary-scales.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "1440/reduce/primitives: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/reduce/primitives: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/reduce/primitives: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/reduce/primitives: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/reduce/semantics: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Selected roles in the Surface and Border color groups, including Default and Soft.",
+        "ratio": 2.5992511740068536,
+        "sourceRatio": 2.5992779783393503,
+        "width": 1279.96875,
+        "naturalWidth": 1440,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "disjoint": true,
+        "imageLeft": false,
+        "imageRight": false,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8015/assets/images/harmony/editorial/semantic-surface-border-roles.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "1440/reduce/semantics: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/reduce/semantics: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/reduce/semantics: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/reduce/semantics: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/reduce/responsive: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Desktop, Tablet, and Mobile variable modes with ScreenSize values 1440, 768, and 390, and selected Gap values. On narrow screens, the three labelled mode selections are stacked.",
+        "ratio": 1.6,
+        "sourceRatio": 1.6,
+        "width": 1280,
+        "naturalWidth": 1920,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "disjoint": true,
+        "imageLeft": false,
+        "imageRight": false,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8015/assets/images/harmony/variables.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "1440/reduce/responsive: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/reduce/responsive: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/reduce/responsive: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/reduce/responsive: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/reduce/buttons: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Standard solid and outline button selections in NormalSize and SmallSize, showing text, dropdown and icon-only examples in blue, outlined and faded state treatments.",
+        "ratio": 0.5822416302765647,
+        "sourceRatio": 0.5822416302765647,
+        "width": 400,
+        "naturalWidth": 400,
+        "images": 1,
+        "domFirst": true,
+        "above": false,
+        "disjoint": true,
+        "imageLeft": false,
+        "imageRight": true,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8015/assets/images/harmony/editorial/button-standard-solid-outline-normal-small.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "1440/reduce/buttons: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/reduce/buttons: focal evidence alternates laterally",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/reduce/buttons: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/reduce/buttons: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/reduce/buttons: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/reduce/component-navigation: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "PortalProfileButton above IntranetProfileButton: two labelled profile-menu selections with shared account and exit patterns, and different menu entries for each context.",
+        "ratio": 0.44776119402985076,
+        "sourceRatio": 0.44776119402985076,
+        "width": 300,
+        "naturalWidth": 300,
+        "images": 1,
+        "domFirst": true,
+        "above": false,
+        "disjoint": true,
+        "imageLeft": true,
+        "imageRight": false,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8015/assets/images/harmony/editorial/portal-intranet-profile-navigation.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "1440/reduce/component-navigation: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/reduce/component-navigation: focal evidence alternates laterally",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/reduce/component-navigation: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/reduce/component-navigation: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/reduce/component-navigation: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "no-JS 320: all five images load",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "no-JS 320: static copy and all sections visible",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "no-JS 320: no horizontal overflow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "no-JS 375: all five images load",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "no-JS 375: static copy and all sections visible",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "no-JS 375: no horizontal overflow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "no-JS 768: all five images load",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "no-JS 768: static copy and all sections visible",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "no-JS 768: no horizontal overflow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "no-JS 1440: all five images load",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "no-JS 1440: static copy and all sections visible",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "no-JS 1440: no horizontal overflow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320: one h1 and no skipped heading level",
+      "ok": true,
+      "detail": [
+        1,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        2,
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "320: navigation, next project and contact reachable by Tab",
+      "ok": true,
+      "detail": [
+        {
+          "tag": "A",
+          "name": "Felipe Levi",
+          "href": "../",
+          "outline": "solid",
+          "width": "3px",
+          "left": 24,
+          "right": 107
+        },
+        {
+          "tag": "A",
+          "name": "Work",
+          "href": "../#work",
+          "outline": "solid",
+          "width": "2px",
+          "left": 146.859375,
+          "right": 179.046875
+        },
+        {
+          "tag": "A",
+          "name": "Contact",
+          "href": "../#contact",
+          "outline": "solid",
+          "width": "2px",
+          "left": 195.046875,
+          "right": 243.328125
+        },
+        {
+          "tag": "A",
+          "name": "About",
+          "href": "../#about",
+          "outline": "solid",
+          "width": "2px",
+          "left": 259.328125,
+          "right": 296
+        },
+        {
+          "tag": "A",
+          "name": "← Back to work",
+          "href": "../",
+          "outline": "solid",
+          "width": "2px",
+          "left": 24,
+          "right": 296
+        },
+        {
+          "tag": "A",
+          "name": "Billing & Debt Recovery →",
+          "href": "billing.html",
+          "outline": "solid",
+          "width": "2px",
+          "left": 24,
+          "right": 296
+        },
+        {
+          "tag": "A",
+          "name": "fplevi@gmail.com",
+          "href": "mailto:fplevi@gmail.com",
+          "outline": "solid",
+          "width": "2px",
+          "left": 24,
+          "right": 161.28125
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Copy email address",
+          "href": null,
+          "outline": "solid",
+          "width": "2px",
+          "left": 165.28125,
+          "right": 197.28125
+        },
+        {
+          "tag": "A",
+          "name": "LinkedIn",
+          "href": "https://linkedin.com/in/fplevi",
+          "outline": "solid",
+          "width": "2px",
+          "left": 225.890625,
+          "right": 290.453125
+        },
+        {
+          "tag": "INPUT",
+          "name": "Your name",
+          "href": null,
+          "outline": "solid",
+          "width": "2px",
+          "left": 24,
+          "right": 296
+        },
+        {
+          "tag": "INPUT",
+          "name": "Your email",
+          "href": null,
+          "outline": "solid",
+          "width": "2px",
+          "left": 24,
+          "right": 296
+        },
+        {
+          "tag": "TEXTAREA",
+          "name": "Your message",
+          "href": null,
+          "outline": "solid",
+          "width": "2px",
+          "left": 24,
+          "right": 296
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Send message",
+          "href": null,
+          "outline": "solid",
+          "width": "2px",
+          "left": 128,
+          "right": 296
+        }
+      ]
+    },
+    {
+      "name": "320: visible focus on interactive elements",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320: contact present, never submitted",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320: orientation and explanatory text calculated contrast >=4.5",
+      "ok": true,
+      "detail": [
+        {
+          "text": "We chose a shared library as the common reference for compon",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Primitive scales, semantic roles, and responsive variables d",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Selected steps from the Primary blue and Secondary yellow sc",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Selected source crops. On narrow screens, the two lightest s",
+          "font": "15px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Semantic names describe how color is used. Surface and Borde",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Surface and Border retain their role names. On narrow screen",
+          "font": "15px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Desktop, Tablet, and Mobile modes adapt the foundation to di",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "On narrow screens, three source selections pair the same var",
+          "font": "15px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Accessibility and content guidance sit alongside visual toke",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Compare the Standard button's solid and outline variants, wi",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Two labelled source selections, separated by a gutter. The o",
+          "font": "15px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "The Portal and Intranet profile menus adapt a shared navigat",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Portal above Intranet, separated by a gutter. These profile-",
+          "font": "15px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        }
+      ]
+    },
+    {
+      "name": "320: keyboard destination Work",
+      "ok": true,
+      "detail": "http://localhost:8015/#work"
+    },
+    {
+      "name": "320: keyboard destination About",
+      "ok": true,
+      "detail": "http://localhost:8015/#about"
+    },
+    {
+      "name": "320: keyboard destination Contact",
+      "ok": true,
+      "detail": "http://localhost:8015/#contact"
+    },
+    {
+      "name": "320: keyboard destination Felipe Levi",
+      "ok": true,
+      "detail": "http://localhost:8015/"
+    },
+    {
+      "name": "320: keyboard destination ← Back to work",
+      "ok": true,
+      "detail": "http://localhost:8015/"
+    },
+    {
+      "name": "320: keyboard destination Billing & Debt Recovery →",
+      "ok": true,
+      "detail": "http://localhost:8015/case-studies/billing.html"
+    },
+    {
+      "name": "375: one h1 and no skipped heading level",
+      "ok": true,
+      "detail": [
+        1,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        2,
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "375: navigation, next project and contact reachable by Tab",
+      "ok": true,
+      "detail": [
+        {
+          "tag": "A",
+          "name": "Felipe Levi",
+          "href": "../",
+          "outline": "solid",
+          "width": "3px",
+          "left": 24,
+          "right": 107
+        },
+        {
+          "tag": "A",
+          "name": "Work",
+          "href": "../#work",
+          "outline": "solid",
+          "width": "2px",
+          "left": 201.859375,
+          "right": 234.046875
+        },
+        {
+          "tag": "A",
+          "name": "Contact",
+          "href": "../#contact",
+          "outline": "solid",
+          "width": "2px",
+          "left": 250.046875,
+          "right": 298.328125
+        },
+        {
+          "tag": "A",
+          "name": "About",
+          "href": "../#about",
+          "outline": "solid",
+          "width": "2px",
+          "left": 314.328125,
+          "right": 351
+        },
+        {
+          "tag": "A",
+          "name": "← Back to work",
+          "href": "../",
+          "outline": "solid",
+          "width": "2px",
+          "left": 24,
+          "right": 351
+        },
+        {
+          "tag": "A",
+          "name": "Billing & Debt Recovery →",
+          "href": "billing.html",
+          "outline": "solid",
+          "width": "2px",
+          "left": 24,
+          "right": 351
+        },
+        {
+          "tag": "A",
+          "name": "fplevi@gmail.com",
+          "href": "mailto:fplevi@gmail.com",
+          "outline": "solid",
+          "width": "2px",
+          "left": 24,
+          "right": 161.28125
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Copy email address",
+          "href": null,
+          "outline": "solid",
+          "width": "2px",
+          "left": 165.28125,
+          "right": 197.28125
+        },
+        {
+          "tag": "A",
+          "name": "LinkedIn",
+          "href": "https://linkedin.com/in/fplevi",
+          "outline": "solid",
+          "width": "2px",
+          "left": 225.890625,
+          "right": 290.453125
+        },
+        {
+          "tag": "INPUT",
+          "name": "Your name",
+          "href": null,
+          "outline": "solid",
+          "width": "2px",
+          "left": 24,
+          "right": 351
+        },
+        {
+          "tag": "INPUT",
+          "name": "Your email",
+          "href": null,
+          "outline": "solid",
+          "width": "2px",
+          "left": 24,
+          "right": 351
+        },
+        {
+          "tag": "TEXTAREA",
+          "name": "Your message",
+          "href": null,
+          "outline": "solid",
+          "width": "2px",
+          "left": 24,
+          "right": 351
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Send message",
+          "href": null,
+          "outline": "solid",
+          "width": "2px",
+          "left": 183,
+          "right": 351
+        }
+      ]
+    },
+    {
+      "name": "375: visible focus on interactive elements",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375: contact present, never submitted",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375: orientation and explanatory text calculated contrast >=4.5",
+      "ok": true,
+      "detail": [
+        {
+          "text": "We chose a shared library as the common reference for compon",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Primitive scales, semantic roles, and responsive variables d",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Selected steps from the Primary blue and Secondary yellow sc",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Selected source crops. On narrow screens, the two lightest s",
+          "font": "15px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Semantic names describe how color is used. Surface and Borde",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Surface and Border retain their role names. On narrow screen",
+          "font": "15px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Desktop, Tablet, and Mobile modes adapt the foundation to di",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "On narrow screens, three source selections pair the same var",
+          "font": "15px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Accessibility and content guidance sit alongside visual toke",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Compare the Standard button's solid and outline variants, wi",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Two labelled source selections, separated by a gutter. The o",
+          "font": "15px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "The Portal and Intranet profile menus adapt a shared navigat",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Portal above Intranet, separated by a gutter. These profile-",
+          "font": "15px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        }
+      ]
+    },
+    {
+      "name": "375: keyboard destination Work",
+      "ok": true,
+      "detail": "http://localhost:8015/#work"
+    },
+    {
+      "name": "375: keyboard destination About",
+      "ok": true,
+      "detail": "http://localhost:8015/#about"
+    },
+    {
+      "name": "375: keyboard destination Contact",
+      "ok": true,
+      "detail": "http://localhost:8015/#contact"
+    },
+    {
+      "name": "375: keyboard destination Felipe Levi",
+      "ok": true,
+      "detail": "http://localhost:8015/"
+    },
+    {
+      "name": "375: keyboard destination ← Back to work",
+      "ok": true,
+      "detail": "http://localhost:8015/"
+    },
+    {
+      "name": "375: keyboard destination Billing & Debt Recovery →",
+      "ok": true,
+      "detail": "http://localhost:8015/case-studies/billing.html"
+    },
+    {
+      "name": "768: one h1 and no skipped heading level",
+      "ok": true,
+      "detail": [
+        1,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        2,
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "768: navigation, next project and contact reachable by Tab",
+      "ok": true,
+      "detail": [
+        {
+          "tag": "A",
+          "name": "Felipe Levi",
+          "href": "../",
+          "outline": "solid",
+          "width": "3px",
+          "left": 24,
+          "right": 107
+        },
+        {
+          "tag": "A",
+          "name": "Work",
+          "href": "../#work",
+          "outline": "solid",
+          "width": "2px",
+          "left": 560.84375,
+          "right": 597.984375
+        },
+        {
+          "tag": "A",
+          "name": "Contact",
+          "href": "../#contact",
+          "outline": "solid",
+          "width": "2px",
+          "left": 621.984375,
+          "right": 677.6875
+        },
+        {
+          "tag": "A",
+          "name": "About",
+          "href": "../#about",
+          "outline": "solid",
+          "width": "2px",
+          "left": 701.6875,
+          "right": 744
+        },
+        {
+          "tag": "A",
+          "name": "← Back to work",
+          "href": "../",
+          "outline": "solid",
+          "width": "2px",
+          "left": 24,
+          "right": 744
+        },
+        {
+          "tag": "A",
+          "name": "Billing & Debt Recovery →",
+          "href": "billing.html",
+          "outline": "solid",
+          "width": "2px",
+          "left": 24,
+          "right": 744
+        },
+        {
+          "tag": "A",
+          "name": "fplevi@gmail.com",
+          "href": "mailto:fplevi@gmail.com",
+          "outline": "solid",
+          "width": "2px",
+          "left": 24,
+          "right": 161.28125
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Copy email address",
+          "href": null,
+          "outline": "solid",
+          "width": "2px",
+          "left": 165.28125,
+          "right": 197.28125
+        },
+        {
+          "tag": "A",
+          "name": "LinkedIn",
+          "href": "https://linkedin.com/in/fplevi",
+          "outline": "solid",
+          "width": "2px",
+          "left": 225.890625,
+          "right": 290.453125
+        },
+        {
+          "tag": "INPUT",
+          "name": "Your name",
+          "href": null,
+          "outline": "solid",
+          "width": "2px",
+          "left": 24,
+          "right": 744
+        },
+        {
+          "tag": "INPUT",
+          "name": "Your email",
+          "href": null,
+          "outline": "solid",
+          "width": "2px",
+          "left": 24,
+          "right": 744
+        },
+        {
+          "tag": "TEXTAREA",
+          "name": "Your message",
+          "href": null,
+          "outline": "solid",
+          "width": "2px",
+          "left": 24,
+          "right": 744
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Send message",
+          "href": null,
+          "outline": "solid",
+          "width": "2px",
+          "left": 576,
+          "right": 744
+        }
+      ]
+    },
+    {
+      "name": "768: visible focus on interactive elements",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768: contact present, never submitted",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768: orientation and explanatory text calculated contrast >=4.5",
+      "ok": true,
+      "detail": [
+        {
+          "text": "We chose a shared library as the common reference for compon",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Primitive scales, semantic roles, and responsive variables d",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Selected steps from the Primary blue and Secondary yellow sc",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Selected source crops. On narrow screens, the two lightest s",
+          "font": "15px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Semantic names describe how color is used. Surface and Borde",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Surface and Border retain their role names. On narrow screen",
+          "font": "15px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Desktop, Tablet, and Mobile modes adapt the foundation to di",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "On narrow screens, three source selections pair the same var",
+          "font": "15px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Accessibility and content guidance sit alongside visual toke",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Compare the Standard button's solid and outline variants, wi",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Two labelled source selections, separated by a gutter. The o",
+          "font": "15px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "The Portal and Intranet profile menus adapt a shared navigat",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Portal above Intranet, separated by a gutter. These profile-",
+          "font": "15px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        }
+      ]
+    },
+    {
+      "name": "768: keyboard destination Work",
+      "ok": true,
+      "detail": "http://localhost:8015/#work"
+    },
+    {
+      "name": "768: keyboard destination About",
+      "ok": true,
+      "detail": "http://localhost:8015/#about"
+    },
+    {
+      "name": "768: keyboard destination Contact",
+      "ok": true,
+      "detail": "http://localhost:8015/#contact"
+    },
+    {
+      "name": "768: keyboard destination Felipe Levi",
+      "ok": true,
+      "detail": "http://localhost:8015/"
+    },
+    {
+      "name": "768: keyboard destination ← Back to work",
+      "ok": true,
+      "detail": "http://localhost:8015/"
+    },
+    {
+      "name": "768: keyboard destination Billing & Debt Recovery →",
+      "ok": true,
+      "detail": "http://localhost:8015/case-studies/billing.html"
+    },
+    {
+      "name": "1440: one h1 and no skipped heading level",
+      "ok": true,
+      "detail": [
+        1,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        2,
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "1440: navigation, next project and contact reachable by Tab",
+      "ok": true,
+      "detail": [
+        {
+          "tag": "A",
+          "name": "Felipe Levi",
+          "href": "../",
+          "outline": "solid",
+          "width": "3px",
+          "left": 80,
+          "right": 163
+        },
+        {
+          "tag": "A",
+          "name": "Work",
+          "href": "../#work",
+          "outline": "solid",
+          "width": "2px",
+          "left": 1128.84375,
+          "right": 1165.984375
+        },
+        {
+          "tag": "A",
+          "name": "Contact",
+          "href": "../#contact",
+          "outline": "solid",
+          "width": "2px",
+          "left": 1213.984375,
+          "right": 1269.6875
+        },
+        {
+          "tag": "A",
+          "name": "About",
+          "href": "../#about",
+          "outline": "solid",
+          "width": "2px",
+          "left": 1317.6875,
+          "right": 1360
+        },
+        {
+          "tag": "A",
+          "name": "← Back to work",
+          "href": "../",
+          "outline": "solid",
+          "width": "2px",
+          "left": 80,
+          "right": 1360
+        },
+        {
+          "tag": "A",
+          "name": "Billing & Debt Recovery →",
+          "href": "billing.html",
+          "outline": "solid",
+          "width": "2px",
+          "left": 80,
+          "right": 1360
+        },
+        {
+          "tag": "A",
+          "name": "fplevi@gmail.com",
+          "href": "mailto:fplevi@gmail.com",
+          "outline": "solid",
+          "width": "2px",
+          "left": 80,
+          "right": 217.28125
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Copy email address",
+          "href": null,
+          "outline": "solid",
+          "width": "2px",
+          "left": 221.28125,
+          "right": 253.28125
+        },
+        {
+          "tag": "A",
+          "name": "LinkedIn",
+          "href": "https://linkedin.com/in/fplevi",
+          "outline": "solid",
+          "width": "2px",
+          "left": 281.890625,
+          "right": 346.453125
+        },
+        {
+          "tag": "INPUT",
+          "name": "Your name",
+          "href": null,
+          "outline": "solid",
+          "width": "2px",
+          "left": 80,
+          "right": 1360
+        },
+        {
+          "tag": "INPUT",
+          "name": "Your email",
+          "href": null,
+          "outline": "solid",
+          "width": "2px",
+          "left": 80,
+          "right": 1360
+        },
+        {
+          "tag": "TEXTAREA",
+          "name": "Your message",
+          "href": null,
+          "outline": "solid",
+          "width": "2px",
+          "left": 80,
+          "right": 1360
+        },
+        {
+          "tag": "BUTTON",
+          "name": "Send message",
+          "href": null,
+          "outline": "solid",
+          "width": "2px",
+          "left": 1192,
+          "right": 1360
+        }
+      ]
+    },
+    {
+      "name": "1440: visible focus on interactive elements",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440: contact present, never submitted",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440: orientation and explanatory text calculated contrast >=4.5",
+      "ok": true,
+      "detail": [
+        {
+          "text": "We chose a shared library as the common reference for compon",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Primitive scales, semantic roles, and responsive variables d",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Selected steps from the Primary blue and Secondary yellow sc",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Selected source crops. On narrow screens, the two lightest s",
+          "font": "15px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Semantic names describe how color is used. Surface and Borde",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Surface and Border retain their role names. On narrow screen",
+          "font": "15px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Desktop, Tablet, and Mobile modes adapt the foundation to di",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "On narrow screens, three source selections pair the same var",
+          "font": "15px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Accessibility and content guidance sit alongside visual toke",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Compare the Standard button's solid and outline variants, wi",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Two labelled source selections, separated by a gutter. The o",
+          "font": "15px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "The Portal and Intranet profile menus adapt a shared navigat",
+          "font": "16px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        },
+        {
+          "text": "Portal above Intranet, separated by a gutter. These profile-",
+          "font": "15px",
+          "color": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "ratio": 7.550402230717408
+        }
+      ]
+    },
+    {
+      "name": "1440: keyboard destination Work",
+      "ok": true,
+      "detail": "http://localhost:8015/#work"
+    },
+    {
+      "name": "1440: keyboard destination About",
+      "ok": true,
+      "detail": "http://localhost:8015/#about"
+    },
+    {
+      "name": "1440: keyboard destination Contact",
+      "ok": true,
+      "detail": "http://localhost:8015/#contact"
+    },
+    {
+      "name": "1440: keyboard destination Felipe Levi",
+      "ok": true,
+      "detail": "http://localhost:8015/"
+    },
+    {
+      "name": "1440: keyboard destination ← Back to work",
+      "ok": true,
+      "detail": "http://localhost:8015/"
+    },
+    {
+      "name": "1440: keyboard destination Billing & Debt Recovery →",
+      "ok": true,
+      "detail": "http://localhost:8015/case-studies/billing.html"
+    }
+  ],
+  "console": [],
+  "failed_requests": [],
+  "environment": {
+    "browser": "156.0.8078.4",
+    "url": "http://localhost:8015/case-studies/harmony.html",
+    "viewportHeight": 700
+  },
+  "summary": {
+    "passed": 308,
+    "failed": 0
+  }
+}

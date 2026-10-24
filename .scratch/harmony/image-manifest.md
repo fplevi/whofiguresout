@@ -17,3 +17,16 @@ The mobile derivatives assemble source fragments into one image per evidence row
 For the exact rectangles of every fragment, use the adjacent JSON rather than inferring coordinates from a rendered screenshot. PNG was chosen for these small text-heavy excerpts after visual inspection; there is no lossy quality parameter. The mobile two-step color selection is intentionally limited to lighter steps; the wider source selection shows the full light-to-dark progression.
 
 Other Harmony sources, including the old organization pair, stay in the repository. They are not rendered as foundation evidence. No additional assets for tickets 02–04 were prepared.
+
+## Ticket 02 — component application, 2026-10-24
+
+Appended after the foundation record above. Reproduce only this slice with `python .scratch/harmony/prepare-component-images.py`; the script preserves other manifest records. Exact source/derivative SHA-256 hashes, exclusive crop bounds, paste positions and byte sizes are in the two `ticket: "02"` records of [image-manifest.json](image-manifest.json).
+
+| Original (1920 × 1200) | Derivative in `assets/images/harmony/editorial/` | Output | Selection and retained context |
+| --- | --- | --- | --- |
+| `buttons.png` | `button-standard-solid-outline-normal-small.png` | 400 × 687; 138,477 bytes | Standard NormalSize solid/outline examples above SmallSize solid/outline examples. Keeps the full source component names, text/dropdown/icon-only examples and state treatments. Two source rectangles `(160,32,560,380)` and `(160,655,560,970)` are stacked with a 24 px gutter. |
+| `components.png` | `portal-intranet-profile-navigation.png` | 300 × 670; 46,820 bytes | Complete PortalProfileButton and IntranetProfileButton panels in that order. Source labels, profile triggers, menu entries and exit actions retained. Rectangles `(60,402,360,725)` and `(1100,402,1400,725)` are stacked with a 24 px gutter. Omits the responsive panels that are cut off at the original image's bottom. |
+
+Both outputs are optimized lossless RGB PNG, with no lossy quality parameter, resizing, sharpening, redrawn text or reconstructed controls. Every source fragment is copied at its original resolution onto `#1e1e1e`, the source board background. Gutters distinguish editorial selections; these are not representations of one application screen. Exactly one image is rendered per evidence. The same focal selections serve narrow and wide screens, capped at natural size; desktop places buttons right and navigation left without changing DOM order.
+
+The original button capture has overlapping purple component names and softened raster text. Those source limitations remain visible. The selected headings identify variants and sizes, and the treatments show color/outline/emphasis differences; no state name, executed keyboard behavior or accessibility audit is inferred from the pixels. The profile selections preserve context and the difference in menu content rather than shrinking the entire navigation board. English prose and alternatives explain the relevant distinctions. [Ticket 02 validation](visual-narrative-validation.md#ticket-02--component-application) records actual rendered inspection and limits. All original images and all five ticket 01 derivatives remain byte-for-byte unchanged.

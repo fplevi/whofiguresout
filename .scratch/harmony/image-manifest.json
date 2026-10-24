@@ -282,6 +282,96 @@
       ],
       "background": "#151515",
       "bytes": 79157
+    },
+    {
+      "ticket": "02",
+      "source": "assets/images/harmony/buttons.png",
+      "sourceDimensions": [
+        1920,
+        1200
+      ],
+      "sourceSha256": "945ba9b7c1897c9b224d334e93d18e1708b61155b1fffd5ce4df147cd66ffabd",
+      "derivative": "assets/images/harmony/editorial/button-standard-solid-outline-normal-small.png",
+      "dimensions": [
+        400,
+        687
+      ],
+      "derivativeSha256": "4ddf00c145554d32df7f8015a863f89cd06d4ab49137f9da519097419c3eda7a",
+      "format": "PNG, lossless RGB, optimize=True; no resizing or text redrawing",
+      "fragments": [
+        {
+          "crop": [
+            160,
+            32,
+            560,
+            380
+          ],
+          "pasteAt": [
+            0,
+            0
+          ]
+        },
+        {
+          "crop": [
+            160,
+            655,
+            560,
+            970
+          ],
+          "pasteAt": [
+            0,
+            372
+          ]
+        }
+      ],
+      "background": "#1e1e1e",
+      "bytes": 138477,
+      "purpose": "Standard solid/outline selections, NormalSize above SmallSize; source names, text/dropdown/icon-only examples and state treatments retained. The gutter separates selections. Original overlapping Figma names remain unaltered."
+    },
+    {
+      "ticket": "02",
+      "source": "assets/images/harmony/components.png",
+      "sourceDimensions": [
+        1920,
+        1200
+      ],
+      "sourceSha256": "8e107b48bdcdcf45ec5366f4d466318ad7e4607fd52cf126626b0ad4a64a6477",
+      "derivative": "assets/images/harmony/editorial/portal-intranet-profile-navigation.png",
+      "dimensions": [
+        300,
+        670
+      ],
+      "derivativeSha256": "45d24a5263fcef7cee266226f4743ff5001a68b6e277a4bbb437962ddcd0870e",
+      "format": "PNG, lossless RGB, optimize=True; no resizing or text redrawing",
+      "fragments": [
+        {
+          "crop": [
+            60,
+            402,
+            360,
+            725
+          ],
+          "pasteAt": [
+            0,
+            0
+          ]
+        },
+        {
+          "crop": [
+            1100,
+            402,
+            1400,
+            725
+          ],
+          "pasteAt": [
+            0,
+            347
+          ]
+        }
+      ],
+      "background": "#1e1e1e",
+      "bytes": 46820,
+      "purpose": "PortalProfileButton and IntranetProfileButton selections in that order; complete context names, account trigger, menu entries and exit action retained. The gutter separates source selections, not an application layout. Excludes the unfinished responsive panels cut off at the source bottom."
     }
   ]
 }

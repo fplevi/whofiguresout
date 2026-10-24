@@ -1,4 +1,4 @@
-"""Harmony ticket 01 browser seam; adapted from Billing visual-narrative-qa.py.
+"""Harmony tickets 01–02 browser seam; adapted from Billing visual-narrative-qa.py.
 
 python .scratch/harmony/visual-narrative-qa.py --slice primitives --label red-primitives
 Each slice is added before its implementation. --slice all exercises the matrix.
@@ -11,7 +11,7 @@ from playwright.sync_api import sync_playwright
 sys.stdout.reconfigure(encoding='utf-8')
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--slice', choices=['primitives', 'semantics', 'responsive', 'all', 'matrix', 'navigation', 'captures'], required=True)
+parser.add_argument('--slice', choices=['primitives', 'semantics', 'responsive', 'buttons', 'component-navigation', 'all', 'matrix', 'navigation', 'captures'], required=True)
 parser.add_argument('--label', required=True)
 parser.add_argument('--url', default='http://localhost:8011/case-studies/harmony.html')
 args = parser.parse_args()
@@ -22,7 +22,9 @@ URL = args.url
 R = {'checks': [], 'console': [], 'failed_requests': []}
 EVIDENCE = [('primitives', 'Primitive color scales'),
             ('semantics', 'Semantic roles by use'),
-            ('responsive', 'Responsive variables')]
+            ('responsive', 'Responsive variables'),
+            ('buttons', 'Button variants, sizes, and states'),
+            ('component-navigation', 'Navigation across contexts')]
 
 
 def check(name, ok, detail=None):
@@ -37,7 +39,7 @@ with sync_playwright() as p:
     ctx = browser.new_context(viewport={'width': 375, 'height': 700}, reduced_motion='reduce')
     page = ctx.new_page()
     page.goto(URL, wait_until='load')
-    if args.slice in ['primitives', 'semantics', 'responsive']:
+    if args.slice in ['primitives', 'semantics', 'responsive', 'buttons', 'component-navigation']:
         key, title = next(e for e in EVIDENCE if e[0] == args.slice)
         region = page.get_by_role('region', name=title, exact=True)
         check(f'{key}: named evidence and explanatory heading exist', region.count() == 1)
@@ -50,6 +52,12 @@ with sync_playwright() as p:
             region.screenshot(path=str(OUT / f'{key}-375.png'))
         else:
             page.screenshot(path=str(OUT / 'missing-evidence-375.png'))
+        if args.slice == 'component-navigation':
+            application = page.get_by_role('region', name='Applying the shared patterns.', exact=True)
+            copy = application.inner_text().lower()
+            check('accessibility and content remain ongoing requirements within component application',
+                  all(term in copy for term in ['contrast', 'semantics', 'error messages', 'ongoing']) and
+                  page.get_by_role('heading', name='Accessibility and content in component design', exact=True).count() == 0)
     ctx.close()
     if args.slice in ['all', 'matrix']:
         for width in [320, 375, 768, 1440]:
@@ -94,21 +102,29 @@ with sync_playwright() as p:
                 check(f'{prefix}: no horizontal overflow', page.evaluate('document.documentElement.scrollWidth<=innerWidth'))
                 # Public headings and region associations, no class/nesting contract.
                 titles = page.get_by_role('heading', level=3).all_text_contents()
-                check(f'{prefix}: foundations in approved reading order', titles[:3] == [e[1] for e in EVIDENCE], titles)
+                check(f'{prefix}: foundations in approved reading order', titles[:3] == [e[1] for e in EVIDENCE[:3]], titles)
+                check(f'{prefix}: component application follows foundations in approved order', titles[3:5] == [e[1] for e in EVIDENCE[3:5]], titles)
                 images = page.locator('main figure img')
-                check(f'{prefix}: exactly three static evidence images', images.count() == 3)
+                check(f'{prefix}: exactly five static evidence images for tickets 01–02', images.count() == 5)
                 for key, title in EVIDENCE:
                     region = page.get_by_role('region', name=title, exact=True)
                     details = region.evaluate("""r=>{const i=r.querySelector('img'),p=r.querySelector('p'),f=r.querySelector('figure');
                       const ir=i.getBoundingClientRect(),pr=p.getBoundingClientRect();
                       return {loaded:i.complete&&i.naturalWidth>0,alt:i.alt,ratio:ir.width/ir.height,sourceRatio:i.naturalWidth/i.naturalHeight,
                         width:ir.width,naturalWidth:i.naturalWidth,images:r.querySelectorAll('img').length,domFirst:!!(p.compareDocumentPosition(i)&Node.DOCUMENT_POSITION_FOLLOWING),
-                        above:pr.bottom<=ir.top,associated:f.getAttribute('aria-describedby')===p.id,
+                        above:pr.bottom<=ir.top,disjoint:pr.bottom<=ir.top||ir.right<=pr.left||pr.right<=ir.left,
+                        imageLeft:ir.right<=pr.left,imageRight:pr.right<=ir.left,
+                        associated:f.getAttribute('aria-describedby')===p.id,
                         links:r.querySelectorAll('a,button,details,summary').length,source:i.currentSrc,
                         font:getComputedStyle(p).fontSize,color:getComputedStyle(p).color,
                         clipped:[...r.querySelectorAll('h3,p,figcaption')].some(e=>e.scrollWidth>e.clientWidth+1)};}""")
                     check(f'{prefix}/{key}: loaded, proportionate, one image', details['loaded'] and details['images'] == 1 and abs(details['ratio'] - details['sourceRatio']) < .01, details)
-                    check(f'{prefix}/{key}: visible associated copy before evidence', details['domFirst'] and details['above'] and details['associated'] and not details['clipped'])
+                    # Foundation assertions remain unchanged; component copy may
+                    # sit beside the focal image only on a wide viewport.
+                    above = details['above'] if key in ['primitives', 'semantics', 'responsive'] or width <= 1024 else details['disjoint']
+                    check(f'{prefix}/{key}: visible associated copy before evidence', details['domFirst'] and above and details['associated'] and not details['clipped'])
+                    if width == 1440 and key in ['buttons', 'component-navigation']:
+                        check(f'{prefix}/{key}: focal evidence alternates laterally', details['imageRight'] if key == 'buttons' else details['imageLeft'])
                     check(f'{prefix}/{key}: alternative and no image/disclosure controls', bool(details['alt']) and details['links'] == 0)
                     available = width - (48 if width <= 1024 else 160)
                     check(f'{prefix}/{key}: useful reading width without raster enlargement', abs(details['width'] - min(details['naturalWidth'], available)) <= 1)
@@ -131,11 +147,15 @@ with sync_playwright() as p:
                 page.wait_for_timeout(30)
                 if page.evaluate('scrollY+innerHeight>=document.documentElement.scrollHeight-2'):
                     break
-            check(f'no-JS {width}: all three images load', page.evaluate('[...document.querySelectorAll("main figure img")].length===3&&[...document.images].every(i=>i.complete&&i.naturalWidth>0)'))
+            check(f'no-JS {width}: all five images load', page.evaluate('[...document.querySelectorAll("main figure img")].length===5&&[...document.images].every(i=>i.complete&&i.naturalWidth>0)'))
             check(f'no-JS {width}: static copy and all sections visible', page.evaluate("""[...document.querySelectorAll('main section,main figure,main h3,main p')].every(e=>getComputedStyle(e).opacity==='1'&&getComputedStyle(e).visibility==='visible')"""))
             check(f'no-JS {width}: no horizontal overflow', page.evaluate('document.documentElement.scrollWidth<=innerWidth'))
             page.get_by_role('region', name='Responsive variables', exact=True).evaluate("e=>window.scrollTo(0,e.getBoundingClientRect().top+scrollY-88)")
             page.screenshot(path=str(OUT / f'no-js-{width}.png'))
+            for key, title in EVIDENCE[3:5]:
+                region = page.get_by_role('region', name=title, exact=True)
+                region.evaluate("e=>window.scrollTo(0,e.getBoundingClientRect().top+scrollY-88)")
+                page.screenshot(path=str(OUT / f'no-js-{key}-{width}.png'))
             context.close()
 
     if args.slice == 'captures':
@@ -177,7 +197,7 @@ with sync_playwright() as p:
             check(f'{width}: navigation, next project and contact reachable by Tab', [e['href'] for e in focus[:6]] == ['../', '../#work', '../#contact', '../#about', '../', 'billing.html'], focus)
             check(f'{width}: visible focus on interactive elements', all(e['outline'] != 'none' and e['width'] != '0px' and e['left'] >= 0 and e['right'] <= width for e in focus))
             check(f'{width}: contact present, never submitted', page.locator('form[action="https://formspree.io/f/mbdqyywl"]').count() == 1 and page.get_by_role('button', name='Send message', exact=True).count() == 1)
-            contrasts = page.get_by_role('region', name='Building a shared foundation.', exact=True).locator('p,figcaption').evaluate_all("""es=>{
+            contrasts = page.get_by_role('region', name='Building a shared foundation.', exact=True).or_(page.get_by_role('region', name='Applying the shared patterns.', exact=True)).locator('p,figcaption').evaluate_all("""es=>{
               const rgb=s=>s.match(/[\\d.]+/g).map(Number),lin=x=>(x/=255)<=0.04045?x/12.92:((x+.055)/1.055)**2.4;
               return es.map(e=>{const fg=rgb(getComputedStyle(e).color);let layers=[];
                 for(let a=e;a;a=a.parentElement){layers.push(rgb(getComputedStyle(a).backgroundColor));}

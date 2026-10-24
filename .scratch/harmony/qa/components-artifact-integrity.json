@@ -1,0 +1,193 @@
+{
+  "baseline": "2a58eb63b2ca1d5cad14ee3047370be4e826f436",
+  "checks": [
+    {
+      "name": "existing changes confined to ticket 02 authorized files",
+      "ok": true
+    },
+    {
+      "name": "pre-existing asset bytes preserved: assets/images/harmony/buttons.png",
+      "ok": true
+    },
+    {
+      "name": "pre-existing asset bytes preserved: assets/images/harmony/color=primitives.png",
+      "ok": true
+    },
+    {
+      "name": "pre-existing asset bytes preserved: assets/images/harmony/components.png",
+      "ok": true
+    },
+    {
+      "name": "pre-existing asset bytes preserved: assets/images/harmony/editorial/primitive-primary-secondary-scales.png",
+      "ok": true
+    },
+    {
+      "name": "pre-existing asset bytes preserved: assets/images/harmony/editorial/primitive-selected-light-steps-mobile.png",
+      "ok": true
+    },
+    {
+      "name": "pre-existing asset bytes preserved: assets/images/harmony/editorial/responsive-mode-selections-mobile.png",
+      "ok": true
+    },
+    {
+      "name": "pre-existing asset bytes preserved: assets/images/harmony/editorial/semantic-default-soft-roles-mobile.png",
+      "ok": true
+    },
+    {
+      "name": "pre-existing asset bytes preserved: assets/images/harmony/editorial/semantic-surface-border-roles.png",
+      "ok": true
+    },
+    {
+      "name": "pre-existing asset bytes preserved: assets/images/harmony/harmony-antes.jpg",
+      "ok": true
+    },
+    {
+      "name": "pre-existing asset bytes preserved: assets/images/harmony/harmony-antes.png",
+      "ok": true
+    },
+    {
+      "name": "pre-existing asset bytes preserved: assets/images/harmony/harmony-depois.jpg",
+      "ok": true
+    },
+    {
+      "name": "pre-existing asset bytes preserved: assets/images/harmony/harmony-depois.png",
+      "ok": true
+    },
+    {
+      "name": "pre-existing asset bytes preserved: assets/images/harmony/harmony-hero-poster.webp",
+      "ok": true
+    },
+    {
+      "name": "pre-existing asset bytes preserved: assets/images/harmony/harmony-hero.gif",
+      "ok": true
+    },
+    {
+      "name": "pre-existing asset bytes preserved: assets/images/harmony/harmony-hero.mp4",
+      "ok": true
+    },
+    {
+      "name": "pre-existing asset bytes preserved: assets/images/harmony/semantic-tokerns.png",
+      "ok": true
+    },
+    {
+      "name": "pre-existing asset bytes preserved: assets/images/harmony/storybook-2.png",
+      "ok": true
+    },
+    {
+      "name": "pre-existing asset bytes preserved: assets/images/harmony/storybook.png",
+      "ok": true
+    },
+    {
+      "name": "pre-existing asset bytes preserved: assets/images/harmony/templates.png",
+      "ok": true
+    },
+    {
+      "name": "pre-existing asset bytes preserved: assets/images/harmony/variables.png",
+      "ok": true
+    },
+    {
+      "name": "prior or sibling document preserved: .scratch/harmony/spec.md",
+      "ok": true
+    },
+    {
+      "name": "prior or sibling document preserved: .scratch/harmony/visual-narrative-review.md",
+      "ok": true
+    },
+    {
+      "name": "prior or sibling document preserved: .scratch/harmony/validation.md",
+      "ok": true
+    },
+    {
+      "name": "prior or sibling document preserved: .scratch/harmony/copy-draft.md",
+      "ok": true
+    },
+    {
+      "name": "prior or sibling document preserved: .scratch/harmony/issues/01-fundamentos-compartilhados.md",
+      "ok": true
+    },
+    {
+      "name": "prior or sibling document preserved: .scratch/harmony/issues/03-composicao-em-templates.md",
+      "ok": true
+    },
+    {
+      "name": "prior or sibling document preserved: .scratch/harmony/issues/04-storybook-parceria-implementacao.md",
+      "ok": true
+    },
+    {
+      "name": "prior or sibling document preserved: .scratch/harmony/verify-foundation-artifacts.py",
+      "ok": true
+    },
+    {
+      "name": "previous record/style preserved as prefix: .scratch/harmony/image-manifest.md",
+      "ok": true
+    },
+    {
+      "name": "previous record/style preserved as prefix: .scratch/harmony/visual-narrative-validation.md",
+      "ok": true
+    },
+    {
+      "name": "previous record/style preserved as prefix: assets/css/harmony.css",
+      "ok": true
+    },
+    {
+      "name": "head, navigation, hero, problem, role and foundations preserved",
+      "ok": true
+    },
+    {
+      "name": "outcome, work in progress, next project, contact and scripts preserved",
+      "ok": true
+    },
+    {
+      "name": "React/Next maintenance and hiring argument preserved for ticket 04",
+      "ok": true
+    },
+    {
+      "name": "all analytics and other script tags preserved",
+      "ok": true
+    },
+    {
+      "name": "all prior foundation manifest records preserved",
+      "ok": true
+    },
+    {
+      "name": "manifest dimensions, bytes and unchanged source fragments: assets/images/harmony/editorial/primitive-primary-secondary-scales.png",
+      "ok": true
+    },
+    {
+      "name": "manifest dimensions, bytes and unchanged source fragments: assets/images/harmony/editorial/primitive-selected-light-steps-mobile.png",
+      "ok": true
+    },
+    {
+      "name": "manifest dimensions, bytes and unchanged source fragments: assets/images/harmony/editorial/semantic-surface-border-roles.png",
+      "ok": true
+    },
+    {
+      "name": "manifest dimensions, bytes and unchanged source fragments: assets/images/harmony/editorial/semantic-default-soft-roles-mobile.png",
+      "ok": true
+    },
+    {
+      "name": "manifest dimensions, bytes and unchanged source fragments: assets/images/harmony/editorial/responsive-mode-selections-mobile.png",
+      "ok": true
+    },
+    {
+      "name": "manifest dimensions, bytes and unchanged source fragments: assets/images/harmony/editorial/button-standard-solid-outline-normal-small.png",
+      "ok": true
+    },
+    {
+      "name": "derivative hash and rendered reference: button-standard-solid-outline-normal-small.png",
+      "ok": true
+    },
+    {
+      "name": "manifest dimensions, bytes and unchanged source fragments: assets/images/harmony/editorial/portal-intranet-profile-navigation.png",
+      "ok": true
+    },
+    {
+      "name": "derivative hash and rendered reference: portal-intranet-profile-navigation.png",
+      "ok": true
+    }
+  ],
+  "summary": {
+    "passed": 46,
+    "failed": 0
+  }
+}
