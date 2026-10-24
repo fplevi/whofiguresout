@@ -138,3 +138,37 @@
     padding-inline: var(--space-24);
   }
 }
+
+/* Final documentation evidence remains static and wide; mobile uses faithful
+   property selections without entering the shared section reveal observer. */
+.harmony-case .harmony-storybook {
+  padding: var(--space-80) var(--margin);
+  border-top: 1px solid var(--background-divider);
+}
+
+.harmony-case .harmony-storybook figure {
+  margin: 0;
+}
+
+.harmony-case .harmony-storybook img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  margin-inline: auto;
+  border-radius: var(--radius-md);
+}
+
+.harmony-case .harmony-storybook figcaption {
+  max-width: 840px;
+  margin-top: var(--space-16);
+  font-size: var(--size-body-sm);
+  line-height: 1.7;
+  color: var(--text-secondary-strong);
+}
+
+@media (max-width: 1024px) {
+  .harmony-case .harmony-storybook {
+    padding-inline: var(--space-24);
+  }
+}
