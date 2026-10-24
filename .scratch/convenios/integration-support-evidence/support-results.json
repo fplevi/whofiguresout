@@ -1,0 +1,496 @@
+{
+  "checks": [
+    {
+      "name": "320: card, network, accounts, library sequence",
+      "ok": true,
+      "detail": [
+        "Keep the essentials close.",
+        "Find care in the provider network.",
+        "Make room for more than one account.",
+        "Build a foundation for the next release."
+      ]
+    },
+    {
+      "name": "320: available network explains map/list",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320: account switch explicitly without logout",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320: account explanation excludes unrelated services",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320: evidence stays visible without disclosure or raw links",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320: no unsupported launch/geolocation/efficiency/certification claim",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320: own product library predates Harmony",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320: automated WCAG audit has no violations",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "375: card, network, accounts, library sequence",
+      "ok": true,
+      "detail": [
+        "Keep the essentials close.",
+        "Find care in the provider network.",
+        "Make room for more than one account.",
+        "Build a foundation for the next release."
+      ]
+    },
+    {
+      "name": "375: available network explains map/list",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375: account switch explicitly without logout",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375: account explanation excludes unrelated services",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375: evidence stays visible without disclosure or raw links",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375: no unsupported launch/geolocation/efficiency/certification claim",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375: own product library predates Harmony",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375: automated WCAG audit has no violations",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "768: card, network, accounts, library sequence",
+      "ok": true,
+      "detail": [
+        "Keep the essentials close.",
+        "Find care in the provider network.",
+        "Make room for more than one account.",
+        "Build a foundation for the next release."
+      ]
+    },
+    {
+      "name": "768: available network explains map/list",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768: account switch explicitly without logout",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768: account explanation excludes unrelated services",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768: evidence stays visible without disclosure or raw links",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768: no unsupported launch/geolocation/efficiency/certification claim",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768: own product library predates Harmony",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768: automated WCAG audit has no violations",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "1440: card, network, accounts, library sequence",
+      "ok": true,
+      "detail": [
+        "Keep the essentials close.",
+        "Find care in the provider network.",
+        "Make room for more than one account.",
+        "Build a foundation for the next release."
+      ]
+    },
+    {
+      "name": "1440: available network explains map/list",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440: account switch explicitly without logout",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440: account explanation excludes unrelated services",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440: evidence stays visible without disclosure or raw links",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440: no unsupported launch/geolocation/efficiency/certification claim",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440: own product library predates Harmony",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440: automated WCAG audit has no violations",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "production change scope stays within Convenios",
+      "ok": true,
+      "detail": [
+        ".scratch/convenios/01-evidence/01-green-results.json",
+        ".scratch/convenios/01-evidence/01-keyboard-contact-1440.png",
+        ".scratch/convenios/01-evidence/01-keyboard-store-1440.png",
+        ".scratch/convenios/01-evidence/01-loaded-page-1440-no-preference.png",
+        ".scratch/convenios/01-evidence/01-loaded-page-1440-reduce.png",
+        ".scratch/convenios/01-evidence/01-loaded-page-320-no-preference.png",
+        ".scratch/convenios/01-evidence/01-loaded-page-320-reduce.png",
+        ".scratch/convenios/01-evidence/01-loaded-page-375-no-preference.png",
+        ".scratch/convenios/01-evidence/01-loaded-page-375-reduce.png",
+        ".scratch/convenios/01-evidence/01-loaded-page-768-no-preference.png",
+        ".scratch/convenios/01-evidence/01-loaded-page-768-reduce.png",
+        ".scratch/convenios/01-evidence/01-network-1440-no-preference.png",
+        ".scratch/convenios/01-evidence/01-network-1440-reduce.png",
+        ".scratch/convenios/01-evidence/01-network-320-no-preference.png",
+        ".scratch/convenios/01-evidence/01-network-320-reduce.png",
+        ".scratch/convenios/01-evidence/01-network-375-no-preference.png",
+        ".scratch/convenios/01-evidence/01-network-375-reduce.png",
+        ".scratch/convenios/01-evidence/01-network-768-no-preference.png",
+        ".scratch/convenios/01-evidence/01-network-768-reduce.png",
+        ".scratch/convenios/01-evidence/01-network-image-1440-no-preference.png",
+        ".scratch/convenios/01-evidence/01-network-image-1440-reduce.png",
+        ".scratch/convenios/01-evidence/01-network-image-320-no-preference.png",
+        ".scratch/convenios/01-evidence/01-network-image-320-reduce.png",
+        ".scratch/convenios/01-evidence/01-network-image-375-no-preference.png",
+        ".scratch/convenios/01-evidence/01-network-image-375-reduce.png",
+        ".scratch/convenios/01-evidence/01-network-image-768-no-preference.png",
+        ".scratch/convenios/01-evidence/01-network-image-768-reduce.png",
+        ".scratch/convenios/01-evidence/01-red-features-320.png",
+        ".scratch/convenios/01-evidence/01-red-results.json",
+        ".scratch/convenios/01-network-qa.py",
+        ".scratch/convenios/01-prepare-network.py",
+        ".scratch/convenios/01-validation.md",
+        ".scratch/convenios/02-accounts-qa.py",
+        ".scratch/convenios/02-evidence-final/02-accounts-1440-no-preference.png",
+        ".scratch/convenios/02-evidence-final/02-accounts-1440-reduce.png",
+        ".scratch/convenios/02-evidence-final/02-accounts-320-no-preference.png",
+        ".scratch/convenios/02-evidence-final/02-accounts-320-reduce.png",
+        ".scratch/convenios/02-evidence-final/02-accounts-375-no-preference.png",
+        ".scratch/convenios/02-evidence-final/02-accounts-375-reduce.png",
+        ".scratch/convenios/02-evidence-final/02-accounts-768-no-preference.png",
+        ".scratch/convenios/02-evidence-final/02-accounts-768-reduce.png",
+        ".scratch/convenios/02-evidence-final/02-copy.png",
+        ".scratch/convenios/02-evidence-final/02-focus-back.png",
+        ".scratch/convenios/02-evidence-final/02-focus-store.png",
+        ".scratch/convenios/02-evidence-final/02-loaded-image-1440-no-preference.png",
+        ".scratch/convenios/02-evidence-final/02-loaded-image-1440-reduce.png",
+        ".scratch/convenios/02-evidence-final/02-loaded-image-320-no-preference.png",
+        ".scratch/convenios/02-evidence-final/02-loaded-image-320-reduce.png",
+        ".scratch/convenios/02-evidence-final/02-loaded-image-375-no-preference.png",
+        ".scratch/convenios/02-evidence-final/02-loaded-image-375-reduce.png",
+        ".scratch/convenios/02-evidence-final/02-loaded-image-768-no-preference.png",
+        ".scratch/convenios/02-evidence-final/02-loaded-image-768-reduce.png",
+        ".scratch/convenios/02-evidence-final/02-page-1440-no-preference.png",
+        ".scratch/convenios/02-evidence-final/02-page-1440-reduce.png",
+        ".scratch/convenios/02-evidence-final/02-page-320-no-preference.png",
+        ".scratch/convenios/02-evidence-final/02-page-320-reduce.png",
+        ".scratch/convenios/02-evidence-final/02-page-375-no-preference.png",
+        ".scratch/convenios/02-evidence-final/02-page-375-reduce.png",
+        ".scratch/convenios/02-evidence-final/02-page-768-no-preference.png",
+        ".scratch/convenios/02-evidence-final/02-page-768-reduce.png",
+        ".scratch/convenios/02-evidence-final/02-viewport-1440-no-preference.png",
+        ".scratch/convenios/02-evidence-final/02-viewport-1440-reduce.png",
+        ".scratch/convenios/02-evidence-final/02-viewport-320-no-preference.png",
+        ".scratch/convenios/02-evidence-final/02-viewport-320-reduce.png",
+        ".scratch/convenios/02-evidence-final/02-viewport-375-no-preference.png",
+        ".scratch/convenios/02-evidence-final/02-viewport-375-reduce.png",
+        ".scratch/convenios/02-evidence-final/02-viewport-768-no-preference.png",
+        ".scratch/convenios/02-evidence-final/02-viewport-768-reduce.png",
+        ".scratch/convenios/02-evidence-green-copy/02-copy.png",
+        ".scratch/convenios/02-evidence-integration/02-copy.png",
+        ".scratch/convenios/02-evidence-matrix-before/02-accounts-320-no-preference.png",
+        ".scratch/convenios/02-evidence-matrix-before/02-accounts-375-no-preference.png",
+        ".scratch/convenios/02-evidence-postmerge/02-copy.png",
+        ".scratch/convenios/02-evidence-red-copy/02-copy.png",
+        ".scratch/convenios/02-preservation-integration.json",
+        ".scratch/convenios/02-preservation.json",
+        ".scratch/convenios/02-preservation.py",
+        ".scratch/convenios/02-results-final.json",
+        ".scratch/convenios/02-results-green-copy.json",
+        ".scratch/convenios/02-results-integration.json",
+        ".scratch/convenios/02-results-matrix-before.json",
+        ".scratch/convenios/02-results-postmerge.json",
+        ".scratch/convenios/02-results-recapture.json",
+        ".scratch/convenios/02-results-red-copy.json",
+        ".scratch/convenios/02-validation.md",
+        ".scratch/convenios/03-evidence-final-premerge/03-contact-keyboard.png",
+        ".scratch/convenios/03-evidence-final-premerge/03-home-keyboard.png",
+        ".scratch/convenios/03-evidence-final-premerge/03-library-1440-no-preference.png",
+        ".scratch/convenios/03-evidence-final-premerge/03-library-1440-reduce.png",
+        ".scratch/convenios/03-evidence-final-premerge/03-library-320-no-preference.png",
+        ".scratch/convenios/03-evidence-final-premerge/03-library-320-reduce.png",
+        ".scratch/convenios/03-evidence-final-premerge/03-library-320.png",
+        ".scratch/convenios/03-evidence-final-premerge/03-library-375-no-preference.png",
+        ".scratch/convenios/03-evidence-final-premerge/03-library-375-reduce.png",
+        ".scratch/convenios/03-evidence-final-premerge/03-library-768-no-preference.png",
+        ".scratch/convenios/03-evidence-final-premerge/03-library-768-reduce.png",
+        ".scratch/convenios/03-evidence-final-premerge/03-loaded-crop-1440-no-preference.png",
+        ".scratch/convenios/03-evidence-final-premerge/03-loaded-crop-1440-reduce.png",
+        ".scratch/convenios/03-evidence-final-premerge/03-loaded-crop-320-no-preference.png",
+        ".scratch/convenios/03-evidence-final-premerge/03-loaded-crop-320-reduce.png",
+        ".scratch/convenios/03-evidence-final-premerge/03-loaded-crop-375-no-preference.png",
+        ".scratch/convenios/03-evidence-final-premerge/03-loaded-crop-375-reduce.png",
+        ".scratch/convenios/03-evidence-final-premerge/03-loaded-crop-768-no-preference.png",
+        ".scratch/convenios/03-evidence-final-premerge/03-loaded-crop-768-reduce.png",
+        ".scratch/convenios/03-evidence-final-premerge/03-outcome-1440-no-preference.png",
+        ".scratch/convenios/03-evidence-final-premerge/03-outcome-1440-reduce.png",
+        ".scratch/convenios/03-evidence-final-premerge/03-outcome-320-no-preference.png",
+        ".scratch/convenios/03-evidence-final-premerge/03-outcome-320-reduce.png",
+        ".scratch/convenios/03-evidence-final-premerge/03-outcome-375-no-preference.png",
+        ".scratch/convenios/03-evidence-final-premerge/03-outcome-375-reduce.png",
+        ".scratch/convenios/03-evidence-final-premerge/03-outcome-768-no-preference.png",
+        ".scratch/convenios/03-evidence-final-premerge/03-outcome-768-reduce.png",
+        ".scratch/convenios/03-evidence-final-premerge/03-wheel-1440-no-preference.json",
+        ".scratch/convenios/03-evidence-final-premerge/03-wheel-1440-reduce.json",
+        ".scratch/convenios/03-evidence-final-premerge/03-wheel-320-no-preference.json",
+        ".scratch/convenios/03-evidence-final-premerge/03-wheel-320-reduce.json",
+        ".scratch/convenios/03-evidence-final-premerge/03-wheel-375-no-preference.json",
+        ".scratch/convenios/03-evidence-final-premerge/03-wheel-375-reduce.json",
+        ".scratch/convenios/03-evidence-final-premerge/03-wheel-768-no-preference.json",
+        ".scratch/convenios/03-evidence-final-premerge/03-wheel-768-reduce.json",
+        ".scratch/convenios/03-evidence-final/03-contact-keyboard.png",
+        ".scratch/convenios/03-evidence-final/03-evidence-convenios-accounts-1440-no-preference.png",
+        ".scratch/convenios/03-evidence-final/03-evidence-convenios-accounts-1440-reduce.png",
+        ".scratch/convenios/03-evidence-final/03-evidence-convenios-accounts-375-no-preference.png",
+        ".scratch/convenios/03-evidence-final/03-evidence-convenios-accounts-375-reduce.png",
+        ".scratch/convenios/03-evidence-final/03-evidence-convenios-card-1440-no-preference.png",
+        ".scratch/convenios/03-evidence-final/03-evidence-convenios-card-1440-reduce.png",
+        ".scratch/convenios/03-evidence-final/03-evidence-convenios-card-375-no-preference.png",
+        ".scratch/convenios/03-evidence-final/03-evidence-convenios-card-375-reduce.png",
+        ".scratch/convenios/03-evidence-final/03-evidence-convenios-components-1440-no-preference.png",
+        ".scratch/convenios/03-evidence-final/03-evidence-convenios-components-1440-reduce.png",
+        ".scratch/convenios/03-evidence-final/03-evidence-convenios-components-375-no-preference.png",
+        ".scratch/convenios/03-evidence-final/03-evidence-convenios-components-375-reduce.png",
+        ".scratch/convenios/03-evidence-final/03-home-keyboard.png",
+        ".scratch/convenios/03-evidence-final/03-library-1440-no-preference.png",
+        ".scratch/convenios/03-evidence-final/03-library-1440-reduce.png",
+        ".scratch/convenios/03-evidence-final/03-library-320-no-preference.png",
+        ".scratch/convenios/03-evidence-final/03-library-320-reduce.png",
+        ".scratch/convenios/03-evidence-final/03-library-320.png",
+        ".scratch/convenios/03-evidence-final/03-library-375-no-preference.png",
+        ".scratch/convenios/03-evidence-final/03-library-375-reduce.png",
+        ".scratch/convenios/03-evidence-final/03-library-768-no-preference.png",
+        ".scratch/convenios/03-evidence-final/03-library-768-reduce.png",
+        ".scratch/convenios/03-evidence-final/03-loaded-crop-1440-no-preference.png",
+        ".scratch/convenios/03-evidence-final/03-loaded-crop-1440-reduce.png",
+        ".scratch/convenios/03-evidence-final/03-loaded-crop-320-no-preference.png",
+        ".scratch/convenios/03-evidence-final/03-loaded-crop-320-reduce.png",
+        ".scratch/convenios/03-evidence-final/03-loaded-crop-375-no-preference.png",
+        ".scratch/convenios/03-evidence-final/03-loaded-crop-375-reduce.png",
+        ".scratch/convenios/03-evidence-final/03-loaded-crop-768-no-preference.png",
+        ".scratch/convenios/03-evidence-final/03-loaded-crop-768-reduce.png",
+        ".scratch/convenios/03-evidence-final/03-outcome-1440-no-preference.png",
+        ".scratch/convenios/03-evidence-final/03-outcome-1440-reduce.png",
+        ".scratch/convenios/03-evidence-final/03-outcome-320-no-preference.png",
+        ".scratch/convenios/03-evidence-final/03-outcome-320-reduce.png",
+        ".scratch/convenios/03-evidence-final/03-outcome-375-no-preference.png",
+        ".scratch/convenios/03-evidence-final/03-outcome-375-reduce.png",
+        ".scratch/convenios/03-evidence-final/03-outcome-768-no-preference.png",
+        ".scratch/convenios/03-evidence-final/03-outcome-768-reduce.png",
+        ".scratch/convenios/03-evidence-final/03-preserved-hero-1440-no-preference.png",
+        ".scratch/convenios/03-evidence-final/03-preserved-hero-1440-reduce.png",
+        ".scratch/convenios/03-evidence-final/03-preserved-hero-375-no-preference.png",
+        ".scratch/convenios/03-evidence-final/03-preserved-hero-375-reduce.png",
+        ".scratch/convenios/03-evidence-final/03-wheel-1440-no-preference.json",
+        ".scratch/convenios/03-evidence-final/03-wheel-1440-reduce.json",
+        ".scratch/convenios/03-evidence-final/03-wheel-320-no-preference.json",
+        ".scratch/convenios/03-evidence-final/03-wheel-320-reduce.json",
+        ".scratch/convenios/03-evidence-final/03-wheel-375-no-preference.json",
+        ".scratch/convenios/03-evidence-final/03-wheel-375-reduce.json",
+        ".scratch/convenios/03-evidence-final/03-wheel-768-no-preference.json",
+        ".scratch/convenios/03-evidence-final/03-wheel-768-reduce.json",
+        ".scratch/convenios/03-evidence-green-copy/03-library-320.png",
+        ".scratch/convenios/03-evidence-green/03-library-320.png",
+        ".scratch/convenios/03-evidence-instrumentation-baseline/03-home-keyboard.png",
+        ".scratch/convenios/03-evidence-instrumentation-baseline/03-library-1440-no-preference.png",
+        ".scratch/convenios/03-evidence-instrumentation-baseline/03-library-1440-reduce.png",
+        ".scratch/convenios/03-evidence-instrumentation-baseline/03-library-320-no-preference.png",
+        ".scratch/convenios/03-evidence-instrumentation-baseline/03-library-320-reduce.png",
+        ".scratch/convenios/03-evidence-instrumentation-baseline/03-library-320.png",
+        ".scratch/convenios/03-evidence-instrumentation-baseline/03-library-375-no-preference.png",
+        ".scratch/convenios/03-evidence-instrumentation-baseline/03-library-375-reduce.png",
+        ".scratch/convenios/03-evidence-instrumentation-baseline/03-library-768-no-preference.png",
+        ".scratch/convenios/03-evidence-instrumentation-baseline/03-library-768-reduce.png",
+        ".scratch/convenios/03-evidence-instrumentation-baseline/03-loaded-crop-1440-no-preference.png",
+        ".scratch/convenios/03-evidence-instrumentation-baseline/03-loaded-crop-1440-reduce.png",
+        ".scratch/convenios/03-evidence-instrumentation-baseline/03-loaded-crop-320-no-preference.png",
+        ".scratch/convenios/03-evidence-instrumentation-baseline/03-loaded-crop-320-reduce.png",
+        ".scratch/convenios/03-evidence-instrumentation-baseline/03-loaded-crop-375-no-preference.png",
+        ".scratch/convenios/03-evidence-instrumentation-baseline/03-loaded-crop-375-reduce.png",
+        ".scratch/convenios/03-evidence-instrumentation-baseline/03-loaded-crop-768-no-preference.png",
+        ".scratch/convenios/03-evidence-instrumentation-baseline/03-loaded-crop-768-reduce.png",
+        ".scratch/convenios/03-evidence-instrumentation-baseline/03-outcome-1440-no-preference.png",
+        ".scratch/convenios/03-evidence-instrumentation-baseline/03-outcome-1440-reduce.png",
+        ".scratch/convenios/03-evidence-instrumentation-baseline/03-outcome-320-no-preference.png",
+        ".scratch/convenios/03-evidence-instrumentation-baseline/03-outcome-320-reduce.png",
+        ".scratch/convenios/03-evidence-instrumentation-baseline/03-outcome-375-no-preference.png",
+        ".scratch/convenios/03-evidence-instrumentation-baseline/03-outcome-375-reduce.png",
+        ".scratch/convenios/03-evidence-instrumentation-baseline/03-outcome-768-no-preference.png",
+        ".scratch/convenios/03-evidence-instrumentation-baseline/03-outcome-768-reduce.png",
+        ".scratch/convenios/03-evidence-instrumentation-baseline/03-wheel-1440-no-preference.json",
+        ".scratch/convenios/03-evidence-instrumentation-baseline/03-wheel-1440-reduce.json",
+        ".scratch/convenios/03-evidence-instrumentation-baseline/03-wheel-320-no-preference.json",
+        ".scratch/convenios/03-evidence-instrumentation-baseline/03-wheel-320-reduce.json",
+        ".scratch/convenios/03-evidence-instrumentation-baseline/03-wheel-375-no-preference.json",
+        ".scratch/convenios/03-evidence-instrumentation-baseline/03-wheel-375-reduce.json",
+        ".scratch/convenios/03-evidence-instrumentation-baseline/03-wheel-768-no-preference.json",
+        ".scratch/convenios/03-evidence-instrumentation-baseline/03-wheel-768-reduce.json",
+        ".scratch/convenios/03-evidence-red-copy/03-library-320.png",
+        ".scratch/convenios/03-evidence-red/03-library-320.png",
+        ".scratch/convenios/03-library-qa.py",
+        ".scratch/convenios/03-results-final-premerge.json",
+        ".scratch/convenios/03-results-final.json",
+        ".scratch/convenios/03-results-green-copy.json",
+        ".scratch/convenios/03-results-green.json",
+        ".scratch/convenios/03-results-red-copy.json",
+        ".scratch/convenios/03-results-red.json",
+        ".scratch/convenios/03-validation.md",
+        ".scratch/convenios/assets/01-network.json",
+        ".scratch/convenios/assets/02-accounts.json",
+        ".scratch/convenios/assets/03-button-documentation.json",
+        ".scratch/convenios/integration-smoke-ticket03-sync/accounts-1440.png",
+        ".scratch/convenios/integration-smoke-ticket03-sync/accounts-375.png",
+        ".scratch/convenios/integration-smoke-ticket03-sync/library-1440.png",
+        ".scratch/convenios/integration-smoke-ticket03-sync/library-375.png",
+        ".scratch/convenios/integration-smoke-ticket03-sync/library-image-1440.png",
+        ".scratch/convenios/integration-smoke-ticket03-sync/library-image-375.png",
+        ".scratch/convenios/integration-smoke-ticket03-sync/network-1440.png",
+        ".scratch/convenios/integration-smoke-ticket03-sync/network-375.png",
+        ".scratch/convenios/integration-smoke-ticket03-sync/results.json",
+        ".scratch/convenios/integration-smoke-ticket03-sync/wheel-1440.json",
+        ".scratch/convenios/integration-smoke-ticket03-sync/wheel-375.json",
+        ".scratch/convenios/integration-smoke.py",
+        ".scratch/convenios/integration-validation.md",
+        ".scratch/convenios/issues/01-rede-credenciada.md",
+        ".scratch/convenios/issues/02-contas-sem-logout.md",
+        ".scratch/convenios/issues/03-biblioteca-propria-legivel.md",
+        "assets/css/convenios.css",
+        "assets/images/convenios/convenios-button-touch-03.webp",
+        "assets/images/convenios/convenios-provider-network-crop.webp",
+        "case-studies/convenios.html"
+      ]
+    },
+    {
+      "name": "metadata, analytics, hero and problem/role prefix preserved",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "stores, adjacent navigation, contact and scripts preserved",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "home card and home document unchanged",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "all original Convenios images unchanged",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "convenios-provider-network-crop.webp: exact source crop, dimensions and alpha preserved",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "network derivative retains transparency",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "convenios-button-touch-03.webp: exact source crop, dimensions and alpha preserved",
+      "ok": true,
+      "detail": null
+    }
+  ],
+  "axe": [
+    {
+      "width": 320,
+      "violations": [],
+      "incomplete": [],
+      "passes": 28
+    },
+    {
+      "width": 375,
+      "violations": [],
+      "incomplete": [],
+      "passes": 28
+    },
+    {
+      "width": 768,
+      "violations": [],
+      "incomplete": [],
+      "passes": 28
+    },
+    {
+      "width": 1440,
+      "violations": [],
+      "incomplete": [],
+      "passes": 28
+    }
+  ],
+  "browser": "156.0.8078.4",
+  "summary": {
+    "passed": 40,
+    "failed": 0
+  }
+}
