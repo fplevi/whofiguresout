@@ -1,0 +1,16 @@
+{
+  "css_after": "harmony.css",
+  "seed": 4,
+  "hero_block": "    <!-- Hero Image -->\n    <div class=\"cs-hero-image\" role=\"img\" aria-label=\"Harmony design system — hero image\">\n      <video class=\"cs-hero-image__img\" src=\"../assets/images/harmony/harmony-hero.mp4\" poster=\"../assets/images/harmony/harmony-hero-poster.webp\" width=\"1440\" height=\"900\" autoplay muted loop playsinline></video>\n    </div>\n\n",
+  "words": [
+    ["5LIBRARIES", "5 libraries", "Problem", "Five platforms kept separate Figma libraries, so tokens diverged and teams repeated component decisions."],
+    ["REACTARIA", "React Aria", "Decision", "Building on React Aria's accessible components let Harmony focus on CASSI's own visual language, content, and interactions."],
+    ["GOVERNANCE", "Governance", "Decision", "One shared library became the common reference, with shared governance and defined exceptions."],
+    ["GRADUAL", "Gradual", "Trade-off", "New projects start on Harmony; existing products migrate gradually, so full adoption is still in progress."],
+    ["ADOPTED", "Adopted", "Result", "Harmony is now the foundation for new projects at CASSI."]
+  ],
+  "extra": [[
+    "I lead design and the ongoing evolution of components; the development team implements the React library in partnership with me.</p>\n",
+    "I lead design and the ongoing evolution of components; the development team implements the React library in partnership with me.</p>\n          <p class=\"harmony-evidence__body\">React Aria accelerated component delivery significantly, especially for accessibility criteria. Building fully accessible components from scratch is unrealistic for most teams. By leveraging a battle-tested library, we eliminated solved problems from Harmony's roadmap and focused energy on decisions specific to CASSI: visual language, content standards, and interaction patterns.</p>\n"
+  ]]
+}

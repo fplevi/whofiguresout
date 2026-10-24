@@ -46,6 +46,7 @@
   <link rel="stylesheet" href="../assets/css/contact.css?v=20261024-copy" />
   <link rel="stylesheet" href="../assets/css/case-study.css?v=20261024-notes" />
   <link rel="stylesheet" href="../assets/css/harmony.css" />
+  <link rel="stylesheet" href="../assets/css/case-hero-wordsearch.css" />
 </head>
 <body class="harmony-case">
 
@@ -62,12 +63,50 @@
 
   <main>
 
-    <!-- Case Header -->
-    <section class="cs-header">
+    <!-- Case Header: word-search hero (assets/js/case-hero-wordsearch.js) -->
+    <section class="cs-header wsh" data-cols="24" data-rows="7" data-cols-mobile="12" data-rows-mobile="12" data-seed="4">
       <a href="../" class="cs-header__back">← Back to work</a>
       <span class="section-tag cs-header__tag">Design System</span>
       <h1 class="cs-header__title">Harmony</h1>
       <p class="cs-header__hook">A shared design system for CASSI's new projects, with existing products migrating gradually.</p>
+
+      <div class="wsh__game" role="group" aria-labelledby="wsh-kicker">
+        <div class="wsh__game-head">
+          <p class="wsh__kicker" id="wsh-kicker">The case in five words</p>
+          <p class="wsh__count" aria-live="polite"></p>
+        </div>
+        <div class="wsh__grid" aria-hidden="true"></div>
+        <ul class="wsh__legend" role="list">
+          <li class="wsh__item" data-word="5LIBRARIES">
+            <button type="button" class="wsh__chip" disabled><span class="wsh__term-blank" aria-hidden="true">_ _ _ _ _ _ _ _ _ _</span><span class="wsh__term-text">5 libraries</span></button>
+            <span class="wsh__cat">Problem</span>
+            <span class="wsh__caption">Five platforms kept separate Figma libraries, so tokens diverged and teams repeated component decisions.</span>
+          </li>
+          <li class="wsh__item" data-word="REACTARIA">
+            <button type="button" class="wsh__chip" disabled><span class="wsh__term-blank" aria-hidden="true">_ _ _ _ _ _ _ _ _</span><span class="wsh__term-text">React Aria</span></button>
+            <span class="wsh__cat">Decision</span>
+            <span class="wsh__caption">Building on React Aria's accessible components let Harmony focus on CASSI's own visual language, content, and interactions.</span>
+          </li>
+          <li class="wsh__item" data-word="GOVERNANCE">
+            <button type="button" class="wsh__chip" disabled><span class="wsh__term-blank" aria-hidden="true">_ _ _ _ _ _ _ _ _ _</span><span class="wsh__term-text">Governance</span></button>
+            <span class="wsh__cat">Decision</span>
+            <span class="wsh__caption">One shared library became the common reference, with shared governance and defined exceptions.</span>
+          </li>
+          <li class="wsh__item" data-word="GRADUAL">
+            <button type="button" class="wsh__chip" disabled><span class="wsh__term-blank" aria-hidden="true">_ _ _ _ _ _ _</span><span class="wsh__term-text">Gradual</span></button>
+            <span class="wsh__cat">Trade-off</span>
+            <span class="wsh__caption">New projects start on Harmony; existing products migrate gradually, so full adoption is still in progress.</span>
+          </li>
+          <li class="wsh__item" data-word="ADOPTED">
+            <button type="button" class="wsh__chip" disabled><span class="wsh__term-blank" aria-hidden="true">_ _ _ _ _ _ _</span><span class="wsh__term-text">Adopted</span></button>
+            <span class="wsh__cat">Result</span>
+            <span class="wsh__caption">Harmony is now the foundation for new projects at CASSI.</span>
+          </li>
+        </ul>
+        <div class="wsh__footer">
+          <button type="button" class="wsh__reveal">Reveal all</button>
+        </div>
+      </div>
 
       <div class="cs-meta" role="list">
         <div class="cs-meta__pill" role="listitem">
@@ -84,11 +123,6 @@
         </div>
       </div>
     </section>
-
-    <!-- Hero Image -->
-    <div class="cs-hero-image" role="img" aria-label="Harmony design system — hero image">
-      <video class="cs-hero-image__img" src="../assets/images/harmony/harmony-hero.mp4" poster="../assets/images/harmony/harmony-hero-poster.webp" width="1440" height="900" autoplay muted loop playsinline></video>
-    </div>
 
     <!-- The Problem -->
     <section class="cs-section" aria-labelledby="harmony-problem">
@@ -217,6 +251,7 @@
           <h2 class="cs-section__title" id="harmony-storybook">Button properties in Storybook</h2>
           <p class="harmony-evidence__body" id="harmony-storybook-copy">The Button preview sits alongside named properties: children supplies the label, variant shows solid, and size lists sm and md. Storybook provides a reference for documenting components and discussing their implementation with development.</p>
           <p class="harmony-evidence__body">React and Next.js were chosen with long-term maintenance and hiring in mind. The intent was to give development a shared technical foundation as new projects adopt Harmony and existing products migrate. I lead design and the ongoing evolution of components; the development team implements the React library in partnership with me.</p>
+          <p class="harmony-evidence__body">React Aria accelerated component delivery significantly, especially for accessibility criteria. Building fully accessible components from scratch is unrealistic for most teams. By leveraging a battle-tested library, we eliminated solved problems from Harmony's roadmap and focused energy on decisions specific to CASSI: visual language, content standards, and interaction patterns.</p>
         </div>
         <figure aria-labelledby="harmony-storybook" aria-describedby="harmony-storybook-copy">
           <picture>
@@ -305,6 +340,7 @@
   </main>
 
   <script src="../assets/js/scroll-animations.js" type="module"></script>
+  <script src="../assets/js/case-hero-wordsearch.js" type="module"></script>
   <script src="../assets/js/contact-form.js?v=20261024-clipboard" defer></script>
 
 </body>
