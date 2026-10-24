@@ -46,6 +46,7 @@
   <link rel="stylesheet" href="../assets/css/contact.css?v=20261024-copy" />
   <link rel="stylesheet" href="../assets/css/case-study.css" />
   <link rel="stylesheet" href="../assets/css/enrollment.css" />
+  <link rel="stylesheet" href="../assets/css/case-hero-wordsearch.css" />
 </head>
 <body>
 
@@ -62,12 +63,50 @@
 
   <main>
 
-    <!-- Case Header -->
-    <section class="cs-header">
+    <!-- Case Header: word-search hero (assets/js/case-hero-wordsearch.js) -->
+    <section class="cs-header wsh" data-cols="24" data-rows="7" data-cols-mobile="12" data-rows-mobile="12" data-seed="4">
       <a href="../" class="cs-header__back">← Back to work</a>
       <span class="section-tag cs-header__tag">UX Research &amp; Design</span>
       <h1 class="cs-header__title">Enrollment Journey</h1>
       <p class="cs-header__hook">Redesigning plan exploration, document submission, and status tracking. Proposal volume grew 171% from January 2023 to January 2024.</p>
+
+      <div class="wsh__game" role="group" aria-labelledby="wsh-kicker">
+        <div class="wsh__game-head">
+          <p class="wsh__kicker" id="wsh-kicker">The case in five words</p>
+          <p class="wsh__count" aria-live="polite"></p>
+        </div>
+        <div class="wsh__grid" aria-hidden="true"></div>
+        <ul class="wsh__legend" role="list">
+          <li class="wsh__item" data-word="SUPPORT">
+            <button type="button" class="wsh__chip" disabled><span class="wsh__term-blank" aria-hidden="true">_ _ _ _ _ _ _</span><span class="wsh__term-text">Support</span></button>
+            <span class="wsh__cat">Problem</span>
+            <span class="wsh__caption">Pre-registration, scattered document steps, and no visible status kept users dependent on the call center.</span>
+          </li>
+          <li class="wsh__item" data-word="EXPLORE">
+            <button type="button" class="wsh__chip" disabled><span class="wsh__term-blank" aria-hidden="true">_ _ _ _ _ _ _</span><span class="wsh__term-text">Explore</span></button>
+            <span class="wsh__cat">Decision</span>
+            <span class="wsh__caption">Plan exploration moved ahead of registration, so users could review their options before creating an account.</span>
+          </li>
+          <li class="wsh__item" data-word="MENTALMODEL">
+            <button type="button" class="wsh__chip" disabled><span class="wsh__term-blank" aria-hidden="true">_ _ _ _ _ _ _ _ _ _ _</span><span class="wsh__term-text">Mental model</span></button>
+            <span class="wsh__cat">Decision</span>
+            <span class="wsh__caption">Steps were reordered around users: explore plans, simulate costs, choose, enter details, submit documents, track status.</span>
+          </li>
+          <li class="wsh__item" data-word="NOLOGIN">
+            <button type="button" class="wsh__chip" disabled><span class="wsh__term-blank" aria-hidden="true">_ _ _ _ _ _ _</span><span class="wsh__term-text">No login</span></button>
+            <span class="wsh__cat">Trade-off</span>
+            <span class="wsh__caption">A CPF or protocol plus an SMS or email code replaced the mandatory account: a lighter check, but no barrier up front.</span>
+          </li>
+          <li class="wsh__item" data-word="171%">
+            <button type="button" class="wsh__chip" disabled><span class="wsh__term-blank" aria-hidden="true">_ _ _ _</span><span class="wsh__term-text">171%</span></button>
+            <span class="wsh__cat">Result</span>
+            <span class="wsh__caption">More proposals: 408 in January 2023 to 1,105 in January 2024, after the March 2023 launch.</span>
+          </li>
+        </ul>
+        <div class="wsh__footer">
+          <button type="button" class="wsh__reveal">Reveal all</button>
+        </div>
+      </div>
 
       <div class="cs-meta" role="list">
         <div class="cs-meta__pill" role="listitem">
@@ -84,11 +123,6 @@
         </div>
       </div>
     </section>
-
-    <!-- Hero Image -->
-    <div class="cs-hero-image" role="img" aria-label="Enrollment Journey — hero image">
-      <video class="cs-hero-image__img" src="../assets/images/enrollment/enrollment.mp4" poster="../assets/images/enrollment/enrollment-poster.webp" width="1440" height="900" autoplay muted loop playsinline></video>
-    </div>
 
     <!-- The Problem -->
     <section class="cs-section" aria-labelledby="enrollment-problem">
@@ -143,6 +177,9 @@
             <h3 class="cs-decision__title">Remove mandatory pre-registration</h3>
             <p class="cs-decision__body">
               Users had to create an account before they could understand the available plans or required documents. We moved plan exploration ahead of registration so they could review their options before committing to the process.
+            </p>
+            <p class="cs-decision__body">
+              The old pre-registration login wasn't even reused: applicants had to create another account once enrollment was complete. Instead, returning applicants identify themselves with their CPF or proposal protocol plus a confirmation code sent by SMS or email.
             </p>
             <p class="cs-decision__note">
               <span class="cs-decision__note-icon cs-decision__note-icon--exploration" aria-hidden="true"></span>
@@ -327,6 +364,7 @@
   </main>
 
   <script src="../assets/js/scroll-animations.js" type="module"></script>
+  <script src="../assets/js/case-hero-wordsearch.js" type="module"></script>
   <script src="../assets/js/contact-form.js?v=20261024-clipboard" defer></script>
 
 </body>
