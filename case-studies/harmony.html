@@ -45,8 +45,9 @@
   <link rel="stylesheet" href="../assets/css/nav.css" />
   <link rel="stylesheet" href="../assets/css/contact.css?v=20261024-copy" />
   <link rel="stylesheet" href="../assets/css/case-study.css?v=20261024-notes" />
+  <link rel="stylesheet" href="../assets/css/harmony.css" />
 </head>
-<body>
+<body class="harmony-case">
 
   <header>
     <nav class="nav" id="nav" aria-label="Main navigation">
@@ -112,30 +113,58 @@
       </p>
     </section>
 
-    <!-- The Decisions -->
+    <!-- Shared foundations: reading relationships between layers, not a timeline. -->
+    <section class="harmony-foundations" aria-labelledby="harmony-foundations">
+      <div class="harmony-foundations__intro">
+        <span class="section-tag cs-section__tag">Shared foundations</span>
+        <h2 class="cs-section__title" id="harmony-foundations">Building a shared foundation.</h2>
+        <p class="cs-section__body">We chose a shared library as the common reference for component decisions. Shared governance and defined exceptions allow Harmony to evolve with product needs.</p>
+        <p class="cs-section__body">Primitive scales, semantic roles, and responsive variables describe related layers of that foundation.</p>
+      </div>
+
+      <section class="harmony-evidence" aria-labelledby="harmony-primitives">
+        <h3 class="harmony-evidence__title" id="harmony-primitives">Primitive color scales</h3>
+        <p class="harmony-evidence__body" id="harmony-primitives-copy">Selected steps from the Primary blue and Secondary yellow scales illustrate a shared color vocabulary for the foundation.</p>
+        <figure aria-labelledby="harmony-primitives" aria-describedby="harmony-primitives-copy">
+          <picture>
+            <source media="(min-width: 1025px)" srcset="../assets/images/harmony/editorial/primitive-primary-secondary-scales.png" width="1360" height="548" />
+            <img src="../assets/images/harmony/editorial/primitive-selected-light-steps-mobile.png" width="296" height="480" loading="lazy" decoding="async" alt="Selected Primary blue and Secondary yellow steps with their scale names and numeric values." />
+          </picture>
+          <figcaption>Selected source crops. On narrow screens, the two lightest steps from each scale retain their names and values.</figcaption>
+        </figure>
+      </section>
+      <section class="harmony-evidence" aria-labelledby="harmony-semantics">
+        <h3 class="harmony-evidence__title" id="harmony-semantics">Semantic roles by use</h3>
+        <p class="harmony-evidence__body" id="harmony-semantics-copy">Semantic names describe how color is used. Surface and Border group those uses, with roles such as Default and Soft within each group. This adds intent to the primitive color vocabulary.</p>
+        <figure aria-labelledby="harmony-semantics" aria-describedby="harmony-semantics-copy">
+          <picture>
+            <source media="(min-width: 1025px)" srcset="../assets/images/harmony/editorial/semantic-surface-border-roles.png" width="1440" height="554" />
+            <img src="../assets/images/harmony/editorial/semantic-default-soft-roles-mobile.png" width="344" height="508" loading="lazy" decoding="async" alt="Selected roles in the Surface and Border color groups, including Default and Soft." />
+          </picture>
+          <figcaption>Surface and Border retain their role names. On narrow screens, the selected roles are Default and Soft.</figcaption>
+        </figure>
+      </section>
+      <section class="harmony-evidence" aria-labelledby="harmony-responsive">
+        <h3 class="harmony-evidence__title" id="harmony-responsive">Responsive variables</h3>
+        <p class="harmony-evidence__body" id="harmony-responsive-copy">Desktop, Tablet, and Mobile modes adapt the foundation to different screen sizes. Compare ScreenSize and the Gap values across these modes. The source also groups padding, radius, and icon variables, connecting the shared reference to responsive layout decisions.</p>
+        <figure aria-labelledby="harmony-responsive" aria-describedby="harmony-responsive-copy">
+          <picture>
+            <source media="(min-width: 1025px)" srcset="../assets/images/harmony/variables.png" width="1920" height="1200" />
+            <img src="../assets/images/harmony/editorial/responsive-mode-selections-mobile.png" width="467" height="1520" loading="lazy" decoding="async" alt="Desktop, Tablet, and Mobile variable modes with ScreenSize values 1440, 768, and 390, and selected Gap values. On narrow screens, the three labelled mode selections are stacked." />
+          </picture>
+          <figcaption>On narrow screens, three source selections pair the same variable names with one mode at a time.</figcaption>
+        </figure>
+      </section>
+    </section>
+
+    <!-- Decision arguments retained for the component and implementation slices. -->
     <section class="cs-section" aria-labelledby="harmony-decisions">
       <span class="section-tag cs-section__tag">The Decisions</span>
-      <h2 class="cs-section__title" id="harmony-decisions">Building a shared foundation.</h2>
-
+      <h2 class="cs-section__title" id="harmony-decisions">Supporting the product ecosystem.</h2>
       <div class="cs-decisions cs-decisions--stacked">
-
         <div class="cs-decision">
           <div class="cs-decision__left">
             <span class="cs-decision__number">01</span>
-            <h3 class="cs-decision__title">One shared library</h3>
-            <p class="cs-decision__body">
-              We chose a unified library rather than maintaining separate foundations for each platform. Shared governance and defined exceptions gave the team a common reference for component decisions, while allowing the system to evolve with product needs.
-            </p>
-            <p class="cs-decision__note">
-              <span class="cs-decision__note-icon cs-decision__note-icon--components" aria-hidden="true"></span>
-              <span>One shared reference for component decisions.</span>
-            </p>
-          </div>
-        </div>
-
-        <div class="cs-decision">
-          <div class="cs-decision__left">
-            <span class="cs-decision__number">02</span>
             <h3 class="cs-decision__title">React + Next.js for the product ecosystem</h3>
             <p class="cs-decision__body">
               React and Next.js were chosen with long-term maintenance and hiring in mind. The intent was to give development a shared technical foundation as new projects adopt Harmony and existing products migrate.
@@ -149,7 +178,7 @@
 
         <div class="cs-decision">
           <div class="cs-decision__left">
-            <span class="cs-decision__number">03</span>
+            <span class="cs-decision__number">02</span>
             <h3 class="cs-decision__title">Accessibility and content in component design</h3>
             <p class="cs-decision__body">
               Accessibility and content guidance were included in component design alongside visual tokens and interaction states. Contrast, component semantics, and error messages needed to be considered together, with design and development addressing their respective parts.
@@ -161,27 +190,6 @@
           </div>
         </div>
 
-      </div>
-    </section>
-
-    <!-- What Shipped -->
-    <section class="cs-section" aria-labelledby="harmony-shipped">
-      <span class="section-tag cs-section__tag">What Shipped</span>
-      <h2 class="cs-section__title" id="harmony-shipped">A shared library, with adoption in progress.</h2>
-
-      <div class="cs-image-grid">
-        <figure class="cs-image-figure">
-          <div class="cs-image-cell cs-image-cell--auto">
-            <img src="../assets/images/harmony/harmony-antes.jpg" width="1216" height="724" loading="lazy" decoding="async" alt="Harmony — older Figma organization" class="cs-image-cell__img" />
-          </div>
-          <figcaption class="cs-image-caption">Before Harmony: separate Figma libraries across CASSI's platforms.</figcaption>
-        </figure>
-        <figure class="cs-image-figure">
-          <div class="cs-image-cell cs-image-cell--auto">
-            <img src="../assets/images/harmony/harmony-depois.jpg" width="1216" height="724" loading="lazy" decoding="async" alt="Harmony — current Figma organization" class="cs-image-cell__img" />
-          </div>
-          <figcaption class="cs-image-caption">With Harmony: a shared Figma library supporting new projects and the gradual migration of existing products.</figcaption>
-        </figure>
       </div>
     </section>
 

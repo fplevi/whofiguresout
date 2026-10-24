@@ -1,0 +1,287 @@
+{
+  "coordinateSystem": "(x0,y0,x1,y1), right and bottom exclusive; pasteAt=(x,y)",
+  "derivatives": [
+    {
+      "source": "assets/images/harmony/color=primitives.png",
+      "sourceDimensions": [
+        1920,
+        1200
+      ],
+      "sourceSha256": "31c6b657c75e9478155f7ad93c2e54e0ccfa880112208f195191bc9b50000930",
+      "derivative": "assets/images/harmony/editorial/primitive-primary-secondary-scales.png",
+      "dimensions": [
+        1360,
+        548
+      ],
+      "format": "PNG, lossless RGB, optimize=True; no resizing or text redrawing",
+      "fragments": [
+        {
+          "crop": [
+            130,
+            510,
+            1490,
+            1058
+          ],
+          "pasteAt": [
+            0,
+            0
+          ]
+        }
+      ],
+      "background": "#0d0f13",
+      "bytes": 47986
+    },
+    {
+      "source": "assets/images/harmony/color=primitives.png",
+      "sourceDimensions": [
+        1920,
+        1200
+      ],
+      "sourceSha256": "31c6b657c75e9478155f7ad93c2e54e0ccfa880112208f195191bc9b50000930",
+      "derivative": "assets/images/harmony/editorial/primitive-selected-light-steps-mobile.png",
+      "dimensions": [
+        296,
+        480
+      ],
+      "format": "PNG, lossless RGB, optimize=True; no resizing or text redrawing",
+      "fragments": [
+        {
+          "crop": [
+            140,
+            520,
+            265,
+            552
+          ],
+          "pasteAt": [
+            16,
+            16
+          ]
+        },
+        {
+          "crop": [
+            140,
+            570,
+            404,
+            732
+          ],
+          "pasteAt": [
+            16,
+            60
+          ]
+        },
+        {
+          "crop": [
+            140,
+            825,
+            285,
+            862
+          ],
+          "pasteAt": [
+            16,
+            254
+          ]
+        },
+        {
+          "crop": [
+            140,
+            876,
+            404,
+            1038
+          ],
+          "pasteAt": [
+            16,
+            302
+          ]
+        }
+      ],
+      "background": "#0d0f13",
+      "bytes": 12794
+    },
+    {
+      "source": "assets/images/harmony/semantic-tokerns.png",
+      "sourceDimensions": [
+        1920,
+        1200
+      ],
+      "sourceSha256": "8fe021a0c9605cd9db8566c04001ca01dc9bab72c69626ae122d1e20ff50801d",
+      "derivative": "assets/images/harmony/editorial/semantic-surface-border-roles.png",
+      "dimensions": [
+        1440,
+        554
+      ],
+      "format": "PNG, lossless RGB, optimize=True; no resizing or text redrawing",
+      "fragments": [
+        {
+          "crop": [
+            135,
+            454,
+            1575,
+            1008
+          ],
+          "pasteAt": [
+            0,
+            0
+          ]
+        }
+      ],
+      "background": "#0d0f13",
+      "bytes": 61359
+    },
+    {
+      "source": "assets/images/harmony/semantic-tokerns.png",
+      "sourceDimensions": [
+        1920,
+        1200
+      ],
+      "sourceSha256": "8fe021a0c9605cd9db8566c04001ca01dc9bab72c69626ae122d1e20ff50801d",
+      "derivative": "assets/images/harmony/editorial/semantic-default-soft-roles-mobile.png",
+      "dimensions": [
+        344,
+        508
+      ],
+      "format": "PNG, lossless RGB, optimize=True; no resizing or text redrawing",
+      "fragments": [
+        {
+          "crop": [
+            148,
+            464,
+            268,
+            497
+          ],
+          "pasteAt": [
+            16,
+            16
+          ]
+        },
+        {
+          "crop": [
+            148,
+            510,
+            460,
+            695
+          ],
+          "pasteAt": [
+            16,
+            62
+          ]
+        },
+        {
+          "crop": [
+            148,
+            768,
+            260,
+            798
+          ],
+          "pasteAt": [
+            16,
+            275
+          ]
+        },
+        {
+          "crop": [
+            148,
+            810,
+            460,
+            995
+          ],
+          "pasteAt": [
+            16,
+            317
+          ]
+        }
+      ],
+      "background": "#0d0f13",
+      "bytes": 13809
+    },
+    {
+      "source": "assets/images/harmony/variables.png",
+      "sourceDimensions": [
+        1920,
+        1200
+      ],
+      "sourceSha256": "af8662eb4bc78af993619327f7ac814503b97534a2f4dedcbeb34f2ac3bc352d",
+      "derivative": "assets/images/harmony/editorial/responsive-mode-selections-mobile.png",
+      "dimensions": [
+        467,
+        1520
+      ],
+      "format": "PNG, lossless RGB, optimize=True; no resizing or text redrawing",
+      "fragments": [
+        {
+          "crop": [
+            450,
+            60,
+            680,
+            540
+          ],
+          "pasteAt": [
+            16,
+            16
+          ]
+        },
+        {
+          "crop": [
+            815,
+            60,
+            1020,
+            540
+          ],
+          "pasteAt": [
+            246,
+            16
+          ]
+        },
+        {
+          "crop": [
+            450,
+            60,
+            680,
+            540
+          ],
+          "pasteAt": [
+            16,
+            520
+          ]
+        },
+        {
+          "crop": [
+            1180,
+            60,
+            1385,
+            540
+          ],
+          "pasteAt": [
+            246,
+            520
+          ]
+        },
+        {
+          "crop": [
+            450,
+            60,
+            680,
+            540
+          ],
+          "pasteAt": [
+            16,
+            1024
+          ]
+        },
+        {
+          "crop": [
+            1548,
+            60,
+            1753,
+            540
+          ],
+          "pasteAt": [
+            246,
+            1024
+          ]
+        }
+      ],
+      "background": "#151515",
+      "bytes": 79157
+    }
+  ]
+}

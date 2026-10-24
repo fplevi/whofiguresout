@@ -1,0 +1,75 @@
+{
+  "checks": [
+    {
+      "name": "320/primitives: loaded evidence captured in overlapping reading viewports",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/semantics: loaded evidence captured in overlapping reading viewports",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/responsive: loaded evidence captured in overlapping reading viewports",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/primitives: loaded evidence captured in overlapping reading viewports",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/semantics: loaded evidence captured in overlapping reading viewports",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/responsive: loaded evidence captured in overlapping reading viewports",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/primitives: loaded evidence captured in overlapping reading viewports",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/semantics: loaded evidence captured in overlapping reading viewports",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/responsive: loaded evidence captured in overlapping reading viewports",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/primitives: loaded evidence captured in overlapping reading viewports",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/semantics: loaded evidence captured in overlapping reading viewports",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/responsive: loaded evidence captured in overlapping reading viewports",
+      "ok": true,
+      "detail": null
+    }
+  ],
+  "console": [],
+  "failed_requests": [],
+  "environment": {
+    "browser": "156.0.8078.4",
+    "url": "http://localhost:8011/case-studies/harmony.html",
+    "viewportHeight": 700
+  },
+  "summary": {
+    "passed": 12,
+    "failed": 0
+  }
+}

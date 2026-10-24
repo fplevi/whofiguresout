@@ -4,7 +4,7 @@
 
 **Blocked by:** None (can start immediately).
 
-**Status:** ready-for-agent
+**Status:** claimed
 
 - [ ] A leitura apresenta, nesta ordem, exemplos de escalas primitivas, papéis semânticos por uso e variáveis Desktop/Tablet/Mobile, usando respectivamente as fontes aprovadas `color=primitives.png`, `semantic-tokerns.png` e `variables.png` ou derivados fiéis dessas fontes.
 - [ ] Cada evidência tem uma linha própria, título e explicação factual em inglês. A explicação antecede a imagem no DOM e no mobile; a sequência explica relações entre camadas, sem afirmar cronologia histórica.
