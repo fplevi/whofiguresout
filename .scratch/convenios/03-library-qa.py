@@ -122,8 +122,7 @@ with sync_playwright() as p:
                 check(f"{label}: explanation retains 16px readable type", float(copy_style["font"].replace("px", "")) >= 16, copy_style)
                 # A tall element screenshot can include the fixed nav over its heading.
                 # Capture a real viewport with the explanation below the nav, then the loaded crop.
-                library.evaluate("e=>e.scrollIntoView({block:'start'})")
-                pg.evaluate("scrollBy(0,-80)")
+                library.evaluate("e=>scrollTo({top:scrollY+e.getBoundingClientRect().top-80,behavior:'instant'})")
                 pg.wait_for_timeout(100)
                 pg.screenshot(path=str(EVID / f"03-library-{label}.png"))
                 library.get_by_role("img").screenshot(path=str(EVID / f"03-loaded-crop-{label}.png"))
@@ -132,8 +131,7 @@ with sync_playwright() as p:
                     pg.locator("main img").first.screenshot(path=str(EVID / f"03-preserved-hero-{label}.png"))
                     for row in pg.get_by_role("article").all():
                         name = row.get_attribute("aria-labelledby")
-                        row.evaluate("e=>e.scrollIntoView({block:'start'})")
-                        pg.evaluate("scrollBy(0,-80)")
+                        row.evaluate("e=>scrollTo({top:scrollY+e.getBoundingClientRect().top-80,behavior:'instant'})")
                         pg.wait_for_timeout(100)
                         pg.screenshot(path=str(EVID / f"03-evidence-{name}-{label}.png"))
                 ctx.close()

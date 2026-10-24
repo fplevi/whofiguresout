@@ -21,7 +21,7 @@
 - Full-width library row, explanation first, focused image capped at 480 px and no 480 px height cap. Other rows are untouched. Source raster softness remains visible when enlarged; this is an honest excerpt, not newly typeset documentation. The larger in-page examples and full diagram can be distinguished without opening another surface. English prose explains the Portuguese source.
 - Original PNG/WebP are untouched. Decoded RGBA output exactly equals the source crop, including alpha. The selected rectangle is fully opaque; no background was flattened. Exact bounds, original/output hashes, dimensions, format and rationale: `assets/03-button-documentation.json`.
 - Copy states that the app predates Harmony and uses its own component library and visual language. No construction on Harmony, migration, reuse, certification, or efficiency claim. Outcome describes the dedicated shipped app and documented product library.
-- Existing 16 px explanation text remains at `rgba(242,242,245,.65)` over `rgb(13,15,26)`; visual inspection accompanies the computed contrast check. No typography was reduced.
+- Existing 16 px explanation text remains at `rgba(242,242,245,.65)` over `rgb(13,15,26)`, computed contrast **7.54:1**; visual inspection accompanies the calculation. No typography was reduced.
 
 ## Executed regression checks
 
@@ -32,7 +32,7 @@
 - Home card keyboard focus and Enter → case, return to Work, Enrollment → Convênios → Harmony, nav/store hrefs, keyboard focus on both store links, contact email-copy button and name field all passed. Contact form remains present and was not submitted. External stores/services were not opened or verified.
 - No JavaScript page errors, console warnings/errors or failed requests in this execution.
 - Initial matrix instrumentation sampled short sections only during their entrance fade and compared the letterboxed hero element's box ratio to its image ratio. Corrected the wheel cadence/final settled sample and recognized undistorted `object-fit: contain` painting. An initial terminal print also hit Windows cp1252 on the store-link arrow; stdout is now UTF-8. Those harness issues required no production changes.
-- Initial tall-element screenshots could include the fixed navigation over offscreen text. Final capture workflow uses a real viewport with the explanation below the fixed nav plus a separate fully loaded crop capture. Wheel verification precedes all screenshot positioning.
+- Initial tall-element screenshots could include the fixed navigation over offscreen text. A subsequent visual inspection caught screenshot-only smooth-scroll races in normal motion. Final capture workflow uses an explicitly instantaneous jump for screenshot positioning, a real viewport with the explanation below the fixed nav, and a separate fully loaded crop capture. Ordinary wheel verification precedes these screenshot jumps and is unchanged. Preliminary instrumentation captures remain in `03-evidence-instrumentation-baseline/`; these are not final approval evidence.
 
 ## Preservation and limits
 
@@ -42,4 +42,8 @@ Manual inspection is of real Chromium captures, not a screen-reader audit or new
 
 ## Final integration recheck
 
-Pending final merge and recheck; this section will be completed before handoff.
+- Implementation commit: `feba450` (`Make Convenios own-library evidence readable in page`). After committing, merged current `integration/convenios-visual-narrative` (`78a853d`); Git reported **Already up to date**, with no conflicts.
+- Re-ran the complete matrix, wheel traversal and preserved navigation checks after that merge: `python .scratch/convenios/03-library-qa.py final` → **104 passed, 0 failed**. Final numeric evidence: `03-results-final.json`; final screenshots and wheel logs: `03-evidence-final/`. No JavaScript errors, console warnings/errors or failed requests.
+- Inspected the final 320/375/768/1440 library viewport/crop captures in normal and reduced motion, plus real loaded hero/card/accounts evidence, the outcome and keyboard-focus captures. Final screenshot positioning is correct; documentation is completely visible through normal page scrolling, including its touch-area diagram below the fold on larger layouts. The viewport capture and separate loaded-image capture serve different purposes; neither hides evidence behind interaction.
+- Supporting preservation check compared the original component PNG/WebP, home HTML, shared case CSS and scroll script against `78a853d`: unchanged. Production diff is limited to `case-studies/convenios.html`, `assets/css/convenios.css` and the new ticket-specific derivative. `git diff --check` passes.
+- No ticket-specific unresolved issue. Source raster softness and the browser/audit limits above remain explicit. Status stays **claimed** for integration final review; no PR, delegation, integration-checkout edit or worktree deletion.
