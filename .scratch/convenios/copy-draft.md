@@ -16,9 +16,9 @@ Title: CASSI Convênios
 
 Hook: A dedicated app for partner-plan members, designed from the ground up.
 
-Highlight: From concept to launch
+Highlight: Launched
 
-Supporting text: Product and design leadership for a new mobile experience.
+Supporting text: Built from scratch
 
 ## Case header
 
