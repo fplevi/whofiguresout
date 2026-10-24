@@ -1,8 +1,8 @@
 /* App case: shared portfolio typography and spacing, fewer visual labels. */
 .cs-app {
-  --text-secondary: rgba(242, 242, 245, 0.65);
-  --text-muted: rgba(242, 242, 245, 0.65);
-  --text-ghost: rgba(242, 242, 245, 0.60);
+  --text-secondary: var(--text-secondary-strong);
+  --text-muted: var(--text-secondary-strong);
+  --text-ghost: var(--text-muted-strong);
 }
 
 .cs-app__hero {

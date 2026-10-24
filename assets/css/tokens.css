@@ -9,6 +9,8 @@
   --text-secondary:  rgba(242, 242, 245, 0.45);
   --text-muted:      rgba(242, 242, 245, 0.45);
   --text-ghost:      rgba(242, 242, 245, 0.20);
+  --text-secondary-strong: rgba(242, 242, 245, 0.65);
+  --text-muted-strong:     rgba(242, 242, 245, 0.60);
   --text-index:      rgba(242, 242, 245, 0.025);
 
   /* Accent */

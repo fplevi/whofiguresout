@@ -24,3 +24,8 @@ Site estático servido por `python -m http.server`. Após dois timeouts de captu
 ## Escopo de Git
 
 Alterações simultâneas de cópia de e-mail na área de contato pertencem a outro trabalho. Preservar esses arquivos e hunks na árvore de trabalho; não incluí-los no commit deste case.
+
+## Revisão de código
+
+- Standards: um achado P3 sobre cores literais fora de `tokens.css`; corrigido com tokens de texto de maior contraste, mantendo os valores renderizados.
+- Spec: nenhum achado; texto aprovado, quarto card, navegação e assets conferem com o escopo.
