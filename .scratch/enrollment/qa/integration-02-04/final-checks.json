@@ -1,0 +1,282 @@
+{
+  "validatedProductHead": "501ec0e8c9120c261985719600d45637fb49793c",
+  "branch": "integration/enrollment-visual-narrative",
+  "worktree": "C:\\Users\\fplev\\.t3\\worktrees\\Portfolio\\integration-enrollment-visual-narrative",
+  "baseline": "f8f9034",
+  "preMergeHead": "fa56b5c",
+  "mergeCommits": [
+    "501ec0e8c9120c261985719600d45637fb49793c 5b2669e1f3ccab85dc7f06ad40d0d5e01b11f4ee 8a6b19d5c25c5878661979adf28aeac2da3c8d99",
+    "5b2669e1f3ccab85dc7f06ad40d0d5e01b11f4ee fa56b5c740505ab7e46ef04760cd38315a0b245b 13c9ac7b0413bda16961ff550f964256e3919fa2"
+  ],
+  "discoveryMatrix": {
+    "passed": 8,
+    "failed": 0
+  },
+  "journeyMatrix": {
+    "passed": 166,
+    "failed": 0
+  },
+  "historicalArtifactsUnchanged": [
+    ".scratch/enrollment/presentation-assets-02.json",
+    ".scratch/enrollment/qa/ticket-02/board-1440-no-preference.png",
+    ".scratch/enrollment/qa/ticket-02/board-1440-reduce.png",
+    ".scratch/enrollment/qa/ticket-02/board-320-no-preference.png",
+    ".scratch/enrollment/qa/ticket-02/board-320-reduce.png",
+    ".scratch/enrollment/qa/ticket-02/board-375-no-preference.png",
+    ".scratch/enrollment/qa/ticket-02/board-375-reduce.png",
+    ".scratch/enrollment/qa/ticket-02/board-768-no-preference.png",
+    ".scratch/enrollment/qa/ticket-02/board-768-reduce.png",
+    ".scratch/enrollment/qa/ticket-02/final-checks.json",
+    ".scratch/enrollment/qa/ticket-02/green.json",
+    ".scratch/enrollment/qa/ticket-02/matrix-before-settle-fix.json",
+    ".scratch/enrollment/qa/ticket-02/matrix.json",
+    ".scratch/enrollment/qa/ticket-02/page-1440-no-preference.png",
+    ".scratch/enrollment/qa/ticket-02/page-1440-reduce.png",
+    ".scratch/enrollment/qa/ticket-02/page-320-no-preference.png",
+    ".scratch/enrollment/qa/ticket-02/page-320-reduce.png",
+    ".scratch/enrollment/qa/ticket-02/page-375-no-preference.png",
+    ".scratch/enrollment/qa/ticket-02/page-375-reduce.png",
+    ".scratch/enrollment/qa/ticket-02/page-768-no-preference.png",
+    ".scratch/enrollment/qa/ticket-02/page-768-reduce.png",
+    ".scratch/enrollment/qa/ticket-02/red.json",
+    ".scratch/enrollment/validation-ticket-02.md",
+    ".scratch/enrollment/presentation-assets-04.json",
+    ".scratch/enrollment/qa/ticket-04/baseline-header-1440.png",
+    ".scratch/enrollment/qa/ticket-04/baseline-header-375.png",
+    ".scratch/enrollment/qa/ticket-04/baseline-outcome-1440.png",
+    ".scratch/enrollment/qa/ticket-04/baseline-outcome-375.png",
+    ".scratch/enrollment/qa/ticket-04/current-header-1440.png",
+    ".scratch/enrollment/qa/ticket-04/current-header-375.png",
+    ".scratch/enrollment/qa/ticket-04/current-outcome-1440.png",
+    ".scratch/enrollment/qa/ticket-04/current-outcome-375.png",
+    ".scratch/enrollment/qa/ticket-04/eligibility-1440-no-preference.png",
+    ".scratch/enrollment/qa/ticket-04/eligibility-1440-reduce.png",
+    ".scratch/enrollment/qa/ticket-04/eligibility-320-no-preference.png",
+    ".scratch/enrollment/qa/ticket-04/eligibility-320-reduce.png",
+    ".scratch/enrollment/qa/ticket-04/eligibility-375-no-preference.png",
+    ".scratch/enrollment/qa/ticket-04/eligibility-375-reduce.png",
+    ".scratch/enrollment/qa/ticket-04/eligibility-768-no-preference.png",
+    ".scratch/enrollment/qa/ticket-04/eligibility-768-reduce.png",
+    ".scratch/enrollment/qa/ticket-04/eligibility-green.json",
+    ".scratch/enrollment/qa/ticket-04/eligibility-red.json",
+    ".scratch/enrollment/qa/ticket-04/eligibility-regression.json",
+    ".scratch/enrollment/qa/ticket-04/final-checks.json",
+    ".scratch/enrollment/qa/ticket-04/matrix-initial.json",
+    ".scratch/enrollment/qa/ticket-04/matrix.json",
+    ".scratch/enrollment/qa/ticket-04/motion-capture-comparison.json",
+    ".scratch/enrollment/qa/ticket-04/page-1440-no-preference.png",
+    ".scratch/enrollment/qa/ticket-04/page-1440-reduce.png",
+    ".scratch/enrollment/qa/ticket-04/page-320-no-preference.png",
+    ".scratch/enrollment/qa/ticket-04/page-320-reduce.png",
+    ".scratch/enrollment/qa/ticket-04/page-375-no-preference.png",
+    ".scratch/enrollment/qa/ticket-04/page-375-reduce.png",
+    ".scratch/enrollment/qa/ticket-04/page-768-no-preference.png",
+    ".scratch/enrollment/qa/ticket-04/page-768-reduce.png",
+    ".scratch/enrollment/qa/ticket-04/personal-1440-no-preference.png",
+    ".scratch/enrollment/qa/ticket-04/personal-1440-reduce.png",
+    ".scratch/enrollment/qa/ticket-04/personal-320-no-preference.png",
+    ".scratch/enrollment/qa/ticket-04/personal-320-reduce.png",
+    ".scratch/enrollment/qa/ticket-04/personal-375-no-preference.png",
+    ".scratch/enrollment/qa/ticket-04/personal-375-reduce.png",
+    ".scratch/enrollment/qa/ticket-04/personal-768-no-preference.png",
+    ".scratch/enrollment/qa/ticket-04/personal-768-reduce.png",
+    ".scratch/enrollment/qa/ticket-04/personal-green.json",
+    ".scratch/enrollment/qa/ticket-04/personal-red.json",
+    ".scratch/enrollment/qa/ticket-04/portability-1440-no-preference.png",
+    ".scratch/enrollment/qa/ticket-04/portability-1440-reduce.png",
+    ".scratch/enrollment/qa/ticket-04/portability-320-no-preference.png",
+    ".scratch/enrollment/qa/ticket-04/portability-320-reduce.png",
+    ".scratch/enrollment/qa/ticket-04/portability-375-no-preference.png",
+    ".scratch/enrollment/qa/ticket-04/portability-375-reduce.png",
+    ".scratch/enrollment/qa/ticket-04/portability-768-no-preference.png",
+    ".scratch/enrollment/qa/ticket-04/portability-768-reduce.png",
+    ".scratch/enrollment/qa/ticket-04/portability-green.json",
+    ".scratch/enrollment/qa/ticket-04/portability-red.json",
+    ".scratch/enrollment/validation-ticket-04.md"
+  ],
+  "manifestSourcesUnchanged": [
+    {
+      "path": "assets/images/enrollment/Desk Research.png",
+      "dimensions": [
+        1672,
+        661
+      ],
+      "sha256": "b1f4cae35535cfedfb1c896f6387ff3db29b1721c9a9c3179ece31abdc7f2eb6"
+    },
+    {
+      "path": "assets/images/enrollment/parentesco.png",
+      "dimensions": [
+        1920,
+        1200
+      ],
+      "sha256": "c2651a25fcbf074efe955b01c78ed354cb01030a4a91f277eb59337cfb6e7ae7"
+    },
+    {
+      "path": "assets/images/enrollment/dados-parente.png",
+      "dimensions": [
+        1920,
+        1200
+      ],
+      "sha256": "8e45eb60eae0f7fef155e6d2f5033b357725d934ac612ec496e1dcc517cf468e"
+    },
+    {
+      "path": "assets/images/enrollment/portabilidade-2.png",
+      "dimensions": [
+        1920,
+        1200
+      ],
+      "sha256": "4d8ce09f4c4d81968f946b2c1e9be50b4d91c279e4c677b728d02a066c8f9525"
+    }
+  ],
+  "motionCapturePairs": [
+    {
+      "folder": "discovery",
+      "name": "board",
+      "width": 320,
+      "normalAndReducedIdentical": true,
+      "normalSha256": "4d9ce5131f897c50a12033ba04ecef0d3465ea55637380bfb4950099cc8cd074",
+      "reducedSha256": "4d9ce5131f897c50a12033ba04ecef0d3465ea55637380bfb4950099cc8cd074"
+    },
+    {
+      "folder": "discovery",
+      "name": "board",
+      "width": 375,
+      "normalAndReducedIdentical": true,
+      "normalSha256": "74c81a526407271d0ed7801623c047ac52403eac1a9e8ad00589a58dbaa0ef91",
+      "reducedSha256": "74c81a526407271d0ed7801623c047ac52403eac1a9e8ad00589a58dbaa0ef91"
+    },
+    {
+      "folder": "discovery",
+      "name": "board",
+      "width": 768,
+      "normalAndReducedIdentical": true,
+      "normalSha256": "3c89fd7698d0f8a79d201833ffcd55e4700d14cf5bf5ae2ea2fb5438ad70a255",
+      "reducedSha256": "3c89fd7698d0f8a79d201833ffcd55e4700d14cf5bf5ae2ea2fb5438ad70a255"
+    },
+    {
+      "folder": "discovery",
+      "name": "board",
+      "width": 1440,
+      "normalAndReducedIdentical": true,
+      "normalSha256": "9a7aa9d5a2ff5c87f5b650ad3b0144eb29a0f606f75db2e2ae289656dc3eb8ab",
+      "reducedSha256": "9a7aa9d5a2ff5c87f5b650ad3b0144eb29a0f606f75db2e2ae289656dc3eb8ab"
+    },
+    {
+      "folder": "journey",
+      "name": "eligibility",
+      "width": 320,
+      "normalAndReducedIdentical": true,
+      "normalSha256": "7868ca70b8f72bf36fec2b369abc9ab42760e12a437b8e83eb18ce21c8656d03",
+      "reducedSha256": "7868ca70b8f72bf36fec2b369abc9ab42760e12a437b8e83eb18ce21c8656d03"
+    },
+    {
+      "folder": "journey",
+      "name": "personal",
+      "width": 320,
+      "normalAndReducedIdentical": true,
+      "normalSha256": "95bf93fe22dc9ff363852e2b75b5a62082b2f1212e36ef40756821f9abc2f4ea",
+      "reducedSha256": "95bf93fe22dc9ff363852e2b75b5a62082b2f1212e36ef40756821f9abc2f4ea"
+    },
+    {
+      "folder": "journey",
+      "name": "portability",
+      "width": 320,
+      "normalAndReducedIdentical": true,
+      "normalSha256": "f66a089a8d3ecdbbf17e402c756efddf8863bea799df1a8ee3898209e7ce3152",
+      "reducedSha256": "f66a089a8d3ecdbbf17e402c756efddf8863bea799df1a8ee3898209e7ce3152"
+    },
+    {
+      "folder": "journey",
+      "name": "eligibility",
+      "width": 375,
+      "normalAndReducedIdentical": true,
+      "normalSha256": "e2190c12fcc9f450f86ac725ec8bd645d7d2a98a5fcc158663791e8248183b50",
+      "reducedSha256": "e2190c12fcc9f450f86ac725ec8bd645d7d2a98a5fcc158663791e8248183b50"
+    },
+    {
+      "folder": "journey",
+      "name": "personal",
+      "width": 375,
+      "normalAndReducedIdentical": true,
+      "normalSha256": "388f39dc2a9e66edd9525691da1b63c926ccb5ae28557851e9b9d55c62b5b2ea",
+      "reducedSha256": "388f39dc2a9e66edd9525691da1b63c926ccb5ae28557851e9b9d55c62b5b2ea"
+    },
+    {
+      "folder": "journey",
+      "name": "portability",
+      "width": 375,
+      "normalAndReducedIdentical": true,
+      "normalSha256": "e252ee53aeb0cb39abeb3719855440b5e4a14ae1062bea15c0f4fab9adc09b7f",
+      "reducedSha256": "e252ee53aeb0cb39abeb3719855440b5e4a14ae1062bea15c0f4fab9adc09b7f"
+    },
+    {
+      "folder": "journey",
+      "name": "eligibility",
+      "width": 768,
+      "normalAndReducedIdentical": true,
+      "normalSha256": "0e6cd47791053934b2be0b7733e74f015e3842e0a98c9a483a153ec7d061c145",
+      "reducedSha256": "0e6cd47791053934b2be0b7733e74f015e3842e0a98c9a483a153ec7d061c145"
+    },
+    {
+      "folder": "journey",
+      "name": "personal",
+      "width": 768,
+      "normalAndReducedIdentical": true,
+      "normalSha256": "2b09a2e7d0fb007ad53d66ccb0e3d28a733da22be8b2f60d5c133fe475a4e1e0",
+      "reducedSha256": "2b09a2e7d0fb007ad53d66ccb0e3d28a733da22be8b2f60d5c133fe475a4e1e0"
+    },
+    {
+      "folder": "journey",
+      "name": "portability",
+      "width": 768,
+      "normalAndReducedIdentical": true,
+      "normalSha256": "bb1c884378925c6cc7fac6df02ff46e6fe0f5a046e1a3189033f6e010b96be4b",
+      "reducedSha256": "bb1c884378925c6cc7fac6df02ff46e6fe0f5a046e1a3189033f6e010b96be4b"
+    },
+    {
+      "folder": "journey",
+      "name": "eligibility",
+      "width": 1440,
+      "normalAndReducedIdentical": true,
+      "normalSha256": "8c4871b07ad95c1a0ade9fcfb4804c0cd1cb219ce1e51dab76a71e154ce8f4fd",
+      "reducedSha256": "8c4871b07ad95c1a0ade9fcfb4804c0cd1cb219ce1e51dab76a71e154ce8f4fd"
+    },
+    {
+      "folder": "journey",
+      "name": "personal",
+      "width": 1440,
+      "normalAndReducedIdentical": true,
+      "normalSha256": "aa84df25042ed4996d89007302cca1175f8f54b563103263996274d8f6344d58",
+      "reducedSha256": "aa84df25042ed4996d89007302cca1175f8f54b563103263996274d8f6344d58"
+    },
+    {
+      "folder": "journey",
+      "name": "portability",
+      "width": 1440,
+      "normalAndReducedIdentical": false,
+      "normalSha256": "56bc85db2a915f71cb1370ded6dcc3063e034e49ee7d996d0cb0e4540ce78215",
+      "reducedSha256": "6b077039d7b57841ee5601749b0d63d955d248b1ff31960e61a86137abc64957",
+      "normalSize": [
+        1280,
+        978
+      ],
+      "reducedSize": [
+        1280,
+        978
+      ],
+      "differenceBounds": [
+        0,
+        181,
+        1,
+        182
+      ]
+    }
+  ],
+  "productSha256": {
+    "assets/css/enrollment.css": "a20e2e4621093d057b4b31f62d4dd80fb30b73304eea4fe861102b771ebf9c1d",
+    "case-studies/enrollment.html": "36744730fdb9eb7b14a4800d22b252d83b87297b0119f5a7c695b342e2b71f80"
+  },
+  "issue01AndTickets03And05Unchanged": true,
+  "gitDiffCheck": "passed",
+  "scope": "Integrated discovery board and three journey screens; final tickets 03/05 acceptance remains pending."
+}

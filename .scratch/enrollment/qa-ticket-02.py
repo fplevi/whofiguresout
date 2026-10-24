@@ -14,9 +14,9 @@ import traceback
 sys.path.insert(0, str(Path(os.environ['TEMP']) / 'portfolio-convenios-qa'))
 from playwright.sync_api import sync_playwright
 
-OUT = Path(__file__).parent / 'qa' / 'ticket-02'
+OUT = Path(os.environ.get('ENROLLMENT_QA_OUT', str(Path(__file__).parent / 'qa' / 'ticket-02')))
 OUT.mkdir(parents=True, exist_ok=True)
-URL = 'http://127.0.0.1:8102/case-studies/enrollment.html'
+URL = os.environ.get('ENROLLMENT_QA_URL', 'http://127.0.0.1:8102/case-studies/enrollment.html')
 ROOT = Path(__file__).resolve().parents[2]
 BASELINE = 'f8f9034'
 PROTECTED = ['header', '.cs-header', '.cs-hero-image',
@@ -205,7 +205,7 @@ def matrix(browser):
                 finally:
                     ctx.close()
     finally:
-        result['localFailedRequests'] = [r for r in result['failedRequests'] if r['url'].startswith('http://127.0.0.1:8102/')]
+        result['localFailedRequests'] = [r for r in result['failedRequests'] if r['url'].startswith(URL.split('/case-studies/')[0] + '/')]
         result['summary'] = {'passed': sum(r.get('status') == 'passed' for r in result['runs']),
                              'failed': sum(r.get('status') != 'passed' for r in result['runs'])}
         (OUT / 'matrix.json').write_text(json.dumps(result, indent=2, ensure_ascii=False), encoding='utf-8')
