@@ -48,7 +48,8 @@ felipelevi/
 ├── case-studies/
 │   ├── billing.html            — Billing & Debt Recovery
 │   ├── enrollment.html         — Enrollment Journey
-│   └── harmony.html            — Harmony Design System
+│   ├── harmony.html            — Harmony Design System
+│   └── convenios.html          — CASSI Convênios app
 ├── assets/
 │   ├── css/
 │   │   ├── tokens.css          — Design tokens (spacing, type, color)
@@ -57,6 +58,7 @@ felipelevi/
 │   │   ├── hero.css            — Hero grid and reveal animation
 │   │   ├── cards.css           — Work cards
 │   │   ├── case-study.css      — Shared case study layout
+│   │   ├── convenios.css       — CASSI Convênios layouts
 │   │   ├── contact.css         — Contact section and form
 │   │   └── footer.css          — About, photo, footer
 │   ├── js/

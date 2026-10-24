@@ -124,6 +124,17 @@
   line-height: 1.4;
 }
 
+/* The app case uses a qualitative outcome instead of a numeric metric. */
+.case-card--convenios .case-card__stat-number {
+  font-size: var(--size-h4);
+  max-width: 340px;
+}
+
+.case-card--convenios .case-card__hook,
+.case-card--convenios .case-card__stat-label {
+  color: rgba(242, 242, 245, 0.65);
+}
+
 .case-card__cta {
   display: inline-flex;
   align-items: center;

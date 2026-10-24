@@ -1,0 +1,74 @@
+[
+  {
+    "alt": "",
+    "height": 1059,
+    "src": "https://fplevi.notion.site/image/attachment%3A18ac1777-e12d-4dac-b454-a5948ba08128%3ANovo_app_do_zero.png?table=block&id=2ff14529-1714-813c-8e4f-c9d0121f80dc&spaceId=1f7d93a2-d34f-490e-aa6d-4862080bd9a8&width=1080&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl",
+    "width": 2048,
+    "local_path": "assets/images/convenios/convenios-cover.png",
+    "downloaded_dimensions": [
+      2048,
+      1059
+    ],
+    "bytes": 234329
+  },
+  {
+    "alt": "Mockup da tela inicial do aplicativo.",
+    "height": 1025,
+    "src": "https://fplevi.notion.site/image/attachment%3A4174a8a5-642a-4847-a9a9-0bd3e11c068c%3Amockup-tela-inicial.png?table=block&id=2ff14529-1714-8147-95a6-ed48382582d7&spaceId=1f7d93a2-d34f-490e-aa6d-4862080bd9a8&width=740&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl",
+    "width": 818,
+    "local_path": "assets/images/convenios/convenios-home.png",
+    "downloaded_dimensions": [
+      818,
+      1025
+    ],
+    "bytes": 297289
+  },
+  {
+    "alt": "Mockup da visualização da frente e do verso do cartão.",
+    "height": 1031,
+    "src": "https://fplevi.notion.site/image/attachment%3Ab0915942-9f02-471b-9f0d-4248258415a0%3Acartao.png?table=block&id=2ff14529-1714-81b4-af4b-f7cc669ee496&spaceId=1f7d93a2-d34f-490e-aa6d-4862080bd9a8&width=830&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl",
+    "width": 758,
+    "local_path": "assets/images/convenios/convenios-card.png",
+    "downloaded_dimensions": [
+      758,
+      1031
+    ],
+    "bytes": 320757
+  },
+  {
+    "alt": "Mockup da funcionalidade de troca de contas do aplicativo.",
+    "height": 844,
+    "src": "https://fplevi.notion.site/image/attachment%3A9d2f0920-0f2c-47d0-98a9-1dd318694714%3AUsuarios.png?table=block&id=2ff14529-1714-81b4-8ff5-df5a0469ee4c&spaceId=1f7d93a2-d34f-490e-aa6d-4862080bd9a8&width=1020&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl",
+    "width": 1024,
+    "local_path": "assets/images/convenios/convenios-accounts.png",
+    "downloaded_dimensions": [
+      1024,
+      844
+    ],
+    "bytes": 193481
+  },
+  {
+    "alt": "Exemplo da documentação do componente de botão na biblioteca dentro do Figma.",
+    "height": 1322,
+    "src": "https://fplevi.notion.site/image/attachment%3Aae03d39b-9f4b-4781-9731-f8f453377463%3ADS.png?table=block&id=2ff14529-1714-812b-9095-d43b9d23fc8a&spaceId=1f7d93a2-d34f-490e-aa6d-4862080bd9a8&width=630&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl",
+    "width": 1024,
+    "local_path": "assets/images/convenios/convenios-components.png",
+    "downloaded_dimensions": [
+      1024,
+      1322
+    ],
+    "bytes": 247995
+  },
+  {
+    "alt": "Imagem de mapa de exemplo da funcionalidade da rede credenciada.",
+    "height": 768,
+    "src": "https://fplevi.notion.site/image/attachment%3A059b8706-9c2b-4178-b906-07181b6cb4d3%3ARede_credenciada.png?table=block&id=2ff14529-1714-8179-a9b2-e2b400f21e1f&spaceId=1f7d93a2-d34f-490e-aa6d-4862080bd9a8&width=1020&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl",
+    "width": 1024,
+    "local_path": "assets/images/convenios/convenios-provider-network.png",
+    "downloaded_dimensions": [
+      1024,
+      768
+    ],
+    "bytes": 329318
+  }
+]

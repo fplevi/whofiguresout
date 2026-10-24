@@ -1,0 +1,95 @@
+/* App case: shared portfolio typography and spacing, fewer visual labels. */
+.cs-app {
+  --text-secondary: rgba(242, 242, 245, 0.65);
+  --text-muted: rgba(242, 242, 245, 0.65);
+  --text-ghost: rgba(242, 242, 245, 0.60);
+}
+
+.cs-app__hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-48) var(--space-24);
+}
+
+.cs-app__hero img {
+  width: auto;
+  max-width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.cs-app__features {
+  margin-top: var(--space-48);
+}
+
+.cs-app__feature {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: var(--space-64);
+  align-items: center;
+  padding-block: var(--space-48);
+  border-top: 1px solid var(--background-divider);
+}
+
+.cs-app__feature-copy {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-16);
+}
+
+.cs-app__figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-32);
+  background-color: var(--background-secondary);
+  border-radius: var(--radius-md);
+}
+
+.cs-app__figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 480px;
+  object-fit: contain;
+}
+
+.cs-app__stores {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-24);
+  margin-top: var(--space-32);
+}
+
+.cs-app__stores a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  color: var(--accent-primary);
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+.cs-app .contact__field:focus-visible {
+  outline: 2px solid var(--accent-primary);
+  outline-offset: 3px;
+}
+
+@media (max-width: 768px) {
+  .cs-app__hero {
+    aspect-ratio: 4 / 5;
+    max-height: 650px;
+    padding: var(--space-24);
+  }
+
+  .cs-app__feature {
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--space-32);
+    padding-block: var(--space-32);
+  }
+
+  .cs-app__figure {
+    padding: var(--space-24);
+  }
+}
