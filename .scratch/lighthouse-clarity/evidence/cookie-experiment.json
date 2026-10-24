@@ -1,0 +1,822 @@
+{
+  "default": {
+    "consent": {
+      "source": 0,
+      "ad_Storage": "granted",
+      "analytics_Storage": "granted"
+    },
+    "cookies": [
+      {
+        "name": "CLID",
+        "domain": "www.clarity.ms",
+        "sameSite": "None",
+        "secure": true
+      },
+      {
+        "name": "_clck",
+        "domain": ".felipelevi.site",
+        "sameSite": "Lax",
+        "secure": false
+      },
+      {
+        "name": "_ga_C0GC2E2VMN",
+        "domain": ".felipelevi.site",
+        "sameSite": "Lax",
+        "secure": false
+      },
+      {
+        "name": "_ga",
+        "domain": ".felipelevi.site",
+        "sameSite": "Lax",
+        "secure": false
+      },
+      {
+        "name": "_clsk",
+        "domain": ".felipelevi.site",
+        "sameSite": "Lax",
+        "secure": false
+      },
+      {
+        "name": "MUID",
+        "domain": ".bing.com",
+        "sameSite": "None",
+        "secure": true
+      },
+      {
+        "name": "MR",
+        "domain": ".c.bing.com",
+        "sameSite": "None",
+        "secure": true
+      },
+      {
+        "name": "SRM_B",
+        "domain": ".c.bing.com",
+        "sameSite": "None",
+        "secure": true
+      },
+      {
+        "name": "SM",
+        "domain": ".c.clarity.ms",
+        "sameSite": "None",
+        "secure": true
+      },
+      {
+        "name": "MUID",
+        "domain": ".clarity.ms",
+        "sameSite": "None",
+        "secure": true
+      },
+      {
+        "name": "MR",
+        "domain": ".c.clarity.ms",
+        "sameSite": "None",
+        "secure": true
+      },
+      {
+        "name": "ANONCHK",
+        "domain": ".c.clarity.ms",
+        "sameSite": "None",
+        "secure": true
+      }
+    ],
+    "setCookies": [
+      {
+        "url": "https://www.clarity.ms/tag/wo2llblzgf",
+        "cookie": "CLID",
+        "attrs": "expires;path;secure;samesite;httponly"
+      },
+      {
+        "url": "https://c.clarity.ms/c.gif",
+        "cookie": "SM",
+        "attrs": "domain;path;SameSite;Secure;"
+      },
+      {
+        "url": "https://c.clarity.ms/c.gif",
+        "cookie": "MUID",
+        "attrs": "domain;expires;path;SameSite;Secure;Priority;"
+      },
+      {
+        "url": "https://c.bing.com/c.gif",
+        "cookie": "MUID",
+        "attrs": "domain;expires;path;SameSite;Secure;Priority;"
+      },
+      {
+        "url": "https://c.bing.com/c.gif",
+        "cookie": "MR",
+        "attrs": "domain;expires;path;SameSite;Secure;"
+      },
+      {
+        "url": "https://c.bing.com/c.gif",
+        "cookie": "SRM_B",
+        "attrs": "domain;expires;path;SameSite;Secure;"
+      },
+      {
+        "url": "https://c.clarity.ms/c.gif",
+        "cookie": "SM",
+        "attrs": "domain;path;SameSite;Secure;"
+      },
+      {
+        "url": "https://c.clarity.ms/c.gif",
+        "cookie": "MUID",
+        "attrs": "domain;expires;path;SameSite;Secure;Priority;"
+      },
+      {
+        "url": "https://c.clarity.ms/c.gif",
+        "cookie": "MR",
+        "attrs": "domain;expires;path;SameSite;Secure;"
+      },
+      {
+        "url": "https://c.clarity.ms/c.gif",
+        "cookie": "ANONCHK",
+        "attrs": "domain;expires;path;SameSite;Secure;"
+      }
+    ],
+    "issues": [
+      {
+        "code": "CookieIssue",
+        "reasons": [
+          "WarnThirdPartyPhaseout"
+        ],
+        "cookie": "CLID",
+        "domain": "www.clarity.ms",
+        "url": "https://www.clarity.ms/tag/wo2llblzgf",
+        "op": "SetCookie"
+      },
+      {
+        "code": "CookieIssue",
+        "reasons": [
+          "WarnThirdPartyPhaseout"
+        ],
+        "cookie": "CLID",
+        "domain": "www.clarity.ms",
+        "url": "https://scripts.clarity.ms/0.8.72/clarity.js",
+        "op": "ReadCookie"
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      },
+      {
+        "code": "CookieIssue",
+        "reasons": [
+          "WarnThirdPartyPhaseout"
+        ],
+        "cookie": "CLID",
+        "domain": "www.clarity.ms",
+        "url": "https://s.clarity.ms/collect",
+        "op": "ReadCookie"
+      },
+      {
+        "code": "CookieIssue",
+        "reasons": [
+          "WarnThirdPartyPhaseout"
+        ],
+        "cookie": "CLID",
+        "domain": "www.clarity.ms",
+        "url": "https://c.clarity.ms/c.gif",
+        "op": "ReadCookie"
+      },
+      {
+        "code": "CookieIssue",
+        "reasons": [
+          "WarnThirdPartyPhaseout"
+        ],
+        "cookie": "SM",
+        "domain": ".c.clarity.ms",
+        "url": "https://c.clarity.ms/c.gif",
+        "op": "SetCookie"
+      },
+      {
+        "code": "CookieIssue",
+        "reasons": [
+          "WarnThirdPartyPhaseout"
+        ],
+        "cookie": "MUID",
+        "domain": ".clarity.ms",
+        "url": "https://c.clarity.ms/c.gif",
+        "op": "SetCookie"
+      },
+      {
+        "code": "CookieIssue",
+        "reasons": [
+          "WarnThirdPartyPhaseout"
+        ],
+        "cookie": "MUID",
+        "domain": ".bing.com",
+        "url": "https://c.bing.com/c.gif",
+        "op": "SetCookie"
+      },
+      {
+        "code": "CookieIssue",
+        "reasons": [
+          "WarnThirdPartyPhaseout"
+        ],
+        "cookie": "MR",
+        "domain": ".c.bing.com",
+        "url": "https://c.bing.com/c.gif",
+        "op": "SetCookie"
+      },
+      {
+        "code": "CookieIssue",
+        "reasons": [
+          "WarnThirdPartyPhaseout"
+        ],
+        "cookie": "SRM_B",
+        "domain": ".c.bing.com",
+        "url": "https://c.bing.com/c.gif",
+        "op": "SetCookie"
+      },
+      {
+        "code": "CookieIssue",
+        "reasons": [
+          "WarnThirdPartyPhaseout"
+        ],
+        "cookie": "CLID",
+        "domain": "www.clarity.ms",
+        "url": "https://c.clarity.ms/c.gif",
+        "op": "ReadCookie"
+      },
+      {
+        "code": "CookieIssue",
+        "reasons": [
+          "WarnThirdPartyPhaseout"
+        ],
+        "cookie": "SM",
+        "domain": ".c.clarity.ms",
+        "url": "https://c.clarity.ms/c.gif",
+        "op": "ReadCookie"
+      },
+      {
+        "code": "CookieIssue",
+        "reasons": [
+          "WarnThirdPartyPhaseout"
+        ],
+        "cookie": "MUID",
+        "domain": ".clarity.ms",
+        "url": "https://c.clarity.ms/c.gif",
+        "op": "ReadCookie"
+      },
+      {
+        "code": "CookieIssue",
+        "reasons": [
+          "WarnThirdPartyPhaseout"
+        ],
+        "cookie": "SM",
+        "domain": ".c.clarity.ms",
+        "url": "https://c.clarity.ms/c.gif",
+        "op": "SetCookie"
+      },
+      {
+        "code": "CookieIssue",
+        "reasons": [
+          "WarnThirdPartyPhaseout"
+        ],
+        "cookie": "MUID",
+        "domain": ".clarity.ms",
+        "url": "https://c.clarity.ms/c.gif",
+        "op": "SetCookie"
+      },
+      {
+        "code": "CookieIssue",
+        "reasons": [
+          "WarnThirdPartyPhaseout"
+        ],
+        "cookie": "MR",
+        "domain": ".c.clarity.ms",
+        "url": "https://c.clarity.ms/c.gif",
+        "op": "SetCookie"
+      },
+      {
+        "code": "CookieIssue",
+        "reasons": [
+          "WarnThirdPartyPhaseout"
+        ],
+        "cookie": "ANONCHK",
+        "domain": ".c.clarity.ms",
+        "url": "https://c.clarity.ms/c.gif",
+        "op": "SetCookie"
+      },
+      {
+        "code": "CookieIssue",
+        "reasons": [
+          "WarnThirdPartyPhaseout"
+        ],
+        "cookie": "CLID",
+        "domain": "www.clarity.ms",
+        "url": "https://s.clarity.ms/collect",
+        "op": "ReadCookie"
+      },
+      {
+        "code": "CookieIssue",
+        "reasons": [
+          "WarnThirdPartyPhaseout"
+        ],
+        "cookie": "SM",
+        "domain": ".c.clarity.ms",
+        "url": "https://s.clarity.ms/collect",
+        "op": "ReadCookie"
+      },
+      {
+        "code": "CookieIssue",
+        "reasons": [
+          "WarnThirdPartyPhaseout"
+        ],
+        "cookie": "MR",
+        "domain": ".c.clarity.ms",
+        "url": "https://s.clarity.ms/collect",
+        "op": "ReadCookie"
+      },
+      {
+        "code": "CookieIssue",
+        "reasons": [
+          "WarnThirdPartyPhaseout"
+        ],
+        "cookie": "ANONCHK",
+        "domain": ".c.clarity.ms",
+        "url": "https://s.clarity.ms/collect",
+        "op": "ReadCookie"
+      },
+      {
+        "code": "CookieIssue",
+        "reasons": [
+          "WarnThirdPartyPhaseout"
+        ],
+        "cookie": "MUID",
+        "domain": ".clarity.ms",
+        "url": "https://s.clarity.ms/collect",
+        "op": "ReadCookie"
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      }
+    ]
+  },
+  "consent-ad-denied": {
+    "consent": "sem resposta",
+    "cookies": [
+      {
+        "name": "CLID",
+        "domain": "www.clarity.ms",
+        "sameSite": "None",
+        "secure": true
+      },
+      {
+        "name": "_clck",
+        "domain": ".felipelevi.site",
+        "sameSite": "Lax",
+        "secure": false
+      },
+      {
+        "name": "_ga_C0GC2E2VMN",
+        "domain": ".felipelevi.site",
+        "sameSite": "Lax",
+        "secure": false
+      },
+      {
+        "name": "_ga",
+        "domain": ".felipelevi.site",
+        "sameSite": "Lax",
+        "secure": false
+      },
+      {
+        "name": "MUID",
+        "domain": ".bing.com",
+        "sameSite": "None",
+        "secure": true
+      },
+      {
+        "name": "MR",
+        "domain": ".c.bing.com",
+        "sameSite": "None",
+        "secure": true
+      },
+      {
+        "name": "SRM_B",
+        "domain": ".c.bing.com",
+        "sameSite": "None",
+        "secure": true
+      },
+      {
+        "name": "SM",
+        "domain": ".c.clarity.ms",
+        "sameSite": "None",
+        "secure": true
+      },
+      {
+        "name": "MUID",
+        "domain": ".clarity.ms",
+        "sameSite": "None",
+        "secure": true
+      },
+      {
+        "name": "MR",
+        "domain": ".c.clarity.ms",
+        "sameSite": "None",
+        "secure": true
+      },
+      {
+        "name": "ANONCHK",
+        "domain": ".c.clarity.ms",
+        "sameSite": "None",
+        "secure": true
+      }
+    ],
+    "setCookies": [
+      {
+        "url": "https://www.clarity.ms/tag/wo2llblzgf",
+        "cookie": "CLID",
+        "attrs": "expires;path;secure;samesite;httponly"
+      },
+      {
+        "url": "https://c.clarity.ms/c.gif",
+        "cookie": "SM",
+        "attrs": "domain;path;SameSite;Secure;"
+      },
+      {
+        "url": "https://c.clarity.ms/c.gif",
+        "cookie": "MUID",
+        "attrs": "domain;expires;path;SameSite;Secure;Priority;"
+      },
+      {
+        "url": "https://c.bing.com/c.gif",
+        "cookie": "MUID",
+        "attrs": "domain;expires;path;SameSite;Secure;Priority;"
+      },
+      {
+        "url": "https://c.bing.com/c.gif",
+        "cookie": "MR",
+        "attrs": "domain;expires;path;SameSite;Secure;"
+      },
+      {
+        "url": "https://c.bing.com/c.gif",
+        "cookie": "SRM_B",
+        "attrs": "domain;expires;path;SameSite;Secure;"
+      },
+      {
+        "url": "https://c.clarity.ms/c.gif",
+        "cookie": "SM",
+        "attrs": "domain;path;SameSite;Secure;"
+      },
+      {
+        "url": "https://c.clarity.ms/c.gif",
+        "cookie": "MUID",
+        "attrs": "domain;expires;path;SameSite;Secure;Priority;"
+      },
+      {
+        "url": "https://c.clarity.ms/c.gif",
+        "cookie": "MR",
+        "attrs": "domain;expires;path;SameSite;Secure;"
+      },
+      {
+        "url": "https://c.clarity.ms/c.gif",
+        "cookie": "ANONCHK",
+        "attrs": "domain;expires;path;SameSite;Secure;"
+      }
+    ],
+    "issues": [
+      {
+        "code": "CookieIssue",
+        "reasons": [
+          "WarnThirdPartyPhaseout"
+        ],
+        "cookie": "CLID",
+        "domain": "www.clarity.ms",
+        "url": "https://www.clarity.ms/tag/wo2llblzgf",
+        "op": "SetCookie"
+      },
+      {
+        "code": "CookieIssue",
+        "reasons": [
+          "WarnThirdPartyPhaseout"
+        ],
+        "cookie": "CLID",
+        "domain": "www.clarity.ms",
+        "url": "https://scripts.clarity.ms/0.8.72/clarity.js",
+        "op": "ReadCookie"
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      },
+      {
+        "code": "CookieIssue",
+        "reasons": [
+          "WarnThirdPartyPhaseout"
+        ],
+        "cookie": "CLID",
+        "domain": "www.clarity.ms",
+        "url": "https://c.clarity.ms/c.gif",
+        "op": "ReadCookie"
+      },
+      {
+        "code": "CookieIssue",
+        "reasons": [
+          "WarnThirdPartyPhaseout"
+        ],
+        "cookie": "SM",
+        "domain": ".c.clarity.ms",
+        "url": "https://c.clarity.ms/c.gif",
+        "op": "SetCookie"
+      },
+      {
+        "code": "CookieIssue",
+        "reasons": [
+          "WarnThirdPartyPhaseout"
+        ],
+        "cookie": "MUID",
+        "domain": ".clarity.ms",
+        "url": "https://c.clarity.ms/c.gif",
+        "op": "SetCookie"
+      },
+      {
+        "code": "CookieIssue",
+        "reasons": [
+          "WarnThirdPartyPhaseout"
+        ],
+        "cookie": "MUID",
+        "domain": ".bing.com",
+        "url": "https://c.bing.com/c.gif",
+        "op": "SetCookie"
+      },
+      {
+        "code": "CookieIssue",
+        "reasons": [
+          "WarnThirdPartyPhaseout"
+        ],
+        "cookie": "MR",
+        "domain": ".c.bing.com",
+        "url": "https://c.bing.com/c.gif",
+        "op": "SetCookie"
+      },
+      {
+        "code": "CookieIssue",
+        "reasons": [
+          "WarnThirdPartyPhaseout"
+        ],
+        "cookie": "SRM_B",
+        "domain": ".c.bing.com",
+        "url": "https://c.bing.com/c.gif",
+        "op": "SetCookie"
+      },
+      {
+        "code": "CookieIssue",
+        "reasons": [
+          "WarnThirdPartyPhaseout"
+        ],
+        "cookie": "CLID",
+        "domain": "www.clarity.ms",
+        "url": "https://c.clarity.ms/c.gif",
+        "op": "ReadCookie"
+      },
+      {
+        "code": "CookieIssue",
+        "reasons": [
+          "WarnThirdPartyPhaseout"
+        ],
+        "cookie": "SM",
+        "domain": ".c.clarity.ms",
+        "url": "https://c.clarity.ms/c.gif",
+        "op": "ReadCookie"
+      },
+      {
+        "code": "CookieIssue",
+        "reasons": [
+          "WarnThirdPartyPhaseout"
+        ],
+        "cookie": "MUID",
+        "domain": ".clarity.ms",
+        "url": "https://c.clarity.ms/c.gif",
+        "op": "ReadCookie"
+      },
+      {
+        "code": "CookieIssue",
+        "reasons": [
+          "WarnThirdPartyPhaseout"
+        ],
+        "cookie": "SM",
+        "domain": ".c.clarity.ms",
+        "url": "https://c.clarity.ms/c.gif",
+        "op": "SetCookie"
+      },
+      {
+        "code": "CookieIssue",
+        "reasons": [
+          "WarnThirdPartyPhaseout"
+        ],
+        "cookie": "MUID",
+        "domain": ".clarity.ms",
+        "url": "https://c.clarity.ms/c.gif",
+        "op": "SetCookie"
+      },
+      {
+        "code": "CookieIssue",
+        "reasons": [
+          "WarnThirdPartyPhaseout"
+        ],
+        "cookie": "MR",
+        "domain": ".c.clarity.ms",
+        "url": "https://c.clarity.ms/c.gif",
+        "op": "SetCookie"
+      },
+      {
+        "code": "CookieIssue",
+        "reasons": [
+          "WarnThirdPartyPhaseout"
+        ],
+        "cookie": "ANONCHK",
+        "domain": ".c.clarity.ms",
+        "url": "https://c.clarity.ms/c.gif",
+        "op": "SetCookie"
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      },
+      {
+        "code": "PerformanceIssue",
+        "reasons": []
+      }
+    ]
+  }
+}

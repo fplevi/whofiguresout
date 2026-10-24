@@ -1,0 +1,30 @@
+{
+  "protectedMarkupMatchesHead": [
+    "comparator",
+    "next-project",
+    "primary-navigation"
+  ],
+  "percentage": 170.83333333333331,
+  "browserChecks": [
+    {
+      "width": 375,
+      "cardContentFits": true,
+      "reducedMotionKeyboardComparator": true
+    },
+    {
+      "width": 1025,
+      "cardContentFits": true,
+      "reducedMotionKeyboardComparator": true
+    },
+    {
+      "width": 1280,
+      "cardContentFits": true,
+      "reducedMotionKeyboardComparator": true
+    },
+    {
+      "width": 1440,
+      "cardContentFits": true,
+      "reducedMotionKeyboardComparator": true
+    }
+  ]
+}

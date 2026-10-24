@@ -401,7 +401,7 @@ Deploy flow:
 
 | # | Tag | Title | Hook | Stat | Stat Label |
 |---|-----|-------|------|------|-----------|
-| 01 | DESIGN SYSTEM | Harmony | Five platforms, four years of diverging decisions. We built the system that made good design durable. | 50% | faster delivery |
+| 01 | DESIGN SYSTEM | Harmony | A shared design system for CASSI's new projects, with existing products migrating gradually. | Adopted | in new projects |
 | 02 | PRODUCT DESIGN | Billing & Debt Recovery | Debt negotiation was a phone call. We made it a five-minute self-service flow — recovering BRL 4.5M in the first year alone. | BRL 4.5M | recovered in year one |
 | 03 | UX RESEARCH & DESIGN | Enrollment Journey | Most users were abandoning mid-flow and calling a human to finish. We fixed that. Enrollments grew 171% in a year. | 171% | more enrollments |
 

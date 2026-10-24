@@ -1,0 +1,610 @@
+{
+  "sourceName": "pasted-text.txt",
+  "sourceSha256": "6be864b49f62b5f16ede09059bd023e236081bf34e77ca719a35f9f053d1f6bc",
+  "lighthouseVersion": "13.5.0",
+  "fetchTime": "2026-10-24T16:03:25.589Z",
+  "requestedUrl": "http://localhost:8000/",
+  "runWarnings": [],
+  "configSettings": {
+    "output": "json",
+    "maxWaitForFcp": 30000,
+    "maxWaitForLoad": 45000,
+    "pauseAfterFcpMs": 1000,
+    "pauseAfterLoadMs": 1000,
+    "networkQuietThresholdMs": 1000,
+    "cpuQuietThresholdMs": 1000,
+    "formFactor": "desktop",
+    "throttling": {
+      "rttMs": 40,
+      "throughputKbps": 10240,
+      "requestLatencyMs": 0,
+      "downloadThroughputKbps": 0,
+      "uploadThroughputKbps": 0,
+      "cpuSlowdownMultiplier": 1
+    },
+    "throttlingMethod": "simulate",
+    "screenEmulation": {
+      "mobile": true,
+      "width": 412,
+      "height": 823,
+      "deviceScaleFactor": 1.75,
+      "disabled": true
+    },
+    "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+    "auditMode": false,
+    "gatherMode": false,
+    "clearStorageTypes": [
+      "file_systems",
+      "shader_cache",
+      "service_workers",
+      "cache_storage"
+    ],
+    "disableStorageReset": false,
+    "debugNavigation": false,
+    "channel": "devtools",
+    "usePassiveGathering": false,
+    "disableFullPageScreenshot": false,
+    "skipAboutBlank": false,
+    "blankPage": "about:blank",
+    "ignoreStatusCode": true,
+    "locale": "en-US",
+    "blockedUrlPatterns": null,
+    "additionalTraceCategories": "",
+    "extraHeaders": null,
+    "precomputedLanternData": null,
+    "onlyAudits": null,
+    "onlyCategories": [
+      "performance",
+      "accessibility",
+      "best-practices",
+      "seo",
+      "agentic-browsing"
+    ],
+    "skipAudits": null
+  },
+  "categories": {
+    "performance": {
+      "score": 1,
+      "weightedAudits": [
+        {
+          "id": "first-contentful-paint",
+          "weight": 10,
+          "score": 0.99,
+          "scoreDisplayMode": "numeric"
+        },
+        {
+          "id": "largest-contentful-paint",
+          "weight": 25,
+          "score": 0.99,
+          "scoreDisplayMode": "numeric"
+        },
+        {
+          "id": "total-blocking-time",
+          "weight": 30,
+          "score": 1,
+          "scoreDisplayMode": "numeric"
+        },
+        {
+          "id": "cumulative-layout-shift",
+          "weight": 25,
+          "score": 1,
+          "scoreDisplayMode": "numeric"
+        },
+        {
+          "id": "speed-index",
+          "weight": 10,
+          "score": 1,
+          "scoreDisplayMode": "numeric"
+        }
+      ]
+    },
+    "accessibility": {
+      "score": 0.96,
+      "weightedAudits": [
+        {
+          "id": "aria-allowed-attr",
+          "weight": 10,
+          "score": 1,
+          "scoreDisplayMode": "binary"
+        },
+        {
+          "id": "aria-conditional-attr",
+          "weight": 7,
+          "score": 1,
+          "scoreDisplayMode": "binary"
+        },
+        {
+          "id": "aria-deprecated-role",
+          "weight": 1,
+          "score": 1,
+          "scoreDisplayMode": "binary"
+        },
+        {
+          "id": "aria-hidden-body",
+          "weight": 10,
+          "score": 1,
+          "scoreDisplayMode": "binary"
+        },
+        {
+          "id": "aria-hidden-focus",
+          "weight": 7,
+          "score": 1,
+          "scoreDisplayMode": "binary"
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "weight": 7,
+          "score": 1,
+          "scoreDisplayMode": "binary"
+        },
+        {
+          "id": "aria-required-attr",
+          "weight": 10,
+          "score": 1,
+          "scoreDisplayMode": "binary"
+        },
+        {
+          "id": "aria-required-children",
+          "weight": 10,
+          "score": 1,
+          "scoreDisplayMode": "binary"
+        },
+        {
+          "id": "aria-roles",
+          "weight": 10,
+          "score": 1,
+          "scoreDisplayMode": "binary"
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "weight": 10,
+          "score": 1,
+          "scoreDisplayMode": "binary"
+        },
+        {
+          "id": "aria-valid-attr",
+          "weight": 10,
+          "score": 1,
+          "scoreDisplayMode": "binary"
+        },
+        {
+          "id": "button-name",
+          "weight": 10,
+          "score": 1,
+          "scoreDisplayMode": "binary"
+        },
+        {
+          "id": "color-contrast",
+          "weight": 7,
+          "score": 0,
+          "scoreDisplayMode": "binary"
+        },
+        {
+          "id": "document-title",
+          "weight": 7,
+          "score": 1,
+          "scoreDisplayMode": "binary"
+        },
+        {
+          "id": "heading-order",
+          "weight": 3,
+          "score": 1,
+          "scoreDisplayMode": "binary"
+        },
+        {
+          "id": "html-has-lang",
+          "weight": 7,
+          "score": 1,
+          "scoreDisplayMode": "binary"
+        },
+        {
+          "id": "html-lang-valid",
+          "weight": 7,
+          "score": 1,
+          "scoreDisplayMode": "binary"
+        },
+        {
+          "id": "image-alt",
+          "weight": 10,
+          "score": 1,
+          "scoreDisplayMode": "binary"
+        },
+        {
+          "id": "label",
+          "weight": 10,
+          "score": 1,
+          "scoreDisplayMode": "binary"
+        },
+        {
+          "id": "link-name",
+          "weight": 7,
+          "score": 1,
+          "scoreDisplayMode": "binary"
+        },
+        {
+          "id": "listitem",
+          "weight": 7,
+          "score": 1,
+          "scoreDisplayMode": "binary"
+        },
+        {
+          "id": "meta-viewport",
+          "weight": 10,
+          "score": 1,
+          "scoreDisplayMode": "binary"
+        },
+        {
+          "id": "target-size",
+          "weight": 7,
+          "score": 1,
+          "scoreDisplayMode": "binary"
+        },
+        {
+          "id": "landmark-one-main",
+          "weight": 3,
+          "score": 1,
+          "scoreDisplayMode": "binary"
+        },
+        {
+          "id": "autocomplete-valid",
+          "weight": 1,
+          "score": 1,
+          "scoreDisplayMode": "binary"
+        }
+      ]
+    },
+    "best-practices": {
+      "score": 0.77,
+      "weightedAudits": [
+        {
+          "id": "is-on-https",
+          "weight": 5,
+          "score": 1,
+          "scoreDisplayMode": "binary"
+        },
+        {
+          "id": "geolocation-on-start",
+          "weight": 1,
+          "score": 1,
+          "scoreDisplayMode": "binary"
+        },
+        {
+          "id": "notification-on-start",
+          "weight": 1,
+          "score": 1,
+          "scoreDisplayMode": "binary"
+        },
+        {
+          "id": "paste-preventing-inputs",
+          "weight": 3,
+          "score": 1,
+          "scoreDisplayMode": "binary"
+        },
+        {
+          "id": "image-aspect-ratio",
+          "weight": 1,
+          "score": 1,
+          "scoreDisplayMode": "binary"
+        },
+        {
+          "id": "image-size-responsive",
+          "weight": 1,
+          "score": 1,
+          "scoreDisplayMode": "binary"
+        },
+        {
+          "id": "doctype",
+          "weight": 1,
+          "score": 1,
+          "scoreDisplayMode": "binary"
+        },
+        {
+          "id": "charset",
+          "weight": 1,
+          "score": 1,
+          "scoreDisplayMode": "binary"
+        },
+        {
+          "id": "deprecations",
+          "weight": 5,
+          "score": 1,
+          "scoreDisplayMode": "binary"
+        },
+        {
+          "id": "third-party-cookies",
+          "weight": 5,
+          "score": 0,
+          "scoreDisplayMode": "binary"
+        },
+        {
+          "id": "errors-in-console",
+          "weight": 1,
+          "score": 1,
+          "scoreDisplayMode": "binary"
+        },
+        {
+          "id": "inspector-issues",
+          "weight": 1,
+          "score": 0,
+          "scoreDisplayMode": "binary"
+        }
+      ]
+    },
+    "seo": {
+      "score": 1,
+      "weightedAudits": [
+        {
+          "id": "is-crawlable",
+          "weight": 4.043478260869565,
+          "score": 1,
+          "scoreDisplayMode": "binary"
+        },
+        {
+          "id": "document-title",
+          "weight": 1,
+          "score": 1,
+          "scoreDisplayMode": "binary"
+        },
+        {
+          "id": "meta-description",
+          "weight": 1,
+          "score": 1,
+          "scoreDisplayMode": "binary"
+        },
+        {
+          "id": "http-status-code",
+          "weight": 1,
+          "score": 1,
+          "scoreDisplayMode": "binary"
+        },
+        {
+          "id": "link-text",
+          "weight": 1,
+          "score": 1,
+          "scoreDisplayMode": "binary"
+        },
+        {
+          "id": "crawlable-anchors",
+          "weight": 1,
+          "score": 1,
+          "scoreDisplayMode": "binary"
+        },
+        {
+          "id": "image-alt",
+          "weight": 1,
+          "score": 1,
+          "scoreDisplayMode": "binary"
+        },
+        {
+          "id": "hreflang",
+          "weight": 1,
+          "score": 1,
+          "scoreDisplayMode": "binary"
+        }
+      ]
+    },
+    "agentic-browsing": {
+      "score": 1,
+      "weightedAudits": [
+        {
+          "id": "agent-accessibility-tree",
+          "weight": 1,
+          "score": 1,
+          "scoreDisplayMode": "binary"
+        },
+        {
+          "id": "cumulative-layout-shift",
+          "weight": 1,
+          "score": 1,
+          "scoreDisplayMode": "numeric"
+        }
+      ]
+    }
+  },
+  "audits": {
+    "first-contentful-paint": {
+      "id": "first-contentful-paint",
+      "title": "First Contentful Paint",
+      "score": 0.99,
+      "scoreDisplayMode": "numeric",
+      "displayValue": "0.6 s",
+      "numericValue": 581.5030999999999
+    },
+    "largest-contentful-paint": {
+      "id": "largest-contentful-paint",
+      "title": "Largest Contentful Paint",
+      "score": 0.99,
+      "scoreDisplayMode": "numeric",
+      "displayValue": "0.7 s",
+      "numericValue": 729.9418
+    },
+    "total-blocking-time": {
+      "id": "total-blocking-time",
+      "title": "Total Blocking Time",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "displayValue": "0 ms",
+      "numericValue": 0
+    },
+    "cumulative-layout-shift": {
+      "id": "cumulative-layout-shift",
+      "title": "Cumulative Layout Shift",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "displayValue": "0.015",
+      "numericValue": 0.0147939596080011
+    },
+    "speed-index": {
+      "id": "speed-index",
+      "title": "Speed Index",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "displayValue": "0.6 s",
+      "numericValue": 581.5030999999999
+    },
+    "color-contrast": {
+      "id": "color-contrast",
+      "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+      "score": 0,
+      "scoreDisplayMode": "binary",
+      "nodes": [
+        {
+          "selector": "nav#nav > ul.nav__links > li > a.nav__link",
+          "nodeLabel": "Contact",
+          "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.16 (foreground color: #74757d, background color: #0d0f1a, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "selector": "nav#nav > ul.nav__links > li > a.nav__link",
+          "nodeLabel": "About",
+          "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.16 (foreground color: #74757d, background color: #0d0f1a, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "selector": "main > section#hero > p.hero__subtitle > span.hero__subtitle-sentence",
+          "nodeLabel": "Design is a series of decisions made under real constraints.",
+          "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.16 (foreground color: #74757d, background color: #0d0f1a, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "selector": "section#hero > p.hero__subtitle > span.hero__subtitle-sentence > span.hero__subtitle-keep-together",
+          "nodeLabel": "real constraints.",
+          "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.16 (foreground color: #74757d, background color: #0d0f1a, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "selector": "main > section#hero > p.hero__subtitle > span.hero__subtitle-sentence",
+          "nodeLabel": "I make them, ship them, and improve them.",
+          "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.16 (foreground color: #74757d, background color: #0d0f1a, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    },
+    "third-party-cookies": {
+      "id": "third-party-cookies",
+      "title": "Uses third-party cookies",
+      "score": 0,
+      "scoreDisplayMode": "binary",
+      "displayValue": "4 cookies found",
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "name",
+            "valueType": "text",
+            "label": "Name"
+          },
+          {
+            "key": "url",
+            "valueType": "url",
+            "label": "URL"
+          }
+        ],
+        "items": [
+          {
+            "name": "MR",
+            "url": "https://www.clarity.ms/tag/wo2llblzgf"
+          },
+          {
+            "name": "SM",
+            "url": "https://www.clarity.ms/tag/wo2llblzgf"
+          },
+          {
+            "name": "MUID",
+            "url": "https://www.clarity.ms/tag/wo2llblzgf"
+          },
+          {
+            "name": "CLID",
+            "url": "https://www.clarity.ms/tag/wo2llblzgf"
+          }
+        ]
+      }
+    },
+    "inspector-issues": {
+      "id": "inspector-issues",
+      "title": "Issues were logged in the `Issues` panel in Chrome Devtools",
+      "score": 0,
+      "scoreDisplayMode": "binary",
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "issueType",
+            "valueType": "text",
+            "subItemsHeading": {
+              "key": "url",
+              "valueType": "url"
+            },
+            "label": "Issue type"
+          }
+        ],
+        "items": [
+          {
+            "issueType": "Cookie",
+            "subItems": {
+              "type": "subitems",
+              "items": [
+                {
+                  "url": "https://www.clarity.ms/tag/wo2llblzgf"
+                },
+                {
+                  "url": "https://scripts.clarity.ms/0.8.72/clarity.js"
+                },
+                {
+                  "url": "https://t.clarity.ms/collect"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "unused-javascript": {
+      "id": "unused-javascript",
+      "title": "Reduce unused JavaScript",
+      "score": 0.5,
+      "scoreDisplayMode": "metricSavings",
+      "displayValue": "Est savings of 71 KiB",
+      "numericValue": 0,
+      "metricSavings": {
+        "FCP": 0,
+        "LCP": 0
+      },
+      "resources": [
+        {
+          "url": "https://www.googletagmanager.com/gtag/js?id=G-C0GC2E2VMN",
+          "totalBytes": 172624,
+          "wastedBytes": 73155
+        }
+      ]
+    },
+    "cache-insight": {
+      "id": "cache-insight",
+      "title": "Use efficient cache lifetimes",
+      "score": 0.5,
+      "scoreDisplayMode": "metricSavings",
+      "displayValue": "Est savings of 91 KiB",
+      "metricSavings": {
+        "FCP": 0,
+        "LCP": 0
+      }
+    },
+    "document-latency-insight": {
+      "id": "document-latency-insight",
+      "title": "Document request latency",
+      "score": 0.5,
+      "scoreDisplayMode": "metricSavings",
+      "displayValue": "Est savings of 9 KiB",
+      "metricSavings": {
+        "FCP": 0,
+        "LCP": 0
+      }
+    },
+    "render-blocking-insight": {
+      "id": "render-blocking-insight",
+      "title": "Render-blocking requests",
+      "score": 0,
+      "scoreDisplayMode": "metricSavings",
+      "displayValue": "Est savings of 330 ms",
+      "metricSavings": {
+        "FCP": 350,
+        "LCP": 350
+      }
+    }
+  }
+}

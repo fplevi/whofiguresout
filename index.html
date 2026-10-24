@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- No favicon yet: declare it so browsers skip the /favicon.ico 404 -->
+  <link rel="icon" href="data:," />
   <meta name="description" content="Felipe Levi — Product Designer based in Brasília, Brazil. Portfolio showcasing design systems, product design, and UX research." />
   <title>Felipe Levi — Product Designer</title>
 
@@ -33,9 +35,10 @@
     })(window, document, "clarity", "script", "wo2llblzgf");
 </script>
 
-  <!-- Preconnect for Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- Fonts: self-hosted, the two faces used above the fold are preloaded -->
+  <link rel="preload" href="assets/fonts/inter-normal-latin.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="assets/fonts/fraunces-normal-latin.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="assets/css/fonts.css" />
 
   <!-- CSS -->
   <link rel="stylesheet" href="assets/css/reset.css" />
@@ -44,7 +47,7 @@
   <link rel="stylesheet" href="assets/css/nav.css" />
   <link rel="stylesheet" href="assets/css/hero.css" />
   <link rel="stylesheet" href="assets/css/cards.css" />
-  <link rel="stylesheet" href="assets/css/contact.css" />
+  <link rel="stylesheet" href="assets/css/contact.css?v=20261024-copy" />
   <link rel="stylesheet" href="assets/css/footer.css" />
 </head>
 <body>
@@ -82,7 +85,8 @@
       ></div>
 
       <p class="hero__subtitle">
-        Design is a series of decisions made under real constraints. I make them, ship them, and improve them.
+        <span class="hero__subtitle-sentence">Design is a series of decisions made under <span class="hero__subtitle-keep-together">real constraints.</span></span>
+        <span class="hero__subtitle-sentence">I make them, ship them, and improve them.</span>
       </p>
 
 
@@ -105,12 +109,12 @@
           <div class="case-card__left">
             <span class="section-tag case-card__tag">Design System</span>
             <h2 class="case-card__title">Harmony</h2>
-            <p class="case-card__hook">Five platforms, four years of diverging decisions. We built the system that made good design durable.</p>
+            <p class="case-card__hook">A shared design system for CASSI's new projects, with existing products migrating gradually.</p>
           </div>
           <div class="case-card__right">
             <div>
-              <p class="case-card__stat-number">50%</p>
-              <p class="case-card__stat-label">faster delivery</p>
+              <p class="case-card__stat-number">Adopted</p>
+              <p class="case-card__stat-label">in new projects</p>
             </div>
             <span class="case-card__cta" aria-hidden="true">Read case study</span>
           </div>
@@ -181,7 +185,15 @@
       <h2 class="contact__headline">Let's work together.</h2>
 
       <div class="contact__links">
-        <a href="mailto:fplevi@gmail.com" class="contact__link">fplevi@gmail.com</a>
+        <span class="contact__email">
+          <a href="mailto:fplevi@gmail.com" class="contact__link">fplevi@gmail.com</a>
+          <button type="button" class="contact__copy" aria-label="Copy email address" title="Copy email address">
+            <svg width="24" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+              <path d="M23 8H5C4.73478 8 4.48043 8.10536 4.29289 8.29289C4.10536 8.48043 4 8.73478 4 9V27C4 27.2652 4.10536 27.5196 4.29289 27.7071C4.48043 27.8946 4.73478 28 5 28H23C23.2652 28 23.5196 27.8946 23.7071 27.7071C23.8946 27.5196 24 27.2652 24 27V9C24 8.73478 23.8946 8.48043 23.7071 8.29289C23.5196 8.10536 23.2652 8 23 8ZM22 26H6V10H22V26ZM28 5V23C28 23.2652 27.8946 23.5196 27.7071 23.7071C27.5196 23.8946 27.2652 24 27 24C26.7348 24 26.4804 23.8946 26.2929 23.7071C26.1054 23.5196 26 23.2652 26 23V6H9C8.73478 6 8.48043 5.89464 8.29289 5.70711C8.10536 5.51957 8 5.26522 8 5C8 4.73478 8.10536 4.48043 8.29289 4.29289C8.48043 4.10536 8.73478 4 9 4H27C27.2652 4 27.5196 4.10536 27.7071 4.29289C27.8946 4.48043 28 4.73478 28 5Z" fill="var(--accent-primary, #F4A87C)" />
+            </svg>
+          </button>
+          <span class="contact__copy-feedback" role="status" aria-live="polite" aria-atomic="true"></span>
+        </span>
         <span class="contact__separator" aria-hidden="true">·</span>
         <a href="https://linkedin.com/in/fplevi" class="contact__link" target="_blank" rel="noopener noreferrer">LinkedIn</a>
       </div>
@@ -250,11 +262,24 @@
     ============================================================ -->
     <section class="photo-name" aria-label="Felipe Levi">
 
-      <img
-        src="assets/images/Photo — Full width.jpg"
-        alt="Felipe Levi"
-        class="photo-name__photo"
-      />
+      <picture class="photo-name__picture">
+        <source
+          srcset="assets/images/felipe-levi-1672.avif 1672w, assets/images/felipe-levi-3344.avif 3344w"
+          sizes="100vw"
+          type="image/avif"
+        />
+        <img
+          src="assets/images/felipe-levi-1672.webp"
+          srcset="assets/images/felipe-levi-1672.webp 1672w, assets/images/felipe-levi-3344.webp 3344w"
+          sizes="100vw"
+          width="1672"
+          height="941"
+          alt="Felipe Levi seated in a brown leather armchair"
+          class="photo-name__photo"
+          loading="lazy"
+          decoding="async"
+        />
+      </picture>
 
       <span class="photo-name__name" aria-hidden="true">Felipe Levi</span>
 
@@ -281,7 +306,7 @@
   <!-- JS -->
   <script src="assets/js/hero-reveal.js" type="module"></script>
   <script src="assets/js/scroll-animations.js" type="module"></script>
-  <script src="assets/js/contact-form.js" type="module"></script>
+  <script src="assets/js/contact-form.js?v=20261024-clipboard" defer></script>
 
 </body>
 </html>

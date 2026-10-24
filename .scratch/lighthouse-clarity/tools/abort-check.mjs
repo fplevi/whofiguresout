@@ -1,0 +1,10 @@
+import { chromium } from 'playwright-core';
+const b = await chromium.launch({ executablePath: 'C:/Program Files/Google/Chrome/Application/chrome.exe' });
+const ctx = await b.newContext();
+let aborted = [];
+await ctx.route(/[a-z]\.clarity\.ms\/collect|google-analytics\.com\/g\/collect|analytics\.google\.com\/g\/collect/, (r) => { aborted.push(new URL(r.request().url()).host); r.abort(); });
+const p = await ctx.newPage(); const errs = [];
+p.on('console', (m) => m.type() === 'error' && errs.push(m.text()));
+await p.goto(process.argv[2], { waitUntil: 'networkidle' }); await p.waitForTimeout(2500);
+console.log('console errors', errs.length, 'aborted', aborted.length, aborted.join(','));
+await b.close();

@@ -1,0 +1,749 @@
+[
+  {
+    "page": "billing",
+    "profile": "desktop",
+    "n": 3,
+    "url": "http://127.0.0.1:8004/case-studies/billing.html",
+    "lighthouse": "13.5.0",
+    "chrome": "Chrome/156.0.0.0",
+    "runtimeErrors": [],
+    "cats": {
+      "performance": {
+        "median": 100,
+        "range": 0,
+        "runs": [
+          100,
+          100,
+          100
+        ]
+      },
+      "accessibility": {
+        "median": 100,
+        "range": 0,
+        "runs": [
+          100,
+          100,
+          100
+        ]
+      },
+      "best-practices": {
+        "median": 77,
+        "range": 0,
+        "runs": [
+          77,
+          77,
+          77
+        ]
+      },
+      "seo": {
+        "median": 100,
+        "range": 0,
+        "runs": [
+          100,
+          100,
+          100
+        ]
+      }
+    },
+    "metrics": {
+      "FCP": {
+        "median": 352.2059,
+        "range": 25.758700000000033
+      },
+      "LCP": {
+        "median": 608.2058999999999,
+        "range": 20.75870000000009
+      },
+      "TBT": {
+        "median": 0,
+        "range": 0
+      },
+      "CLS": {
+        "median": 0,
+        "range": 0
+      },
+      "SI": {
+        "median": 410.2257511873631,
+        "range": 56.54924616772121
+      }
+    },
+    "failed": {
+      "performance:largest-contentful-paint": 2,
+      "best-practices:third-party-cookies": 3,
+      "best-practices:inspector-issues": 3
+    }
+  },
+  {
+    "page": "billing",
+    "profile": "mobile",
+    "n": 3,
+    "url": "http://127.0.0.1:8004/case-studies/billing.html",
+    "lighthouse": "13.5.0",
+    "chrome": "Chrome/156.0.0.0",
+    "runtimeErrors": [],
+    "cats": {
+      "performance": {
+        "median": 97,
+        "range": 0,
+        "runs": [
+          97,
+          97,
+          97
+        ]
+      },
+      "accessibility": {
+        "median": 100,
+        "range": 0,
+        "runs": [
+          100,
+          100,
+          100
+        ]
+      },
+      "best-practices": {
+        "median": 77,
+        "range": 0,
+        "runs": [
+          77,
+          77,
+          77
+        ]
+      },
+      "seo": {
+        "median": 100,
+        "range": 0,
+        "runs": [
+          100,
+          100,
+          100
+        ]
+      }
+    },
+    "metrics": {
+      "FCP": {
+        "median": 1362.6603,
+        "range": 98.54094999999984
+      },
+      "LCP": {
+        "median": 2484.0471,
+        "range": 77.15414999999985
+      },
+      "TBT": {
+        "median": 79,
+        "range": 17.5
+      },
+      "CLS": {
+        "median": 0,
+        "range": 0
+      },
+      "SI": {
+        "median": 1362.6603,
+        "range": 98.54094999999984
+      }
+    },
+    "failed": {
+      "performance:first-contentful-paint": 3,
+      "performance:largest-contentful-paint": 3,
+      "performance:total-blocking-time": 3,
+      "best-practices:third-party-cookies": 3,
+      "best-practices:inspector-issues": 3
+    }
+  },
+  {
+    "page": "convenios",
+    "profile": "desktop",
+    "n": 3,
+    "url": "http://127.0.0.1:8004/case-studies/convenios.html",
+    "lighthouse": "13.5.0",
+    "chrome": "Chrome/156.0.0.0",
+    "runtimeErrors": [],
+    "cats": {
+      "performance": {
+        "median": 100,
+        "range": 0,
+        "runs": [
+          100,
+          100,
+          100
+        ]
+      },
+      "accessibility": {
+        "median": 100,
+        "range": 0,
+        "runs": [
+          100,
+          100,
+          100
+        ]
+      },
+      "best-practices": {
+        "median": 77,
+        "range": 0,
+        "runs": [
+          77,
+          77,
+          77
+        ]
+      },
+      "seo": {
+        "median": 100,
+        "range": 0,
+        "runs": [
+          100,
+          100,
+          100
+        ]
+      }
+    },
+    "metrics": {
+      "FCP": {
+        "median": 289.67814999999996,
+        "range": 0.5346000000000117
+      },
+      "LCP": {
+        "median": 769.67815,
+        "range": 0.5345999999999549
+      },
+      "TBT": {
+        "median": 0,
+        "range": 0
+      },
+      "CLS": {
+        "median": 0,
+        "range": 0
+      },
+      "SI": {
+        "median": 289.67814999999996,
+        "range": 0.5346000000000117
+      }
+    },
+    "failed": {
+      "performance:largest-contentful-paint": 3,
+      "best-practices:third-party-cookies": 3,
+      "best-practices:inspector-issues": 3
+    }
+  },
+  {
+    "page": "convenios",
+    "profile": "mobile",
+    "n": 3,
+    "url": "http://127.0.0.1:8004/case-studies/convenios.html",
+    "lighthouse": "13.5.0",
+    "chrome": "Chrome/156.0.0.0",
+    "runtimeErrors": [],
+    "cats": {
+      "performance": {
+        "median": 91,
+        "range": 0,
+        "runs": [
+          91,
+          91,
+          91
+        ]
+      },
+      "accessibility": {
+        "median": 100,
+        "range": 0,
+        "runs": [
+          100,
+          100,
+          100
+        ]
+      },
+      "best-practices": {
+        "median": 77,
+        "range": 0,
+        "runs": [
+          77,
+          77,
+          77
+        ]
+      },
+      "seo": {
+        "median": 100,
+        "range": 0,
+        "runs": [
+          100,
+          100,
+          100
+        ]
+      }
+    },
+    "metrics": {
+      "FCP": {
+        "median": 1210.1133,
+        "range": 56.939000000000306
+      },
+      "LCP": {
+        "median": 3459.7941,
+        "range": 2.380199999999604
+      },
+      "TBT": {
+        "median": 51,
+        "range": 2
+      },
+      "CLS": {
+        "median": 0,
+        "range": 0
+      },
+      "SI": {
+        "median": 1210.1133,
+        "range": 56.939000000000306
+      }
+    },
+    "failed": {
+      "performance:first-contentful-paint": 3,
+      "performance:largest-contentful-paint": 3,
+      "best-practices:third-party-cookies": 3,
+      "best-practices:inspector-issues": 3
+    }
+  },
+  {
+    "page": "enrollment",
+    "profile": "desktop",
+    "n": 3,
+    "url": "http://127.0.0.1:8004/case-studies/enrollment.html",
+    "lighthouse": "13.5.0",
+    "chrome": "Chrome/156.0.0.0",
+    "runtimeErrors": [],
+    "cats": {
+      "performance": {
+        "median": 100,
+        "range": 0,
+        "runs": [
+          100,
+          100,
+          100
+        ]
+      },
+      "accessibility": {
+        "median": 100,
+        "range": 0,
+        "runs": [
+          100,
+          100,
+          100
+        ]
+      },
+      "best-practices": {
+        "median": 77,
+        "range": 0,
+        "runs": [
+          77,
+          77,
+          77
+        ]
+      },
+      "seo": {
+        "median": 100,
+        "range": 0,
+        "runs": [
+          100,
+          100,
+          100
+        ]
+      }
+    },
+    "metrics": {
+      "FCP": {
+        "median": 349.4069,
+        "range": 24.692949999999996
+      },
+      "LCP": {
+        "median": 590.5563999999999,
+        "range": 20.543449999999893
+      },
+      "TBT": {
+        "median": 0,
+        "range": 0
+      },
+      "CLS": {
+        "median": 0,
+        "range": 0
+      },
+      "SI": {
+        "median": 422.5431255803036,
+        "range": 49.24725278370562
+      }
+    },
+    "failed": {
+      "performance:largest-contentful-paint": 2,
+      "best-practices:third-party-cookies": 3,
+      "best-practices:inspector-issues": 3
+    }
+  },
+  {
+    "page": "enrollment",
+    "profile": "mobile",
+    "n": 3,
+    "url": "http://127.0.0.1:8004/case-studies/enrollment.html",
+    "lighthouse": "13.5.0",
+    "chrome": "Chrome/156.0.0.0",
+    "runtimeErrors": [],
+    "cats": {
+      "performance": {
+        "median": 97,
+        "range": 1,
+        "runs": [
+          98,
+          97,
+          97
+        ]
+      },
+      "accessibility": {
+        "median": 100,
+        "range": 0,
+        "runs": [
+          100,
+          100,
+          100
+        ]
+      },
+      "best-practices": {
+        "median": 77,
+        "range": 0,
+        "runs": [
+          77,
+          77,
+          77
+        ]
+      },
+      "seo": {
+        "median": 100,
+        "range": 0,
+        "runs": [
+          100,
+          100,
+          100
+        ]
+      }
+    },
+    "metrics": {
+      "FCP": {
+        "median": 1362.9801,
+        "range": 85.56515000000013
+      },
+      "LCP": {
+        "median": 2409.9323999999997,
+        "range": 3.482549999999719
+      },
+      "TBT": {
+        "median": 54,
+        "range": 4.5
+      },
+      "CLS": {
+        "median": 0,
+        "range": 0
+      },
+      "SI": {
+        "median": 1362.9801,
+        "range": 85.56515000000013
+      }
+    },
+    "failed": {
+      "performance:first-contentful-paint": 3,
+      "performance:largest-contentful-paint": 3,
+      "best-practices:third-party-cookies": 3,
+      "best-practices:inspector-issues": 3
+    }
+  },
+  {
+    "page": "harmony",
+    "profile": "desktop",
+    "n": 3,
+    "url": "http://127.0.0.1:8004/case-studies/harmony.html",
+    "lighthouse": "13.5.0",
+    "chrome": "Chrome/156.0.0.0",
+    "runtimeErrors": [],
+    "cats": {
+      "performance": {
+        "median": 100,
+        "range": 0,
+        "runs": [
+          100,
+          100,
+          100
+        ]
+      },
+      "accessibility": {
+        "median": 100,
+        "range": 0,
+        "runs": [
+          100,
+          100,
+          100
+        ]
+      },
+      "best-practices": {
+        "median": 77,
+        "range": 0,
+        "runs": [
+          77,
+          77,
+          77
+        ]
+      },
+      "seo": {
+        "median": 100,
+        "range": 0,
+        "runs": [
+          100,
+          100,
+          100
+        ]
+      }
+    },
+    "metrics": {
+      "FCP": {
+        "median": 327.79699999999997,
+        "range": 18.89530000000002
+      },
+      "LCP": {
+        "median": 607.5607500000001,
+        "range": 42.65905000000009
+      },
+      "TBT": {
+        "median": 0,
+        "range": 0
+      },
+      "CLS": {
+        "median": 0,
+        "range": 0
+      },
+      "SI": {
+        "median": 402.52917983360766,
+        "range": 30.733457747314333
+      }
+    },
+    "failed": {
+      "performance:largest-contentful-paint": 2,
+      "best-practices:third-party-cookies": 3,
+      "best-practices:inspector-issues": 3
+    }
+  },
+  {
+    "page": "harmony",
+    "profile": "mobile",
+    "n": 3,
+    "url": "http://127.0.0.1:8004/case-studies/harmony.html",
+    "lighthouse": "13.5.0",
+    "chrome": "Chrome/156.0.0.0",
+    "runtimeErrors": [],
+    "cats": {
+      "performance": {
+        "median": 97,
+        "range": 1,
+        "runs": [
+          98,
+          97,
+          97
+        ]
+      },
+      "accessibility": {
+        "median": 100,
+        "range": 0,
+        "runs": [
+          100,
+          100,
+          100
+        ]
+      },
+      "best-practices": {
+        "median": 77,
+        "range": 0,
+        "runs": [
+          77,
+          77,
+          77
+        ]
+      },
+      "seo": {
+        "median": 100,
+        "range": 8,
+        "runs": [
+          92,
+          100,
+          100
+        ]
+      }
+    },
+    "metrics": {
+      "FCP": {
+        "median": 1421.799,
+        "range": 63.94699999999989
+      },
+      "LCP": {
+        "median": 2408.799,
+        "range": 151.94699999999966
+      },
+      "TBT": {
+        "median": 55,
+        "range": 6.5
+      },
+      "CLS": {
+        "median": 0,
+        "range": 0
+      },
+      "SI": {
+        "median": 1421.799,
+        "range": 63.94699999999989
+      }
+    },
+    "failed": {
+      "performance:first-contentful-paint": 3,
+      "performance:largest-contentful-paint": 3,
+      "best-practices:third-party-cookies": 3,
+      "best-practices:inspector-issues": 3,
+      "seo:robots-txt": 1
+    }
+  },
+  {
+    "page": "home",
+    "profile": "desktop",
+    "n": 3,
+    "url": "http://127.0.0.1:8004/",
+    "lighthouse": "13.5.0",
+    "chrome": "Chrome/156.0.0.0",
+    "runtimeErrors": [],
+    "cats": {
+      "performance": {
+        "median": 100,
+        "range": 0,
+        "runs": [
+          100,
+          100,
+          100
+        ]
+      },
+      "accessibility": {
+        "median": 100,
+        "range": 0,
+        "runs": [
+          100,
+          100,
+          100
+        ]
+      },
+      "best-practices": {
+        "median": 77,
+        "range": 0,
+        "runs": [
+          77,
+          77,
+          77
+        ]
+      },
+      "seo": {
+        "median": 100,
+        "range": 0,
+        "runs": [
+          100,
+          100,
+          100
+        ]
+      }
+    },
+    "metrics": {
+      "FCP": {
+        "median": 289.684,
+        "range": 3.5146500000000174
+      },
+      "LCP": {
+        "median": 469.684,
+        "range": 3.5146500000000174
+      },
+      "TBT": {
+        "median": 0,
+        "range": 0
+      },
+      "CLS": {
+        "median": 0,
+        "range": 0
+      },
+      "SI": {
+        "median": 289.684,
+        "range": 3.5146500000000174
+      }
+    },
+    "failed": {
+      "best-practices:third-party-cookies": 3,
+      "best-practices:inspector-issues": 3
+    }
+  },
+  {
+    "page": "home",
+    "profile": "mobile",
+    "n": 3,
+    "url": "http://127.0.0.1:8004/",
+    "lighthouse": "13.5.0",
+    "chrome": "Chrome/156.0.0.0",
+    "runtimeErrors": [],
+    "cats": {
+      "performance": {
+        "median": 99,
+        "range": 0,
+        "runs": [
+          99,
+          99,
+          99
+        ]
+      },
+      "accessibility": {
+        "median": 100,
+        "range": 0,
+        "runs": [
+          100,
+          100,
+          100
+        ]
+      },
+      "best-practices": {
+        "median": 77,
+        "range": 0,
+        "runs": [
+          77,
+          77,
+          77
+        ]
+      },
+      "seo": {
+        "median": 100,
+        "range": 0,
+        "runs": [
+          100,
+          100,
+          100
+        ]
+      }
+    },
+    "metrics": {
+      "FCP": {
+        "median": 1211.80845,
+        "range": 66.86355000000003
+      },
+      "LCP": {
+        "median": 1959.3899999999999,
+        "range": 3.282000000000153
+      },
+      "TBT": {
+        "median": 61.5,
+        "range": 31.5
+      },
+      "CLS": {
+        "median": 0,
+        "range": 0
+      },
+      "SI": {
+        "median": 1211.80845,
+        "range": 66.86355000000003
+      }
+    },
+    "failed": {
+      "performance:first-contentful-paint": 3,
+      "performance:largest-contentful-paint": 3,
+      "best-practices:third-party-cookies": 3,
+      "best-practices:inspector-issues": 3,
+      "performance:total-blocking-time": 1
+    }
+  }
+]

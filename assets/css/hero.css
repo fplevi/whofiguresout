@@ -12,6 +12,8 @@
 .hero__grid {
   position: relative;
   width: 100%;
+  /* Reserve the height JS sets (6 rows × (width / 22) × 115/57) so the subtitle doesn't shift */
+  aspect-ratio: 1254 / 690;
   overflow: hidden;
 }
 
@@ -29,11 +31,21 @@
 }
 
 .hero__subtitle {
-  max-width: 504px;
+  max-width: 540px; /* sentence 1 is ~506px wide at 18px */
   margin-top: 40px;
   font-size: 18px;
   color: var(--text-secondary);
   line-height: 1.55;
+  text-wrap: balance; /* even lines when a sentence wraps on narrow screens */
+}
+
+/* One sentence per block, so the break between them never depends on width */
+.hero__subtitle-sentence {
+  display: block;
+}
+
+.hero__subtitle-keep-together {
+  white-space: nowrap;
 }
 
 .hero__scroll-hint {

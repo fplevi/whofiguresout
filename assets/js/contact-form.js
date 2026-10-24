@@ -1,3 +1,57 @@
+document.querySelectorAll('.contact__copy').forEach(button => {
+  const emailLink = button.parentElement.querySelector('a[href^="mailto:"]');
+  const feedback = button.parentElement.querySelector('.contact__copy-feedback');
+  let feedbackTimeout;
+
+  button.addEventListener('click', async () => {
+    clearTimeout(feedbackTimeout);
+    feedback.textContent = '';
+
+    try {
+      await copyToClipboard(emailLink.textContent.trim());
+      feedback.textContent = 'Copied!';
+    } catch {
+      feedback.textContent = 'Could not copy. Please select the email.';
+    }
+
+    feedbackTimeout = setTimeout(() => {
+      feedback.textContent = '';
+    }, 4000);
+  });
+});
+
+async function copyToClipboard(text) {
+  if (navigator.clipboard?.writeText) {
+    try {
+      await navigator.clipboard.writeText(text);
+      return;
+    } catch {
+      // Use selection-based copying when the Clipboard API is blocked.
+    }
+  }
+
+  const activeElement = document.activeElement;
+  const textarea = document.createElement('textarea');
+  textarea.value = text;
+  textarea.readOnly = true;
+  textarea.tabIndex = -1;
+  textarea.style.cssText = 'position: fixed; top: 0; left: -9999px; font-size: 16px;';
+  document.body.append(textarea);
+
+  try {
+    textarea.focus({ preventScroll: true });
+    textarea.select();
+    textarea.setSelectionRange(0, text.length);
+
+    if (!document.execCommand('copy')) {
+      throw new Error('Copy failed');
+    }
+  } finally {
+    textarea.remove();
+    activeElement?.focus({ preventScroll: true });
+  }
+}
+
 const forms = document.querySelectorAll('#contact-form');
 
 forms.forEach(form => {

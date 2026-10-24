@@ -1,0 +1,632 @@
+[
+  {
+    "page": "billing",
+    "profile": "desktop",
+    "n": 3,
+    "url": "https://www.felipelevi.site/case-studies/billing.html",
+    "lighthouse": "13.5.0",
+    "chrome": "Chrome/156.0.0.0",
+    "runtimeErrors": [],
+    "cats": {
+      "performance": {
+        "median": 65,
+        "range": 10,
+        "runs": [
+          65,
+          75,
+          65
+        ]
+      },
+      "accessibility": {
+        "median": 96,
+        "range": 0,
+        "runs": [
+          96,
+          96,
+          96
+        ]
+      },
+      "best-practices": {
+        "median": 73,
+        "range": 0,
+        "runs": [
+          73,
+          73,
+          73
+        ]
+      },
+      "seo": {
+        "median": 100,
+        "range": 0,
+        "runs": [
+          100,
+          100,
+          100
+        ]
+      }
+    },
+    "metrics": {
+      "FCP": {
+        "median": 552.887,
+        "range": 3.8190000000000737
+      },
+      "LCP": {
+        "median": 30025.059999999903,
+        "range": 798.7900000005211
+      },
+      "TBT": {
+        "median": 0,
+        "range": 0
+      },
+      "CLS": {
+        "median": 0.0006056223648242708,
+        "range": 0.0002690128852202736
+      },
+      "SI": {
+        "median": 8025.275390398282,
+        "range": 7465.621415337692
+      }
+    },
+    "failed": {
+      "performance:first-contentful-paint": 3,
+      "performance:largest-contentful-paint": 3,
+      "performance:speed-index": 2,
+      "accessibility:color-contrast": 3,
+      "best-practices:third-party-cookies": 3,
+      "best-practices:errors-in-console": 3,
+      "best-practices:inspector-issues": 3
+    }
+  },
+  {
+    "page": "billing",
+    "profile": "mobile",
+    "n": 3,
+    "url": "https://www.felipelevi.site/case-studies/billing.html",
+    "lighthouse": "13.5.0",
+    "chrome": "Chrome/156.0.0.0",
+    "runtimeErrors": [],
+    "cats": {
+      "performance": {
+        "median": 67,
+        "range": 6,
+        "runs": [
+          69,
+          63,
+          67
+        ]
+      },
+      "accessibility": {
+        "median": 96,
+        "range": 0,
+        "runs": [
+          96,
+          96,
+          96
+        ]
+      },
+      "best-practices": {
+        "median": 73,
+        "range": 0,
+        "runs": [
+          73,
+          73,
+          73
+        ]
+      },
+      "seo": {
+        "median": 100,
+        "range": 0,
+        "runs": [
+          100,
+          100,
+          100
+        ]
+      }
+    },
+    "metrics": {
+      "FCP": {
+        "median": 3028.607,
+        "range": 949.828
+      },
+      "LCP": {
+        "median": 183424.01400000337,
+        "range": 1047.6040000037756
+      },
+      "TBT": {
+        "median": 101,
+        "range": 41
+      },
+      "CLS": {
+        "median": 0.0001062273275093243,
+        "range": 0
+      },
+      "SI": {
+        "median": 4304.771220001243,
+        "range": 1921.5554094481317
+      }
+    },
+    "failed": {
+      "performance:first-contentful-paint": 3,
+      "performance:largest-contentful-paint": 3,
+      "performance:total-blocking-time": 3,
+      "performance:speed-index": 3,
+      "accessibility:color-contrast": 3,
+      "best-practices:third-party-cookies": 3,
+      "best-practices:errors-in-console": 3,
+      "best-practices:inspector-issues": 3
+    }
+  },
+  {
+    "page": "enrollment",
+    "profile": "desktop",
+    "n": 3,
+    "url": "https://www.felipelevi.site/case-studies/enrollment.html",
+    "lighthouse": "13.5.0",
+    "chrome": "Chrome/156.0.0.0",
+    "runtimeErrors": [],
+    "cats": {
+      "performance": {
+        "median": 65,
+        "range": 11,
+        "runs": [
+          65,
+          64,
+          75
+        ]
+      },
+      "accessibility": {
+        "median": 96,
+        "range": 0,
+        "runs": [
+          96,
+          96,
+          96
+        ]
+      },
+      "best-practices": {
+        "median": 73,
+        "range": 0,
+        "runs": [
+          73,
+          73,
+          73
+        ]
+      },
+      "seo": {
+        "median": 100,
+        "range": 0,
+        "runs": [
+          100,
+          100,
+          100
+        ]
+      }
+    },
+    "metrics": {
+      "FCP": {
+        "median": 561.6310000000001,
+        "range": 580.1210000000002
+      },
+      "LCP": {
+        "median": 22396.040000000034,
+        "range": 755.1120000003502
+      },
+      "TBT": {
+        "median": 0,
+        "range": 0
+      },
+      "CLS": {
+        "median": 0.0006056223648242708,
+        "range": 0
+      },
+      "SI": {
+        "median": 4005.667284746827,
+        "range": 5990.438241803692
+      }
+    },
+    "failed": {
+      "performance:first-contentful-paint": 3,
+      "performance:largest-contentful-paint": 3,
+      "performance:speed-index": 2,
+      "accessibility:color-contrast": 3,
+      "best-practices:third-party-cookies": 3,
+      "best-practices:errors-in-console": 3,
+      "best-practices:inspector-issues": 3
+    }
+  },
+  {
+    "page": "enrollment",
+    "profile": "mobile",
+    "n": 3,
+    "url": "https://www.felipelevi.site/case-studies/enrollment.html",
+    "lighthouse": "13.5.0",
+    "chrome": "Chrome/156.0.0.0",
+    "runtimeErrors": [],
+    "cats": {
+      "performance": {
+        "median": 69,
+        "range": 4,
+        "runs": [
+          69,
+          69,
+          65
+        ]
+      },
+      "accessibility": {
+        "median": 96,
+        "range": 0,
+        "runs": [
+          96,
+          96,
+          96
+        ]
+      },
+      "best-practices": {
+        "median": 73,
+        "range": 0,
+        "runs": [
+          73,
+          73,
+          73
+        ]
+      },
+      "seo": {
+        "median": 100,
+        "range": 0,
+        "runs": [
+          100,
+          100,
+          100
+        ]
+      }
+    },
+    "metrics": {
+      "FCP": {
+        "median": 3038.173,
+        "range": 226.5574999999999
+      },
+      "LCP": {
+        "median": 136585.3209999982,
+        "range": 1049.6779999995779
+      },
+      "TBT": {
+        "median": 88,
+        "range": 33
+      },
+      "CLS": {
+        "median": 0.0001062273275093243,
+        "range": 0
+      },
+      "SI": {
+        "median": 3038.173,
+        "range": 1901.234578180066
+      }
+    },
+    "failed": {
+      "performance:first-contentful-paint": 3,
+      "performance:largest-contentful-paint": 3,
+      "performance:total-blocking-time": 3,
+      "performance:speed-index": 3,
+      "accessibility:color-contrast": 3,
+      "best-practices:third-party-cookies": 3,
+      "best-practices:errors-in-console": 3,
+      "best-practices:inspector-issues": 3
+    }
+  },
+  {
+    "page": "harmony",
+    "profile": "desktop",
+    "n": 3,
+    "url": "https://www.felipelevi.site/case-studies/harmony.html",
+    "lighthouse": "13.5.0",
+    "chrome": "Chrome/156.0.0.0",
+    "runtimeErrors": [],
+    "cats": {
+      "performance": {
+        "median": 65,
+        "range": 10,
+        "runs": [
+          65,
+          65,
+          75
+        ]
+      },
+      "accessibility": {
+        "median": 96,
+        "range": 0,
+        "runs": [
+          96,
+          96,
+          96
+        ]
+      },
+      "best-practices": {
+        "median": 73,
+        "range": 0,
+        "runs": [
+          73,
+          73,
+          73
+        ]
+      },
+      "seo": {
+        "median": 100,
+        "range": 0,
+        "runs": [
+          100,
+          100,
+          100
+        ]
+      }
+    },
+    "metrics": {
+      "FCP": {
+        "median": 547.8130000000001,
+        "range": 24.318000000000097
+      },
+      "LCP": {
+        "median": 19168.171000000064,
+        "range": 443.3069999998661
+      },
+      "TBT": {
+        "median": 0,
+        "range": 0
+      },
+      "CLS": {
+        "median": 0.0006056223648242708,
+        "range": 0
+      },
+      "SI": {
+        "median": 5181.533971391228,
+        "range": 5399.316619534991
+      }
+    },
+    "failed": {
+      "performance:first-contentful-paint": 3,
+      "performance:largest-contentful-paint": 3,
+      "performance:speed-index": 2,
+      "accessibility:color-contrast": 3,
+      "best-practices:third-party-cookies": 3,
+      "best-practices:errors-in-console": 3,
+      "best-practices:inspector-issues": 3
+    }
+  },
+  {
+    "page": "harmony",
+    "profile": "mobile",
+    "n": 3,
+    "url": "https://www.felipelevi.site/case-studies/harmony.html",
+    "lighthouse": "13.5.0",
+    "chrome": "Chrome/156.0.0.0",
+    "runtimeErrors": [],
+    "cats": {
+      "performance": {
+        "median": 58,
+        "range": 4,
+        "runs": [
+          60,
+          56,
+          58
+        ]
+      },
+      "accessibility": {
+        "median": 96,
+        "range": 0,
+        "runs": [
+          96,
+          96,
+          96
+        ]
+      },
+      "best-practices": {
+        "median": 73,
+        "range": 0,
+        "runs": [
+          73,
+          73,
+          73
+        ]
+      },
+      "seo": {
+        "median": 100,
+        "range": 0,
+        "runs": [
+          100,
+          100,
+          100
+        ]
+      }
+    },
+    "metrics": {
+      "FCP": {
+        "median": 3176.4934999999996,
+        "range": 1120.5465000000004
+      },
+      "LCP": {
+        "median": 118099.9950000013,
+        "range": 1348.7840000018914
+      },
+      "TBT": {
+        "median": 109,
+        "range": 34.70650000000023
+      },
+      "CLS": {
+        "median": 0.0001062273275093243,
+        "range": 0.0437601446537855
+      },
+      "SI": {
+        "median": 18771.80496731184,
+        "range": 1619.4329300716527
+      }
+    },
+    "failed": {
+      "performance:first-contentful-paint": 3,
+      "performance:largest-contentful-paint": 3,
+      "performance:total-blocking-time": 3,
+      "performance:speed-index": 3,
+      "accessibility:color-contrast": 3,
+      "best-practices:third-party-cookies": 3,
+      "best-practices:errors-in-console": 3,
+      "best-practices:inspector-issues": 3,
+      "performance:cumulative-layout-shift": 1
+    }
+  },
+  {
+    "page": "home",
+    "profile": "desktop",
+    "n": 3,
+    "url": "https://www.felipelevi.site/",
+    "lighthouse": "13.5.0",
+    "chrome": "Chrome/156.0.0.0",
+    "runtimeErrors": [],
+    "cats": {
+      "performance": {
+        "median": 99,
+        "range": 16,
+        "runs": [
+          83,
+          99,
+          99
+        ]
+      },
+      "accessibility": {
+        "median": 96,
+        "range": 0,
+        "runs": [
+          96,
+          96,
+          96
+        ]
+      },
+      "best-practices": {
+        "median": 73,
+        "range": 0,
+        "runs": [
+          73,
+          73,
+          73
+        ]
+      },
+      "seo": {
+        "median": 100,
+        "range": 0,
+        "runs": [
+          100,
+          100,
+          100
+        ]
+      }
+    },
+    "metrics": {
+      "FCP": {
+        "median": 549.6315,
+        "range": 600.7405000000001
+      },
+      "LCP": {
+        "median": 896.3394999999999,
+        "range": 321.453
+      },
+      "TBT": {
+        "median": 0,
+        "range": 0
+      },
+      "CLS": {
+        "median": 0.004328657225473895,
+        "range": 0.22574655619633952
+      },
+      "SI": {
+        "median": 549.6315,
+        "range": 600.7405000000001
+      }
+    },
+    "failed": {
+      "performance:first-contentful-paint": 3,
+      "performance:largest-contentful-paint": 3,
+      "performance:cumulative-layout-shift": 1,
+      "performance:speed-index": 1,
+      "accessibility:color-contrast": 3,
+      "best-practices:third-party-cookies": 3,
+      "best-practices:errors-in-console": 3,
+      "best-practices:inspector-issues": 3
+    }
+  },
+  {
+    "page": "home",
+    "profile": "mobile",
+    "n": 3,
+    "url": "https://www.felipelevi.site/",
+    "lighthouse": "13.5.0",
+    "chrome": "Chrome/156.0.0.0",
+    "runtimeErrors": [],
+    "cats": {
+      "performance": {
+        "median": 73,
+        "range": 26,
+        "runs": [
+          98,
+          73,
+          72
+        ]
+      },
+      "accessibility": {
+        "median": 96,
+        "range": 0,
+        "runs": [
+          96,
+          96,
+          96
+        ]
+      },
+      "best-practices": {
+        "median": 73,
+        "range": 0,
+        "runs": [
+          73,
+          73,
+          73
+        ]
+      },
+      "seo": {
+        "median": 100,
+        "range": 0,
+        "runs": [
+          100,
+          100,
+          100
+        ]
+      }
+    },
+    "metrics": {
+      "FCP": {
+        "median": 3011.9145,
+        "range": 1390.4299999999998
+      },
+      "LCP": {
+        "median": 5932.1005,
+        "range": 3640.0070000000014
+      },
+      "TBT": {
+        "median": 91,
+        "range": 37.5
+      },
+      "CLS": {
+        "median": 0.0001062273275093243,
+        "range": 0
+      },
+      "SI": {
+        "median": 3011.9145,
+        "range": 1390.4299999999998
+      }
+    },
+    "failed": {
+      "performance:first-contentful-paint": 3,
+      "performance:largest-contentful-paint": 3,
+      "accessibility:color-contrast": 3,
+      "best-practices:third-party-cookies": 3,
+      "best-practices:errors-in-console": 3,
+      "best-practices:inspector-issues": 3,
+      "performance:total-blocking-time": 2,
+      "performance:speed-index": 2
+    }
+  }
+]

@@ -1,0 +1,257 @@
+{
+  "baseUrl": "http://127.0.0.1:8004",
+  "pages": [
+    {
+      "path": "/",
+      "console": [
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "failed": [],
+      "gtag": 1,
+      "clarityTag": 1,
+      "clarityJs": 1,
+      "title": "Felipe Levi — Product Designer",
+      "fonts": [
+        "Fraunces normal 700",
+        "Fraunces normal 900",
+        "Inter normal 400",
+        "Inter normal 500"
+      ],
+      "video": null,
+      "h1Font": "Inter, sans-serif",
+      "bodyFont": "Inter, sans-serif",
+      "clarityFn": "function",
+      "dataLayer": [
+        "G-C0GC2E2VMN"
+      ]
+    },
+    {
+      "path": "/case-studies/billing.html",
+      "console": [
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "failed": [],
+      "gtag": 1,
+      "clarityTag": 1,
+      "clarityJs": 1,
+      "title": "Billing & Debt Recovery — Felipe Levi",
+      "fonts": [
+        "Fraunces normal 700",
+        "Inter normal 400",
+        "Inter normal 500"
+      ],
+      "video": {
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "readyState": 4,
+        "t": 3.8,
+        "w": 1440,
+        "h": 900
+      },
+      "h1Font": "Fraunces, serif",
+      "bodyFont": "Inter, sans-serif",
+      "clarityFn": "function",
+      "dataLayer": [
+        "G-C0GC2E2VMN"
+      ]
+    },
+    {
+      "path": "/case-studies/convenios.html",
+      "console": [
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "failed": [],
+      "gtag": 1,
+      "clarityTag": 1,
+      "clarityJs": 1,
+      "title": "CASSI Convênios | Felipe Levi",
+      "fonts": [
+        "Fraunces normal 700",
+        "Inter normal 400",
+        "Inter normal 500"
+      ],
+      "video": null,
+      "h1Font": "Fraunces, serif",
+      "bodyFont": "Inter, sans-serif",
+      "clarityFn": "function",
+      "dataLayer": [
+        "G-C0GC2E2VMN"
+      ]
+    },
+    {
+      "path": "/case-studies/enrollment.html",
+      "console": [
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "failed": [],
+      "gtag": 1,
+      "clarityTag": 1,
+      "clarityJs": 1,
+      "title": "Enrollment Journey — Felipe Levi",
+      "fonts": [
+        "Fraunces normal 700",
+        "Inter normal 400",
+        "Inter normal 500"
+      ],
+      "video": {
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "readyState": 4,
+        "t": 3.88,
+        "w": 1440,
+        "h": 900
+      },
+      "h1Font": "Fraunces, serif",
+      "bodyFont": "Inter, sans-serif",
+      "clarityFn": "function",
+      "dataLayer": [
+        "G-C0GC2E2VMN"
+      ]
+    },
+    {
+      "path": "/case-studies/harmony.html",
+      "console": [
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "failed": [],
+      "gtag": 1,
+      "clarityTag": 1,
+      "clarityJs": 1,
+      "title": "Harmony — Felipe Levi",
+      "fonts": [
+        "Fraunces normal 700",
+        "Inter normal 400",
+        "Inter normal 500"
+      ],
+      "video": {
+        "paused": false,
+        "muted": true,
+        "loop": true,
+        "readyState": 4,
+        "t": 3.93,
+        "w": 1440,
+        "h": 900
+      },
+      "h1Font": "Fraunces, serif",
+      "bodyFont": "Inter, sans-serif",
+      "clarityFn": "function",
+      "dataLayer": [
+        "G-C0GC2E2VMN"
+      ]
+    }
+  ],
+  "journey": [
+    {
+      "label": "home",
+      "url": "/"
+    },
+    {
+      "label": "click card billing",
+      "url": "/case-studies/billing.html"
+    },
+    {
+      "label": "click next case",
+      "url": "/case-studies/enrollment.html"
+    },
+    {
+      "label": "click logo → home",
+      "url": "/"
+    },
+    {
+      "gtagLoads": 4,
+      "clarityTagLoads": 4,
+      "console": [
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "failed": []
+    }
+  ],
+  "form": {
+    "empty": {
+      "posted": 0,
+      "error": "Please fill in all fields.",
+      "formVisible": true,
+      "success": null,
+      "button": {
+        "disabled": false,
+        "text": "Send message"
+      }
+    },
+    "invalid-email": {
+      "posted": 0,
+      "error": "Please enter a valid email address.",
+      "formVisible": true,
+      "success": null,
+      "button": {
+        "disabled": false,
+        "text": "Send message"
+      }
+    },
+    "success": {
+      "posted": 1,
+      "error": null,
+      "formVisible": true,
+      "success": "Message sent.\n      Thanks for reaching out — I'll get back to you shortly.",
+      "button": null
+    },
+    "server-error": {
+      "posted": 1,
+      "error": "Simulated server error",
+      "formVisible": true,
+      "success": null,
+      "button": {
+        "disabled": false,
+        "text": "Send message"
+      }
+    },
+    "network-error": {
+      "posted": 1,
+      "error": "Network error. Please check your connection and try again.",
+      "formVisible": true,
+      "success": null,
+      "button": {
+        "disabled": false,
+        "text": "Send message"
+      }
+    }
+  },
+  "reducedMotion": true
+}

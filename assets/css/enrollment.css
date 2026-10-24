@@ -1,0 +1,18 @@
+/* Local icon masks; layout and typography reuse the shared case study components. */
+.cs-decision__note-icon--exploration {
+  mask-image: url('../icons/tabler/enrollment/lock-open.svg');
+}
+
+.cs-decision__note-icon--journey {
+  mask-image: url('../icons/tabler/enrollment/route.svg');
+}
+
+.cs-decision__note-icon--status {
+  mask-image: url('../icons/tabler/enrollment/list-check.svg');
+}
+
+@media (min-width: 1024px) {
+  .cs-stats--enrollment {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}

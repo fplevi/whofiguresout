@@ -1,0 +1,150 @@
+--- billing-at-start.html
++++ case-studies/billing.html
+@@ -3,12 +3,12 @@
+ <head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+-  <meta name="description" content="Billing & Debt Recovery case study by Felipe Levi. Debt negotiation was a phone call. We made it a five-minute self-service flow — recovering BRL 4.5M in the first year alone." />
++  <meta name="description" content="Billing & Debt Recovery case study by Felipe Levi. Debt negotiation moved from phone calls to self-service, with BRL 4.5M recovered in the first year." />
+   <title>Billing &amp; Debt Recovery — Felipe Levi</title>
+ 
+   <!-- Open Graph -->
+   <meta property="og:title" content="Billing &amp; Debt Recovery — Felipe Levi" />
+-  <meta property="og:description" content="Debt negotiation was a phone call. We made it a five-minute self-service flow — recovering BRL 4.5M in the first year alone." />
++  <meta property="og:description" content="Debt negotiation moved from phone calls to self-service, with BRL 4.5M recovered in the first year." />
+   <meta property="og:image" content="https://felipelevi.site/assets/images/og-thumbnail.jpg" />
+   <meta property="og:url" content="https://felipelevi.site/case-studies/billing.html" />
+   <meta property="og:type" content="website" />
+@@ -42,6 +42,7 @@
+   <link rel="stylesheet" href="../assets/css/nav.css" />
+   <link rel="stylesheet" href="../assets/css/contact.css?v=20261024-copy" />
+   <link rel="stylesheet" href="../assets/css/case-study.css" />
++  <link rel="stylesheet" href="../assets/css/billing.css" />
+ </head>
+ <body>
+ 
+@@ -63,7 +64,7 @@
+       <a href="../" class="cs-header__back">← Back to work</a>
+       <span class="section-tag cs-header__tag">Product Design</span>
+       <h1 class="cs-header__title">Billing &amp; Debt Recovery</h1>
+-      <p class="cs-header__hook">Debt negotiation was a phone call. We made it a five-minute self-service flow — recovering BRL 4.5M in the first year alone.</p>
++      <p class="cs-header__hook">Debt negotiation moved from phone calls to self-service, with BRL 4.5M recovered in the first year.</p>
+ 
+       <div class="cs-meta" role="list">
+         <div class="cs-meta__pill" role="listitem">
+@@ -90,19 +91,14 @@
+     <section class="cs-section" aria-labelledby="billing-problem">
+       <span class="section-tag cs-section__tag">The Problem</span>
+       <h2 class="cs-section__title" id="billing-problem">Debt recovery lived on the phone.</h2>
+-      <div class="cs-problem__layout">
+-        <p class="cs-section__body">
+-          Interactions were mostly handled by phone, without standardized processes. This resulted in low user autonomy, limited control over negotiation progress, and a team spending hours on manual negotiations that could be automated.
+-        </p>
+-        <aside class="cs-stakes" aria-label="Key facts">
+-          <p class="cs-stakes__label">Key Facts</p>
+-          <p class="cs-stakes__content">
+-            BRL 300M+ financial recovery potential<br>
+-            No unified digital flow<br>
+-            Manual, phone-based only
+-          </p>
+-        </aside>
+-      </div>
++      <p class="cs-section__body">
++        Debt negotiations were mostly handled by phone, without standardized processes. This affected both participants and the teams handling recovery:
++      </p>
++      <ul class="cs-problem__points">
++        <li>Participants had no unified digital flow to negotiate independently or follow their progress.</li>
++        <li>Teams handled negotiations manually, keeping the process dependent on phone contact.</li>
++        <li>BRL 300M+ in potential recovery was at stake in a process that depended on manual negotiation.</li>
++      </ul>
+     </section>
+ 
+     <!-- My Role -->
+@@ -117,46 +113,49 @@
+     <!-- The Decisions -->
+     <section class="cs-section" aria-labelledby="billing-decisions">
+       <span class="section-tag cs-section__tag">The Decisions</span>
+-      <h2 class="cs-section__title" id="billing-decisions">Three decisions that changed the numbers.</h2>
+-
+-      <div class="cs-decisions">
++      <h2 class="cs-section__title" id="billing-decisions">Designing access and self-service.</h2>
++
++      <div class="cs-decisions cs-decisions--stacked">
+ 
+         <div class="cs-decision">
+           <div class="cs-decision__left">
+             <span class="cs-decision__number">01</span>
+             <h3 class="cs-decision__title">One unified flow for all profiles</h3>
+             <p class="cs-decision__body">
+-              Rather than separate interfaces for participants, employees, and partners, we built a single flow with role-based access. Improvements made in one place benefited everyone simultaneously.
+-            </p>
+-          </div>
+-          <div>
+-            <span class="cs-decision__tradeoff">We traded complexity for maintainability.</span>
++              Rather than separate interfaces for participants, employees, and partners, we built a single flow with role-based access. The shared structure let us maintain improvements in one place.
++            </p>
++            <p class="cs-decision__note">
++              <span class="cs-decision__note-icon cs-decision__note-icon--components" aria-hidden="true"></span>
++              <span>One shared flow to maintain across all profiles.</span>
++            </p>
+           </div>
+         </div>
+ 
+         <div class="cs-decision">
+           <div class="cs-decision__left">
+             <span class="cs-decision__number">02</span>
+-            <h3 class="cs-decision__title">Two-factor authentication without traditional login</h3>
++            <h3 class="cs-decision__title">Verified access without account creation</h3>
+             <p class="cs-decision__body">
+-              Participants with cancelled plans couldn't create accounts. We solved this with contract data identification + email/SMS verification — secure access without a login wall or account creation friction.
+-            </p>
+-          </div>
+-          <div>
+-            <span class="cs-decision__tradeoff">We traded familiar patterns for the right ones.</span>
++              Participants with cancelled plans couldn't create accounts. We used contract data for identification and email or SMS verification so they could access the negotiation flow without creating an account.
++            </p>
++            <p class="cs-decision__note">
++              <span class="cs-decision__note-icon cs-decision__note-icon--billing-access" aria-hidden="true"></span>
++              <span>Access for participants who couldn't register through the usual process.</span>
++            </p>
+           </div>
+         </div>
+ 
+         <div class="cs-decision">
+           <div class="cs-decision__left">
+             <span class="cs-decision__number">03</span>
+-            <h3 class="cs-decision__title">Self-service as the default, not a feature</h3>
++            <h3 class="cs-decision__title">Self-service negotiation as the default</h3>
+             <p class="cs-decision__body">
+-              The platform was designed to complete negotiations in under five minutes without active contact. Every decision — flow length, payment options, confirmation steps — was evaluated against that constraint.
+-            </p>
+-          </div>
+-          <div>
+-            <span class="cs-decision__tradeoff">We traded feature richness for completion rates.</span>
++              The design target was to let participants complete negotiations in under five minutes without a phone call. Flow length, payment options, and confirmation steps were evaluated against that target. We monitored completion time in Clarity for a period.
++            </p>
++            <p class="cs-decision__note">
++              <span class="cs-decision__note-icon cs-decision__note-icon--billing-self-service" aria-hidden="true"></span>
++              <span>Participants could negotiate independently, without calling the team.</span>
++            </p>
+           </div>
+         </div>
+ 
+@@ -166,7 +165,7 @@
+     <!-- What Shipped -->
+     <section class="cs-section" aria-labelledby="billing-shipped">
+       <span class="section-tag cs-section__tag">What Shipped</span>
+-      <h2 class="cs-section__title" id="billing-shipped">A five-minute flow. BRL 54M negotiated.</h2>
++      <h2 class="cs-section__title" id="billing-shipped">A self-service flow and an operations dashboard.</h2>
+ 
+       <div class="cs-image-grid">
+         <figure class="cs-image-figure">
+@@ -188,6 +187,8 @@
+     <section class="cs-section" aria-labelledby="billing-outcome">
+       <span class="section-tag cs-section__tag">The Outcome</span>
+       <h2 class="cs-section__title" id="billing-outcome">BRL 4.5M recovered. 10,000+ autonomous negotiations.</h2>
++
++      <p class="cs-section__body">These figures are a historical snapshot of the platform's recovery activity and self-service use.</p>
+ 
+       <div class="cs-stats" role="list">
+         <div class="cs-stat" role="listitem">

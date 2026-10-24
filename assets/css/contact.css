@@ -26,6 +26,7 @@
 
 .contact__links {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: var(--space-12);
   margin-bottom: var(--space-48);
@@ -33,6 +34,9 @@
 }
 
 .contact__link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
   color: var(--accent-primary);
   font-weight: 500;
   transition: opacity 0.2s ease;
@@ -40,6 +44,52 @@
 
 .contact__link:hover {
   opacity: 0.75;
+}
+
+.contact__email {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.contact__copy {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  line-height: 1;
+  border-radius: var(--radius-sm);
+  color: var(--accent-primary);
+  transition: background-color 0.2s ease;
+}
+
+.contact__copy:hover {
+  background-color: var(--accent-subtle);
+}
+
+.contact__copy:focus-visible {
+  outline: 2px solid var(--accent-primary);
+  outline-offset: 2px;
+}
+
+.contact__copy-feedback {
+  position: absolute;
+  bottom: calc(100% + var(--space-8));
+  left: 0;
+  padding: var(--space-4) var(--space-8);
+  border: 1px solid var(--background-divider);
+  border-radius: var(--radius-sm);
+  background-color: var(--background-secondary);
+  color: var(--text-primary);
+  font-size: var(--size-body-sm);
+  pointer-events: none;
+}
+
+.contact__copy-feedback:empty {
+  display: none;
 }
 
 .contact__separator {

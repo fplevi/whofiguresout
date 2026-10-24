@@ -1,0 +1,407 @@
+{
+  "preserved": {
+    "navigation": true,
+    "contact": true,
+    "images": true,
+    "stats": true,
+    "next_project": true,
+    "scripts": true,
+    "anchor_ids": true
+  },
+  "viewports": [
+    {
+      "width": 320,
+      "checks": {
+        "viewport": 320,
+        "scrollWidth": 320,
+        "overflow": [],
+        "points": 3,
+        "pointsBelowIntro": true,
+        "markers": "disc",
+        "oldAsideOrPills": 0,
+        "notes": [
+          {
+            "text": "One shared flow to maintain across all profiles.",
+            "belowBody": true,
+            "columns": "272px",
+            "background": "rgba(0, 0, 0, 0)",
+            "icon": {
+              "x": 24,
+              "y": 3415.375,
+              "width": 24,
+              "height": 24,
+              "bottom": 3439.375
+            },
+            "mask": "url(\"http://localhost:8000/assets/icons/tabler/components.svg\")",
+            "decorative": "true"
+          },
+          {
+            "text": "Access for participants who couldn't register through the usual process.",
+            "belowBody": true,
+            "columns": "272px",
+            "background": "rgba(0, 0, 0, 0)",
+            "icon": {
+              "x": 24,
+              "y": 3851.609375,
+              "width": 24,
+              "height": 24,
+              "bottom": 3875.609375
+            },
+            "mask": "url(\"http://localhost:8000/assets/icons/tabler/billing/shield-lock.svg\")",
+            "decorative": "true"
+          },
+          {
+            "text": "Participants could negotiate independently, without calling the team.",
+            "belowBody": true,
+            "columns": "272px",
+            "background": "rgba(0, 0, 0, 0)",
+            "icon": {
+              "x": 24,
+              "y": 4364.625,
+              "width": 24,
+              "height": 24,
+              "bottom": 4388.625
+            },
+            "mask": "url(\"http://localhost:8000/assets/icons/tabler/billing/clock.svg\")",
+            "decorative": "true"
+          }
+        ],
+        "images": [
+          {
+            "src": "../assets/images/billing/digital-billing-platform.gif",
+            "loaded": true
+          },
+          {
+            "src": "../assets/images/billing/billing-digital-platform-flow.jpg",
+            "loaded": true
+          },
+          {
+            "src": "../assets/images/billing/billing-digital-platform-dashboard.jpg",
+            "loaded": true
+          }
+        ],
+        "target": "The design target was to let participants complete negotiations in under five minutes without a phone call. Flow length, payment options, and confirmation steps were evaluated against that target. We monitored completion time in Clarity for a period.",
+        "historical": "These figures are a historical snapshot of the platform's recovery activity and self-service use.",
+        "next": "enrollment.html"
+      },
+      "icons": [
+        {
+          "url": "http://localhost:8000/assets/icons/tabler/components.svg",
+          "status": 200
+        },
+        {
+          "url": "http://localhost:8000/assets/icons/tabler/billing/shield-lock.svg",
+          "status": 200
+        },
+        {
+          "url": "http://localhost:8000/assets/icons/tabler/billing/clock.svg",
+          "status": 200
+        }
+      ],
+      "pageErrors": [],
+      "localFailures": []
+    },
+    {
+      "width": 375,
+      "checks": {
+        "viewport": 375,
+        "scrollWidth": 375,
+        "overflow": [],
+        "points": 3,
+        "pointsBelowIntro": true,
+        "markers": "disc",
+        "oldAsideOrPills": 0,
+        "notes": [
+          {
+            "text": "One shared flow to maintain across all profiles.",
+            "belowBody": true,
+            "columns": "327px",
+            "background": "rgba(0, 0, 0, 0)",
+            "icon": {
+              "x": 24,
+              "y": 3118.984375,
+              "width": 24,
+              "height": 24,
+              "bottom": 3142.984375
+            },
+            "mask": "url(\"http://localhost:8000/assets/icons/tabler/components.svg\")",
+            "decorative": "true"
+          },
+          {
+            "text": "Access for participants who couldn't register through the usual process.",
+            "belowBody": true,
+            "columns": "327px",
+            "background": "rgba(0, 0, 0, 0)",
+            "icon": {
+              "x": 24,
+              "y": 3500.03125,
+              "width": 24,
+              "height": 24,
+              "bottom": 3524.03125
+            },
+            "mask": "url(\"http://localhost:8000/assets/icons/tabler/billing/shield-lock.svg\")",
+            "decorative": "true"
+          },
+          {
+            "text": "Participants could negotiate independently, without calling the team.",
+            "belowBody": true,
+            "columns": "327px",
+            "background": "rgba(0, 0, 0, 0)",
+            "icon": {
+              "x": 24,
+              "y": 3933.859375,
+              "width": 24,
+              "height": 24,
+              "bottom": 3957.859375
+            },
+            "mask": "url(\"http://localhost:8000/assets/icons/tabler/billing/clock.svg\")",
+            "decorative": "true"
+          }
+        ],
+        "images": [
+          {
+            "src": "../assets/images/billing/digital-billing-platform.gif",
+            "loaded": true
+          },
+          {
+            "src": "../assets/images/billing/billing-digital-platform-flow.jpg",
+            "loaded": true
+          },
+          {
+            "src": "../assets/images/billing/billing-digital-platform-dashboard.jpg",
+            "loaded": true
+          }
+        ],
+        "target": "The design target was to let participants complete negotiations in under five minutes without a phone call. Flow length, payment options, and confirmation steps were evaluated against that target. We monitored completion time in Clarity for a period.",
+        "historical": "These figures are a historical snapshot of the platform's recovery activity and self-service use.",
+        "next": "enrollment.html"
+      },
+      "icons": [
+        {
+          "url": "http://localhost:8000/assets/icons/tabler/components.svg",
+          "status": 200
+        },
+        {
+          "url": "http://localhost:8000/assets/icons/tabler/billing/shield-lock.svg",
+          "status": 200
+        },
+        {
+          "url": "http://localhost:8000/assets/icons/tabler/billing/clock.svg",
+          "status": 200
+        }
+      ],
+      "pageErrors": [],
+      "localFailures": []
+    },
+    {
+      "width": 768,
+      "checks": {
+        "viewport": 768,
+        "scrollWidth": 768,
+        "overflow": [],
+        "points": 3,
+        "pointsBelowIntro": true,
+        "markers": "disc",
+        "oldAsideOrPills": 0,
+        "notes": [
+          {
+            "text": "One shared flow to maintain across all profiles.",
+            "belowBody": true,
+            "columns": "720px",
+            "background": "rgba(0, 0, 0, 0)",
+            "icon": {
+              "x": 24,
+              "y": 2601.015625,
+              "width": 24,
+              "height": 24,
+              "bottom": 2625.015625
+            },
+            "mask": "url(\"http://localhost:8000/assets/icons/tabler/components.svg\")",
+            "decorative": "true"
+          },
+          {
+            "text": "Access for participants who couldn't register through the usual process.",
+            "belowBody": true,
+            "columns": "720px",
+            "background": "rgba(0, 0, 0, 0)",
+            "icon": {
+              "x": 24,
+              "y": 2876.484375,
+              "width": 24,
+              "height": 24,
+              "bottom": 2900.484375
+            },
+            "mask": "url(\"http://localhost:8000/assets/icons/tabler/billing/shield-lock.svg\")",
+            "decorative": "true"
+          },
+          {
+            "text": "Participants could negotiate independently, without calling the team.",
+            "belowBody": true,
+            "columns": "720px",
+            "background": "rgba(0, 0, 0, 0)",
+            "icon": {
+              "x": 24,
+              "y": 3151.953125,
+              "width": 24,
+              "height": 24,
+              "bottom": 3175.953125
+            },
+            "mask": "url(\"http://localhost:8000/assets/icons/tabler/billing/clock.svg\")",
+            "decorative": "true"
+          }
+        ],
+        "images": [
+          {
+            "src": "../assets/images/billing/digital-billing-platform.gif",
+            "loaded": true
+          },
+          {
+            "src": "../assets/images/billing/billing-digital-platform-flow.jpg",
+            "loaded": true
+          },
+          {
+            "src": "../assets/images/billing/billing-digital-platform-dashboard.jpg",
+            "loaded": true
+          }
+        ],
+        "target": "The design target was to let participants complete negotiations in under five minutes without a phone call. Flow length, payment options, and confirmation steps were evaluated against that target. We monitored completion time in Clarity for a period.",
+        "historical": "These figures are a historical snapshot of the platform's recovery activity and self-service use.",
+        "next": "enrollment.html"
+      },
+      "icons": [
+        {
+          "url": "http://localhost:8000/assets/icons/tabler/components.svg",
+          "status": 200
+        },
+        {
+          "url": "http://localhost:8000/assets/icons/tabler/billing/shield-lock.svg",
+          "status": 200
+        },
+        {
+          "url": "http://localhost:8000/assets/icons/tabler/billing/clock.svg",
+          "status": 200
+        }
+      ],
+      "pageErrors": [],
+      "localFailures": []
+    },
+    {
+      "width": 1440,
+      "checks": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "overflow": [],
+        "points": 3,
+        "pointsBelowIntro": true,
+        "markers": "disc",
+        "oldAsideOrPills": 0,
+        "notes": [
+          {
+            "text": "One shared flow to maintain across all profiles.",
+            "belowBody": true,
+            "columns": "840px",
+            "background": "rgba(0, 0, 0, 0)",
+            "icon": {
+              "x": 80,
+              "y": 2600.34375,
+              "width": 24,
+              "height": 24,
+              "bottom": 2624.34375
+            },
+            "mask": "url(\"http://localhost:8000/assets/icons/tabler/components.svg\")",
+            "decorative": "true"
+          },
+          {
+            "text": "Access for participants who couldn't register through the usual process.",
+            "belowBody": true,
+            "columns": "840px",
+            "background": "rgba(0, 0, 0, 0)",
+            "icon": {
+              "x": 80,
+              "y": 2849.421875,
+              "width": 24,
+              "height": 24,
+              "bottom": 2873.421875
+            },
+            "mask": "url(\"http://localhost:8000/assets/icons/tabler/billing/shield-lock.svg\")",
+            "decorative": "true"
+          },
+          {
+            "text": "Participants could negotiate independently, without calling the team.",
+            "belowBody": true,
+            "columns": "840px",
+            "background": "rgba(0, 0, 0, 0)",
+            "icon": {
+              "x": 80,
+              "y": 3124.890625,
+              "width": 24,
+              "height": 24,
+              "bottom": 3148.890625
+            },
+            "mask": "url(\"http://localhost:8000/assets/icons/tabler/billing/clock.svg\")",
+            "decorative": "true"
+          }
+        ],
+        "images": [
+          {
+            "src": "../assets/images/billing/digital-billing-platform.gif",
+            "loaded": true
+          },
+          {
+            "src": "../assets/images/billing/billing-digital-platform-flow.jpg",
+            "loaded": true
+          },
+          {
+            "src": "../assets/images/billing/billing-digital-platform-dashboard.jpg",
+            "loaded": true
+          }
+        ],
+        "target": "The design target was to let participants complete negotiations in under five minutes without a phone call. Flow length, payment options, and confirmation steps were evaluated against that target. We monitored completion time in Clarity for a period.",
+        "historical": "These figures are a historical snapshot of the platform's recovery activity and self-service use.",
+        "next": "enrollment.html"
+      },
+      "icons": [
+        {
+          "url": "http://localhost:8000/assets/icons/tabler/components.svg",
+          "status": 200
+        },
+        {
+          "url": "http://localhost:8000/assets/icons/tabler/billing/shield-lock.svg",
+          "status": 200
+        },
+        {
+          "url": "http://localhost:8000/assets/icons/tabler/billing/clock.svg",
+          "status": 200
+        }
+      ],
+      "pageErrors": [],
+      "localFailures": []
+    }
+  ],
+  "motion": [
+    {
+      "width": 375,
+      "allSectionsRevealed": true,
+      "clipboard": true
+    },
+    {
+      "width": 1440,
+      "allSectionsRevealed": true,
+      "clipboard": true
+    }
+  ],
+  "clipboard": "Copied! and expected email confirmed in both widths; no form submission.",
+  "browser": "156.0.8078.4",
+  "protectedFileComparison": {
+    "assets/css/case-study.css": true,
+    "assets/css/tokens.css": true,
+    "assets/css/contact.css": true,
+    "assets/css/hero.css": true,
+    "assets/js/contact-form.js": true,
+    "index.html": true,
+    "case-studies/harmony.html": true,
+    "case-studies/convenios.html": true,
+    "case-studies/enrollment.html": false,
+    "portfolio-dev-plan.md": true
+  }
+}

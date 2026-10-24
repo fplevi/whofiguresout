@@ -1,0 +1,365 @@
+{
+  "checks": [
+    {
+      "name": "320: no horizontal overflow",
+      "ok": true,
+      "detail": "scrollWidth=320"
+    },
+    {
+      "name": "320: no element outside viewport",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "320: 8 screenshots loaded",
+      "ok": true,
+      "detail": "access-verification-channel.jpg, negotiation-options.jpg, reactivation-offer.jpg, single-payment-with-reactivation.jpg, installments-without-reactivation.jpg, review-and-validation.jpg, pending-payment-documents.jpg, billing-digital-platform-dashboard.jpg"
+    },
+    {
+      "name": "320: screenshots keep intrinsic ratio",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "320: screenshots lazy-loaded",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "320: one screenshot per row",
+      "ok": true,
+      "detail": "8 rows"
+    },
+    {
+      "name": "320: copy precedes screenshot in DOM",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "320: copy and screenshot do not overlap",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "320: copy above screenshot on screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "320: flow renders 1 column(s) in numbered order",
+      "ok": true,
+      "detail": "[[-7584, 24], [-7434, 24], [-7260, 24], [-7062, 24], [-6912, 24], [-6738, 24], [-6588, 24], [-6414, 24]]"
+    },
+    {
+      "name": "320: connectors only toward next step (none at row ends)",
+      "ok": true,
+      "detail": "[True, True, True, True, True, True, True, False]"
+    },
+    {
+      "name": "375: no horizontal overflow",
+      "ok": true,
+      "detail": "scrollWidth=375"
+    },
+    {
+      "name": "375: no element outside viewport",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "375: 8 screenshots loaded",
+      "ok": true,
+      "detail": "access-verification-channel.jpg, negotiation-options.jpg, reactivation-offer.jpg, single-payment-with-reactivation.jpg, installments-without-reactivation.jpg, review-and-validation.jpg, pending-payment-documents.jpg, billing-digital-platform-dashboard.jpg"
+    },
+    {
+      "name": "375: screenshots keep intrinsic ratio",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "375: screenshots lazy-loaded",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "375: one screenshot per row",
+      "ok": true,
+      "detail": "8 rows"
+    },
+    {
+      "name": "375: copy precedes screenshot in DOM",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "375: copy and screenshot do not overlap",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "375: copy above screenshot on screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "375: flow renders 1 column(s) in numbered order",
+      "ok": true,
+      "detail": "[[-7120, 24], [-6994, 24], [-6844, 24], [-6694, 24], [-6568, 24], [-6418, 24], [-6268, 24], [-6118, 24]]"
+    },
+    {
+      "name": "375: connectors only toward next step (none at row ends)",
+      "ok": true,
+      "detail": "[True, True, True, True, True, True, True, False]"
+    },
+    {
+      "name": "768: no horizontal overflow",
+      "ok": true,
+      "detail": "scrollWidth=768"
+    },
+    {
+      "name": "768: no element outside viewport",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "768: 8 screenshots loaded",
+      "ok": true,
+      "detail": "access-verification-channel.jpg, negotiation-options.jpg, reactivation-offer.jpg, single-payment-with-reactivation.jpg, installments-without-reactivation.jpg, review-and-validation.jpg, pending-payment-documents.jpg, billing-digital-platform-dashboard.jpg"
+    },
+    {
+      "name": "768: screenshots keep intrinsic ratio",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "768: screenshots lazy-loaded",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "768: one screenshot per row",
+      "ok": true,
+      "detail": "8 rows"
+    },
+    {
+      "name": "768: copy precedes screenshot in DOM",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "768: copy and screenshot do not overlap",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "768: copy above screenshot on screen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "768: flow renders 2 column(s) in numbered order",
+      "ok": true,
+      "detail": "[[-6673, 24], [-6673, 400], [-6515, 24], [-6515, 400], [-6357, 24], [-6357, 400], [-6199, 24], [-6199, 400]]"
+    },
+    {
+      "name": "768: connectors only toward next step (none at row ends)",
+      "ok": true,
+      "detail": "[True, False, True, False, True, False, True, False]"
+    },
+    {
+      "name": "1440: no horizontal overflow",
+      "ok": true,
+      "detail": "scrollWidth=1440"
+    },
+    {
+      "name": "1440: no element outside viewport",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "1440: 8 screenshots loaded",
+      "ok": true,
+      "detail": "access-verification-channel.jpg, negotiation-options.jpg, reactivation-offer.jpg, single-payment-with-reactivation.jpg, installments-without-reactivation.jpg, review-and-validation.jpg, pending-payment-documents.jpg, billing-digital-platform-dashboard.jpg"
+    },
+    {
+      "name": "1440: screenshots keep intrinsic ratio",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "1440: screenshots lazy-loaded",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "1440: one screenshot per row",
+      "ok": true,
+      "detail": "8 rows"
+    },
+    {
+      "name": "1440: copy precedes screenshot in DOM",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "1440: copy and screenshot do not overlap",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "1440: desktop alternation matches spec",
+      "ok": true,
+      "detail": "['left', 'right', 'left', 'right', 'left', 'wide', 'left', 'wide']"
+    },
+    {
+      "name": "1440: flow renders 4 column(s) in numbered order",
+      "ok": true,
+      "detail": "[[-6477, 80], [-6477, 408], [-6477, 736], [-6477, 1064], [-6319, 80], [-6319, 408], [-6319, 736], [-6319, 1064]]"
+    },
+    {
+      "name": "1440: connectors only toward next step (none at row ends)",
+      "ok": true,
+      "detail": "[True, True, True, False, True, True, True, False]"
+    },
+    {
+      "name": "flow: 8 steps in documented order",
+      "ok": true,
+      "detail": "['Access', 'Contract identification', 'View outstanding debts', 'Start negotiation', 'Choose payment method', 'Confirm negotiation', 'Pay invoice(s)', 'Debts cleared']"
+    },
+    {
+      "name": "flow: numbering 01–08",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "flow: every explanation visible by default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "flow: only steps 01 and 08 highlighted",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "flow: list is an ordered list",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "flow: no interactive elements",
+      "ok": true,
+      "detail": "0"
+    },
+    {
+      "name": "flow: list has accessible name",
+      "ok": true,
+      "detail": "Shared negotiation journey"
+    },
+    {
+      "name": "flow: arrows use accent fill",
+      "ok": true,
+      "detail": "rgb(244, 168, 124)"
+    },
+    {
+      "name": "no-JS: 8 steps and explanations visible, sections visible",
+      "ok": true,
+      "detail": "steps=8 texts=True visible=True"
+    },
+    {
+      "name": "motion 375: all sections visible after scroll (initially hidden: 5)",
+      "ok": true,
+      "detail": "[{'id': 'billing-problem', 'o': '1', 'h': 807}, {'id': 'billing-role', 'o': '1', 'h': 651}, {'id': 'billing-decisions', 'o': '1', 'h': 3562}, {'id': 'billing-shipped', 'o': '1', 'h': 2912}, {'id': 'billing-outcome', 'o': '1', 'h': 1191}]"
+    },
+    {
+      "name": "motion 375: tallest section reachable at 0.08 threshold",
+      "ok": true,
+      "detail": "8% of tallest = 285px vs viewport 700px"
+    },
+    {
+      "name": "motion 1440: all sections visible after scroll (initially hidden: 5)",
+      "ok": true,
+      "detail": "[{'id': 'billing-problem', 'o': '1', 'h': 484}, {'id': 'billing-role', 'o': '1', 'h': 409}, {'id': 'billing-decisions', 'o': '1', 'h': 2180}, {'id': 'billing-shipped', 'o': '1', 'h': 3953}, {'id': 'billing-outcome', 'o': '1', 'h': 639}]"
+    },
+    {
+      "name": "motion 1440: tallest section reachable at 0.08 threshold",
+      "ok": true,
+      "detail": "8% of tallest = 316px vs viewport 700px"
+    },
+    {
+      "name": "nav links preserved",
+      "ok": true,
+      "detail": "['../', '../#work', '../#contact', '../#about']"
+    },
+    {
+      "name": "next project preserved",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "metrics preserved",
+      "ok": true,
+      "detail": "['BRL 4.5M already paid through self-service', 'BRL 54.1M in installment negotiations', '3,000+ contracts reactivated with benefits', '10,000+ negotiations completed autonomously']"
+    },
+    {
+      "name": "contact form present (not submitted)",
+      "ok": true,
+      "detail": "https://formspree.io/f/mbdqyywl|3"
+    },
+    {
+      "name": "contact copy button present",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "hero hook preserved",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "copy/markup: 'in real time' absent",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "copy/markup: 'participant-facing' absent",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "copy/markup: 'tela.png' absent",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "copy/markup: 'billing-digital-platform-flow' absent",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "copy/markup: 'cs-image-grid' absent",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "copy: five minutes still framed as design target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "orientation text uses strong secondary color",
+      "ok": true,
+      "detail": "rgba(242, 242, 245, 0.65)"
+    },
+    {
+      "name": "no full-size links in screen rows",
+      "ok": true,
+      "detail": "0"
+    }
+  ],
+  "console": [],
+  "failed_requests": [],
+  "summary": {
+    "passed": 71,
+    "failed": 0
+  }
+}

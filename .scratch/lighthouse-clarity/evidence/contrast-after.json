@@ -1,0 +1,332 @@
+[
+  {
+    "vp": "desktop",
+    "path": "/",
+    "status": 200,
+    "states": [
+      {
+        "label": "final",
+        "violations": [],
+        "incomplete": 88
+      },
+      {
+        "label": "nav-hover-top",
+        "violations": [],
+        "incomplete": 89
+      },
+      {
+        "label": "nav-scrolled",
+        "violations": [],
+        "incomplete": 89
+      }
+    ]
+  },
+  {
+    "vp": "desktop",
+    "path": "/case-studies/billing.html",
+    "status": 200,
+    "states": [
+      {
+        "label": "final",
+        "violations": [],
+        "incomplete": 6
+      },
+      {
+        "label": "nav-hover-top",
+        "violations": [],
+        "incomplete": 6
+      },
+      {
+        "label": "nav-scrolled",
+        "violations": [],
+        "incomplete": 6
+      }
+    ]
+  },
+  {
+    "vp": "desktop",
+    "path": "/case-studies/convenios.html",
+    "status": 200,
+    "states": [
+      {
+        "label": "final",
+        "violations": [],
+        "incomplete": 0
+      },
+      {
+        "label": "nav-hover-top",
+        "violations": [],
+        "incomplete": 0
+      },
+      {
+        "label": "nav-scrolled",
+        "violations": [],
+        "incomplete": 0
+      }
+    ]
+  },
+  {
+    "vp": "desktop",
+    "path": "/case-studies/enrollment.html",
+    "status": 200,
+    "states": [
+      {
+        "label": "final",
+        "violations": [],
+        "incomplete": 2
+      },
+      {
+        "label": "nav-hover-top",
+        "violations": [],
+        "incomplete": 2
+      },
+      {
+        "label": "nav-scrolled",
+        "violations": [],
+        "incomplete": 2
+      }
+    ]
+  },
+  {
+    "vp": "desktop",
+    "path": "/case-studies/harmony.html",
+    "status": 200,
+    "states": [
+      {
+        "label": "final",
+        "violations": [],
+        "incomplete": 0
+      },
+      {
+        "label": "nav-hover-top",
+        "violations": [],
+        "incomplete": 0
+      },
+      {
+        "label": "nav-scrolled",
+        "violations": [],
+        "incomplete": 0
+      }
+    ]
+  },
+  {
+    "vp": "mobile",
+    "path": "/",
+    "status": 200,
+    "states": [
+      {
+        "label": "final",
+        "violations": [],
+        "incomplete": 87
+      },
+      {
+        "label": "nav-hover-top",
+        "violations": [],
+        "incomplete": 86
+      },
+      {
+        "label": "nav-scrolled",
+        "violations": [],
+        "incomplete": 86
+      }
+    ]
+  },
+  {
+    "vp": "mobile",
+    "path": "/case-studies/billing.html",
+    "status": 200,
+    "states": [
+      {
+        "label": "final",
+        "violations": [],
+        "incomplete": 7
+      },
+      {
+        "label": "nav-hover-top",
+        "violations": [],
+        "incomplete": 7
+      },
+      {
+        "label": "nav-scrolled",
+        "violations": [],
+        "incomplete": 7
+      }
+    ]
+  },
+  {
+    "vp": "mobile",
+    "path": "/case-studies/convenios.html",
+    "status": 200,
+    "states": [
+      {
+        "label": "final",
+        "violations": [],
+        "incomplete": 0
+      },
+      {
+        "label": "nav-hover-top",
+        "violations": [],
+        "incomplete": 0
+      },
+      {
+        "label": "nav-scrolled",
+        "violations": [],
+        "incomplete": 0
+      }
+    ]
+  },
+  {
+    "vp": "mobile",
+    "path": "/case-studies/enrollment.html",
+    "status": 200,
+    "states": [
+      {
+        "label": "final",
+        "violations": [],
+        "incomplete": 2
+      },
+      {
+        "label": "nav-hover-top",
+        "violations": [],
+        "incomplete": 2
+      },
+      {
+        "label": "nav-scrolled",
+        "violations": [],
+        "incomplete": 2
+      }
+    ]
+  },
+  {
+    "vp": "mobile",
+    "path": "/case-studies/harmony.html",
+    "status": 200,
+    "states": [
+      {
+        "label": "final",
+        "violations": [],
+        "incomplete": 0
+      },
+      {
+        "label": "nav-hover-top",
+        "violations": [],
+        "incomplete": 0
+      },
+      {
+        "label": "nav-scrolled",
+        "violations": [],
+        "incomplete": 0
+      }
+    ]
+  },
+  {
+    "vp": "narrow",
+    "path": "/",
+    "status": 200,
+    "states": [
+      {
+        "label": "final",
+        "violations": [],
+        "incomplete": 93
+      },
+      {
+        "label": "nav-hover-top",
+        "violations": [],
+        "incomplete": 92
+      },
+      {
+        "label": "nav-scrolled",
+        "violations": [],
+        "incomplete": 93
+      }
+    ]
+  },
+  {
+    "vp": "narrow",
+    "path": "/case-studies/billing.html",
+    "status": 200,
+    "states": [
+      {
+        "label": "final",
+        "violations": [],
+        "incomplete": 7
+      },
+      {
+        "label": "nav-hover-top",
+        "violations": [],
+        "incomplete": 7
+      },
+      {
+        "label": "nav-scrolled",
+        "violations": [],
+        "incomplete": 7
+      }
+    ]
+  },
+  {
+    "vp": "narrow",
+    "path": "/case-studies/convenios.html",
+    "status": 200,
+    "states": [
+      {
+        "label": "final",
+        "violations": [],
+        "incomplete": 0
+      },
+      {
+        "label": "nav-hover-top",
+        "violations": [],
+        "incomplete": 0
+      },
+      {
+        "label": "nav-scrolled",
+        "violations": [],
+        "incomplete": 0
+      }
+    ]
+  },
+  {
+    "vp": "narrow",
+    "path": "/case-studies/enrollment.html",
+    "status": 200,
+    "states": [
+      {
+        "label": "final",
+        "violations": [],
+        "incomplete": 2
+      },
+      {
+        "label": "nav-hover-top",
+        "violations": [],
+        "incomplete": 2
+      },
+      {
+        "label": "nav-scrolled",
+        "violations": [],
+        "incomplete": 2
+      }
+    ]
+  },
+  {
+    "vp": "narrow",
+    "path": "/case-studies/harmony.html",
+    "status": 200,
+    "states": [
+      {
+        "label": "final",
+        "violations": [],
+        "incomplete": 0
+      },
+      {
+        "label": "nav-hover-top",
+        "violations": [],
+        "incomplete": 0
+      },
+      {
+        "label": "nav-scrolled",
+        "violations": [],
+        "incomplete": 0
+      }
+    ]
+  }
+]

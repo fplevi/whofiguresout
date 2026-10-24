@@ -6,9 +6,10 @@
 
   /* Text */
   --text-primary:    rgba(242, 242, 245, 1.00);
-  --text-secondary:  rgba(242, 242, 245, 0.45);
-  --text-muted:      rgba(242, 242, 245, 0.45);
-  --text-ghost:      rgba(242, 242, 245, 0.20);
+  /* Lowest alphas that keep 4.5:1 on every surface, hover and tint in use */
+  --text-secondary:  rgba(242, 242, 245, 0.58);
+  --text-muted:      rgba(242, 242, 245, 0.58);
+  --text-ghost:      rgba(242, 242, 245, 0.52);
   --text-secondary-strong: rgba(242, 242, 245, 0.65);
   --text-muted-strong:     rgba(242, 242, 245, 0.60);
   --text-index:      rgba(242, 242, 245, 0.025);

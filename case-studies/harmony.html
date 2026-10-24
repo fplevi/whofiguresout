@@ -3,20 +3,23 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Harmony — Design System case study by Felipe Levi. Five platforms, four years of diverging decisions. We built the system that made good design durable." />
+  <!-- No favicon yet: declare it so browsers skip the /favicon.ico 404 -->
+  <link rel="icon" href="data:," />
+  <meta name="description" content="Harmony — Design System case study by Felipe Levi. A shared foundation for new projects at CASSI, with gradual migration of existing products and ongoing component development." />
   <title>Harmony — Felipe Levi</title>
 
   <!-- Open Graph -->
   <meta property="og:title" content="Harmony — Design System — Felipe Levi" />
-  <meta property="og:description" content="Five platforms, four years of diverging decisions. We built the system that made good design durable." />
+  <meta property="og:description" content="A shared foundation for new projects at CASSI, with gradual migration of existing products and ongoing component development." />
   <meta property="og:image" content="https://felipelevi.site/assets/images/og-thumbnail.jpg" />
   <meta property="og:url" content="https://felipelevi.site/case-studies/harmony.html" />
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:image" content="https://felipelevi.site/assets/images/og-thumbnail.jpg" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" href="../assets/fonts/inter-normal-latin.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="../assets/fonts/fraunces-normal-latin.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="../assets/css/fonts.css" />
 
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-C0GC2E2VMN"></script>
@@ -40,8 +43,8 @@
   <link rel="stylesheet" href="../assets/css/tokens.css" />
   <link rel="stylesheet" href="../assets/css/global.css" />
   <link rel="stylesheet" href="../assets/css/nav.css" />
-  <link rel="stylesheet" href="../assets/css/contact.css" />
-  <link rel="stylesheet" href="../assets/css/case-study.css" />
+  <link rel="stylesheet" href="../assets/css/contact.css?v=20261024-copy" />
+  <link rel="stylesheet" href="../assets/css/case-study.css?v=20261024-notes" />
 </head>
 <body>
 
@@ -63,7 +66,7 @@
       <a href="../" class="cs-header__back">← Back to work</a>
       <span class="section-tag cs-header__tag">Design System</span>
       <h1 class="cs-header__title">Harmony</h1>
-      <p class="cs-header__hook">Five platforms, four years of diverging decisions. We built the system that made good design durable.</p>
+      <p class="cs-header__hook">A shared design system for CASSI's new projects, with existing products migrating gradually.</p>
 
       <div class="cs-meta" role="list">
         <div class="cs-meta__pill" role="listitem">
@@ -72,92 +75,89 @@
         </div>
         <div class="cs-meta__pill" role="listitem">
           <p class="cs-meta__label">Timeline</p>
-          <p class="cs-meta__value">3 months build · 3 years groundwork</p>
+          <p class="cs-meta__value">Ongoing evolution</p>
         </div>
         <div class="cs-meta__pill" role="listitem">
           <p class="cs-meta__label">Outcome</p>
-          <p class="cs-meta__value">50% faster delivery</p>
+          <p class="cs-meta__value">Adopted in new projects</p>
         </div>
       </div>
     </section>
 
     <!-- Hero Image -->
     <div class="cs-hero-image" role="img" aria-label="Harmony design system — hero image">
-      <img src="../assets/images/harmony/harmony-hero.gif" alt="Harmony Design System — product walkthrough" class="cs-hero-image__img" />
+      <video class="cs-hero-image__img" src="../assets/images/harmony/harmony-hero.mp4" poster="../assets/images/harmony/harmony-hero-poster.webp" width="1440" height="900" autoplay muted loop playsinline></video>
     </div>
 
     <!-- The Problem -->
     <section class="cs-section" aria-labelledby="harmony-problem">
       <span class="section-tag cs-section__tag">The Problem</span>
-      <h2 class="cs-section__title" id="harmony-problem">Good decisions couldn't compound.</h2>
-      <div class="cs-problem__layout">
-        <p class="cs-section__body">
-          CASSI's digital ecosystem spans five platforms maintained by separate Figma libraries with different update cycles, inconsistent token structures, and no shared governance. Every pattern solved in one platform had to be re-litigated in the next. Four years of design work existed in five places simultaneously — and effectively in none of them.
-        </p>
-        <aside class="cs-stakes" aria-label="Organizational cost">
-          <p class="cs-stakes__label">Organizational Cost</p>
-          <p class="cs-stakes__content">
-            5 platforms<br>
-            5 diverging libraries<br>
-            Inconsistent decision-making<br>
-            Repeated work
-          </p>
-        </aside>
-      </div>
+      <h2 class="cs-section__title" id="harmony-problem">Separate libraries. Repeated decisions.</h2>
+      <p class="cs-section__body">
+        CASSI's five platforms had separate Figma libraries and no shared governance. That fragmentation showed up in everyday design work:
+      </p>
+      <ul class="cs-problem__points">
+        <li>Library updates had to be maintained separately across five platforms.</li>
+        <li>Tokens and patterns diverged as each library followed a different update cycle.</li>
+        <li>Teams revisited component decisions and repeated design work across products.</li>
+      </ul>
     </section>
 
     <!-- My Role -->
     <section class="cs-section" aria-labelledby="harmony-role">
       <span class="section-tag cs-section__tag">My Role</span>
-      <h2 class="cs-section__title" id="harmony-role">End to end — from politics to production.</h2>
+      <h2 class="cs-section__title" id="harmony-role">Leading design, working with development.</h2>
       <p class="cs-section__body">
-        I led Harmony from initial articulation through production launch — including three years of organizational groundwork before a single component was built. Once approved, I defined the governance model, led the hands-on build of components, tokens, and variables, and oversaw adoption across all five platforms.
+        I led the design of Harmony, from organizational alignment and governance to components, tokens, and variables. The development team implements the React library in partnership with me. I continue to evolve existing components and design new ones, working with the team to keep the system up to date.
       </p>
     </section>
 
     <!-- The Decisions -->
     <section class="cs-section" aria-labelledby="harmony-decisions">
       <span class="section-tag cs-section__tag">The Decisions</span>
-      <h2 class="cs-section__title" id="harmony-decisions">Three decisions that shaped everything.</h2>
+      <h2 class="cs-section__title" id="harmony-decisions">Building a shared foundation.</h2>
 
-      <div class="cs-decisions">
+      <div class="cs-decisions cs-decisions--stacked">
 
         <div class="cs-decision">
           <div class="cs-decision__left">
             <span class="cs-decision__number">01</span>
-            <h3 class="cs-decision__title">Unification over federation</h3>
+            <h3 class="cs-decision__title">One shared library</h3>
             <p class="cs-decision__body">
-              A federated model gives teams autonomy but creates coordination overhead. For CASSI's team size and cross-platform consistency requirements, one library with well-governed exceptions was the right call — even if it meant harder conversations upfront.
+              We chose a unified library rather than maintaining separate foundations for each platform. Shared governance and defined exceptions gave the team a common reference for component decisions, while allowing the system to evolve with product needs.
             </p>
-          </div>
-          <div>
-            <span class="cs-decision__tradeoff">We gained one source of truth.</span>
+            <p class="cs-decision__note">
+              <span class="cs-decision__note-icon cs-decision__note-icon--components" aria-hidden="true"></span>
+              <span>One shared reference for component decisions.</span>
+            </p>
           </div>
         </div>
 
         <div class="cs-decision">
           <div class="cs-decision__left">
             <span class="cs-decision__number">02</span>
-            <h3 class="cs-decision__title">React + Next.js as an organizational decision</h3>
+            <h3 class="cs-decision__title">React + Next.js for the product ecosystem</h3>
             <p class="cs-decision__body">
-              Choosing the technology stack wasn't just a technical decision — it was a talent strategy. A dominant market stack widens the available talent pool and reduces onboarding friction for an 80-year-old institution carrying legacy debt.
+              React and Next.js were chosen with long-term maintenance and hiring in mind. The intent was to give development a shared technical foundation as new projects adopt Harmony and existing products migrate.
             </p>
-          </div>
-          <div>
-            <span class="cs-decision__tradeoff">We traded bleeding-edge for sustainability.</span>
+            <p class="cs-decision__note">
+              <span class="cs-decision__note-icon cs-decision__note-icon--maintenance" aria-hidden="true"></span>
+              <span>Long-term maintenance guided the technology choice.</span>
+            </p>
           </div>
         </div>
 
         <div class="cs-decision">
           <div class="cs-decision__left">
             <span class="cs-decision__number">03</span>
-            <h3 class="cs-decision__title">Accessibility and content as structural requirements</h3>
+            <h3 class="cs-decision__title">Accessibility and content in component design</h3>
             <p class="cs-decision__body">
-              Both ContentOps standards and accessibility criteria were built into components at the token level — not documented separately. An error state ships with correct contrast, correct ARIA attributes, and a content pattern. Because those aren't three decisions. They're one component.
+              Accessibility and content guidance were included in component design alongside visual tokens and interaction states. Contrast, component semantics, and error messages needed to be considered together, with design and development addressing their respective parts.
             </p>
-          </div>
-          <div>
-            <span class="cs-decision__tradeoff">We traded build speed for zero retrofit cost.</span>
+            <p class="cs-decision__note">
+              <span class="cs-decision__note-icon cs-decision__note-icon--accessibility" aria-hidden="true"></span>
+              <span>Accessibility and content are ongoing component requirements.</span>
+            </p>
           </div>
         </div>
 
@@ -167,20 +167,20 @@
     <!-- What Shipped -->
     <section class="cs-section" aria-labelledby="harmony-shipped">
       <span class="section-tag cs-section__tag">What Shipped</span>
-      <h2 class="cs-section__title" id="harmony-shipped">One library. Five platforms. Zero inconsistencies.</h2>
+      <h2 class="cs-section__title" id="harmony-shipped">A shared library, with adoption in progress.</h2>
 
       <div class="cs-image-grid">
         <figure class="cs-image-figure">
           <div class="cs-image-cell cs-image-cell--auto">
-            <img src="../assets/images/harmony/harmony-antes.jpg" alt="Harmony — older Figma organization" class="cs-image-cell__img" />
+            <img src="../assets/images/harmony/harmony-antes.jpg" width="1216" height="724" loading="lazy" decoding="async" alt="Harmony — older Figma organization" class="cs-image-cell__img" />
           </div>
-          <figcaption class="cs-image-caption">Our Figma organization before Harmony — fragmented libraries with no shared structure across platforms.</figcaption>
+          <figcaption class="cs-image-caption">Before Harmony: separate Figma libraries across CASSI's platforms.</figcaption>
         </figure>
         <figure class="cs-image-figure">
           <div class="cs-image-cell cs-image-cell--auto">
-            <img src="../assets/images/harmony/harmony-depois.jpg" alt="Harmony — current Figma organization" class="cs-image-cell__img" />
+            <img src="../assets/images/harmony/harmony-depois.jpg" width="1216" height="724" loading="lazy" decoding="async" alt="Harmony — current Figma organization" class="cs-image-cell__img" />
           </div>
-          <figcaption class="cs-image-caption">Current Figma organization under Harmony — one unified library serving all five platforms.</figcaption>
+          <figcaption class="cs-image-caption">With Harmony: a shared Figma library supporting new projects and the gradual migration of existing products.</figcaption>
         </figure>
       </div>
     </section>
@@ -188,26 +188,25 @@
     <!-- The Outcome -->
     <section class="cs-section" aria-labelledby="harmony-outcome">
       <span class="section-tag cs-section__tag">The Outcome</span>
-      <h2 class="cs-section__title" id="harmony-outcome">Shipped in 3 months. Halved delivery time.</h2>
+      <h2 class="cs-section__title" id="harmony-outcome">Adopted in new projects. Evolving with the team.</h2>
+      <p class="cs-section__body">
+        Harmony is now the foundation for new projects at CASSI. Existing products are being migrated gradually, so adoption across the ecosystem remains an ongoing effort.
+      </p>
+      <p class="cs-section__body">
+        The work continues through updates to existing components and the design and implementation of new ones. I work with the development team to keep the system aligned as it evolves.
+      </p>
+    </section>
 
-      <div class="cs-stats" role="list">
-        <div class="cs-stat" role="listitem">
-          <p class="cs-stat__number">50%</p>
-          <p class="cs-stat__label">reduction in delivery cycle time</p>
-        </div>
-        <div class="cs-stat" role="listitem">
-          <p class="cs-stat__number">5</p>
-          <p class="cs-stat__label">platforms unified under one library</p>
-        </div>
-        <div class="cs-stat" role="listitem">
-          <p class="cs-stat__number">16w → 8w</p>
-          <p class="cs-stat__label">second product built in half the time</p>
-        </div>
-        <div class="cs-stat" role="listitem">
-          <p class="cs-stat__number">Jan 2026</p>
-          <p class="cs-stat__label">Storybook library launched</p>
-        </div>
-      </div>
+    <!-- Work in Progress -->
+    <section class="cs-section" aria-labelledby="harmony-progress">
+      <span class="section-tag cs-section__tag">Work in Progress</span>
+      <h2 class="cs-section__title" id="harmony-progress">Prototyping with AI, exploring the path to React.</h2>
+      <p class="cs-section__body">
+        I am working with the development team to explore AI-assisted process automation. We are building libraries and skills to support functional HTML, CSS, and JavaScript prototypes for user validation.
+      </p>
+      <p class="cs-section__body">
+        We are also developing and evaluating a way to translate those prototypes into Harmony's React components. This work is still in development.
+      </p>
     </section>
 
     <!-- Next Project -->
@@ -224,7 +223,15 @@
       <h2 class="contact__headline">Let's work together.</h2>
 
       <div class="contact__links">
-        <a href="mailto:fplevi@gmail.com" class="contact__link">fplevi@gmail.com</a>
+        <span class="contact__email">
+          <a href="mailto:fplevi@gmail.com" class="contact__link">fplevi@gmail.com</a>
+          <button type="button" class="contact__copy" aria-label="Copy email address" title="Copy email address">
+            <svg width="24" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+              <path d="M23 8H5C4.73478 8 4.48043 8.10536 4.29289 8.29289C4.10536 8.48043 4 8.73478 4 9V27C4 27.2652 4.10536 27.5196 4.29289 27.7071C4.48043 27.8946 4.73478 28 5 28H23C23.2652 28 23.5196 27.8946 23.7071 27.7071C23.8946 27.5196 24 27.2652 24 27V9C24 8.73478 23.8946 8.48043 23.7071 8.29289C23.5196 8.10536 23.2652 8 23 8ZM22 26H6V10H22V26ZM28 5V23C28 23.2652 27.8946 23.5196 27.7071 23.7071C27.5196 23.8946 27.2652 24 27 24C26.7348 24 26.4804 23.8946 26.2929 23.7071C26.1054 23.5196 26 23.2652 26 23V6H9C8.73478 6 8.48043 5.89464 8.29289 5.70711C8.10536 5.51957 8 5.26522 8 5C8 4.73478 8.10536 4.48043 8.29289 4.29289C8.48043 4.10536 8.73478 4 9 4H27C27.2652 4 27.5196 4.10536 27.7071 4.29289C27.8946 4.48043 28 4.73478 28 5Z" fill="var(--accent-primary, #F4A87C)" />
+            </svg>
+          </button>
+          <span class="contact__copy-feedback" role="status" aria-live="polite" aria-atomic="true"></span>
+        </span>
         <span class="contact__separator" aria-hidden="true">·</span>
         <a href="https://linkedin.com/in/fplevi" class="contact__link" target="_blank" rel="noopener noreferrer">LinkedIn</a>
       </div>
@@ -255,7 +262,7 @@
   </main>
 
   <script src="../assets/js/scroll-animations.js" type="module"></script>
-  <script src="../assets/js/contact-form.js" type="module"></script>
+  <script src="../assets/js/contact-form.js?v=20261024-clipboard" defer></script>
 
 </body>
 </html>
