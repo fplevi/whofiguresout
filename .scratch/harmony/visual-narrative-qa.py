@@ -13,11 +13,12 @@ sys.stdout.reconfigure(encoding='utf-8')
 parser = argparse.ArgumentParser()
 parser.add_argument('--slice', choices=['primitives', 'semantics', 'responsive', 'all', 'matrix', 'navigation', 'captures'], required=True)
 parser.add_argument('--label', required=True)
+parser.add_argument('--url', default='http://localhost:8011/case-studies/harmony.html')
 args = parser.parse_args()
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / 'qa' / args.label
 OUT.mkdir(parents=True, exist_ok=True)
-URL = 'http://localhost:8011/case-studies/harmony.html'
+URL = args.url
 R = {'checks': [], 'console': [], 'failed_requests': []}
 EVIDENCE = [('primitives', 'Primitive color scales'),
             ('semantics', 'Semantic roles by use'),
@@ -63,8 +64,17 @@ with sync_playwright() as p:
                 prefix = f'{width}/{motion}'
                 # Start at the top. Check rendered content as a real wheel reaches
                 # it, rather than letting a later jump conceal a reveal failure.
-                seen, concealed = set(), []
+                seen, concealed, arrivals = set(), [], []
+                start_y = page.evaluate('scrollY')
                 for step in range(150):
+                    # Preserve arrival viewports from the real wheel traversal,
+                    # before the separate element-capture jumps below.
+                    headings = page.locator('main h2, main h3').evaluate_all("""es=>es.filter(e=>{const r=e.getBoundingClientRect();return r.top>=88&&r.top<620;}).map(e=>({id:e.id,text:e.textContent}))""")
+                    for heading in headings:
+                        if heading['id'] not in [h['id'] for h in arrivals]:
+                            filename = f'wheel-{width}-{motion}-{heading["id"]}.png'
+                            page.screenshot(path=str(OUT / filename))
+                            arrivals.append({**heading, 'scrollY': page.evaluate('scrollY'), 'capture': filename})
                     observations = page.evaluate("""()=>[...document.querySelectorAll('main h1, main h2, main h3, main p, main li, main figure, main form')].flatMap((e,index)=>{
                       const r=e.getBoundingClientRect(); if(r.bottom<100||r.top>620)return [];
                       let visible=true;for(let a=e;a;a=a.parentElement){const s=getComputedStyle(a);if(+s.opacity<0.99||s.visibility==='hidden'||s.display==='none')visible=false;}
@@ -79,6 +89,7 @@ with sync_playwright() as p:
                     page.mouse.wheel(0, 300)
                     page.wait_for_timeout(600)
                 check(f'{prefix}: content visible when reached by wheel', not concealed, {'observedElements': len(seen), 'concealed': concealed})
+                check(f'{prefix}: wheel traverses from top to document bottom', start_y == 0 and page.evaluate('scrollY+innerHeight>=document.documentElement.scrollHeight-2'), {'startY': start_y, 'endY': page.evaluate('scrollY'), 'steps': step, 'arrivals': arrivals})
                 page.wait_for_function('[...document.images].every(i=>i.complete&&i.naturalWidth>0)')
                 check(f'{prefix}: no horizontal overflow', page.evaluate('document.documentElement.scrollWidth<=innerWidth'))
                 # Public headings and region associations, no class/nesting contract.
