@@ -32,14 +32,22 @@ result = read_json(OUT / 'final-checks.json')
 result['testedHead'] = git('rev-parse', 'HEAD').decode().strip()
 result['mergeCommit'] = '5581f26'
 result['parents'] = ['af687df', 'a09eb9e720f2d4219638d28df858d55ee69a1560']
+# Standards review authorized only title-primitive reuse, tokenized focus spacing
+# and local width consolidation. Pin those two files to that reviewed runtime;
+# all other product bytes still use the original integration merge baseline.
+result['reviewedRuntimeRevision'] = '8011e432ba50dc47fe0ef56d499164b65ddfc5df'
+result['reviewedRuntimeChanges'] = ['case-studies/enrollment.html', 'assets/css/enrollment.css']
+result['productBaselineByPath'] = {}
 result['productHashes'] = {}
 originals = git('ls-tree', '-r', '--name-only', 'f8f9034', '--', 'assets/images/enrollment').decode().splitlines()
 for rel in ['case-studies/enrollment.html', 'assets/css/enrollment.css',
             'assets/images/enrollment/submission-analysis.webp', *originals]:
     data = (ROOT / rel).read_bytes()
     result['productHashes'][rel] = sha(data)
-    # Product bytes were not changed during integration QA.
-    committed = git('show', f'5581f26:{rel}')
+    ref = (result['reviewedRuntimeRevision'] if rel in result['reviewedRuntimeChanges']
+           else result['mergeCommit'])
+    result['productBaselineByPath'][rel] = ref
+    committed = git('show', f'{ref}:{rel}')
     assert data == committed or data.replace(b'\r\n', b'\n') == committed, rel
 
 issue = ROOT / '.scratch/enrollment/issues/01-metric-definition.md'
@@ -73,9 +81,11 @@ for ticket in ['02', '03', '04']:
             assert sha(source.read_bytes()) == item['sha256']
     result['manifests'].append({'path': rel, 'assetsVerified': len(manifest['assets'])})
 
-# Check immutable QA captures/reports from both inputs, including recovered evidence.
+# Check both integration inputs and the completed pre-review evidence. None of
+# these historical artifacts are replaced by the current review-fixes run.
+result['historicalRefs'] = [*result['parents'], 'c356ef26694dfa6f489764b086589a94b572e0bb']
 history = []
-for ref in result['parents']:
+for ref in result['historicalRefs']:
     paths = git('ls-tree', '-r', '--name-only', ref, '--', '.scratch/enrollment').decode().splitlines()
     for rel in paths:
         if not (rel.startswith('.scratch/enrollment/qa/') or '/validation' in rel
@@ -94,7 +104,7 @@ for ref in result['parents']:
         history.append({'ref': ref, 'path': rel, 'workingSHA256': sha(actual),
                         'olderReportRetainedWithExistingIntegrationAppendix': extended_report and normalized != expected})
 (OUT / 'historical-preservation.json').write_text(json.dumps(history, indent=2), encoding='utf-8')
-result['historicalArtifactsVerifiedByParent'] = {ref: sum(h['ref'] == ref for h in history) for ref in result['parents']}
+result['historicalArtifactsVerifiedByParent'] = {ref: sum(h['ref'] == ref for h in history) for ref in result['historicalRefs']}
 
 matrix = read_json(OUT / 'validation.json')
 assert len(matrix['cases']) == 8 and matrix['summary']['failed'] == 0 and not matrix['errors']
