@@ -62,18 +62,14 @@
   margin-top: var(--space-32);
 }
 
-/* Dense library evidence gets its own wide row and a focused, readable crop. */
-.cs-app__feature--library {
-  grid-template-columns: minmax(0, 1fr);
-  gap: var(--space-32);
-}
-
+/* The full button documentation page fills its column; its own canvas
+   replaces the figure padding. */
 .cs-app__feature--library .cs-app__figure {
-  padding: var(--space-32) 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 .cs-app__feature--library img {
-  max-width: 480px;
   max-height: none;
 }
 
@@ -104,13 +100,16 @@
   max-height: none;
 }
 
+/* Network and library rows put evidence on the left, so desktop alternates. */
 @media (min-width: 769px) {
-  .cs-app__feature--network .cs-app__feature-copy {
+  .cs-app__feature--network .cs-app__feature-copy,
+  .cs-app__feature--library .cs-app__feature-copy {
     grid-column: 2;
     grid-row: 1;
   }
 
-  .cs-app__feature--network .cs-app__figure {
+  .cs-app__feature--network .cs-app__figure,
+  .cs-app__feature--library .cs-app__figure {
     grid-column: 1;
     grid-row: 1;
   }
