@@ -1,0 +1,35 @@
+{
+  "checks": [
+    {
+      "name": "reader finds template composition evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "one loaded image with meaningful alternative",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "explanation precedes associated evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320: template heading words stay intact",
+      "ok": false,
+      "detail": null
+    }
+  ],
+  "console": [],
+  "failed_requests": [],
+  "environment": {
+    "browser": "156.0.8078.4",
+    "url": "http://localhost:8023/case-studies/harmony.html",
+    "viewportHeight": 700
+  },
+  "summary": {
+    "passed": 3,
+    "failed": 1
+  }
+}

@@ -5,6 +5,40 @@
   border-top: 1px solid var(--background-divider);
 }
 
+/* Ticket 03: wide composition context; focused source selections on mobile.
+   Static section avoids gating this tall evidence on reveal animation. */
+.harmony-case .harmony-templates {
+  padding: var(--space-80) var(--margin);
+  border-top: 1px solid var(--background-divider);
+}
+
+.harmony-case .harmony-templates figure {
+  margin: 0;
+}
+
+.harmony-case .harmony-templates img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  margin-inline: auto;
+  border-radius: var(--radius-md);
+}
+
+.harmony-case .harmony-templates figcaption {
+  max-width: 840px;
+  margin-top: var(--space-16);
+  font-size: var(--size-body-sm);
+  line-height: 1.7;
+  color: var(--text-secondary-strong);
+}
+
+@media (max-width: 1024px) {
+  .harmony-case .harmony-templates {
+    padding-inline: var(--space-24);
+  }
+}
+
 .harmony-case .harmony-foundations__intro .cs-section__body {
   color: var(--text-secondary-strong);
 }
