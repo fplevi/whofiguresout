@@ -106,13 +106,21 @@
   margin-top: var(--space-16);
 }
 
-/* Same text-link treatment as the Convenios store links. */
+/* Invitation to the production journey; the link keeps the Convenios store-link treatment. */
 .enrollment-live {
-  margin-top: var(--space-32);
+  margin-top: var(--space-64);
+  padding-top: var(--space-40);
+  border-top: 1px solid var(--background-divider);
+}
+
+.enrollment-live .cs-section__body {
+  margin-top: var(--space-16);
+  text-wrap: pretty;
 }
 
 .enrollment-live a {
   display: inline-flex;
+  margin-top: var(--space-16);
   align-items: center;
   min-height: 44px;
   color: var(--accent-primary);
