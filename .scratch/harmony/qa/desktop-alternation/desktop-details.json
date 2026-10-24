@@ -1,0 +1,212 @@
+[
+  {
+    "width": 1025,
+    "title": "Primitive color scales",
+    "imageWidth": 533.953125,
+    "imageHeight": 215.15625,
+    "imageLeft": true,
+    "imageRight": false,
+    "copyWidth": 267,
+    "clipped": false
+  },
+  {
+    "width": 1025,
+    "title": "Semantic roles by use",
+    "imageWidth": 533.984375,
+    "imageHeight": 205.4375,
+    "imageLeft": false,
+    "imageRight": true,
+    "copyWidth": 267,
+    "clipped": false
+  },
+  {
+    "width": 1025,
+    "title": "Responsive variables",
+    "imageWidth": 534,
+    "imageHeight": 333.75,
+    "imageLeft": true,
+    "imageRight": false,
+    "copyWidth": 267,
+    "clipped": false
+  },
+  {
+    "width": 1025,
+    "title": "Button variants, sizes, and states",
+    "imageWidth": 400,
+    "imageHeight": 687,
+    "imageLeft": false,
+    "imageRight": true,
+    "copyWidth": 267,
+    "clipped": false
+  },
+  {
+    "width": 1025,
+    "title": "Navigation across contexts",
+    "imageWidth": 300,
+    "imageHeight": 670,
+    "imageLeft": true,
+    "imageRight": false,
+    "copyWidth": 267,
+    "clipped": false
+  },
+  {
+    "width": 1025,
+    "title": "Composing page templates",
+    "imageWidth": 533.96875,
+    "imageHeight": 260.84375,
+    "imageLeft": false,
+    "imageRight": true,
+    "copyWidth": 267,
+    "clipped": false
+  },
+  {
+    "width": 1025,
+    "title": "Button properties in Storybook",
+    "imageWidth": 534,
+    "imageHeight": 272.5625,
+    "imageLeft": true,
+    "imageRight": false,
+    "copyWidth": 267,
+    "clipped": false
+  },
+  {
+    "width": 1440,
+    "title": "Primitive color scales",
+    "imageWidth": 719.96875,
+    "imageHeight": 290.109375,
+    "imageLeft": true,
+    "imageRight": false,
+    "copyWidth": 405.34375,
+    "clipped": false
+  },
+  {
+    "width": 1440,
+    "title": "Semantic roles by use",
+    "imageWidth": 720,
+    "imageHeight": 277,
+    "imageLeft": false,
+    "imageRight": true,
+    "copyWidth": 405.328125,
+    "clipped": false
+  },
+  {
+    "width": 1440,
+    "title": "Responsive variables",
+    "imageWidth": 720,
+    "imageHeight": 450,
+    "imageLeft": true,
+    "imageRight": false,
+    "copyWidth": 405.34375,
+    "clipped": false
+  },
+  {
+    "width": 1440,
+    "title": "Button variants, sizes, and states",
+    "imageWidth": 400,
+    "imageHeight": 687,
+    "imageLeft": false,
+    "imageRight": true,
+    "copyWidth": 405.328125,
+    "clipped": false
+  },
+  {
+    "width": 1440,
+    "title": "Navigation across contexts",
+    "imageWidth": 300,
+    "imageHeight": 670,
+    "imageLeft": true,
+    "imageRight": false,
+    "copyWidth": 405.34375,
+    "clipped": false
+  },
+  {
+    "width": 1440,
+    "title": "Composing page templates",
+    "imageWidth": 719.984375,
+    "imageHeight": 351.71875,
+    "imageLeft": false,
+    "imageRight": true,
+    "copyWidth": 405.328125,
+    "clipped": false
+  },
+  {
+    "width": 1440,
+    "title": "Button properties in Storybook",
+    "imageWidth": 720,
+    "imageHeight": 367.5,
+    "imageLeft": true,
+    "imageRight": false,
+    "copyWidth": 405.34375,
+    "clipped": false
+  },
+  {
+    "width": 1920,
+    "title": "Primitive color scales",
+    "imageWidth": 719.96875,
+    "imageHeight": 290.109375,
+    "imageLeft": true,
+    "imageRight": false,
+    "copyWidth": 405.34375,
+    "clipped": false
+  },
+  {
+    "width": 1920,
+    "title": "Semantic roles by use",
+    "imageWidth": 720,
+    "imageHeight": 277,
+    "imageLeft": false,
+    "imageRight": true,
+    "copyWidth": 405.328125,
+    "clipped": false
+  },
+  {
+    "width": 1920,
+    "title": "Responsive variables",
+    "imageWidth": 720,
+    "imageHeight": 450,
+    "imageLeft": true,
+    "imageRight": false,
+    "copyWidth": 405.34375,
+    "clipped": false
+  },
+  {
+    "width": 1920,
+    "title": "Button variants, sizes, and states",
+    "imageWidth": 400,
+    "imageHeight": 687,
+    "imageLeft": false,
+    "imageRight": true,
+    "copyWidth": 405.328125,
+    "clipped": false
+  },
+  {
+    "width": 1920,
+    "title": "Navigation across contexts",
+    "imageWidth": 300,
+    "imageHeight": 670,
+    "imageLeft": true,
+    "imageRight": false,
+    "copyWidth": 405.34375,
+    "clipped": false
+  },
+  {
+    "width": 1920,
+    "title": "Composing page templates",
+    "imageWidth": 719.984375,
+    "imageHeight": 351.71875,
+    "imageLeft": false,
+    "imageRight": true,
+    "copyWidth": 405.328125,
+    "clipped": false
+  },
+  {
+    "width": 1920,
+    "title": "Button properties in Storybook",
+    "imageWidth": 720,
+    "imageHeight": 367.5,
+    "imageLeft": true,
+    "imageRight": false,
+    "copyWidth": 405.34375,
+    "clipped": false
+  }
+]

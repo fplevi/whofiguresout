@@ -1,0 +1,387 @@
+{
+  "baseline": "55f578992715afbb8f21cdc84f71dd7ac11a5b08",
+  "measurements": [
+    {
+      "width": 375,
+      "title": "Primitive color scales",
+      "imageWidth": 296,
+      "imageHeight": 480,
+      "copyWidth": 327,
+      "copyBefore": true,
+      "source": "primitive-selected-light-steps-mobile.png",
+      "imageNaturalWidth": 296
+    },
+    {
+      "width": 375,
+      "title": "Semantic roles by use",
+      "imageWidth": 326.984375,
+      "imageHeight": 482.890625,
+      "copyWidth": 327,
+      "copyBefore": true,
+      "source": "semantic-default-soft-roles-mobile.png",
+      "imageNaturalWidth": 344
+    },
+    {
+      "width": 375,
+      "title": "Responsive variables",
+      "imageWidth": 326.984375,
+      "imageHeight": 1064.3125,
+      "copyWidth": 327,
+      "copyBefore": true,
+      "source": "responsive-mode-selections-mobile.png",
+      "imageNaturalWidth": 467
+    },
+    {
+      "width": 375,
+      "title": "Button variants, sizes, and states",
+      "imageWidth": 326.984375,
+      "imageHeight": 561.609375,
+      "copyWidth": 327,
+      "copyBefore": true,
+      "source": "button-standard-solid-outline-normal-small.png",
+      "imageNaturalWidth": 400
+    },
+    {
+      "width": 375,
+      "title": "Navigation across contexts",
+      "imageWidth": 300,
+      "imageHeight": 670,
+      "copyWidth": 327,
+      "copyBefore": true,
+      "source": "portal-intranet-profile-navigation.png",
+      "imageNaturalWidth": 300
+    },
+    {
+      "width": 375,
+      "title": "Composing page templates",
+      "imageWidth": 296,
+      "imageHeight": 1012,
+      "copyWidth": 327,
+      "copyBefore": true,
+      "source": "template-card-success-configuration-mobile.png",
+      "imageNaturalWidth": 296
+    },
+    {
+      "width": 375,
+      "title": "Button properties in Storybook",
+      "imageWidth": 326.984375,
+      "imageHeight": 597.9375,
+      "copyWidth": 327,
+      "copyBefore": true,
+      "source": "storybook-button-selected-properties-mobile.png",
+      "imageNaturalWidth": 350
+    },
+    {
+      "width": 768,
+      "title": "Primitive color scales",
+      "imageWidth": 296,
+      "imageHeight": 480,
+      "copyWidth": 720,
+      "copyBefore": true,
+      "source": "primitive-selected-light-steps-mobile.png",
+      "imageNaturalWidth": 296
+    },
+    {
+      "width": 768,
+      "title": "Semantic roles by use",
+      "imageWidth": 344,
+      "imageHeight": 508,
+      "copyWidth": 720,
+      "copyBefore": true,
+      "source": "semantic-default-soft-roles-mobile.png",
+      "imageNaturalWidth": 344
+    },
+    {
+      "width": 768,
+      "title": "Responsive variables",
+      "imageWidth": 467,
+      "imageHeight": 1520,
+      "copyWidth": 720,
+      "copyBefore": true,
+      "source": "responsive-mode-selections-mobile.png",
+      "imageNaturalWidth": 467
+    },
+    {
+      "width": 768,
+      "title": "Button variants, sizes, and states",
+      "imageWidth": 400,
+      "imageHeight": 687,
+      "copyWidth": 720,
+      "copyBefore": true,
+      "source": "button-standard-solid-outline-normal-small.png",
+      "imageNaturalWidth": 400
+    },
+    {
+      "width": 768,
+      "title": "Navigation across contexts",
+      "imageWidth": 300,
+      "imageHeight": 670,
+      "copyWidth": 720,
+      "copyBefore": true,
+      "source": "portal-intranet-profile-navigation.png",
+      "imageNaturalWidth": 300
+    },
+    {
+      "width": 768,
+      "title": "Composing page templates",
+      "imageWidth": 296,
+      "imageHeight": 1012,
+      "copyWidth": 720,
+      "copyBefore": true,
+      "source": "template-card-success-configuration-mobile.png",
+      "imageNaturalWidth": 296
+    },
+    {
+      "width": 768,
+      "title": "Button properties in Storybook",
+      "imageWidth": 350,
+      "imageHeight": 640,
+      "copyWidth": 720,
+      "copyBefore": true,
+      "source": "storybook-button-selected-properties-mobile.png",
+      "imageNaturalWidth": 350
+    },
+    {
+      "width": 1440,
+      "title": "Primitive color scales",
+      "imageWidth": 1279.953125,
+      "imageHeight": 515.75,
+      "copyWidth": 840,
+      "copyBefore": true,
+      "source": "primitive-primary-secondary-scales.png",
+      "imageNaturalWidth": 1360
+    },
+    {
+      "width": 1440,
+      "title": "Semantic roles by use",
+      "imageWidth": 1279.96875,
+      "imageHeight": 492.4375,
+      "copyWidth": 840,
+      "copyBefore": true,
+      "source": "semantic-surface-border-roles.png",
+      "imageNaturalWidth": 1440
+    },
+    {
+      "width": 1440,
+      "title": "Responsive variables",
+      "imageWidth": 1280,
+      "imageHeight": 800,
+      "copyWidth": 840,
+      "copyBefore": true,
+      "source": "variables.png",
+      "imageNaturalWidth": 1920
+    },
+    {
+      "width": 1440,
+      "title": "Button variants, sizes, and states",
+      "imageWidth": 400,
+      "imageHeight": 687,
+      "copyWidth": 600,
+      "copyBefore": false,
+      "source": "button-standard-solid-outline-normal-small.png",
+      "imageNaturalWidth": 400
+    },
+    {
+      "width": 1440,
+      "title": "Navigation across contexts",
+      "imageWidth": 300,
+      "imageHeight": 670,
+      "copyWidth": 600,
+      "copyBefore": false,
+      "source": "portal-intranet-profile-navigation.png",
+      "imageNaturalWidth": 300
+    },
+    {
+      "width": 1440,
+      "title": "Composing page templates",
+      "imageWidth": 1279.96875,
+      "imageHeight": 625.265625,
+      "copyWidth": 840,
+      "copyBefore": true,
+      "source": "template-compositions-configuration-wide.png",
+      "imageNaturalWidth": 1826
+    },
+    {
+      "width": 1440,
+      "title": "Button properties in Storybook",
+      "imageWidth": 1279.984375,
+      "imageHeight": 653.328125,
+      "copyWidth": 840,
+      "copyBefore": true,
+      "source": "storybook-button-properties-wide.png",
+      "imageNaturalWidth": 1920
+    },
+    {
+      "width": 1920,
+      "title": "Primitive color scales",
+      "imageWidth": 1360,
+      "imageHeight": 548,
+      "copyWidth": 840,
+      "copyBefore": true,
+      "source": "primitive-primary-secondary-scales.png",
+      "imageNaturalWidth": 1360
+    },
+    {
+      "width": 1920,
+      "title": "Semantic roles by use",
+      "imageWidth": 1440,
+      "imageHeight": 554,
+      "copyWidth": 840,
+      "copyBefore": true,
+      "source": "semantic-surface-border-roles.png",
+      "imageNaturalWidth": 1440
+    },
+    {
+      "width": 1920,
+      "title": "Responsive variables",
+      "imageWidth": 1760,
+      "imageHeight": 1100,
+      "copyWidth": 840,
+      "copyBefore": true,
+      "source": "variables.png",
+      "imageNaturalWidth": 1920
+    },
+    {
+      "width": 1920,
+      "title": "Button variants, sizes, and states",
+      "imageWidth": 400,
+      "imageHeight": 687,
+      "copyWidth": 840,
+      "copyBefore": false,
+      "source": "button-standard-solid-outline-normal-small.png",
+      "imageNaturalWidth": 400
+    },
+    {
+      "width": 1920,
+      "title": "Navigation across contexts",
+      "imageWidth": 300,
+      "imageHeight": 670,
+      "copyWidth": 840,
+      "copyBefore": false,
+      "source": "portal-intranet-profile-navigation.png",
+      "imageNaturalWidth": 300
+    },
+    {
+      "width": 1920,
+      "title": "Composing page templates",
+      "imageWidth": 1759.96875,
+      "imageHeight": 859.75,
+      "copyWidth": 840,
+      "copyBefore": true,
+      "source": "template-compositions-configuration-wide.png",
+      "imageNaturalWidth": 1826
+    },
+    {
+      "width": 1920,
+      "title": "Button properties in Storybook",
+      "imageWidth": 1759.984375,
+      "imageHeight": 898.328125,
+      "copyWidth": 840,
+      "copyBefore": true,
+      "source": "storybook-button-properties-wide.png",
+      "imageNaturalWidth": 1920
+    }
+  ],
+  "375": [
+    {
+      "src": "primitive-selected-light-steps-mobile.png",
+      "x": 39.5,
+      "y": 3372.21875,
+      "width": 296,
+      "height": 480
+    },
+    {
+      "src": "semantic-default-soft-roles-mobile.png",
+      "x": 24,
+      "y": 4308.65625,
+      "width": 326.984375,
+      "height": 482.890625
+    },
+    {
+      "src": "responsive-mode-selections-mobile.png",
+      "x": 24,
+      "y": 5302.359375,
+      "width": 326.984375,
+      "height": 1064.3125
+    },
+    {
+      "src": "button-standard-solid-outline-normal-small.png",
+      "x": 24,
+      "y": 7500.875,
+      "width": 326.984375,
+      "height": 561.609375
+    },
+    {
+      "src": "portal-intranet-profile-navigation.png",
+      "x": 37.5,
+      "y": 8625.984375,
+      "width": 300,
+      "height": 670
+    },
+    {
+      "src": "template-card-success-configuration-mobile.png",
+      "x": 39.5,
+      "y": 10096.5625,
+      "width": 296,
+      "height": 1012
+    },
+    {
+      "src": "storybook-button-selected-properties-mobile.png",
+      "x": 24,
+      "y": 12104.265625,
+      "width": 326.984375,
+      "height": 597.9375
+    }
+  ],
+  "768": [
+    {
+      "src": "primitive-selected-light-steps-mobile.png",
+      "x": 236,
+      "y": 2697.078125,
+      "width": 296,
+      "height": 480
+    },
+    {
+      "src": "semantic-default-soft-roles-mobile.png",
+      "x": 212,
+      "y": 3480.453125,
+      "width": 344,
+      "height": 508
+    },
+    {
+      "src": "responsive-mode-selections-mobile.png",
+      "x": 150.5,
+      "y": 4319.015625,
+      "width": 467,
+      "height": 1520
+    },
+    {
+      "src": "button-standard-solid-outline-normal-small.png",
+      "x": 184,
+      "y": 6553.125,
+      "width": 400,
+      "height": 687
+    },
+    {
+      "src": "portal-intranet-profile-navigation.png",
+      "x": 234,
+      "y": 7570.6875,
+      "width": 300,
+      "height": 670
+    },
+    {
+      "src": "template-card-success-configuration-mobile.png",
+      "x": 236,
+      "y": 8748.734375,
+      "width": 296,
+      "height": 1012
+    },
+    {
+      "src": "storybook-button-selected-properties-mobile.png",
+      "x": 209,
+      "y": 10382.34375,
+      "width": 350,
+      "height": 640
+    }
+  ]
+}

@@ -139,15 +139,17 @@ with sync_playwright() as p:
                         clipped:[...r.querySelectorAll('h2,h3,p,figcaption')].some(e=>e.scrollWidth>e.clientWidth+1)};}""")
                     check(f'{prefix}/{key}: heading words stay intact', heading_words_intact(region))
                     check(f'{prefix}/{key}: loaded, proportionate, one image', details['loaded'] and details['images'] == 1 and abs(details['ratio'] - details['sourceRatio']) < .01, details)
-                    # Foundation assertions remain unchanged; component copy may
-                    # sit beside the focal image only on a wide viewport.
-                    above = details['disjoint'] if key in ['buttons', 'component-navigation'] and width > 1024 else details['above']
+                    # Desktop follows the user-approved Billing-style alternation;
+                    # smaller screens retain the explanation-first single column.
+                    above = details['disjoint'] if width > 1024 else details['above']
                     check(f'{prefix}/{key}: visible associated copy before evidence', details['domFirst'] and above and details['associated'] and not details['clipped'])
-                    if width == 1440 and key in ['buttons', 'component-navigation']:
-                        check(f'{prefix}/{key}: focal evidence alternates laterally', details['imageRight'] if key == 'buttons' else details['imageLeft'])
+                    if width > 1024:
+                        image_left = EVIDENCE.index((key, title)) % 2 == 0
+                        check(f'{prefix}/{key}: evidence alternates laterally', details['imageLeft'] if image_left else details['imageRight'])
                     check(f'{prefix}/{key}: alternative and no image/disclosure controls', bool(details['alt']) and details['links'] == 0)
                     available = width - (48 if width <= 1024 else 160)
-                    check(f'{prefix}/{key}: useful reading width without raster enlargement', abs(details['width'] - min(details['naturalWidth'], available)) <= 1)
+                    useful_width = (min(details['naturalWidth'], 360) <= details['width'] <= min(details['naturalWidth'], width * .6)) if width > 1024 else abs(details['width'] - min(details['naturalWidth'], available)) <= 1
+                    check(f'{prefix}/{key}: useful reading width without raster enlargement', useful_width)
                     # Readable prose is verified separately from raster detail.
                     check(f'{prefix}/{key}: prose retains 16px typography', float(details['font'][:-2]) >= 16)
                     region.evaluate("e=>window.scrollTo(0,e.getBoundingClientRect().top+scrollY-88)")
