@@ -4,8 +4,10 @@ Adapted from Enrollment qa.py/final_checks.py and Billing visual-narrative-qa.py
 """
 import json
 import os
+import platform
 import re
 from pathlib import Path
+from urllib.parse import urlsplit
 import subprocess
 import sys
 import traceback
@@ -16,9 +18,10 @@ sys.path.insert(0, str(Path(os.environ['TEMP']) / 'portfolio-convenios-qa'))
 from playwright.sync_api import sync_playwright
 
 ROOT = Path(__file__).resolve().parents[2]
-OUT = ROOT / '.scratch/enrollment/qa/ticket-03'
+OUT = Path(os.environ.get('ENROLLMENT_QA_OUT', str(ROOT / '.scratch/enrollment/qa/ticket-03')))
 OUT.mkdir(parents=True, exist_ok=True)
-URL = 'http://127.0.0.1:8123/case-studies/enrollment.html'
+URL = os.environ.get('ENROLLMENT_QA_URL', 'http://127.0.0.1:8123/case-studies/enrollment.html')
+ORIGIN = '{0.scheme}://{0.netloc}'.format(urlsplit(URL))
 NAME = 'Compare plan cards before and plan benefits after'
 
 
@@ -51,7 +54,8 @@ def placement(page):
 
 
 def matrix(browser):
-    report = {'browser': browser.version, 'environment': 'Windows, Python Playwright, headless Chromium; emulated viewport/motion/touch',
+    report = {'browser': browser.version, 'environment': {'os': platform.platform(), 'python': platform.python_version(),
+              'headless': True, 'deviceScaleFactor': 1, 'emulatedTouch': True},
               'testedCommit': subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip(),
               'integrationTip': subprocess.check_output(['git', 'rev-parse', 'integration/enrollment-visual-narrative'], cwd=ROOT, text=True).strip(),
               'url': URL, 'scope': 'Final combined Enrollment page: one discovery board, four interface screens and one comparison, after all four implementation slices merged.',
@@ -68,12 +72,13 @@ def matrix(browser):
                     reduced_motion=motion, has_touch=True, device_scale_factor=1)
                 page = context.new_page()
                 case = {'width': width, 'height': height, 'motion': motion, 'checks': [],
-                        'javascriptErrors': [], 'console': [], 'failedRequests': [], 'httpErrors': []}
+                        'javascriptErrors': [], 'console': [], 'failedRequests': [], 'httpErrors': [], 'contactPosts': []}
                 report['cases'].append(case)
                 page.on('pageerror', lambda e: case['javascriptErrors'].append(str(e)))
                 page.on('console', lambda m: case['console'].append({'type': m.type, 'text': m.text}) if m.type in ['error', 'warning'] else None)
                 page.on('requestfailed', lambda r: case['failedRequests'].append({'url': r.url, 'failure': r.failure}))
                 page.on('response', lambda r: case['httpErrors'].append({'url': r.url, 'status': r.status}) if r.status >= 400 else None)
+                page.on('request', lambda r: case['contactPosts'].append(r.url) if r.method == 'POST' and 'formspree' in r.url else None)
                 prefix = f'{width}-{motion}'
 
                 def check(name, ok, detail=None):
@@ -114,6 +119,7 @@ def matrix(browser):
                     page.wait_for_timeout(550 if motion == 'no-preference' else 100)
                 page.wait_for_timeout(650)
                 case['wheelSteps'] = step
+                check('wheel traversal reaches bottom', page.evaluate('scrollY + innerHeight >= document.documentElement.scrollHeight - 2'))
                 case['seenHeadingsDuringWheel'] = sorted(seen)
                 case['finalSections'] = page.evaluate(section_states)
                 check('all narrative sections become visible through wheel scrolling', all(float(s['opacity']) == 1 for s in case['finalSections']), case['finalSections'])
@@ -126,6 +132,9 @@ def matrix(browser):
                     loading:e.loading, decoding:e.decoding, rect:[e.getBoundingClientRect().width,e.getBoundingClientRect().height]}))''')
                 case['images'] = images
                 check('all current images loaded and proportional', all(i['natural'][0] > 0 and abs(i['rect'][0] / i['rect'][1] - i['natural'][0] / i['natural'][1]) < .005 for i in images))
+                check('all images have source dimensions, specific alternatives and lazy async loading', all(
+                    i['natural'] == [int(v) for v in i['declared']] and len(i['alt']) > 50
+                    and i['loading'] == 'lazy' and i['decoding'] == 'async' for i in images))
                 # Recheck evidence already delivered by other slices on this merged page.
                 evidence = page.locator('.enrollment-discovery, .enrollment-journey-evidence, .enrollment-submission-evidence').evaluate_all('''es => es.map(e => {
                     const image=e.querySelector('img'), copy=e.querySelector('figcaption') || e.querySelector('p:last-of-type'),
@@ -151,6 +160,10 @@ def matrix(browser):
                     i['natural'] == [1440,1485] and i['declared'] == ['1440','1485'] and len(i['alt']) > 50
                     and i['loading'] == 'lazy' and i['decoding'] == 'async' for i in compare_images))
                 check('no horizontal overflow', page.evaluate('document.documentElement.scrollWidth') == width)
+                check('explanations and metrics fit without text clipping', page.locator('figure figcaption h4, figure figcaption p, .enrollment-discovery__copy, .cs-stat__number').evaluate_all('es => es.every(e => e.scrollWidth <= e.clientWidth + 1)'))
+                check('main content fits viewport edges', page.locator('main *').evaluate_all('''es => es.every(e => {
+                    const r=e.getBoundingClientRect(); return !r.width || e.closest('.sr-only') || (r.left >= -.5 && r.right <= innerWidth + .5);
+                })'''))
                 check('all three problem points and decision notes remain', page.locator('.cs-problem__points li').count() == 3 and page.locator('.cs-decision__note').count() == 3)
                 check('no raw-image links or disclosure controls added', page.locator('.enrollment-comparison a, .enrollment-comparison details, .enrollment-comparison button').count() == 0)
                 geometry = page.evaluate('''() => {const c=document.querySelector('.enrollment-comparison figcaption'),
@@ -229,10 +242,16 @@ def matrix(browser):
                 check('touch value corresponds to visible reveal', True)
                 session.detach()
                 check('navigation, back and next destinations are served', all(page.request.get(h).ok for h in [
-                    'http://127.0.0.1:8123/', 'http://127.0.0.1:8123/case-studies/convenios.html']))
+                    ORIGIN + '/', ORIGIN + '/case-studies/convenios.html']))
                 page.locator('#contact').scroll_into_view_if_needed()
                 check('contact fields and copy control available without submission', page.get_by_role('textbox',name='Your name').is_visible() and page.get_by_role('textbox',name='Your email').is_visible() and page.get_by_role('textbox',name='Your message').is_visible() and page.get_by_role('button',name='Copy email address').is_visible())
-                check('no application errors or local failed assets', not case['javascriptErrors'] and not [r for r in case['failedRequests'] + case['httpErrors'] if '127.0.0.1:8123' in r['url']])
+                page.locator('#name').focus()
+                page.keyboard.press('Tab')
+                check('contact Tab from name to email', page.locator('#email').evaluate('e => e === document.activeElement'))
+                page.keyboard.press('Tab')
+                check('contact Tab from email to message', page.locator('#message').evaluate('e => e === document.activeElement'))
+                check('no actual contact POST', not case['contactPosts'])
+                check('no application errors or local failed assets', not case['javascriptErrors'] and not [r for r in case['failedRequests'] + case['httpErrors'] if r['url'].startswith(ORIGIN + '/')])
                 print(f'PASS {prefix}: {len(case["checks"])} browser checks')
                 context.close()
     except Exception:

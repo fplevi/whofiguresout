@@ -3,6 +3,7 @@ import hashlib
 import json
 import os
 from pathlib import Path
+from urllib.parse import urlsplit
 import re
 import subprocess
 import sys
@@ -12,7 +13,10 @@ sys.path.insert(0, str(Path(os.environ['TEMP']) / 'portfolio-convenios-qa'))
 from playwright.sync_api import sync_playwright
 
 ROOT = Path(__file__).resolve().parents[2]
-OUT = ROOT / '.scratch/enrollment/qa/ticket-03'
+OUT = Path(os.environ.get('ENROLLMENT_QA_OUT', str(ROOT / '.scratch/enrollment/qa/ticket-03')))
+OUT.mkdir(parents=True, exist_ok=True)
+URL = os.environ.get('ENROLLMENT_QA_URL', 'http://127.0.0.1:8123/case-studies/enrollment.html')
+ORIGIN = '{0.scheme}://{0.netloc}'.format(urlsplit(URL))
 
 
 def rgba(css):
@@ -38,7 +42,7 @@ def contrast(fg, bg):
 with sync_playwright() as p:
     browser = p.chromium.launch()
     page = browser.new_page(viewport={'width': 375, 'height': 700}, reduced_motion='reduce')
-    page.goto('http://127.0.0.1:8123/case-studies/enrollment.html', wait_until='domcontentloaded')
+    page.goto(URL, wait_until='domcontentloaded')
     page.evaluate('document.fonts.ready')
     colors = page.evaluate('''() => ({
       body: getComputedStyle(document.body).backgroundColor,
@@ -72,9 +76,9 @@ with sync_playwright() as p:
                              ('.nav__link:has-text("Contact")', '/#contact'),
                              ('.nav__link:has-text("About")', '/#about'),
                              ('.cs-next__link', '/case-studies/convenios.html')]:
-        page.goto('http://127.0.0.1:8123/case-studies/enrollment.html', wait_until='domcontentloaded')
+        page.goto(URL, wait_until='domcontentloaded')
         page.locator(selector).click()
-        page.wait_for_url('http://127.0.0.1:8123' + suffix)
+        page.wait_for_url(ORIGIN + suffix)
         destinations.append(page.url)
     print('PASS actual navigation, back and next-project clicks')
     contrast_matrix = []
@@ -82,7 +86,7 @@ with sync_playwright() as p:
         page.emulate_media(reduced_motion=motion)
         for width in [320, 375, 768, 1440]:
             page.set_viewport_size({'width': width, 'height': 900 if width == 1440 else 700})
-            page.goto('http://127.0.0.1:8123/case-studies/enrollment.html', wait_until='domcontentloaded')
+            page.goto(URL, wait_until='domcontentloaded')
             page.evaluate('document.fonts.ready')
             rendered = page.locator('.enrollment-comparison__guidance, .enrollment-discovery__copy, .enrollment-journey-evidence p, .enrollment-submission-evidence p').evaluate_all('''es => es.map(e => ({
                 color:getComputedStyle(e).color, body:getComputedStyle(document.body).backgroundColor,
