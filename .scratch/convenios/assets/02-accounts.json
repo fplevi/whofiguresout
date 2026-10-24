@@ -1,0 +1,25 @@
+{
+  "ticket": "02-contas-sem-logout",
+  "assets": [
+    {
+      "source": "assets/images/convenios/convenios-accounts.webp",
+      "sourceDimensions": {"width": 1024, "height": 844},
+      "cropBounds": [0, 0, 1024, 844],
+      "dimensions": {"width": 1024, "height": 844},
+      "format": "WebP (RGBA)",
+      "unchanged": true,
+      "sha256": "1b456f744863fa729755a7d2c7dd33c689890d2167612058a1128f6b31bef0a8",
+      "purpose": "Retain the existing account-switcher evidence, full phone and transparent pixels. No derivative or additional image is introduced.",
+      "presentation": {
+        "method": "Case-local CSS portrait frame, object-fit: cover, object-position: 45% 50%",
+        "aspectRatio": "4 / 5",
+        "maximumFrameDimensions": {"width": 384, "height": 480},
+        "visibleSourceBounds": [156.96, 0, 832.16, 844],
+        "nontransparentSourceBounds": [186, 102, 711, 759],
+        "purpose": "Remove transparent side margins from the presentation so the saved profiles and switch action are easier to distinguish at 320/375px; retain all nontransparent phone pixels and native proportions."
+      },
+      "equivalentOriginal": "assets/images/convenios/convenios-accounts.png",
+      "equivalentEncodingUsedAsAdditionalEvidence": false
+    }
+  ]
+}
