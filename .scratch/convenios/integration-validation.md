@@ -13,3 +13,13 @@ Merged `a4b2b83` with `--no-ff`. Resolved adjacent CSS insertions by retaining b
 ## Ticket 03 integration-tip sync
 
 Merged current integration `8058bd9` into ticket 03 using `--no-ff` (no reset). HTML merged automatically. Resolved the one CSS insertion conflict by retaining complete library, accounts and network blocks, including each image sizing rule and the network mobile reset. No source assets or shared files changed. Focused rendered smoke is recorded below.
+
+### Synced ticket 03 smoke
+
+Executed on sync merge `39fb82a` with own server `python -m http.server 8129 --bind 127.0.0.1` from the ticket 03 checkout. Command: `python -u .scratch/convenios/integration-smoke.py --label ticket03-sync` -> **24 passed, 0 failed**. Evidence: `integration-smoke-ticket03-sync/results.json`, row/image PNGs and ordinary-wheel logs. 375 and 1440 px, 900 px height, normal motion, Chromium 156.0.8078.4. This is a focused merger smoke, not the acceptance matrix. All sections appeared during real wheel traversal, images loaded, all four rows retained the intended sequence and copy, explanations preceded images on mobile, no overlap or horizontal overflow, no raw row links, store links/contact present, no page errors/failed requests/HTTP errors. Server stopped after execution.
+
+Initial harness attempt used an incorrect library ID and stopped before completing; corrected to the existing `convenios-components` ID and re-ran the focused smoke successfully. T3 navigation succeeded, but two snapshot attempts returned `Preview automation snapshot timed out after 15000ms.`; continued with the documented repository Playwright workflow.
+
+Inspected loaded 375 px network/accounts/library row captures and 1440 px library capture. Network controls/map and full account phone remain recognizable; library states and the complete touch-area diagram remain visible with the known raster softness. The desktop element capture has a fixed-navigation overlay at its upper edge; the separate loaded-image capture preserves all image content and ordinary-wheel logs establish actual visibility. This artifact is not a product defect.
+
+Source review confirms ticket 03 changes relative to integration are only its library rules/article, outcome copy and derivative. Overall production diff versus `78a853d` is exactly the case HTML/CSS plus the two ticket derivatives; all shared files, original assets and home remain unchanged. No unresolved implementation issue found. Parent still owns combined matrix/review; tickets remain claimed.
