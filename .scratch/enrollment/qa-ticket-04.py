@@ -10,9 +10,9 @@ import sys
 sys.path.insert(0, str(Path(os.environ['TEMP']) / 'portfolio-convenios-qa'))
 from playwright.sync_api import sync_playwright
 
-OUT = Path(__file__).parent / 'qa' / 'ticket-04'
+OUT = Path(os.environ.get('ENROLLMENT_QA_OUT', str(Path(__file__).parent / 'qa' / 'ticket-04')))
 OUT.mkdir(parents=True, exist_ok=True)
-URL = 'http://127.0.0.1:8104/case-studies/enrollment.html'
+URL = os.environ.get('ENROLLMENT_QA_URL', 'http://127.0.0.1:8104/case-studies/enrollment.html')
 STORIES = {
     'eligibility': ('Eligibility within the journey', 'parentesco.png', 'seven-step'),
     'personal': ('Personal details and document preparation', 'dados-parente.png', 'partly outside'),
