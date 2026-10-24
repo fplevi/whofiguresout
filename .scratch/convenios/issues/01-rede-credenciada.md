@@ -4,7 +4,7 @@
 
 **Blocked by:** None (can start immediately).
 
-**Status:** ready-for-agent
+**Status:** claimed
 
 - [ ] A rede possui título e explicação próprios, uma imagem na linha e posição depois do cartão e antes de contas. As linhas existentes que funcionam são preservadas, sem reconstruir a arquitetura do case para imitar Billing.
 - [ ] A copy descreve a função como disponível, conforme confirmação já registrada do autor, sem repetir o status pendente histórico nem afirmar que participou do lançamento inicial. Descreve resultados no mapa e alternativa de lista, sem alegar geolocalização automática, ordenação por distância ou verificação do serviço em produção.

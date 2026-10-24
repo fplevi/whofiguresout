@@ -4,7 +4,7 @@
 
 **Blocked by:** None (can start immediately).
 
-**Status:** ready-for-agent
+**Status:** claimed
 
 - [ ] A biblioteca permanece como última evidência de funcionalidades. Um recorte legível da documentação de botões mostra estados e áreas de toque com contexto suficiente para entender o exemplo, sem depender de miniatura integral ilegível ou de conteúdo fora das bordas da fonte.
 - [ ] A documentação recebe largura adequada no corpo da página. Restrições de apresentação que a comprimem são ajustadas no escopo do case; alternância lateral só é usada onde favorecer leitura, sem transformar o case em uma réplica do Billing e sem reduzir fontes.

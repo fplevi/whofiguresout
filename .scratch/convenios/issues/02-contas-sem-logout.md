@@ -4,7 +4,7 @@
 
 **Blocked by:** None (can start immediately).
 
-**Status:** ready-for-agent
+**Status:** claimed
 
 - [ ] A linha existente de contas é preservada e sua copy inglesa explicita a alternância sem logout, sustentada pela confirmação anterior do autor e pelo material Behance registrado. Não é necessário reproduzir essa interação no site.
 - [ ] Notificações, autorizações e extratos deixam de ser atribuídos à imagem de contas. A revisão não amplia alegações sobre a entrega dessas funções nem acrescenta material de processo para preencher a lacuna.
