@@ -62,6 +62,22 @@
   margin-top: var(--space-32);
 }
 
+/* Trim only transparent side margins of the unchanged accounts mockup.
+   A portrait frame keeps the full phone visible at readable mobile scale. */
+.cs-app__feature--accounts .cs-app__figure {
+  padding: 0;
+}
+
+.cs-app__feature--accounts .cs-app__figure img {
+  width: 100%;
+  max-width: 384px;
+  height: auto;
+  max-height: none;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: 45% 50%;
+}
+
 .cs-app__stores a {
   display: inline-flex;
   align-items: center;

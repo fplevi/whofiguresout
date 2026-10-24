@@ -1,0 +1,41 @@
+{
+  "integration_tip": "78a853df61a4de9cce4c67d23f4e77880daeb31a",
+  "checks": {
+    "HTML outside the accounts row unchanged": true,
+    "CSS outside accounts-only presentation unchanged": true,
+    "index.html unchanged": true,
+    "assets/css/case-study.css unchanged": true,
+    "assets/js/scroll-animations.js unchanged": true,
+    "assets/css/contact.css unchanged": true,
+    "assets/js/contact-form.js unchanged": true,
+    "assets/css/nav.css unchanged": true,
+    "assets/images/convenios/convenios-accounts.png unchanged": true,
+    "assets/images/convenios/convenios-accounts.webp unchanged": true,
+    "assets/images/convenios/convenios-card.png unchanged": true,
+    "assets/images/convenios/convenios-card.webp unchanged": true,
+    "assets/images/convenios/convenios-components.png unchanged": true,
+    "assets/images/convenios/convenios-components.webp unchanged": true,
+    "assets/images/convenios/convenios-cover.png unchanged": true,
+    "assets/images/convenios/convenios-home.png unchanged": true,
+    "assets/images/convenios/convenios-home.webp unchanged": true,
+    "assets/images/convenios/convenios-provider-network.png unchanged": true,
+    "accounts PNG/WebP equivalent decoded pixels": true,
+    "CSS visible source bounds retain all nontransparent pixels": true
+  },
+  "image_sha256": {
+    "assets/images/convenios/convenios-accounts.png": "a27950b5af85cb55118abc0f6d9a2bdfd380f6f3db56d194614a99745d71f80b",
+    "assets/images/convenios/convenios-accounts.webp": "1b456f744863fa729755a7d2c7dd33c689890d2167612058a1128f6b31bef0a8",
+    "assets/images/convenios/convenios-card.png": "eb0167b8ca9564e1e7f7e3428e0aaabd5c82adf99241e20ef613b9bdf05e298b",
+    "assets/images/convenios/convenios-card.webp": "06e29beb3d6829a389dc771279f82005c5b51ca24309a3592c4e3675d205c790",
+    "assets/images/convenios/convenios-components.png": "7f8d65a73528250cad7f4685d39967f8eba71d1bcbc5cae259d953a27b382c63",
+    "assets/images/convenios/convenios-components.webp": "880f7ad461f9a882cd70e4e7359915c167700b08c7e27d501a4ad24297427167",
+    "assets/images/convenios/convenios-cover.png": "cf469e288415619bc3b38a6cb1463af27c7a458d72e2d61995e698d02e79b45c",
+    "assets/images/convenios/convenios-home.png": "16b0b1fe32931eb44bf08a55373a9cf2c527c13f8e9d97e2e49c05c3bc6f6de9",
+    "assets/images/convenios/convenios-home.webp": "c835cabbfd8ad98d4c7f91c8fd90265484ee47f60ef69dbfdff771519b200f6a",
+    "assets/images/convenios/convenios-provider-network.png": "16f5a824fb7f8b14240fc1768185088be53bc4e17d911a2e1b0f78a5b9e4afb6"
+  },
+  "summary": {
+    "passed": 20,
+    "failed": 0
+  }
+}
