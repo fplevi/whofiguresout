@@ -19,3 +19,7 @@
 - [ ] Estilos ficam no escopo de Convênios. Uma eventual alteração compartilhada exige necessidade demonstrada e validação de todas as páginas afetadas. Alterações simultâneas e os demais documentos existentes são preservados; este ticket pode ser demonstrado sem aguardar os outros dois.
 - [ ] Resultados reais, capturas, ambiente e limitações ficam registrados separadamente dos critérios. Auditorias automáticas e inspeção manual são distinguidas; não se declara validação com leitor de tela, de produção ou desta revisão sem execução correspondente.
 
+## Comments
+
+- 2026-10-24: Implementação no worktree isolado `C:/Users/fplev/.t3/worktrees/Portfolio/t3-988d206e`, branch `t3/library-row-mobile-legibility`. Biblioteca e fechamento apenas; originais e demais linhas preservados. RED/GREEN, matriz do navegador, evidência de rolagem e limites em [03-validation.md](../03-validation.md); manifesto próprio em [03-button-documentation.json](../assets/03-button-documentation.json). Manter **claimed** até a revisão final da integração, conforme instrução do coordenador.
+

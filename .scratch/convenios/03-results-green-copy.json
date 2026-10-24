@@ -1,0 +1,33 @@
+{
+  "phase": "green-copy",
+  "url": "http://127.0.0.1:8113",
+  "checks": [
+    {
+      "name": "320: button documentation retains readable source scale in page",
+      "ok": true,
+      "detail": {
+        "naturalWidth": 173,
+        "naturalHeight": 263,
+        "width": 272,
+        "height": 413.5,
+        "drawnWidth": 271.9980988593156
+      }
+    },
+    {
+      "name": "library story is complete in page and distinguishes its own foundation",
+      "ok": true,
+      "detail": {
+        "library": "Build a foundation for the next release.\n\nThe app predates Harmony and has its own component library and visual language. This Figma excerpt documents icon-button states and touch areas.",
+        "outcome": "A dedicated app. Its own foundation.\n\nCASSI launched a dedicated app for partner-plan members on iOS and Android, with a documented component library for the product.\n\nGoogle Play \u2197\nApp Store \u2197",
+        "links": 0
+      }
+    }
+  ],
+  "console": [],
+  "failed_requests": [],
+  "browser": "156.0.8078.4",
+  "summary": {
+    "passed": 2,
+    "failed": 0
+  }
+}

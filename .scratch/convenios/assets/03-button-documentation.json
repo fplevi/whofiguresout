@@ -1,0 +1,23 @@
+{
+  "ticket": "03-biblioteca-propria-legivel",
+  "source": "assets/images/convenios/convenios-components.png",
+  "source_dimensions": {"width": 1024, "height": 1322},
+  "source_sha256": "7f8d65a73528250cad7f4685d39967f8eba71d1bcbc5cae259d953a27b382c63",
+  "source_unchanged": true,
+  "equivalent_original": {
+    "path": "assets/images/convenios/convenios-components.webp",
+    "sha256": "880f7ad461f9a882cd70e4e7359915c167700b08c7e27d501a4ad24297427167",
+    "unchanged": true,
+    "purpose": "Alternate encoding of the same original, preserved and not presented as additional evidence."
+  },
+  "output": "assets/images/convenios/convenios-button-touch-03.webp",
+  "output_sha256": "927b1c7d6de36ee730423b153fdfc06e78df23403e932d459b9f8a274eec33aa",
+  "crop_bounds": {"left": 35, "top": 560, "right_exclusive": 208, "bottom_exclusive": 823},
+  "dimensions": {"width": 173, "height": 263},
+  "format": "WebP lossless, exact=True",
+  "purpose": "One contiguous narrow excerpt retaining the Botões ícone heading, outlined/filled button state examples and the complete Área de clique diagram. Removes empty right-hand documentation space so both states and touch-area evidence can be examined inside the smallest mobile page, without a raw-image link.",
+  "transparency": "Original RGBA files are untouched. All pixels inside this crop are opaque; decoded output RGBA matches the source crop exactly, including alpha. No background was flattened or invented.",
+  "transform": "Pillow Image.open(source).crop((35, 560, 208, 823)).save(output, lossless=True, exact=True); no resize, montage or retouching",
+  "context_preserved": "Full icon-button section heading, component-final label, all outlined and filled examples inside their dashed bounds, accessibility heading and complete annotated touch-area diagram; only surrounding whitespace is removed.",
+  "limits": "The raster excerpt demonstrates documented states and touch areas, not accessibility certification, production interaction behavior, or Harmony implementation. Source labels remain in Portuguese; the page explanation is English."
+}

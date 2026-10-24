@@ -1,0 +1,716 @@
+[
+  {
+    "y": 0,
+    "h": 7274,
+    "sections": [
+      {
+        "id": "convenios-title",
+        "top": 0,
+        "bottom": 830.78125,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-problem",
+        "top": 1315.53125,
+        "bottom": 1890.84375,
+        "opacity": 0
+      },
+      {
+        "id": "convenios-role",
+        "top": 1890.84375,
+        "bottom": 2413.359375,
+        "opacity": 0
+      },
+      {
+        "id": "convenios-decisions",
+        "top": 2413.359375,
+        "bottom": 5782.9375,
+        "opacity": 0
+      },
+      {
+        "id": "convenios-outcome",
+        "top": 5782.9375,
+        "bottom": 6327.078125,
+        "opacity": 0
+      },
+      {
+        "id": "contact-heading",
+        "top": 6555.375,
+        "bottom": 7274.375,
+        "opacity": 0
+      }
+    ]
+  },
+  {
+    "y": 400,
+    "h": 7274,
+    "sections": [
+      {
+        "id": "convenios-title",
+        "top": -400,
+        "bottom": 430.78125,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-problem",
+        "top": 915.53125,
+        "bottom": 1490.84375,
+        "opacity": 0
+      },
+      {
+        "id": "convenios-role",
+        "top": 1490.84375,
+        "bottom": 2013.359375,
+        "opacity": 0
+      },
+      {
+        "id": "convenios-decisions",
+        "top": 2013.359375,
+        "bottom": 5382.9375,
+        "opacity": 0
+      },
+      {
+        "id": "convenios-outcome",
+        "top": 5382.9375,
+        "bottom": 5927.078125,
+        "opacity": 0
+      },
+      {
+        "id": "contact-heading",
+        "top": 6155.375,
+        "bottom": 6874.375,
+        "opacity": 0
+      }
+    ]
+  },
+  {
+    "y": 800,
+    "h": 7274,
+    "sections": [
+      {
+        "id": "convenios-title",
+        "top": -800,
+        "bottom": 30.78125,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-problem",
+        "top": 499.53125,
+        "bottom": 1074.84375,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-role",
+        "top": 1090.84375,
+        "bottom": 1613.359375,
+        "opacity": 0
+      },
+      {
+        "id": "convenios-decisions",
+        "top": 1613.359375,
+        "bottom": 4982.9375,
+        "opacity": 0
+      },
+      {
+        "id": "convenios-outcome",
+        "top": 4982.9375,
+        "bottom": 5527.078125,
+        "opacity": 0
+      },
+      {
+        "id": "contact-heading",
+        "top": 5755.375,
+        "bottom": 6474.375,
+        "opacity": 0
+      }
+    ]
+  },
+  {
+    "y": 1200,
+    "h": 7274,
+    "sections": [
+      {
+        "id": "convenios-title",
+        "top": -1200,
+        "bottom": -369.21875,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-problem",
+        "top": 99.53125,
+        "bottom": 674.84375,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-role",
+        "top": 674.84375,
+        "bottom": 1197.359375,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-decisions",
+        "top": 1213.359375,
+        "bottom": 4582.9375,
+        "opacity": 0
+      },
+      {
+        "id": "convenios-outcome",
+        "top": 4582.9375,
+        "bottom": 5127.078125,
+        "opacity": 0
+      },
+      {
+        "id": "contact-heading",
+        "top": 5355.375,
+        "bottom": 6074.375,
+        "opacity": 0
+      }
+    ]
+  },
+  {
+    "y": 1600,
+    "h": 7274,
+    "sections": [
+      {
+        "id": "convenios-title",
+        "top": -1600,
+        "bottom": -769.21875,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-problem",
+        "top": -300.46875,
+        "bottom": 274.84375,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-role",
+        "top": 274.84375,
+        "bottom": 797.359375,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-decisions",
+        "top": 813.359375,
+        "bottom": 4182.9375,
+        "opacity": 0
+      },
+      {
+        "id": "convenios-outcome",
+        "top": 4182.9375,
+        "bottom": 4727.078125,
+        "opacity": 0
+      },
+      {
+        "id": "contact-heading",
+        "top": 4955.375,
+        "bottom": 5674.375,
+        "opacity": 0
+      }
+    ]
+  },
+  {
+    "y": 2000,
+    "h": 7274,
+    "sections": [
+      {
+        "id": "convenios-title",
+        "top": -2000,
+        "bottom": -1169.21875,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-problem",
+        "top": -700.46875,
+        "bottom": -125.15625,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-role",
+        "top": -125.15625,
+        "bottom": 397.359375,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-decisions",
+        "top": 397.359375,
+        "bottom": 3766.9375,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-outcome",
+        "top": 3782.9375,
+        "bottom": 4327.078125,
+        "opacity": 0
+      },
+      {
+        "id": "contact-heading",
+        "top": 4555.375,
+        "bottom": 5274.375,
+        "opacity": 0
+      }
+    ]
+  },
+  {
+    "y": 2400,
+    "h": 7274,
+    "sections": [
+      {
+        "id": "convenios-title",
+        "top": -2400,
+        "bottom": -1569.21875,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-problem",
+        "top": -1100.46875,
+        "bottom": -525.15625,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-role",
+        "top": -525.15625,
+        "bottom": -2.640625,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-decisions",
+        "top": -2.640625,
+        "bottom": 3366.9375,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-outcome",
+        "top": 3382.9375,
+        "bottom": 3927.078125,
+        "opacity": 0
+      },
+      {
+        "id": "contact-heading",
+        "top": 4155.375,
+        "bottom": 4874.375,
+        "opacity": 0
+      }
+    ]
+  },
+  {
+    "y": 2800,
+    "h": 7274,
+    "sections": [
+      {
+        "id": "convenios-title",
+        "top": -2800,
+        "bottom": -1969.21875,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-problem",
+        "top": -1500.46875,
+        "bottom": -925.15625,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-role",
+        "top": -925.15625,
+        "bottom": -402.640625,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-decisions",
+        "top": -402.640625,
+        "bottom": 2966.9375,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-outcome",
+        "top": 2982.9375,
+        "bottom": 3527.078125,
+        "opacity": 0
+      },
+      {
+        "id": "contact-heading",
+        "top": 3755.375,
+        "bottom": 4474.375,
+        "opacity": 0
+      }
+    ]
+  },
+  {
+    "y": 3200,
+    "h": 7274,
+    "sections": [
+      {
+        "id": "convenios-title",
+        "top": -3200,
+        "bottom": -2369.21875,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-problem",
+        "top": -1900.46875,
+        "bottom": -1325.15625,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-role",
+        "top": -1325.15625,
+        "bottom": -802.640625,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-decisions",
+        "top": -802.640625,
+        "bottom": 2566.9375,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-outcome",
+        "top": 2582.9375,
+        "bottom": 3127.078125,
+        "opacity": 0
+      },
+      {
+        "id": "contact-heading",
+        "top": 3355.375,
+        "bottom": 4074.375,
+        "opacity": 0
+      }
+    ]
+  },
+  {
+    "y": 3600,
+    "h": 7274,
+    "sections": [
+      {
+        "id": "convenios-title",
+        "top": -3600,
+        "bottom": -2769.21875,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-problem",
+        "top": -2300.46875,
+        "bottom": -1725.15625,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-role",
+        "top": -1725.15625,
+        "bottom": -1202.640625,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-decisions",
+        "top": -1202.640625,
+        "bottom": 2166.9375,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-outcome",
+        "top": 2182.9375,
+        "bottom": 2727.078125,
+        "opacity": 0
+      },
+      {
+        "id": "contact-heading",
+        "top": 2955.375,
+        "bottom": 3674.375,
+        "opacity": 0
+      }
+    ]
+  },
+  {
+    "y": 4000,
+    "h": 7274,
+    "sections": [
+      {
+        "id": "convenios-title",
+        "top": -4000,
+        "bottom": -3169.21875,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-problem",
+        "top": -2700.46875,
+        "bottom": -2125.15625,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-role",
+        "top": -2125.15625,
+        "bottom": -1602.640625,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-decisions",
+        "top": -1602.640625,
+        "bottom": 1766.9375,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-outcome",
+        "top": 1782.9375,
+        "bottom": 2327.078125,
+        "opacity": 0
+      },
+      {
+        "id": "contact-heading",
+        "top": 2555.375,
+        "bottom": 3274.375,
+        "opacity": 0
+      }
+    ]
+  },
+  {
+    "y": 4400,
+    "h": 7274,
+    "sections": [
+      {
+        "id": "convenios-title",
+        "top": -4400,
+        "bottom": -3569.21875,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-problem",
+        "top": -3100.46875,
+        "bottom": -2525.15625,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-role",
+        "top": -2525.15625,
+        "bottom": -2002.640625,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-decisions",
+        "top": -2002.640625,
+        "bottom": 1366.9375,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-outcome",
+        "top": 1382.9375,
+        "bottom": 1927.078125,
+        "opacity": 0
+      },
+      {
+        "id": "contact-heading",
+        "top": 2155.375,
+        "bottom": 2874.375,
+        "opacity": 0
+      }
+    ]
+  },
+  {
+    "y": 4800,
+    "h": 7274,
+    "sections": [
+      {
+        "id": "convenios-title",
+        "top": -4800,
+        "bottom": -3969.21875,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-problem",
+        "top": -3500.46875,
+        "bottom": -2925.15625,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-role",
+        "top": -2925.15625,
+        "bottom": -2402.640625,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-decisions",
+        "top": -2402.640625,
+        "bottom": 966.9375,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-outcome",
+        "top": 982.9375,
+        "bottom": 1527.078125,
+        "opacity": 0
+      },
+      {
+        "id": "contact-heading",
+        "top": 1755.375,
+        "bottom": 2474.375,
+        "opacity": 0
+      }
+    ]
+  },
+  {
+    "y": 5200,
+    "h": 7274,
+    "sections": [
+      {
+        "id": "convenios-title",
+        "top": -5200,
+        "bottom": -4369.21875,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-problem",
+        "top": -3900.46875,
+        "bottom": -3325.15625,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-role",
+        "top": -3325.15625,
+        "bottom": -2802.640625,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-decisions",
+        "top": -2802.640625,
+        "bottom": 566.9375,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-outcome",
+        "top": 566.9375,
+        "bottom": 1111.078125,
+        "opacity": 1
+      },
+      {
+        "id": "contact-heading",
+        "top": 1355.375,
+        "bottom": 2074.375,
+        "opacity": 0
+      }
+    ]
+  },
+  {
+    "y": 5600,
+    "h": 7274,
+    "sections": [
+      {
+        "id": "convenios-title",
+        "top": -5600,
+        "bottom": -4769.21875,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-problem",
+        "top": -4300.46875,
+        "bottom": -3725.15625,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-role",
+        "top": -3725.15625,
+        "bottom": -3202.640625,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-decisions",
+        "top": -3202.640625,
+        "bottom": 166.9375,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-outcome",
+        "top": 166.9375,
+        "bottom": 711.078125,
+        "opacity": 1
+      },
+      {
+        "id": "contact-heading",
+        "top": 955.375,
+        "bottom": 1674.375,
+        "opacity": 0
+      }
+    ]
+  },
+  {
+    "y": 6000,
+    "h": 7258,
+    "sections": [
+      {
+        "id": "convenios-title",
+        "top": -6000,
+        "bottom": -5169.21875,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-problem",
+        "top": -4700.46875,
+        "bottom": -4125.15625,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-role",
+        "top": -4125.15625,
+        "bottom": -3602.640625,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-decisions",
+        "top": -3602.640625,
+        "bottom": -233.0625,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-outcome",
+        "top": -233.0625,
+        "bottom": 311.078125,
+        "opacity": 1
+      },
+      {
+        "id": "contact-heading",
+        "top": 539.375,
+        "bottom": 1258.375,
+        "opacity": 1
+      }
+    ]
+  },
+  {
+    "y": 6358,
+    "h": 7258,
+    "sections": [
+      {
+        "id": "convenios-title",
+        "top": -6358,
+        "bottom": -5527.21875,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-problem",
+        "top": -5058.46875,
+        "bottom": -4483.15625,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-role",
+        "top": -4483.15625,
+        "bottom": -3960.640625,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-decisions",
+        "top": -3960.640625,
+        "bottom": -591.0625,
+        "opacity": 1
+      },
+      {
+        "id": "convenios-outcome",
+        "top": -591.0625,
+        "bottom": -46.921875,
+        "opacity": 1
+      },
+      {
+        "id": "contact-heading",
+        "top": 181.375,
+        "bottom": 900.375,
+        "opacity": 1
+      }
+    ]
+  }
+]
