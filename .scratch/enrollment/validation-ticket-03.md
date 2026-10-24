@@ -1,6 +1,6 @@
 # Enrollment ticket 03 validation
 
-Date: 2026-10-24. Branch: `t3/6485afe7`. Worktree: `C:/Users/fplev/.t3/worktrees/Portfolio/t3-6485afe7`. Local server: `http://127.0.0.1:8123/case-studies/enrollment.html`.
+Date: 2026-10-24. Current branch: `t3/enrollment-visual-narrative` (the checkout was initially named `t3/6485afe7`). Worktree: `C:/Users/fplev/.t3/worktrees/Portfolio/t3-6485afe7`. Local server: `http://127.0.0.1:8123/case-studies/enrollment.html`.
 
 ## Recovery and scope
 
@@ -43,7 +43,7 @@ No page errors, console warnings/errors, failed requests or HTTP errors were rec
 
 ## Visual inspection, failures and limitations
 
-Inspected the `*-no-preference-evidence.png`, `*-no-preference-focus.png` and all four `*-no-preference-enrollment-*.png` evidence blocks at each of the four widths. Explanations wrap without clipping, comparison labels and focus remain visible, the discovery board's artifact groups remain recognizable, and journey sidebars/source bounds are retained. Raster microtext remains small at narrow widths; the HTML orientation remains readable without enlarging raw images. The screenshot workflow hides the fixed nav only for isolated element captures; viewport/focus captures and wheel traversal retain it. This styling does not force narrative visibility.
+Inspected the `*-no-preference-evidence.png`, `*-no-preference-focus.png` and all four `*-no-preference-enrollment-*.png` evidence blocks at each of the four widths. Also inspected the four reduced-motion comparison evidence captures. All 20 static comparison/discovery/journey evidence pairs across normal and reduced motion have identical dimensions and pixels: `motion-evidence-comparison.json`. Explanations wrap without clipping, comparison labels and focus remain visible, the discovery board's artifact groups remain recognizable, and journey sidebars/source bounds are retained. Raster microtext remains small at narrow widths; the HTML orientation remains readable without enlarging raw images. The screenshot workflow hides the fixed nav only for isolated element captures; viewport/focus captures and wheel traversal retain it. This styling does not force narrative visibility.
 
 The recovered first matrix attempt read a keyboard reveal before rendering settled; its diagnostic is retained as `matrix-first-attempt.json`. The recovered code waits for the corresponding handle state before assertions. The first fresh post-merge attempt passed all four normal-motion cases, then failed a whole-head preservation equality check at 320px reduced motion. Three diagnostic reloads passed. Inspection showed the saved baseline contained asynchronously injected vendor scripts; whole-head equality was timing-sensitive. QA now removes only those injected Clarity tags from both snapshots and separately asserts exact authored head/analytics source equality. The failed attempt remains in `postmerge-before-preservation-settle.json`. No product code changed to satisfy that harness correction.
 
@@ -51,4 +51,6 @@ Browser automation and emulated touch do not establish physical-device or screen
 
 ## Latest integration check
 
-Integration advanced to QA/documentation commit `9b86741d7791c08fa0b7f043092e94a049095926` during this run; its HTML/CSS runtime is unchanged. The final merge and post-merge rerun are pending until recorded below.
+Integration advanced to QA/documentation commit `9b86741d7791c08fa0b7f043092e94a049095926` during this run; its HTML/CSS runtime is unchanged. Own validation/evidence was committed as `5679d50`, then that integration tip was merged into this branch as `61a19d397102dd224cf637724c900a78f5f74f89`. The ancestry check passed. Post-merge final checks passed again: measured contrast, actual navigation, authored head/analytics equality, originals/manifest, shared source and issue 01 preservation. `git diff --check` passed.
+
+The complete currently integrated page was rerun after that merge on port 8123: **eight cases, 244 passing checks, zero failures**. Every case completed wheel traversal from the top and all comparison/evidence/preservation checks. No page errors, console warnings/errors, failed requests or HTTP errors were recorded. `validation.json` identifies tested commit `61a19d3` and integration tip `9b86741`. The later handoff commit changes only this report, the ticket completion note and QA evidence; runtime HTML/CSS is unchanged. Ticket 03 is resolved. Ticket 05 remains ready for its independent implementation and final integration validation.
