@@ -1,0 +1,141 @@
+{
+  "baseline": "f8f9034fb32de4b7839ac0a003db2bb791af883e",
+  "checks": [
+    {
+      "name": "only authorized existing files changed",
+      "ok": true
+    },
+    {
+      "name": "original bytes preserved: assets/images/harmony/buttons.png",
+      "ok": true
+    },
+    {
+      "name": "original bytes preserved: assets/images/harmony/color=primitives.png",
+      "ok": true
+    },
+    {
+      "name": "original bytes preserved: assets/images/harmony/components.png",
+      "ok": true
+    },
+    {
+      "name": "original bytes preserved: assets/images/harmony/harmony-antes.jpg",
+      "ok": true
+    },
+    {
+      "name": "original bytes preserved: assets/images/harmony/harmony-antes.png",
+      "ok": true
+    },
+    {
+      "name": "original bytes preserved: assets/images/harmony/harmony-depois.jpg",
+      "ok": true
+    },
+    {
+      "name": "original bytes preserved: assets/images/harmony/harmony-depois.png",
+      "ok": true
+    },
+    {
+      "name": "original bytes preserved: assets/images/harmony/harmony-hero-poster.webp",
+      "ok": true
+    },
+    {
+      "name": "original bytes preserved: assets/images/harmony/harmony-hero.gif",
+      "ok": true
+    },
+    {
+      "name": "original bytes preserved: assets/images/harmony/harmony-hero.mp4",
+      "ok": true
+    },
+    {
+      "name": "original bytes preserved: assets/images/harmony/semantic-tokerns.png",
+      "ok": true
+    },
+    {
+      "name": "original bytes preserved: assets/images/harmony/storybook-2.png",
+      "ok": true
+    },
+    {
+      "name": "original bytes preserved: assets/images/harmony/storybook.png",
+      "ok": true
+    },
+    {
+      "name": "original bytes preserved: assets/images/harmony/templates.png",
+      "ok": true
+    },
+    {
+      "name": "original bytes preserved: assets/images/harmony/variables.png",
+      "ok": true
+    },
+    {
+      "name": "historical document preserved: .scratch/harmony/spec.md",
+      "ok": true
+    },
+    {
+      "name": "historical document preserved: .scratch/harmony/visual-narrative-review.md",
+      "ok": true
+    },
+    {
+      "name": "historical document preserved: .scratch/harmony/validation.md",
+      "ok": true
+    },
+    {
+      "name": "historical document preserved: .scratch/harmony/copy-draft.md",
+      "ok": true
+    },
+    {
+      "name": "preserved HTML: navigation",
+      "ok": true
+    },
+    {
+      "name": "preserved HTML: hero and intro",
+      "ok": true
+    },
+    {
+      "name": "preserved HTML: problem and role",
+      "ok": true
+    },
+    {
+      "name": "preserved HTML: outcome, work in progress, next project, contact and footer",
+      "ok": true
+    },
+    {
+      "name": "all analytics and other script tags preserved",
+      "ok": true
+    },
+    {
+      "name": "preserved maintenance/accessibility argument: React + Next.js for the product ecosystem",
+      "ok": true
+    },
+    {
+      "name": "preserved maintenance/accessibility argument: Accessibility and content in component design",
+      "ok": true
+    },
+    {
+      "name": "manifest and faithful source pixels: assets/images/harmony/editorial/primitive-primary-secondary-scales.png",
+      "ok": true
+    },
+    {
+      "name": "manifest and faithful source pixels: assets/images/harmony/editorial/primitive-selected-light-steps-mobile.png",
+      "ok": true
+    },
+    {
+      "name": "manifest and faithful source pixels: assets/images/harmony/editorial/semantic-surface-border-roles.png",
+      "ok": true
+    },
+    {
+      "name": "manifest and faithful source pixels: assets/images/harmony/editorial/semantic-default-soft-roles-mobile.png",
+      "ok": true
+    },
+    {
+      "name": "manifest and faithful source pixels: assets/images/harmony/editorial/responsive-mode-selections-mobile.png",
+      "ok": true
+    },
+    {
+      "name": "every derivative used and old pair absent from rendered HTML",
+      "ok": true
+    }
+  ],
+  "summary": {
+    "passed": 33,
+    "failed": 0
+  }
+}

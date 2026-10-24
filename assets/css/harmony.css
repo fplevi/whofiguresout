@@ -1,0 +1,65 @@
+/* Harmony's dense evidence stays static: no tall ancestor enters the shared
+   section-reveal observer. Copy and images remain available with or without JS. */
+.harmony-case .harmony-foundations {
+  padding: var(--space-80) var(--margin);
+  border-top: 1px solid var(--background-divider);
+}
+
+.harmony-case .harmony-foundations__intro .cs-section__body {
+  color: var(--text-secondary-strong);
+}
+
+.harmony-case .harmony-evidence {
+  margin-top: var(--space-80);
+}
+
+.harmony-case .harmony-evidence__title {
+  font-family: var(--font-display);
+  font-size: var(--size-h4);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  margin-bottom: var(--space-24);
+}
+
+.harmony-case .harmony-evidence__body {
+  max-width: 840px;
+  font-size: var(--size-body-md);
+  line-height: 1.7;
+  color: var(--text-secondary-strong);
+  margin-bottom: var(--space-32);
+}
+
+.harmony-case .harmony-evidence figure {
+  margin: 0;
+}
+
+.harmony-case .harmony-evidence img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  margin-inline: auto;
+  border-radius: var(--radius-md);
+}
+
+.harmony-case .harmony-evidence figcaption {
+  max-width: 840px;
+  margin-top: var(--space-16);
+  font-size: var(--size-body-sm);
+  line-height: 1.7;
+  color: var(--text-secondary-strong);
+}
+
+/* Keep the existing contact fields and keyboard path; strengthen their focus
+   cue locally where the shared field rule suppresses the global outline. */
+.harmony-case .contact__field:focus-visible {
+  outline: 2px solid var(--accent-primary);
+  outline-offset: 3px;
+}
+
+@media (max-width: 1024px) {
+  .harmony-case .harmony-foundations {
+    padding-inline: var(--space-24);
+  }
+}

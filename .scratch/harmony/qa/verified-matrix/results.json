@@ -1,0 +1,771 @@
+{
+  "checks": [
+    {
+      "name": "320/no-preference: content visible when reached by wheel",
+      "ok": true,
+      "detail": {
+        "observedElements": 44,
+        "concealed": []
+      }
+    },
+    {
+      "name": "320/no-preference: no horizontal overflow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference: foundations in approved reading order",
+      "ok": true,
+      "detail": [
+        "Primitive color scales",
+        "Semantic roles by use",
+        "Responsive variables",
+        "React + Next.js for the product ecosystem",
+        "Accessibility and content in component design"
+      ]
+    },
+    {
+      "name": "320/no-preference: exactly three static evidence images",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference/primitives: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Selected Primary blue and Secondary yellow steps with their scale names and numeric values.",
+        "ratio": 0.6166353749690036,
+        "sourceRatio": 0.6166666666666667,
+        "width": 271.984375,
+        "naturalWidth": 296,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8011/assets/images/harmony/editorial/primitive-selected-light-steps-mobile.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "320/no-preference/primitives: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference/primitives: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference/primitives: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference/primitives: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference/semantics: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Selected roles in the Surface and Border color groups, including Default and Soft.",
+        "ratio": 0.6771307425992921,
+        "sourceRatio": 0.6771653543307087,
+        "width": 271.984375,
+        "naturalWidth": 344,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8011/assets/images/harmony/editorial/semantic-default-soft-roles-mobile.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "320/no-preference/semantics: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference/semantics: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference/semantics: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference/semantics: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference/responsive: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Desktop, Tablet, and Mobile variable modes with ScreenSize values 1440, 768, and 390, and selected Gap values. On narrow screens, the three labelled mode selections are stacked.",
+        "ratio": 0.30722391853015407,
+        "sourceRatio": 0.30723684210526314,
+        "width": 271.984375,
+        "naturalWidth": 467,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8011/assets/images/harmony/editorial/responsive-mode-selections-mobile.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "320/no-preference/responsive: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference/responsive: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference/responsive: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference/responsive: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce: content visible when reached by wheel",
+      "ok": true,
+      "detail": {
+        "observedElements": 44,
+        "concealed": []
+      }
+    },
+    {
+      "name": "320/reduce: no horizontal overflow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce: foundations in approved reading order",
+      "ok": true,
+      "detail": [
+        "Primitive color scales",
+        "Semantic roles by use",
+        "Responsive variables",
+        "React + Next.js for the product ecosystem",
+        "Accessibility and content in component design"
+      ]
+    },
+    {
+      "name": "320/reduce: exactly three static evidence images",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce/primitives: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Selected Primary blue and Secondary yellow steps with their scale names and numeric values.",
+        "ratio": 0.6166353749690036,
+        "sourceRatio": 0.6166666666666667,
+        "width": 271.984375,
+        "naturalWidth": 296,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8011/assets/images/harmony/editorial/primitive-selected-light-steps-mobile.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "320/reduce/primitives: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce/primitives: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce/primitives: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce/primitives: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce/semantics: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Selected roles in the Surface and Border color groups, including Default and Soft.",
+        "ratio": 0.6771307425992921,
+        "sourceRatio": 0.6771653543307087,
+        "width": 271.984375,
+        "naturalWidth": 344,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8011/assets/images/harmony/editorial/semantic-default-soft-roles-mobile.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "320/reduce/semantics: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce/semantics: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce/semantics: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce/semantics: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce/responsive: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Desktop, Tablet, and Mobile variable modes with ScreenSize values 1440, 768, and 390, and selected Gap values. On narrow screens, the three labelled mode selections are stacked.",
+        "ratio": 0.30722391853015407,
+        "sourceRatio": 0.30723684210526314,
+        "width": 271.984375,
+        "naturalWidth": 467,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8011/assets/images/harmony/editorial/responsive-mode-selections-mobile.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "320/reduce/responsive: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce/responsive: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce/responsive: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce/responsive: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference: content visible when reached by wheel",
+      "ok": true,
+      "detail": {
+        "observedElements": 44,
+        "concealed": []
+      }
+    },
+    {
+      "name": "375/no-preference: no horizontal overflow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference: foundations in approved reading order",
+      "ok": true,
+      "detail": [
+        "Primitive color scales",
+        "Semantic roles by use",
+        "Responsive variables",
+        "React + Next.js for the product ecosystem",
+        "Accessibility and content in component design"
+      ]
+    },
+    {
+      "name": "375/no-preference: exactly three static evidence images",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference/primitives: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Selected Primary blue and Secondary yellow steps with their scale names and numeric values.",
+        "ratio": 0.6166666666666667,
+        "sourceRatio": 0.6166666666666667,
+        "width": 296,
+        "naturalWidth": 296,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8011/assets/images/harmony/editorial/primitive-selected-light-steps-mobile.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "375/no-preference/primitives: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference/primitives: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference/primitives: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference/primitives: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference/semantics: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Selected roles in the Surface and Border color groups, including Default and Soft.",
+        "ratio": 0.6771396214204821,
+        "sourceRatio": 0.6771653543307087,
+        "width": 326.984375,
+        "naturalWidth": 344,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8011/assets/images/harmony/editorial/semantic-default-soft-roles-mobile.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "375/no-preference/semantics: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference/semantics: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference/semantics: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference/semantics: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference/responsive: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Desktop, Tablet, and Mobile variable modes with ScreenSize values 1440, 768, and 390, and selected Gap values. On narrow screens, the three labelled mode selections are stacked.",
+        "ratio": 0.3072259087439074,
+        "sourceRatio": 0.30723684210526314,
+        "width": 326.984375,
+        "naturalWidth": 467,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8011/assets/images/harmony/editorial/responsive-mode-selections-mobile.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "375/no-preference/responsive: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference/responsive: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference/responsive: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference/responsive: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/reduce: content visible when reached by wheel",
+      "ok": true,
+      "detail": {
+        "observedElements": 44,
+        "concealed": []
+      }
+    },
+    {
+      "name": "375/reduce: no horizontal overflow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/reduce: foundations in approved reading order",
+      "ok": true,
+      "detail": [
+        "Primitive color scales",
+        "Semantic roles by use",
+        "Responsive variables",
+        "React + Next.js for the product ecosystem",
+        "Accessibility and content in component design"
+      ]
+    },
+    {
+      "name": "375/reduce: exactly three static evidence images",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/reduce/primitives: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Selected Primary blue and Secondary yellow steps with their scale names and numeric values.",
+        "ratio": 0.6166666666666667,
+        "sourceRatio": 0.6166666666666667,
+        "width": 296,
+        "naturalWidth": 296,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8011/assets/images/harmony/editorial/primitive-selected-light-steps-mobile.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "375/reduce/primitives: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/reduce/primitives: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/reduce/primitives: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/reduce/primitives: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/reduce/semantics: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Selected roles in the Surface and Border color groups, including Default and Soft.",
+        "ratio": 0.6771396214204821,
+        "sourceRatio": 0.6771653543307087,
+        "width": 326.984375,
+        "naturalWidth": 344,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8011/assets/images/harmony/editorial/semantic-default-soft-roles-mobile.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "375/reduce/semantics: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/reduce/semantics: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/reduce/semantics: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/reduce/semantics: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/reduce/responsive: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Desktop, Tablet, and Mobile variable modes with ScreenSize values 1440, 768, and 390, and selected Gap values. On narrow screens, the three labelled mode selections are stacked.",
+        "ratio": 0.3072259087439074,
+        "sourceRatio": 0.30723684210526314,
+        "width": 326.984375,
+        "naturalWidth": 467,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8011/assets/images/harmony/editorial/responsive-mode-selections-mobile.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "375/reduce/responsive: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/reduce/responsive: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/reduce/responsive: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/reduce/responsive: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/no-preference: content visible when reached by wheel",
+      "ok": true,
+      "detail": {
+        "observedElements": 44,
+        "concealed": []
+      }
+    },
+    {
+      "name": "768/no-preference: no horizontal overflow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/no-preference: foundations in approved reading order",
+      "ok": true,
+      "detail": [
+        "Primitive color scales",
+        "Semantic roles by use",
+        "Responsive variables",
+        "React + Next.js for the product ecosystem",
+        "Accessibility and content in component design"
+      ]
+    },
+    {
+      "name": "768/no-preference: exactly three static evidence images",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/no-preference/primitives: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Selected Primary blue and Secondary yellow steps with their scale names and numeric values.",
+        "ratio": 0.6166666666666667,
+        "sourceRatio": 0.6166666666666667,
+        "width": 296,
+        "naturalWidth": 296,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8011/assets/images/harmony/editorial/primitive-selected-light-steps-mobile.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "768/no-preference/primitives: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/no-preference/primitives: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/no-preference/primitives: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/no-preference/primitives: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/no-preference/semantics: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Selected roles in the Surface and Border color groups, including Default and Soft.",
+        "ratio": 0.6771653543307087,
+        "sourceRatio": 0.6771653543307087,
+        "width": 344,
+        "naturalWidth": 344,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8011/assets/images/harmony/editorial/semantic-default-soft-roles-mobile.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "768/no-preference/semantics: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/no-preference/semantics: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/no-preference/semantics: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/no-preference/semantics: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/no-preference/responsive: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Desktop, Tablet, and Mobile variable modes with ScreenSize values 1440, 768, and 390, and selected Gap values. On narrow screens, the three labelled mode selections are stacked.",
+        "ratio": 0.30723684210526314,
+        "sourceRatio": 0.30723684210526314,
+        "width": 467,
+        "naturalWidth": 467,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8011/assets/images/harmony/editorial/responsive-mode-selections-mobile.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "768/no-preference/responsive: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/no-preference/responsive: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/no-preference/responsive: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/no-preference/responsive: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    }
+  ],
+  "console": [],
+  "failed_requests": [],
+  "environment": {
+    "browser": "156.0.8078.4",
+    "url": "http://localhost:8011/case-studies/harmony.html",
+    "viewportHeight": 700
+  }
+}
