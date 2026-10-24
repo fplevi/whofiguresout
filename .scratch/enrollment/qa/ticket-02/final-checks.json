@@ -1,0 +1,14 @@
+{
+  "sourceSha256": "b1f4cae35535cfedfb1c896f6387ff3db29b1721c9a9c3179ece31abdc7f2eb6",
+  "sourceAndAllEnrollmentOriginalsUnchanged": true,
+  "sharedCssJsAndIssue01Unchanged": true,
+  "currentPreChangeHtmlEqualsF8f9034": true,
+  "gitDiffCheck": "passed",
+  "browserMatrix": {
+    "passed": 8,
+    "failed": 0
+  },
+  "integrationTipAtCheck": "fa56b5c740505ab7e46ef04760cd38315a0b245b",
+  "worktree": "C:\\Users\\fplev\\.t3\\worktrees\\Portfolio\\t3-dde0ded8",
+  "branch": "t3/enrollment-discovery-synthesis"
+}

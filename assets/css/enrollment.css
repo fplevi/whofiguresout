@@ -11,6 +11,58 @@
   mask-image: url('../icons/tabler/enrollment/list-check.svg');
 }
 
+.enrollment-discovery__copy {
+  color: var(--text-secondary-strong);
+}
+
+.enrollment-discovery__image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: var(--space-40);
+}
+
+/* Dense journey captures retain the sidebar and source bounds at the full case width. */
+.cs-decisions--stacked {
+  max-width: none;
+}
+
+.cs-decision__left {
+  max-width: 840px;
+}
+
+.enrollment-journey-evidence {
+  min-width: 0;
+  margin: var(--space-40) 0 0;
+}
+
+.enrollment-journey-evidence figcaption {
+  max-width: 840px;
+  margin-bottom: var(--space-24);
+}
+
+.enrollment-journey-evidence h4 {
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--text-primary);
+  margin-bottom: var(--space-16);
+}
+
+.enrollment-journey-evidence p {
+  font-size: var(--size-body-md);
+  line-height: 1.7;
+  color: var(--text-secondary-strong);
+}
+
+.enrollment-journey-evidence img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-sm);
+}
+
 @media (min-width: 1024px) {
   .cs-stats--enrollment {
     grid-template-columns: repeat(3, minmax(0, 1fr));

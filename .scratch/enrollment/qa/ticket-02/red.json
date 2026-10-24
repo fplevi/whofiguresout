@@ -1,0 +1,10 @@
+{
+  "stage": "red",
+  "failure": "Expected one dedicated discovery-synthesis region",
+  "url": "http://127.0.0.1:8102/case-studies/enrollment.html",
+  "viewport": [
+    375,
+    700
+  ],
+  "motion": "reduce"
+}
