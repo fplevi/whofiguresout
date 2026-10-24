@@ -1,0 +1,4 @@
+﻿First integration matrix attempt: six viewport/motion combinations completed (320, 375, 768; both motion settings). At 1440/no-preference the image-readiness wait failed:
+playwright._impl._errors.TimeoutError: Page.wait_for_function: Timeout 30000ms exceeded.
+Location: matrix-ticket-05.py, all document.images complete with positive naturalWidth.
+The verbose http.server was writing into an undrained process output pipe. Server output contained successful asset requests plus navigation-related ConnectionAbortedError. Restarted the same local server on port 8126 with logs redirected to a file; reran the full matrix without product changes.

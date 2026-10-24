@@ -1,6 +1,7 @@
 """Current integrated Enrollment page matrix, adapted from existing Enrollment/Billing QA.
 
-Run after serving this worktree on 8125. No real contact submission or external mocks.
+Uses qa-ticket-05.py's ENROLLMENT_QA_URL/OUT overrides.
+No real contact submission or external mocks.
 """
 import importlib.util
 import json
@@ -8,6 +9,7 @@ import platform
 import subprocess
 import sys
 from pathlib import Path
+from urllib.parse import urlsplit
 
 sys.dont_write_bytecode = True
 sys.stdout.reconfigure(encoding='utf-8')
@@ -17,6 +19,7 @@ spec.loader.exec_module(qa)
 from playwright.sync_api import sync_playwright
 
 OUT, URL = qa.OUT, qa.URL
+ORIGIN = '{0.scheme}://{0.netloc}'.format(urlsplit(URL))
 ROOT = Path(__file__).resolve().parents[2]
 PROTECTED = ['header', '.cs-header', '.cs-hero-image', '[aria-labelledby="enrollment-problem"]',
              '[aria-labelledby="enrollment-role"]', '[aria-labelledby="enrollment-outcome"]', '.cs-next', '#contact']
@@ -205,14 +208,14 @@ with sync_playwright() as p:
             check(label+' next project opens',page.url.endswith('/case-studies/convenios.html'))
             page.go_back(wait_until='networkidle')
             page.locator('.cs-header__back').click()
-            check(label+' back to work opens root',page.url.rstrip('/')=='http://127.0.0.1:8125')
+            check(label+' back to work opens root',page.url.rstrip('/')==ORIGIN)
             R['matrix'].append({'width':width,'height':height,'motion':motion,'wheel':wheel,'images':images,
                                'figures':figures,'comparison':comp,'contrast':ratios})
             ctx.close()
             print('DONE',label,flush=True)
     browser.close()
 check('no application errors',not R['pageErrors'],R['pageErrors'])
-local=[r for r in R['failedRequests'] if r['url'].startswith('http://127.0.0.1:8125/')]
+local=[r for r in R['failedRequests'] if r['url'].startswith(ORIGIN+'/')]
 check('no local failed assets',not local,local)
 check('no actual contact POST',not R['contactPosts'],R['contactPosts'])
 R['summary']={'passed':sum(c['passed'] for c in R['checks']),'failed':sum(not c['passed'] for c in R['checks'])}

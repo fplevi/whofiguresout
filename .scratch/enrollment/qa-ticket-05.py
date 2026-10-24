@@ -1,6 +1,7 @@
 """Ticket 05 rendered-page seam; adapted from Enrollment qa.py and Billing QA.
 
-Uses the existing temporary Playwright install. Serve this worktree on port 8125.
+Uses the existing temporary Playwright install. ENROLLMENT_QA_URL and
+ENROLLMENT_QA_OUT override the default server and evidence directory.
 """
 import json
 import os
@@ -11,9 +12,9 @@ sys.dont_write_bytecode = True
 sys.path.insert(0, str(Path(os.environ['TEMP']) / 'portfolio-convenios-qa'))
 from playwright.sync_api import sync_playwright
 
-OUT = Path(__file__).parent / 'qa' / 'ticket-05'
+OUT = Path(os.environ.get('ENROLLMENT_QA_OUT', str(Path(__file__).parent / 'qa' / 'ticket-05')))
 OUT.mkdir(parents=True, exist_ok=True)
-URL = 'http://127.0.0.1:8125/case-studies/enrollment.html'
+URL = os.environ.get('ENROLLMENT_QA_URL', 'http://127.0.0.1:8125/case-studies/enrollment.html')
 TITLE = 'Submitted for analysis, with a reference for what comes next'
 
 

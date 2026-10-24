@@ -45,3 +45,11 @@ This matrix includes the integrated discovery and journey slices plus ticket 05.
 Browser automation and emulated touch do not constitute real-device or screen-reader testing. Local captures do not validate production services, analytics session collection, MP4 playback, sent email, response timing, enrollment or status services. No real contact message was sent. The final integrity record names the latest integration ancestor and tested head; ticket-specific evidence is separate from historical reports.
 
 Post-merge closure: merged integration tip `9b86741d7791c08fa0b7f043092e94a049095926` into this branch at `25c3b737f3501d0ef7f47d6988fd04fad411bd31`. That tip changed only supporting QA/documents; page HTML and local CSS were unchanged from the full matrix run. After merging, the submission browser story and final integrity/baseline checks passed again. The final check certifies all 18 original files, byte-preserved issue 01, exact decoded RGBA crop identity, all-eight-run selection and integration ancestry.
+
+Integration merger validation (2026-10-24): source tip `16aa465` merged without
+conflicts using `--no-ff` at `07b1a14`. Fresh port-8126 QA passed the submission
+story, all 199 matrix checks and integrity checks, with screenshots inspected.
+An interrupted first attempt and its successful rerun are documented in the
+[tickets 02/04/05 integration report](validation-integration-02-04-05.md), with
+separate evidence preserving the historical ticket outputs. Ticket 03 is still
+unmerged; final all-four-ticket acceptance remains pending.
