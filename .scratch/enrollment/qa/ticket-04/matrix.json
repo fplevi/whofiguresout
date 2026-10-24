@@ -1,0 +1,2185 @@
+{
+  "environment": {
+    "browser": "Chromium 156.0.8078.4",
+    "platform": "win32",
+    "url": "http://127.0.0.1:8104/case-studies/enrollment.html",
+    "deviceScaleFactor": 1,
+    "hasTouch": true
+  },
+  "checks": [
+    {
+      "name": "320x700/no-preference every narrative reached by wheel from top",
+      "passed": true,
+      "detail": {
+        "startY": 0,
+        "wheelEvents": 37,
+        "seen": [
+          "Remove mandatory pre-registration",
+          "Reorganize steps around the user's mental model",
+          "Structured status visibility throughout",
+          "contact-heading",
+          "enrollment-decisions",
+          "enrollment-eligibility",
+          "enrollment-outcome",
+          "enrollment-personal-details",
+          "enrollment-portability",
+          "enrollment-problem",
+          "enrollment-role",
+          "enrollment-shipped",
+          "\u2190 Back to work\n      UX Research & Design\n      Enrollment Journey\n   "
+        ],
+        "missing": [],
+        "hiddenAfterScroll": []
+      }
+    },
+    {
+      "name": "320x700/no-preference three distinct static journey figures",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320x700/no-preference explanations before images without overlap",
+      "passed": true,
+      "detail": [
+        {
+          "name": "enrollment-eligibility",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "w": 272,
+          "h": 170,
+          "nw": 1920,
+          "nh": 1200,
+          "width": 272,
+          "height": 170,
+          "lazy": "lazy",
+          "decoding": "async",
+          "paragraphSize": "16px",
+          "fg": "rgba(242, 242, 245, 0.65)",
+          "bg": "rgb(13, 15, 26)"
+        },
+        {
+          "name": "enrollment-personal-details",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "w": 272,
+          "h": 170,
+          "nw": 1920,
+          "nh": 1200,
+          "width": 272,
+          "height": 170,
+          "lazy": "lazy",
+          "decoding": "async",
+          "paragraphSize": "16px",
+          "fg": "rgba(242, 242, 245, 0.65)",
+          "bg": "rgb(13, 15, 26)"
+        },
+        {
+          "name": "enrollment-portability",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "w": 272,
+          "h": 170,
+          "nw": 1920,
+          "nh": 1200,
+          "width": 272,
+          "height": 170,
+          "lazy": "lazy",
+          "decoding": "async",
+          "paragraphSize": "16px",
+          "fg": "rgba(242, 242, 245, 0.65)",
+          "bg": "rgb(13, 15, 26)"
+        }
+      ]
+    },
+    {
+      "name": "320x700/no-preference proportional lazy async images and full body type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320x700/no-preference no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320x700/no-preference no content clipped at viewport edge",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "320x700/no-preference one comparison",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320x700/no-preference Tab enters comparison",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320x700/no-preference comparison Home",
+      "passed": true,
+      "detail": {
+        "value": "0",
+        "clip": "inset(0px 100% 0px 0px)",
+        "handlePx": "0px"
+      }
+    },
+    {
+      "name": "320x700/no-preference reveal corresponds Home",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320x700/no-preference comparison ArrowRight",
+      "passed": true,
+      "detail": {
+        "value": "1",
+        "clip": "inset(0px 99% 0px 0px)",
+        "handlePx": "2.71875px"
+      }
+    },
+    {
+      "name": "320x700/no-preference reveal corresponds ArrowRight",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320x700/no-preference comparison End",
+      "passed": true,
+      "detail": {
+        "value": "100",
+        "clip": "inset(0px 0% 0px 0px)",
+        "handlePx": "272px"
+      }
+    },
+    {
+      "name": "320x700/no-preference reveal corresponds End",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320x700/no-preference comparison ArrowLeft",
+      "passed": true,
+      "detail": {
+        "value": "99",
+        "clip": "inset(0px 1% 0px 0px)",
+        "handlePx": "269.266px"
+      }
+    },
+    {
+      "name": "320x700/no-preference reveal corresponds ArrowLeft",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320x700/no-preference Tab leaves comparison",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320x700/no-preference interaction point visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320x700/no-preference pointer changes reveal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320x700/no-preference touch changes reveal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320x700/reduce reduced content immediately visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320x700/reduce every narrative reached by wheel from top",
+      "passed": true,
+      "detail": {
+        "startY": 0,
+        "wheelEvents": 37,
+        "seen": [
+          "Remove mandatory pre-registration",
+          "Reorganize steps around the user's mental model",
+          "Structured status visibility throughout",
+          "contact-heading",
+          "enrollment-decisions",
+          "enrollment-eligibility",
+          "enrollment-outcome",
+          "enrollment-personal-details",
+          "enrollment-portability",
+          "enrollment-problem",
+          "enrollment-role",
+          "enrollment-shipped",
+          "\u2190 Back to work\n      UX Research & Design\n      Enrollment Journey\n   "
+        ],
+        "missing": [],
+        "hiddenAfterScroll": []
+      }
+    },
+    {
+      "name": "320x700/reduce three distinct static journey figures",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320x700/reduce explanations before images without overlap",
+      "passed": true,
+      "detail": [
+        {
+          "name": "enrollment-eligibility",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "w": 272,
+          "h": 170,
+          "nw": 1920,
+          "nh": 1200,
+          "width": 272,
+          "height": 170,
+          "lazy": "lazy",
+          "decoding": "async",
+          "paragraphSize": "16px",
+          "fg": "rgba(242, 242, 245, 0.65)",
+          "bg": "rgb(13, 15, 26)"
+        },
+        {
+          "name": "enrollment-personal-details",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "w": 272,
+          "h": 170,
+          "nw": 1920,
+          "nh": 1200,
+          "width": 272,
+          "height": 170,
+          "lazy": "lazy",
+          "decoding": "async",
+          "paragraphSize": "16px",
+          "fg": "rgba(242, 242, 245, 0.65)",
+          "bg": "rgb(13, 15, 26)"
+        },
+        {
+          "name": "enrollment-portability",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "w": 272,
+          "h": 170,
+          "nw": 1920,
+          "nh": 1200,
+          "width": 272,
+          "height": 170,
+          "lazy": "lazy",
+          "decoding": "async",
+          "paragraphSize": "16px",
+          "fg": "rgba(242, 242, 245, 0.65)",
+          "bg": "rgb(13, 15, 26)"
+        }
+      ]
+    },
+    {
+      "name": "320x700/reduce proportional lazy async images and full body type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320x700/reduce no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320x700/reduce no content clipped at viewport edge",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "320x700/reduce one comparison",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320x700/reduce Tab enters comparison",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320x700/reduce comparison Home",
+      "passed": true,
+      "detail": {
+        "value": "0",
+        "clip": "inset(0px 100% 0px 0px)",
+        "handlePx": "0px"
+      }
+    },
+    {
+      "name": "320x700/reduce reveal corresponds Home",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320x700/reduce comparison ArrowRight",
+      "passed": true,
+      "detail": {
+        "value": "1",
+        "clip": "inset(0px 99% 0px 0px)",
+        "handlePx": "2.71875px"
+      }
+    },
+    {
+      "name": "320x700/reduce reveal corresponds ArrowRight",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320x700/reduce comparison End",
+      "passed": true,
+      "detail": {
+        "value": "100",
+        "clip": "inset(0px 0% 0px 0px)",
+        "handlePx": "272px"
+      }
+    },
+    {
+      "name": "320x700/reduce reveal corresponds End",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320x700/reduce comparison ArrowLeft",
+      "passed": true,
+      "detail": {
+        "value": "99",
+        "clip": "inset(0px 1% 0px 0px)",
+        "handlePx": "269.266px"
+      }
+    },
+    {
+      "name": "320x700/reduce reveal corresponds ArrowLeft",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320x700/reduce Tab leaves comparison",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320x700/reduce interaction point visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320x700/reduce pointer changes reveal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "320x700/reduce touch changes reveal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "375x700/no-preference every narrative reached by wheel from top",
+      "passed": true,
+      "detail": {
+        "startY": 0,
+        "wheelEvents": 34,
+        "seen": [
+          "Remove mandatory pre-registration",
+          "Reorganize steps around the user's mental model",
+          "Structured status visibility throughout",
+          "contact-heading",
+          "enrollment-decisions",
+          "enrollment-eligibility",
+          "enrollment-outcome",
+          "enrollment-personal-details",
+          "enrollment-portability",
+          "enrollment-problem",
+          "enrollment-role",
+          "enrollment-shipped",
+          "\u2190 Back to work\n      UX Research & Design\n      Enrollment Journey\n   "
+        ],
+        "missing": [],
+        "hiddenAfterScroll": []
+      }
+    },
+    {
+      "name": "375x700/no-preference three distinct static journey figures",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "375x700/no-preference explanations before images without overlap",
+      "passed": true,
+      "detail": [
+        {
+          "name": "enrollment-eligibility",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "w": 327,
+          "h": 204.375,
+          "nw": 1920,
+          "nh": 1200,
+          "width": 327,
+          "height": 204,
+          "lazy": "lazy",
+          "decoding": "async",
+          "paragraphSize": "16px",
+          "fg": "rgba(242, 242, 245, 0.65)",
+          "bg": "rgb(13, 15, 26)"
+        },
+        {
+          "name": "enrollment-personal-details",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "w": 327,
+          "h": 204.375,
+          "nw": 1920,
+          "nh": 1200,
+          "width": 327,
+          "height": 204,
+          "lazy": "lazy",
+          "decoding": "async",
+          "paragraphSize": "16px",
+          "fg": "rgba(242, 242, 245, 0.65)",
+          "bg": "rgb(13, 15, 26)"
+        },
+        {
+          "name": "enrollment-portability",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "w": 327,
+          "h": 204.375,
+          "nw": 1920,
+          "nh": 1200,
+          "width": 327,
+          "height": 204,
+          "lazy": "lazy",
+          "decoding": "async",
+          "paragraphSize": "16px",
+          "fg": "rgba(242, 242, 245, 0.65)",
+          "bg": "rgb(13, 15, 26)"
+        }
+      ]
+    },
+    {
+      "name": "375x700/no-preference proportional lazy async images and full body type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "375x700/no-preference no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "375x700/no-preference no content clipped at viewport edge",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "375x700/no-preference one comparison",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "375x700/no-preference Tab enters comparison",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "375x700/no-preference comparison Home",
+      "passed": true,
+      "detail": {
+        "value": "0",
+        "clip": "inset(0px 100% 0px 0px)",
+        "handlePx": "0px"
+      }
+    },
+    {
+      "name": "375x700/no-preference reveal corresponds Home",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "375x700/no-preference comparison ArrowRight",
+      "passed": true,
+      "detail": {
+        "value": "1",
+        "clip": "inset(0px 99% 0px 0px)",
+        "handlePx": "3.26562px"
+      }
+    },
+    {
+      "name": "375x700/no-preference reveal corresponds ArrowRight",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "375x700/no-preference comparison End",
+      "passed": true,
+      "detail": {
+        "value": "100",
+        "clip": "inset(0px 0% 0px 0px)",
+        "handlePx": "327px"
+      }
+    },
+    {
+      "name": "375x700/no-preference reveal corresponds End",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "375x700/no-preference comparison ArrowLeft",
+      "passed": true,
+      "detail": {
+        "value": "99",
+        "clip": "inset(0px 1% 0px 0px)",
+        "handlePx": "323.719px"
+      }
+    },
+    {
+      "name": "375x700/no-preference reveal corresponds ArrowLeft",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "375x700/no-preference Tab leaves comparison",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "375x700/no-preference interaction point visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "375x700/no-preference pointer changes reveal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "375x700/no-preference touch changes reveal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "375x700/reduce reduced content immediately visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "375x700/reduce every narrative reached by wheel from top",
+      "passed": true,
+      "detail": {
+        "startY": 0,
+        "wheelEvents": 34,
+        "seen": [
+          "Remove mandatory pre-registration",
+          "Reorganize steps around the user's mental model",
+          "Structured status visibility throughout",
+          "contact-heading",
+          "enrollment-decisions",
+          "enrollment-eligibility",
+          "enrollment-outcome",
+          "enrollment-personal-details",
+          "enrollment-portability",
+          "enrollment-problem",
+          "enrollment-role",
+          "enrollment-shipped",
+          "\u2190 Back to work\n      UX Research & Design\n      Enrollment Journey\n   "
+        ],
+        "missing": [],
+        "hiddenAfterScroll": []
+      }
+    },
+    {
+      "name": "375x700/reduce three distinct static journey figures",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "375x700/reduce explanations before images without overlap",
+      "passed": true,
+      "detail": [
+        {
+          "name": "enrollment-eligibility",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "w": 327,
+          "h": 204.375,
+          "nw": 1920,
+          "nh": 1200,
+          "width": 327,
+          "height": 204,
+          "lazy": "lazy",
+          "decoding": "async",
+          "paragraphSize": "16px",
+          "fg": "rgba(242, 242, 245, 0.65)",
+          "bg": "rgb(13, 15, 26)"
+        },
+        {
+          "name": "enrollment-personal-details",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "w": 327,
+          "h": 204.375,
+          "nw": 1920,
+          "nh": 1200,
+          "width": 327,
+          "height": 204,
+          "lazy": "lazy",
+          "decoding": "async",
+          "paragraphSize": "16px",
+          "fg": "rgba(242, 242, 245, 0.65)",
+          "bg": "rgb(13, 15, 26)"
+        },
+        {
+          "name": "enrollment-portability",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "w": 327,
+          "h": 204.375,
+          "nw": 1920,
+          "nh": 1200,
+          "width": 327,
+          "height": 204,
+          "lazy": "lazy",
+          "decoding": "async",
+          "paragraphSize": "16px",
+          "fg": "rgba(242, 242, 245, 0.65)",
+          "bg": "rgb(13, 15, 26)"
+        }
+      ]
+    },
+    {
+      "name": "375x700/reduce proportional lazy async images and full body type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "375x700/reduce no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "375x700/reduce no content clipped at viewport edge",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "375x700/reduce one comparison",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "375x700/reduce Tab enters comparison",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "375x700/reduce comparison Home",
+      "passed": true,
+      "detail": {
+        "value": "0",
+        "clip": "inset(0px 100% 0px 0px)",
+        "handlePx": "0px"
+      }
+    },
+    {
+      "name": "375x700/reduce reveal corresponds Home",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "375x700/reduce comparison ArrowRight",
+      "passed": true,
+      "detail": {
+        "value": "1",
+        "clip": "inset(0px 99% 0px 0px)",
+        "handlePx": "3.26562px"
+      }
+    },
+    {
+      "name": "375x700/reduce reveal corresponds ArrowRight",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "375x700/reduce comparison End",
+      "passed": true,
+      "detail": {
+        "value": "100",
+        "clip": "inset(0px 0% 0px 0px)",
+        "handlePx": "327px"
+      }
+    },
+    {
+      "name": "375x700/reduce reveal corresponds End",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "375x700/reduce comparison ArrowLeft",
+      "passed": true,
+      "detail": {
+        "value": "99",
+        "clip": "inset(0px 1% 0px 0px)",
+        "handlePx": "323.719px"
+      }
+    },
+    {
+      "name": "375x700/reduce reveal corresponds ArrowLeft",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "375x700/reduce Tab leaves comparison",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "375x700/reduce interaction point visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "375x700/reduce pointer changes reveal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "375x700/reduce touch changes reveal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768x700/no-preference every narrative reached by wheel from top",
+      "passed": true,
+      "detail": {
+        "startY": 0,
+        "wheelEvents": 31,
+        "seen": [
+          "Remove mandatory pre-registration",
+          "Reorganize steps around the user's mental model",
+          "Structured status visibility throughout",
+          "contact-heading",
+          "enrollment-decisions",
+          "enrollment-eligibility",
+          "enrollment-outcome",
+          "enrollment-personal-details",
+          "enrollment-portability",
+          "enrollment-problem",
+          "enrollment-role",
+          "enrollment-shipped",
+          "\u2190 Back to work\n      UX Research & Design\n      Enrollment Journey\n   "
+        ],
+        "missing": [],
+        "hiddenAfterScroll": []
+      }
+    },
+    {
+      "name": "768x700/no-preference three distinct static journey figures",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768x700/no-preference explanations before images without overlap",
+      "passed": true,
+      "detail": [
+        {
+          "name": "enrollment-eligibility",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "w": 720,
+          "h": 450,
+          "nw": 1920,
+          "nh": 1200,
+          "width": 720,
+          "height": 450,
+          "lazy": "lazy",
+          "decoding": "async",
+          "paragraphSize": "16px",
+          "fg": "rgba(242, 242, 245, 0.65)",
+          "bg": "rgb(13, 15, 26)"
+        },
+        {
+          "name": "enrollment-personal-details",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "w": 720,
+          "h": 450,
+          "nw": 1920,
+          "nh": 1200,
+          "width": 720,
+          "height": 450,
+          "lazy": "lazy",
+          "decoding": "async",
+          "paragraphSize": "16px",
+          "fg": "rgba(242, 242, 245, 0.65)",
+          "bg": "rgb(13, 15, 26)"
+        },
+        {
+          "name": "enrollment-portability",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "w": 720,
+          "h": 450,
+          "nw": 1920,
+          "nh": 1200,
+          "width": 720,
+          "height": 450,
+          "lazy": "lazy",
+          "decoding": "async",
+          "paragraphSize": "16px",
+          "fg": "rgba(242, 242, 245, 0.65)",
+          "bg": "rgb(13, 15, 26)"
+        }
+      ]
+    },
+    {
+      "name": "768x700/no-preference proportional lazy async images and full body type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768x700/no-preference no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768x700/no-preference no content clipped at viewport edge",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "768x700/no-preference one comparison",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768x700/no-preference Tab enters comparison",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768x700/no-preference comparison Home",
+      "passed": true,
+      "detail": {
+        "value": "0",
+        "clip": "inset(0px 100% 0px 0px)",
+        "handlePx": "0px"
+      }
+    },
+    {
+      "name": "768x700/no-preference reveal corresponds Home",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768x700/no-preference comparison ArrowRight",
+      "passed": true,
+      "detail": {
+        "value": "1",
+        "clip": "inset(0px 99% 0px 0px)",
+        "handlePx": "7.1875px"
+      }
+    },
+    {
+      "name": "768x700/no-preference reveal corresponds ArrowRight",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768x700/no-preference comparison End",
+      "passed": true,
+      "detail": {
+        "value": "100",
+        "clip": "inset(0px 0% 0px 0px)",
+        "handlePx": "720px"
+      }
+    },
+    {
+      "name": "768x700/no-preference reveal corresponds End",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768x700/no-preference comparison ArrowLeft",
+      "passed": true,
+      "detail": {
+        "value": "99",
+        "clip": "inset(0px 1% 0px 0px)",
+        "handlePx": "712.797px"
+      }
+    },
+    {
+      "name": "768x700/no-preference reveal corresponds ArrowLeft",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768x700/no-preference Tab leaves comparison",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768x700/no-preference interaction point visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768x700/no-preference pointer changes reveal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768x700/no-preference touch changes reveal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768x700/reduce reduced content immediately visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768x700/reduce every narrative reached by wheel from top",
+      "passed": true,
+      "detail": {
+        "startY": 0,
+        "wheelEvents": 31,
+        "seen": [
+          "Remove mandatory pre-registration",
+          "Reorganize steps around the user's mental model",
+          "Structured status visibility throughout",
+          "contact-heading",
+          "enrollment-decisions",
+          "enrollment-eligibility",
+          "enrollment-outcome",
+          "enrollment-personal-details",
+          "enrollment-portability",
+          "enrollment-problem",
+          "enrollment-role",
+          "enrollment-shipped",
+          "\u2190 Back to work\n      UX Research & Design\n      Enrollment Journey\n   "
+        ],
+        "missing": [],
+        "hiddenAfterScroll": []
+      }
+    },
+    {
+      "name": "768x700/reduce three distinct static journey figures",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768x700/reduce explanations before images without overlap",
+      "passed": true,
+      "detail": [
+        {
+          "name": "enrollment-eligibility",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "w": 720,
+          "h": 450,
+          "nw": 1920,
+          "nh": 1200,
+          "width": 720,
+          "height": 450,
+          "lazy": "lazy",
+          "decoding": "async",
+          "paragraphSize": "16px",
+          "fg": "rgba(242, 242, 245, 0.65)",
+          "bg": "rgb(13, 15, 26)"
+        },
+        {
+          "name": "enrollment-personal-details",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "w": 720,
+          "h": 450,
+          "nw": 1920,
+          "nh": 1200,
+          "width": 720,
+          "height": 450,
+          "lazy": "lazy",
+          "decoding": "async",
+          "paragraphSize": "16px",
+          "fg": "rgba(242, 242, 245, 0.65)",
+          "bg": "rgb(13, 15, 26)"
+        },
+        {
+          "name": "enrollment-portability",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "w": 720,
+          "h": 450,
+          "nw": 1920,
+          "nh": 1200,
+          "width": 720,
+          "height": 450,
+          "lazy": "lazy",
+          "decoding": "async",
+          "paragraphSize": "16px",
+          "fg": "rgba(242, 242, 245, 0.65)",
+          "bg": "rgb(13, 15, 26)"
+        }
+      ]
+    },
+    {
+      "name": "768x700/reduce proportional lazy async images and full body type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768x700/reduce no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768x700/reduce no content clipped at viewport edge",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "768x700/reduce one comparison",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768x700/reduce Tab enters comparison",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768x700/reduce comparison Home",
+      "passed": true,
+      "detail": {
+        "value": "0",
+        "clip": "inset(0px 100% 0px 0px)",
+        "handlePx": "0px"
+      }
+    },
+    {
+      "name": "768x700/reduce reveal corresponds Home",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768x700/reduce comparison ArrowRight",
+      "passed": true,
+      "detail": {
+        "value": "1",
+        "clip": "inset(0px 99% 0px 0px)",
+        "handlePx": "7.1875px"
+      }
+    },
+    {
+      "name": "768x700/reduce reveal corresponds ArrowRight",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768x700/reduce comparison End",
+      "passed": true,
+      "detail": {
+        "value": "100",
+        "clip": "inset(0px 0% 0px 0px)",
+        "handlePx": "720px"
+      }
+    },
+    {
+      "name": "768x700/reduce reveal corresponds End",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768x700/reduce comparison ArrowLeft",
+      "passed": true,
+      "detail": {
+        "value": "99",
+        "clip": "inset(0px 1% 0px 0px)",
+        "handlePx": "712.797px"
+      }
+    },
+    {
+      "name": "768x700/reduce reveal corresponds ArrowLeft",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768x700/reduce Tab leaves comparison",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768x700/reduce interaction point visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768x700/reduce pointer changes reveal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "768x700/reduce touch changes reveal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440x900/no-preference every narrative reached by wheel from top",
+      "passed": true,
+      "detail": {
+        "startY": 0,
+        "wheelEvents": 36,
+        "seen": [
+          "Remove mandatory pre-registration",
+          "Reorganize steps around the user's mental model",
+          "Structured status visibility throughout",
+          "contact-heading",
+          "enrollment-decisions",
+          "enrollment-eligibility",
+          "enrollment-outcome",
+          "enrollment-personal-details",
+          "enrollment-portability",
+          "enrollment-problem",
+          "enrollment-role",
+          "enrollment-shipped",
+          "\u2190 Back to work\n      UX Research & Design\n      Enrollment Journey\n   "
+        ],
+        "missing": [],
+        "hiddenAfterScroll": []
+      }
+    },
+    {
+      "name": "1440x900/no-preference three distinct static journey figures",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440x900/no-preference explanations before images without overlap",
+      "passed": true,
+      "detail": [
+        {
+          "name": "enrollment-eligibility",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "w": 1280,
+          "h": 800,
+          "nw": 1920,
+          "nh": 1200,
+          "width": 1280,
+          "height": 800,
+          "lazy": "lazy",
+          "decoding": "async",
+          "paragraphSize": "16px",
+          "fg": "rgba(242, 242, 245, 0.65)",
+          "bg": "rgb(13, 15, 26)"
+        },
+        {
+          "name": "enrollment-personal-details",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "w": 1280,
+          "h": 800,
+          "nw": 1920,
+          "nh": 1200,
+          "width": 1280,
+          "height": 800,
+          "lazy": "lazy",
+          "decoding": "async",
+          "paragraphSize": "16px",
+          "fg": "rgba(242, 242, 245, 0.65)",
+          "bg": "rgb(13, 15, 26)"
+        },
+        {
+          "name": "enrollment-portability",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "w": 1280,
+          "h": 800,
+          "nw": 1920,
+          "nh": 1200,
+          "width": 1280,
+          "height": 800,
+          "lazy": "lazy",
+          "decoding": "async",
+          "paragraphSize": "16px",
+          "fg": "rgba(242, 242, 245, 0.65)",
+          "bg": "rgb(13, 15, 26)"
+        }
+      ]
+    },
+    {
+      "name": "1440x900/no-preference proportional lazy async images and full body type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440x900/no-preference no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440x900/no-preference no content clipped at viewport edge",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "1440x900/no-preference one comparison",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440x900/no-preference Tab enters comparison",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440x900/no-preference comparison Home",
+      "passed": true,
+      "detail": {
+        "value": "0",
+        "clip": "inset(0px 100% 0px 0px)",
+        "handlePx": "0px"
+      }
+    },
+    {
+      "name": "1440x900/no-preference reveal corresponds Home",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440x900/no-preference comparison ArrowRight",
+      "passed": true,
+      "detail": {
+        "value": "1",
+        "clip": "inset(0px 99% 0px 0px)",
+        "handlePx": "12.7969px"
+      }
+    },
+    {
+      "name": "1440x900/no-preference reveal corresponds ArrowRight",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440x900/no-preference comparison End",
+      "passed": true,
+      "detail": {
+        "value": "100",
+        "clip": "inset(0px 0% 0px 0px)",
+        "handlePx": "1280px"
+      }
+    },
+    {
+      "name": "1440x900/no-preference reveal corresponds End",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440x900/no-preference comparison ArrowLeft",
+      "passed": true,
+      "detail": {
+        "value": "99",
+        "clip": "inset(0px 1% 0px 0px)",
+        "handlePx": "1267.19px"
+      }
+    },
+    {
+      "name": "1440x900/no-preference reveal corresponds ArrowLeft",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440x900/no-preference Tab leaves comparison",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440x900/no-preference interaction point visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440x900/no-preference pointer changes reveal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440x900/no-preference touch changes reveal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440x900/reduce reduced content immediately visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440x900/reduce every narrative reached by wheel from top",
+      "passed": true,
+      "detail": {
+        "startY": 0,
+        "wheelEvents": 36,
+        "seen": [
+          "Remove mandatory pre-registration",
+          "Reorganize steps around the user's mental model",
+          "Structured status visibility throughout",
+          "contact-heading",
+          "enrollment-decisions",
+          "enrollment-eligibility",
+          "enrollment-outcome",
+          "enrollment-personal-details",
+          "enrollment-portability",
+          "enrollment-problem",
+          "enrollment-role",
+          "enrollment-shipped",
+          "\u2190 Back to work\n      UX Research & Design\n      Enrollment Journey\n   "
+        ],
+        "missing": [],
+        "hiddenAfterScroll": []
+      }
+    },
+    {
+      "name": "1440x900/reduce three distinct static journey figures",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440x900/reduce explanations before images without overlap",
+      "passed": true,
+      "detail": [
+        {
+          "name": "enrollment-eligibility",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "w": 1280,
+          "h": 800,
+          "nw": 1920,
+          "nh": 1200,
+          "width": 1280,
+          "height": 800,
+          "lazy": "lazy",
+          "decoding": "async",
+          "paragraphSize": "16px",
+          "fg": "rgba(242, 242, 245, 0.65)",
+          "bg": "rgb(13, 15, 26)"
+        },
+        {
+          "name": "enrollment-personal-details",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "w": 1280,
+          "h": 800,
+          "nw": 1920,
+          "nh": 1200,
+          "width": 1280,
+          "height": 800,
+          "lazy": "lazy",
+          "decoding": "async",
+          "paragraphSize": "16px",
+          "fg": "rgba(242, 242, 245, 0.65)",
+          "bg": "rgb(13, 15, 26)"
+        },
+        {
+          "name": "enrollment-portability",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "w": 1280,
+          "h": 800,
+          "nw": 1920,
+          "nh": 1200,
+          "width": 1280,
+          "height": 800,
+          "lazy": "lazy",
+          "decoding": "async",
+          "paragraphSize": "16px",
+          "fg": "rgba(242, 242, 245, 0.65)",
+          "bg": "rgb(13, 15, 26)"
+        }
+      ]
+    },
+    {
+      "name": "1440x900/reduce proportional lazy async images and full body type",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440x900/reduce no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440x900/reduce no content clipped at viewport edge",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "1440x900/reduce one comparison",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440x900/reduce Tab enters comparison",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440x900/reduce comparison Home",
+      "passed": true,
+      "detail": {
+        "value": "0",
+        "clip": "inset(0px 100% 0px 0px)",
+        "handlePx": "0px"
+      }
+    },
+    {
+      "name": "1440x900/reduce reveal corresponds Home",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440x900/reduce comparison ArrowRight",
+      "passed": true,
+      "detail": {
+        "value": "1",
+        "clip": "inset(0px 99% 0px 0px)",
+        "handlePx": "12.7969px"
+      }
+    },
+    {
+      "name": "1440x900/reduce reveal corresponds ArrowRight",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440x900/reduce comparison End",
+      "passed": true,
+      "detail": {
+        "value": "100",
+        "clip": "inset(0px 0% 0px 0px)",
+        "handlePx": "1280px"
+      }
+    },
+    {
+      "name": "1440x900/reduce reveal corresponds End",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440x900/reduce comparison ArrowLeft",
+      "passed": true,
+      "detail": {
+        "value": "99",
+        "clip": "inset(0px 1% 0px 0px)",
+        "handlePx": "1267.19px"
+      }
+    },
+    {
+      "name": "1440x900/reduce reveal corresponds ArrowLeft",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440x900/reduce Tab leaves comparison",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440x900/reduce interaction point visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440x900/reduce pointer changes reveal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1440x900/reduce touch changes reveal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no application errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "no local failed assets",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "requests": [],
+  "matrix": [
+    {
+      "width": 320,
+      "height": 700,
+      "motion": "no-preference",
+      "wheel": {
+        "startY": 0,
+        "wheelEvents": 37,
+        "seen": [
+          "Remove mandatory pre-registration",
+          "Reorganize steps around the user's mental model",
+          "Structured status visibility throughout",
+          "contact-heading",
+          "enrollment-decisions",
+          "enrollment-eligibility",
+          "enrollment-outcome",
+          "enrollment-personal-details",
+          "enrollment-portability",
+          "enrollment-problem",
+          "enrollment-role",
+          "enrollment-shipped",
+          "\u2190 Back to work\n      UX Research & Design\n      Enrollment Journey\n   "
+        ],
+        "missing": [],
+        "hiddenAfterScroll": []
+      },
+      "images": [
+        {
+          "name": "enrollment-eligibility",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "w": 272,
+          "h": 170,
+          "nw": 1920,
+          "nh": 1200,
+          "width": 272,
+          "height": 170,
+          "lazy": "lazy",
+          "decoding": "async",
+          "paragraphSize": "16px",
+          "fg": "rgba(242, 242, 245, 0.65)",
+          "bg": "rgb(13, 15, 26)"
+        },
+        {
+          "name": "enrollment-personal-details",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "w": 272,
+          "h": 170,
+          "nw": 1920,
+          "nh": 1200,
+          "width": 272,
+          "height": 170,
+          "lazy": "lazy",
+          "decoding": "async",
+          "paragraphSize": "16px",
+          "fg": "rgba(242, 242, 245, 0.65)",
+          "bg": "rgb(13, 15, 26)"
+        },
+        {
+          "name": "enrollment-portability",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "w": 272,
+          "h": 170,
+          "nw": 1920,
+          "nh": 1200,
+          "width": 272,
+          "height": 170,
+          "lazy": "lazy",
+          "decoding": "async",
+          "paragraphSize": "16px",
+          "fg": "rgba(242, 242, 245, 0.65)",
+          "bg": "rgb(13, 15, 26)"
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "height": 700,
+      "motion": "reduce",
+      "wheel": {
+        "startY": 0,
+        "wheelEvents": 37,
+        "seen": [
+          "Remove mandatory pre-registration",
+          "Reorganize steps around the user's mental model",
+          "Structured status visibility throughout",
+          "contact-heading",
+          "enrollment-decisions",
+          "enrollment-eligibility",
+          "enrollment-outcome",
+          "enrollment-personal-details",
+          "enrollment-portability",
+          "enrollment-problem",
+          "enrollment-role",
+          "enrollment-shipped",
+          "\u2190 Back to work\n      UX Research & Design\n      Enrollment Journey\n   "
+        ],
+        "missing": [],
+        "hiddenAfterScroll": []
+      },
+      "images": [
+        {
+          "name": "enrollment-eligibility",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "w": 272,
+          "h": 170,
+          "nw": 1920,
+          "nh": 1200,
+          "width": 272,
+          "height": 170,
+          "lazy": "lazy",
+          "decoding": "async",
+          "paragraphSize": "16px",
+          "fg": "rgba(242, 242, 245, 0.65)",
+          "bg": "rgb(13, 15, 26)"
+        },
+        {
+          "name": "enrollment-personal-details",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "w": 272,
+          "h": 170,
+          "nw": 1920,
+          "nh": 1200,
+          "width": 272,
+          "height": 170,
+          "lazy": "lazy",
+          "decoding": "async",
+          "paragraphSize": "16px",
+          "fg": "rgba(242, 242, 245, 0.65)",
+          "bg": "rgb(13, 15, 26)"
+        },
+        {
+          "name": "enrollment-portability",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "w": 272,
+          "h": 170,
+          "nw": 1920,
+          "nh": 1200,
+          "width": 272,
+          "height": 170,
+          "lazy": "lazy",
+          "decoding": "async",
+          "paragraphSize": "16px",
+          "fg": "rgba(242, 242, 245, 0.65)",
+          "bg": "rgb(13, 15, 26)"
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "height": 700,
+      "motion": "no-preference",
+      "wheel": {
+        "startY": 0,
+        "wheelEvents": 34,
+        "seen": [
+          "Remove mandatory pre-registration",
+          "Reorganize steps around the user's mental model",
+          "Structured status visibility throughout",
+          "contact-heading",
+          "enrollment-decisions",
+          "enrollment-eligibility",
+          "enrollment-outcome",
+          "enrollment-personal-details",
+          "enrollment-portability",
+          "enrollment-problem",
+          "enrollment-role",
+          "enrollment-shipped",
+          "\u2190 Back to work\n      UX Research & Design\n      Enrollment Journey\n   "
+        ],
+        "missing": [],
+        "hiddenAfterScroll": []
+      },
+      "images": [
+        {
+          "name": "enrollment-eligibility",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "w": 327,
+          "h": 204.375,
+          "nw": 1920,
+          "nh": 1200,
+          "width": 327,
+          "height": 204,
+          "lazy": "lazy",
+          "decoding": "async",
+          "paragraphSize": "16px",
+          "fg": "rgba(242, 242, 245, 0.65)",
+          "bg": "rgb(13, 15, 26)"
+        },
+        {
+          "name": "enrollment-personal-details",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "w": 327,
+          "h": 204.375,
+          "nw": 1920,
+          "nh": 1200,
+          "width": 327,
+          "height": 204,
+          "lazy": "lazy",
+          "decoding": "async",
+          "paragraphSize": "16px",
+          "fg": "rgba(242, 242, 245, 0.65)",
+          "bg": "rgb(13, 15, 26)"
+        },
+        {
+          "name": "enrollment-portability",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "w": 327,
+          "h": 204.375,
+          "nw": 1920,
+          "nh": 1200,
+          "width": 327,
+          "height": 204,
+          "lazy": "lazy",
+          "decoding": "async",
+          "paragraphSize": "16px",
+          "fg": "rgba(242, 242, 245, 0.65)",
+          "bg": "rgb(13, 15, 26)"
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "height": 700,
+      "motion": "reduce",
+      "wheel": {
+        "startY": 0,
+        "wheelEvents": 34,
+        "seen": [
+          "Remove mandatory pre-registration",
+          "Reorganize steps around the user's mental model",
+          "Structured status visibility throughout",
+          "contact-heading",
+          "enrollment-decisions",
+          "enrollment-eligibility",
+          "enrollment-outcome",
+          "enrollment-personal-details",
+          "enrollment-portability",
+          "enrollment-problem",
+          "enrollment-role",
+          "enrollment-shipped",
+          "\u2190 Back to work\n      UX Research & Design\n      Enrollment Journey\n   "
+        ],
+        "missing": [],
+        "hiddenAfterScroll": []
+      },
+      "images": [
+        {
+          "name": "enrollment-eligibility",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "w": 327,
+          "h": 204.375,
+          "nw": 1920,
+          "nh": 1200,
+          "width": 327,
+          "height": 204,
+          "lazy": "lazy",
+          "decoding": "async",
+          "paragraphSize": "16px",
+          "fg": "rgba(242, 242, 245, 0.65)",
+          "bg": "rgb(13, 15, 26)"
+        },
+        {
+          "name": "enrollment-personal-details",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "w": 327,
+          "h": 204.375,
+          "nw": 1920,
+          "nh": 1200,
+          "width": 327,
+          "height": 204,
+          "lazy": "lazy",
+          "decoding": "async",
+          "paragraphSize": "16px",
+          "fg": "rgba(242, 242, 245, 0.65)",
+          "bg": "rgb(13, 15, 26)"
+        },
+        {
+          "name": "enrollment-portability",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "w": 327,
+          "h": 204.375,
+          "nw": 1920,
+          "nh": 1200,
+          "width": 327,
+          "height": 204,
+          "lazy": "lazy",
+          "decoding": "async",
+          "paragraphSize": "16px",
+          "fg": "rgba(242, 242, 245, 0.65)",
+          "bg": "rgb(13, 15, 26)"
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "height": 700,
+      "motion": "no-preference",
+      "wheel": {
+        "startY": 0,
+        "wheelEvents": 31,
+        "seen": [
+          "Remove mandatory pre-registration",
+          "Reorganize steps around the user's mental model",
+          "Structured status visibility throughout",
+          "contact-heading",
+          "enrollment-decisions",
+          "enrollment-eligibility",
+          "enrollment-outcome",
+          "enrollment-personal-details",
+          "enrollment-portability",
+          "enrollment-problem",
+          "enrollment-role",
+          "enrollment-shipped",
+          "\u2190 Back to work\n      UX Research & Design\n      Enrollment Journey\n   "
+        ],
+        "missing": [],
+        "hiddenAfterScroll": []
+      },
+      "images": [
+        {
+          "name": "enrollment-eligibility",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "w": 720,
+          "h": 450,
+          "nw": 1920,
+          "nh": 1200,
+          "width": 720,
+          "height": 450,
+          "lazy": "lazy",
+          "decoding": "async",
+          "paragraphSize": "16px",
+          "fg": "rgba(242, 242, 245, 0.65)",
+          "bg": "rgb(13, 15, 26)"
+        },
+        {
+          "name": "enrollment-personal-details",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "w": 720,
+          "h": 450,
+          "nw": 1920,
+          "nh": 1200,
+          "width": 720,
+          "height": 450,
+          "lazy": "lazy",
+          "decoding": "async",
+          "paragraphSize": "16px",
+          "fg": "rgba(242, 242, 245, 0.65)",
+          "bg": "rgb(13, 15, 26)"
+        },
+        {
+          "name": "enrollment-portability",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "w": 720,
+          "h": 450,
+          "nw": 1920,
+          "nh": 1200,
+          "width": 720,
+          "height": 450,
+          "lazy": "lazy",
+          "decoding": "async",
+          "paragraphSize": "16px",
+          "fg": "rgba(242, 242, 245, 0.65)",
+          "bg": "rgb(13, 15, 26)"
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "height": 700,
+      "motion": "reduce",
+      "wheel": {
+        "startY": 0,
+        "wheelEvents": 31,
+        "seen": [
+          "Remove mandatory pre-registration",
+          "Reorganize steps around the user's mental model",
+          "Structured status visibility throughout",
+          "contact-heading",
+          "enrollment-decisions",
+          "enrollment-eligibility",
+          "enrollment-outcome",
+          "enrollment-personal-details",
+          "enrollment-portability",
+          "enrollment-problem",
+          "enrollment-role",
+          "enrollment-shipped",
+          "\u2190 Back to work\n      UX Research & Design\n      Enrollment Journey\n   "
+        ],
+        "missing": [],
+        "hiddenAfterScroll": []
+      },
+      "images": [
+        {
+          "name": "enrollment-eligibility",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "w": 720,
+          "h": 450,
+          "nw": 1920,
+          "nh": 1200,
+          "width": 720,
+          "height": 450,
+          "lazy": "lazy",
+          "decoding": "async",
+          "paragraphSize": "16px",
+          "fg": "rgba(242, 242, 245, 0.65)",
+          "bg": "rgb(13, 15, 26)"
+        },
+        {
+          "name": "enrollment-personal-details",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "w": 720,
+          "h": 450,
+          "nw": 1920,
+          "nh": 1200,
+          "width": 720,
+          "height": 450,
+          "lazy": "lazy",
+          "decoding": "async",
+          "paragraphSize": "16px",
+          "fg": "rgba(242, 242, 245, 0.65)",
+          "bg": "rgb(13, 15, 26)"
+        },
+        {
+          "name": "enrollment-portability",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "w": 720,
+          "h": 450,
+          "nw": 1920,
+          "nh": 1200,
+          "width": 720,
+          "height": 450,
+          "lazy": "lazy",
+          "decoding": "async",
+          "paragraphSize": "16px",
+          "fg": "rgba(242, 242, 245, 0.65)",
+          "bg": "rgb(13, 15, 26)"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "motion": "no-preference",
+      "wheel": {
+        "startY": 0,
+        "wheelEvents": 36,
+        "seen": [
+          "Remove mandatory pre-registration",
+          "Reorganize steps around the user's mental model",
+          "Structured status visibility throughout",
+          "contact-heading",
+          "enrollment-decisions",
+          "enrollment-eligibility",
+          "enrollment-outcome",
+          "enrollment-personal-details",
+          "enrollment-portability",
+          "enrollment-problem",
+          "enrollment-role",
+          "enrollment-shipped",
+          "\u2190 Back to work\n      UX Research & Design\n      Enrollment Journey\n   "
+        ],
+        "missing": [],
+        "hiddenAfterScroll": []
+      },
+      "images": [
+        {
+          "name": "enrollment-eligibility",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "w": 1280,
+          "h": 800,
+          "nw": 1920,
+          "nh": 1200,
+          "width": 1280,
+          "height": 800,
+          "lazy": "lazy",
+          "decoding": "async",
+          "paragraphSize": "16px",
+          "fg": "rgba(242, 242, 245, 0.65)",
+          "bg": "rgb(13, 15, 26)"
+        },
+        {
+          "name": "enrollment-personal-details",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "w": 1280,
+          "h": 800,
+          "nw": 1920,
+          "nh": 1200,
+          "width": 1280,
+          "height": 800,
+          "lazy": "lazy",
+          "decoding": "async",
+          "paragraphSize": "16px",
+          "fg": "rgba(242, 242, 245, 0.65)",
+          "bg": "rgb(13, 15, 26)"
+        },
+        {
+          "name": "enrollment-portability",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "w": 1280,
+          "h": 800,
+          "nw": 1920,
+          "nh": 1200,
+          "width": 1280,
+          "height": 800,
+          "lazy": "lazy",
+          "decoding": "async",
+          "paragraphSize": "16px",
+          "fg": "rgba(242, 242, 245, 0.65)",
+          "bg": "rgb(13, 15, 26)"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "motion": "reduce",
+      "wheel": {
+        "startY": 0,
+        "wheelEvents": 36,
+        "seen": [
+          "Remove mandatory pre-registration",
+          "Reorganize steps around the user's mental model",
+          "Structured status visibility throughout",
+          "contact-heading",
+          "enrollment-decisions",
+          "enrollment-eligibility",
+          "enrollment-outcome",
+          "enrollment-personal-details",
+          "enrollment-portability",
+          "enrollment-problem",
+          "enrollment-role",
+          "enrollment-shipped",
+          "\u2190 Back to work\n      UX Research & Design\n      Enrollment Journey\n   "
+        ],
+        "missing": [],
+        "hiddenAfterScroll": []
+      },
+      "images": [
+        {
+          "name": "enrollment-eligibility",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "w": 1280,
+          "h": 800,
+          "nw": 1920,
+          "nh": 1200,
+          "width": 1280,
+          "height": 800,
+          "lazy": "lazy",
+          "decoding": "async",
+          "paragraphSize": "16px",
+          "fg": "rgba(242, 242, 245, 0.65)",
+          "bg": "rgb(13, 15, 26)"
+        },
+        {
+          "name": "enrollment-personal-details",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "w": 1280,
+          "h": 800,
+          "nw": 1920,
+          "nh": 1200,
+          "width": 1280,
+          "height": 800,
+          "lazy": "lazy",
+          "decoding": "async",
+          "paragraphSize": "16px",
+          "fg": "rgba(242, 242, 245, 0.65)",
+          "bg": "rgb(13, 15, 26)"
+        },
+        {
+          "name": "enrollment-portability",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "w": 1280,
+          "h": 800,
+          "nw": 1920,
+          "nh": 1200,
+          "width": 1280,
+          "height": 800,
+          "lazy": "lazy",
+          "decoding": "async",
+          "paragraphSize": "16px",
+          "fg": "rgba(242, 242, 245, 0.65)",
+          "bg": "rgb(13, 15, 26)"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "passed": 166,
+    "failed": 0
+  }
+}

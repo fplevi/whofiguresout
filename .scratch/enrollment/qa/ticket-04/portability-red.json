@@ -1,0 +1,5 @@
+{
+  "story": "portability",
+  "passed": false,
+  "error": "Reader cannot find the portability evidence: Portability as a specific situation"
+}
