@@ -40,3 +40,64 @@ The full browser matrix was not rerun. Existing evidence accurately limits its c
 
 Standards: 3 P3 findings (two documented rules, one judgment call). Spec: 0 actionable findings. All Standards findings are assigned to one follow-up implementer.
 
+
+## Final integration confirmation and finding dispositions ? 2026-10-24
+
+Merged `t3/enrollment-css-review-fixes` at
+`d764ccc8c1be61807ed439ee6019d5b235d9b9db` with `--no-ff` into
+`integration/enrollment-visual-narrative`, starting from clean
+`c356ef26694dfa6f489764b086589a94b572e0bb`. Merge commit:
+`34839d3d83963153d281d6ea2c363387c91b0093`. No conflicts. Its complete tree
+`8acf1b6bb85e7466b426d214cbca9e3513c7e55c` exactly equals the incoming branch
+tree; the subsequent integration confirmation changes only this document and
+`validation-review-fixes.md`.
+
+The original review axes, findings and counts above remain historical evidence:
+**Standards: 3 P3 findings (two documented rules, one judgment call); Spec: 0
+actionable findings. All three Standards findings are now resolved; zero remain
+open.** This disposition supersedes the earlier follow-up assignment.
+
+1. **Heading typography ? resolved:** the three journey h4s and submission h4
+   reuse `.cs-decision__title`. The shared rule has the same display font, 24px
+   size, 700 weight, 1.2 line height and primary color as the removed local
+   declarations. Local spacing, heading levels, IDs and text remain intact.
+2. **Focus gap ? resolved:** `outline-offset: var(--space-4)` uses the existing
+   4px token. The comparison's focus frame and 2px accent outline are retained.
+3. **Duplicate widths ? resolved:** one `.enrollment-decisions` rule owns full
+   width, and one grouped rule owns the 840px prose/caption measure. Competing
+   generic local overrides and duplicated widths are removed. All evidence
+   captions remain under the Enrollment container.
+
+Independent final integrity verification passed:
+
+- All **21 product SHA-256 values** in
+  `qa/review-fixes/final-checks.json` exactly match merged working files. Product
+  files also match tested matrix commit `bd2db56430cd592c74359805534d52cf92d84f13`.
+  HTML: `6e654b5a241dd123e24ef76eab8fb57bf9cf20cd8434720b5bdee25ae8dd2d19`;
+  CSS: `9ee1c1129d2c8e3d990d9bd887cfcc46342b7d22e778231ddfa8ee7f99c2250a`;
+  derivative: `30a3cd373457f2712b84b61239af12c2a54a9b66e63ba01f2dd1e86f616172e3`.
+- All **19 QA Python scripts, README and presentation manifests** present at the
+  tested commit are unchanged. The complete merged tree equality also preserves
+  all incoming saved QA files. All **48 current and corresponding baseline
+  screenshot hashes** match the saved appearance-comparison report, whose
+  result remains 48/48 pixel-identical.
+- Saved validation and final-check records both identify `bd2db56`, with the
+  latest integration tip `c356ef2`, eight cases, **308 passes / zero failures**
+  and empty recorded error arrays. These are carried-forward executed results,
+  not a claim of a new matrix run at the merge commit.
+- All four approved slice merge commits (`5b2669e` discovery, `501ec0e` journey,
+  `07b1a14` submission and `5581f26` comparison) remain ancestors. Static page
+  checks retain discovery, all four interface screens and the two comparison
+  images. Reversing exactly the four added heading classes reproduces pre-merge
+  HTML, confirming no copy, ordering or other markup changes.
+- The only product changes from `c356ef2` are `assets/css/enrollment.css` and
+  `case-studies/enrollment.html`. Shared files, all issues and the spec are
+  unchanged. Issue 01 still has `Status: needs-info` and exact working SHA-256
+  `b7d1b0127a8fb45274b3e04c78bba05a46f5c32f5d89827cbfd5eca8309ef2e2`.
+- `git diff --check` and merge-commit whitespace checks passed.
+
+No new product or QA concern was found. In accordance with the handoff, the full
+browser matrix was not repeated and no server on 8129 was needed. Existing
+physical-device, screen-reader, MP4 and production-service limitations remain.
+No ticket/spec closure, PR, deployment, nested agent or worktree removal was
+performed. See [review-fix validation](validation-review-fixes.md).
