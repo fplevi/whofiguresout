@@ -1,6 +1,6 @@
-# Enrollment — narrativa visual orientada às decisões
+﻿# Enrollment — narrativa visual orientada às decisões
 
-Status: ready-for-agent
+Status: resolved
 Data: 2026-10-24.
 
 ## Problem Statement
@@ -117,3 +117,12 @@ Combinar alternância lateral no desktop com blocos largos para material denso. 
 - The tracker is local Markdown with one spec and one file per approved ticket. Preserve existing Enrollment documents and issue 01, “Definição e fonte do indicador de propostas”, including its needs-info status and comments. Start new ticket numbering after that issue; apply ready-for-agent to approved implementation tickets and record explicit blockers.
 - Before publishing new tickets, present the proposed vertical slices, granularity and genuine blocking edges for the separate to-tickets checkpoint. Approval of the testing seam does not replace that checkpoint.
 - This conversation shares the root checkout with other specification conversations and substantial pre-existing changes. Inventory the working tree, preserve all existing work and write only Enrollment documents. No new glossary term or architectural decision is required by the confirmed editorial choices.
+
+
+## Answer
+
+Implemented on integration/enrollment-visual-narrative. Tickets 02–05 are resolved: discovery synthesis, the relocated accessible plan comparison, three journey-organization screens, and submission-for-analysis evidence. Issue 01 remains needs-info and unchanged.
+
+The full rendered-page matrix passed 308 checks across 320, 375, 768 and 1440 px with normal and reduced motion. The independent Spec review found no actionable issues; all three P3 Standards findings were corrected in one implementation and verified with 308 passing checks and 48 pixel-identical evidence screenshots. The reviewed fixes reached integration in 6d3766b; runtime and QA hashes match the tested implementation.
+
+Evidence: [final integration validation](validation-integration-final.md), [review-fix validation](validation-review-fixes.md), and [two-axis code review](code-review.md). Browser-emulated touch is not physical-device or screen-reader testing; no production-service, analytics-session, MP4-playback or contact-submission validation is claimed. No PR, deployment or real contact submission was performed.

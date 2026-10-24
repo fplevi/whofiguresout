@@ -1,4 +1,4 @@
-# 05: Explicar envio para análise e próximos passos
+﻿# 05: Explicar envio para análise e próximos passos
 
 **What to build:** permitir que o leitor compreenda o que a confirmação de envio comunica ao proponente. Integrar a captura aprovada de confirmação junto da terceira decisão, explicando envio para análise, protocolo e próximos passos sem confundir esse momento com aprovação, adesão concluída ou uma consulta real de status. Seguir o spec de Enrollment.
 
@@ -26,3 +26,8 @@
 ## Answer
 
 Implemented the submission-for-analysis figure beside decision 03, with truthful English orientation, specific alternative, lossless presentation crop and source manifest. TDD story and intrinsic-dimension red/green cycles passed. The merged discovery/journey/submission page passed 199 browser checks across all eight viewport/motion combinations. Originals and issue 01 remain intact; no contact was submitted. See [ticket 05 validation](../validation-ticket-05.md), [manifest](../presentation-assets-05.json) and [browser results](../qa/ticket-05/matrix.json). Final all-four-slice validation remains the merger's responsibility while ticket 03 is pending integration.
+
+
+## Final integration closure
+
+2026-10-24: resolved after integration of all four slices and final review corrections at 6d3766b. Full matrix: 308/308 checks; all 48 evidence screenshots remained pixel-identical after CSS maintenance. Spec review: zero actionable findings. Standards: three P3 findings corrected. [Final review](../code-review.md). Issue 01 remains unchanged; no contact submission.

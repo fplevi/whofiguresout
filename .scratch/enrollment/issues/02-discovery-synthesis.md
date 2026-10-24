@@ -1,4 +1,4 @@
-# 02: Mostrar a síntese de discovery
+﻿# 02: Mostrar a síntese de discovery
 
 **What to build:** permitir que o leitor de Enrollment veja como o trabalho de discovery foi organizado antes de conhecer as decisões. Apresentar a prancha fornecida como “Desk Research” em um único bloco largo após “My Role” e antes de “The Decisions”, com explicação própria em inglês que funcione sem decifrar as pequenas anotações da imagem. Seguir o spec de Enrollment e seus limites factuais.
 
@@ -30,3 +30,8 @@ Implemented the single discovery-synthesis block after the preserved My Role acc
 Red-to-green browser evidence and the post-merge eight-combination matrix passed (320/375/768 at height 700; 1440 at height 900; normal/reduced motion), including real wheel traversal from the top, loaded proportional images, measured 7.55:1 explanatory-text contrast, comparison regression, preserved surfaces against f8f9034 and zero contact submissions. All 16 final captures were visually inspected. Issue 01, original assets and shared CSS/JS remain unchanged.
 
 See [ticket validation](../validation-ticket-02.md), [asset manifest](../presentation-assets-02.json) and [executed evidence](../qa/ticket-02/). This acceptance covers the current ticket-02 page; future ticket 03–05 evidence and final combined validation remain their assigned work. Baseline comparison focus/name limitations are recorded, not claimed fixed here.
+
+
+## Final integration closure
+
+2026-10-24: resolved after integration of all four slices and final review corrections at 6d3766b. Full matrix: 308/308 checks; all 48 evidence screenshots remained pixel-identical after CSS maintenance. Spec review: zero actionable findings. Standards: three P3 findings corrected. [Final review](../code-review.md). Issue 01 remains unchanged; no contact submission.

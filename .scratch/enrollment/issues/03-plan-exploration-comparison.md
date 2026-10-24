@@ -1,4 +1,4 @@
-# 03: Integrar o comparador à exploração
+﻿# 03: Integrar o comparador à exploração
 
 **What to build:** permitir que o leitor relacione diretamente a decisão de exploração dos planos à mudança de organização das opções. Integrar o comparador antes/depois existente em um único bloco largo junto da primeira decisão, com orientação factual e operação acessível, eliminando sua apresentação separada em “What Shipped”. Seguir o spec de Enrollment.
 
@@ -30,3 +30,13 @@
 - 2026-10-24: Recovered commit `66ebc77` into branch `t3/enrollment-visual-narrative`, worktree `t3-6485afe7`, preserving the original branch/worktree and its newer uncommitted QA evidence. Ticket 03 is implemented and the current discovery/journey/comparison page passes 244 browser checks on port 8123. See [validation-ticket-03.md](../validation-ticket-03.md) for fresh evidence, source preservation, editorial review, measured contrast, harness failures and limitations. Ticket 05 and final five-new-image acceptance are not claimed. Integration tip `9b86741` was merged as `61a19d3`; the post-merge complete current-page rerun again passed all eight cases and 244 checks. Final checks and `git diff --check` pass. No contact submission was made; issue 01 remains byte-unchanged.
 
 - 2026-10-24 final integration: independently delivered ticket 05 reached integration and was merged here from `07b1a14` as `6d80b9e`. This agent did not implement ticket 05. The full combined discovery/four-interface-screen/comparator matrix now passes eight viewport/motion cases and 252 checks; all 18 originals, issue 01 bytes, shared code, analytics declarations and source-to-crop identity pass final checks. All-width/motion contrast measurements pass. See the final combined section of the validation report. No actual contact submission occurred.
+
+
+## Answer
+
+Delivered and integrated on integration/enrollment-visual-narrative. See [final integration validation](../validation-integration-final.md) and [review-fix validation](../validation-review-fixes.md) for the final combined page and corrected review findings.
+
+
+## Final integration closure
+
+2026-10-24: resolved after integration of all four slices and final review corrections at 6d3766b. Full matrix: 308/308 checks; all 48 evidence screenshots remained pixel-identical after CSS maintenance. Spec review: zero actionable findings. Standards: three P3 findings corrected. [Final review](../code-review.md). Issue 01 remains unchanged; no contact submission.

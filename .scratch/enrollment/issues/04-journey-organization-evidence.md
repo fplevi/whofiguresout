@@ -1,4 +1,4 @@
-# 04: Evidenciar a organização das etapas
+﻿# 04: Evidenciar a organização das etapas
 
 **What to build:** permitir que o leitor compreenda a segunda decisão de Enrollment por três evidências complementares: elegibilidade e sequência, dados pessoais e orientação documental, e portabilidade como situação específica. Integrar as três capturas aprovadas junto da organização das etapas, cada uma com explicação própria, sem transcrever o fluxo completo. Seguir o spec de Enrollment.
 
@@ -28,3 +28,8 @@
 ## Answer
 
 Implemented the three approved journey evidence blocks with separate English explanations, specific alternatives and responsive full-width presentation of untouched originals. Browser red-to-green tests and the complete current-page matrix pass; preserved surfaces and original integrity were checked against f8f9034. See [ticket 04 validation](../validation-ticket-04.md), [asset manifest](../presentation-assets-04.json), and [executed evidence](../qa/ticket-04/). Baseline comparator focus limitations and final combined-page work owned by other tickets are explicitly recorded. Issue 01 remains unchanged.
+
+
+## Final integration closure
+
+2026-10-24: resolved after integration of all four slices and final review corrections at 6d3766b. Full matrix: 308/308 checks; all 48 evidence screenshots remained pixel-identical after CSS maintenance. Spec review: zero actionable findings. Standards: three P3 findings corrected. [Final review](../code-review.md). Issue 01 remains unchanged; no contact submission.
