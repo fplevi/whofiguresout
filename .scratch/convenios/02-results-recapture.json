@@ -1,0 +1,62 @@
+{
+  "url": "http://127.0.0.1:8112/case-studies/convenios.html",
+  "checks": [
+    {
+      "name": "accounts: switching without logout is explicit",
+      "ok": true,
+      "detail": "Make room for more than one account.\n\nMultiple accounts can stay signed in on one device. Members can switch between them without logging out."
+    },
+    {
+      "name": "accounts: unrelated services are not attributed to this evidence",
+      "ok": true,
+      "detail": "Make room for more than one account.\n\nMultiple accounts can stay signed in on one device. Members can switch between them without logging out."
+    },
+    {
+      "name": "320-no-preference: recapture uses loaded images",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375-no-preference: recapture uses loaded images",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768-no-preference: recapture uses loaded images",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440-no-preference: recapture uses loaded images",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320-reduce: recapture uses loaded images",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375-reduce: recapture uses loaded images",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768-reduce: recapture uses loaded images",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440-reduce: recapture uses loaded images",
+      "ok": true,
+      "detail": null
+    }
+  ],
+  "console": [],
+  "failed_requests": [],
+  "browser": "156.0.8078.4",
+  "summary": {
+    "passed": 10,
+    "failed": 0
+  }
+}

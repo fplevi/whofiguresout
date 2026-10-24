@@ -77,6 +77,40 @@
   max-height: none;
 }
 
+/* Trim only transparent side margins of the unchanged accounts mockup.
+   A portrait frame keeps the full phone visible at readable mobile scale. */
+.cs-app__feature--accounts .cs-app__figure {
+  padding: 0;
+}
+
+.cs-app__feature--accounts .cs-app__figure img {
+  width: 100%;
+  max-width: 384px;
+  height: auto;
+  max-height: none;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: 45% 50%;
+}
+
+/* The network phone benefits from a tighter transparent crop and its own
+   media sizing. Keep its explanation first in reading order. */
+.cs-app__feature--network .cs-app__feature-copy {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.cs-app__feature--network .cs-app__figure {
+  grid-column: 1;
+  grid-row: 1;
+  padding: var(--space-16);
+}
+
+.cs-app__feature--network img {
+  max-width: 360px;
+  max-height: none;
+}
+
 .cs-app__stores a {
   display: inline-flex;
   align-items: center;
@@ -106,5 +140,11 @@
 
   .cs-app__figure {
     padding: var(--space-24);
+  }
+
+  .cs-app__feature--network .cs-app__feature-copy,
+  .cs-app__feature--network .cs-app__figure {
+    grid-column: auto;
+    grid-row: auto;
   }
 }

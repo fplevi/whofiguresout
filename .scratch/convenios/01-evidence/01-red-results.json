@@ -1,0 +1,1758 @@
+{
+  "phase": "red",
+  "url": "http://127.0.0.1:8111/case-studies/convenios.html",
+  "checks": [
+    {
+      "name": "320-no-preference: home remains in hero",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320-no-preference: network has its own explanation",
+      "ok": false,
+      "detail": null
+    },
+    {
+      "name": "320-no-preference: card keeps view/copy/share without unsupported biometrics",
+      "ok": false,
+      "detail": null
+    },
+    {
+      "name": "320-no-preference: every section appears during ordinary wheel traversal",
+      "ok": true,
+      "detail": [
+        {
+          "heading": "CASSI Convênios",
+          "opacity": "1",
+          "height": 864.875
+        },
+        {
+          "heading": "One network. A missing digital experience.",
+          "opacity": "1",
+          "height": 655.296875
+        },
+        {
+          "heading": "From discovery to delivery.",
+          "opacity": "1",
+          "height": 549.703125
+        },
+        {
+          "heading": "Designed around everyday needs.",
+          "opacity": "1",
+          "height": 2303.09375
+        },
+        {
+          "heading": "A new app. A shared foundation.",
+          "opacity": "1",
+          "height": 571.328125
+        },
+        {
+          "heading": "Let's work together.",
+          "opacity": "1",
+          "height": 719
+        }
+      ]
+    },
+    {
+      "name": "320-no-preference: all page images loaded",
+      "ok": true,
+      "detail": [
+        {
+          "src": "../assets/images/convenios/convenios-home.webp",
+          "alt": "CASSI Convênios home screen with digital card information, key services and notifications",
+          "nw": 818,
+          "nh": 1025,
+          "w": 272,
+          "h": 352,
+          "fit": "contain",
+          "loading": "auto",
+          "decoding": "auto"
+        },
+        {
+          "src": "../assets/images/convenios/convenios-card.webp",
+          "alt": "Front and back of the digital member card, with a sharing option",
+          "nw": 758,
+          "nh": 1031,
+          "w": 224,
+          "h": 304.671875,
+          "fit": "contain",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "../assets/images/convenios/convenios-accounts.webp",
+          "alt": "Account switcher with saved family member profiles and an option to add another account",
+          "nw": 1024,
+          "nh": 844,
+          "w": 224,
+          "h": 184.625,
+          "fit": "contain",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "../assets/images/convenios/convenios-components.webp",
+          "alt": "Figma button documentation showing component variants, states and dimensions",
+          "nw": 1024,
+          "nh": 1322,
+          "w": 224,
+          "h": 289.1875,
+          "fit": "contain",
+          "loading": "lazy",
+          "decoding": "async"
+        }
+      ]
+    },
+    {
+      "name": "320-no-preference: body images proportional",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320-no-preference: no horizontal overflow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320-reduce: home remains in hero",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320-reduce: network has its own explanation",
+      "ok": false,
+      "detail": null
+    },
+    {
+      "name": "320-reduce: card keeps view/copy/share without unsupported biometrics",
+      "ok": false,
+      "detail": null
+    },
+    {
+      "name": "320-reduce: sections immediately visible",
+      "ok": true,
+      "detail": [
+        {
+          "heading": "CASSI Convênios",
+          "opacity": "1"
+        },
+        {
+          "heading": "One network. A missing digital experience.",
+          "opacity": "1"
+        },
+        {
+          "heading": "From discovery to delivery.",
+          "opacity": "1"
+        },
+        {
+          "heading": "Designed around everyday needs.",
+          "opacity": "1"
+        },
+        {
+          "heading": "A new app. A shared foundation.",
+          "opacity": "1"
+        },
+        {
+          "heading": "Let's work together.",
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "name": "320-reduce: every section appears during ordinary wheel traversal",
+      "ok": true,
+      "detail": [
+        {
+          "heading": "CASSI Convênios",
+          "opacity": "1",
+          "height": 864.875
+        },
+        {
+          "heading": "One network. A missing digital experience.",
+          "opacity": "1",
+          "height": 655.296875
+        },
+        {
+          "heading": "From discovery to delivery.",
+          "opacity": "1",
+          "height": 549.703125
+        },
+        {
+          "heading": "Designed around everyday needs.",
+          "opacity": "1",
+          "height": 2303.09375
+        },
+        {
+          "heading": "A new app. A shared foundation.",
+          "opacity": "1",
+          "height": 571.328125
+        },
+        {
+          "heading": "Let's work together.",
+          "opacity": "1",
+          "height": 719
+        }
+      ]
+    },
+    {
+      "name": "320-reduce: all page images loaded",
+      "ok": true,
+      "detail": [
+        {
+          "src": "../assets/images/convenios/convenios-home.webp",
+          "alt": "CASSI Convênios home screen with digital card information, key services and notifications",
+          "nw": 818,
+          "nh": 1025,
+          "w": 272,
+          "h": 352,
+          "fit": "contain",
+          "loading": "auto",
+          "decoding": "auto"
+        },
+        {
+          "src": "../assets/images/convenios/convenios-card.webp",
+          "alt": "Front and back of the digital member card, with a sharing option",
+          "nw": 758,
+          "nh": 1031,
+          "w": 224,
+          "h": 304.671875,
+          "fit": "contain",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "../assets/images/convenios/convenios-accounts.webp",
+          "alt": "Account switcher with saved family member profiles and an option to add another account",
+          "nw": 1024,
+          "nh": 844,
+          "w": 224,
+          "h": 184.625,
+          "fit": "contain",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "../assets/images/convenios/convenios-components.webp",
+          "alt": "Figma button documentation showing component variants, states and dimensions",
+          "nw": 1024,
+          "nh": 1322,
+          "w": 224,
+          "h": 289.1875,
+          "fit": "contain",
+          "loading": "lazy",
+          "decoding": "async"
+        }
+      ]
+    },
+    {
+      "name": "320-reduce: body images proportional",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320-reduce: no horizontal overflow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375-no-preference: home remains in hero",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375-no-preference: network has its own explanation",
+      "ok": false,
+      "detail": null
+    },
+    {
+      "name": "375-no-preference: card keeps view/copy/share without unsupported biometrics",
+      "ok": false,
+      "detail": null
+    },
+    {
+      "name": "375-no-preference: every section appears during ordinary wheel traversal",
+      "ok": true,
+      "detail": [
+        {
+          "heading": "CASSI Convênios",
+          "opacity": "1",
+          "height": 830.78125
+        },
+        {
+          "heading": "One network. A missing digital experience.",
+          "opacity": "1",
+          "height": 575.3125
+        },
+        {
+          "heading": "From discovery to delivery.",
+          "opacity": "1",
+          "height": 522.515625
+        },
+        {
+          "heading": "Designed around everyday needs.",
+          "opacity": "1",
+          "height": 2386.25
+        },
+        {
+          "heading": "A new app. A shared foundation.",
+          "opacity": "1",
+          "height": 544.140625
+        },
+        {
+          "heading": "Let's work together.",
+          "opacity": "1",
+          "height": 719
+        }
+      ]
+    },
+    {
+      "name": "375-no-preference: all page images loaded",
+      "ok": true,
+      "detail": [
+        {
+          "src": "../assets/images/convenios/convenios-home.webp",
+          "alt": "CASSI Convênios home screen with digital card information, key services and notifications",
+          "nw": 818,
+          "nh": 1025,
+          "w": 327,
+          "h": 420.75,
+          "fit": "contain",
+          "loading": "auto",
+          "decoding": "auto"
+        },
+        {
+          "src": "../assets/images/convenios/convenios-card.webp",
+          "alt": "Front and back of the digital member card, with a sharing option",
+          "nw": 758,
+          "nh": 1031,
+          "w": 279,
+          "h": 379.46875,
+          "fit": "contain",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "../assets/images/convenios/convenios-accounts.webp",
+          "alt": "Account switcher with saved family member profiles and an option to add another account",
+          "nw": 1024,
+          "nh": 844,
+          "w": 279,
+          "h": 229.953125,
+          "fit": "contain",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "../assets/images/convenios/convenios-components.webp",
+          "alt": "Figma button documentation showing component variants, states and dimensions",
+          "nw": 1024,
+          "nh": 1322,
+          "w": 279,
+          "h": 360.1875,
+          "fit": "contain",
+          "loading": "lazy",
+          "decoding": "async"
+        }
+      ]
+    },
+    {
+      "name": "375-no-preference: body images proportional",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375-no-preference: no horizontal overflow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375-reduce: home remains in hero",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375-reduce: network has its own explanation",
+      "ok": false,
+      "detail": null
+    },
+    {
+      "name": "375-reduce: card keeps view/copy/share without unsupported biometrics",
+      "ok": false,
+      "detail": null
+    },
+    {
+      "name": "375-reduce: sections immediately visible",
+      "ok": true,
+      "detail": [
+        {
+          "heading": "CASSI Convênios",
+          "opacity": "1"
+        },
+        {
+          "heading": "One network. A missing digital experience.",
+          "opacity": "1"
+        },
+        {
+          "heading": "From discovery to delivery.",
+          "opacity": "1"
+        },
+        {
+          "heading": "Designed around everyday needs.",
+          "opacity": "1"
+        },
+        {
+          "heading": "A new app. A shared foundation.",
+          "opacity": "1"
+        },
+        {
+          "heading": "Let's work together.",
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "name": "375-reduce: every section appears during ordinary wheel traversal",
+      "ok": true,
+      "detail": [
+        {
+          "heading": "CASSI Convênios",
+          "opacity": "1",
+          "height": 830.78125
+        },
+        {
+          "heading": "One network. A missing digital experience.",
+          "opacity": "1",
+          "height": 575.3125
+        },
+        {
+          "heading": "From discovery to delivery.",
+          "opacity": "1",
+          "height": 522.515625
+        },
+        {
+          "heading": "Designed around everyday needs.",
+          "opacity": "1",
+          "height": 2386.25
+        },
+        {
+          "heading": "A new app. A shared foundation.",
+          "opacity": "1",
+          "height": 544.140625
+        },
+        {
+          "heading": "Let's work together.",
+          "opacity": "1",
+          "height": 719
+        }
+      ]
+    },
+    {
+      "name": "375-reduce: all page images loaded",
+      "ok": true,
+      "detail": [
+        {
+          "src": "../assets/images/convenios/convenios-home.webp",
+          "alt": "CASSI Convênios home screen with digital card information, key services and notifications",
+          "nw": 818,
+          "nh": 1025,
+          "w": 327,
+          "h": 420.75,
+          "fit": "contain",
+          "loading": "auto",
+          "decoding": "auto"
+        },
+        {
+          "src": "../assets/images/convenios/convenios-card.webp",
+          "alt": "Front and back of the digital member card, with a sharing option",
+          "nw": 758,
+          "nh": 1031,
+          "w": 279,
+          "h": 379.46875,
+          "fit": "contain",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "../assets/images/convenios/convenios-accounts.webp",
+          "alt": "Account switcher with saved family member profiles and an option to add another account",
+          "nw": 1024,
+          "nh": 844,
+          "w": 279,
+          "h": 229.953125,
+          "fit": "contain",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "../assets/images/convenios/convenios-components.webp",
+          "alt": "Figma button documentation showing component variants, states and dimensions",
+          "nw": 1024,
+          "nh": 1322,
+          "w": 279,
+          "h": 360.1875,
+          "fit": "contain",
+          "loading": "lazy",
+          "decoding": "async"
+        }
+      ]
+    },
+    {
+      "name": "375-reduce: body images proportional",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375-reduce: no horizontal overflow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768-no-preference: home remains in hero",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768-no-preference: network has its own explanation",
+      "ok": false,
+      "detail": null
+    },
+    {
+      "name": "768-no-preference: card keeps view/copy/share without unsupported biometrics",
+      "ok": false,
+      "detail": null
+    },
+    {
+      "name": "768-no-preference: every section appears during ordinary wheel traversal",
+      "ok": true,
+      "detail": [
+        {
+          "heading": "CASSI Convênios",
+          "opacity": "1",
+          "height": 762.125
+        },
+        {
+          "heading": "One network. A missing digital experience.",
+          "opacity": "1",
+          "height": 388.15625
+        },
+        {
+          "heading": "From discovery to delivery.",
+          "opacity": "1",
+          "height": 335.359375
+        },
+        {
+          "heading": "Designed around everyday needs.",
+          "opacity": "1",
+          "height": 2535.109375
+        },
+        {
+          "heading": "A new app. A shared foundation.",
+          "opacity": "1",
+          "height": 384.171875
+        },
+        {
+          "heading": "Let's work together.",
+          "opacity": "1",
+          "height": 691.453125
+        }
+      ]
+    },
+    {
+      "name": "768-no-preference: all page images loaded",
+      "ok": true,
+      "detail": [
+        {
+          "src": "../assets/images/convenios/convenios-home.webp",
+          "alt": "CASSI Convênios home screen with digital card information, key services and notifications",
+          "nw": 818,
+          "nh": 1025,
+          "w": 480.421875,
+          "h": 602,
+          "fit": "contain",
+          "loading": "auto",
+          "decoding": "auto"
+        },
+        {
+          "src": "../assets/images/convenios/convenios-card.webp",
+          "alt": "Front and back of the digital member card, with a sharing option",
+          "nw": 758,
+          "nh": 1031,
+          "w": 672,
+          "h": 480,
+          "fit": "contain",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "../assets/images/convenios/convenios-accounts.webp",
+          "alt": "Account switcher with saved family member profiles and an option to add another account",
+          "nw": 1024,
+          "nh": 844,
+          "w": 672,
+          "h": 480,
+          "fit": "contain",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "../assets/images/convenios/convenios-components.webp",
+          "alt": "Figma button documentation showing component variants, states and dimensions",
+          "nw": 1024,
+          "nh": 1322,
+          "w": 672,
+          "h": 480,
+          "fit": "contain",
+          "loading": "lazy",
+          "decoding": "async"
+        }
+      ]
+    },
+    {
+      "name": "768-no-preference: body images proportional",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768-no-preference: no horizontal overflow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768-reduce: home remains in hero",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768-reduce: network has its own explanation",
+      "ok": false,
+      "detail": null
+    },
+    {
+      "name": "768-reduce: card keeps view/copy/share without unsupported biometrics",
+      "ok": false,
+      "detail": null
+    },
+    {
+      "name": "768-reduce: sections immediately visible",
+      "ok": true,
+      "detail": [
+        {
+          "heading": "CASSI Convênios",
+          "opacity": "1"
+        },
+        {
+          "heading": "One network. A missing digital experience.",
+          "opacity": "1"
+        },
+        {
+          "heading": "From discovery to delivery.",
+          "opacity": "1"
+        },
+        {
+          "heading": "Designed around everyday needs.",
+          "opacity": "1"
+        },
+        {
+          "heading": "A new app. A shared foundation.",
+          "opacity": "1"
+        },
+        {
+          "heading": "Let's work together.",
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "name": "768-reduce: every section appears during ordinary wheel traversal",
+      "ok": true,
+      "detail": [
+        {
+          "heading": "CASSI Convênios",
+          "opacity": "1",
+          "height": 762.125
+        },
+        {
+          "heading": "One network. A missing digital experience.",
+          "opacity": "1",
+          "height": 388.15625
+        },
+        {
+          "heading": "From discovery to delivery.",
+          "opacity": "1",
+          "height": 335.359375
+        },
+        {
+          "heading": "Designed around everyday needs.",
+          "opacity": "1",
+          "height": 2535.109375
+        },
+        {
+          "heading": "A new app. A shared foundation.",
+          "opacity": "1",
+          "height": 384.171875
+        },
+        {
+          "heading": "Let's work together.",
+          "opacity": "1",
+          "height": 691.453125
+        }
+      ]
+    },
+    {
+      "name": "768-reduce: all page images loaded",
+      "ok": true,
+      "detail": [
+        {
+          "src": "../assets/images/convenios/convenios-home.webp",
+          "alt": "CASSI Convênios home screen with digital card information, key services and notifications",
+          "nw": 818,
+          "nh": 1025,
+          "w": 480.421875,
+          "h": 602,
+          "fit": "contain",
+          "loading": "auto",
+          "decoding": "auto"
+        },
+        {
+          "src": "../assets/images/convenios/convenios-card.webp",
+          "alt": "Front and back of the digital member card, with a sharing option",
+          "nw": 758,
+          "nh": 1031,
+          "w": 672,
+          "h": 480,
+          "fit": "contain",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "../assets/images/convenios/convenios-accounts.webp",
+          "alt": "Account switcher with saved family member profiles and an option to add another account",
+          "nw": 1024,
+          "nh": 844,
+          "w": 672,
+          "h": 480,
+          "fit": "contain",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "../assets/images/convenios/convenios-components.webp",
+          "alt": "Figma button documentation showing component variants, states and dimensions",
+          "nw": 1024,
+          "nh": 1322,
+          "w": 672,
+          "h": 480,
+          "fit": "contain",
+          "loading": "lazy",
+          "decoding": "async"
+        }
+      ]
+    },
+    {
+      "name": "768-reduce: body images proportional",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768-reduce: no horizontal overflow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440-no-preference: home remains in hero",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440-no-preference: network has its own explanation",
+      "ok": false,
+      "detail": null
+    },
+    {
+      "name": "1440-no-preference: card keeps view/copy/share without unsupported biometrics",
+      "ok": false,
+      "detail": null
+    },
+    {
+      "name": "1440-no-preference: every section appears during ordinary wheel traversal",
+      "ok": true,
+      "detail": [
+        {
+          "heading": "CASSI Convênios",
+          "opacity": "1",
+          "height": 643.6875
+        },
+        {
+          "heading": "One network. A missing digital experience.",
+          "opacity": "1",
+          "height": 388.15625
+        },
+        {
+          "heading": "From discovery to delivery.",
+          "opacity": "1",
+          "height": 308.171875
+        },
+        {
+          "heading": "Designed around everyday needs.",
+          "opacity": "1",
+          "height": 2153.171875
+        },
+        {
+          "heading": "A new app. A shared foundation.",
+          "opacity": "1",
+          "height": 384.171875
+        },
+        {
+          "heading": "Let's work together.",
+          "opacity": "1",
+          "height": 783
+        }
+      ]
+    },
+    {
+      "name": "1440-no-preference: all page images loaded",
+      "ok": true,
+      "detail": [
+        {
+          "src": "../assets/images/convenios/convenios-home.webp",
+          "alt": "CASSI Convênios home screen with digital card information, key services and notifications",
+          "nw": 818,
+          "nh": 1025,
+          "w": 442.109375,
+          "h": 554,
+          "fit": "contain",
+          "loading": "auto",
+          "decoding": "auto"
+        },
+        {
+          "src": "../assets/images/convenios/convenios-card.webp",
+          "alt": "Front and back of the digital member card, with a sharing option",
+          "nw": 758,
+          "nh": 1031,
+          "w": 544,
+          "h": 480,
+          "fit": "contain",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "../assets/images/convenios/convenios-accounts.webp",
+          "alt": "Account switcher with saved family member profiles and an option to add another account",
+          "nw": 1024,
+          "nh": 844,
+          "w": 544,
+          "h": 448.375,
+          "fit": "contain",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "../assets/images/convenios/convenios-components.webp",
+          "alt": "Figma button documentation showing component variants, states and dimensions",
+          "nw": 1024,
+          "nh": 1322,
+          "w": 544,
+          "h": 480,
+          "fit": "contain",
+          "loading": "lazy",
+          "decoding": "async"
+        }
+      ]
+    },
+    {
+      "name": "1440-no-preference: body images proportional",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440-no-preference: no horizontal overflow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440-reduce: home remains in hero",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440-reduce: network has its own explanation",
+      "ok": false,
+      "detail": null
+    },
+    {
+      "name": "1440-reduce: card keeps view/copy/share without unsupported biometrics",
+      "ok": false,
+      "detail": null
+    },
+    {
+      "name": "1440-reduce: sections immediately visible",
+      "ok": true,
+      "detail": [
+        {
+          "heading": "CASSI Convênios",
+          "opacity": "1"
+        },
+        {
+          "heading": "One network. A missing digital experience.",
+          "opacity": "1"
+        },
+        {
+          "heading": "From discovery to delivery.",
+          "opacity": "1"
+        },
+        {
+          "heading": "Designed around everyday needs.",
+          "opacity": "1"
+        },
+        {
+          "heading": "A new app. A shared foundation.",
+          "opacity": "1"
+        },
+        {
+          "heading": "Let's work together.",
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "name": "1440-reduce: every section appears during ordinary wheel traversal",
+      "ok": true,
+      "detail": [
+        {
+          "heading": "CASSI Convênios",
+          "opacity": "1",
+          "height": 643.6875
+        },
+        {
+          "heading": "One network. A missing digital experience.",
+          "opacity": "1",
+          "height": 388.15625
+        },
+        {
+          "heading": "From discovery to delivery.",
+          "opacity": "1",
+          "height": 308.171875
+        },
+        {
+          "heading": "Designed around everyday needs.",
+          "opacity": "1",
+          "height": 2153.171875
+        },
+        {
+          "heading": "A new app. A shared foundation.",
+          "opacity": "1",
+          "height": 384.171875
+        },
+        {
+          "heading": "Let's work together.",
+          "opacity": "1",
+          "height": 783
+        }
+      ]
+    },
+    {
+      "name": "1440-reduce: all page images loaded",
+      "ok": true,
+      "detail": [
+        {
+          "src": "../assets/images/convenios/convenios-home.webp",
+          "alt": "CASSI Convênios home screen with digital card information, key services and notifications",
+          "nw": 818,
+          "nh": 1025,
+          "w": 442.109375,
+          "h": 554,
+          "fit": "contain",
+          "loading": "auto",
+          "decoding": "auto"
+        },
+        {
+          "src": "../assets/images/convenios/convenios-card.webp",
+          "alt": "Front and back of the digital member card, with a sharing option",
+          "nw": 758,
+          "nh": 1031,
+          "w": 544,
+          "h": 480,
+          "fit": "contain",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "../assets/images/convenios/convenios-accounts.webp",
+          "alt": "Account switcher with saved family member profiles and an option to add another account",
+          "nw": 1024,
+          "nh": 844,
+          "w": 544,
+          "h": 448.375,
+          "fit": "contain",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "../assets/images/convenios/convenios-components.webp",
+          "alt": "Figma button documentation showing component variants, states and dimensions",
+          "nw": 1024,
+          "nh": 1322,
+          "w": 544,
+          "h": 480,
+          "fit": "contain",
+          "loading": "lazy",
+          "decoding": "async"
+        }
+      ]
+    },
+    {
+      "name": "1440-reduce: body images proportional",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440-reduce: no horizontal overflow",
+      "ok": true,
+      "detail": null
+    }
+  ],
+  "diagnostics": [],
+  "matrix": [
+    {
+      "view": "320-no-preference",
+      "images": [
+        {
+          "src": "../assets/images/convenios/convenios-home.webp",
+          "alt": "CASSI Convênios home screen with digital card information, key services and notifications",
+          "nw": 818,
+          "nh": 1025,
+          "w": 272,
+          "h": 352,
+          "fit": "contain",
+          "loading": "auto",
+          "decoding": "auto"
+        },
+        {
+          "src": "../assets/images/convenios/convenios-card.webp",
+          "alt": "Front and back of the digital member card, with a sharing option",
+          "nw": 758,
+          "nh": 1031,
+          "w": 224,
+          "h": 304.671875,
+          "fit": "contain",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "../assets/images/convenios/convenios-accounts.webp",
+          "alt": "Account switcher with saved family member profiles and an option to add another account",
+          "nw": 1024,
+          "nh": 844,
+          "w": 224,
+          "h": 184.625,
+          "fit": "contain",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "../assets/images/convenios/convenios-components.webp",
+          "alt": "Figma button documentation showing component variants, states and dimensions",
+          "nw": 1024,
+          "nh": 1322,
+          "w": 224,
+          "h": 289.1875,
+          "fit": "contain",
+          "loading": "lazy",
+          "decoding": "async"
+        }
+      ],
+      "visibility": [
+        {
+          "heading": "CASSI Convênios",
+          "opacity": "1",
+          "height": 864.875
+        },
+        {
+          "heading": "One network. A missing digital experience.",
+          "opacity": "1",
+          "height": 655.296875
+        },
+        {
+          "heading": "From discovery to delivery.",
+          "opacity": "1",
+          "height": 549.703125
+        },
+        {
+          "heading": "Designed around everyday needs.",
+          "opacity": "1",
+          "height": 2303.09375
+        },
+        {
+          "heading": "A new app. A shared foundation.",
+          "opacity": "1",
+          "height": 571.328125
+        },
+        {
+          "heading": "Let's work together.",
+          "opacity": "1",
+          "height": 719
+        }
+      ],
+      "visited": [
+        "A new app. A shared foundation.",
+        "Build a foundation for the next release.",
+        "CASSI Convênios",
+        "Designed around everyday needs.",
+        "From discovery to delivery.",
+        "Keep the essentials close.",
+        "Let's work together.",
+        "Make room for more than one account.",
+        "One network. A missing digital experience."
+      ]
+    },
+    {
+      "view": "320-reduce",
+      "images": [
+        {
+          "src": "../assets/images/convenios/convenios-home.webp",
+          "alt": "CASSI Convênios home screen with digital card information, key services and notifications",
+          "nw": 818,
+          "nh": 1025,
+          "w": 272,
+          "h": 352,
+          "fit": "contain",
+          "loading": "auto",
+          "decoding": "auto"
+        },
+        {
+          "src": "../assets/images/convenios/convenios-card.webp",
+          "alt": "Front and back of the digital member card, with a sharing option",
+          "nw": 758,
+          "nh": 1031,
+          "w": 224,
+          "h": 304.671875,
+          "fit": "contain",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "../assets/images/convenios/convenios-accounts.webp",
+          "alt": "Account switcher with saved family member profiles and an option to add another account",
+          "nw": 1024,
+          "nh": 844,
+          "w": 224,
+          "h": 184.625,
+          "fit": "contain",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "../assets/images/convenios/convenios-components.webp",
+          "alt": "Figma button documentation showing component variants, states and dimensions",
+          "nw": 1024,
+          "nh": 1322,
+          "w": 224,
+          "h": 289.1875,
+          "fit": "contain",
+          "loading": "lazy",
+          "decoding": "async"
+        }
+      ],
+      "visibility": [
+        {
+          "heading": "CASSI Convênios",
+          "opacity": "1",
+          "height": 864.875
+        },
+        {
+          "heading": "One network. A missing digital experience.",
+          "opacity": "1",
+          "height": 655.296875
+        },
+        {
+          "heading": "From discovery to delivery.",
+          "opacity": "1",
+          "height": 549.703125
+        },
+        {
+          "heading": "Designed around everyday needs.",
+          "opacity": "1",
+          "height": 2303.09375
+        },
+        {
+          "heading": "A new app. A shared foundation.",
+          "opacity": "1",
+          "height": 571.328125
+        },
+        {
+          "heading": "Let's work together.",
+          "opacity": "1",
+          "height": 719
+        }
+      ],
+      "visited": [
+        "A new app. A shared foundation.",
+        "Build a foundation for the next release.",
+        "CASSI Convênios",
+        "Designed around everyday needs.",
+        "From discovery to delivery.",
+        "Keep the essentials close.",
+        "Let's work together.",
+        "Make room for more than one account.",
+        "One network. A missing digital experience."
+      ]
+    },
+    {
+      "view": "375-no-preference",
+      "images": [
+        {
+          "src": "../assets/images/convenios/convenios-home.webp",
+          "alt": "CASSI Convênios home screen with digital card information, key services and notifications",
+          "nw": 818,
+          "nh": 1025,
+          "w": 327,
+          "h": 420.75,
+          "fit": "contain",
+          "loading": "auto",
+          "decoding": "auto"
+        },
+        {
+          "src": "../assets/images/convenios/convenios-card.webp",
+          "alt": "Front and back of the digital member card, with a sharing option",
+          "nw": 758,
+          "nh": 1031,
+          "w": 279,
+          "h": 379.46875,
+          "fit": "contain",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "../assets/images/convenios/convenios-accounts.webp",
+          "alt": "Account switcher with saved family member profiles and an option to add another account",
+          "nw": 1024,
+          "nh": 844,
+          "w": 279,
+          "h": 229.953125,
+          "fit": "contain",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "../assets/images/convenios/convenios-components.webp",
+          "alt": "Figma button documentation showing component variants, states and dimensions",
+          "nw": 1024,
+          "nh": 1322,
+          "w": 279,
+          "h": 360.1875,
+          "fit": "contain",
+          "loading": "lazy",
+          "decoding": "async"
+        }
+      ],
+      "visibility": [
+        {
+          "heading": "CASSI Convênios",
+          "opacity": "1",
+          "height": 830.78125
+        },
+        {
+          "heading": "One network. A missing digital experience.",
+          "opacity": "1",
+          "height": 575.3125
+        },
+        {
+          "heading": "From discovery to delivery.",
+          "opacity": "1",
+          "height": 522.515625
+        },
+        {
+          "heading": "Designed around everyday needs.",
+          "opacity": "1",
+          "height": 2386.25
+        },
+        {
+          "heading": "A new app. A shared foundation.",
+          "opacity": "1",
+          "height": 544.140625
+        },
+        {
+          "heading": "Let's work together.",
+          "opacity": "1",
+          "height": 719
+        }
+      ],
+      "visited": [
+        "A new app. A shared foundation.",
+        "Build a foundation for the next release.",
+        "CASSI Convênios",
+        "Designed around everyday needs.",
+        "From discovery to delivery.",
+        "Keep the essentials close.",
+        "Let's work together.",
+        "Make room for more than one account.",
+        "One network. A missing digital experience."
+      ]
+    },
+    {
+      "view": "375-reduce",
+      "images": [
+        {
+          "src": "../assets/images/convenios/convenios-home.webp",
+          "alt": "CASSI Convênios home screen with digital card information, key services and notifications",
+          "nw": 818,
+          "nh": 1025,
+          "w": 327,
+          "h": 420.75,
+          "fit": "contain",
+          "loading": "auto",
+          "decoding": "auto"
+        },
+        {
+          "src": "../assets/images/convenios/convenios-card.webp",
+          "alt": "Front and back of the digital member card, with a sharing option",
+          "nw": 758,
+          "nh": 1031,
+          "w": 279,
+          "h": 379.46875,
+          "fit": "contain",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "../assets/images/convenios/convenios-accounts.webp",
+          "alt": "Account switcher with saved family member profiles and an option to add another account",
+          "nw": 1024,
+          "nh": 844,
+          "w": 279,
+          "h": 229.953125,
+          "fit": "contain",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "../assets/images/convenios/convenios-components.webp",
+          "alt": "Figma button documentation showing component variants, states and dimensions",
+          "nw": 1024,
+          "nh": 1322,
+          "w": 279,
+          "h": 360.1875,
+          "fit": "contain",
+          "loading": "lazy",
+          "decoding": "async"
+        }
+      ],
+      "visibility": [
+        {
+          "heading": "CASSI Convênios",
+          "opacity": "1",
+          "height": 830.78125
+        },
+        {
+          "heading": "One network. A missing digital experience.",
+          "opacity": "1",
+          "height": 575.3125
+        },
+        {
+          "heading": "From discovery to delivery.",
+          "opacity": "1",
+          "height": 522.515625
+        },
+        {
+          "heading": "Designed around everyday needs.",
+          "opacity": "1",
+          "height": 2386.25
+        },
+        {
+          "heading": "A new app. A shared foundation.",
+          "opacity": "1",
+          "height": 544.140625
+        },
+        {
+          "heading": "Let's work together.",
+          "opacity": "1",
+          "height": 719
+        }
+      ],
+      "visited": [
+        "A new app. A shared foundation.",
+        "Build a foundation for the next release.",
+        "CASSI Convênios",
+        "Designed around everyday needs.",
+        "From discovery to delivery.",
+        "Keep the essentials close.",
+        "Let's work together.",
+        "Make room for more than one account.",
+        "One network. A missing digital experience."
+      ]
+    },
+    {
+      "view": "768-no-preference",
+      "images": [
+        {
+          "src": "../assets/images/convenios/convenios-home.webp",
+          "alt": "CASSI Convênios home screen with digital card information, key services and notifications",
+          "nw": 818,
+          "nh": 1025,
+          "w": 480.421875,
+          "h": 602,
+          "fit": "contain",
+          "loading": "auto",
+          "decoding": "auto"
+        },
+        {
+          "src": "../assets/images/convenios/convenios-card.webp",
+          "alt": "Front and back of the digital member card, with a sharing option",
+          "nw": 758,
+          "nh": 1031,
+          "w": 672,
+          "h": 480,
+          "fit": "contain",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "../assets/images/convenios/convenios-accounts.webp",
+          "alt": "Account switcher with saved family member profiles and an option to add another account",
+          "nw": 1024,
+          "nh": 844,
+          "w": 672,
+          "h": 480,
+          "fit": "contain",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "../assets/images/convenios/convenios-components.webp",
+          "alt": "Figma button documentation showing component variants, states and dimensions",
+          "nw": 1024,
+          "nh": 1322,
+          "w": 672,
+          "h": 480,
+          "fit": "contain",
+          "loading": "lazy",
+          "decoding": "async"
+        }
+      ],
+      "visibility": [
+        {
+          "heading": "CASSI Convênios",
+          "opacity": "1",
+          "height": 762.125
+        },
+        {
+          "heading": "One network. A missing digital experience.",
+          "opacity": "1",
+          "height": 388.15625
+        },
+        {
+          "heading": "From discovery to delivery.",
+          "opacity": "1",
+          "height": 335.359375
+        },
+        {
+          "heading": "Designed around everyday needs.",
+          "opacity": "1",
+          "height": 2535.109375
+        },
+        {
+          "heading": "A new app. A shared foundation.",
+          "opacity": "1",
+          "height": 384.171875
+        },
+        {
+          "heading": "Let's work together.",
+          "opacity": "1",
+          "height": 691.453125
+        }
+      ],
+      "visited": [
+        "A new app. A shared foundation.",
+        "Build a foundation for the next release.",
+        "CASSI Convênios",
+        "Designed around everyday needs.",
+        "From discovery to delivery.",
+        "Keep the essentials close.",
+        "Let's work together.",
+        "Make room for more than one account.",
+        "One network. A missing digital experience."
+      ]
+    },
+    {
+      "view": "768-reduce",
+      "images": [
+        {
+          "src": "../assets/images/convenios/convenios-home.webp",
+          "alt": "CASSI Convênios home screen with digital card information, key services and notifications",
+          "nw": 818,
+          "nh": 1025,
+          "w": 480.421875,
+          "h": 602,
+          "fit": "contain",
+          "loading": "auto",
+          "decoding": "auto"
+        },
+        {
+          "src": "../assets/images/convenios/convenios-card.webp",
+          "alt": "Front and back of the digital member card, with a sharing option",
+          "nw": 758,
+          "nh": 1031,
+          "w": 672,
+          "h": 480,
+          "fit": "contain",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "../assets/images/convenios/convenios-accounts.webp",
+          "alt": "Account switcher with saved family member profiles and an option to add another account",
+          "nw": 1024,
+          "nh": 844,
+          "w": 672,
+          "h": 480,
+          "fit": "contain",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "../assets/images/convenios/convenios-components.webp",
+          "alt": "Figma button documentation showing component variants, states and dimensions",
+          "nw": 1024,
+          "nh": 1322,
+          "w": 672,
+          "h": 480,
+          "fit": "contain",
+          "loading": "lazy",
+          "decoding": "async"
+        }
+      ],
+      "visibility": [
+        {
+          "heading": "CASSI Convênios",
+          "opacity": "1",
+          "height": 762.125
+        },
+        {
+          "heading": "One network. A missing digital experience.",
+          "opacity": "1",
+          "height": 388.15625
+        },
+        {
+          "heading": "From discovery to delivery.",
+          "opacity": "1",
+          "height": 335.359375
+        },
+        {
+          "heading": "Designed around everyday needs.",
+          "opacity": "1",
+          "height": 2535.109375
+        },
+        {
+          "heading": "A new app. A shared foundation.",
+          "opacity": "1",
+          "height": 384.171875
+        },
+        {
+          "heading": "Let's work together.",
+          "opacity": "1",
+          "height": 691.453125
+        }
+      ],
+      "visited": [
+        "A new app. A shared foundation.",
+        "Build a foundation for the next release.",
+        "CASSI Convênios",
+        "Designed around everyday needs.",
+        "From discovery to delivery.",
+        "Keep the essentials close.",
+        "Let's work together.",
+        "Make room for more than one account.",
+        "One network. A missing digital experience."
+      ]
+    },
+    {
+      "view": "1440-no-preference",
+      "images": [
+        {
+          "src": "../assets/images/convenios/convenios-home.webp",
+          "alt": "CASSI Convênios home screen with digital card information, key services and notifications",
+          "nw": 818,
+          "nh": 1025,
+          "w": 442.109375,
+          "h": 554,
+          "fit": "contain",
+          "loading": "auto",
+          "decoding": "auto"
+        },
+        {
+          "src": "../assets/images/convenios/convenios-card.webp",
+          "alt": "Front and back of the digital member card, with a sharing option",
+          "nw": 758,
+          "nh": 1031,
+          "w": 544,
+          "h": 480,
+          "fit": "contain",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "../assets/images/convenios/convenios-accounts.webp",
+          "alt": "Account switcher with saved family member profiles and an option to add another account",
+          "nw": 1024,
+          "nh": 844,
+          "w": 544,
+          "h": 448.375,
+          "fit": "contain",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "../assets/images/convenios/convenios-components.webp",
+          "alt": "Figma button documentation showing component variants, states and dimensions",
+          "nw": 1024,
+          "nh": 1322,
+          "w": 544,
+          "h": 480,
+          "fit": "contain",
+          "loading": "lazy",
+          "decoding": "async"
+        }
+      ],
+      "visibility": [
+        {
+          "heading": "CASSI Convênios",
+          "opacity": "1",
+          "height": 643.6875
+        },
+        {
+          "heading": "One network. A missing digital experience.",
+          "opacity": "1",
+          "height": 388.15625
+        },
+        {
+          "heading": "From discovery to delivery.",
+          "opacity": "1",
+          "height": 308.171875
+        },
+        {
+          "heading": "Designed around everyday needs.",
+          "opacity": "1",
+          "height": 2153.171875
+        },
+        {
+          "heading": "A new app. A shared foundation.",
+          "opacity": "1",
+          "height": 384.171875
+        },
+        {
+          "heading": "Let's work together.",
+          "opacity": "1",
+          "height": 783
+        }
+      ],
+      "visited": [
+        "A new app. A shared foundation.",
+        "Build a foundation for the next release.",
+        "CASSI Convênios",
+        "Designed around everyday needs.",
+        "From discovery to delivery.",
+        "Keep the essentials close.",
+        "Let's work together.",
+        "Make room for more than one account.",
+        "One network. A missing digital experience."
+      ]
+    },
+    {
+      "view": "1440-reduce",
+      "images": [
+        {
+          "src": "../assets/images/convenios/convenios-home.webp",
+          "alt": "CASSI Convênios home screen with digital card information, key services and notifications",
+          "nw": 818,
+          "nh": 1025,
+          "w": 442.109375,
+          "h": 554,
+          "fit": "contain",
+          "loading": "auto",
+          "decoding": "auto"
+        },
+        {
+          "src": "../assets/images/convenios/convenios-card.webp",
+          "alt": "Front and back of the digital member card, with a sharing option",
+          "nw": 758,
+          "nh": 1031,
+          "w": 544,
+          "h": 480,
+          "fit": "contain",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "../assets/images/convenios/convenios-accounts.webp",
+          "alt": "Account switcher with saved family member profiles and an option to add another account",
+          "nw": 1024,
+          "nh": 844,
+          "w": 544,
+          "h": 448.375,
+          "fit": "contain",
+          "loading": "lazy",
+          "decoding": "async"
+        },
+        {
+          "src": "../assets/images/convenios/convenios-components.webp",
+          "alt": "Figma button documentation showing component variants, states and dimensions",
+          "nw": 1024,
+          "nh": 1322,
+          "w": 544,
+          "h": 480,
+          "fit": "contain",
+          "loading": "lazy",
+          "decoding": "async"
+        }
+      ],
+      "visibility": [
+        {
+          "heading": "CASSI Convênios",
+          "opacity": "1",
+          "height": 643.6875
+        },
+        {
+          "heading": "One network. A missing digital experience.",
+          "opacity": "1",
+          "height": 388.15625
+        },
+        {
+          "heading": "From discovery to delivery.",
+          "opacity": "1",
+          "height": 308.171875
+        },
+        {
+          "heading": "Designed around everyday needs.",
+          "opacity": "1",
+          "height": 2153.171875
+        },
+        {
+          "heading": "A new app. A shared foundation.",
+          "opacity": "1",
+          "height": 384.171875
+        },
+        {
+          "heading": "Let's work together.",
+          "opacity": "1",
+          "height": 783
+        }
+      ],
+      "visited": [
+        "A new app. A shared foundation.",
+        "Build a foundation for the next release.",
+        "CASSI Convênios",
+        "Designed around everyday needs.",
+        "From discovery to delivery.",
+        "Keep the essentials close.",
+        "Let's work together.",
+        "Make room for more than one account.",
+        "One network. A missing digital experience."
+      ]
+    }
+  ],
+  "browser": "156.0.8078.4",
+  "summary": {
+    "passed": 44,
+    "failed": 16
+  }
+}
