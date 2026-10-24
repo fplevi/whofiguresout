@@ -45,3 +45,9 @@ python .scratch/convenios/02-preservation.py
 Manual visual review checks layout, readable explanatory copy, saved-profile structure, full-phone context, transparency and proportional rendering. It does not claim that every tiny profile label is independently readable at 320px. No screen-reader, Firefox, Safari, production app/service or accessibility-certification audit was performed. Existing library raw-image link, small documentation and unsupported conclusion text belong to ticket 03; provider-network insertion belongs to ticket 01. They were preserved exactly in this independently validated ticket state.
 
 Ticket remains **claimed** for integration final review. No PR, delegation, integration-checkout write, original-root write or worktree deletion.
+
+## Final integration sync
+
+Initial HEAD `f8f9034` was an ancestor of integration `78a853d`; merged integration by fast-forward before implementation. Implementation/evidence commit: `ca360f8107b5ef33cd546f48897d24698ba6dc26`.
+
+After committing, ran `git merge integration/convenios-visual-narrative` again: **Already up to date**, current integration tip `78a853df61a4de9cce4c67d23f4e77880daeb31a`. `git merge-base --is-ancestor integration/convenios-visual-narrative HEAD` succeeded. No conflicts or other-ticket changes were present to resolve. Rechecked preservation: **20 passed / 0 failed**. Post-merge rendered-copy smoke: **2 passed / 0 failed**, `02-results-postmerge.json` and `02-evidence-postmerge/02-copy.png`. The full matrix remains applicable because integration introduced no additional code after that run.
