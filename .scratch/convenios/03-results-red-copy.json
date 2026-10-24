@@ -1,0 +1,33 @@
+{
+  "phase": "red-copy",
+  "url": "http://127.0.0.1:8113",
+  "checks": [
+    {
+      "name": "320: button documentation retains readable source scale in page",
+      "ok": true,
+      "detail": {
+        "naturalWidth": 173,
+        "naturalHeight": 263,
+        "width": 272,
+        "height": 413.5,
+        "drawnWidth": 271.9980988593156
+      }
+    },
+    {
+      "name": "library story is complete in page and distinguishes its own foundation",
+      "ok": false,
+      "detail": {
+        "library": "Build a foundation for the next release.\n\nWe documented reusable components in Figma using Atomic Design principles, with accessibility guiding the design. A dedicated visual identity connected the new product to CASSI's ecosystem.",
+        "outcome": "A new app. A shared foundation.\n\nCASSI launched a dedicated product for partner-plan members. The component library reduced rework and established a foundation for future services.\n\nGoogle Play \u2197\nApp Store \u2197",
+        "links": 1
+      }
+    }
+  ],
+  "console": [],
+  "failed_requests": [],
+  "browser": "156.0.8078.4",
+  "summary": {
+    "passed": 1,
+    "failed": 1
+  }
+}

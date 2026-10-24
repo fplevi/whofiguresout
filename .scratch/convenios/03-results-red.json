@@ -1,0 +1,24 @@
+{
+  "phase": "red",
+  "url": "http://127.0.0.1:8113",
+  "checks": [
+    {
+      "name": "320: button documentation retains readable source scale in page",
+      "ok": false,
+      "detail": {
+        "naturalWidth": 1024,
+        "naturalHeight": 1322,
+        "width": 224,
+        "height": 289.1875,
+        "drawnWidth": 224
+      }
+    }
+  ],
+  "console": [],
+  "failed_requests": [],
+  "browser": "156.0.8078.4",
+  "summary": {
+    "passed": 0,
+    "failed": 1
+  }
+}

@@ -62,6 +62,21 @@
   margin-top: var(--space-32);
 }
 
+/* Dense library evidence gets its own wide row and a focused, readable crop. */
+.cs-app__feature--library {
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--space-32);
+}
+
+.cs-app__feature--library .cs-app__figure {
+  padding: var(--space-32) 0;
+}
+
+.cs-app__feature--library img {
+  max-width: 480px;
+  max-height: none;
+}
+
 .cs-app__stores a {
   display: inline-flex;
   align-items: center;
