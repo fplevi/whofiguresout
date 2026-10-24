@@ -1,0 +1,194 @@
+[
+  {
+    "width": 320,
+    "evidence": "evidence",
+    "normal": "320-no-preference-evidence.png",
+    "reduced": "320-reduce-evidence.png",
+    "sameDimensions": true,
+    "identicalPixels": true
+  },
+  {
+    "width": 320,
+    "evidence": "enrollment-discovery",
+    "normal": "320-no-preference-enrollment-discovery.png",
+    "reduced": "320-reduce-enrollment-discovery.png",
+    "sameDimensions": true,
+    "identicalPixels": true
+  },
+  {
+    "width": 320,
+    "evidence": "enrollment-eligibility",
+    "normal": "320-no-preference-enrollment-eligibility.png",
+    "reduced": "320-reduce-enrollment-eligibility.png",
+    "sameDimensions": true,
+    "identicalPixels": true
+  },
+  {
+    "width": 320,
+    "evidence": "enrollment-personal-details",
+    "normal": "320-no-preference-enrollment-personal-details.png",
+    "reduced": "320-reduce-enrollment-personal-details.png",
+    "sameDimensions": true,
+    "identicalPixels": true
+  },
+  {
+    "width": 320,
+    "evidence": "enrollment-portability",
+    "normal": "320-no-preference-enrollment-portability.png",
+    "reduced": "320-reduce-enrollment-portability.png",
+    "sameDimensions": true,
+    "identicalPixels": true
+  },
+  {
+    "width": 320,
+    "evidence": "enrollment-submission-title",
+    "normal": "320-no-preference-enrollment-submission-title.png",
+    "reduced": "320-reduce-enrollment-submission-title.png",
+    "sameDimensions": true,
+    "identicalPixels": true
+  },
+  {
+    "width": 375,
+    "evidence": "evidence",
+    "normal": "375-no-preference-evidence.png",
+    "reduced": "375-reduce-evidence.png",
+    "sameDimensions": true,
+    "identicalPixels": true
+  },
+  {
+    "width": 375,
+    "evidence": "enrollment-discovery",
+    "normal": "375-no-preference-enrollment-discovery.png",
+    "reduced": "375-reduce-enrollment-discovery.png",
+    "sameDimensions": true,
+    "identicalPixels": true
+  },
+  {
+    "width": 375,
+    "evidence": "enrollment-eligibility",
+    "normal": "375-no-preference-enrollment-eligibility.png",
+    "reduced": "375-reduce-enrollment-eligibility.png",
+    "sameDimensions": true,
+    "identicalPixels": true
+  },
+  {
+    "width": 375,
+    "evidence": "enrollment-personal-details",
+    "normal": "375-no-preference-enrollment-personal-details.png",
+    "reduced": "375-reduce-enrollment-personal-details.png",
+    "sameDimensions": true,
+    "identicalPixels": true
+  },
+  {
+    "width": 375,
+    "evidence": "enrollment-portability",
+    "normal": "375-no-preference-enrollment-portability.png",
+    "reduced": "375-reduce-enrollment-portability.png",
+    "sameDimensions": true,
+    "identicalPixels": true
+  },
+  {
+    "width": 375,
+    "evidence": "enrollment-submission-title",
+    "normal": "375-no-preference-enrollment-submission-title.png",
+    "reduced": "375-reduce-enrollment-submission-title.png",
+    "sameDimensions": true,
+    "identicalPixels": true
+  },
+  {
+    "width": 768,
+    "evidence": "evidence",
+    "normal": "768-no-preference-evidence.png",
+    "reduced": "768-reduce-evidence.png",
+    "sameDimensions": true,
+    "identicalPixels": true
+  },
+  {
+    "width": 768,
+    "evidence": "enrollment-discovery",
+    "normal": "768-no-preference-enrollment-discovery.png",
+    "reduced": "768-reduce-enrollment-discovery.png",
+    "sameDimensions": true,
+    "identicalPixels": true
+  },
+  {
+    "width": 768,
+    "evidence": "enrollment-eligibility",
+    "normal": "768-no-preference-enrollment-eligibility.png",
+    "reduced": "768-reduce-enrollment-eligibility.png",
+    "sameDimensions": true,
+    "identicalPixels": true
+  },
+  {
+    "width": 768,
+    "evidence": "enrollment-personal-details",
+    "normal": "768-no-preference-enrollment-personal-details.png",
+    "reduced": "768-reduce-enrollment-personal-details.png",
+    "sameDimensions": true,
+    "identicalPixels": true
+  },
+  {
+    "width": 768,
+    "evidence": "enrollment-portability",
+    "normal": "768-no-preference-enrollment-portability.png",
+    "reduced": "768-reduce-enrollment-portability.png",
+    "sameDimensions": true,
+    "identicalPixels": true
+  },
+  {
+    "width": 768,
+    "evidence": "enrollment-submission-title",
+    "normal": "768-no-preference-enrollment-submission-title.png",
+    "reduced": "768-reduce-enrollment-submission-title.png",
+    "sameDimensions": true,
+    "identicalPixels": true
+  },
+  {
+    "width": 1440,
+    "evidence": "evidence",
+    "normal": "1440-no-preference-evidence.png",
+    "reduced": "1440-reduce-evidence.png",
+    "sameDimensions": true,
+    "identicalPixels": true
+  },
+  {
+    "width": 1440,
+    "evidence": "enrollment-discovery",
+    "normal": "1440-no-preference-enrollment-discovery.png",
+    "reduced": "1440-reduce-enrollment-discovery.png",
+    "sameDimensions": true,
+    "identicalPixels": true
+  },
+  {
+    "width": 1440,
+    "evidence": "enrollment-eligibility",
+    "normal": "1440-no-preference-enrollment-eligibility.png",
+    "reduced": "1440-reduce-enrollment-eligibility.png",
+    "sameDimensions": true,
+    "identicalPixels": true
+  },
+  {
+    "width": 1440,
+    "evidence": "enrollment-personal-details",
+    "normal": "1440-no-preference-enrollment-personal-details.png",
+    "reduced": "1440-reduce-enrollment-personal-details.png",
+    "sameDimensions": true,
+    "identicalPixels": true
+  },
+  {
+    "width": 1440,
+    "evidence": "enrollment-portability",
+    "normal": "1440-no-preference-enrollment-portability.png",
+    "reduced": "1440-reduce-enrollment-portability.png",
+    "sameDimensions": true,
+    "identicalPixels": true
+  },
+  {
+    "width": 1440,
+    "evidence": "enrollment-submission-title",
+    "normal": "1440-no-preference-enrollment-submission-title.png",
+    "reduced": "1440-reduce-enrollment-submission-title.png",
+    "sameDimensions": true,
+    "identicalPixels": true
+  }
+]
