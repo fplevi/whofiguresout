@@ -1,0 +1,157 @@
+{
+  "baseline": "2a58eb63b2ca1d5cad14ee3047370be4e826f436",
+  "checks": [
+    {
+      "name": "pre-existing image bytes preserved: assets/images/harmony/buttons.png",
+      "ok": true
+    },
+    {
+      "name": "pre-existing image bytes preserved: assets/images/harmony/color=primitives.png",
+      "ok": true
+    },
+    {
+      "name": "pre-existing image bytes preserved: assets/images/harmony/components.png",
+      "ok": true
+    },
+    {
+      "name": "pre-existing image bytes preserved: assets/images/harmony/editorial/primitive-primary-secondary-scales.png",
+      "ok": true
+    },
+    {
+      "name": "pre-existing image bytes preserved: assets/images/harmony/editorial/primitive-selected-light-steps-mobile.png",
+      "ok": true
+    },
+    {
+      "name": "pre-existing image bytes preserved: assets/images/harmony/editorial/responsive-mode-selections-mobile.png",
+      "ok": true
+    },
+    {
+      "name": "pre-existing image bytes preserved: assets/images/harmony/editorial/semantic-default-soft-roles-mobile.png",
+      "ok": true
+    },
+    {
+      "name": "pre-existing image bytes preserved: assets/images/harmony/editorial/semantic-surface-border-roles.png",
+      "ok": true
+    },
+    {
+      "name": "pre-existing image bytes preserved: assets/images/harmony/harmony-antes.jpg",
+      "ok": true
+    },
+    {
+      "name": "pre-existing image bytes preserved: assets/images/harmony/harmony-antes.png",
+      "ok": true
+    },
+    {
+      "name": "pre-existing image bytes preserved: assets/images/harmony/harmony-depois.jpg",
+      "ok": true
+    },
+    {
+      "name": "pre-existing image bytes preserved: assets/images/harmony/harmony-depois.png",
+      "ok": true
+    },
+    {
+      "name": "pre-existing image bytes preserved: assets/images/harmony/harmony-hero-poster.webp",
+      "ok": true
+    },
+    {
+      "name": "pre-existing image bytes preserved: assets/images/harmony/harmony-hero.gif",
+      "ok": true
+    },
+    {
+      "name": "pre-existing image bytes preserved: assets/images/harmony/harmony-hero.mp4",
+      "ok": true
+    },
+    {
+      "name": "pre-existing image bytes preserved: assets/images/harmony/semantic-tokerns.png",
+      "ok": true
+    },
+    {
+      "name": "pre-existing image bytes preserved: assets/images/harmony/storybook-2.png",
+      "ok": true
+    },
+    {
+      "name": "pre-existing image bytes preserved: assets/images/harmony/storybook.png",
+      "ok": true
+    },
+    {
+      "name": "pre-existing image bytes preserved: assets/images/harmony/templates.png",
+      "ok": true
+    },
+    {
+      "name": "pre-existing image bytes preserved: assets/images/harmony/variables.png",
+      "ok": true
+    },
+    {
+      "name": "shared styles/scripts and home unchanged",
+      "ok": true
+    },
+    {
+      "name": "existing document/helper preserved: .scratch/harmony/spec.md",
+      "ok": true
+    },
+    {
+      "name": "existing document/helper preserved: .scratch/harmony/visual-narrative-review.md",
+      "ok": true
+    },
+    {
+      "name": "existing document/helper preserved: .scratch/harmony/validation.md",
+      "ok": true
+    },
+    {
+      "name": "existing document/helper preserved: .scratch/harmony/copy-draft.md",
+      "ok": true
+    },
+    {
+      "name": "existing document/helper preserved: .scratch/harmony/visual-narrative-qa.py",
+      "ok": true
+    },
+    {
+      "name": "prior record preserved: .scratch/harmony/image-manifest.md",
+      "ok": true
+    },
+    {
+      "name": "prior record preserved: .scratch/harmony/visual-narrative-validation.md",
+      "ok": true
+    },
+    {
+      "name": "header, hero, problem and role preserved",
+      "ok": true
+    },
+    {
+      "name": "outcome, in-development work, next project and contact preserved",
+      "ok": true
+    },
+    {
+      "name": "analytics and all other script tags preserved",
+      "ok": true
+    },
+    {
+      "name": "template positioned after foundations and before maintenance",
+      "ok": true
+    },
+    {
+      "name": "manifest identity and faithful crop pixels: template-compositions-configuration-wide.png",
+      "ok": true
+    },
+    {
+      "name": "derivative used in rendered page: template-compositions-configuration-wide.png",
+      "ok": true
+    },
+    {
+      "name": "manifest identity and faithful crop pixels: template-card-success-configuration-mobile.png",
+      "ok": true
+    },
+    {
+      "name": "derivative used in rendered page: template-card-success-configuration-mobile.png",
+      "ok": true
+    },
+    {
+      "name": "old organization pair and redundant Storybook intro remain absent",
+      "ok": true
+    }
+  ],
+  "summary": {
+    "passed": 37,
+    "failed": 0
+  }
+}

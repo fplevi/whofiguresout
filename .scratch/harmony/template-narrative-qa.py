@@ -1,0 +1,204 @@
+"""Ticket 03: existing Harmony/Billing rendered-browser seam, isolated helper.
+
+python .scratch/harmony/template-narrative-qa.py --slice evidence --label template-red
+"""
+import argparse
+import json
+import sys
+from pathlib import Path
+from playwright.sync_api import sync_playwright
+
+sys.stdout.reconfigure(encoding='utf-8')
+parser = argparse.ArgumentParser()
+parser.add_argument('--slice', choices=['evidence', 'wrapping', 'all'], required=True)
+parser.add_argument('--label', required=True)
+parser.add_argument('--url', default='http://localhost:8023/case-studies/harmony.html')
+args = parser.parse_args()
+OUT = Path(__file__).resolve().parent / 'qa' / args.label
+OUT.mkdir(parents=True, exist_ok=True)
+R = {'checks': [], 'console': [], 'failed_requests': []}
+TITLE = 'Composing page templates'
+EVIDENCE = [('primitives', 'Primitive color scales'), ('semantics', 'Semantic roles by use'), ('responsive', 'Responsive variables'), ('templates', TITLE)]
+URL = args.url
+
+
+def check(name, ok, detail=None):
+    R['checks'].append({'name': name, 'ok': bool(ok), 'detail': detail})
+    (OUT / 'results.json').write_text(json.dumps(R, indent=2), encoding='utf-8')
+    print(('PASS ' if ok else 'FAIL ') + name, flush=True)
+
+
+def heading_words_intact(region):
+    return region.get_by_role('heading').evaluate(r"""e=>{
+      const walker=document.createTreeWalker(e,NodeFilter.SHOW_TEXT);let node;
+      while(node=walker.nextNode())for(const match of node.textContent.matchAll(/\S+/g)){
+        const range=document.createRange();range.setStart(node,match.index);range.setEnd(node,match.index+match[0].length);
+        if(new Set([...range.getClientRects()].map(r=>Math.round(r.top))).size>1)return false;
+      }return true;}""")
+
+
+with sync_playwright() as p:
+    browser = p.chromium.launch()
+    R['environment'] = {'browser': browser.version, 'url': args.url, 'viewportHeight': 700}
+    context = browser.new_context(viewport={'width': 375, 'height': 700}, reduced_motion='reduce')
+    page = context.new_page()
+    page.goto(args.url, wait_until='load')
+    region = page.get_by_role('region', name=TITLE, exact=True)
+    check('reader finds template composition evidence', region.count() == 1)
+    if region.count():
+        image = region.get_by_role('img')
+        image.scroll_into_view_if_needed()
+        image.evaluate('(i)=>i.decode()')
+        check('one loaded image with meaningful alternative', image.count() == 1 and image.evaluate('(i)=>i.complete&&i.naturalWidth>0&&i.alt.length>30'))
+        check('explanation precedes associated evidence', region.evaluate("r=>{const p=r.querySelector('p'),i=r.querySelector('img'),f=r.querySelector('figure');return p.textContent.includes('shared patterns')&&!!(p.compareDocumentPosition(i)&Node.DOCUMENT_POSITION_FOLLOWING)&&p.getBoundingClientRect().bottom<=i.getBoundingClientRect().top&&f.getAttribute('aria-describedby')===p.id}"))
+        region.screenshot(path=str(OUT / 'templates-375.png'))
+    else:
+        page.screenshot(path=str(OUT / 'missing-template-375.png'))
+    if args.slice == 'wrapping':
+        page.set_viewport_size({'width': 320, 'height': 700})
+        check('320: template heading words stay intact', heading_words_intact(region))
+        region.evaluate('e=>window.scrollTo(0,e.getBoundingClientRect().top+scrollY-88)')
+        page.screenshot(path=str(OUT / 'heading-320.png'))
+    context.close()
+    if args.slice == 'all':
+        for width in [320, 375, 768, 1440]:
+            for motion in ['no-preference', 'reduce']:
+                context = browser.new_context(viewport={'width': width, 'height': 700}, reduced_motion=motion)
+                page = context.new_page()
+                page.on('pageerror', lambda error: R['console'].append(str(error)))
+                page.on('requestfailed', lambda request: R['failed_requests'].append({'url': request.url, 'failure': request.failure}))
+                page.on('response', lambda response: response.status >= 400 and R['failed_requests'].append({'url': response.url, 'status': response.status}))
+                page.goto(URL, wait_until='load')
+                page.wait_for_timeout(600)
+                prefix = f'{width}/{motion}'
+                # Start at the top. Check rendered content as a real wheel reaches
+                # it, rather than letting a later jump conceal a reveal failure.
+                seen, concealed, arrivals = set(), [], []
+                start_y = page.evaluate('scrollY')
+                for step in range(150):
+                    # Preserve arrival viewports from the real wheel traversal,
+                    # before the separate element-capture jumps below.
+                    headings = page.locator('main h2, main h3').evaluate_all("""es=>es.filter(e=>{const r=e.getBoundingClientRect();return r.top>=88&&r.top<620;}).map(e=>({id:e.id,text:e.textContent}))""")
+                    for heading in headings:
+                        if heading['id'] not in [h['id'] for h in arrivals]:
+                            filename = f'wheel-{width}-{motion}-{heading["id"]}.png'
+                            page.screenshot(path=str(OUT / filename))
+                            arrivals.append({**heading, 'scrollY': page.evaluate('scrollY'), 'capture': filename})
+                    observations = page.evaluate("""()=>[...document.querySelectorAll('main h1, main h2, main h3, main p, main li, main figure, main form')].flatMap((e,index)=>{
+                      const r=e.getBoundingClientRect(); if(r.bottom<100||r.top>620)return [];
+                      let visible=true;for(let a=e;a;a=a.parentElement){const s=getComputedStyle(a);if(+s.opacity<0.99||s.visibility==='hidden'||s.display==='none')visible=false;}
+                      return [{index,text:(e.innerText||e.getAttribute('aria-label')||e.tagName).slice(0,100),visible}];})""")
+                    for observation in observations:
+                        seen.add(observation['index'])
+                        if not observation['visible']:
+                            concealed.append(observation)
+                    # Stop only at the actual bottom, without jumping.
+                    if page.evaluate('scrollY+innerHeight>=document.documentElement.scrollHeight-2'):
+                        break
+                    page.mouse.wheel(0, 300)
+                    page.wait_for_timeout(600)
+                check(f'{prefix}: content visible when reached by wheel', not concealed, {'observedElements': len(seen), 'concealed': concealed})
+                check(f'{prefix}: wheel traverses from top to document bottom', start_y == 0 and page.evaluate('scrollY+innerHeight>=document.documentElement.scrollHeight-2'), {'startY': start_y, 'endY': page.evaluate('scrollY'), 'steps': step, 'arrivals': arrivals})
+                page.wait_for_function('[...document.images].every(i=>i.complete&&i.naturalWidth>0)')
+                check(f'{prefix}: no horizontal overflow', page.evaluate('document.documentElement.scrollWidth<=innerWidth'))
+                # Public headings and region associations, no class/nesting contract.
+                titles = page.locator('main h2,main h3').all_text_contents(); titles = [t for t in titles if t in [e[1] for e in EVIDENCE]]
+                check(f'{prefix}: foundations then templates in reading order', titles == [e[1] for e in EVIDENCE], titles)
+                images = page.locator('main figure img')
+                check(f'{prefix}: preserved foundation evidence plus one template image', images.count() >= 4 and page.get_by_role('region', name=TITLE, exact=True).get_by_role('img').count() == 1, {'staticImages': images.count()})
+                for key, title in EVIDENCE:
+                    region = page.get_by_role('region', name=title, exact=True)
+                    check(f'{prefix}/{key}: heading words stay intact', heading_words_intact(region))
+                    details = region.evaluate("""r=>{const i=r.querySelector('img'),p=r.querySelector('p'),f=r.querySelector('figure');
+                      const ir=i.getBoundingClientRect(),pr=p.getBoundingClientRect();
+                      return {loaded:i.complete&&i.naturalWidth>0,alt:i.alt,ratio:ir.width/ir.height,sourceRatio:i.naturalWidth/i.naturalHeight,
+                        width:ir.width,naturalWidth:i.naturalWidth,images:r.querySelectorAll('img').length,domFirst:!!(p.compareDocumentPosition(i)&Node.DOCUMENT_POSITION_FOLLOWING),
+                        above:pr.bottom<=ir.top,associated:f.getAttribute('aria-describedby')===p.id,
+                        links:r.querySelectorAll('a,button,details,summary').length,source:i.currentSrc,
+                        font:getComputedStyle(p).fontSize,color:getComputedStyle(p).color,
+                        clipped:[...r.querySelectorAll('h2,h3,p,figcaption')].some(e=>e.scrollWidth>e.clientWidth+1)};}""")
+                    check(f'{prefix}/{key}: loaded, proportionate, one image', details['loaded'] and details['images'] == 1 and abs(details['ratio'] - details['sourceRatio']) < .01, details)
+                    check(f'{prefix}/{key}: visible associated copy before evidence', details['domFirst'] and details['above'] and details['associated'] and not details['clipped'])
+                    check(f'{prefix}/{key}: alternative and no image/disclosure controls', bool(details['alt']) and details['links'] == 0)
+                    available = width - (48 if width <= 1024 else 160)
+                    check(f'{prefix}/{key}: useful reading width without raster enlargement', abs(details['width'] - min(details['naturalWidth'], available)) <= 1)
+                    # Readable prose is verified separately from raster detail.
+                    check(f'{prefix}/{key}: prose retains 16px typography', float(details['font'][:-2]) >= 16)
+                    region.evaluate("e=>window.scrollTo(0,e.getBoundingClientRect().top+scrollY-88)")
+                    page.wait_for_timeout(150)
+                    page.screenshot(path=str(OUT / f'{key}-{width}-{motion}.png'))
+                    if motion == 'reduce':
+                        # Plate-only evidence after confirmed lazy-image load.
+                        region.get_by_role('img').screenshot(path=str(OUT / f'{key}-plate-{width}.png'))
+                        if key == 'templates':
+                            image = region.get_by_role('img')
+                            for part, offset in enumerate(range(0, round(image.bounding_box()['height']), 450)):
+                                image.evaluate('(i,offset)=>window.scrollTo(0,i.getBoundingClientRect().top+scrollY-88+offset)', offset)
+                                page.screenshot(path=str(OUT / f'templates-detail-{width}-{part+1}.png'))
+                context.close()
+        # The static narrative is also an explicitly approved browser boundary.
+        for width in [320, 375, 768, 1440]:
+            context = browser.new_context(viewport={'width': width, 'height': 700}, java_script_enabled=False)
+            page = context.new_page()
+            page.goto(URL, wait_until='load')
+            for step in range(150):
+                page.mouse.wheel(0, 400)
+                page.wait_for_timeout(30)
+                if page.evaluate('scrollY+innerHeight>=document.documentElement.scrollHeight-2'):
+                    break
+            check(f'no-JS {width}: all static images load', page.evaluate('[...document.querySelectorAll("main figure img")].length>=4&&[...document.images].every(i=>i.complete&&i.naturalWidth>0)'))
+            check(f'no-JS {width}: static copy and all sections visible', page.evaluate("""[...document.querySelectorAll('main section,main figure,main h3,main p')].every(e=>getComputedStyle(e).opacity==='1'&&getComputedStyle(e).visibility==='visible')"""))
+            check(f'no-JS {width}: no horizontal overflow', page.evaluate('document.documentElement.scrollWidth<=innerWidth'))
+            page.get_by_role('region', name=TITLE, exact=True).evaluate("e=>window.scrollTo(0,e.getBoundingClientRect().top+scrollY-88)")
+            page.screenshot(path=str(OUT / f'no-js-{width}.png'))
+            context.close()
+
+    if args.slice == 'all':
+        for width in [320, 375, 768, 1440]:
+            context = browser.new_context(viewport={'width': width, 'height': 700}, reduced_motion='reduce')
+            page = context.new_page()
+            page.goto(URL, wait_until='load')
+            levels = page.get_by_role('heading').evaluate_all('es=>es.map(e=>+e.tagName.slice(1))')
+            check(f'{width}: one h1 and no skipped heading level', levels.count(1) == 1 and all(b <= a + 1 for a, b in zip(levels, levels[1:])), levels)
+            # Follow the actual tab sequence; Enter only on navigation links.
+            focus = []
+            while len(focus) < 15:
+                page.keyboard.press('Tab')
+                active = page.evaluate("""()=>{const e=document.activeElement,s=getComputedStyle(e),r=e.getBoundingClientRect();return {tag:e.tagName,name:e.getAttribute('aria-label')||e.innerText||e.getAttribute('placeholder'),href:e.getAttribute('href'),outline:s.outlineStyle,width:s.outlineWidth,left:r.left,right:r.right};}""")
+                focus.append(active)
+                if active['href'] == '../#work' or active['href'] == 'billing.html' or active['name'] == 'Send message':
+                    suffix = 'nav' if active['href'] == '../#work' else 'next' if active['href'] == 'billing.html' else 'contact'
+                    page.screenshot(path=str(OUT / f'focus-{suffix}-{width}.png'))
+                if active['name'] == 'Send message':
+                    break
+            check(f'{width}: navigation, next project and contact reachable by Tab', [e['href'] for e in focus[:6]] == ['../', '../#work', '../#contact', '../#about', '../', 'billing.html'], focus)
+            check(f'{width}: visible focus on interactive elements', all(e['outline'] != 'none' and e['width'] != '0px' and e['left'] >= 0 and e['right'] <= width for e in focus))
+            check(f'{width}: contact present, never submitted', page.locator('form[action="https://formspree.io/f/mbdqyywl"]').count() == 1 and page.get_by_role('button', name='Send message', exact=True).count() == 1)
+            contrasts = page.get_by_role('region', name=TITLE, exact=True).locator('p,figcaption').evaluate_all("""es=>{
+              const rgb=s=>s.match(/[\\d.]+/g).map(Number),lin=x=>(x/=255)<=0.04045?x/12.92:((x+.055)/1.055)**2.4;
+              return es.map(e=>{const fg=rgb(getComputedStyle(e).color);let layers=[];
+                for(let a=e;a;a=a.parentElement){layers.push(rgb(getComputedStyle(a).backgroundColor));}
+                let bg=[255,255,255];for(const c of layers.reverse()){const alpha=c[3]??1;bg=bg.map((v,i)=>c[i]*alpha+v*(1-alpha));}
+                const alpha=fg[3]??1,paint=bg.map((v,i)=>fg[i]*alpha+v*(1-alpha));
+                const lum=c=>c.map(lin).reduce((v,x,i)=>v+x*[.2126,.7152,.0722][i],0),l1=lum(paint),l2=lum(bg);
+                return {text:e.textContent.slice(0,60),font:getComputedStyle(e).fontSize,color:getComputedStyle(e).color,background:bg,ratio:(Math.max(l1,l2)+.05)/(Math.min(l1,l2)+.05)};});}""")
+            check(f'{width}: orientation and explanatory text calculated contrast >=4.5', all(c['ratio'] >= 4.5 for c in contrasts), contrasts)
+            # Return to nav and activate each preserved local destination using
+            # the keyboard. Read destination headings/anchors; no remote form IO.
+            destinations = [('Work', '/#work', 'work'), ('About', '/#about', 'about'), ('Contact', '/#contact', 'contact'),
+                            ('Felipe Levi', '/', 'work'), ('← Back to work', '/', 'work'),
+                            ('Billing & Debt Recovery →', '/case-studies/billing.html', None)]
+            for name, suffix, anchor in destinations:
+                page.goto(URL, wait_until='load')
+                link = page.get_by_role('link', name=name, exact=True)
+                link.focus()
+                page.keyboard.press('Enter')
+                page.wait_for_url('**' + suffix)
+                check(f'{width}: keyboard destination {name}', page.url.endswith(suffix) and (page.locator('#' + anchor).count() == 1 if anchor else page.get_by_role('heading', level=1).count() == 1), page.url)
+            context.close()
+    browser.close()
+
+R['summary'] = {'passed': sum(c['ok'] for c in R['checks']), 'failed': sum(not c['ok'] for c in R['checks'])}
+(OUT / 'results.json').write_text(json.dumps(R, indent=2), encoding='utf-8')
+print(R['summary'])
+raise SystemExit(bool(R['summary']['failed']))

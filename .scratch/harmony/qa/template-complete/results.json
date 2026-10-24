@@ -1,0 +1,839 @@
+{
+  "checks": [
+    {
+      "name": "reader finds template composition evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "one loaded image with meaningful alternative",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "explanation precedes associated evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference: content visible when reached by wheel",
+      "ok": true,
+      "detail": {
+        "observedElements": 47,
+        "concealed": []
+      }
+    },
+    {
+      "name": "320/no-preference: wheel traverses from top to document bottom",
+      "ok": true,
+      "detail": {
+        "startY": 0,
+        "endY": 11871,
+        "steps": 40,
+        "arrivals": [
+          {
+            "id": "harmony-problem",
+            "text": "Separate libraries. Repeated decisions.",
+            "scrollY": 600,
+            "capture": "wheel-320-no-preference-harmony-problem.png"
+          },
+          {
+            "id": "harmony-role",
+            "text": "Leading design, working with development.",
+            "scrollY": 1500,
+            "capture": "wheel-320-no-preference-harmony-role.png"
+          },
+          {
+            "id": "harmony-foundations",
+            "text": "Building a shared foundation.",
+            "scrollY": 2400,
+            "capture": "wheel-320-no-preference-harmony-foundations.png"
+          },
+          {
+            "id": "harmony-primitives",
+            "text": "Primitive color scales",
+            "scrollY": 2700,
+            "capture": "wheel-320-no-preference-harmony-primitives.png"
+          },
+          {
+            "id": "harmony-semantics",
+            "text": "Semantic roles by use",
+            "scrollY": 3600,
+            "capture": "wheel-320-no-preference-harmony-semantics.png"
+          },
+          {
+            "id": "harmony-responsive",
+            "text": "Responsive variables",
+            "scrollY": 4500,
+            "capture": "wheel-320-no-preference-harmony-responsive.png"
+          },
+          {
+            "id": "harmony-templates",
+            "text": "Composing configurable templates",
+            "scrollY": 6300,
+            "capture": "wheel-320-no-preference-harmony-templates.png"
+          },
+          {
+            "id": "harmony-decisions",
+            "text": "Supporting the product ecosystem.",
+            "scrollY": 8100,
+            "capture": "wheel-320-no-preference-harmony-decisions.png"
+          },
+          {
+            "id": "",
+            "text": "React + Next.js for the product ecosystem",
+            "scrollY": 8100,
+            "capture": "wheel-320-no-preference-.png"
+          },
+          {
+            "id": "harmony-outcome",
+            "text": "Adopted in new projects. Evolving with the team.",
+            "scrollY": 9300,
+            "capture": "wheel-320-no-preference-harmony-outcome.png"
+          },
+          {
+            "id": "harmony-progress",
+            "text": "Prototyping with AI, exploring the path to React.",
+            "scrollY": 10200,
+            "capture": "wheel-320-no-preference-harmony-progress.png"
+          }
+        ]
+      }
+    },
+    {
+      "name": "320/no-preference: no horizontal overflow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference: foundations then templates in reading order",
+      "ok": true,
+      "detail": [
+        "Primitive color scales",
+        "Semantic roles by use",
+        "Responsive variables",
+        "Composing configurable templates"
+      ]
+    },
+    {
+      "name": "320/no-preference: preserved foundation evidence plus one template image",
+      "ok": true,
+      "detail": {
+        "staticImages": 4
+      }
+    },
+    {
+      "name": "320/no-preference/primitives: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Selected Primary blue and Secondary yellow steps with their scale names and numeric values.",
+        "ratio": 0.6166353749690036,
+        "sourceRatio": 0.6166666666666667,
+        "width": 271.984375,
+        "naturalWidth": 296,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8023/assets/images/harmony/editorial/primitive-selected-light-steps-mobile.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "320/no-preference/primitives: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference/primitives: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference/primitives: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference/primitives: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference/semantics: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Selected roles in the Surface and Border color groups, including Default and Soft.",
+        "ratio": 0.6771307425992921,
+        "sourceRatio": 0.6771653543307087,
+        "width": 271.984375,
+        "naturalWidth": 344,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8023/assets/images/harmony/editorial/semantic-default-soft-roles-mobile.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "320/no-preference/semantics: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference/semantics: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference/semantics: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference/semantics: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference/responsive: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Desktop, Tablet, and Mobile variable modes with ScreenSize values 1440, 768, and 390, and selected Gap values. On narrow screens, the three labelled mode selections are stacked.",
+        "ratio": 0.30722391853015407,
+        "sourceRatio": 0.30723684210526314,
+        "width": 271.984375,
+        "naturalWidth": 467,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8023/assets/images/harmony/editorial/responsive-mode-selections-mobile.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "320/no-preference/responsive: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference/responsive: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference/responsive: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference/responsive: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference/templates: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Card-based list and selected success page compositions in Figma, with Success configuration for the profile switch, breadcrumb level, alert, and content rows. Narrow screens stack these source selections.",
+        "ratio": 0.2924759728476376,
+        "sourceRatio": 0.2924901185770751,
+        "width": 271.984375,
+        "naturalWidth": 296,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8023/assets/images/harmony/editorial/template-card-success-configuration-mobile.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "320/no-preference/templates: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference/templates: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference/templates: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/no-preference/templates: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce: content visible when reached by wheel",
+      "ok": true,
+      "detail": {
+        "observedElements": 47,
+        "concealed": []
+      }
+    },
+    {
+      "name": "320/reduce: wheel traverses from top to document bottom",
+      "ok": true,
+      "detail": {
+        "startY": 0,
+        "endY": 11871,
+        "steps": 40,
+        "arrivals": [
+          {
+            "id": "harmony-problem",
+            "text": "Separate libraries. Repeated decisions.",
+            "scrollY": 600,
+            "capture": "wheel-320-reduce-harmony-problem.png"
+          },
+          {
+            "id": "harmony-role",
+            "text": "Leading design, working with development.",
+            "scrollY": 1500,
+            "capture": "wheel-320-reduce-harmony-role.png"
+          },
+          {
+            "id": "harmony-foundations",
+            "text": "Building a shared foundation.",
+            "scrollY": 2400,
+            "capture": "wheel-320-reduce-harmony-foundations.png"
+          },
+          {
+            "id": "harmony-primitives",
+            "text": "Primitive color scales",
+            "scrollY": 2700,
+            "capture": "wheel-320-reduce-harmony-primitives.png"
+          },
+          {
+            "id": "harmony-semantics",
+            "text": "Semantic roles by use",
+            "scrollY": 3600,
+            "capture": "wheel-320-reduce-harmony-semantics.png"
+          },
+          {
+            "id": "harmony-responsive",
+            "text": "Responsive variables",
+            "scrollY": 4500,
+            "capture": "wheel-320-reduce-harmony-responsive.png"
+          },
+          {
+            "id": "harmony-templates",
+            "text": "Composing configurable templates",
+            "scrollY": 6300,
+            "capture": "wheel-320-reduce-harmony-templates.png"
+          },
+          {
+            "id": "harmony-decisions",
+            "text": "Supporting the product ecosystem.",
+            "scrollY": 8100,
+            "capture": "wheel-320-reduce-harmony-decisions.png"
+          },
+          {
+            "id": "",
+            "text": "React + Next.js for the product ecosystem",
+            "scrollY": 8100,
+            "capture": "wheel-320-reduce-.png"
+          },
+          {
+            "id": "harmony-outcome",
+            "text": "Adopted in new projects. Evolving with the team.",
+            "scrollY": 9300,
+            "capture": "wheel-320-reduce-harmony-outcome.png"
+          },
+          {
+            "id": "harmony-progress",
+            "text": "Prototyping with AI, exploring the path to React.",
+            "scrollY": 10200,
+            "capture": "wheel-320-reduce-harmony-progress.png"
+          }
+        ]
+      }
+    },
+    {
+      "name": "320/reduce: no horizontal overflow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce: foundations then templates in reading order",
+      "ok": true,
+      "detail": [
+        "Primitive color scales",
+        "Semantic roles by use",
+        "Responsive variables",
+        "Composing configurable templates"
+      ]
+    },
+    {
+      "name": "320/reduce: preserved foundation evidence plus one template image",
+      "ok": true,
+      "detail": {
+        "staticImages": 4
+      }
+    },
+    {
+      "name": "320/reduce/primitives: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Selected Primary blue and Secondary yellow steps with their scale names and numeric values.",
+        "ratio": 0.6166353749690036,
+        "sourceRatio": 0.6166666666666667,
+        "width": 271.984375,
+        "naturalWidth": 296,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8023/assets/images/harmony/editorial/primitive-selected-light-steps-mobile.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "320/reduce/primitives: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce/primitives: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce/primitives: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce/primitives: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce/semantics: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Selected roles in the Surface and Border color groups, including Default and Soft.",
+        "ratio": 0.6771307425992921,
+        "sourceRatio": 0.6771653543307087,
+        "width": 271.984375,
+        "naturalWidth": 344,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8023/assets/images/harmony/editorial/semantic-default-soft-roles-mobile.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "320/reduce/semantics: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce/semantics: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce/semantics: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce/semantics: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce/responsive: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Desktop, Tablet, and Mobile variable modes with ScreenSize values 1440, 768, and 390, and selected Gap values. On narrow screens, the three labelled mode selections are stacked.",
+        "ratio": 0.30722391853015407,
+        "sourceRatio": 0.30723684210526314,
+        "width": 271.984375,
+        "naturalWidth": 467,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8023/assets/images/harmony/editorial/responsive-mode-selections-mobile.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "320/reduce/responsive: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce/responsive: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce/responsive: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce/responsive: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce/templates: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Card-based list and selected success page compositions in Figma, with Success configuration for the profile switch, breadcrumb level, alert, and content rows. Narrow screens stack these source selections.",
+        "ratio": 0.2924759728476376,
+        "sourceRatio": 0.2924901185770751,
+        "width": 271.984375,
+        "naturalWidth": 296,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8023/assets/images/harmony/editorial/template-card-success-configuration-mobile.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "320/reduce/templates: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce/templates: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce/templates: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/reduce/templates: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference: content visible when reached by wheel",
+      "ok": true,
+      "detail": {
+        "observedElements": 47,
+        "concealed": []
+      }
+    },
+    {
+      "name": "375/no-preference: wheel traverses from top to document bottom",
+      "ok": true,
+      "detail": {
+        "startY": 0,
+        "endY": 11425,
+        "steps": 39,
+        "arrivals": [
+          {
+            "id": "harmony-problem",
+            "text": "Separate libraries. Repeated decisions.",
+            "scrollY": 600,
+            "capture": "wheel-375-no-preference-harmony-problem.png"
+          },
+          {
+            "id": "harmony-role",
+            "text": "Leading design, working with development.",
+            "scrollY": 1500,
+            "capture": "wheel-375-no-preference-harmony-role.png"
+          },
+          {
+            "id": "harmony-foundations",
+            "text": "Building a shared foundation.",
+            "scrollY": 2100,
+            "capture": "wheel-375-no-preference-harmony-foundations.png"
+          },
+          {
+            "id": "harmony-primitives",
+            "text": "Primitive color scales",
+            "scrollY": 2700,
+            "capture": "wheel-375-no-preference-harmony-primitives.png"
+          },
+          {
+            "id": "harmony-semantics",
+            "text": "Semantic roles by use",
+            "scrollY": 3600,
+            "capture": "wheel-375-no-preference-harmony-semantics.png"
+          },
+          {
+            "id": "harmony-responsive",
+            "text": "Responsive variables",
+            "scrollY": 4500,
+            "capture": "wheel-375-no-preference-harmony-responsive.png"
+          },
+          {
+            "id": "harmony-templates",
+            "text": "Composing configurable templates",
+            "scrollY": 6300,
+            "capture": "wheel-375-no-preference-harmony-templates.png"
+          },
+          {
+            "id": "harmony-decisions",
+            "text": "Supporting the product ecosystem.",
+            "scrollY": 8100,
+            "capture": "wheel-375-no-preference-harmony-decisions.png"
+          },
+          {
+            "id": "",
+            "text": "React + Next.js for the product ecosystem",
+            "scrollY": 8400,
+            "capture": "wheel-375-no-preference-.png"
+          },
+          {
+            "id": "harmony-outcome",
+            "text": "Adopted in new projects. Evolving with the team.",
+            "scrollY": 9300,
+            "capture": "wheel-375-no-preference-harmony-outcome.png"
+          },
+          {
+            "id": "harmony-progress",
+            "text": "Prototyping with AI, exploring the path to React.",
+            "scrollY": 9900,
+            "capture": "wheel-375-no-preference-harmony-progress.png"
+          }
+        ]
+      }
+    },
+    {
+      "name": "375/no-preference: no horizontal overflow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference: foundations then templates in reading order",
+      "ok": true,
+      "detail": [
+        "Primitive color scales",
+        "Semantic roles by use",
+        "Responsive variables",
+        "Composing configurable templates"
+      ]
+    },
+    {
+      "name": "375/no-preference: preserved foundation evidence plus one template image",
+      "ok": true,
+      "detail": {
+        "staticImages": 4
+      }
+    },
+    {
+      "name": "375/no-preference/primitives: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Selected Primary blue and Secondary yellow steps with their scale names and numeric values.",
+        "ratio": 0.6166666666666667,
+        "sourceRatio": 0.6166666666666667,
+        "width": 296,
+        "naturalWidth": 296,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8023/assets/images/harmony/editorial/primitive-selected-light-steps-mobile.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "375/no-preference/primitives: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference/primitives: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference/primitives: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference/primitives: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference/semantics: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Selected roles in the Surface and Border color groups, including Default and Soft.",
+        "ratio": 0.6771396214204821,
+        "sourceRatio": 0.6771653543307087,
+        "width": 326.984375,
+        "naturalWidth": 344,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8023/assets/images/harmony/editorial/semantic-default-soft-roles-mobile.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "375/no-preference/semantics: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference/semantics: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference/semantics: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference/semantics: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference/responsive: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Desktop, Tablet, and Mobile variable modes with ScreenSize values 1440, 768, and 390, and selected Gap values. On narrow screens, the three labelled mode selections are stacked.",
+        "ratio": 0.3072259087439074,
+        "sourceRatio": 0.30723684210526314,
+        "width": 326.984375,
+        "naturalWidth": 467,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8023/assets/images/harmony/editorial/responsive-mode-selections-mobile.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "375/no-preference/responsive: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference/responsive: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference/responsive: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference/responsive: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference/templates: loaded, proportionate, one image",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "alt": "Card-based list and selected success page compositions in Figma, with Success configuration for the profile switch, breadcrumb level, alert, and content rows. Narrow screens stack these source selections.",
+        "ratio": 0.2924901185770751,
+        "sourceRatio": 0.2924901185770751,
+        "width": 296,
+        "naturalWidth": 296,
+        "images": 1,
+        "domFirst": true,
+        "above": true,
+        "associated": true,
+        "links": 0,
+        "source": "http://localhost:8023/assets/images/harmony/editorial/template-card-success-configuration-mobile.png",
+        "font": "16px",
+        "color": "rgba(242, 242, 245, 0.65)",
+        "clipped": false
+      }
+    },
+    {
+      "name": "375/no-preference/templates: visible associated copy before evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference/templates: alternative and no image/disclosure controls",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference/templates: useful reading width without raster enlargement",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/no-preference/templates: prose retains 16px typography",
+      "ok": true,
+      "detail": null
+    }
+  ],
+  "console": [],
+  "failed_requests": [],
+  "environment": {
+    "browser": "156.0.8078.4",
+    "url": "http://localhost:8023/case-studies/harmony.html",
+    "viewportHeight": 700
+  }
+}

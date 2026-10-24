@@ -1,0 +1,93 @@
+{
+  "coordinateSystem": "(x0,y0,x1,y1), right and bottom exclusive; pasteAt=(x,y)",
+  "derivatives": [
+    {
+      "source": "assets/images/harmony/templates.png",
+      "sourceDimensions": [
+        1920,
+        1200
+      ],
+      "sourceSha256": "730139686833a992c9ee2da21dbe6091dd460ef5e19a435f162a956d35c680af",
+      "derivative": "assets/images/harmony/editorial/template-compositions-configuration-wide.png",
+      "dimensions": [
+        1826,
+        892
+      ],
+      "sha256": "40dc0b9a2c19581734e380da8ea24913ca06dea2795100141e4097fbf929969e",
+      "bytes": 167233,
+      "format": "PNG, lossless RGB, optimize=True; no resize or redrawing",
+      "background": "#1e1e1e",
+      "fragments": [
+        {
+          "crop": [
+            80,
+            108,
+            1906,
+            1000
+          ],
+          "pasteAt": [
+            0,
+            0
+          ]
+        }
+      ],
+      "purposeAndRetainedContext": "Retain form, list, loading, selected success composition and adjacent configuration panel in their original spatial relationship; remove only peripheral canvas/chrome."
+    },
+    {
+      "source": "assets/images/harmony/templates.png",
+      "sourceDimensions": [
+        1920,
+        1200
+      ],
+      "sourceSha256": "730139686833a992c9ee2da21dbe6091dd460ef5e19a435f162a956d35c680af",
+      "derivative": "assets/images/harmony/editorial/template-card-success-configuration-mobile.png",
+      "dimensions": [
+        296,
+        1012
+      ],
+      "sha256": "98c9c4a13092b30f41da1ef1c217bc45b50abcc5aeff85c2c7856a929c8eddbc",
+      "bytes": 60110,
+      "format": "PNG, lossless RGB, optimize=True; no resize or redrawing",
+      "background": "#1e1e1e",
+      "fragments": [
+        {
+          "crop": [
+            96,
+            508,
+            386,
+            744
+          ],
+          "pasteAt": [
+            3,
+            0
+          ]
+        },
+        {
+          "crop": [
+            812,
+            540,
+            1108,
+            772
+          ],
+          "pasteAt": [
+            0,
+            260
+          ]
+        },
+        {
+          "crop": [
+            1634,
+            108,
+            1906,
+            604
+          ],
+          "pasteAt": [
+            12,
+            516
+          ]
+        }
+      ],
+      "purposeAndRetainedContext": "Stack three identified excerpts: List/CardView, selected success layout with selection boundary, and Success configuration through Row06. Preserve SwitchProfile, breadcrumb level, alert and content-row controls; dark gutters distinguish the excerpts. This is an editorial selection, not the original Figma layout."
+    }
+  ]
+}
