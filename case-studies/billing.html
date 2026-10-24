@@ -46,6 +46,7 @@
   <link rel="stylesheet" href="../assets/css/contact.css?v=20261024-copy" />
   <link rel="stylesheet" href="../assets/css/case-study.css" />
   <link rel="stylesheet" href="../assets/css/billing.css" />
+  <link rel="stylesheet" href="../assets/css/case-hero-wordsearch.css" />
 </head>
 <body>
 
@@ -62,12 +63,50 @@
 
   <main>
 
-    <!-- Case Header -->
-    <section class="cs-header">
+    <!-- Case Header: word-search hero (assets/js/case-hero-wordsearch.js) -->
+    <section class="cs-header wsh" data-cols="24" data-rows="7" data-cols-mobile="12" data-rows-mobile="12" data-seed="7">
       <a href="../" class="cs-header__back">← Back to work</a>
       <span class="section-tag cs-header__tag">Product Design</span>
       <h1 class="cs-header__title">Billing &amp; Debt Recovery</h1>
       <p class="cs-header__hook">Debt negotiation moved from phone calls to self-service, with BRL 4.5M recovered in the first year.</p>
+
+      <div class="wsh__game" role="group" aria-labelledby="wsh-kicker">
+        <div class="wsh__game-head">
+          <p class="wsh__kicker" id="wsh-kicker">The case in five words</p>
+          <p class="wsh__count" aria-live="polite"></p>
+        </div>
+        <div class="wsh__grid" aria-hidden="true"></div>
+        <ul class="wsh__legend" role="list">
+          <li class="wsh__item" data-word="PHONE">
+            <button type="button" class="wsh__chip" disabled><span class="wsh__term-blank" aria-hidden="true">_ _ _ _ _</span><span class="wsh__term-text">Phone</span></button>
+            <span class="wsh__cat">Problem</span>
+            <span class="wsh__caption">Debt negotiation lived mostly on phone calls, with no standard process.</span>
+          </li>
+          <li class="wsh__item" data-word="ONEFLOW">
+            <button type="button" class="wsh__chip" disabled><span class="wsh__term-blank" aria-hidden="true">_ _ _ _ _ _ _</span><span class="wsh__term-text">One flow</span></button>
+            <span class="wsh__cat">Decision</span>
+            <span class="wsh__caption">One flow for participants, employees, and partners, with role-based access.</span>
+          </li>
+          <li class="wsh__item" data-word="NOACCOUNT">
+            <button type="button" class="wsh__chip" disabled><span class="wsh__term-blank" aria-hidden="true">_ _ _ _ _ _ _ _ _</span><span class="wsh__term-text">No account</span></button>
+            <span class="wsh__cat">Decision</span>
+            <span class="wsh__caption">Contract data plus an email or SMS code let cancelled-plan participants in without creating an account.</span>
+          </li>
+          <li class="wsh__item" data-word="REACTIVATION">
+            <button type="button" class="wsh__chip" disabled><span class="wsh__term-blank" aria-hidden="true">_ _ _ _ _ _ _ _ _ _ _ _</span><span class="wsh__term-text">Reactivation</span></button>
+            <span class="wsh__cat">Trade-off</span>
+            <span class="wsh__caption">Plan reactivation was offered up front, but participants could always negotiate without it.</span>
+          </li>
+          <li class="wsh__item" data-word="BRL4.5M">
+            <button type="button" class="wsh__chip" disabled><span class="wsh__term-blank" aria-hidden="true">_ _ _ _ _ _ _</span><span class="wsh__term-text">BRL 4.5M</span></button>
+            <span class="wsh__cat">Result</span>
+            <span class="wsh__caption">Recovered in the first year, as negotiation moved to self-service.</span>
+          </li>
+        </ul>
+        <div class="wsh__footer">
+          <button type="button" class="wsh__reveal">Reveal all</button>
+        </div>
+      </div>
 
       <div class="cs-meta" role="list">
         <div class="cs-meta__pill" role="listitem">
@@ -84,11 +123,6 @@
         </div>
       </div>
     </section>
-
-    <!-- Hero Image -->
-    <div class="cs-hero-image" role="img" aria-label="Billing & Debt Recovery — hero image">
-      <video class="cs-hero-image__img" src="../assets/images/billing/digital-billing-platform.mp4" poster="../assets/images/billing/digital-billing-platform-poster.webp" width="1440" height="900" autoplay muted loop playsinline></video>
-    </div>
 
     <!-- The Problem -->
     <section class="cs-section" aria-labelledby="billing-problem">
@@ -403,6 +437,7 @@
   </main>
 
   <script src="../assets/js/scroll-animations.js" type="module"></script>
+  <script src="../assets/js/case-hero-wordsearch.js" type="module"></script>
   <script src="../assets/js/contact-form.js?v=20261024-clipboard" defer></script>
 
 </body>

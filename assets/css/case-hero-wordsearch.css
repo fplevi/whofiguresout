@@ -1,0 +1,226 @@
+/* ============================================================
+   CASE HERO — WORD SEARCH
+   Intro on top, a full-width puzzle band below, meta row last.
+   Grid size comes from data-cols/rows on .wsh (set per case in HTML).
+============================================================ */
+
+.wsh .cs-header__hook {
+  margin-bottom: 0;
+}
+
+.wsh .cs-meta {
+  margin-top: var(--space-64);
+}
+
+.wsh__game {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-areas:
+    "head   head"
+    "grid   grid"
+    "legend footer";
+  column-gap: var(--space-24);
+  align-items: end;
+  margin-top: var(--space-48);
+  padding: var(--space-32);
+  border: 1px solid var(--background-divider);
+  border-radius: var(--radius-lg);
+  background: var(--background-secondary);
+}
+
+.wsh__game-head {
+  grid-area: head;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--space-16);
+  margin-bottom: var(--space-16);
+}
+
+.wsh__kicker {
+  font-size: var(--size-label);
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-ghost);
+}
+
+.wsh__count {
+  font-size: var(--size-body-sm);
+  color: var(--accent-primary);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+/* ---------- Grid ---------- */
+.wsh__grid {
+  grid-area: grid;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(var(--cols, 24), 1fr);
+  aspect-ratio: var(--cols, 24) / var(--rows, 7);
+  container-type: inline-size;
+  touch-action: pan-y; /* vertical swipes still scroll the page; taps and sideways drags reveal */
+  cursor: crosshair;
+  user-select: none;
+}
+
+.wsh__cell {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: calc(100cqw / var(--cols, 24) * 0.62);
+  line-height: 1;
+  color: var(--accent-primary);
+  transition: color 0.15s ease-out, opacity 0.15s ease-out;
+}
+
+.wsh__cell.is-word.is-lit {
+  color: var(--text-primary);
+  opacity: 1 !important; /* beats the random inline opacity */
+}
+
+.wsh__capsule {
+  position: absolute;
+  border: 1.5px solid var(--accent-primary);
+  background: var(--accent-subtle);
+  border-radius: var(--radius-full);
+  pointer-events: none;
+  animation: wsh-capsule 0.35s ease-out both;
+}
+
+@keyframes wsh-capsule {
+  from { opacity: 0; transform: scale(0.92); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+/* ---------- Balloon ---------- */
+.wsh__balloon {
+  position: absolute;
+  z-index: 3;
+  width: min(340px, 90%);
+  padding: var(--space-16) var(--space-20);
+  border: 1px solid var(--accent-muted);
+  border-radius: var(--radius-md);
+  background: var(--background-primary);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.45);
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity 0.25s ease-out, transform 0.25s ease-out;
+}
+
+.wsh__balloon.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+.wsh__balloon-cat {
+  margin-bottom: var(--space-4);
+  font-size: var(--size-label);
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent-primary);
+}
+
+.wsh__balloon-text {
+  font-size: var(--size-body-sm);
+  line-height: 1.5;
+  color: var(--text-primary);
+}
+
+/* ---------- Legend: word chips ---------- */
+.wsh__legend {
+  grid-area: legend;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-8);
+  margin-top: var(--space-24);
+  list-style: none;
+}
+
+.wsh__chip {
+  padding: var(--space-4) var(--space-12);
+  border: 1px solid var(--background-divider);
+  border-radius: var(--radius-full);
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  color: var(--text-ghost);
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.wsh__item.is-found .wsh__chip {
+  border-color: var(--accent-muted);
+  color: var(--accent-primary);
+}
+
+.wsh__item.is-found .wsh__chip:hover,
+.wsh__item.is-found .wsh__chip:focus-visible {
+  background: var(--accent-subtle);
+}
+
+.wsh__item.is-found .wsh__term-blank { display: none; }
+
+/* Category, caption, and not-yet-found terms stay readable to assistive tech only */
+.wsh__cat,
+.wsh__caption,
+.wsh--ready .wsh__item:not(.is-found) .wsh__term-text {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+
+.wsh__footer {
+  grid-area: footer;
+}
+
+.wsh__reveal {
+  font-size: var(--size-body-sm);
+  color: var(--text-ghost);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  white-space: nowrap;
+}
+
+.wsh__reveal:hover { color: var(--text-primary); }
+.wsh__reveal[hidden] { display: none; }
+
+/* Without JS the puzzle can't run: show the legend as plain text instead */
+.wsh:not(.wsh--ready) .wsh__grid,
+.wsh:not(.wsh--ready) .wsh__footer,
+.wsh:not(.wsh--ready) .wsh__term-blank {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .wsh__game {
+    grid-template-columns: 1fr;
+    grid-template-areas: "head" "grid" "legend" "footer";
+    padding: var(--space-16);
+  }
+
+  .wsh__footer {
+    margin-top: var(--space-16);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .wsh__cell,
+  .wsh__capsule,
+  .wsh__balloon,
+  .wsh__chip {
+    transition: none;
+    animation: none;
+  }
+}
