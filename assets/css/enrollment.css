@@ -28,7 +28,6 @@
   grid-template-areas: "copy" "media";
   gap: var(--space-24);
   align-items: center;
-  max-width: 1440px;
 }
 
 .enrollment-evidence-row > figcaption,
@@ -48,16 +47,22 @@
   margin-bottom: 0;
 }
 
+/* Desktop splits the full case width into two equal columns; copy fills its column. */
 @media (min-width: 1025px) {
   .enrollment-evidence-row {
-    grid-template-columns: minmax(0, 4fr) minmax(0, 8fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     grid-template-areas: "copy media";
     gap: var(--space-64);
   }
 
   .enrollment-evidence-row--media-left {
-    grid-template-columns: minmax(0, 8fr) minmax(0, 4fr);
     grid-template-areas: "media copy";
+  }
+
+  .enrollment-evidence-row .cs-section__body,
+  .enrollment-evidence-row .cs-section__title,
+  .enrollment-decisions .enrollment-evidence-row > figcaption {
+    max-width: none;
   }
 }
 
