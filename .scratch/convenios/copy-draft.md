@@ -12,6 +12,8 @@ Priorizar os mockups do produto. A capa tipográfica do Notion permanece dispon�
 
 ## Home card
 
+Category: Product Leadership
+
 Title: CASSI Convênios
 
 Hook: A dedicated app for partner-plan members, designed from the ground up.
