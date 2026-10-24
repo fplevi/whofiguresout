@@ -1,0 +1,28 @@
+{
+  "ticket": "02-discovery-synthesis",
+  "assets": [
+    {
+      "source": "assets/images/enrollment/Desk Research.png",
+      "presentation": "assets/images/enrollment/Desk Research.png",
+      "sourceLabel": "Desk Research",
+      "sourceDimensions": {
+        "width": 1672,
+        "height": 661
+      },
+      "presentationDimensions": {
+        "width": 1672,
+        "height": 661
+      },
+      "format": "PNG",
+      "operation": "Reuse untouched original",
+      "cropBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1672,
+        "height": 661
+      },
+      "sha256": "b1f4cae35535cfedfb1c896f6387ff3db29b1721c9a9c3179ece31abdc7f2eb6",
+      "rationale": "Keep the composite board in one wide contextual view; retain all four named artifact areas and the original lower-edge clipping. No reconstructed or sharpened text. HTML explanation is sufficient without reading the raster notes."
+    }
+  ]
+}

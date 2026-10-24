@@ -11,6 +11,17 @@
   mask-image: url('../icons/tabler/enrollment/list-check.svg');
 }
 
+.enrollment-discovery__copy {
+  color: var(--text-secondary-strong);
+}
+
+.enrollment-discovery__image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: var(--space-40);
+}
+
 @media (min-width: 1024px) {
   .cs-stats--enrollment {
     grid-template-columns: repeat(3, minmax(0, 1fr));

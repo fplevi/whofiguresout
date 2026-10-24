@@ -4,7 +4,7 @@
 
 **Blocked by:** None (can start immediately).
 
-**Status:** ready-for-agent
+**Status:** claimed
 
 - [ ] A prancha aparece uma única vez após o relato existente de “My Role” e antes das decisões. O relato original permanece preservado; a adição tem título, explicação e alternativa de imagem próprios.
 - [ ] A explicação em inglês identifica a matriz CSD, os brainstorms, a jornada do usuário/cliente e o mapa de empatia como artefatos visíveis de síntese. Não inventa achados, fontes, amostra, participação/autoria de workshops ou relação causal entre notas ilegíveis e decisões.
