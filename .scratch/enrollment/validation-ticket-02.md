@@ -36,4 +36,8 @@ This is the current complete page for ticket 02, not the final future-slice matr
 
 ## Final integration check
 
-Final screenshots, inspected evidence list, merge result and post-merge rerun are recorded below after execution.
+Implementation commit: `9fb8e7a` (`feat(enrollment): show discovery synthesis evidence`). After that commit, `git merge --no-edit integration/enrollment-visual-narrative` reported **Already up to date**, with the integration tip still `fa56b5c740505ab7e46ef04760cd38315a0b245b`. `git merge-base --is-ancestor integration/enrollment-visual-narrative HEAD` returned 0. Nothing was merged into integration or written in another checkout.
+
+After that merge check, the full `--matrix` was rerun: **8 passed, 0 failed**, with zero page errors, console warnings/errors, failed requests or contact submissions. The standalone discovery test and ticket-specific final integrity checks also passed again. Runtime HTML/CSS did not change after these checks.
+
+Visually inspected all 16 final captures in `qa/ticket-02/`: `board-320-no-preference.png`, `board-320-reduce.png`, `board-375-no-preference.png`, `board-375-reduce.png`, `board-768-no-preference.png`, `board-768-reduce.png`, `board-1440-no-preference.png`, `board-1440-reduce.png`, and the corresponding eight `page-<width>-<motion>.png` captures. The board captures show complete headings and explanatory text, unaltered wide composition and the four artifact groups at every width. At narrow widths, the artifact groups remain visually distinguishable while their microtext is intentionally not an acceptance dependency. Full-page captures confirm the current sequence through results, next project and contact with all narrative sections present. Hero frames differ because the preserved video is autoplaying; playback correctness is not part of this evidence.
