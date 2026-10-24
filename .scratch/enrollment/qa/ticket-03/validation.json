@@ -1,0 +1,1459 @@
+{
+  "browser": "156.0.8078.4",
+  "environment": "Windows, Python Playwright, headless Chromium; emulated viewport/motion/touch",
+  "cases": [
+    {
+      "width": 320,
+      "height": 700,
+      "motion": "reduce",
+      "checks": [
+        {
+          "name": "one comparison follows exploration and precedes decision02",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "preserved current surfaces match f8f9034 and current pre-change",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "reduced motion sections immediately available",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "scroll begins at top",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "all narrative sections become visible through wheel scrolling",
+          "passed": true,
+          "detail": [
+            {
+              "name": "cs-header",
+              "opacity": "1",
+              "height": 957
+            },
+            {
+              "name": "enrollment-problem",
+              "opacity": "1",
+              "height": 1130
+            },
+            {
+              "name": "enrollment-role",
+              "opacity": "1",
+              "height": 811
+            },
+            {
+              "name": "enrollment-decisions",
+              "opacity": "1",
+              "height": 2836
+            },
+            {
+              "name": "enrollment-outcome",
+              "opacity": "1",
+              "height": 1297
+            },
+            {
+              "name": "contact-heading",
+              "opacity": "1",
+              "height": 766
+            }
+          ]
+        },
+        {
+          "name": "each narrative heading encountered while scrolling",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "all current images loaded and proportional",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "original comparison dimensions, specific alternatives and lazy async loading",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "no horizontal overflow",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "all three problem points and decision notes remain",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "no raw-image links or disclosure controls added",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "guidance precedes the wide comparison without overlap; body size preserved",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "Tab enters named native comparison",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "visible focus frame",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "Home updates value and visible reveal",
+          "passed": true,
+          "detail": {
+            "dividerPercent": 0,
+            "clip": "inset(0px 100% 0px 0px)"
+          }
+        },
+        {
+          "name": "ArrowRight updates value and visible reveal",
+          "passed": true,
+          "detail": {
+            "dividerPercent": 0.9995404411764706,
+            "clip": "inset(0px 99% 0px 0px)"
+          }
+        },
+        {
+          "name": "End updates value and visible reveal",
+          "passed": true,
+          "detail": {
+            "dividerPercent": 100,
+            "clip": "inset(0px 0% 0px 0px)"
+          }
+        },
+        {
+          "name": "ArrowLeft updates value and visible reveal",
+          "passed": true,
+          "detail": {
+            "dividerPercent": 98.9947150735294,
+            "clip": "inset(0px 1% 0px 0px)"
+          }
+        },
+        {
+          "name": "Home visibly shows new original raster",
+          "passed": true,
+          "detail": {
+            "meanChannelDifference": 2.0513342535081667
+          }
+        },
+        {
+          "name": "End visibly shows old original raster",
+          "passed": true,
+          "detail": {
+            "meanChannelDifference": 2.641764435242696
+          }
+        },
+        {
+          "name": "Tab exits to next project",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "Shift+Tab re-enters comparison",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "pointer/touch target is visible below navigation",
+          "passed": true,
+          "detail": {
+            "x25": 92.0,
+            "x75": 228.0,
+            "y": 250.65625
+          }
+        },
+        {
+          "name": "pointer changes comparison at visible point",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "emulated touch drag changes comparison",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "navigation, back and next destinations are served",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "contact fields and copy control available without submission",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "no application errors or local failed assets",
+          "passed": true,
+          "detail": null
+        }
+      ],
+      "javascriptErrors": [],
+      "console": [],
+      "failedRequests": [],
+      "httpErrors": [],
+      "initialSections": [
+        {
+          "name": "cs-header",
+          "opacity": "1",
+          "height": 957
+        },
+        {
+          "name": "enrollment-problem",
+          "opacity": "1",
+          "height": 1130
+        },
+        {
+          "name": "enrollment-role",
+          "opacity": "1",
+          "height": 811
+        },
+        {
+          "name": "enrollment-decisions",
+          "opacity": "1",
+          "height": 2836
+        },
+        {
+          "name": "enrollment-outcome",
+          "opacity": "1",
+          "height": 1297
+        },
+        {
+          "name": "contact-heading",
+          "opacity": "1",
+          "height": 766
+        }
+      ],
+      "wheelSteps": 32,
+      "seenHeadingsDuringWheel": [
+        "A fragmented journey, dependent on support.",
+        "From discovery to the redesigned journey.",
+        "From plan cards to aligned benefits.",
+        "Helping users progress with less support.",
+        "Let's work together.",
+        "Proposal volume grew 171% year over year.",
+        "Remove mandatory pre-registration",
+        "Reorganize steps around the user's mental model",
+        "Structured status visibility throughout"
+      ],
+      "finalSections": [
+        {
+          "name": "cs-header",
+          "opacity": "1",
+          "height": 957
+        },
+        {
+          "name": "enrollment-problem",
+          "opacity": "1",
+          "height": 1130
+        },
+        {
+          "name": "enrollment-role",
+          "opacity": "1",
+          "height": 811
+        },
+        {
+          "name": "enrollment-decisions",
+          "opacity": "1",
+          "height": 2836
+        },
+        {
+          "name": "enrollment-outcome",
+          "opacity": "1",
+          "height": 1297
+        },
+        {
+          "name": "contact-heading",
+          "opacity": "1",
+          "height": 766
+        }
+      ],
+      "images": [
+        {
+          "src": "../assets/images/enrollment/new-enrollment-journey-simulator.jpg",
+          "natural": [
+            1440,
+            1485
+          ],
+          "intrinsic": [
+            272,
+            281
+          ],
+          "declared": [
+            "1440",
+            "1485"
+          ],
+          "alt": "Redesigned plan simulator with plan benefits aligned in a comparison table",
+          "loading": "lazy",
+          "decoding": "async",
+          "rect": [
+            272,
+            280.5
+          ]
+        },
+        {
+          "src": "../assets/images/enrollment/old-enrollment-journey-simulator.jpg",
+          "natural": [
+            1440,
+            1485
+          ],
+          "intrinsic": [
+            272,
+            281
+          ],
+          "declared": [
+            "1440",
+            "1485"
+          ],
+          "alt": "Earlier plan simulator presenting options as separate plan cards",
+          "loading": "lazy",
+          "decoding": "async",
+          "rect": [
+            272,
+            280.5
+          ]
+        }
+      ],
+      "composition": {
+        "copyBottom": -3101.59375,
+        "imageTop": -3061.59375,
+        "comparisonWidth": 272,
+        "fonts": [
+          "16px",
+          "16px",
+          "16px"
+        ]
+      },
+      "keys": [
+        {
+          "key": "Home",
+          "value": "0",
+          "dividerPercent": 0,
+          "clip": "inset(0px 100% 0px 0px)"
+        },
+        {
+          "key": "ArrowRight",
+          "value": "1",
+          "dividerPercent": 0.9995404411764706,
+          "clip": "inset(0px 99% 0px 0px)"
+        },
+        {
+          "key": "End",
+          "value": "100",
+          "dividerPercent": 100,
+          "clip": "inset(0px 0% 0px 0px)"
+        },
+        {
+          "key": "ArrowLeft",
+          "value": "99",
+          "dividerPercent": 98.9947150735294,
+          "clip": "inset(0px 1% 0px 0px)"
+        }
+      ],
+      "pointerValue": 23,
+      "touchValue": 77
+    },
+    {
+      "width": 375,
+      "height": 700,
+      "motion": "reduce",
+      "checks": [
+        {
+          "name": "one comparison follows exploration and precedes decision02",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "preserved current surfaces match f8f9034 and current pre-change",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "reduced motion sections immediately available",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "scroll begins at top",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "all narrative sections become visible through wheel scrolling",
+          "passed": true,
+          "detail": [
+            {
+              "name": "cs-header",
+              "opacity": "1",
+              "height": 933
+            },
+            {
+              "name": "enrollment-problem",
+              "opacity": "1",
+              "height": 969
+            },
+            {
+              "name": "enrollment-role",
+              "opacity": "1",
+              "height": 756
+            },
+            {
+              "name": "enrollment-decisions",
+              "opacity": "1",
+              "height": 2573
+            },
+            {
+              "name": "enrollment-outcome",
+              "opacity": "1",
+              "height": 1105
+            },
+            {
+              "name": "contact-heading",
+              "opacity": "1",
+              "height": 766
+            }
+          ]
+        },
+        {
+          "name": "each narrative heading encountered while scrolling",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "all current images loaded and proportional",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "original comparison dimensions, specific alternatives and lazy async loading",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "no horizontal overflow",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "all three problem points and decision notes remain",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "no raw-image links or disclosure controls added",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "guidance precedes the wide comparison without overlap; body size preserved",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "Tab enters named native comparison",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "visible focus frame",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "Home updates value and visible reveal",
+          "passed": true,
+          "detail": {
+            "dividerPercent": 0,
+            "clip": "inset(0px 100% 0px 0px)"
+          }
+        },
+        {
+          "name": "ArrowRight updates value and visible reveal",
+          "passed": true,
+          "detail": {
+            "dividerPercent": 0.9986620795107034,
+            "clip": "inset(0px 99% 0px 0px)"
+          }
+        },
+        {
+          "name": "End updates value and visible reveal",
+          "passed": true,
+          "detail": {
+            "dividerPercent": 100,
+            "clip": "inset(0px 0% 0px 0px)"
+          }
+        },
+        {
+          "name": "ArrowLeft updates value and visible reveal",
+          "passed": true,
+          "detail": {
+            "dividerPercent": 98.99655963302752,
+            "clip": "inset(0px 1% 0px 0px)"
+          }
+        },
+        {
+          "name": "Home visibly shows new original raster",
+          "passed": true,
+          "detail": {
+            "meanChannelDifference": 3.901420436470064
+          }
+        },
+        {
+          "name": "End visibly shows old original raster",
+          "passed": true,
+          "detail": {
+            "meanChannelDifference": 5.351156391168797
+          }
+        },
+        {
+          "name": "Tab exits to next project",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "Shift+Tab re-enters comparison",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "pointer/touch target is visible below navigation",
+          "passed": true,
+          "detail": {
+            "x25": 105.75,
+            "x75": 269.25,
+            "y": 278.765625
+          }
+        },
+        {
+          "name": "pointer changes comparison at visible point",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "emulated touch drag changes comparison",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "navigation, back and next destinations are served",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "contact fields and copy control available without submission",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "no application errors or local failed assets",
+          "passed": true,
+          "detail": null
+        }
+      ],
+      "javascriptErrors": [],
+      "console": [],
+      "failedRequests": [],
+      "httpErrors": [],
+      "initialSections": [
+        {
+          "name": "cs-header",
+          "opacity": "1",
+          "height": 933
+        },
+        {
+          "name": "enrollment-problem",
+          "opacity": "1",
+          "height": 969
+        },
+        {
+          "name": "enrollment-role",
+          "opacity": "1",
+          "height": 756
+        },
+        {
+          "name": "enrollment-decisions",
+          "opacity": "1",
+          "height": 2573
+        },
+        {
+          "name": "enrollment-outcome",
+          "opacity": "1",
+          "height": 1105
+        },
+        {
+          "name": "contact-heading",
+          "opacity": "1",
+          "height": 766
+        }
+      ],
+      "wheelSteps": 29,
+      "seenHeadingsDuringWheel": [
+        "A fragmented journey, dependent on support.",
+        "From discovery to the redesigned journey.",
+        "From plan cards to aligned benefits.",
+        "Helping users progress with less support.",
+        "Let's work together.",
+        "Proposal volume grew 171% year over year.",
+        "Remove mandatory pre-registration",
+        "Reorganize steps around the user's mental model",
+        "Structured status visibility throughout"
+      ],
+      "finalSections": [
+        {
+          "name": "cs-header",
+          "opacity": "1",
+          "height": 933
+        },
+        {
+          "name": "enrollment-problem",
+          "opacity": "1",
+          "height": 969
+        },
+        {
+          "name": "enrollment-role",
+          "opacity": "1",
+          "height": 756
+        },
+        {
+          "name": "enrollment-decisions",
+          "opacity": "1",
+          "height": 2573
+        },
+        {
+          "name": "enrollment-outcome",
+          "opacity": "1",
+          "height": 1105
+        },
+        {
+          "name": "contact-heading",
+          "opacity": "1",
+          "height": 766
+        }
+      ],
+      "images": [
+        {
+          "src": "../assets/images/enrollment/new-enrollment-journey-simulator.jpg",
+          "natural": [
+            1440,
+            1485
+          ],
+          "intrinsic": [
+            327,
+            337
+          ],
+          "declared": [
+            "1440",
+            "1485"
+          ],
+          "alt": "Redesigned plan simulator with plan benefits aligned in a comparison table",
+          "loading": "lazy",
+          "decoding": "async",
+          "rect": [
+            327,
+            337.21875
+          ]
+        },
+        {
+          "src": "../assets/images/enrollment/old-enrollment-journey-simulator.jpg",
+          "natural": [
+            1440,
+            1485
+          ],
+          "intrinsic": [
+            327,
+            337
+          ],
+          "declared": [
+            "1440",
+            "1485"
+          ],
+          "alt": "Earlier plan simulator presenting options as separate plan cards",
+          "loading": "lazy",
+          "decoding": "async",
+          "rect": [
+            327,
+            337.21875
+          ]
+        }
+      ],
+      "composition": {
+        "copyBottom": -2805.84375,
+        "imageTop": -2765.84375,
+        "comparisonWidth": 327,
+        "fonts": [
+          "16px",
+          "16px",
+          "16px"
+        ]
+      },
+      "keys": [
+        {
+          "key": "Home",
+          "value": "0",
+          "dividerPercent": 0,
+          "clip": "inset(0px 100% 0px 0px)"
+        },
+        {
+          "key": "ArrowRight",
+          "value": "1",
+          "dividerPercent": 0.9986620795107034,
+          "clip": "inset(0px 99% 0px 0px)"
+        },
+        {
+          "key": "End",
+          "value": "100",
+          "dividerPercent": 100,
+          "clip": "inset(0px 0% 0px 0px)"
+        },
+        {
+          "key": "ArrowLeft",
+          "value": "99",
+          "dividerPercent": 98.99655963302752,
+          "clip": "inset(0px 1% 0px 0px)"
+        }
+      ],
+      "pointerValue": 24,
+      "touchValue": 76
+    },
+    {
+      "width": 768,
+      "height": 700,
+      "motion": "reduce",
+      "checks": [
+        {
+          "name": "one comparison follows exploration and precedes decision02",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "preserved current surfaces match f8f9034 and current pre-change",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "reduced motion sections immediately available",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "scroll begins at top",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "all narrative sections become visible through wheel scrolling",
+          "passed": true,
+          "detail": [
+            {
+              "name": "cs-header",
+              "opacity": "1",
+              "height": 796
+            },
+            {
+              "name": "enrollment-problem",
+              "opacity": "1",
+              "height": 646
+            },
+            {
+              "name": "enrollment-role",
+              "opacity": "1",
+              "height": 462
+            },
+            {
+              "name": "enrollment-decisions",
+              "opacity": "1",
+              "height": 2237
+            },
+            {
+              "name": "enrollment-outcome",
+              "opacity": "1",
+              "height": 748
+            },
+            {
+              "name": "contact-heading",
+              "opacity": "1",
+              "height": 738
+            }
+          ]
+        },
+        {
+          "name": "each narrative heading encountered while scrolling",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "all current images loaded and proportional",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "original comparison dimensions, specific alternatives and lazy async loading",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "no horizontal overflow",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "all three problem points and decision notes remain",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "no raw-image links or disclosure controls added",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "guidance precedes the wide comparison without overlap; body size preserved",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "Tab enters named native comparison",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "visible focus frame",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "Home updates value and visible reveal",
+          "passed": true,
+          "detail": {
+            "dividerPercent": 0,
+            "clip": "inset(0px 100% 0px 0px)"
+          }
+        },
+        {
+          "name": "ArrowRight updates value and visible reveal",
+          "passed": true,
+          "detail": {
+            "dividerPercent": 0.9982638888888888,
+            "clip": "inset(0px 99% 0px 0px)"
+          }
+        },
+        {
+          "name": "End updates value and visible reveal",
+          "passed": true,
+          "detail": {
+            "dividerPercent": 100,
+            "clip": "inset(0px 0% 0px 0px)"
+          }
+        },
+        {
+          "name": "ArrowLeft updates value and visible reveal",
+          "passed": true,
+          "detail": {
+            "dividerPercent": 98.99956597222223,
+            "clip": "inset(0px 1% 0px 0px)"
+          }
+        },
+        {
+          "name": "Home visibly shows new original raster",
+          "passed": true,
+          "detail": {
+            "meanChannelDifference": 1.6253268070216824
+          }
+        },
+        {
+          "name": "End visibly shows old original raster",
+          "passed": true,
+          "detail": {
+            "meanChannelDifference": 1.702697345573444
+          }
+        },
+        {
+          "name": "Tab exits to next project",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "Shift+Tab re-enters comparison",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "pointer/touch target is visible below navigation",
+          "passed": true,
+          "detail": {
+            "x25": 204.0,
+            "x75": 564.0,
+            "y": 330.203125
+          }
+        },
+        {
+          "name": "pointer changes comparison at visible point",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "emulated touch drag changes comparison",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "navigation, back and next destinations are served",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "contact fields and copy control available without submission",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "no application errors or local failed assets",
+          "passed": true,
+          "detail": null
+        }
+      ],
+      "javascriptErrors": [],
+      "console": [],
+      "failedRequests": [],
+      "httpErrors": [],
+      "initialSections": [
+        {
+          "name": "cs-header",
+          "opacity": "1",
+          "height": 796
+        },
+        {
+          "name": "enrollment-problem",
+          "opacity": "1",
+          "height": 646
+        },
+        {
+          "name": "enrollment-role",
+          "opacity": "1",
+          "height": 462
+        },
+        {
+          "name": "enrollment-decisions",
+          "opacity": "1",
+          "height": 2237
+        },
+        {
+          "name": "enrollment-outcome",
+          "opacity": "1",
+          "height": 748
+        },
+        {
+          "name": "contact-heading",
+          "opacity": "1",
+          "height": 738
+        }
+      ],
+      "wheelSteps": 24,
+      "seenHeadingsDuringWheel": [
+        "A fragmented journey, dependent on support.",
+        "From discovery to the redesigned journey.",
+        "From plan cards to aligned benefits.",
+        "Helping users progress with less support.",
+        "Let's work together.",
+        "Proposal volume grew 171% year over year.",
+        "Remove mandatory pre-registration",
+        "Reorganize steps around the user's mental model",
+        "Structured status visibility throughout"
+      ],
+      "finalSections": [
+        {
+          "name": "cs-header",
+          "opacity": "1",
+          "height": 796
+        },
+        {
+          "name": "enrollment-problem",
+          "opacity": "1",
+          "height": 646
+        },
+        {
+          "name": "enrollment-role",
+          "opacity": "1",
+          "height": 462
+        },
+        {
+          "name": "enrollment-decisions",
+          "opacity": "1",
+          "height": 2237
+        },
+        {
+          "name": "enrollment-outcome",
+          "opacity": "1",
+          "height": 748
+        },
+        {
+          "name": "contact-heading",
+          "opacity": "1",
+          "height": 738
+        }
+      ],
+      "images": [
+        {
+          "src": "../assets/images/enrollment/new-enrollment-journey-simulator.jpg",
+          "natural": [
+            1440,
+            1485
+          ],
+          "intrinsic": [
+            720,
+            743
+          ],
+          "declared": [
+            "1440",
+            "1485"
+          ],
+          "alt": "Redesigned plan simulator with plan benefits aligned in a comparison table",
+          "loading": "lazy",
+          "decoding": "async",
+          "rect": [
+            720,
+            742.5
+          ]
+        },
+        {
+          "src": "../assets/images/enrollment/old-enrollment-journey-simulator.jpg",
+          "natural": [
+            1440,
+            1485
+          ],
+          "intrinsic": [
+            720,
+            743
+          ],
+          "declared": [
+            "1440",
+            "1485"
+          ],
+          "alt": "Earlier plan simulator presenting options as separate plan cards",
+          "loading": "lazy",
+          "decoding": "async",
+          "rect": [
+            720,
+            742.5
+          ]
+        }
+      ],
+      "composition": {
+        "copyBottom": -2483.796875,
+        "imageTop": -2443.796875,
+        "comparisonWidth": 720,
+        "fonts": [
+          "16px",
+          "16px",
+          "16px"
+        ]
+      },
+      "keys": [
+        {
+          "key": "Home",
+          "value": "0",
+          "dividerPercent": 0,
+          "clip": "inset(0px 100% 0px 0px)"
+        },
+        {
+          "key": "ArrowRight",
+          "value": "1",
+          "dividerPercent": 0.9982638888888888,
+          "clip": "inset(0px 99% 0px 0px)"
+        },
+        {
+          "key": "End",
+          "value": "100",
+          "dividerPercent": 100,
+          "clip": "inset(0px 0% 0px 0px)"
+        },
+        {
+          "key": "ArrowLeft",
+          "value": "99",
+          "dividerPercent": 98.99956597222223,
+          "clip": "inset(0px 1% 0px 0px)"
+        }
+      ],
+      "pointerValue": 24,
+      "touchValue": 76
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "motion": "reduce",
+      "checks": [
+        {
+          "name": "one comparison follows exploration and precedes decision02",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "preserved current surfaces match f8f9034 and current pre-change",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "reduced motion sections immediately available",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "scroll begins at top",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "all narrative sections become visible through wheel scrolling",
+          "passed": true,
+          "detail": [
+            {
+              "name": "cs-header",
+              "opacity": "1",
+              "height": 644
+            },
+            {
+              "name": "enrollment-problem",
+              "opacity": "1",
+              "height": 619
+            },
+            {
+              "name": "enrollment-role",
+              "opacity": "1",
+              "height": 462
+            },
+            {
+              "name": "enrollment-decisions",
+              "opacity": "1",
+              "height": 2815
+            },
+            {
+              "name": "enrollment-outcome",
+              "opacity": "1",
+              "height": 629
+            },
+            {
+              "name": "contact-heading",
+              "opacity": "1",
+              "height": 830
+            }
+          ]
+        },
+        {
+          "name": "each narrative heading encountered while scrolling",
+          "passed": true,
+          "detail": []
+        },
+        {
+          "name": "all current images loaded and proportional",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "original comparison dimensions, specific alternatives and lazy async loading",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "no horizontal overflow",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "all three problem points and decision notes remain",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "no raw-image links or disclosure controls added",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "guidance precedes the wide comparison without overlap; body size preserved",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "Tab enters named native comparison",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "visible focus frame",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "Home updates value and visible reveal",
+          "passed": true,
+          "detail": {
+            "dividerPercent": 0,
+            "clip": "inset(0px 100% 0px 0px)"
+          }
+        },
+        {
+          "name": "ArrowRight updates value and visible reveal",
+          "passed": true,
+          "detail": {
+            "dividerPercent": 0.999755859375,
+            "clip": "inset(0px 99% 0px 0px)"
+          }
+        },
+        {
+          "name": "End updates value and visible reveal",
+          "passed": true,
+          "detail": {
+            "dividerPercent": 100,
+            "clip": "inset(0px 0% 0px 0px)"
+          }
+        },
+        {
+          "name": "ArrowLeft updates value and visible reveal",
+          "passed": true,
+          "detail": {
+            "dividerPercent": 98.9990234375,
+            "clip": "inset(0px 1% 0px 0px)"
+          }
+        },
+        {
+          "name": "Home visibly shows new original raster",
+          "passed": true,
+          "detail": {
+            "meanChannelDifference": 6.197993293676746
+          }
+        },
+        {
+          "name": "End visibly shows old original raster",
+          "passed": true,
+          "detail": {
+            "meanChannelDifference": 6.647967340413384
+          }
+        },
+        {
+          "name": "Tab exits to next project",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "Shift+Tab re-enters comparison",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "pointer/touch target is visible below navigation",
+          "passed": true,
+          "detail": {
+            "x25": 400.0,
+            "x75": 1040.0,
+            "y": 329.828125
+          }
+        },
+        {
+          "name": "pointer changes comparison at visible point",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "emulated touch drag changes comparison",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "navigation, back and next destinations are served",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "contact fields and copy control available without submission",
+          "passed": true,
+          "detail": null
+        },
+        {
+          "name": "no application errors or local failed assets",
+          "passed": true,
+          "detail": null
+        }
+      ],
+      "javascriptErrors": [],
+      "console": [],
+      "failedRequests": [],
+      "httpErrors": [],
+      "initialSections": [
+        {
+          "name": "cs-header",
+          "opacity": "1",
+          "height": 644
+        },
+        {
+          "name": "enrollment-problem",
+          "opacity": "1",
+          "height": 619
+        },
+        {
+          "name": "enrollment-role",
+          "opacity": "1",
+          "height": 462
+        },
+        {
+          "name": "enrollment-decisions",
+          "opacity": "1",
+          "height": 2815
+        },
+        {
+          "name": "enrollment-outcome",
+          "opacity": "1",
+          "height": 629
+        },
+        {
+          "name": "contact-heading",
+          "opacity": "1",
+          "height": 830
+        }
+      ],
+      "wheelSteps": 25,
+      "seenHeadingsDuringWheel": [
+        "A fragmented journey, dependent on support.",
+        "From discovery to the redesigned journey.",
+        "From plan cards to aligned benefits.",
+        "Helping users progress with less support.",
+        "Let's work together.",
+        "Proposal volume grew 171% year over year.",
+        "Remove mandatory pre-registration",
+        "Reorganize steps around the user's mental model",
+        "Structured status visibility throughout"
+      ],
+      "finalSections": [
+        {
+          "name": "cs-header",
+          "opacity": "1",
+          "height": 644
+        },
+        {
+          "name": "enrollment-problem",
+          "opacity": "1",
+          "height": 619
+        },
+        {
+          "name": "enrollment-role",
+          "opacity": "1",
+          "height": 462
+        },
+        {
+          "name": "enrollment-decisions",
+          "opacity": "1",
+          "height": 2815
+        },
+        {
+          "name": "enrollment-outcome",
+          "opacity": "1",
+          "height": 629
+        },
+        {
+          "name": "contact-heading",
+          "opacity": "1",
+          "height": 830
+        }
+      ],
+      "images": [
+        {
+          "src": "../assets/images/enrollment/new-enrollment-journey-simulator.jpg",
+          "natural": [
+            1440,
+            1485
+          ],
+          "intrinsic": [
+            1280,
+            1320
+          ],
+          "declared": [
+            "1440",
+            "1485"
+          ],
+          "alt": "Redesigned plan simulator with plan benefits aligned in a comparison table",
+          "loading": "lazy",
+          "decoding": "async",
+          "rect": [
+            1280,
+            1320
+          ]
+        },
+        {
+          "src": "../assets/images/enrollment/old-enrollment-journey-simulator.jpg",
+          "natural": [
+            1440,
+            1485
+          ],
+          "intrinsic": [
+            1280,
+            1320
+          ],
+          "declared": [
+            "1440",
+            "1485"
+          ],
+          "alt": "Earlier plan simulator presenting options as separate plan cards",
+          "loading": "lazy",
+          "decoding": "async",
+          "rect": [
+            1280,
+            1320
+          ]
+        }
+      ],
+      "composition": {
+        "copyBottom": -2834.171875,
+        "imageTop": -2794.171875,
+        "comparisonWidth": 1280,
+        "fonts": [
+          "16px",
+          "16px",
+          "16px"
+        ]
+      },
+      "keys": [
+        {
+          "key": "Home",
+          "value": "0",
+          "dividerPercent": 0,
+          "clip": "inset(0px 100% 0px 0px)"
+        },
+        {
+          "key": "ArrowRight",
+          "value": "1",
+          "dividerPercent": 0.999755859375,
+          "clip": "inset(0px 99% 0px 0px)"
+        },
+        {
+          "key": "End",
+          "value": "100",
+          "dividerPercent": 100,
+          "clip": "inset(0px 0% 0px 0px)"
+        },
+        {
+          "key": "ArrowLeft",
+          "value": "99",
+          "dividerPercent": 98.9990234375,
+          "clip": "inset(0px 1% 0px 0px)"
+        }
+      ],
+      "pointerValue": 25,
+      "touchValue": 75
+    }
+  ],
+  "errors": [],
+  "summary": {
+    "passed": 112,
+    "failed": 0
+  }
+}
