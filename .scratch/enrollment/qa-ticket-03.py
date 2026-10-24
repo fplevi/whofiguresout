@@ -4,6 +4,7 @@ Adapted from Enrollment qa.py/final_checks.py and Billing visual-narrative-qa.py
 """
 import json
 import os
+import re
 from pathlib import Path
 import subprocess
 import sys
@@ -17,7 +18,7 @@ from playwright.sync_api import sync_playwright
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / '.scratch/enrollment/qa/ticket-03'
 OUT.mkdir(parents=True, exist_ok=True)
-URL = 'http://127.0.0.1:8103/case-studies/enrollment.html'
+URL = 'http://127.0.0.1:8123/case-studies/enrollment.html'
 NAME = 'Compare plan cards before and plan benefits after'
 
 
@@ -29,6 +30,7 @@ def protected(page):
       return Object.fromEntries(selectors.map(s => {
         const e = document.querySelector(s).cloneNode(true);
         e.removeAttribute('style');
+        if (s === 'head') e.querySelectorAll('script[src^="https://scripts.clarity.ms/"], script[src^="https://www.clarity.ms/tag/"]').forEach(n => n.remove());
         return [s, e.outerHTML];
       }));
     }''')
@@ -50,8 +52,14 @@ def placement(page):
 
 def matrix(browser):
     report = {'browser': browser.version, 'environment': 'Windows, Python Playwright, headless Chromium; emulated viewport/motion/touch',
+              'testedCommit': subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip(),
+              'integrationTip': subprocess.check_output(['git', 'rev-parse', 'integration/enrollment-visual-narrative'], cwd=ROOT, text=True).strip(),
+              'url': URL, 'scope': 'Ticket 03 plus the complete currently integrated page; final five-image acceptance is not claimed.',
+              'preservationExclusions': 'Runtime section-root animation styles and asynchronously injected Clarity scripts; authored analytics/head source is checked separately against f8f9034.',
               'cases': [], 'errors': []}
     before = json.loads((OUT / 'protected-before.json').read_text(encoding='utf-8'))
+    for snapshot in before.values():
+        snapshot['head'] = re.sub(r'<script[^>]+src="https://(?:scripts\.clarity\.ms/|www\.clarity\.ms/tag/)[^"]*"[^>]*></script>', '', snapshot['head'])
     try:
         for motion in (['reduce'] if '--reduced-only' in sys.argv else ['no-preference', 'reduce']):
             for width in [320, 375, 768, 1440]:
@@ -77,8 +85,10 @@ def matrix(browser):
                 page.wait_for_function("document.querySelector('.cs-compare__handle').style.left === '50%'")
                 placement(page)
                 check('one comparison follows exploration and precedes decision02', True)
+                current = protected(page)
                 check('preserved current surfaces match f8f9034 and current pre-change',
-                      protected(page) == before['f8f9034'] == before['current-pre-change'])
+                      current == before['f8f9034'] == before['current-pre-change'],
+                      {key: {'expected': before['f8f9034'][key], 'actual': current[key]} for key in current if current[key] != before['f8f9034'][key]})
                 page.screenshot(path=str(OUT / f'{prefix}-header.png'))
                 section_states = """() => [...document.querySelectorAll('main section')].map(e => ({
                     name: e.getAttribute('aria-labelledby') || e.className,
@@ -116,6 +126,22 @@ def matrix(browser):
                     loading:e.loading, decoding:e.decoding, rect:[e.getBoundingClientRect().width,e.getBoundingClientRect().height]}))''')
                 case['images'] = images
                 check('all current images loaded and proportional', all(i['natural'][0] > 0 and abs(i['rect'][0] / i['rect'][1] - i['natural'][0] / i['natural'][1]) < .005 for i in images))
+                # Recheck evidence already delivered by other slices on this merged page.
+                evidence = page.locator('.enrollment-discovery, .enrollment-journey-evidence').evaluate_all('''es => es.map(e => {
+                    const image=e.querySelector('img'), copy=e.querySelector('figcaption') || e.querySelector('p:last-of-type'),
+                        a=copy.getBoundingClientRect(), b=image.getBoundingClientRect();
+                    return {name:e.getAttribute('aria-labelledby'), images:e.querySelectorAll('img').length,
+                        copyFirst:!!(copy.compareDocumentPosition(image)&Node.DOCUMENT_POSITION_FOLLOWING),
+                        copyAbove:a.bottom<=b.top, alt:image.alt,
+                        font:getComputedStyle(copy.querySelector('p') || copy).fontSize,
+                        outside:[...e.querySelectorAll('*')].some(n=>{const r=n.getBoundingClientRect();return r.left < -1 || r.right > innerWidth+1;})};
+                })''')
+                case['integratedEvidence'] = evidence
+                check('discovery and three journey screens remain explained, ordered and fitted', len(evidence) == 4 and all(
+                    e['images'] == 1 and e['copyFirst'] and e['copyAbove'] and len(e['alt']) > 60 and e['font'] == '16px' and not e['outside'] for e in evidence), evidence)
+                for item in evidence:
+                    block = page.locator(f'[aria-labelledby="{item["name"]}"]')
+                    block.screenshot(path=str(OUT / f'{prefix}-{item["name"]}.png'), style='.nav { visibility:hidden !important; }')
                 compare_images = [i for i in images if 'simulator.jpg' in i['src']]
                 check('original comparison dimensions, specific alternatives and lazy async loading', len(compare_images) == 2 and all(
                     i['natural'] == [1440,1485] and i['declared'] == ['1440','1485'] and len(i['alt']) > 50
@@ -186,6 +212,8 @@ def matrix(browser):
                 page.mouse.click(x25,y)
                 case['pointerValue'] = int(slider.input_value())
                 check('pointer changes comparison at visible point', 18 <= case['pointerValue'] <= 32)
+                page.wait_for_function('v => document.querySelector(".cs-compare__handle").style.left === v + "%" && document.querySelector(".cs-compare__before").style.clipPath === `inset(0px ${100-v}% 0px 0px)`', arg=case['pointerValue'])
+                check('pointer value corresponds to visible reveal', True)
                 session = context.new_cdp_session(page)
                 session.send('Input.dispatchTouchEvent', {'type':'touchStart','touchPoints':[{'x':x25,'y':y}]})
                 for fraction in [.4,.55,.75]:
@@ -193,12 +221,14 @@ def matrix(browser):
                 session.send('Input.dispatchTouchEvent', {'type':'touchEnd','touchPoints':[]})
                 case['touchValue'] = int(slider.input_value())
                 check('emulated touch drag changes comparison', 68 <= case['touchValue'] <= 82)
+                page.wait_for_function('v => document.querySelector(".cs-compare__handle").style.left === v + "%" && document.querySelector(".cs-compare__before").style.clipPath === `inset(0px ${100-v}% 0px 0px)`', arg=case['touchValue'])
+                check('touch value corresponds to visible reveal', True)
                 session.detach()
                 check('navigation, back and next destinations are served', all(page.request.get(h).ok for h in [
-                    'http://127.0.0.1:8103/', 'http://127.0.0.1:8103/case-studies/convenios.html']))
+                    'http://127.0.0.1:8123/', 'http://127.0.0.1:8123/case-studies/convenios.html']))
                 page.locator('#contact').scroll_into_view_if_needed()
                 check('contact fields and copy control available without submission', page.get_by_role('textbox',name='Your name').is_visible() and page.get_by_role('textbox',name='Your email').is_visible() and page.get_by_role('textbox',name='Your message').is_visible() and page.get_by_role('button',name='Copy email address').is_visible())
-                check('no application errors or local failed assets', not case['javascriptErrors'] and not [r for r in case['failedRequests'] + case['httpErrors'] if '127.0.0.1:8103' in r['url']])
+                check('no application errors or local failed assets', not case['javascriptErrors'] and not [r for r in case['failedRequests'] + case['httpErrors'] if '127.0.0.1:8123' in r['url']])
                 print(f'PASS {prefix}: {len(case["checks"])} browser checks')
                 context.close()
     except Exception:

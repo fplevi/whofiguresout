@@ -37,7 +37,7 @@ def contrast(fg, bg):
 with sync_playwright() as p:
     browser = p.chromium.launch()
     page = browser.new_page(viewport={'width': 375, 'height': 700}, reduced_motion='reduce')
-    page.goto('http://127.0.0.1:8103/case-studies/enrollment.html', wait_until='domcontentloaded')
+    page.goto('http://127.0.0.1:8123/case-studies/enrollment.html', wait_until='domcontentloaded')
     page.evaluate('document.fonts.ready')
     colors = page.evaluate('''() => ({
       body: getComputedStyle(document.body).backgroundColor,
@@ -64,14 +64,17 @@ with sync_playwright() as p:
                              ('.nav__link:has-text("Contact")', '/#contact'),
                              ('.nav__link:has-text("About")', '/#about'),
                              ('.cs-next__link', '/case-studies/convenios.html')]:
-        page.goto('http://127.0.0.1:8103/case-studies/enrollment.html', wait_until='domcontentloaded')
+        page.goto('http://127.0.0.1:8123/case-studies/enrollment.html', wait_until='domcontentloaded')
         page.locator(selector).click()
-        page.wait_for_url('http://127.0.0.1:8103' + suffix)
+        page.wait_for_url('http://127.0.0.1:8123' + suffix)
         destinations.append(page.url)
     print('PASS actual navigation, back and next-project clicks')
     browser.close()
 
 manifest = json.loads((ROOT / '.scratch/enrollment/presentation-assets-03.json').read_text(encoding='utf-8'))
+baseline_html = subprocess.check_output(['git', 'show', 'f8f9034:case-studies/enrollment.html'], cwd=ROOT).decode('utf-8')
+current_html = (ROOT / 'case-studies/enrollment.html').read_text(encoding='utf-8')
+assert re.search(r'<head>[\s\S]*?</head>', baseline_html).group() == re.search(r'<head>[\s\S]*?</head>', current_html).group(), 'Authored head and analytics declarations preserved'
 for item in manifest['assets']:
     source = ROOT / item['source']
     assert hashlib.sha256(source.read_bytes()).hexdigest() == item['sha256']
@@ -79,7 +82,7 @@ for item in manifest['assets']:
 assert not subprocess.check_output(['git', 'diff', 'f8f9034', '--', 'assets/images/enrollment',
     'assets/js', 'assets/css/case-study.css', 'assets/css/global.css',
     '.scratch/enrollment/issues/01-metric-definition.md'], cwd=ROOT), 'Originals/shared behavior/issue01 preserved'
-result = {'assetIntegrityAndManifest': True, 'issue01Unchanged': True, 'sharedStylesAndScriptsUnchanged': True,
+result = {'assetIntegrityAndManifest': True, 'issue01Unchanged': True, 'sharedStylesAndScriptsUnchanged': True, 'authoredHeadAndAnalyticsUnchanged': True,
           'proposalGrowthPercent': (1105 - 408) / 408 * 100, 'contrast': measurements,
           'clickedDestinations': destinations}
 (OUT / 'final-checks.json').write_text(json.dumps(result, indent=2), encoding='utf-8')

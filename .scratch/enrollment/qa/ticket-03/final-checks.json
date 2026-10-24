@@ -2,6 +2,7 @@
   "assetIntegrityAndManifest": true,
   "issue01Unchanged": true,
   "sharedStylesAndScriptsUnchanged": true,
+  "authoredHeadAndAnalyticsUnchanged": true,
   "proposalGrowthPercent": 170.83333333333331,
   "contrast": {
     "guidance": 7.550402230717409,
@@ -9,11 +10,11 @@
     "handleArrows": 19.084682213573785
   },
   "clickedDestinations": [
-    "http://127.0.0.1:8103/",
-    "http://127.0.0.1:8103/",
-    "http://127.0.0.1:8103/#work",
-    "http://127.0.0.1:8103/#contact",
-    "http://127.0.0.1:8103/#about",
-    "http://127.0.0.1:8103/case-studies/convenios.html"
+    "http://127.0.0.1:8123/",
+    "http://127.0.0.1:8123/",
+    "http://127.0.0.1:8123/#work",
+    "http://127.0.0.1:8123/#contact",
+    "http://127.0.0.1:8123/#about",
+    "http://127.0.0.1:8123/case-studies/convenios.html"
   ]
 }
