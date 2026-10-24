@@ -1,0 +1,22 @@
+{
+  "ticket": "05",
+  "source": "assets/images/enrollment/success.png",
+  "sourceDimensions": [
+    1920,
+    1200
+  ],
+  "sourceSHA256": "ab7ff33c3da0da87ad9037406bf0bf8f0f08eab690af31c219d9a95a436569d8",
+  "presentation": "assets/images/enrollment/submission-analysis.webp",
+  "cropBoundsXYXY": [
+    0,
+    184,
+    1920,
+    922
+  ],
+  "presentationDimensions": [
+    1920,
+    738
+  ],
+  "format": "WebP lossless",
+  "rationale": "Remove unrelated site navigation and footer; retain submission-for-analysis message, applicant context, next-step notice, protocol, placeholder tracking instruction and return button. Static screenshot only; HTML supplies a self-contained English explanation at narrow widths."
+}

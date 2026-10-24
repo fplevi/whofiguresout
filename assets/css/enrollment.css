@@ -31,17 +31,20 @@
   max-width: 840px;
 }
 
-.enrollment-journey-evidence {
+.enrollment-journey-evidence,
+.enrollment-submission-evidence {
   min-width: 0;
   margin: var(--space-40) 0 0;
 }
 
-.enrollment-journey-evidence figcaption {
+.enrollment-journey-evidence figcaption,
+.enrollment-submission-evidence figcaption {
   max-width: 840px;
   margin-bottom: var(--space-24);
 }
 
-.enrollment-journey-evidence h4 {
+.enrollment-journey-evidence h4,
+.enrollment-submission-evidence h4 {
   font-family: var(--font-display);
   font-size: 24px;
   font-weight: 700;
@@ -50,17 +53,23 @@
   margin-bottom: var(--space-16);
 }
 
-.enrollment-journey-evidence p {
+.enrollment-journey-evidence p,
+.enrollment-submission-evidence p {
   font-size: var(--size-body-md);
   line-height: 1.7;
   color: var(--text-secondary-strong);
 }
 
-.enrollment-journey-evidence img {
+.enrollment-journey-evidence img,
+.enrollment-submission-evidence img {
   display: block;
   width: 100%;
   height: auto;
   border-radius: var(--radius-sm);
+}
+
+.enrollment-submission-evidence p + p {
+  margin-top: var(--space-16);
 }
 
 @media (min-width: 1024px) {
