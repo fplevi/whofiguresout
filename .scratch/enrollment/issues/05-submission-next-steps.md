@@ -4,7 +4,7 @@
 
 **Blocked by:** None (can start immediately).
 
-**Status:** ready-for-agent
+**Status:** claimed
 
 - [ ] A confirmação de envio aparece uma única vez junto da terceira decisão, com título, explicação em inglês e alternativa próprios. O argumento é o esclarecimento do momento e dos próximos passos; a tela não é rotulada como aprovação ou adesão concluída.
 - [ ] A copy limita a evidência ao envio para análise, protocolo e orientações visíveis. Não apresenta pagamento concluído, consulta real de status, notificação efetivamente entregue ou prazo de atendimento cumprido como fatos demonstrados pela captura.

@@ -11,6 +11,51 @@
   mask-image: url('../icons/tabler/enrollment/list-check.svg');
 }
 
+/* Keep the dense confirmation wide, with its explanation before the capture. */
+.cs-decisions--stacked {
+  max-width: none;
+}
+
+.cs-decision__left {
+  max-width: 840px;
+}
+
+.enrollment-submission-evidence {
+  min-width: 0;
+  margin: var(--space-40) 0 0;
+}
+
+.enrollment-submission-evidence figcaption {
+  max-width: 840px;
+  margin-bottom: var(--space-24);
+}
+
+.enrollment-submission-evidence h4 {
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--text-primary);
+  margin-bottom: var(--space-16);
+}
+
+.enrollment-submission-evidence p {
+  font-size: var(--size-body-md);
+  line-height: 1.7;
+  color: var(--text-secondary-strong);
+}
+
+.enrollment-submission-evidence p + p {
+  margin-top: var(--space-16);
+}
+
+.enrollment-submission-evidence img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-sm);
+}
+
 @media (min-width: 1024px) {
   .cs-stats--enrollment {
     grid-template-columns: repeat(3, minmax(0, 1fr));
