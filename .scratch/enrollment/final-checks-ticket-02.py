@@ -4,12 +4,13 @@ Browser preservation and behavior run in qa-ticket-02.py --matrix.
 """
 import hashlib
 import json
+import os
 from pathlib import Path
 import struct
 import subprocess
 
 ROOT = Path(__file__).resolve().parents[2]
-OUT = ROOT / '.scratch/enrollment/qa/ticket-02'
+OUT = Path(os.environ.get('ENROLLMENT_QA_OUT', str(ROOT / '.scratch/enrollment/qa/ticket-02')))
 
 
 def git(*args):

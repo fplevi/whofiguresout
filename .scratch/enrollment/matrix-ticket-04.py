@@ -127,7 +127,7 @@ with sync_playwright() as p:
             context.close()
     browser.close()
 check('no application errors', not R['errors'], R['errors'])
-local_failures=[r for r in R['requests'] if '127.0.0.1:8104' in r['url']]
+local_failures=[r for r in R['requests'] if r['url'].startswith(URL.split('/case-studies/')[0] + '/')]
 check('no local failed assets', not local_failures, local_failures)
 R['summary']={'passed':sum(c['passed'] for c in R['checks']),'failed':sum(not c['passed'] for c in R['checks'])}
 (OUT/'matrix.json').write_text(json.dumps(R,indent=2),encoding='utf-8')

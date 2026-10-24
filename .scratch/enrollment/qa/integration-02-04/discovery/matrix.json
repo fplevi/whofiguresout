@@ -1,0 +1,2683 @@
+{
+  "environment": {
+    "os": "Windows-11-10.0.26300-SP0",
+    "python": "3.14.3",
+    "browser": "156.0.8078.4",
+    "engine": "Playwright Chromium, headless, device scale 1; emulated touch, no real device"
+  },
+  "url": "http://127.0.0.1:8120/case-studies/enrollment.html",
+  "baseline": "f8f9034",
+  "runs": [
+    {
+      "width": 320,
+      "height": 700,
+      "motion": "no-preference",
+      "protectedMatchesBaseline": {
+        "header": true,
+        ".cs-header": true,
+        ".cs-hero-image": true,
+        "section[aria-labelledby=\"enrollment-problem\"]": true,
+        "section[aria-labelledby=\"enrollment-role\"]": true,
+        "section[aria-labelledby=\"enrollment-outcome\"]": true,
+        ".cs-next": true,
+        "#contact": true,
+        "analytics-and-scripts": true
+      },
+      "protectedSha256": {
+        "header": "7754d42847dd0f846b0c667160744e937796bb7d45de69b171fcb503b68ff548",
+        ".cs-header": "c14d30b2d63b3ed5680d655d06b7b86067191105784c805aa344fdc4130b5f2f",
+        ".cs-hero-image": "7a8e9c8d5c10463e9884e026863580366c1e1178f48d659325b440ebfd5b9884",
+        "section[aria-labelledby=\"enrollment-problem\"]": "cc7e173002f03336be61a75fd682ec4a37f615bd4b04e452f1ec0287472c25f3",
+        "section[aria-labelledby=\"enrollment-role\"]": "4f779520843f67562408e1fd3976c73cad1892a8318e7ce960bb239ebe22b8ad",
+        "section[aria-labelledby=\"enrollment-outcome\"]": "c3f7686e306afce135dab5091404bb60514da0fe5d3015a699114cf3e0848b71",
+        ".cs-next": "2bac791ee591dd5672d4eac8e333dd691eb635f136daad103ae2f9af8bb40902",
+        "#contact": "382bd8d6e80590c25ced5f88e9f9e49f033fe55d74f9e41277c20b347d64a7c6",
+        "analytics-and-scripts": "9750c9962a34f8e9e7ebc745215c7991c53c033f8224f1ffc4ddcd2c991a0050"
+      },
+      "wheelTraversal": {
+        "input": "mouse.wheel(0, 300)",
+        "scrollY": [
+          0,
+          300,
+          600,
+          900,
+          1200,
+          1500,
+          1800,
+          2100,
+          2400,
+          2700,
+          3000,
+          3300,
+          3600,
+          3900,
+          4200,
+          4500,
+          4800,
+          5100,
+          5400,
+          5700,
+          6000,
+          6300,
+          6600,
+          6900,
+          7200,
+          7500,
+          7800,
+          8100,
+          8400,
+          8700,
+          9000,
+          9300,
+          9600,
+          9900,
+          10124
+        ],
+        "sections": [
+          {
+            "name": "cs-header",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 957.0625
+          },
+          {
+            "name": "enrollment-problem",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 1130.421875
+          },
+          {
+            "name": "enrollment-role",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 810.546875
+          },
+          {
+            "name": "enrollment-discovery",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 986.796875
+          },
+          {
+            "name": "enrollment-decisions",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 3632.953125
+          },
+          {
+            "name": "enrollment-shipped",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 739.1875
+          },
+          {
+            "name": "enrollment-outcome",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 1296.671875
+          },
+          {
+            "name": "cs-next",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 357.890625
+          },
+          {
+            "name": "contact-heading",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 765.5
+          }
+        ]
+      },
+      "allImages": [
+        {
+          "src": "../assets/images/enrollment/Desk%20Research.png",
+          "natural": [
+            1672,
+            661
+          ],
+          "rendered": [
+            272,
+            108
+          ],
+          "alt": "Discovery synthesis board: CSD matrix at upper left, two brainstorming areas across the top, user/customer journey at lower left, and empathy map at lower right. Lower content is cut off in the source."
+        },
+        {
+          "src": "../assets/images/enrollment/parentesco.png",
+          "natural": [
+            1920,
+            1200
+          ],
+          "rendered": [
+            272,
+            170
+          ],
+          "alt": "Eligibility screen with a seven-step sidebar, relationship guidance, and two closed categories for relatives of Banco do Brasil or CASSI employees."
+        },
+        {
+          "src": "../assets/images/enrollment/dados-parente.png",
+          "natural": [
+            1920,
+            1200
+          ],
+          "rendered": [
+            272,
+            170
+          ],
+          "alt": "Applicant personal-details form with identity fields, document-copy guidance, and only the beginning of the attachment area visible at the lower edge."
+        },
+        {
+          "src": "../assets/images/enrollment/portabilidade-2.png",
+          "natural": [
+            1920,
+            1200
+          ],
+          "rendered": [
+            272,
+            170
+          ],
+          "alt": "Portability stage with an explanation of waiting-period portability, request guidance, and closed normal and special portability categories beside the journey sidebar."
+        },
+        {
+          "src": "../assets/images/enrollment/new-enrollment-journey-simulator.jpg",
+          "natural": [
+            1440,
+            1485
+          ],
+          "rendered": [
+            272,
+            281
+          ],
+          "alt": "New enrollment journey simulator"
+        },
+        {
+          "src": "../assets/images/enrollment/old-enrollment-journey-simulator.jpg",
+          "natural": [
+            1440,
+            1485
+          ],
+          "rendered": [
+            272,
+            281
+          ],
+          "alt": "Old enrollment journey simulator"
+        }
+      ],
+      "boardImage": {
+        "natural": [
+          1672,
+          661
+        ],
+        "intrinsic": [
+          "1672",
+          "661"
+        ],
+        "rendered": [
+          272,
+          107.515625
+        ],
+        "alt": "Discovery synthesis board: CSD matrix at upper left, two brainstorming areas across the top, user/customer journey at lower left, and empathy map at lower right. Lower content is cut off in the source.",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      "textFits": true,
+      "contrast": [
+        {
+          "text": "Organizing discovery.",
+          "cssColor": "rgb(242, 242, 245)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "compositedForeground": [
+            242,
+            242,
+            245
+          ],
+          "ratio": 17.080623207219997,
+          "fontSize": "48px",
+          "lineHeight": "52.8px"
+        },
+        {
+          "text": "The board brings together a CSD matrix, brainstorming areas, a user/customer journey, and an empathy map. It offers an overview of how discovery material was organized, without requiring each small note to be read.",
+          "cssColor": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "compositedForeground": [
+            161.85000000000002,
+            162.55,
+            168.35
+          ],
+          "ratio": 7.550402230717408,
+          "fontSize": "16px",
+          "lineHeight": "27.2px"
+        },
+        {
+          "text": "The supplied “Desk Research” label does not establish the research sources or methods used. The board shows synthesis artifacts, not a verified record of individual findings or a link from specific notes to the decisions below. Material cut off at the source’s lower edge remains outside this view.",
+          "cssColor": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "compositedForeground": [
+            161.85000000000002,
+            162.55,
+            168.35
+          ],
+          "ratio": 7.550402230717408,
+          "fontSize": "16px",
+          "lineHeight": "27.2px"
+        }
+      ],
+      "statContentFits": true,
+      "headingLevels": [
+        {
+          "level": "H1",
+          "text": "Enrollment Journey"
+        },
+        {
+          "level": "H2",
+          "text": "A fragmented journey, dependent on support."
+        },
+        {
+          "level": "H2",
+          "text": "From discovery to the redesigned journey."
+        },
+        {
+          "level": "H2",
+          "text": "Organizing discovery."
+        },
+        {
+          "level": "H2",
+          "text": "Helping users progress with less support."
+        },
+        {
+          "level": "H3",
+          "text": "Remove mandatory pre-registration"
+        },
+        {
+          "level": "H3",
+          "text": "Reorganize steps around the user's mental model"
+        },
+        {
+          "level": "H3",
+          "text": "Structured status visibility throughout"
+        },
+        {
+          "level": "H2",
+          "text": "The plan simulator, before and after."
+        },
+        {
+          "level": "H2",
+          "text": "Proposal volume grew 171% year over year."
+        },
+        {
+          "level": "H2",
+          "text": "Let's work together."
+        }
+      ],
+      "screenshots": [
+        "board-320-no-preference.png",
+        "page-320-no-preference.png"
+      ],
+      "comparison": {
+        "name": "Comparison slider",
+        "keyboard": [
+          "Tab",
+          "Home",
+          "ArrowRight",
+          "End",
+          "ArrowLeft",
+          "Tab"
+        ],
+        "pointerValue": 23,
+        "emulatedTouchValue": 77,
+        "focusLimitation": "Preserved baseline range is transparent; visible focus/name improvements belong to ticket 03."
+      },
+      "status": "passed"
+    },
+    {
+      "width": 320,
+      "height": 700,
+      "motion": "reduce",
+      "protectedMatchesBaseline": {
+        "header": true,
+        ".cs-header": true,
+        ".cs-hero-image": true,
+        "section[aria-labelledby=\"enrollment-problem\"]": true,
+        "section[aria-labelledby=\"enrollment-role\"]": true,
+        "section[aria-labelledby=\"enrollment-outcome\"]": true,
+        ".cs-next": true,
+        "#contact": true,
+        "analytics-and-scripts": true
+      },
+      "protectedSha256": {
+        "header": "7754d42847dd0f846b0c667160744e937796bb7d45de69b171fcb503b68ff548",
+        ".cs-header": "c14d30b2d63b3ed5680d655d06b7b86067191105784c805aa344fdc4130b5f2f",
+        ".cs-hero-image": "7a8e9c8d5c10463e9884e026863580366c1e1178f48d659325b440ebfd5b9884",
+        "section[aria-labelledby=\"enrollment-problem\"]": "cc7e173002f03336be61a75fd682ec4a37f615bd4b04e452f1ec0287472c25f3",
+        "section[aria-labelledby=\"enrollment-role\"]": "4f779520843f67562408e1fd3976c73cad1892a8318e7ce960bb239ebe22b8ad",
+        "section[aria-labelledby=\"enrollment-outcome\"]": "c3f7686e306afce135dab5091404bb60514da0fe5d3015a699114cf3e0848b71",
+        ".cs-next": "2bac791ee591dd5672d4eac8e333dd691eb635f136daad103ae2f9af8bb40902",
+        "#contact": "382bd8d6e80590c25ced5f88e9f9e49f033fe55d74f9e41277c20b347d64a7c6",
+        "analytics-and-scripts": "9750c9962a34f8e9e7ebc745215c7991c53c033f8224f1ffc4ddcd2c991a0050"
+      },
+      "reducedMotionImmediatelyVisible": true,
+      "wheelTraversal": {
+        "input": "mouse.wheel(0, 300)",
+        "scrollY": [
+          0,
+          300,
+          600,
+          900,
+          1200,
+          1500,
+          1800,
+          2100,
+          2400,
+          2700,
+          3000,
+          3300,
+          3600,
+          3900,
+          4200,
+          4500,
+          4800,
+          5100,
+          5400,
+          5700,
+          6000,
+          6300,
+          6600,
+          6900,
+          7200,
+          7500,
+          7800,
+          8100,
+          8400,
+          8700,
+          9000,
+          9300,
+          9600,
+          9900,
+          10121
+        ],
+        "sections": [
+          {
+            "name": "cs-header",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 957.0625
+          },
+          {
+            "name": "enrollment-problem",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 1130.421875
+          },
+          {
+            "name": "enrollment-role",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 810.546875
+          },
+          {
+            "name": "enrollment-discovery",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 986.796875
+          },
+          {
+            "name": "enrollment-decisions",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 3632.953125
+          },
+          {
+            "name": "enrollment-shipped",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 739.1875
+          },
+          {
+            "name": "enrollment-outcome",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 1296.671875
+          },
+          {
+            "name": "cs-next",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 357.890625
+          },
+          {
+            "name": "contact-heading",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 765.5
+          }
+        ]
+      },
+      "allImages": [
+        {
+          "src": "../assets/images/enrollment/Desk%20Research.png",
+          "natural": [
+            1672,
+            661
+          ],
+          "rendered": [
+            272,
+            108
+          ],
+          "alt": "Discovery synthesis board: CSD matrix at upper left, two brainstorming areas across the top, user/customer journey at lower left, and empathy map at lower right. Lower content is cut off in the source."
+        },
+        {
+          "src": "../assets/images/enrollment/parentesco.png",
+          "natural": [
+            1920,
+            1200
+          ],
+          "rendered": [
+            272,
+            170
+          ],
+          "alt": "Eligibility screen with a seven-step sidebar, relationship guidance, and two closed categories for relatives of Banco do Brasil or CASSI employees."
+        },
+        {
+          "src": "../assets/images/enrollment/dados-parente.png",
+          "natural": [
+            1920,
+            1200
+          ],
+          "rendered": [
+            272,
+            170
+          ],
+          "alt": "Applicant personal-details form with identity fields, document-copy guidance, and only the beginning of the attachment area visible at the lower edge."
+        },
+        {
+          "src": "../assets/images/enrollment/portabilidade-2.png",
+          "natural": [
+            1920,
+            1200
+          ],
+          "rendered": [
+            272,
+            170
+          ],
+          "alt": "Portability stage with an explanation of waiting-period portability, request guidance, and closed normal and special portability categories beside the journey sidebar."
+        },
+        {
+          "src": "../assets/images/enrollment/new-enrollment-journey-simulator.jpg",
+          "natural": [
+            1440,
+            1485
+          ],
+          "rendered": [
+            272,
+            281
+          ],
+          "alt": "New enrollment journey simulator"
+        },
+        {
+          "src": "../assets/images/enrollment/old-enrollment-journey-simulator.jpg",
+          "natural": [
+            1440,
+            1485
+          ],
+          "rendered": [
+            272,
+            281
+          ],
+          "alt": "Old enrollment journey simulator"
+        }
+      ],
+      "boardImage": {
+        "natural": [
+          1672,
+          661
+        ],
+        "intrinsic": [
+          "1672",
+          "661"
+        ],
+        "rendered": [
+          272,
+          107.515625
+        ],
+        "alt": "Discovery synthesis board: CSD matrix at upper left, two brainstorming areas across the top, user/customer journey at lower left, and empathy map at lower right. Lower content is cut off in the source.",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      "textFits": true,
+      "contrast": [
+        {
+          "text": "Organizing discovery.",
+          "cssColor": "rgb(242, 242, 245)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "compositedForeground": [
+            242,
+            242,
+            245
+          ],
+          "ratio": 17.080623207219997,
+          "fontSize": "48px",
+          "lineHeight": "52.8px"
+        },
+        {
+          "text": "The board brings together a CSD matrix, brainstorming areas, a user/customer journey, and an empathy map. It offers an overview of how discovery material was organized, without requiring each small note to be read.",
+          "cssColor": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "compositedForeground": [
+            161.85000000000002,
+            162.55,
+            168.35
+          ],
+          "ratio": 7.550402230717408,
+          "fontSize": "16px",
+          "lineHeight": "27.2px"
+        },
+        {
+          "text": "The supplied “Desk Research” label does not establish the research sources or methods used. The board shows synthesis artifacts, not a verified record of individual findings or a link from specific notes to the decisions below. Material cut off at the source’s lower edge remains outside this view.",
+          "cssColor": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "compositedForeground": [
+            161.85000000000002,
+            162.55,
+            168.35
+          ],
+          "ratio": 7.550402230717408,
+          "fontSize": "16px",
+          "lineHeight": "27.2px"
+        }
+      ],
+      "statContentFits": true,
+      "headingLevels": [
+        {
+          "level": "H1",
+          "text": "Enrollment Journey"
+        },
+        {
+          "level": "H2",
+          "text": "A fragmented journey, dependent on support."
+        },
+        {
+          "level": "H2",
+          "text": "From discovery to the redesigned journey."
+        },
+        {
+          "level": "H2",
+          "text": "Organizing discovery."
+        },
+        {
+          "level": "H2",
+          "text": "Helping users progress with less support."
+        },
+        {
+          "level": "H3",
+          "text": "Remove mandatory pre-registration"
+        },
+        {
+          "level": "H3",
+          "text": "Reorganize steps around the user's mental model"
+        },
+        {
+          "level": "H3",
+          "text": "Structured status visibility throughout"
+        },
+        {
+          "level": "H2",
+          "text": "The plan simulator, before and after."
+        },
+        {
+          "level": "H2",
+          "text": "Proposal volume grew 171% year over year."
+        },
+        {
+          "level": "H2",
+          "text": "Let's work together."
+        }
+      ],
+      "screenshots": [
+        "board-320-reduce.png",
+        "page-320-reduce.png"
+      ],
+      "comparison": {
+        "name": "Comparison slider",
+        "keyboard": [
+          "Tab",
+          "Home",
+          "ArrowRight",
+          "End",
+          "ArrowLeft",
+          "Tab"
+        ],
+        "pointerValue": 23,
+        "emulatedTouchValue": 77,
+        "focusLimitation": "Preserved baseline range is transparent; visible focus/name improvements belong to ticket 03."
+      },
+      "status": "passed"
+    },
+    {
+      "width": 375,
+      "height": 700,
+      "motion": "no-preference",
+      "protectedMatchesBaseline": {
+        "header": true,
+        ".cs-header": true,
+        ".cs-hero-image": true,
+        "section[aria-labelledby=\"enrollment-problem\"]": true,
+        "section[aria-labelledby=\"enrollment-role\"]": true,
+        "section[aria-labelledby=\"enrollment-outcome\"]": true,
+        ".cs-next": true,
+        "#contact": true,
+        "analytics-and-scripts": true
+      },
+      "protectedSha256": {
+        "header": "7754d42847dd0f846b0c667160744e937796bb7d45de69b171fcb503b68ff548",
+        ".cs-header": "c14d30b2d63b3ed5680d655d06b7b86067191105784c805aa344fdc4130b5f2f",
+        ".cs-hero-image": "7a8e9c8d5c10463e9884e026863580366c1e1178f48d659325b440ebfd5b9884",
+        "section[aria-labelledby=\"enrollment-problem\"]": "cc7e173002f03336be61a75fd682ec4a37f615bd4b04e452f1ec0287472c25f3",
+        "section[aria-labelledby=\"enrollment-role\"]": "4f779520843f67562408e1fd3976c73cad1892a8318e7ce960bb239ebe22b8ad",
+        "section[aria-labelledby=\"enrollment-outcome\"]": "c3f7686e306afce135dab5091404bb60514da0fe5d3015a699114cf3e0848b71",
+        ".cs-next": "2bac791ee591dd5672d4eac8e333dd691eb635f136daad103ae2f9af8bb40902",
+        "#contact": "382bd8d6e80590c25ced5f88e9f9e49f033fe55d74f9e41277c20b347d64a7c6",
+        "analytics-and-scripts": "9750c9962a34f8e9e7ebc745215c7991c53c033f8224f1ffc4ddcd2c991a0050"
+      },
+      "wheelTraversal": {
+        "input": "mouse.wheel(0, 300)",
+        "scrollY": [
+          0,
+          300,
+          600,
+          900,
+          1200,
+          1500,
+          1800,
+          2100,
+          2400,
+          2700,
+          3000,
+          3300,
+          3600,
+          3900,
+          4200,
+          4500,
+          4800,
+          5100,
+          5400,
+          5700,
+          6000,
+          6300,
+          6600,
+          6900,
+          7200,
+          7500,
+          7800,
+          8100,
+          8400,
+          8700,
+          9000,
+          9300,
+          9386
+        ],
+        "sections": [
+          {
+            "name": "cs-header",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 933.0625
+          },
+          {
+            "name": "enrollment-problem",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 968.875
+          },
+          {
+            "name": "enrollment-role",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 756.171875
+          },
+          {
+            "name": "enrollment-discovery",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 926.984375
+          },
+          {
+            "name": "enrollment-decisions",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 3360.1875
+          },
+          {
+            "name": "enrollment-shipped",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 795.90625
+          },
+          {
+            "name": "enrollment-outcome",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 1104.5
+          },
+          {
+            "name": "cs-next",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 305.09375
+          },
+          {
+            "name": "contact-heading",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 765.5
+          }
+        ]
+      },
+      "allImages": [
+        {
+          "src": "../assets/images/enrollment/Desk%20Research.png",
+          "natural": [
+            1672,
+            661
+          ],
+          "rendered": [
+            327,
+            129
+          ],
+          "alt": "Discovery synthesis board: CSD matrix at upper left, two brainstorming areas across the top, user/customer journey at lower left, and empathy map at lower right. Lower content is cut off in the source."
+        },
+        {
+          "src": "../assets/images/enrollment/parentesco.png",
+          "natural": [
+            1920,
+            1200
+          ],
+          "rendered": [
+            327,
+            204
+          ],
+          "alt": "Eligibility screen with a seven-step sidebar, relationship guidance, and two closed categories for relatives of Banco do Brasil or CASSI employees."
+        },
+        {
+          "src": "../assets/images/enrollment/dados-parente.png",
+          "natural": [
+            1920,
+            1200
+          ],
+          "rendered": [
+            327,
+            204
+          ],
+          "alt": "Applicant personal-details form with identity fields, document-copy guidance, and only the beginning of the attachment area visible at the lower edge."
+        },
+        {
+          "src": "../assets/images/enrollment/portabilidade-2.png",
+          "natural": [
+            1920,
+            1200
+          ],
+          "rendered": [
+            327,
+            204
+          ],
+          "alt": "Portability stage with an explanation of waiting-period portability, request guidance, and closed normal and special portability categories beside the journey sidebar."
+        },
+        {
+          "src": "../assets/images/enrollment/new-enrollment-journey-simulator.jpg",
+          "natural": [
+            1440,
+            1485
+          ],
+          "rendered": [
+            327,
+            337
+          ],
+          "alt": "New enrollment journey simulator"
+        },
+        {
+          "src": "../assets/images/enrollment/old-enrollment-journey-simulator.jpg",
+          "natural": [
+            1440,
+            1485
+          ],
+          "rendered": [
+            327,
+            337
+          ],
+          "alt": "Old enrollment journey simulator"
+        }
+      ],
+      "boardImage": {
+        "natural": [
+          1672,
+          661
+        ],
+        "intrinsic": [
+          "1672",
+          "661"
+        ],
+        "rendered": [
+          327,
+          129.265625
+        ],
+        "alt": "Discovery synthesis board: CSD matrix at upper left, two brainstorming areas across the top, user/customer journey at lower left, and empathy map at lower right. Lower content is cut off in the source.",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      "textFits": true,
+      "contrast": [
+        {
+          "text": "Organizing discovery.",
+          "cssColor": "rgb(242, 242, 245)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "compositedForeground": [
+            242,
+            242,
+            245
+          ],
+          "ratio": 17.080623207219997,
+          "fontSize": "48px",
+          "lineHeight": "52.8px"
+        },
+        {
+          "text": "The board brings together a CSD matrix, brainstorming areas, a user/customer journey, and an empathy map. It offers an overview of how discovery material was organized, without requiring each small note to be read.",
+          "cssColor": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "compositedForeground": [
+            161.85000000000002,
+            162.55,
+            168.35
+          ],
+          "ratio": 7.550402230717408,
+          "fontSize": "16px",
+          "lineHeight": "27.2px"
+        },
+        {
+          "text": "The supplied “Desk Research” label does not establish the research sources or methods used. The board shows synthesis artifacts, not a verified record of individual findings or a link from specific notes to the decisions below. Material cut off at the source’s lower edge remains outside this view.",
+          "cssColor": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "compositedForeground": [
+            161.85000000000002,
+            162.55,
+            168.35
+          ],
+          "ratio": 7.550402230717408,
+          "fontSize": "16px",
+          "lineHeight": "27.2px"
+        }
+      ],
+      "statContentFits": true,
+      "headingLevels": [
+        {
+          "level": "H1",
+          "text": "Enrollment Journey"
+        },
+        {
+          "level": "H2",
+          "text": "A fragmented journey, dependent on support."
+        },
+        {
+          "level": "H2",
+          "text": "From discovery to the redesigned journey."
+        },
+        {
+          "level": "H2",
+          "text": "Organizing discovery."
+        },
+        {
+          "level": "H2",
+          "text": "Helping users progress with less support."
+        },
+        {
+          "level": "H3",
+          "text": "Remove mandatory pre-registration"
+        },
+        {
+          "level": "H3",
+          "text": "Reorganize steps around the user's mental model"
+        },
+        {
+          "level": "H3",
+          "text": "Structured status visibility throughout"
+        },
+        {
+          "level": "H2",
+          "text": "The plan simulator, before and after."
+        },
+        {
+          "level": "H2",
+          "text": "Proposal volume grew 171% year over year."
+        },
+        {
+          "level": "H2",
+          "text": "Let's work together."
+        }
+      ],
+      "screenshots": [
+        "board-375-no-preference.png",
+        "page-375-no-preference.png"
+      ],
+      "comparison": {
+        "name": "Comparison slider",
+        "keyboard": [
+          "Tab",
+          "Home",
+          "ArrowRight",
+          "End",
+          "ArrowLeft",
+          "Tab"
+        ],
+        "pointerValue": 24,
+        "emulatedTouchValue": 76,
+        "focusLimitation": "Preserved baseline range is transparent; visible focus/name improvements belong to ticket 03."
+      },
+      "status": "passed"
+    },
+    {
+      "width": 375,
+      "height": 700,
+      "motion": "reduce",
+      "protectedMatchesBaseline": {
+        "header": true,
+        ".cs-header": true,
+        ".cs-hero-image": true,
+        "section[aria-labelledby=\"enrollment-problem\"]": true,
+        "section[aria-labelledby=\"enrollment-role\"]": true,
+        "section[aria-labelledby=\"enrollment-outcome\"]": true,
+        ".cs-next": true,
+        "#contact": true,
+        "analytics-and-scripts": true
+      },
+      "protectedSha256": {
+        "header": "7754d42847dd0f846b0c667160744e937796bb7d45de69b171fcb503b68ff548",
+        ".cs-header": "c14d30b2d63b3ed5680d655d06b7b86067191105784c805aa344fdc4130b5f2f",
+        ".cs-hero-image": "7a8e9c8d5c10463e9884e026863580366c1e1178f48d659325b440ebfd5b9884",
+        "section[aria-labelledby=\"enrollment-problem\"]": "cc7e173002f03336be61a75fd682ec4a37f615bd4b04e452f1ec0287472c25f3",
+        "section[aria-labelledby=\"enrollment-role\"]": "4f779520843f67562408e1fd3976c73cad1892a8318e7ce960bb239ebe22b8ad",
+        "section[aria-labelledby=\"enrollment-outcome\"]": "c3f7686e306afce135dab5091404bb60514da0fe5d3015a699114cf3e0848b71",
+        ".cs-next": "2bac791ee591dd5672d4eac8e333dd691eb635f136daad103ae2f9af8bb40902",
+        "#contact": "382bd8d6e80590c25ced5f88e9f9e49f033fe55d74f9e41277c20b347d64a7c6",
+        "analytics-and-scripts": "9750c9962a34f8e9e7ebc745215c7991c53c033f8224f1ffc4ddcd2c991a0050"
+      },
+      "reducedMotionImmediatelyVisible": true,
+      "wheelTraversal": {
+        "input": "mouse.wheel(0, 300)",
+        "scrollY": [
+          0,
+          300,
+          600,
+          900,
+          1200,
+          1500,
+          1800,
+          2100,
+          2400,
+          2700,
+          3000,
+          3300,
+          3600,
+          3900,
+          4200,
+          4500,
+          4800,
+          5100,
+          5400,
+          5700,
+          6000,
+          6300,
+          6600,
+          6900,
+          7200,
+          7500,
+          7800,
+          8100,
+          8400,
+          8700,
+          9000,
+          9300,
+          9386
+        ],
+        "sections": [
+          {
+            "name": "cs-header",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 933.0625
+          },
+          {
+            "name": "enrollment-problem",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 968.875
+          },
+          {
+            "name": "enrollment-role",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 756.171875
+          },
+          {
+            "name": "enrollment-discovery",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 926.984375
+          },
+          {
+            "name": "enrollment-decisions",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 3360.1875
+          },
+          {
+            "name": "enrollment-shipped",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 795.90625
+          },
+          {
+            "name": "enrollment-outcome",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 1104.5
+          },
+          {
+            "name": "cs-next",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 305.09375
+          },
+          {
+            "name": "contact-heading",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 765.5
+          }
+        ]
+      },
+      "allImages": [
+        {
+          "src": "../assets/images/enrollment/Desk%20Research.png",
+          "natural": [
+            1672,
+            661
+          ],
+          "rendered": [
+            327,
+            129
+          ],
+          "alt": "Discovery synthesis board: CSD matrix at upper left, two brainstorming areas across the top, user/customer journey at lower left, and empathy map at lower right. Lower content is cut off in the source."
+        },
+        {
+          "src": "../assets/images/enrollment/parentesco.png",
+          "natural": [
+            1920,
+            1200
+          ],
+          "rendered": [
+            327,
+            204
+          ],
+          "alt": "Eligibility screen with a seven-step sidebar, relationship guidance, and two closed categories for relatives of Banco do Brasil or CASSI employees."
+        },
+        {
+          "src": "../assets/images/enrollment/dados-parente.png",
+          "natural": [
+            1920,
+            1200
+          ],
+          "rendered": [
+            327,
+            204
+          ],
+          "alt": "Applicant personal-details form with identity fields, document-copy guidance, and only the beginning of the attachment area visible at the lower edge."
+        },
+        {
+          "src": "../assets/images/enrollment/portabilidade-2.png",
+          "natural": [
+            1920,
+            1200
+          ],
+          "rendered": [
+            327,
+            204
+          ],
+          "alt": "Portability stage with an explanation of waiting-period portability, request guidance, and closed normal and special portability categories beside the journey sidebar."
+        },
+        {
+          "src": "../assets/images/enrollment/new-enrollment-journey-simulator.jpg",
+          "natural": [
+            1440,
+            1485
+          ],
+          "rendered": [
+            327,
+            337
+          ],
+          "alt": "New enrollment journey simulator"
+        },
+        {
+          "src": "../assets/images/enrollment/old-enrollment-journey-simulator.jpg",
+          "natural": [
+            1440,
+            1485
+          ],
+          "rendered": [
+            327,
+            337
+          ],
+          "alt": "Old enrollment journey simulator"
+        }
+      ],
+      "boardImage": {
+        "natural": [
+          1672,
+          661
+        ],
+        "intrinsic": [
+          "1672",
+          "661"
+        ],
+        "rendered": [
+          327,
+          129.265625
+        ],
+        "alt": "Discovery synthesis board: CSD matrix at upper left, two brainstorming areas across the top, user/customer journey at lower left, and empathy map at lower right. Lower content is cut off in the source.",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      "textFits": true,
+      "contrast": [
+        {
+          "text": "Organizing discovery.",
+          "cssColor": "rgb(242, 242, 245)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "compositedForeground": [
+            242,
+            242,
+            245
+          ],
+          "ratio": 17.080623207219997,
+          "fontSize": "48px",
+          "lineHeight": "52.8px"
+        },
+        {
+          "text": "The board brings together a CSD matrix, brainstorming areas, a user/customer journey, and an empathy map. It offers an overview of how discovery material was organized, without requiring each small note to be read.",
+          "cssColor": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "compositedForeground": [
+            161.85000000000002,
+            162.55,
+            168.35
+          ],
+          "ratio": 7.550402230717408,
+          "fontSize": "16px",
+          "lineHeight": "27.2px"
+        },
+        {
+          "text": "The supplied “Desk Research” label does not establish the research sources or methods used. The board shows synthesis artifacts, not a verified record of individual findings or a link from specific notes to the decisions below. Material cut off at the source’s lower edge remains outside this view.",
+          "cssColor": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "compositedForeground": [
+            161.85000000000002,
+            162.55,
+            168.35
+          ],
+          "ratio": 7.550402230717408,
+          "fontSize": "16px",
+          "lineHeight": "27.2px"
+        }
+      ],
+      "statContentFits": true,
+      "headingLevels": [
+        {
+          "level": "H1",
+          "text": "Enrollment Journey"
+        },
+        {
+          "level": "H2",
+          "text": "A fragmented journey, dependent on support."
+        },
+        {
+          "level": "H2",
+          "text": "From discovery to the redesigned journey."
+        },
+        {
+          "level": "H2",
+          "text": "Organizing discovery."
+        },
+        {
+          "level": "H2",
+          "text": "Helping users progress with less support."
+        },
+        {
+          "level": "H3",
+          "text": "Remove mandatory pre-registration"
+        },
+        {
+          "level": "H3",
+          "text": "Reorganize steps around the user's mental model"
+        },
+        {
+          "level": "H3",
+          "text": "Structured status visibility throughout"
+        },
+        {
+          "level": "H2",
+          "text": "The plan simulator, before and after."
+        },
+        {
+          "level": "H2",
+          "text": "Proposal volume grew 171% year over year."
+        },
+        {
+          "level": "H2",
+          "text": "Let's work together."
+        }
+      ],
+      "screenshots": [
+        "board-375-reduce.png",
+        "page-375-reduce.png"
+      ],
+      "comparison": {
+        "name": "Comparison slider",
+        "keyboard": [
+          "Tab",
+          "Home",
+          "ArrowRight",
+          "End",
+          "ArrowLeft",
+          "Tab"
+        ],
+        "pointerValue": 24,
+        "emulatedTouchValue": 76,
+        "focusLimitation": "Preserved baseline range is transparent; visible focus/name improvements belong to ticket 03."
+      },
+      "status": "passed"
+    },
+    {
+      "width": 768,
+      "height": 700,
+      "motion": "no-preference",
+      "protectedMatchesBaseline": {
+        "header": true,
+        ".cs-header": true,
+        ".cs-hero-image": true,
+        "section[aria-labelledby=\"enrollment-problem\"]": true,
+        "section[aria-labelledby=\"enrollment-role\"]": true,
+        "section[aria-labelledby=\"enrollment-outcome\"]": true,
+        ".cs-next": true,
+        "#contact": true,
+        "analytics-and-scripts": true
+      },
+      "protectedSha256": {
+        "header": "7754d42847dd0f846b0c667160744e937796bb7d45de69b171fcb503b68ff548",
+        ".cs-header": "c14d30b2d63b3ed5680d655d06b7b86067191105784c805aa344fdc4130b5f2f",
+        ".cs-hero-image": "7a8e9c8d5c10463e9884e026863580366c1e1178f48d659325b440ebfd5b9884",
+        "section[aria-labelledby=\"enrollment-problem\"]": "cc7e173002f03336be61a75fd682ec4a37f615bd4b04e452f1ec0287472c25f3",
+        "section[aria-labelledby=\"enrollment-role\"]": "4f779520843f67562408e1fd3976c73cad1892a8318e7ce960bb239ebe22b8ad",
+        "section[aria-labelledby=\"enrollment-outcome\"]": "c3f7686e306afce135dab5091404bb60514da0fe5d3015a699114cf3e0848b71",
+        ".cs-next": "2bac791ee591dd5672d4eac8e333dd691eb635f136daad103ae2f9af8bb40902",
+        "#contact": "382bd8d6e80590c25ced5f88e9f9e49f033fe55d74f9e41277c20b347d64a7c6",
+        "analytics-and-scripts": "9750c9962a34f8e9e7ebc745215c7991c53c033f8224f1ffc4ddcd2c991a0050"
+      },
+      "wheelTraversal": {
+        "input": "mouse.wheel(0, 300)",
+        "scrollY": [
+          0,
+          300,
+          600,
+          900,
+          1200,
+          1500,
+          1800,
+          2100,
+          2400,
+          2700,
+          3000,
+          3300,
+          3600,
+          3900,
+          4200,
+          4500,
+          4800,
+          5100,
+          5400,
+          5700,
+          6000,
+          6300,
+          6600,
+          6900,
+          7200,
+          7500,
+          7800,
+          8100,
+          8400,
+          8406
+        ],
+        "sections": [
+          {
+            "name": "cs-header",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 796.21875
+          },
+          {
+            "name": "enrollment-problem",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 645.78125
+          },
+          {
+            "name": "enrollment-role",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 461.84375
+          },
+          {
+            "name": "enrollment-discovery",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 839.25
+          },
+          {
+            "name": "enrollment-decisions",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 3182.140625
+          },
+          {
+            "name": "enrollment-shipped",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 1095.59375
+          },
+          {
+            "name": "enrollment-outcome",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 747.65625
+          },
+          {
+            "name": "cs-next",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 252.296875
+          },
+          {
+            "name": "contact-heading",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 737.953125
+          }
+        ]
+      },
+      "allImages": [
+        {
+          "src": "../assets/images/enrollment/Desk%20Research.png",
+          "natural": [
+            1672,
+            661
+          ],
+          "rendered": [
+            720,
+            285
+          ],
+          "alt": "Discovery synthesis board: CSD matrix at upper left, two brainstorming areas across the top, user/customer journey at lower left, and empathy map at lower right. Lower content is cut off in the source."
+        },
+        {
+          "src": "../assets/images/enrollment/parentesco.png",
+          "natural": [
+            1920,
+            1200
+          ],
+          "rendered": [
+            720,
+            450
+          ],
+          "alt": "Eligibility screen with a seven-step sidebar, relationship guidance, and two closed categories for relatives of Banco do Brasil or CASSI employees."
+        },
+        {
+          "src": "../assets/images/enrollment/dados-parente.png",
+          "natural": [
+            1920,
+            1200
+          ],
+          "rendered": [
+            720,
+            450
+          ],
+          "alt": "Applicant personal-details form with identity fields, document-copy guidance, and only the beginning of the attachment area visible at the lower edge."
+        },
+        {
+          "src": "../assets/images/enrollment/portabilidade-2.png",
+          "natural": [
+            1920,
+            1200
+          ],
+          "rendered": [
+            720,
+            450
+          ],
+          "alt": "Portability stage with an explanation of waiting-period portability, request guidance, and closed normal and special portability categories beside the journey sidebar."
+        },
+        {
+          "src": "../assets/images/enrollment/new-enrollment-journey-simulator.jpg",
+          "natural": [
+            1440,
+            1485
+          ],
+          "rendered": [
+            720,
+            743
+          ],
+          "alt": "New enrollment journey simulator"
+        },
+        {
+          "src": "../assets/images/enrollment/old-enrollment-journey-simulator.jpg",
+          "natural": [
+            1440,
+            1485
+          ],
+          "rendered": [
+            720,
+            743
+          ],
+          "alt": "Old enrollment journey simulator"
+        }
+      ],
+      "boardImage": {
+        "natural": [
+          1672,
+          661
+        ],
+        "intrinsic": [
+          "1672",
+          "661"
+        ],
+        "rendered": [
+          720,
+          284.640625
+        ],
+        "alt": "Discovery synthesis board: CSD matrix at upper left, two brainstorming areas across the top, user/customer journey at lower left, and empathy map at lower right. Lower content is cut off in the source.",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      "textFits": true,
+      "contrast": [
+        {
+          "text": "Organizing discovery.",
+          "cssColor": "rgb(242, 242, 245)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "compositedForeground": [
+            242,
+            242,
+            245
+          ],
+          "ratio": 17.080623207219997,
+          "fontSize": "48px",
+          "lineHeight": "52.8px"
+        },
+        {
+          "text": "The board brings together a CSD matrix, brainstorming areas, a user/customer journey, and an empathy map. It offers an overview of how discovery material was organized, without requiring each small note to be read.",
+          "cssColor": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "compositedForeground": [
+            161.85000000000002,
+            162.55,
+            168.35
+          ],
+          "ratio": 7.550402230717408,
+          "fontSize": "16px",
+          "lineHeight": "27.2px"
+        },
+        {
+          "text": "The supplied “Desk Research” label does not establish the research sources or methods used. The board shows synthesis artifacts, not a verified record of individual findings or a link from specific notes to the decisions below. Material cut off at the source’s lower edge remains outside this view.",
+          "cssColor": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "compositedForeground": [
+            161.85000000000002,
+            162.55,
+            168.35
+          ],
+          "ratio": 7.550402230717408,
+          "fontSize": "16px",
+          "lineHeight": "27.2px"
+        }
+      ],
+      "statContentFits": true,
+      "headingLevels": [
+        {
+          "level": "H1",
+          "text": "Enrollment Journey"
+        },
+        {
+          "level": "H2",
+          "text": "A fragmented journey, dependent on support."
+        },
+        {
+          "level": "H2",
+          "text": "From discovery to the redesigned journey."
+        },
+        {
+          "level": "H2",
+          "text": "Organizing discovery."
+        },
+        {
+          "level": "H2",
+          "text": "Helping users progress with less support."
+        },
+        {
+          "level": "H3",
+          "text": "Remove mandatory pre-registration"
+        },
+        {
+          "level": "H3",
+          "text": "Reorganize steps around the user's mental model"
+        },
+        {
+          "level": "H3",
+          "text": "Structured status visibility throughout"
+        },
+        {
+          "level": "H2",
+          "text": "The plan simulator, before and after."
+        },
+        {
+          "level": "H2",
+          "text": "Proposal volume grew 171% year over year."
+        },
+        {
+          "level": "H2",
+          "text": "Let's work together."
+        }
+      ],
+      "screenshots": [
+        "board-768-no-preference.png",
+        "page-768-no-preference.png"
+      ],
+      "comparison": {
+        "name": "Comparison slider",
+        "keyboard": [
+          "Tab",
+          "Home",
+          "ArrowRight",
+          "End",
+          "ArrowLeft",
+          "Tab"
+        ],
+        "pointerValue": 24,
+        "emulatedTouchValue": 76,
+        "focusLimitation": "Preserved baseline range is transparent; visible focus/name improvements belong to ticket 03."
+      },
+      "status": "passed"
+    },
+    {
+      "width": 768,
+      "height": 700,
+      "motion": "reduce",
+      "protectedMatchesBaseline": {
+        "header": true,
+        ".cs-header": true,
+        ".cs-hero-image": true,
+        "section[aria-labelledby=\"enrollment-problem\"]": true,
+        "section[aria-labelledby=\"enrollment-role\"]": true,
+        "section[aria-labelledby=\"enrollment-outcome\"]": true,
+        ".cs-next": true,
+        "#contact": true,
+        "analytics-and-scripts": true
+      },
+      "protectedSha256": {
+        "header": "7754d42847dd0f846b0c667160744e937796bb7d45de69b171fcb503b68ff548",
+        ".cs-header": "c14d30b2d63b3ed5680d655d06b7b86067191105784c805aa344fdc4130b5f2f",
+        ".cs-hero-image": "7a8e9c8d5c10463e9884e026863580366c1e1178f48d659325b440ebfd5b9884",
+        "section[aria-labelledby=\"enrollment-problem\"]": "cc7e173002f03336be61a75fd682ec4a37f615bd4b04e452f1ec0287472c25f3",
+        "section[aria-labelledby=\"enrollment-role\"]": "4f779520843f67562408e1fd3976c73cad1892a8318e7ce960bb239ebe22b8ad",
+        "section[aria-labelledby=\"enrollment-outcome\"]": "c3f7686e306afce135dab5091404bb60514da0fe5d3015a699114cf3e0848b71",
+        ".cs-next": "2bac791ee591dd5672d4eac8e333dd691eb635f136daad103ae2f9af8bb40902",
+        "#contact": "382bd8d6e80590c25ced5f88e9f9e49f033fe55d74f9e41277c20b347d64a7c6",
+        "analytics-and-scripts": "9750c9962a34f8e9e7ebc745215c7991c53c033f8224f1ffc4ddcd2c991a0050"
+      },
+      "reducedMotionImmediatelyVisible": true,
+      "wheelTraversal": {
+        "input": "mouse.wheel(0, 300)",
+        "scrollY": [
+          0,
+          300,
+          600,
+          900,
+          1200,
+          1500,
+          1800,
+          2100,
+          2400,
+          2700,
+          3000,
+          3300,
+          3600,
+          3900,
+          4200,
+          4500,
+          4800,
+          5100,
+          5400,
+          5700,
+          6000,
+          6300,
+          6600,
+          6900,
+          7200,
+          7500,
+          7800,
+          8100,
+          8400,
+          8405
+        ],
+        "sections": [
+          {
+            "name": "cs-header",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 796.21875
+          },
+          {
+            "name": "enrollment-problem",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 645.78125
+          },
+          {
+            "name": "enrollment-role",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 461.84375
+          },
+          {
+            "name": "enrollment-discovery",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 839.25
+          },
+          {
+            "name": "enrollment-decisions",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 3182.140625
+          },
+          {
+            "name": "enrollment-shipped",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 1095.59375
+          },
+          {
+            "name": "enrollment-outcome",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 747.65625
+          },
+          {
+            "name": "cs-next",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 252.296875
+          },
+          {
+            "name": "contact-heading",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 737.953125
+          }
+        ]
+      },
+      "allImages": [
+        {
+          "src": "../assets/images/enrollment/Desk%20Research.png",
+          "natural": [
+            1672,
+            661
+          ],
+          "rendered": [
+            720,
+            285
+          ],
+          "alt": "Discovery synthesis board: CSD matrix at upper left, two brainstorming areas across the top, user/customer journey at lower left, and empathy map at lower right. Lower content is cut off in the source."
+        },
+        {
+          "src": "../assets/images/enrollment/parentesco.png",
+          "natural": [
+            1920,
+            1200
+          ],
+          "rendered": [
+            720,
+            450
+          ],
+          "alt": "Eligibility screen with a seven-step sidebar, relationship guidance, and two closed categories for relatives of Banco do Brasil or CASSI employees."
+        },
+        {
+          "src": "../assets/images/enrollment/dados-parente.png",
+          "natural": [
+            1920,
+            1200
+          ],
+          "rendered": [
+            720,
+            450
+          ],
+          "alt": "Applicant personal-details form with identity fields, document-copy guidance, and only the beginning of the attachment area visible at the lower edge."
+        },
+        {
+          "src": "../assets/images/enrollment/portabilidade-2.png",
+          "natural": [
+            1920,
+            1200
+          ],
+          "rendered": [
+            720,
+            450
+          ],
+          "alt": "Portability stage with an explanation of waiting-period portability, request guidance, and closed normal and special portability categories beside the journey sidebar."
+        },
+        {
+          "src": "../assets/images/enrollment/new-enrollment-journey-simulator.jpg",
+          "natural": [
+            1440,
+            1485
+          ],
+          "rendered": [
+            720,
+            743
+          ],
+          "alt": "New enrollment journey simulator"
+        },
+        {
+          "src": "../assets/images/enrollment/old-enrollment-journey-simulator.jpg",
+          "natural": [
+            1440,
+            1485
+          ],
+          "rendered": [
+            720,
+            743
+          ],
+          "alt": "Old enrollment journey simulator"
+        }
+      ],
+      "boardImage": {
+        "natural": [
+          1672,
+          661
+        ],
+        "intrinsic": [
+          "1672",
+          "661"
+        ],
+        "rendered": [
+          720,
+          284.640625
+        ],
+        "alt": "Discovery synthesis board: CSD matrix at upper left, two brainstorming areas across the top, user/customer journey at lower left, and empathy map at lower right. Lower content is cut off in the source.",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      "textFits": true,
+      "contrast": [
+        {
+          "text": "Organizing discovery.",
+          "cssColor": "rgb(242, 242, 245)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "compositedForeground": [
+            242,
+            242,
+            245
+          ],
+          "ratio": 17.080623207219997,
+          "fontSize": "48px",
+          "lineHeight": "52.8px"
+        },
+        {
+          "text": "The board brings together a CSD matrix, brainstorming areas, a user/customer journey, and an empathy map. It offers an overview of how discovery material was organized, without requiring each small note to be read.",
+          "cssColor": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "compositedForeground": [
+            161.85000000000002,
+            162.55,
+            168.35
+          ],
+          "ratio": 7.550402230717408,
+          "fontSize": "16px",
+          "lineHeight": "27.2px"
+        },
+        {
+          "text": "The supplied “Desk Research” label does not establish the research sources or methods used. The board shows synthesis artifacts, not a verified record of individual findings or a link from specific notes to the decisions below. Material cut off at the source’s lower edge remains outside this view.",
+          "cssColor": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "compositedForeground": [
+            161.85000000000002,
+            162.55,
+            168.35
+          ],
+          "ratio": 7.550402230717408,
+          "fontSize": "16px",
+          "lineHeight": "27.2px"
+        }
+      ],
+      "statContentFits": true,
+      "headingLevels": [
+        {
+          "level": "H1",
+          "text": "Enrollment Journey"
+        },
+        {
+          "level": "H2",
+          "text": "A fragmented journey, dependent on support."
+        },
+        {
+          "level": "H2",
+          "text": "From discovery to the redesigned journey."
+        },
+        {
+          "level": "H2",
+          "text": "Organizing discovery."
+        },
+        {
+          "level": "H2",
+          "text": "Helping users progress with less support."
+        },
+        {
+          "level": "H3",
+          "text": "Remove mandatory pre-registration"
+        },
+        {
+          "level": "H3",
+          "text": "Reorganize steps around the user's mental model"
+        },
+        {
+          "level": "H3",
+          "text": "Structured status visibility throughout"
+        },
+        {
+          "level": "H2",
+          "text": "The plan simulator, before and after."
+        },
+        {
+          "level": "H2",
+          "text": "Proposal volume grew 171% year over year."
+        },
+        {
+          "level": "H2",
+          "text": "Let's work together."
+        }
+      ],
+      "screenshots": [
+        "board-768-reduce.png",
+        "page-768-reduce.png"
+      ],
+      "comparison": {
+        "name": "Comparison slider",
+        "keyboard": [
+          "Tab",
+          "Home",
+          "ArrowRight",
+          "End",
+          "ArrowLeft",
+          "Tab"
+        ],
+        "pointerValue": 24,
+        "emulatedTouchValue": 76,
+        "focusLimitation": "Preserved baseline range is transparent; visible focus/name improvements belong to ticket 03."
+      },
+      "status": "passed"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "motion": "no-preference",
+      "protectedMatchesBaseline": {
+        "header": true,
+        ".cs-header": true,
+        ".cs-hero-image": true,
+        "section[aria-labelledby=\"enrollment-problem\"]": true,
+        "section[aria-labelledby=\"enrollment-role\"]": true,
+        "section[aria-labelledby=\"enrollment-outcome\"]": true,
+        ".cs-next": true,
+        "#contact": true,
+        "analytics-and-scripts": true
+      },
+      "protectedSha256": {
+        "header": "7754d42847dd0f846b0c667160744e937796bb7d45de69b171fcb503b68ff548",
+        ".cs-header": "c14d30b2d63b3ed5680d655d06b7b86067191105784c805aa344fdc4130b5f2f",
+        ".cs-hero-image": "7a8e9c8d5c10463e9884e026863580366c1e1178f48d659325b440ebfd5b9884",
+        "section[aria-labelledby=\"enrollment-problem\"]": "cc7e173002f03336be61a75fd682ec4a37f615bd4b04e452f1ec0287472c25f3",
+        "section[aria-labelledby=\"enrollment-role\"]": "4f779520843f67562408e1fd3976c73cad1892a8318e7ce960bb239ebe22b8ad",
+        "section[aria-labelledby=\"enrollment-outcome\"]": "c3f7686e306afce135dab5091404bb60514da0fe5d3015a699114cf3e0848b71",
+        ".cs-next": "2bac791ee591dd5672d4eac8e333dd691eb635f136daad103ae2f9af8bb40902",
+        "#contact": "382bd8d6e80590c25ced5f88e9f9e49f033fe55d74f9e41277c20b347d64a7c6",
+        "analytics-and-scripts": "9750c9962a34f8e9e7ebc745215c7991c53c033f8224f1ffc4ddcd2c991a0050"
+      },
+      "wheelTraversal": {
+        "input": "mouse.wheel(0, 300)",
+        "scrollY": [
+          0,
+          300,
+          600,
+          900,
+          1200,
+          1500,
+          1800,
+          2100,
+          2400,
+          2700,
+          3000,
+          3300,
+          3600,
+          3900,
+          4200,
+          4500,
+          4800,
+          5100,
+          5400,
+          5700,
+          6000,
+          6300,
+          6600,
+          6900,
+          7200,
+          7500,
+          7800,
+          8100,
+          8400,
+          8700,
+          9000,
+          9300,
+          9600,
+          9900,
+          9989
+        ],
+        "sections": [
+          {
+            "name": "cs-header",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 643.6875
+          },
+          {
+            "name": "enrollment-problem",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 618.59375
+          },
+          {
+            "name": "enrollment-role",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 461.84375
+          },
+          {
+            "name": "enrollment-discovery",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 1006.25
+          },
+          {
+            "name": "enrollment-decisions",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 4177.765625
+          },
+          {
+            "name": "enrollment-shipped",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 1620.296875
+          },
+          {
+            "name": "enrollment-outcome",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 629.15625
+          },
+          {
+            "name": "cs-next",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 252.296875
+          },
+          {
+            "name": "contact-heading",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 829.5
+          }
+        ]
+      },
+      "allImages": [
+        {
+          "src": "../assets/images/enrollment/Desk%20Research.png",
+          "natural": [
+            1672,
+            661
+          ],
+          "rendered": [
+            1280,
+            506
+          ],
+          "alt": "Discovery synthesis board: CSD matrix at upper left, two brainstorming areas across the top, user/customer journey at lower left, and empathy map at lower right. Lower content is cut off in the source."
+        },
+        {
+          "src": "../assets/images/enrollment/parentesco.png",
+          "natural": [
+            1920,
+            1200
+          ],
+          "rendered": [
+            1280,
+            800
+          ],
+          "alt": "Eligibility screen with a seven-step sidebar, relationship guidance, and two closed categories for relatives of Banco do Brasil or CASSI employees."
+        },
+        {
+          "src": "../assets/images/enrollment/dados-parente.png",
+          "natural": [
+            1920,
+            1200
+          ],
+          "rendered": [
+            1280,
+            800
+          ],
+          "alt": "Applicant personal-details form with identity fields, document-copy guidance, and only the beginning of the attachment area visible at the lower edge."
+        },
+        {
+          "src": "../assets/images/enrollment/portabilidade-2.png",
+          "natural": [
+            1920,
+            1200
+          ],
+          "rendered": [
+            1280,
+            800
+          ],
+          "alt": "Portability stage with an explanation of waiting-period portability, request guidance, and closed normal and special portability categories beside the journey sidebar."
+        },
+        {
+          "src": "../assets/images/enrollment/new-enrollment-journey-simulator.jpg",
+          "natural": [
+            1440,
+            1485
+          ],
+          "rendered": [
+            1280,
+            1320
+          ],
+          "alt": "New enrollment journey simulator"
+        },
+        {
+          "src": "../assets/images/enrollment/old-enrollment-journey-simulator.jpg",
+          "natural": [
+            1440,
+            1485
+          ],
+          "rendered": [
+            1280,
+            1320
+          ],
+          "alt": "Old enrollment journey simulator"
+        }
+      ],
+      "boardImage": {
+        "natural": [
+          1672,
+          661
+        ],
+        "intrinsic": [
+          "1672",
+          "661"
+        ],
+        "rendered": [
+          1280,
+          506.015625
+        ],
+        "alt": "Discovery synthesis board: CSD matrix at upper left, two brainstorming areas across the top, user/customer journey at lower left, and empathy map at lower right. Lower content is cut off in the source.",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      "textFits": true,
+      "contrast": [
+        {
+          "text": "Organizing discovery.",
+          "cssColor": "rgb(242, 242, 245)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "compositedForeground": [
+            242,
+            242,
+            245
+          ],
+          "ratio": 17.080623207219997,
+          "fontSize": "48px",
+          "lineHeight": "52.8px"
+        },
+        {
+          "text": "The board brings together a CSD matrix, brainstorming areas, a user/customer journey, and an empathy map. It offers an overview of how discovery material was organized, without requiring each small note to be read.",
+          "cssColor": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "compositedForeground": [
+            161.85000000000002,
+            162.55,
+            168.35
+          ],
+          "ratio": 7.550402230717408,
+          "fontSize": "16px",
+          "lineHeight": "27.2px"
+        },
+        {
+          "text": "The supplied “Desk Research” label does not establish the research sources or methods used. The board shows synthesis artifacts, not a verified record of individual findings or a link from specific notes to the decisions below. Material cut off at the source’s lower edge remains outside this view.",
+          "cssColor": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "compositedForeground": [
+            161.85000000000002,
+            162.55,
+            168.35
+          ],
+          "ratio": 7.550402230717408,
+          "fontSize": "16px",
+          "lineHeight": "27.2px"
+        }
+      ],
+      "statContentFits": true,
+      "headingLevels": [
+        {
+          "level": "H1",
+          "text": "Enrollment Journey"
+        },
+        {
+          "level": "H2",
+          "text": "A fragmented journey, dependent on support."
+        },
+        {
+          "level": "H2",
+          "text": "From discovery to the redesigned journey."
+        },
+        {
+          "level": "H2",
+          "text": "Organizing discovery."
+        },
+        {
+          "level": "H2",
+          "text": "Helping users progress with less support."
+        },
+        {
+          "level": "H3",
+          "text": "Remove mandatory pre-registration"
+        },
+        {
+          "level": "H3",
+          "text": "Reorganize steps around the user's mental model"
+        },
+        {
+          "level": "H3",
+          "text": "Structured status visibility throughout"
+        },
+        {
+          "level": "H2",
+          "text": "The plan simulator, before and after."
+        },
+        {
+          "level": "H2",
+          "text": "Proposal volume grew 171% year over year."
+        },
+        {
+          "level": "H2",
+          "text": "Let's work together."
+        }
+      ],
+      "screenshots": [
+        "board-1440-no-preference.png",
+        "page-1440-no-preference.png"
+      ],
+      "comparison": {
+        "name": "Comparison slider",
+        "keyboard": [
+          "Tab",
+          "Home",
+          "ArrowRight",
+          "End",
+          "ArrowLeft",
+          "Tab"
+        ],
+        "pointerValue": 25,
+        "emulatedTouchValue": 75,
+        "focusLimitation": "Preserved baseline range is transparent; visible focus/name improvements belong to ticket 03."
+      },
+      "status": "passed"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "motion": "reduce",
+      "protectedMatchesBaseline": {
+        "header": true,
+        ".cs-header": true,
+        ".cs-hero-image": true,
+        "section[aria-labelledby=\"enrollment-problem\"]": true,
+        "section[aria-labelledby=\"enrollment-role\"]": true,
+        "section[aria-labelledby=\"enrollment-outcome\"]": true,
+        ".cs-next": true,
+        "#contact": true,
+        "analytics-and-scripts": true
+      },
+      "protectedSha256": {
+        "header": "7754d42847dd0f846b0c667160744e937796bb7d45de69b171fcb503b68ff548",
+        ".cs-header": "c14d30b2d63b3ed5680d655d06b7b86067191105784c805aa344fdc4130b5f2f",
+        ".cs-hero-image": "7a8e9c8d5c10463e9884e026863580366c1e1178f48d659325b440ebfd5b9884",
+        "section[aria-labelledby=\"enrollment-problem\"]": "cc7e173002f03336be61a75fd682ec4a37f615bd4b04e452f1ec0287472c25f3",
+        "section[aria-labelledby=\"enrollment-role\"]": "4f779520843f67562408e1fd3976c73cad1892a8318e7ce960bb239ebe22b8ad",
+        "section[aria-labelledby=\"enrollment-outcome\"]": "c3f7686e306afce135dab5091404bb60514da0fe5d3015a699114cf3e0848b71",
+        ".cs-next": "2bac791ee591dd5672d4eac8e333dd691eb635f136daad103ae2f9af8bb40902",
+        "#contact": "382bd8d6e80590c25ced5f88e9f9e49f033fe55d74f9e41277c20b347d64a7c6",
+        "analytics-and-scripts": "9750c9962a34f8e9e7ebc745215c7991c53c033f8224f1ffc4ddcd2c991a0050"
+      },
+      "reducedMotionImmediatelyVisible": true,
+      "wheelTraversal": {
+        "input": "mouse.wheel(0, 300)",
+        "scrollY": [
+          0,
+          300,
+          600,
+          900,
+          1200,
+          1500,
+          1800,
+          2100,
+          2400,
+          2700,
+          3000,
+          3300,
+          3600,
+          3900,
+          4200,
+          4500,
+          4800,
+          5100,
+          5400,
+          5700,
+          6000,
+          6300,
+          6600,
+          6900,
+          7200,
+          7500,
+          7800,
+          8100,
+          8400,
+          8700,
+          9000,
+          9300,
+          9600,
+          9900,
+          9989
+        ],
+        "sections": [
+          {
+            "name": "cs-header",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 643.6875
+          },
+          {
+            "name": "enrollment-problem",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 618.59375
+          },
+          {
+            "name": "enrollment-role",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 461.84375
+          },
+          {
+            "name": "enrollment-discovery",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 1006.25
+          },
+          {
+            "name": "enrollment-decisions",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 4177.765625
+          },
+          {
+            "name": "enrollment-shipped",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 1620.296875
+          },
+          {
+            "name": "enrollment-outcome",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 629.15625
+          },
+          {
+            "name": "cs-next",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 252.296875
+          },
+          {
+            "name": "contact-heading",
+            "opacity": "1",
+            "visibility": "visible",
+            "height": 829.5
+          }
+        ]
+      },
+      "allImages": [
+        {
+          "src": "../assets/images/enrollment/Desk%20Research.png",
+          "natural": [
+            1672,
+            661
+          ],
+          "rendered": [
+            1280,
+            506
+          ],
+          "alt": "Discovery synthesis board: CSD matrix at upper left, two brainstorming areas across the top, user/customer journey at lower left, and empathy map at lower right. Lower content is cut off in the source."
+        },
+        {
+          "src": "../assets/images/enrollment/parentesco.png",
+          "natural": [
+            1920,
+            1200
+          ],
+          "rendered": [
+            1280,
+            800
+          ],
+          "alt": "Eligibility screen with a seven-step sidebar, relationship guidance, and two closed categories for relatives of Banco do Brasil or CASSI employees."
+        },
+        {
+          "src": "../assets/images/enrollment/dados-parente.png",
+          "natural": [
+            1920,
+            1200
+          ],
+          "rendered": [
+            1280,
+            800
+          ],
+          "alt": "Applicant personal-details form with identity fields, document-copy guidance, and only the beginning of the attachment area visible at the lower edge."
+        },
+        {
+          "src": "../assets/images/enrollment/portabilidade-2.png",
+          "natural": [
+            1920,
+            1200
+          ],
+          "rendered": [
+            1280,
+            800
+          ],
+          "alt": "Portability stage with an explanation of waiting-period portability, request guidance, and closed normal and special portability categories beside the journey sidebar."
+        },
+        {
+          "src": "../assets/images/enrollment/new-enrollment-journey-simulator.jpg",
+          "natural": [
+            1440,
+            1485
+          ],
+          "rendered": [
+            1280,
+            1320
+          ],
+          "alt": "New enrollment journey simulator"
+        },
+        {
+          "src": "../assets/images/enrollment/old-enrollment-journey-simulator.jpg",
+          "natural": [
+            1440,
+            1485
+          ],
+          "rendered": [
+            1280,
+            1320
+          ],
+          "alt": "Old enrollment journey simulator"
+        }
+      ],
+      "boardImage": {
+        "natural": [
+          1672,
+          661
+        ],
+        "intrinsic": [
+          "1672",
+          "661"
+        ],
+        "rendered": [
+          1280,
+          506.015625
+        ],
+        "alt": "Discovery synthesis board: CSD matrix at upper left, two brainstorming areas across the top, user/customer journey at lower left, and empathy map at lower right. Lower content is cut off in the source.",
+        "loading": "lazy",
+        "decoding": "async"
+      },
+      "textFits": true,
+      "contrast": [
+        {
+          "text": "Organizing discovery.",
+          "cssColor": "rgb(242, 242, 245)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "compositedForeground": [
+            242,
+            242,
+            245
+          ],
+          "ratio": 17.080623207219997,
+          "fontSize": "48px",
+          "lineHeight": "52.8px"
+        },
+        {
+          "text": "The board brings together a CSD matrix, brainstorming areas, a user/customer journey, and an empathy map. It offers an overview of how discovery material was organized, without requiring each small note to be read.",
+          "cssColor": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "compositedForeground": [
+            161.85000000000002,
+            162.55,
+            168.35
+          ],
+          "ratio": 7.550402230717408,
+          "fontSize": "16px",
+          "lineHeight": "27.2px"
+        },
+        {
+          "text": "The supplied “Desk Research” label does not establish the research sources or methods used. The board shows synthesis artifacts, not a verified record of individual findings or a link from specific notes to the decisions below. Material cut off at the source’s lower edge remains outside this view.",
+          "cssColor": "rgba(242, 242, 245, 0.65)",
+          "background": [
+            13,
+            15,
+            26
+          ],
+          "compositedForeground": [
+            161.85000000000002,
+            162.55,
+            168.35
+          ],
+          "ratio": 7.550402230717408,
+          "fontSize": "16px",
+          "lineHeight": "27.2px"
+        }
+      ],
+      "statContentFits": true,
+      "headingLevels": [
+        {
+          "level": "H1",
+          "text": "Enrollment Journey"
+        },
+        {
+          "level": "H2",
+          "text": "A fragmented journey, dependent on support."
+        },
+        {
+          "level": "H2",
+          "text": "From discovery to the redesigned journey."
+        },
+        {
+          "level": "H2",
+          "text": "Organizing discovery."
+        },
+        {
+          "level": "H2",
+          "text": "Helping users progress with less support."
+        },
+        {
+          "level": "H3",
+          "text": "Remove mandatory pre-registration"
+        },
+        {
+          "level": "H3",
+          "text": "Reorganize steps around the user's mental model"
+        },
+        {
+          "level": "H3",
+          "text": "Structured status visibility throughout"
+        },
+        {
+          "level": "H2",
+          "text": "The plan simulator, before and after."
+        },
+        {
+          "level": "H2",
+          "text": "Proposal volume grew 171% year over year."
+        },
+        {
+          "level": "H2",
+          "text": "Let's work together."
+        }
+      ],
+      "screenshots": [
+        "board-1440-reduce.png",
+        "page-1440-reduce.png"
+      ],
+      "comparison": {
+        "name": "Comparison slider",
+        "keyboard": [
+          "Tab",
+          "Home",
+          "ArrowRight",
+          "End",
+          "ArrowLeft",
+          "Tab"
+        ],
+        "pointerValue": 25,
+        "emulatedTouchValue": 75,
+        "focusLimitation": "Preserved baseline range is transparent; visible focus/name improvements belong to ticket 03."
+      },
+      "status": "passed"
+    }
+  ],
+  "pageErrors": [],
+  "failedRequests": [],
+  "consoleWarningsAndErrors": [],
+  "formSubmissions": [],
+  "localFailedRequests": [],
+  "summary": {
+    "passed": 8,
+    "failed": 0
+  }
+}
