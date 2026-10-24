@@ -24,6 +24,8 @@ Supporting text: on iOS and Android
 
 ## Case header
 
+Category: Product Leadership
+
 Title: CASSI Convênios
 
 Hook: I led product and design for a new app serving members of CASSI's partner health plans.
