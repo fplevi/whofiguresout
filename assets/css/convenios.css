@@ -1,4 +1,4 @@
-/* App case: shared portfolio typography and spacing, fewer visual labels. */
+/* App case: shared portfolio typography and spacing. */
 .cs-app {
   --text-secondary: var(--text-secondary-strong);
   --text-muted: var(--text-secondary-strong);
