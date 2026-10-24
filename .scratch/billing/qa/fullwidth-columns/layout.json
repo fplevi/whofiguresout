@@ -1,0 +1,650 @@
+{
+ "1920": [
+  {
+   "title": "Verified access without account creation",
+   "row": [
+    80,
+    1840
+   ],
+   "content": [
+    80,
+    1840
+   ],
+   "copy": [
+    992,
+    848
+   ],
+   "media": [
+    80,
+    848
+   ],
+   "frame": 545
+  },
+  {
+   "title": "Self-service negotiation as the default",
+   "row": [
+    80,
+    1840
+   ],
+   "content": [
+    80,
+    1840
+   ],
+   "copy": [
+    80,
+    848
+   ],
+   "media": [
+    992,
+    848
+   ],
+   "frame": 848
+  },
+  {
+   "title": "Reactivation offer",
+   "row": [
+    80,
+    1840
+   ],
+   "content": [
+    80,
+    1840
+   ],
+   "copy": [
+    992,
+    848
+   ],
+   "media": [
+    80,
+    848
+   ],
+   "frame": 848
+  },
+  {
+   "title": "Single payment",
+   "row": [
+    80,
+    1840
+   ],
+   "content": [
+    80,
+    1840
+   ],
+   "copy": [
+    80,
+    848
+   ],
+   "media": [
+    992,
+    848
+   ],
+   "frame": 848
+  },
+  {
+   "title": "Installments",
+   "row": [
+    80,
+    1840
+   ],
+   "content": [
+    80,
+    1840
+   ],
+   "copy": [
+    992,
+    848
+   ],
+   "media": [
+    80,
+    848
+   ],
+   "frame": 848
+  },
+  {
+   "title": "Review and validation",
+   "row": [
+    80,
+    1840
+   ],
+   "content": [
+    80,
+    1840
+   ],
+   "copy": [
+    80,
+    848
+   ],
+   "media": [
+    992,
+    848
+   ],
+   "frame": 848
+  },
+  {
+   "title": "Payment documents",
+   "row": [
+    80,
+    1840
+   ],
+   "content": [
+    80,
+    1840
+   ],
+   "copy": [
+    992,
+    848
+   ],
+   "media": [
+    80,
+    848
+   ],
+   "frame": 848
+  },
+  {
+   "title": "Operations dashboard",
+   "row": [
+    80,
+    1840
+   ],
+   "content": [
+    80,
+    1840
+   ],
+   "copy": [
+    80,
+    848
+   ],
+   "media": [
+    992,
+    848
+   ],
+   "frame": 848
+  }
+ ],
+ "1440": [
+  {
+   "title": "Verified access without account creation",
+   "row": [
+    80,
+    1360
+   ],
+   "content": [
+    80,
+    1360
+   ],
+   "copy": [
+    752,
+    608
+   ],
+   "media": [
+    80,
+    608
+   ],
+   "frame": 545
+  },
+  {
+   "title": "Self-service negotiation as the default",
+   "row": [
+    80,
+    1360
+   ],
+   "content": [
+    80,
+    1360
+   ],
+   "copy": [
+    80,
+    608
+   ],
+   "media": [
+    752,
+    608
+   ],
+   "frame": 608
+  },
+  {
+   "title": "Reactivation offer",
+   "row": [
+    80,
+    1360
+   ],
+   "content": [
+    80,
+    1360
+   ],
+   "copy": [
+    752,
+    608
+   ],
+   "media": [
+    80,
+    608
+   ],
+   "frame": 608
+  },
+  {
+   "title": "Single payment",
+   "row": [
+    80,
+    1360
+   ],
+   "content": [
+    80,
+    1360
+   ],
+   "copy": [
+    80,
+    608
+   ],
+   "media": [
+    752,
+    608
+   ],
+   "frame": 608
+  },
+  {
+   "title": "Installments",
+   "row": [
+    80,
+    1360
+   ],
+   "content": [
+    80,
+    1360
+   ],
+   "copy": [
+    752,
+    608
+   ],
+   "media": [
+    80,
+    608
+   ],
+   "frame": 608
+  },
+  {
+   "title": "Review and validation",
+   "row": [
+    80,
+    1360
+   ],
+   "content": [
+    80,
+    1360
+   ],
+   "copy": [
+    80,
+    608
+   ],
+   "media": [
+    752,
+    608
+   ],
+   "frame": 608
+  },
+  {
+   "title": "Payment documents",
+   "row": [
+    80,
+    1360
+   ],
+   "content": [
+    80,
+    1360
+   ],
+   "copy": [
+    752,
+    608
+   ],
+   "media": [
+    80,
+    608
+   ],
+   "frame": 608
+  },
+  {
+   "title": "Operations dashboard",
+   "row": [
+    80,
+    1360
+   ],
+   "content": [
+    80,
+    1360
+   ],
+   "copy": [
+    80,
+    608
+   ],
+   "media": [
+    752,
+    608
+   ],
+   "frame": 608
+  }
+ ],
+ "1024": [
+  {
+   "title": "Verified access without account creation",
+   "row": [
+    24,
+    1000
+   ],
+   "content": [
+    24,
+    1000
+   ],
+   "copy": [
+    24,
+    976
+   ],
+   "media": [
+    24,
+    976
+   ],
+   "frame": 545
+  },
+  {
+   "title": "Self-service negotiation as the default",
+   "row": [
+    24,
+    1000
+   ],
+   "content": [
+    24,
+    1000
+   ],
+   "copy": [
+    24,
+    976
+   ],
+   "media": [
+    24,
+    976
+   ],
+   "frame": 976
+  },
+  {
+   "title": "Reactivation offer",
+   "row": [
+    24,
+    1000
+   ],
+   "content": [
+    24,
+    1000
+   ],
+   "copy": [
+    24,
+    976
+   ],
+   "media": [
+    24,
+    976
+   ],
+   "frame": 976
+  },
+  {
+   "title": "Single payment",
+   "row": [
+    24,
+    1000
+   ],
+   "content": [
+    24,
+    1000
+   ],
+   "copy": [
+    24,
+    976
+   ],
+   "media": [
+    24,
+    976
+   ],
+   "frame": 976
+  },
+  {
+   "title": "Installments",
+   "row": [
+    24,
+    1000
+   ],
+   "content": [
+    24,
+    1000
+   ],
+   "copy": [
+    24,
+    976
+   ],
+   "media": [
+    24,
+    976
+   ],
+   "frame": 976
+  },
+  {
+   "title": "Review and validation",
+   "row": [
+    24,
+    1000
+   ],
+   "content": [
+    24,
+    1000
+   ],
+   "copy": [
+    24,
+    976
+   ],
+   "media": [
+    24,
+    976
+   ],
+   "frame": 976
+  },
+  {
+   "title": "Payment documents",
+   "row": [
+    24,
+    1000
+   ],
+   "content": [
+    24,
+    1000
+   ],
+   "copy": [
+    24,
+    976
+   ],
+   "media": [
+    24,
+    976
+   ],
+   "frame": 976
+  },
+  {
+   "title": "Operations dashboard",
+   "row": [
+    24,
+    1000
+   ],
+   "content": [
+    24,
+    1000
+   ],
+   "copy": [
+    24,
+    976
+   ],
+   "media": [
+    24,
+    976
+   ],
+   "frame": 976
+  }
+ ],
+ "375": [
+  {
+   "title": "Verified access without account creation",
+   "row": [
+    24,
+    351
+   ],
+   "content": [
+    24,
+    351
+   ],
+   "copy": [
+    24,
+    327
+   ],
+   "media": [
+    24,
+    327
+   ],
+   "frame": 327
+  },
+  {
+   "title": "Self-service negotiation as the default",
+   "row": [
+    24,
+    351
+   ],
+   "content": [
+    24,
+    351
+   ],
+   "copy": [
+    24,
+    327
+   ],
+   "media": [
+    24,
+    327
+   ],
+   "frame": 327
+  },
+  {
+   "title": "Reactivation offer",
+   "row": [
+    24,
+    351
+   ],
+   "content": [
+    24,
+    351
+   ],
+   "copy": [
+    24,
+    327
+   ],
+   "media": [
+    24,
+    327
+   ],
+   "frame": 327
+  },
+  {
+   "title": "Single payment",
+   "row": [
+    24,
+    351
+   ],
+   "content": [
+    24,
+    351
+   ],
+   "copy": [
+    24,
+    327
+   ],
+   "media": [
+    24,
+    327
+   ],
+   "frame": 327
+  },
+  {
+   "title": "Installments",
+   "row": [
+    24,
+    351
+   ],
+   "content": [
+    24,
+    351
+   ],
+   "copy": [
+    24,
+    327
+   ],
+   "media": [
+    24,
+    327
+   ],
+   "frame": 327
+  },
+  {
+   "title": "Review and validation",
+   "row": [
+    24,
+    351
+   ],
+   "content": [
+    24,
+    351
+   ],
+   "copy": [
+    24,
+    327
+   ],
+   "media": [
+    24,
+    327
+   ],
+   "frame": 327
+  },
+  {
+   "title": "Payment documents",
+   "row": [
+    24,
+    351
+   ],
+   "content": [
+    24,
+    351
+   ],
+   "copy": [
+    24,
+    327
+   ],
+   "media": [
+    24,
+    327
+   ],
+   "frame": 327
+  },
+  {
+   "title": "Operations dashboard",
+   "row": [
+    24,
+    351
+   ],
+   "content": [
+    24,
+    351
+   ],
+   "copy": [
+    24,
+    327
+   ],
+   "media": [
+    24,
+    327
+   ],
+   "frame": 327
+  }
+ ]
+}

@@ -128,7 +128,7 @@
 }
 
 /* Screen rows: one screenshot per row, alternating sides on desktop, copy first in the DOM.
-   Screens take two thirds of the row so dense UI stays readable beside the copy. */
+   Desktop splits the full section width into two equal columns that copy and screens fill. */
 .billing-shipped__intro {
   color: var(--text-secondary-strong);
 }
@@ -137,17 +137,16 @@
   margin-top: var(--space-48);
 }
 
-.billing-row {
+.billing-row,
+.billing-decisions .billing-row {
   display: grid;
-  grid-template-columns: minmax(0, 4fr) minmax(0, 8fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   grid-template-areas: "copy media";
   gap: var(--space-64);
   align-items: center;
 }
 
 .billing-decisions .billing-row {
-  grid-template-columns: minmax(0, 4fr) minmax(0, 8fr);
-  gap: var(--space-64);
   padding-block: var(--space-48);
 }
 
@@ -160,31 +159,18 @@
   grid-area: copy;
 }
 
+.billing-decisions .billing-row .cs-decision__left,
+.billing-row .cs-decision__body {
+  max-width: none;
+}
+
 .billing-row .billing-shot {
   grid-area: media;
 }
 
 .billing-row--media-left,
 .billing-decisions .billing-row--media-left {
-  grid-template-columns: minmax(0, 8fr) minmax(0, 4fr);
   grid-template-areas: "media copy";
-}
-
-/* The verification crop is portrait; it takes the narrower column. */
-.billing-decisions .billing-row--media-left:has(.billing-shot--narrow) {
-  grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
-}
-
-.billing-row--wide {
-  grid-template-columns: minmax(0, 1fr);
-  grid-template-areas:
-    "copy"
-    "media";
-  gap: var(--space-32);
-}
-
-.billing-row--wide .billing-row__copy {
-  max-width: 840px;
 }
 
 .billing-row__copy {
@@ -235,8 +221,9 @@
   border-radius: var(--radius-md);
 }
 
+/* The portrait verification crop fills its column up to its native width. */
 .billing-shot--narrow .billing-shot__frame {
-  max-width: 420px;
+  max-width: 545px;
 }
 
 .billing-shot__img {
@@ -249,8 +236,7 @@
   .billing-row,
   .billing-row--media-left,
   .billing-decisions .billing-row,
-  .billing-decisions .billing-row--media-left,
-  .billing-decisions .billing-row--media-left:has(.billing-shot--narrow) {
+  .billing-decisions .billing-row--media-left {
     grid-template-columns: minmax(0, 1fr);
     grid-template-areas:
       "copy"
