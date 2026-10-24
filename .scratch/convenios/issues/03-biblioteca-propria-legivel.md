@@ -4,22 +4,28 @@
 
 **Blocked by:** None (can start immediately).
 
-**Status:** claimed
+**Status:** resolved
 
-- [ ] A biblioteca permanece como última evidência de funcionalidades. Um recorte legível da documentação de botões mostra estados e áreas de toque com contexto suficiente para entender o exemplo, sem depender de miniatura integral ilegível ou de conteúdo fora das bordas da fonte.
-- [ ] A documentação recebe largura adequada no corpo da página. Restrições de apresentação que a comprimem são ajustadas no escopo do case; alternância lateral só é usada onde favorecer leitura, sem transformar o case em uma réplica do Billing e sem reduzir fontes.
-- [ ] A explicação inglesa própria antecede a imagem no DOM e no mobile, com contraste legível. A imagem tem alternativa textual específica, proporção e dimensões intrínsecas corretas e carregamento apropriado para o corpo.
-- [ ] O link que abre a imagem crua é removido. A leitura completa da evidência e de sua explicação permanece no corpo, sem modal, galeria, acordeão ou interação para esconder conteúdo e sem etiquetas extras.
-- [ ] A copy identifica Convênios como produto anterior ao Harmony, com biblioteca e linguagem visual próprias. Não afirma construção sobre Harmony, migração para ele ou reaproveitamento posterior de componentes. Documentar estados e áreas de toque não é apresentado como certificação de acessibilidade.
-- [ ] O fechamento se limita ao aplicativo entregue e à biblioteca documentada como base do próprio produto. A alegação de redução de retrabalho é retirada ou qualificada para não representar impacto demonstrado; não há novas métricas, ganhos de eficiência ou ambiguidade de fundação compartilhada com Harmony.
-- [ ] Originais são preservados. Derivados mantêm proporção, contexto e transparência quando presente, em formato apropriado, sem impor JPEG. O manifesto registra fonte, limites do recorte, dimensões, formato e motivo editorial, preservando entradas de outros tickets; pares equivalentes não viram evidências adicionais.
-- [ ] A página renderizada é verificada em 320, 375, 768 e 1440 px com movimento normal e reduzido, reaproveitando o QA existente. Capturas com imagens efetivamente carregadas são inspecionadas para confirmar leitura dos estados e áreas de toque, ordem, contraste e ausência de sobreposição ou overflow horizontal. Carregar a imagem ou aplicar um token de cor não basta para aprovar a legibilidade.
-- [ ] Rolagem real desde o topo nas quatro larguras com movimento normal confirma a aparição de todas as seções, inclusive a mais alta no mobile. Com movimento reduzido, o conteúdo está imediatamente disponível. Saltos para elementos ou cálculos do limiar de animação não substituem essa verificação.
-- [ ] São conferidos o percurso pela home até o case, retorno a Work, navegação adjacente, destinos das lojas e teclado/foco nos links relevantes após a remoção do link cru. Hero, home card, cartão, demais linhas no estado encontrado, contato, metadados e analytics permanecem preservados; o formulário não é enviado.
-- [ ] Estilos ficam no escopo de Convênios. Uma eventual alteração compartilhada exige necessidade demonstrada e validação de todas as páginas afetadas. Alterações simultâneas e os demais documentos existentes são preservados; este ticket pode ser demonstrado sem aguardar os outros dois.
-- [ ] Resultados reais, capturas, ambiente e limitações ficam registrados separadamente dos critérios. Auditorias automáticas e inspeção manual são distinguidas; não se declara validação com leitor de tela, de produção ou desta revisão sem execução correspondente.
+- [x] A biblioteca permanece como última evidência de funcionalidades. Um recorte legível da documentação de botões mostra estados e áreas de toque com contexto suficiente para entender o exemplo, sem depender de miniatura integral ilegível ou de conteúdo fora das bordas da fonte.
+- [x] A documentação recebe largura adequada no corpo da página. Restrições de apresentação que a comprimem são ajustadas no escopo do case; alternância lateral só é usada onde favorecer leitura, sem transformar o case em uma réplica do Billing e sem reduzir fontes.
+- [x] A explicação inglesa própria antecede a imagem no DOM e no mobile, com contraste legível. A imagem tem alternativa textual específica, proporção e dimensões intrínsecas corretas e carregamento apropriado para o corpo.
+- [x] O link que abre a imagem crua é removido. A leitura completa da evidência e de sua explicação permanece no corpo, sem modal, galeria, acordeão ou interação para esconder conteúdo e sem etiquetas extras.
+- [x] A copy identifica Convênios como produto anterior ao Harmony, com biblioteca e linguagem visual próprias. Não afirma construção sobre Harmony, migração para ele ou reaproveitamento posterior de componentes. Documentar estados e áreas de toque não é apresentado como certificação de acessibilidade.
+- [x] O fechamento se limita ao aplicativo entregue e à biblioteca documentada como base do próprio produto. A alegação de redução de retrabalho é retirada ou qualificada para não representar impacto demonstrado; não há novas métricas, ganhos de eficiência ou ambiguidade de fundação compartilhada com Harmony.
+- [x] Originais são preservados. Derivados mantêm proporção, contexto e transparência quando presente, em formato apropriado, sem impor JPEG. O manifesto registra fonte, limites do recorte, dimensões, formato e motivo editorial, preservando entradas de outros tickets; pares equivalentes não viram evidências adicionais.
+- [x] A página renderizada é verificada em 320, 375, 768 e 1440 px com movimento normal e reduzido, reaproveitando o QA existente. Capturas com imagens efetivamente carregadas são inspecionadas para confirmar leitura dos estados e áreas de toque, ordem, contraste e ausência de sobreposição ou overflow horizontal. Carregar a imagem ou aplicar um token de cor não basta para aprovar a legibilidade.
+- [x] Rolagem real desde o topo nas quatro larguras com movimento normal confirma a aparição de todas as seções, inclusive a mais alta no mobile. Com movimento reduzido, o conteúdo está imediatamente disponível. Saltos para elementos ou cálculos do limiar de animação não substituem essa verificação.
+- [x] São conferidos o percurso pela home até o case, retorno a Work, navegação adjacente, destinos das lojas e teclado/foco nos links relevantes após a remoção do link cru. Hero, home card, cartão, demais linhas no estado encontrado, contato, metadados e analytics permanecem preservados; o formulário não é enviado.
+- [x] Estilos ficam no escopo de Convênios. Uma eventual alteração compartilhada exige necessidade demonstrada e validação de todas as páginas afetadas. Alterações simultâneas e os demais documentos existentes são preservados; este ticket pode ser demonstrado sem aguardar os outros dois.
+- [x] Resultados reais, capturas, ambiente e limitações ficam registrados separadamente dos critérios. Auditorias automáticas e inspeção manual são distinguidas; não se declara validação com leitor de tela, de produção ou desta revisão sem execução correspondente.
 
 ## Comments
 
 - 2026-10-24: Implementação no worktree isolado `C:/Users/fplev/.t3/worktrees/Portfolio/t3-988d206e`, branch `t3/library-row-mobile-legibility`. Biblioteca e fechamento apenas; originais e demais linhas preservados. RED/GREEN, matriz do navegador, evidência de rolagem e limites em [03-validation.md](../03-validation.md); manifesto próprio em [03-button-documentation.json](../assets/03-button-documentation.json). Manter **claimed** até a revisão final da integração, conforme instrução do coordenador.
 
+
+## Answer
+
+Biblioteca pr?pria mantida como ?ltima evid?ncia, com recorte cont?guo de estados e ?rea de toque leg?vel no corpo, sem link cru. Rela??o anterior ao Harmony e fechamento de entrega documentada corrigidos, sem ganho de efici?ncia alegado.
+
+Resolvido em `integration/convenios-visual-narrative`, integra??o de produ??o `2dc5594`. Valida??o conjunta: 104/104; suporte/conte?do/axe/assets: 40/40; corre??o final de revis?o: 45/45. Padr?es: um P3 corrigido; Spec: nenhum achado. [Resultados e limites](../final-validation.md), [corre??o validada](../review-fix-validation.md), [manifesto](../asset-manifest.md), [revis?o](../code-review.md).

@@ -4,7 +4,7 @@
 
 **Blocked by:** None (can start immediately).
 
-**Status:** claimed
+**Status:** resolved
 
 - [x] A rede possui título e explicação próprios, uma imagem na linha e posição depois do cartão e antes de contas. As linhas existentes que funcionam são preservadas, sem reconstruir a arquitetura do case para imitar Billing.
 - [x] A copy descreve a função como disponível, conforme confirmação já registrada do autor, sem repetir o status pendente histórico nem afirmar que participou do lançamento inicial. Descreve resultados no mapa e alternativa de lista, sem alegar geolocalização automática, ordenação por distância ou verificação do serviço em produção.
@@ -22,3 +22,9 @@
 ## Comments
 
 - 2026-10-24: implementação do ticket 01 concluída no worktree isolado. RED 44/16 e GREEN 109/0 na seam de página renderizada; matriz completa, roda normal e preservação de navegação/foco. Evidências e limites em [01-validation.md](../01-validation.md); asset em [01-network.json](../assets/01-network.json). Status mantido claimed para revisão final da integração.
+
+## Answer
+
+Rede credenciada inclu?da depois do cart?o e antes de contas, com mapa/lista descritos de forma factual, recorte transparente rastre?vel e apresenta??o mobile first. Hero/cart?o preservados; biometria retirada como alega??o n?o demonstrada pela imagem.
+
+Resolvido em `integration/convenios-visual-narrative`, integra??o de produ??o `2dc5594`. Valida??o conjunta: 104/104; suporte/conte?do/axe/assets: 40/40; corre??o final de revis?o: 45/45. Padr?es: um P3 corrigido; Spec: nenhum achado. [Resultados e limites](../final-validation.md), [corre??o validada](../review-fix-validation.md), [manifesto](../asset-manifest.md), [revis?o](../code-review.md).

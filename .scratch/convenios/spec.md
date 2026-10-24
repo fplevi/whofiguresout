@@ -1,6 +1,6 @@
 # CASSI Convênios — revisão pontual da narrativa visual
 
-Status: ready-for-agent
+Status: resolved
 Data: 2026-10-24
 Checkpoint de testes: proposta de uma única interface de teste na página renderizada, confirmada pelo usuário nesta conversa com “yes”. A divisão em tickets depende de seu próprio checkpoint antes da publicação.
 
@@ -99,3 +99,5 @@ Cada evidência terá explicação própria antes da imagem na ordem de leitura.
 ## Comments
 
 - 2026-10-24: após a confirmação da interface de teste, o usuário aprovou com “Sim” a divisão em três tickets: rede credenciada junto dos serviços; alternância de contas sem logout; biblioteca própria legível e fechamento. Todos sem bloqueadores, pois cada entrega é demonstrável independentemente, incluindo sua própria validação. Tickets publicados com status ready-for-agent. A aprovação trata da especificação e da divisão; não foram executados tickets, implementação, recortes ou testes de navegador nesta conversa.
+
+- 2026-10-24: Implementa??o conclu?da na branch `integration/convenios-visual-narrative`; tickets 01, 02 e 03 resolvidos ap?s integra??o e revis?o. Matriz conjunta 104/104, suporte/axe/assets 40/40, corre??o de padr?es 45/45. [Valida??o final](final-validation.md), [revis?o](code-review.md), [manifesto](asset-manifest.md). Sem PR ou deploy; checkout principal e trabalhos simult?neos preservados.

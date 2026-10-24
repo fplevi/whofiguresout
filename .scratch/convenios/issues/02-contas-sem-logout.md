@@ -4,7 +4,7 @@
 
 **Blocked by:** None (can start immediately).
 
-**Status:** claimed
+**Status:** resolved
 
 - [x] A linha existente de contas é preservada e sua copy inglesa explicita a alternância sem logout, sustentada pela confirmação anterior do autor e pelo material Behance registrado. Não é necessário reproduzir essa interação no site.
 - [x] Notificações, autorizações e extratos deixam de ser atribuídos à imagem de contas. A revisão não amplia alegações sobre a entrega dessas funções nem acrescenta material de processo para preencher a lacuna.
@@ -21,3 +21,9 @@
 
 - 2026-10-24: Implemented in isolated branch `t3/accounts-no-logout`; status remains claimed for integration final review. Accounts-only copy/alt and presentation, unchanged source asset. Browser matrix: 85 passed / 0 failed, including ordinary wheel traversal in normal motion at 320/375/768/1440 and immediate reduced-motion visibility. Actual RED/GREEN, loaded captures and limitations: [02-validation.md](../02-validation.md). Ticket-specific asset record: [02-accounts.json](../assets/02-accounts.json). No shared script changes or production-app validation.
 
+
+## Answer
+
+Altern?ncia entre contas autenticadas sem logout explicitada, sem atribuir notifica??es, autoriza??es ou extratos ao mockup. Fonte original preservada e enquadramento local mant?m o telefone completo.
+
+Resolvido em `integration/convenios-visual-narrative`, integra??o de produ??o `2dc5594`. Valida??o conjunta: 104/104; suporte/conte?do/axe/assets: 40/40; corre??o final de revis?o: 45/45. Padr?es: um P3 corrigido; Spec: nenhum achado. [Resultados e limites](../final-validation.md), [corre??o validada](../review-fix-validation.md), [manifesto](../asset-manifest.md), [revis?o](../code-review.md).
