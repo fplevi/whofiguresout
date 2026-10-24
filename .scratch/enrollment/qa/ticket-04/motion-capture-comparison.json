@@ -1,0 +1,62 @@
+[
+  {
+    "evidence": "eligibility",
+    "width": 320,
+    "pixelCaptureIdentical": true
+  },
+  {
+    "evidence": "eligibility",
+    "width": 375,
+    "pixelCaptureIdentical": true
+  },
+  {
+    "evidence": "eligibility",
+    "width": 768,
+    "pixelCaptureIdentical": true
+  },
+  {
+    "evidence": "eligibility",
+    "width": 1440,
+    "pixelCaptureIdentical": true
+  },
+  {
+    "evidence": "personal",
+    "width": 320,
+    "pixelCaptureIdentical": true
+  },
+  {
+    "evidence": "personal",
+    "width": 375,
+    "pixelCaptureIdentical": true
+  },
+  {
+    "evidence": "personal",
+    "width": 768,
+    "pixelCaptureIdentical": true
+  },
+  {
+    "evidence": "personal",
+    "width": 1440,
+    "pixelCaptureIdentical": true
+  },
+  {
+    "evidence": "portability",
+    "width": 320,
+    "pixelCaptureIdentical": true
+  },
+  {
+    "evidence": "portability",
+    "width": 375,
+    "pixelCaptureIdentical": true
+  },
+  {
+    "evidence": "portability",
+    "width": 768,
+    "pixelCaptureIdentical": true
+  },
+  {
+    "evidence": "portability",
+    "width": 1440,
+    "pixelCaptureIdentical": true
+  }
+]
