@@ -1,0 +1,22 @@
+{
+  "url": "http://127.0.0.1:8112/case-studies/convenios.html",
+  "checks": [
+    {
+      "name": "accounts: switching without logout is explicit",
+      "ok": false,
+      "detail": "Make room for more than one account.\n\nAccount switching supports family members and different partner contracts on one device. Notifications, authorization details and monthly usage statements bring more information into the app."
+    },
+    {
+      "name": "accounts: unrelated services are not attributed to this evidence",
+      "ok": false,
+      "detail": "Make room for more than one account.\n\nAccount switching supports family members and different partner contracts on one device. Notifications, authorization details and monthly usage statements bring more information into the app."
+    }
+  ],
+  "console": [],
+  "failed_requests": [],
+  "browser": "156.0.8078.4",
+  "summary": {
+    "passed": 0,
+    "failed": 2
+  }
+}

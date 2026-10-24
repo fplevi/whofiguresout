@@ -1,0 +1,64 @@
+{
+  "ticket": "01-rede-credenciada",
+  "coordinate_system": "pixels; left/top inclusive, right/bottom exclusive",
+  "assets": [
+    {
+      "source": "assets/images/convenios/convenios-provider-network.png",
+      "source_dimensions": [
+        1024,
+        768
+      ],
+      "source_sha256": "16f5a824fb7f8b14240fc1768185088be53bc4e17d911a2e1b0f78a5b9e4afb6",
+      "output": "assets/images/convenios/convenios-provider-network-crop.webp",
+      "crop_bounds": [
+        330,
+        48,
+        760,
+        734
+      ],
+      "dimensions": [
+        430,
+        686
+      ],
+      "format": "WebP, lossless RGBA, exact transparent pixels",
+      "purpose": "Remove empty presentation margins and faint extended shadow so the complete provider-network phone is legible; retain map results, Voltar para lista, new-search control and bottom navigation.",
+      "original_unchanged": true,
+      "unchanged": false,
+      "decoded_pixels_equal_source_crop": true
+    },
+    {
+      "source": "assets/images/convenios/convenios-card.webp",
+      "output": "assets/images/convenios/convenios-card.webp",
+      "crop_bounds": [
+        0,
+        0,
+        758,
+        1031
+      ],
+      "dimensions": [
+        758,
+        1031
+      ],
+      "format": "WebP RGBA (existing)",
+      "purpose": "Preserved composite card evidence for view, copy and share; only unsupported biometric-login wording removed.",
+      "unchanged": true
+    },
+    {
+      "source": "assets/images/convenios/convenios-home.webp",
+      "output": "assets/images/convenios/convenios-home.webp",
+      "crop_bounds": [
+        0,
+        0,
+        818,
+        1025
+      ],
+      "dimensions": [
+        818,
+        1025
+      ],
+      "format": "WebP RGBA (existing)",
+      "purpose": "Preserved home in the hero; home card also unchanged.",
+      "unchanged": true
+    }
+  ]
+}

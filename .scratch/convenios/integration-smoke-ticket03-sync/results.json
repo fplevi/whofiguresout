@@ -1,0 +1,365 @@
+{
+  "head": "39fb82a639e17ab1537fa78fe285684bb77ad1b2",
+  "base": "http://127.0.0.1:8129",
+  "checks": [
+    {
+      "name": "375: sections visible during ordinary wheel traversal",
+      "ok": true,
+      "detail": [
+        "contact-heading",
+        "convenios-decisions",
+        "convenios-outcome",
+        "convenios-problem",
+        "convenios-role",
+        "convenios-title"
+      ]
+    },
+    {
+      "name": "375: card/network/accounts/library sequence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375: no horizontal overflow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375: one image and explanation first for every row",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375: no raw-image links in rows",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375: all three ticket copy changes present",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375: convenios-card layout",
+      "ok": true,
+      "detail": {
+        "order": true,
+        "noOverlap": true
+      }
+    },
+    {
+      "name": "375: convenios-network layout",
+      "ok": true,
+      "detail": {
+        "order": true,
+        "noOverlap": true
+      }
+    },
+    {
+      "name": "375: convenios-accounts layout",
+      "ok": true,
+      "detail": {
+        "order": true,
+        "noOverlap": true
+      }
+    },
+    {
+      "name": "375: convenios-components layout",
+      "ok": true,
+      "detail": {
+        "order": true,
+        "noOverlap": true
+      }
+    },
+    {
+      "name": "375: preserved store links and contact",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440: sections visible during ordinary wheel traversal",
+      "ok": true,
+      "detail": [
+        "contact-heading",
+        "convenios-decisions",
+        "convenios-outcome",
+        "convenios-problem",
+        "convenios-role",
+        "convenios-title"
+      ]
+    },
+    {
+      "name": "1440: card/network/accounts/library sequence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440: no horizontal overflow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440: one image and explanation first for every row",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440: no raw-image links in rows",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440: all three ticket copy changes present",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440: convenios-card layout",
+      "ok": true,
+      "detail": {
+        "order": true,
+        "noOverlap": true
+      }
+    },
+    {
+      "name": "1440: convenios-network layout",
+      "ok": true,
+      "detail": {
+        "order": true,
+        "noOverlap": true
+      }
+    },
+    {
+      "name": "1440: convenios-accounts layout",
+      "ok": true,
+      "detail": {
+        "order": true,
+        "noOverlap": true
+      }
+    },
+    {
+      "name": "1440: convenios-components layout",
+      "ok": true,
+      "detail": {
+        "order": true,
+        "noOverlap": true
+      }
+    },
+    {
+      "name": "1440: preserved store links and contact",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "no JavaScript page errors",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "no failed requests or HTTP errors",
+      "ok": true,
+      "detail": []
+    }
+  ],
+  "page_errors": [],
+  "request_errors": [],
+  "widths": [
+    375,
+    1440
+  ],
+  "motion": "no-preference",
+  "limits": "Focused merge smoke only; full combined matrix belongs to parent.",
+  "browser": "156.0.8078.4",
+  "375": {
+    "overflow": false,
+    "rows": [
+      {
+        "id": "convenios-card",
+        "text": "Keep the essentials close.\n\nThe home screen brings card information and key services together. Members can view, copy and share their digital ID card.",
+        "images": 1,
+        "first": true,
+        "links": 0,
+        "alt": "Front and back of the digital member card, with a sharing option"
+      },
+      {
+        "id": "convenios-network",
+        "text": "Find care in the provider network.\n\nProvider-network search is available in the app. Results appear on a map, with a list view as an alternative. This screen shows dermatology results and the option to return to the list.",
+        "images": 1,
+        "first": true,
+        "links": 0,
+        "alt": "Provider-network dermatology results with map markers and a Voltar para lista control to return to list view"
+      },
+      {
+        "id": "convenios-accounts",
+        "text": "Make room for more than one account.\n\nMultiple accounts can stay signed in on one device. Members can switch between them without logging out.",
+        "images": 1,
+        "first": true,
+        "links": 0,
+        "alt": "Account switcher showing three saved profiles, one selected, and options to add or switch accounts"
+      },
+      {
+        "id": "convenios-components",
+        "text": "Build a foundation for the next release.\n\nThe app predates Harmony and has its own component library and visual language. This Figma excerpt documents icon-button states and touch areas.",
+        "images": 1,
+        "first": true,
+        "links": 0,
+        "alt": "Icon-button documentation with outlined and filled states above the annotated touch-area diagram"
+      }
+    ],
+    "images": [
+      {
+        "src": "../assets/images/convenios/convenios-home.webp",
+        "natural": [
+          818,
+          1025
+        ],
+        "box": [
+          327,
+          420.75
+        ]
+      },
+      {
+        "src": "../assets/images/convenios/convenios-card.webp",
+        "natural": [
+          758,
+          1031
+        ],
+        "box": [
+          279,
+          379.46875
+        ]
+      },
+      {
+        "src": "../assets/images/convenios/convenios-provider-network-crop.webp",
+        "natural": [
+          430,
+          686
+        ],
+        "box": [
+          295,
+          470.625
+        ]
+      },
+      {
+        "src": "../assets/images/convenios/convenios-accounts.webp",
+        "natural": [
+          1024,
+          844
+        ],
+        "box": [
+          327,
+          408.75
+        ]
+      },
+      {
+        "src": "../assets/images/convenios/convenios-button-touch-03.webp",
+        "natural": [
+          173,
+          263
+        ],
+        "box": [
+          327,
+          497.109375
+        ]
+      }
+    ]
+  },
+  "1440": {
+    "overflow": false,
+    "rows": [
+      {
+        "id": "convenios-card",
+        "text": "Keep the essentials close.\n\nThe home screen brings card information and key services together. Members can view, copy and share their digital ID card.",
+        "images": 1,
+        "first": true,
+        "links": 0,
+        "alt": "Front and back of the digital member card, with a sharing option"
+      },
+      {
+        "id": "convenios-network",
+        "text": "Find care in the provider network.\n\nProvider-network search is available in the app. Results appear on a map, with a list view as an alternative. This screen shows dermatology results and the option to return to the list.",
+        "images": 1,
+        "first": true,
+        "links": 0,
+        "alt": "Provider-network dermatology results with map markers and a Voltar para lista control to return to list view"
+      },
+      {
+        "id": "convenios-accounts",
+        "text": "Make room for more than one account.\n\nMultiple accounts can stay signed in on one device. Members can switch between them without logging out.",
+        "images": 1,
+        "first": true,
+        "links": 0,
+        "alt": "Account switcher showing three saved profiles, one selected, and options to add or switch accounts"
+      },
+      {
+        "id": "convenios-components",
+        "text": "Build a foundation for the next release.\n\nThe app predates Harmony and has its own component library and visual language. This Figma excerpt documents icon-button states and touch areas.",
+        "images": 1,
+        "first": true,
+        "links": 0,
+        "alt": "Icon-button documentation with outlined and filled states above the annotated touch-area diagram"
+      }
+    ],
+    "images": [
+      {
+        "src": "../assets/images/convenios/convenios-home.webp",
+        "natural": [
+          818,
+          1025
+        ],
+        "box": [
+          442.109375,
+          554
+        ]
+      },
+      {
+        "src": "../assets/images/convenios/convenios-card.webp",
+        "natural": [
+          758,
+          1031
+        ],
+        "box": [
+          544,
+          480
+        ]
+      },
+      {
+        "src": "../assets/images/convenios/convenios-provider-network-crop.webp",
+        "natural": [
+          430,
+          686
+        ],
+        "box": [
+          360,
+          574.3125
+        ]
+      },
+      {
+        "src": "../assets/images/convenios/convenios-accounts.webp",
+        "natural": [
+          1024,
+          844
+        ],
+        "box": [
+          384,
+          480
+        ]
+      },
+      {
+        "src": "../assets/images/convenios/convenios-button-touch-03.webp",
+        "natural": [
+          173,
+          263
+        ],
+        "box": [
+          480,
+          729.703125
+        ]
+      }
+    ]
+  },
+  "summary": {
+    "passed": 24,
+    "failed": 0
+  }
+}
