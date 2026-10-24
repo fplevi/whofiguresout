@@ -1,0 +1,50 @@
+{
+  "ticket": "03-plan-exploration-comparison",
+  "assets": [
+    {
+      "source": "assets/images/enrollment/old-enrollment-journey-simulator.jpg",
+      "presentation": "assets/images/enrollment/old-enrollment-journey-simulator.jpg",
+      "sha256": "e22f2bc24d3c73bc2d891a93140c46fc8d5b8c8d6193356bc1664ca6fc114a05",
+      "originalDimensions": [
+        1440,
+        1485
+      ],
+      "presentationDimensions": [
+        1440,
+        1485
+      ],
+      "format": "JPEG",
+      "cropBounds": [
+        0,
+        0,
+        1440,
+        1485
+      ],
+      "operation": "uncropped original reused unchanged",
+      "reason": "Preserve complete plan organization context in the single before/after comparison. Full width with factual HTML explanation; no price/product equivalence inferred."
+    },
+    {
+      "source": "assets/images/enrollment/new-enrollment-journey-simulator.jpg",
+      "presentation": "assets/images/enrollment/new-enrollment-journey-simulator.jpg",
+      "sha256": "01cc1e7d45faaa682b66bda4bd34f0231d1e84f7883f36e244dd6d5a85fbff0c",
+      "originalDimensions": [
+        1440,
+        1485
+      ],
+      "presentationDimensions": [
+        1440,
+        1485
+      ],
+      "format": "JPEG",
+      "cropBounds": [
+        0,
+        0,
+        1440,
+        1485
+      ],
+      "operation": "uncropped original reused unchanged",
+      "reason": "Preserve complete plan organization context in the single before/after comparison. Full width with factual HTML explanation; no price/product equivalence inferred."
+    }
+  ],
+  "derivatives": []
+}

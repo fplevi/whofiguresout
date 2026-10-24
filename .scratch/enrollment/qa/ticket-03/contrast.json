@@ -1,0 +1,16 @@
+{
+  "computedColors": {
+    "body": "rgb(13, 15, 26)",
+    "guidance": "rgba(242, 242, 245, 0.65)",
+    "label": "rgb(255, 255, 255)",
+    "labelBackground": "rgb(13, 15, 26)",
+    "handle": "rgb(13, 15, 26)",
+    "handleBackground": "rgb(255, 255, 255)"
+  },
+  "ratios": {
+    "guidance": 7.550402230717409,
+    "labelWorstWhiteImage": 19.084682213573785,
+    "handleArrows": 19.084682213573785
+  },
+  "method": "WCAG relative sRGB luminance; alpha composited on computed body; label tested over worst-case white raster; handle arrows over white disc."
+}

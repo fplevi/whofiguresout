@@ -118,7 +118,7 @@
       <span class="section-tag cs-section__tag">The Decisions</span>
       <h2 class="cs-section__title" id="enrollment-decisions">Helping users progress with less support.</h2>
 
-      <div class="cs-decisions cs-decisions--stacked">
+      <div class="cs-decisions cs-decisions--stacked enrollment-decisions">
 
         <div class="cs-decision">
           <div class="cs-decision__left">
@@ -132,6 +132,35 @@
               <span>Explore plans before creating an account.</span>
             </p>
           </div>
+
+          <figure class="enrollment-comparison" aria-labelledby="enrollment-comparison-title">
+            <figcaption>
+              <h4 class="cs-decision__title" id="enrollment-comparison-title">From plan cards to aligned benefits.</h4>
+              <p class="cs-decision__body enrollment-comparison__guidance">
+                The earlier screen presents plans as separate cards. The redesigned screen aligns plan benefits in a comparison table, with shared rows across the displayed plans.
+              </p>
+              <p class="cs-decision__body enrollment-comparison__guidance">
+                These examples show a change in presentation, not equivalent products or prices. They do not demonstrate lower prices, fewer available plans, or whether an account or personal data is required. Exploring before registration is the journey decision described above.
+              </p>
+              <p class="cs-decision__body enrollment-comparison__guidance" id="enrollment-comparison-help">
+                Drag the divider or use the arrow keys to compare. Home shows After; End shows Before.
+              </p>
+            </figcaption>
+            <div class="cs-compare" aria-label="Plan presentation before and after">
+              <!-- After sits in normal flow to give the container its height -->
+              <div class="cs-compare__after">
+                <img src="../assets/images/enrollment/new-enrollment-journey-simulator.jpg" width="1440" height="1485" loading="lazy" decoding="async" alt="Redesigned plan simulator with plan benefits aligned in a comparison table" class="cs-compare__img" />
+              </div>
+              <!-- Before overlays via clip-path -->
+              <div class="cs-compare__before">
+                <img src="../assets/images/enrollment/old-enrollment-journey-simulator.jpg" width="1440" height="1485" loading="lazy" decoding="async" alt="Earlier plan simulator presenting options as separate plan cards" class="cs-compare__img" />
+              </div>
+              <input type="range" class="cs-compare__slider" min="0" max="100" value="50" aria-label="Compare plan cards before and plan benefits after" aria-describedby="enrollment-comparison-help" />
+              <div class="cs-compare__handle" aria-hidden="true"></div>
+              <span class="cs-compare__label cs-compare__label--before">Before</span>
+              <span class="cs-compare__label cs-compare__label--after">After</span>
+            </div>
+          </figure>
         </div>
 
         <div class="cs-decision">
@@ -162,27 +191,6 @@
           </div>
         </div>
 
-      </div>
-    </section>
-
-    <!-- What Shipped -->
-    <section class="cs-section" aria-labelledby="enrollment-shipped">
-      <span class="section-tag cs-section__tag">What Shipped</span>
-      <h2 class="cs-section__title" id="enrollment-shipped">The plan simulator, before and after.</h2>
-
-      <div class="cs-compare" aria-label="Before and after comparison">
-        <!-- After sits in normal flow to give the container its height -->
-        <div class="cs-compare__after">
-          <img src="../assets/images/enrollment/new-enrollment-journey-simulator.jpg" width="1440" height="1485" loading="lazy" decoding="async" alt="New enrollment journey simulator" class="cs-compare__img" />
-        </div>
-        <!-- Before overlays via clip-path -->
-        <div class="cs-compare__before">
-          <img src="../assets/images/enrollment/old-enrollment-journey-simulator.jpg" width="1440" height="1485" loading="lazy" decoding="async" alt="Old enrollment journey simulator" class="cs-compare__img" />
-        </div>
-        <input type="range" class="cs-compare__slider" min="0" max="100" value="50" aria-label="Comparison slider" />
-        <div class="cs-compare__handle" aria-hidden="true"></div>
-        <span class="cs-compare__label cs-compare__label--before">Before</span>
-        <span class="cs-compare__label cs-compare__label--after">After</span>
       </div>
     </section>
 

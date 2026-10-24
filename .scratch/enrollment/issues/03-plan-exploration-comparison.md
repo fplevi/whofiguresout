@@ -4,7 +4,7 @@
 
 **Blocked by:** None (can start immediately).
 
-**Status:** ready-for-agent
+**Status:** claimed
 
 - [ ] O comparador existente aparece uma única vez junto da primeira decisão sobre exploração antes da criação de conta, com explicação em inglês orientando a leitura dos cartões antigos e da organização comparativa dos benefícios.
 - [ ] A apresentação anterior em “What Shipped” é removida ao realocar o comparador, sem duplicação nem seção vazia. Não se acrescenta outra captura integral do simulador; o hero e seu poster permanecem preservados.
@@ -22,5 +22,7 @@
 - [ ] O ticket 01 permanece aberto e inalterado, sem bloquear esta entrega. Os 171% continuam sendo crescimento de propostas, sem equivalência a adesões concluídas ou causalidade exclusiva; a redução de consultas ao atendimento continua objetivo não medido.
 
 ## Comments
+
+- 2026-10-24: Claimed by implementation sub-agent on `t3/enrollment-plan-comparison`, worktree `t3-7c1e1b19`, server port 8103. Clean HEAD contains integration tip `fa56b5c`; using the approved rendered Enrollment page seam and ticket-specific browser QA.
 
 - 2026-10-24: granularidade e ausência de bloqueadores aprovadas pelo usuário com “sim”, na proposta revisada de quatro tickets. Publicado para implementação futura; nenhum critério foi executado ou validado nesta conversa de especificação.
