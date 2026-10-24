@@ -46,6 +46,7 @@
   <link rel="stylesheet" href="../assets/css/contact.css?v=20261024-copy" />
   <link rel="stylesheet" href="../assets/css/case-study.css" />
   <link rel="stylesheet" href="../assets/css/convenios.css" />
+  <link rel="stylesheet" href="../assets/css/case-hero-wordsearch.css" />
 </head>
 <body class="cs-app">
 
@@ -62,12 +63,50 @@
 
   <main>
 
-    <!-- Case header -->
-    <section class="cs-header" aria-labelledby="convenios-title">
+    <!-- Case Header: word-search hero (assets/js/case-hero-wordsearch.js) -->
+    <section class="cs-header wsh" aria-labelledby="convenios-title" data-cols="24" data-rows="7" data-cols-mobile="12" data-rows-mobile="12" data-seed="1">
       <a href="../#work" class="cs-header__back">← Back to work</a>
       <span class="section-tag cs-header__tag">Product Leadership</span>
       <h1 class="cs-header__title" id="convenios-title">CASSI Convênios</h1>
       <p class="cs-header__hook">I led product and design for a new app serving members of CASSI's partner health plans.</p>
+
+      <div class="wsh__game" role="group" aria-labelledby="wsh-kicker">
+        <div class="wsh__game-head">
+          <p class="wsh__kicker" id="wsh-kicker">The case in five words</p>
+          <p class="wsh__count" aria-live="polite"></p>
+        </div>
+        <div class="wsh__grid" aria-hidden="true"></div>
+        <ul class="wsh__legend" role="list">
+          <li class="wsh__item" data-word="NOAPP">
+            <button type="button" class="wsh__chip" disabled><span class="wsh__term-blank" aria-hidden="true">_ _ _ _ _</span><span class="wsh__term-text">No app</span></button>
+            <span class="wsh__cat">Problem</span>
+            <span class="wsh__caption">Partner-plan members used CASSI's provider network, but had no dedicated app and fragmented services.</span>
+          </li>
+          <li class="wsh__item" data-word="PARTNERPLAN">
+            <button type="button" class="wsh__chip" disabled><span class="wsh__term-blank" aria-hidden="true">_ _ _ _ _ _ _ _ _ _ _</span><span class="wsh__term-text">Partner plan</span></button>
+            <span class="wsh__cat">Decision</span>
+            <span class="wsh__caption">Every service was redesigned for members whose coverage comes from another health plan.</span>
+          </li>
+          <li class="wsh__item" data-word="SWITCH">
+            <button type="button" class="wsh__chip" disabled><span class="wsh__term-blank" aria-hidden="true">_ _ _ _ _ _</span><span class="wsh__term-text">Switch</span></button>
+            <span class="wsh__cat">Decision</span>
+            <span class="wsh__caption">Several accounts stay signed in on one device, so members switch between family or contract profiles without logging out.</span>
+          </li>
+          <li class="wsh__item" data-word="FROMSCRATCH">
+            <button type="button" class="wsh__chip" disabled><span class="wsh__term-blank" aria-hidden="true">_ _ _ _ _ _ _ _ _ _ _</span><span class="wsh__term-text">From scratch</span></button>
+            <span class="wsh__cat">Trade-off</span>
+            <span class="wsh__caption">A separate in-house app meant starting from zero, but gave CASSI the direct control over code that its vendor-built main app lacked.</span>
+          </li>
+          <li class="wsh__item" data-word="LAUNCHED">
+            <button type="button" class="wsh__chip" disabled><span class="wsh__term-blank" aria-hidden="true">_ _ _ _ _ _ _ _</span><span class="wsh__term-text">Launched</span></button>
+            <span class="wsh__cat">Result</span>
+            <span class="wsh__caption">A dedicated app for partner-plan members shipped on iOS and Android, with a documented component library.</span>
+          </li>
+        </ul>
+        <div class="wsh__footer">
+          <button type="button" class="wsh__reveal">Reveal all</button>
+        </div>
+      </div>
 
       <div class="cs-meta" role="list">
         <div class="cs-meta__pill" role="listitem">
@@ -85,15 +124,11 @@
       </div>
     </section>
 
-    <div class="cs-hero-image cs-app__hero">
-      <img src="../assets/images/convenios/convenios-home.webp" width="818" height="1025" alt="CASSI Convênios home screen with digital card information, key services and notifications" fetchpriority="high" />
-    </div>
-
     <!-- The Problem -->
     <section class="cs-section" aria-labelledby="convenios-problem">
       <span class="section-tag cs-section__tag">The Problem</span>
       <h2 class="cs-section__title" id="convenios-problem">One network. A missing digital experience.</h2>
-      <p class="cs-section__body">Members of partner health plans could use CASSI's provider network but had no dedicated app. Basic information and services were fragmented. The challenge was to give this audience a clear way to manage their care.</p>
+      <p class="cs-section__body">Members of partner health plans could use CASSI's provider network but had no dedicated app. Basic information and services were fragmented. The challenge was to give this audience a clear way to manage their care. CASSI's main app was developed by a third-party vendor at the time, and CASSI couldn't change its code directly.</p>
     </section>
 
     <!-- My Role -->
@@ -114,7 +149,7 @@
           <div class="cs-decision__left">
             <span class="cs-decision__number">01</span>
             <h3 class="cs-decision__title">Redesign services for partner-plan members</h3>
-            <p class="cs-decision__body">Members of partner plans use CASSI's provider network, but their coverage comes from another health plan. Every service offered in the app was redesigned around this profile and its needs.</p>
+            <p class="cs-decision__body">Members of partner plans use CASSI's provider network, but their coverage comes from another health plan. Every service offered in the app was redesigned around this profile and its needs. Instead of fitting this audience into the official app, we built a separate app from scratch, entirely in-house.</p>
           </div>
         </div>
 
@@ -249,6 +284,7 @@
   </main>
 
   <script src="../assets/js/scroll-animations.js" type="module"></script>
+  <script src="../assets/js/case-hero-wordsearch.js" type="module"></script>
   <script src="../assets/js/contact-form.js?v=20261024-clipboard" defer></script>
 
 </body>

@@ -1,0 +1,17 @@
+{
+  "css_after": "convenios.css",
+  "seed": 1,
+  "header_open": ["Case header", " aria-labelledby=\"convenios-title\""],
+  "hero_block": "    <div class=\"cs-hero-image cs-app__hero\">\n      <img src=\"../assets/images/convenios/convenios-home.webp\" width=\"818\" height=\"1025\" alt=\"CASSI Convênios home screen with digital card information, key services and notifications\" fetchpriority=\"high\" />\n    </div>\n\n",
+  "words": [
+    ["NOAPP", "No app", "Problem", "Partner-plan members used CASSI's provider network, but had no dedicated app and fragmented services."],
+    ["PARTNERPLAN", "Partner plan", "Decision", "Every service was redesigned for members whose coverage comes from another health plan."],
+    ["SWITCH", "Switch", "Decision", "Several accounts stay signed in on one device, so members switch between family or contract profiles without logging out."],
+    ["FROMSCRATCH", "From scratch", "Trade-off", "A separate in-house app meant starting from zero, but gave CASSI the direct control over code that its vendor-built main app lacked."],
+    ["LAUNCHED", "Launched", "Result", "A dedicated app for partner-plan members shipped on iOS and Android, with a documented component library."]
+  ],
+  "extra": [
+    ["The challenge was to give this audience a clear way to manage their care.</p>", "The challenge was to give this audience a clear way to manage their care. CASSI's main app was developed by a third-party vendor at the time, and CASSI couldn't change its code directly.</p>"],
+    ["Every service offered in the app was redesigned around this profile and its needs.</p>", "Every service offered in the app was redesigned around this profile and its needs. Instead of fitting this audience into the official app, we built a separate app from scratch, entirely in-house.</p>"]
+  ]
+}

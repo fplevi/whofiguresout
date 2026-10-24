@@ -39,8 +39,10 @@ game = f'''
 css = f'../assets/css/{spec["css_after"]}'
 rep(f'  <link rel="stylesheet" href="{css}" />\n',
     f'  <link rel="stylesheet" href="{css}" />\n  <link rel="stylesheet" href="../assets/css/case-hero-wordsearch.css" />\n')
-rep('    <!-- Case Header -->\n    <section class="cs-header">',
-    f'    <!-- Case Header: word-search hero (assets/js/case-hero-wordsearch.js) -->\n    <section class="cs-header wsh" data-cols="24" data-rows="7" data-cols-mobile="12" data-rows-mobile="12" data-seed="{spec.get("seed", 7)}">')
+# header_open: [comment, section attrs after class] when a page deviates from the default markup
+comment, attrs = spec.get('header_open', ['Case Header', ''])
+rep(f'    <!-- {comment} -->\n    <section class="cs-header"{attrs}>',
+    f'    <!-- Case Header: word-search hero (assets/js/case-hero-wordsearch.js) -->\n    <section class="cs-header wsh"{attrs} data-cols="24" data-rows="7" data-cols-mobile="12" data-rows-mobile="12" data-seed="{spec.get("seed", 7)}">')
 rep(r'(<p class="cs-header__hook">.*?</p>\n)(\n      <div class="cs-meta")', lambda m: m.group(1) + game + m.group(2), regex=True)
 rep(spec['hero_block'], '')
 rep('  <script src="../assets/js/scroll-animations.js" type="module"></script>\n',
