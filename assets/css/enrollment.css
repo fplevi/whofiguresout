@@ -136,16 +136,6 @@
   color: var(--text-secondary-strong);
 }
 
-/* The native range is transparent; put its keyboard focus on the visible frame. */
-.enrollment-comparison .cs-compare:has(.cs-compare__slider:focus-visible) {
-  outline: 2px solid var(--accent-primary);
-  outline-offset: var(--space-4);
-}
-
 .enrollment-comparison .cs-compare__label {
   background: var(--background-primary);
-}
-
-.enrollment-comparison .cs-compare__handle::after {
-  color: var(--background-primary);
 }

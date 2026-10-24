@@ -1,6 +1,6 @@
 # Tabler Icons
 
-Official outline SVGs used beside Harmony's decision notes: `components`, `tool`, and `accessible`.
+Official outline SVGs used beside Harmony's decision notes: `components`, `tool`, and `accessible`. `compare/chevron-left` and `compare/chevron-right` mark the before/after slider grip.
 
 Source: [tabler/tabler-icons](https://github.com/tabler/tabler-icons/tree/a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d/icons/outline), commit `a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d`.
 

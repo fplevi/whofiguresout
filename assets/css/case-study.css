@@ -326,6 +326,7 @@
   z-index: 3;
 }
 
+/* Divider: white line with a navy hairline so it reads over light and dark captures. */
 .cs-compare__handle {
   position: absolute;
   top: 0;
@@ -334,33 +335,68 @@
   transform: translateX(-50%);
   width: 2px;
   background: #fff;
+  box-shadow: 0 0 0 1px rgba(13, 15, 26, 0.3);
   z-index: 2;
   pointer-events: none;
 }
 
-.cs-compare__handle::before {
-  content: '';
+/* Grip: navy pill with outward chevrons, signalling a sideways drag. */
+.cs-compare__grip {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: #fff;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-4);
+  width: 56px;
+  height: 36px;
+  border: 1px solid var(--accent-muted);
+  border-radius: var(--radius-full);
+  background: var(--background-primary);
+  box-shadow: 0 4px 16px rgba(13, 15, 26, 0.35);
+  transition: border-color 0.2s ease, background-color 0.2s ease;
 }
 
-.cs-compare__handle::after {
-  content: '⟨ ⟩';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 13px;
-  color: var(--text-secondary);
-  pointer-events: none;
-  letter-spacing: -2px;
+.cs-compare__grip::before,
+.cs-compare__grip::after {
+  content: '';
+  width: 16px;
+  height: 16px;
+  background-color: var(--accent-primary);
+  mask-position: center;
+  mask-repeat: no-repeat;
+  mask-size: contain;
+}
+
+.cs-compare__grip::before {
+  mask-image: url('../icons/tabler/compare/chevron-left.svg');
+}
+
+.cs-compare__grip::after {
+  mask-image: url('../icons/tabler/compare/chevron-right.svg');
+}
+
+.cs-compare:hover .cs-compare__grip {
+  border-color: var(--accent-primary);
+}
+
+.cs-compare:active .cs-compare__grip {
+  border-color: var(--accent-primary);
+  background: var(--background-secondary);
+}
+
+.cs-compare:has(.cs-compare__slider:focus-visible) .cs-compare__grip {
+  border-color: var(--accent-primary);
+  outline: 2px solid var(--accent-primary);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cs-compare__grip {
+    transition: none;
+  }
 }
 
 .cs-compare__label {
