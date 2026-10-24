@@ -40,6 +40,14 @@
     "identicalPixels": true
   },
   {
+    "width": 320,
+    "evidence": "enrollment-submission-title",
+    "normal": "320-no-preference-enrollment-submission-title.png",
+    "reduced": "320-reduce-enrollment-submission-title.png",
+    "sameDimensions": true,
+    "identicalPixels": true
+  },
+  {
     "width": 375,
     "evidence": "evidence",
     "normal": "375-no-preference-evidence.png",
@@ -76,6 +84,14 @@
     "evidence": "enrollment-portability",
     "normal": "375-no-preference-enrollment-portability.png",
     "reduced": "375-reduce-enrollment-portability.png",
+    "sameDimensions": true,
+    "identicalPixels": true
+  },
+  {
+    "width": 375,
+    "evidence": "enrollment-submission-title",
+    "normal": "375-no-preference-enrollment-submission-title.png",
+    "reduced": "375-reduce-enrollment-submission-title.png",
     "sameDimensions": true,
     "identicalPixels": true
   },
@@ -120,6 +136,14 @@
     "identicalPixels": true
   },
   {
+    "width": 768,
+    "evidence": "enrollment-submission-title",
+    "normal": "768-no-preference-enrollment-submission-title.png",
+    "reduced": "768-reduce-enrollment-submission-title.png",
+    "sameDimensions": true,
+    "identicalPixels": true
+  },
+  {
     "width": 1440,
     "evidence": "evidence",
     "normal": "1440-no-preference-evidence.png",
@@ -156,6 +180,14 @@
     "evidence": "enrollment-portability",
     "normal": "1440-no-preference-enrollment-portability.png",
     "reduced": "1440-reduce-enrollment-portability.png",
+    "sameDimensions": true,
+    "identicalPixels": true
+  },
+  {
+    "width": 1440,
+    "evidence": "enrollment-submission-title",
+    "normal": "1440-no-preference-enrollment-submission-title.png",
+    "reduced": "1440-reduce-enrollment-submission-title.png",
     "sameDimensions": true,
     "identicalPixels": true
   }

@@ -1,10 +1,10 @@
 {
   "browser": "156.0.8078.4",
   "environment": "Windows, Python Playwright, headless Chromium; emulated viewport/motion/touch",
-  "testedCommit": "61a19d397102dd224cf637724c900a78f5f74f89",
-  "integrationTip": "9b86741d7791c08fa0b7f043092e94a049095926",
+  "testedCommit": "6d80b9e8c3bc72957cbb46f984200e1febe0e4cd",
+  "integrationTip": "07b1a14f419d27ec121d6d324598e9d9d54da297",
   "url": "http://127.0.0.1:8123/case-studies/enrollment.html",
-  "scope": "Ticket 03 plus the complete currently integrated page; final five-image acceptance is not claimed.",
+  "scope": "Final combined Enrollment page: one discovery board, four interface screens and one comparison, after all four implementation slices merged.",
   "preservationExclusions": "Runtime section-root animation styles and asynchronously injected Clarity scripts; authored analytics/head source is checked separately against f8f9034.",
   "cases": [
     {
@@ -54,7 +54,7 @@
             {
               "name": "enrollment-decisions",
               "opacity": "1",
-              "height": 4548
+              "height": 5380
             },
             {
               "name": "enrollment-outcome",
@@ -79,7 +79,7 @@
           "detail": null
         },
         {
-          "name": "discovery and three journey screens remain explained, ordered and fitted",
+          "name": "discovery and four interface screens remain explained, ordered and fitted",
           "passed": true,
           "detail": [
             {
@@ -117,7 +117,29 @@
               "alt": "Portability stage with an explanation of waiting-period portability, request guidance, and closed normal and special portability categories beside the journey sidebar.",
               "font": "16px",
               "outside": false
+            },
+            {
+              "name": "enrollment-submission-title",
+              "images": 1,
+              "copyFirst": true,
+              "copyAbove": true,
+              "alt": "Proposal submitted for analysis, with a protocol number, instructions to wait for email contact, and a placeholder tracking address; approval is not shown.",
+              "font": "16px",
+              "outside": false
             }
+          ]
+        },
+        {
+          "name": "exact final selection; omitted screens absent",
+          "passed": true,
+          "detail": [
+            "Desk%20Research.png",
+            "new-enrollment-journey-simulator.jpg",
+            "old-enrollment-journey-simulator.jpg",
+            "parentesco.png",
+            "dados-parente.png",
+            "portabilidade-2.png",
+            "submission-analysis.webp"
           ]
         },
         {
@@ -217,7 +239,7 @@
           "detail": {
             "x25": 92.0,
             "x75": 228.0,
-            "y": 250.0625
+            "y": 243.0625
           }
         },
         {
@@ -284,7 +306,7 @@
         {
           "name": "enrollment-decisions",
           "opacity": "0",
-          "height": 4548
+          "height": 5380
         },
         {
           "name": "enrollment-outcome",
@@ -297,7 +319,7 @@
           "height": 766
         }
       ],
-      "wheelSteps": 43,
+      "wheelSteps": 47,
       "seenHeadingsDuringWheel": [
         "A fragmented journey, dependent on support.",
         "Eligibility within the journey",
@@ -311,7 +333,8 @@
         "Proposal volume grew 171% year over year.",
         "Remove mandatory pre-registration",
         "Reorganize steps around the user's mental model",
-        "Structured status visibility throughout"
+        "Structured status visibility throughout",
+        "Submitted for analysis, with a reference for what comes next"
       ],
       "finalSections": [
         {
@@ -337,7 +360,7 @@
         {
           "name": "enrollment-decisions",
           "opacity": "1",
-          "height": 4548
+          "height": 5380
         },
         {
           "name": "enrollment-outcome",
@@ -482,6 +505,28 @@
             272,
             170
           ]
+        },
+        {
+          "src": "../assets/images/enrollment/submission-analysis.webp",
+          "natural": [
+            1920,
+            738
+          ],
+          "intrinsic": [
+            272,
+            105
+          ],
+          "declared": [
+            "1920",
+            "738"
+          ],
+          "alt": "Proposal submitted for analysis, with a protocol number, instructions to wait for email contact, and a placeholder tracking address; approval is not shown.",
+          "loading": "lazy",
+          "decoding": "async",
+          "rect": [
+            272,
+            104.546875
+          ]
         }
       ],
       "integratedEvidence": [
@@ -520,11 +565,20 @@
           "alt": "Portability stage with an explanation of waiting-period portability, request guidance, and closed normal and special portability categories beside the journey sidebar.",
           "font": "16px",
           "outside": false
+        },
+        {
+          "name": "enrollment-submission-title",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "alt": "Proposal submitted for analysis, with a protocol number, instructions to wait for email contact, and a placeholder tracking address; approval is not shown.",
+          "font": "16px",
+          "outside": false
         }
       ],
       "composition": {
-        "copyBottom": -1901.1875,
-        "imageTop": -1861.1875,
+        "copyBottom": -3094.1875,
+        "imageTop": -3054.1875,
         "comparisonWidth": 272,
         "fonts": [
           "16px",
@@ -608,7 +662,7 @@
             {
               "name": "enrollment-decisions",
               "opacity": "1",
-              "height": 4279
+              "height": 5022
             },
             {
               "name": "enrollment-outcome",
@@ -633,7 +687,7 @@
           "detail": null
         },
         {
-          "name": "discovery and three journey screens remain explained, ordered and fitted",
+          "name": "discovery and four interface screens remain explained, ordered and fitted",
           "passed": true,
           "detail": [
             {
@@ -671,7 +725,29 @@
               "alt": "Portability stage with an explanation of waiting-period portability, request guidance, and closed normal and special portability categories beside the journey sidebar.",
               "font": "16px",
               "outside": false
+            },
+            {
+              "name": "enrollment-submission-title",
+              "images": 1,
+              "copyFirst": true,
+              "copyAbove": true,
+              "alt": "Proposal submitted for analysis, with a protocol number, instructions to wait for email contact, and a placeholder tracking address; approval is not shown.",
+              "font": "16px",
+              "outside": false
             }
+          ]
+        },
+        {
+          "name": "exact final selection; omitted screens absent",
+          "passed": true,
+          "detail": [
+            "Desk%20Research.png",
+            "new-enrollment-journey-simulator.jpg",
+            "old-enrollment-journey-simulator.jpg",
+            "parentesco.png",
+            "dados-parente.png",
+            "portabilidade-2.png",
+            "submission-analysis.webp"
           ]
         },
         {
@@ -838,7 +914,7 @@
         {
           "name": "enrollment-decisions",
           "opacity": "0",
-          "height": 4279
+          "height": 5022
         },
         {
           "name": "enrollment-outcome",
@@ -851,7 +927,7 @@
           "height": 766
         }
       ],
-      "wheelSteps": 40,
+      "wheelSteps": 43,
       "seenHeadingsDuringWheel": [
         "A fragmented journey, dependent on support.",
         "Eligibility within the journey",
@@ -865,7 +941,8 @@
         "Proposal volume grew 171% year over year.",
         "Remove mandatory pre-registration",
         "Reorganize steps around the user's mental model",
-        "Structured status visibility throughout"
+        "Structured status visibility throughout",
+        "Submitted for analysis, with a reference for what comes next"
       ],
       "finalSections": [
         {
@@ -891,7 +968,7 @@
         {
           "name": "enrollment-decisions",
           "opacity": "1",
-          "height": 4279
+          "height": 5022
         },
         {
           "name": "enrollment-outcome",
@@ -1036,6 +1113,28 @@
             327,
             204.375
           ]
+        },
+        {
+          "src": "../assets/images/enrollment/submission-analysis.webp",
+          "natural": [
+            1920,
+            738
+          ],
+          "intrinsic": [
+            327,
+            126
+          ],
+          "declared": [
+            "1920",
+            "738"
+          ],
+          "alt": "Proposal submitted for analysis, with a protocol number, instructions to wait for email contact, and a placeholder tracking address; approval is not shown.",
+          "loading": "lazy",
+          "decoding": "async",
+          "rect": [
+            327,
+            125.6875
+          ]
         }
       ],
       "integratedEvidence": [
@@ -1074,11 +1173,20 @@
           "alt": "Portability stage with an explanation of waiting-period portability, request guidance, and closed normal and special portability categories beside the journey sidebar.",
           "font": "16px",
           "outside": false
+        },
+        {
+          "name": "enrollment-submission-title",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "alt": "Proposal submitted for analysis, with a protocol number, instructions to wait for email contact, and a placeholder tracking address; approval is not shown.",
+          "font": "16px",
+          "outside": false
         }
       ],
       "composition": {
-        "copyBottom": -1879.859375,
-        "imageTop": -1839.859375,
+        "copyBottom": -2965.859375,
+        "imageTop": -2925.859375,
         "comparisonWidth": 327,
         "fonts": [
           "16px",
@@ -1162,7 +1270,7 @@
             {
               "name": "enrollment-decisions",
               "opacity": "1",
-              "height": 4240
+              "height": 4832
             },
             {
               "name": "enrollment-outcome",
@@ -1187,7 +1295,7 @@
           "detail": null
         },
         {
-          "name": "discovery and three journey screens remain explained, ordered and fitted",
+          "name": "discovery and four interface screens remain explained, ordered and fitted",
           "passed": true,
           "detail": [
             {
@@ -1225,7 +1333,29 @@
               "alt": "Portability stage with an explanation of waiting-period portability, request guidance, and closed normal and special portability categories beside the journey sidebar.",
               "font": "16px",
               "outside": false
+            },
+            {
+              "name": "enrollment-submission-title",
+              "images": 1,
+              "copyFirst": true,
+              "copyAbove": true,
+              "alt": "Proposal submitted for analysis, with a protocol number, instructions to wait for email contact, and a placeholder tracking address; approval is not shown.",
+              "font": "16px",
+              "outside": false
             }
+          ]
+        },
+        {
+          "name": "exact final selection; omitted screens absent",
+          "passed": true,
+          "detail": [
+            "Desk%20Research.png",
+            "new-enrollment-journey-simulator.jpg",
+            "old-enrollment-journey-simulator.jpg",
+            "parentesco.png",
+            "dados-parente.png",
+            "portabilidade-2.png",
+            "submission-analysis.webp"
           ]
         },
         {
@@ -1392,7 +1522,7 @@
         {
           "name": "enrollment-decisions",
           "opacity": "0",
-          "height": 4240
+          "height": 4832
         },
         {
           "name": "enrollment-outcome",
@@ -1405,7 +1535,7 @@
           "height": 738
         }
       ],
-      "wheelSteps": 35,
+      "wheelSteps": 38,
       "seenHeadingsDuringWheel": [
         "A fragmented journey, dependent on support.",
         "Eligibility within the journey",
@@ -1419,7 +1549,8 @@
         "Proposal volume grew 171% year over year.",
         "Remove mandatory pre-registration",
         "Reorganize steps around the user's mental model",
-        "Structured status visibility throughout"
+        "Structured status visibility throughout",
+        "Submitted for analysis, with a reference for what comes next"
       ],
       "finalSections": [
         {
@@ -1445,7 +1576,7 @@
         {
           "name": "enrollment-decisions",
           "opacity": "1",
-          "height": 4240
+          "height": 4832
         },
         {
           "name": "enrollment-outcome",
@@ -1590,6 +1721,28 @@
             720,
             450
           ]
+        },
+        {
+          "src": "../assets/images/enrollment/submission-analysis.webp",
+          "natural": [
+            1920,
+            738
+          ],
+          "intrinsic": [
+            720,
+            277
+          ],
+          "declared": [
+            "1920",
+            "738"
+          ],
+          "alt": "Proposal submitted for analysis, with a protocol number, instructions to wait for email contact, and a placeholder tracking address; approval is not shown.",
+          "loading": "lazy",
+          "decoding": "async",
+          "rect": [
+            720,
+            276.75
+          ]
         }
       ],
       "integratedEvidence": [
@@ -1628,11 +1781,20 @@
           "alt": "Portability stage with an explanation of waiting-period portability, request guidance, and closed normal and special portability categories beside the journey sidebar.",
           "font": "16px",
           "outside": false
+        },
+        {
+          "name": "enrollment-submission-title",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "alt": "Proposal submitted for analysis, with a protocol number, instructions to wait for email contact, and a placeholder tracking address; approval is not shown.",
+          "font": "16px",
+          "outside": false
         }
       ],
       "composition": {
-        "copyBottom": -2383.546875,
-        "imageTop": -2343.546875,
+        "copyBottom": -3301.546875,
+        "imageTop": -3261.546875,
         "comparisonWidth": 720,
         "fonts": [
           "16px",
@@ -1716,7 +1878,7 @@
             {
               "name": "enrollment-decisions",
               "opacity": "1",
-              "height": 5813
+              "height": 6620
             },
             {
               "name": "enrollment-outcome",
@@ -1741,7 +1903,7 @@
           "detail": null
         },
         {
-          "name": "discovery and three journey screens remain explained, ordered and fitted",
+          "name": "discovery and four interface screens remain explained, ordered and fitted",
           "passed": true,
           "detail": [
             {
@@ -1779,7 +1941,29 @@
               "alt": "Portability stage with an explanation of waiting-period portability, request guidance, and closed normal and special portability categories beside the journey sidebar.",
               "font": "16px",
               "outside": false
+            },
+            {
+              "name": "enrollment-submission-title",
+              "images": 1,
+              "copyFirst": true,
+              "copyAbove": true,
+              "alt": "Proposal submitted for analysis, with a protocol number, instructions to wait for email contact, and a placeholder tracking address; approval is not shown.",
+              "font": "16px",
+              "outside": false
             }
+          ]
+        },
+        {
+          "name": "exact final selection; omitted screens absent",
+          "passed": true,
+          "detail": [
+            "Desk%20Research.png",
+            "new-enrollment-journey-simulator.jpg",
+            "old-enrollment-journey-simulator.jpg",
+            "parentesco.png",
+            "dados-parente.png",
+            "portabilidade-2.png",
+            "submission-analysis.webp"
           ]
         },
         {
@@ -1879,7 +2063,7 @@
           "detail": {
             "x25": 400.0,
             "x75": 1040.0,
-            "y": 328.078125
+            "y": 330.078125
           }
         },
         {
@@ -1946,7 +2130,7 @@
         {
           "name": "enrollment-decisions",
           "opacity": "0",
-          "height": 5813
+          "height": 6620
         },
         {
           "name": "enrollment-outcome",
@@ -1959,7 +2143,7 @@
           "height": 830
         }
       ],
-      "wheelSteps": 42,
+      "wheelSteps": 46,
       "seenHeadingsDuringWheel": [
         "A fragmented journey, dependent on support.",
         "Eligibility within the journey",
@@ -1973,7 +2157,8 @@
         "Proposal volume grew 171% year over year.",
         "Remove mandatory pre-registration",
         "Reorganize steps around the user's mental model",
-        "Structured status visibility throughout"
+        "Structured status visibility throughout",
+        "Submitted for analysis, with a reference for what comes next"
       ],
       "finalSections": [
         {
@@ -1999,7 +2184,7 @@
         {
           "name": "enrollment-decisions",
           "opacity": "1",
-          "height": 5813
+          "height": 6620
         },
         {
           "name": "enrollment-outcome",
@@ -2144,6 +2329,28 @@
             1280,
             800
           ]
+        },
+        {
+          "src": "../assets/images/enrollment/submission-analysis.webp",
+          "natural": [
+            1920,
+            738
+          ],
+          "intrinsic": [
+            1280,
+            492
+          ],
+          "declared": [
+            "1920",
+            "738"
+          ],
+          "alt": "Proposal submitted for analysis, with a protocol number, instructions to wait for email contact, and a placeholder tracking address; approval is not shown.",
+          "loading": "lazy",
+          "decoding": "async",
+          "rect": [
+            1280,
+            492
+          ]
         }
       ],
       "integratedEvidence": [
@@ -2182,11 +2389,20 @@
           "alt": "Portability stage with an explanation of waiting-period portability, request guidance, and closed normal and special portability categories beside the journey sidebar.",
           "font": "16px",
           "outside": false
+        },
+        {
+          "name": "enrollment-submission-title",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "alt": "Proposal submitted for analysis, with a protocol number, instructions to wait for email contact, and a placeholder tracking address; approval is not shown.",
+          "font": "16px",
+          "outside": false
         }
       ],
       "composition": {
-        "copyBottom": -3694.921875,
-        "imageTop": -3654.921875,
+        "copyBottom": -4882.921875,
+        "imageTop": -4842.921875,
         "comparisonWidth": 1280,
         "fonts": [
           "16px",
@@ -2275,7 +2491,7 @@
             {
               "name": "enrollment-decisions",
               "opacity": "1",
-              "height": 4548
+              "height": 5380
             },
             {
               "name": "enrollment-outcome",
@@ -2300,7 +2516,7 @@
           "detail": null
         },
         {
-          "name": "discovery and three journey screens remain explained, ordered and fitted",
+          "name": "discovery and four interface screens remain explained, ordered and fitted",
           "passed": true,
           "detail": [
             {
@@ -2338,7 +2554,29 @@
               "alt": "Portability stage with an explanation of waiting-period portability, request guidance, and closed normal and special portability categories beside the journey sidebar.",
               "font": "16px",
               "outside": false
+            },
+            {
+              "name": "enrollment-submission-title",
+              "images": 1,
+              "copyFirst": true,
+              "copyAbove": true,
+              "alt": "Proposal submitted for analysis, with a protocol number, instructions to wait for email contact, and a placeholder tracking address; approval is not shown.",
+              "font": "16px",
+              "outside": false
             }
+          ]
+        },
+        {
+          "name": "exact final selection; omitted screens absent",
+          "passed": true,
+          "detail": [
+            "Desk%20Research.png",
+            "new-enrollment-journey-simulator.jpg",
+            "old-enrollment-journey-simulator.jpg",
+            "parentesco.png",
+            "dados-parente.png",
+            "portabilidade-2.png",
+            "submission-analysis.webp"
           ]
         },
         {
@@ -2505,7 +2743,7 @@
         {
           "name": "enrollment-decisions",
           "opacity": "1",
-          "height": 4548
+          "height": 5380
         },
         {
           "name": "enrollment-outcome",
@@ -2518,7 +2756,7 @@
           "height": 766
         }
       ],
-      "wheelSteps": 43,
+      "wheelSteps": 47,
       "seenHeadingsDuringWheel": [
         "A fragmented journey, dependent on support.",
         "Eligibility within the journey",
@@ -2532,7 +2770,8 @@
         "Proposal volume grew 171% year over year.",
         "Remove mandatory pre-registration",
         "Reorganize steps around the user's mental model",
-        "Structured status visibility throughout"
+        "Structured status visibility throughout",
+        "Submitted for analysis, with a reference for what comes next"
       ],
       "finalSections": [
         {
@@ -2558,7 +2797,7 @@
         {
           "name": "enrollment-decisions",
           "opacity": "1",
-          "height": 4548
+          "height": 5380
         },
         {
           "name": "enrollment-outcome",
@@ -2703,6 +2942,28 @@
             272,
             170
           ]
+        },
+        {
+          "src": "../assets/images/enrollment/submission-analysis.webp",
+          "natural": [
+            1920,
+            738
+          ],
+          "intrinsic": [
+            272,
+            105
+          ],
+          "declared": [
+            "1920",
+            "738"
+          ],
+          "alt": "Proposal submitted for analysis, with a protocol number, instructions to wait for email contact, and a placeholder tracking address; approval is not shown.",
+          "loading": "lazy",
+          "decoding": "async",
+          "rect": [
+            272,
+            104.546875
+          ]
         }
       ],
       "integratedEvidence": [
@@ -2741,11 +3002,20 @@
           "alt": "Portability stage with an explanation of waiting-period portability, request guidance, and closed normal and special portability categories beside the journey sidebar.",
           "font": "16px",
           "outside": false
+        },
+        {
+          "name": "enrollment-submission-title",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "alt": "Proposal submitted for analysis, with a protocol number, instructions to wait for email contact, and a placeholder tracking address; approval is not shown.",
+          "font": "16px",
+          "outside": false
         }
       ],
       "composition": {
-        "copyBottom": -1901.1875,
-        "imageTop": -1861.1875,
+        "copyBottom": -3094.1875,
+        "imageTop": -3054.1875,
         "comparisonWidth": 272,
         "fonts": [
           "16px",
@@ -2834,7 +3104,7 @@
             {
               "name": "enrollment-decisions",
               "opacity": "1",
-              "height": 4279
+              "height": 5022
             },
             {
               "name": "enrollment-outcome",
@@ -2859,7 +3129,7 @@
           "detail": null
         },
         {
-          "name": "discovery and three journey screens remain explained, ordered and fitted",
+          "name": "discovery and four interface screens remain explained, ordered and fitted",
           "passed": true,
           "detail": [
             {
@@ -2897,7 +3167,29 @@
               "alt": "Portability stage with an explanation of waiting-period portability, request guidance, and closed normal and special portability categories beside the journey sidebar.",
               "font": "16px",
               "outside": false
+            },
+            {
+              "name": "enrollment-submission-title",
+              "images": 1,
+              "copyFirst": true,
+              "copyAbove": true,
+              "alt": "Proposal submitted for analysis, with a protocol number, instructions to wait for email contact, and a placeholder tracking address; approval is not shown.",
+              "font": "16px",
+              "outside": false
             }
+          ]
+        },
+        {
+          "name": "exact final selection; omitted screens absent",
+          "passed": true,
+          "detail": [
+            "Desk%20Research.png",
+            "new-enrollment-journey-simulator.jpg",
+            "old-enrollment-journey-simulator.jpg",
+            "parentesco.png",
+            "dados-parente.png",
+            "portabilidade-2.png",
+            "submission-analysis.webp"
           ]
         },
         {
@@ -3064,7 +3356,7 @@
         {
           "name": "enrollment-decisions",
           "opacity": "1",
-          "height": 4279
+          "height": 5022
         },
         {
           "name": "enrollment-outcome",
@@ -3077,7 +3369,7 @@
           "height": 766
         }
       ],
-      "wheelSteps": 40,
+      "wheelSteps": 43,
       "seenHeadingsDuringWheel": [
         "A fragmented journey, dependent on support.",
         "Eligibility within the journey",
@@ -3091,7 +3383,8 @@
         "Proposal volume grew 171% year over year.",
         "Remove mandatory pre-registration",
         "Reorganize steps around the user's mental model",
-        "Structured status visibility throughout"
+        "Structured status visibility throughout",
+        "Submitted for analysis, with a reference for what comes next"
       ],
       "finalSections": [
         {
@@ -3117,7 +3410,7 @@
         {
           "name": "enrollment-decisions",
           "opacity": "1",
-          "height": 4279
+          "height": 5022
         },
         {
           "name": "enrollment-outcome",
@@ -3262,6 +3555,28 @@
             327,
             204.375
           ]
+        },
+        {
+          "src": "../assets/images/enrollment/submission-analysis.webp",
+          "natural": [
+            1920,
+            738
+          ],
+          "intrinsic": [
+            327,
+            126
+          ],
+          "declared": [
+            "1920",
+            "738"
+          ],
+          "alt": "Proposal submitted for analysis, with a protocol number, instructions to wait for email contact, and a placeholder tracking address; approval is not shown.",
+          "loading": "lazy",
+          "decoding": "async",
+          "rect": [
+            327,
+            125.6875
+          ]
         }
       ],
       "integratedEvidence": [
@@ -3300,11 +3615,20 @@
           "alt": "Portability stage with an explanation of waiting-period portability, request guidance, and closed normal and special portability categories beside the journey sidebar.",
           "font": "16px",
           "outside": false
+        },
+        {
+          "name": "enrollment-submission-title",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "alt": "Proposal submitted for analysis, with a protocol number, instructions to wait for email contact, and a placeholder tracking address; approval is not shown.",
+          "font": "16px",
+          "outside": false
         }
       ],
       "composition": {
-        "copyBottom": -1879.859375,
-        "imageTop": -1839.859375,
+        "copyBottom": -2965.859375,
+        "imageTop": -2925.859375,
         "comparisonWidth": 327,
         "fonts": [
           "16px",
@@ -3393,7 +3717,7 @@
             {
               "name": "enrollment-decisions",
               "opacity": "1",
-              "height": 4240
+              "height": 4832
             },
             {
               "name": "enrollment-outcome",
@@ -3418,7 +3742,7 @@
           "detail": null
         },
         {
-          "name": "discovery and three journey screens remain explained, ordered and fitted",
+          "name": "discovery and four interface screens remain explained, ordered and fitted",
           "passed": true,
           "detail": [
             {
@@ -3456,7 +3780,29 @@
               "alt": "Portability stage with an explanation of waiting-period portability, request guidance, and closed normal and special portability categories beside the journey sidebar.",
               "font": "16px",
               "outside": false
+            },
+            {
+              "name": "enrollment-submission-title",
+              "images": 1,
+              "copyFirst": true,
+              "copyAbove": true,
+              "alt": "Proposal submitted for analysis, with a protocol number, instructions to wait for email contact, and a placeholder tracking address; approval is not shown.",
+              "font": "16px",
+              "outside": false
             }
+          ]
+        },
+        {
+          "name": "exact final selection; omitted screens absent",
+          "passed": true,
+          "detail": [
+            "Desk%20Research.png",
+            "new-enrollment-journey-simulator.jpg",
+            "old-enrollment-journey-simulator.jpg",
+            "parentesco.png",
+            "dados-parente.png",
+            "portabilidade-2.png",
+            "submission-analysis.webp"
           ]
         },
         {
@@ -3623,7 +3969,7 @@
         {
           "name": "enrollment-decisions",
           "opacity": "1",
-          "height": 4240
+          "height": 4832
         },
         {
           "name": "enrollment-outcome",
@@ -3636,7 +3982,7 @@
           "height": 738
         }
       ],
-      "wheelSteps": 35,
+      "wheelSteps": 38,
       "seenHeadingsDuringWheel": [
         "A fragmented journey, dependent on support.",
         "Eligibility within the journey",
@@ -3650,7 +3996,8 @@
         "Proposal volume grew 171% year over year.",
         "Remove mandatory pre-registration",
         "Reorganize steps around the user's mental model",
-        "Structured status visibility throughout"
+        "Structured status visibility throughout",
+        "Submitted for analysis, with a reference for what comes next"
       ],
       "finalSections": [
         {
@@ -3676,7 +4023,7 @@
         {
           "name": "enrollment-decisions",
           "opacity": "1",
-          "height": 4240
+          "height": 4832
         },
         {
           "name": "enrollment-outcome",
@@ -3821,6 +4168,28 @@
             720,
             450
           ]
+        },
+        {
+          "src": "../assets/images/enrollment/submission-analysis.webp",
+          "natural": [
+            1920,
+            738
+          ],
+          "intrinsic": [
+            720,
+            277
+          ],
+          "declared": [
+            "1920",
+            "738"
+          ],
+          "alt": "Proposal submitted for analysis, with a protocol number, instructions to wait for email contact, and a placeholder tracking address; approval is not shown.",
+          "loading": "lazy",
+          "decoding": "async",
+          "rect": [
+            720,
+            276.75
+          ]
         }
       ],
       "integratedEvidence": [
@@ -3859,11 +4228,20 @@
           "alt": "Portability stage with an explanation of waiting-period portability, request guidance, and closed normal and special portability categories beside the journey sidebar.",
           "font": "16px",
           "outside": false
+        },
+        {
+          "name": "enrollment-submission-title",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "alt": "Proposal submitted for analysis, with a protocol number, instructions to wait for email contact, and a placeholder tracking address; approval is not shown.",
+          "font": "16px",
+          "outside": false
         }
       ],
       "composition": {
-        "copyBottom": -2383.546875,
-        "imageTop": -2343.546875,
+        "copyBottom": -3301.546875,
+        "imageTop": -3261.546875,
         "comparisonWidth": 720,
         "fonts": [
           "16px",
@@ -3952,7 +4330,7 @@
             {
               "name": "enrollment-decisions",
               "opacity": "1",
-              "height": 5813
+              "height": 6620
             },
             {
               "name": "enrollment-outcome",
@@ -3977,7 +4355,7 @@
           "detail": null
         },
         {
-          "name": "discovery and three journey screens remain explained, ordered and fitted",
+          "name": "discovery and four interface screens remain explained, ordered and fitted",
           "passed": true,
           "detail": [
             {
@@ -4015,7 +4393,29 @@
               "alt": "Portability stage with an explanation of waiting-period portability, request guidance, and closed normal and special portability categories beside the journey sidebar.",
               "font": "16px",
               "outside": false
+            },
+            {
+              "name": "enrollment-submission-title",
+              "images": 1,
+              "copyFirst": true,
+              "copyAbove": true,
+              "alt": "Proposal submitted for analysis, with a protocol number, instructions to wait for email contact, and a placeholder tracking address; approval is not shown.",
+              "font": "16px",
+              "outside": false
             }
+          ]
+        },
+        {
+          "name": "exact final selection; omitted screens absent",
+          "passed": true,
+          "detail": [
+            "Desk%20Research.png",
+            "new-enrollment-journey-simulator.jpg",
+            "old-enrollment-journey-simulator.jpg",
+            "parentesco.png",
+            "dados-parente.png",
+            "portabilidade-2.png",
+            "submission-analysis.webp"
           ]
         },
         {
@@ -4182,7 +4582,7 @@
         {
           "name": "enrollment-decisions",
           "opacity": "1",
-          "height": 5813
+          "height": 6620
         },
         {
           "name": "enrollment-outcome",
@@ -4195,7 +4595,7 @@
           "height": 830
         }
       ],
-      "wheelSteps": 42,
+      "wheelSteps": 46,
       "seenHeadingsDuringWheel": [
         "A fragmented journey, dependent on support.",
         "Eligibility within the journey",
@@ -4209,7 +4609,8 @@
         "Proposal volume grew 171% year over year.",
         "Remove mandatory pre-registration",
         "Reorganize steps around the user's mental model",
-        "Structured status visibility throughout"
+        "Structured status visibility throughout",
+        "Submitted for analysis, with a reference for what comes next"
       ],
       "finalSections": [
         {
@@ -4235,7 +4636,7 @@
         {
           "name": "enrollment-decisions",
           "opacity": "1",
-          "height": 5813
+          "height": 6620
         },
         {
           "name": "enrollment-outcome",
@@ -4380,6 +4781,28 @@
             1280,
             800
           ]
+        },
+        {
+          "src": "../assets/images/enrollment/submission-analysis.webp",
+          "natural": [
+            1920,
+            738
+          ],
+          "intrinsic": [
+            1280,
+            492
+          ],
+          "declared": [
+            "1920",
+            "738"
+          ],
+          "alt": "Proposal submitted for analysis, with a protocol number, instructions to wait for email contact, and a placeholder tracking address; approval is not shown.",
+          "loading": "lazy",
+          "decoding": "async",
+          "rect": [
+            1280,
+            492
+          ]
         }
       ],
       "integratedEvidence": [
@@ -4418,11 +4841,20 @@
           "alt": "Portability stage with an explanation of waiting-period portability, request guidance, and closed normal and special portability categories beside the journey sidebar.",
           "font": "16px",
           "outside": false
+        },
+        {
+          "name": "enrollment-submission-title",
+          "images": 1,
+          "copyFirst": true,
+          "copyAbove": true,
+          "alt": "Proposal submitted for analysis, with a protocol number, instructions to wait for email contact, and a placeholder tracking address; approval is not shown.",
+          "font": "16px",
+          "outside": false
         }
       ],
       "composition": {
-        "copyBottom": -3694.921875,
-        "imageTop": -3654.921875,
+        "copyBottom": -4882.921875,
+        "imageTop": -4842.921875,
         "comparisonWidth": 1280,
         "fonts": [
           "16px",
@@ -4462,7 +4894,7 @@
   ],
   "errors": [],
   "summary": {
-    "passed": 244,
+    "passed": 252,
     "failed": 0
   }
 }

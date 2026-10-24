@@ -54,7 +54,7 @@ def matrix(browser):
     report = {'browser': browser.version, 'environment': 'Windows, Python Playwright, headless Chromium; emulated viewport/motion/touch',
               'testedCommit': subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip(),
               'integrationTip': subprocess.check_output(['git', 'rev-parse', 'integration/enrollment-visual-narrative'], cwd=ROOT, text=True).strip(),
-              'url': URL, 'scope': 'Ticket 03 plus the complete currently integrated page; final five-image acceptance is not claimed.',
+              'url': URL, 'scope': 'Final combined Enrollment page: one discovery board, four interface screens and one comparison, after all four implementation slices merged.',
               'preservationExclusions': 'Runtime section-root animation styles and asynchronously injected Clarity scripts; authored analytics/head source is checked separately against f8f9034.',
               'cases': [], 'errors': []}
     before = json.loads((OUT / 'protected-before.json').read_text(encoding='utf-8'))
@@ -127,7 +127,7 @@ def matrix(browser):
                 case['images'] = images
                 check('all current images loaded and proportional', all(i['natural'][0] > 0 and abs(i['rect'][0] / i['rect'][1] - i['natural'][0] / i['natural'][1]) < .005 for i in images))
                 # Recheck evidence already delivered by other slices on this merged page.
-                evidence = page.locator('.enrollment-discovery, .enrollment-journey-evidence').evaluate_all('''es => es.map(e => {
+                evidence = page.locator('.enrollment-discovery, .enrollment-journey-evidence, .enrollment-submission-evidence').evaluate_all('''es => es.map(e => {
                     const image=e.querySelector('img'), copy=e.querySelector('figcaption') || e.querySelector('p:last-of-type'),
                         a=copy.getBoundingClientRect(), b=image.getBoundingClientRect();
                     return {name:e.getAttribute('aria-labelledby'), images:e.querySelectorAll('img').length,
@@ -137,8 +137,12 @@ def matrix(browser):
                         outside:[...e.querySelectorAll('*')].some(n=>{const r=n.getBoundingClientRect();return r.left < -1 || r.right > innerWidth+1;})};
                 })''')
                 case['integratedEvidence'] = evidence
-                check('discovery and three journey screens remain explained, ordered and fitted', len(evidence) == 4 and all(
+                check('discovery and four interface screens remain explained, ordered and fitted', len(evidence) == 5 and all(
                     e['images'] == 1 and e['copyFirst'] and e['copyAbove'] and len(e['alt']) > 60 and e['font'] == '16px' and not e['outside'] for e in evidence), evidence)
+                selected = [i['src'].rsplit('/', 1)[-1] for i in images]
+                check('exact final selection; omitted screens absent', len(selected) == 7 and set(selected) == {
+                    'Desk%20Research.png', 'parentesco.png', 'dados-parente.png', 'portabilidade-2.png',
+                    'submission-analysis.webp', 'old-enrollment-journey-simulator.jpg', 'new-enrollment-journey-simulator.jpg'}, selected)
                 for item in evidence:
                     block = page.locator(f'[aria-labelledby="{item["name"]}"]')
                     block.screenshot(path=str(OUT / f'{prefix}-{item["name"]}.png'), style='.nav { visibility:hidden !important; }')

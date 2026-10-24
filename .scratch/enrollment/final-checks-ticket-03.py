@@ -6,6 +6,7 @@ from pathlib import Path
 import re
 import subprocess
 import sys
+from PIL import Image
 
 sys.path.insert(0, str(Path(os.environ['TEMP']) / 'portfolio-convenios-qa'))
 from playwright.sync_api import sync_playwright
@@ -52,6 +53,13 @@ with sync_playwright() as p:
         'labelWorstWhiteImage': contrast(rgba(colors['label']), over(rgba(colors['labelBackground']), [255, 255, 255, 1])),
         'handleArrows': contrast(rgba(colors['handle']), rgba(colors['handleBackground'])),
     }
+    orientation = page.locator('.enrollment-discovery__copy, .enrollment-journey-evidence p, .enrollment-submission-evidence p').evaluate_all('''es => es.map(e => ({
+        color:getComputedStyle(e).color, text:e.textContent.trim(),
+        backgrounds:(()=>{const a=[];for(let n=e;n&&n!==document.body;n=n.parentElement)a.push(getComputedStyle(n).backgroundColor);return a;})()
+    }))''')
+    for index, item in enumerate(orientation):
+        assert all(rgba(bg)[3] == 0 for bg in item['backgrounds']), item
+        measurements[f'integratedOrientation{index + 1}'] = contrast(rgba(item['color']), rgba(colors['body']))
     (OUT / 'contrast.json').write_text(json.dumps({'computedColors': colors, 'ratios': measurements,
         'method': 'WCAG relative sRGB luminance; alpha composited on computed body; label tested over worst-case white raster; handle arrows over white disc.'}, indent=2), encoding='utf-8')
     for name, value in measurements.items():
@@ -69,6 +77,26 @@ with sync_playwright() as p:
         page.wait_for_url('http://127.0.0.1:8123' + suffix)
         destinations.append(page.url)
     print('PASS actual navigation, back and next-project clicks')
+    contrast_matrix = []
+    for motion in ['no-preference', 'reduce']:
+        page.emulate_media(reduced_motion=motion)
+        for width in [320, 375, 768, 1440]:
+            page.set_viewport_size({'width': width, 'height': 900 if width == 1440 else 700})
+            page.goto('http://127.0.0.1:8123/case-studies/enrollment.html', wait_until='domcontentloaded')
+            page.evaluate('document.fonts.ready')
+            rendered = page.locator('.enrollment-comparison__guidance, .enrollment-discovery__copy, .enrollment-journey-evidence p, .enrollment-submission-evidence p').evaluate_all('''es => es.map(e => ({
+                color:getComputedStyle(e).color, body:getComputedStyle(document.body).backgroundColor,
+                font:getComputedStyle(e).fontSize,
+                backgrounds:(()=>{const a=[];for(let n=e;n&&n!==document.body;n=n.parentElement)a.push(getComputedStyle(n).backgroundColor);return a;})()
+            }))''')
+            for item in rendered:
+                assert all(rgba(bg)[3] == 0 for bg in item['backgrounds']), item
+                item['ratio'] = contrast(rgba(item['color']), rgba(item['body']))
+                assert item['ratio'] >= 4.5 and item['font'] == '16px', item
+            assert len(rendered) == 10, 'Three comparison instructions plus seven evidence explanations'
+            contrast_matrix.append({'width':width, 'height':900 if width == 1440 else 700, 'motion':motion, 'explanations':rendered})
+    (OUT / 'contrast-matrix.json').write_text(json.dumps(contrast_matrix, indent=2), encoding='utf-8')
+    print('PASS measured contrast and 16px guidance across all eight viewport/motion cases')
     browser.close()
 
 manifest = json.loads((ROOT / '.scratch/enrollment/presentation-assets-03.json').read_text(encoding='utf-8'))
@@ -79,10 +107,21 @@ for item in manifest['assets']:
     source = ROOT / item['source']
     assert hashlib.sha256(source.read_bytes()).hexdigest() == item['sha256']
     assert source.read_bytes() == subprocess.check_output(['git', 'show', f'f8f9034:{item["source"]}'], cwd=ROOT)
-assert not subprocess.check_output(['git', 'diff', 'f8f9034', '--', 'assets/images/enrollment',
+originals = subprocess.check_output(['git', 'ls-tree', '-r', '--name-only', 'f8f9034', 'assets/images/enrollment'], cwd=ROOT, text=True).splitlines()
+for original in originals:
+    assert (ROOT / original).read_bytes() == subprocess.check_output(['git', 'show', f'f8f9034:{original}'], cwd=ROOT), original
+submission = json.loads((ROOT / '.scratch/enrollment/presentation-assets-05.json').read_text(encoding='utf-8'))
+source = ROOT / submission['source']
+assert hashlib.sha256(source.read_bytes()).hexdigest() == submission['sourceSHA256']
+crop = Image.open(source).convert('RGBA').crop(tuple(submission['cropBoundsXYXY']))
+derivative = Image.open(ROOT / submission['presentation']).convert('RGBA')
+assert crop.size == derivative.size == tuple(submission['presentationDimensions'])
+assert crop.tobytes() == derivative.tobytes(), 'Submission derivative must retain exact source crop pixels'
+assert not subprocess.check_output(['git', 'diff', 'f8f9034', '--',
     'assets/js', 'assets/css/case-study.css', 'assets/css/global.css',
     '.scratch/enrollment/issues/01-metric-definition.md'], cwd=ROOT), 'Originals/shared behavior/issue01 preserved'
-result = {'assetIntegrityAndManifest': True, 'issue01Unchanged': True, 'sharedStylesAndScriptsUnchanged': True, 'authoredHeadAndAnalyticsUnchanged': True,
+result = {'assetIntegrityAndManifest': True, 'originalsByteUnchanged': len(originals), 'submissionCropPixelIdentity': True, 'issue01Unchanged': True, 'sharedStylesAndScriptsUnchanged': True, 'authoredHeadAndAnalyticsUnchanged': True,
+          'orientationContrastMatrixCases': len(contrast_matrix),
           'proposalGrowthPercent': (1105 - 408) / 408 * 100, 'contrast': measurements,
           'clickedDestinations': destinations}
 (OUT / 'final-checks.json').write_text(json.dumps(result, indent=2), encoding='utf-8')

@@ -10,7 +10,14 @@
   "ratios": {
     "guidance": 7.550402230717409,
     "labelWorstWhiteImage": 19.084682213573785,
-    "handleArrows": 19.084682213573785
+    "handleArrows": 19.084682213573785,
+    "integratedOrientation1": 7.550402230717409,
+    "integratedOrientation2": 7.550402230717409,
+    "integratedOrientation3": 7.550402230717409,
+    "integratedOrientation4": 7.550402230717409,
+    "integratedOrientation5": 7.550402230717409,
+    "integratedOrientation6": 7.550402230717409,
+    "integratedOrientation7": 7.550402230717409
   },
   "method": "WCAG relative sRGB luminance; alpha composited on computed body; label tested over worst-case white raster; handle arrows over white disc."
 }

@@ -1,13 +1,23 @@
 {
   "assetIntegrityAndManifest": true,
+  "originalsByteUnchanged": 18,
+  "submissionCropPixelIdentity": true,
   "issue01Unchanged": true,
   "sharedStylesAndScriptsUnchanged": true,
   "authoredHeadAndAnalyticsUnchanged": true,
+  "orientationContrastMatrixCases": 8,
   "proposalGrowthPercent": 170.83333333333331,
   "contrast": {
     "guidance": 7.550402230717409,
     "labelWorstWhiteImage": 19.084682213573785,
-    "handleArrows": 19.084682213573785
+    "handleArrows": 19.084682213573785,
+    "integratedOrientation1": 7.550402230717409,
+    "integratedOrientation2": 7.550402230717409,
+    "integratedOrientation3": 7.550402230717409,
+    "integratedOrientation4": 7.550402230717409,
+    "integratedOrientation5": 7.550402230717409,
+    "integratedOrientation6": 7.550402230717409,
+    "integratedOrientation7": 7.550402230717409
   },
   "clickedDestinations": [
     "http://127.0.0.1:8123/",
