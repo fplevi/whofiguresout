@@ -199,26 +199,19 @@
       </figure>
     </section>
 
-    <!-- Maintenance argument retained for the implementation slice. -->
-    <section class="cs-section" aria-labelledby="harmony-decisions">
-      <span class="section-tag cs-section__tag">The Decisions</span>
-      <h2 class="cs-section__title" id="harmony-decisions">Supporting the product ecosystem.</h2>
-      <div class="cs-decisions cs-decisions--stacked">
-        <div class="cs-decision">
-          <div class="cs-decision__left">
-            <span class="cs-decision__number">01</span>
-            <h3 class="cs-decision__title">React + Next.js for the product ecosystem</h3>
-            <p class="cs-decision__body">
-              React and Next.js were chosen with long-term maintenance and hiring in mind. The intent was to give development a shared technical foundation as new projects adopt Harmony and existing products migrate.
-            </p>
-            <p class="cs-decision__note">
-              <span class="cs-decision__note-icon cs-decision__note-icon--maintenance" aria-hidden="true"></span>
-              <span>Long-term maintenance guided the technology choice.</span>
-            </p>
-          </div>
-        </div>
-
-      </div>
+    <!-- Documentation connects design decisions to implementation in partnership. -->
+    <section class="harmony-storybook" aria-labelledby="harmony-storybook">
+      <span class="section-tag cs-section__tag">Documentation and implementation</span>
+      <h2 class="cs-section__title" id="harmony-storybook">Button properties in Storybook</h2>
+      <p class="harmony-evidence__body" id="harmony-storybook-copy">The Button preview sits alongside named properties: children supplies the label, variant shows solid, and size lists sm and md. Storybook provides a reference for documenting components and discussing their implementation with development.</p>
+      <p class="harmony-evidence__body">React and Next.js were chosen with long-term maintenance and hiring in mind. The intent was to give development a shared technical foundation as new projects adopt Harmony and existing products migrate. I lead design and the ongoing evolution of components; the development team implements the React library in partnership with me.</p>
+      <figure aria-labelledby="harmony-storybook" aria-describedby="harmony-storybook-copy">
+        <picture>
+          <source media="(min-width: 1025px)" srcset="../assets/images/harmony/editorial/storybook-button-properties-wide.png" width="1920" height="980" />
+          <img src="../assets/images/harmony/editorial/storybook-button-selected-properties-mobile.png" width="350" height="640" loading="lazy" decoding="async" alt="Storybook Button preview with children set to Button, variant set to solid, and visible sm and md size choices. Narrow screens pair selected Name and Control column excerpts beneath the preview." />
+        </picture>
+        <figcaption>Static documentation evidence. On narrow screens, separate source excerpts pair property names with their values beneath the preview. The capture does not demonstrate executed interactions or passed tests.</figcaption>
+      </figure>
     </section>
 
     <!-- The Outcome -->

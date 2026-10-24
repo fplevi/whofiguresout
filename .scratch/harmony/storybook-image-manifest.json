@@ -1,0 +1,177 @@
+{
+  "coordinateSystem": "(x0,y0,x1,y1), right and bottom exclusive; pasteAt=(x,y)",
+  "derivatives": [
+    {
+      "source": "assets/images/harmony/storybook-2.png",
+      "sourceDimensions": [
+        1920,
+        1200
+      ],
+      "sourceSha256": "7e870b1eeb0ea2b2b6dc32b4e52b7f60588c4dc112b9ee7a85e28b364c111d5b",
+      "derivative": "assets/images/harmony/editorial/storybook-button-properties-wide.png",
+      "dimensions": [
+        1920,
+        980
+      ],
+      "sha256": "6023fd82a4ce8c69c4017cab7d46a928e22d6f073b588b9fc04b00791137539f",
+      "bytes": 71326,
+      "format": "PNG, lossless RGB, optimize=True; no resize or redrawing",
+      "background": "#222324",
+      "fragments": [
+        {
+          "crop": [
+            0,
+            220,
+            1920,
+            1200
+          ],
+          "pasteAt": [
+            0,
+            0
+          ]
+        }
+      ],
+      "purposeAndRetainedContext": "Button preview above the original property table; retains Controls, Name/Control headings, onPress, children, variant, and the visible sm/md size choices. Removes only upper toolbar and empty preview space."
+    },
+    {
+      "source": "assets/images/harmony/storybook-2.png",
+      "sourceDimensions": [
+        1920,
+        1200
+      ],
+      "sourceSha256": "7e870b1eeb0ea2b2b6dc32b4e52b7f60588c4dc112b9ee7a85e28b364c111d5b",
+      "derivative": "assets/images/harmony/editorial/storybook-button-selected-properties-mobile.png",
+      "dimensions": [
+        350,
+        640
+      ],
+      "sha256": "6cdfd032b2f6b0d6e672541617747fa2cebbad81a0d5143f23f63150c043471a",
+      "bytes": 34189,
+      "format": "PNG, lossless RGB, optimize=True; no resize or redrawing",
+      "background": "#222324",
+      "fragments": [
+        {
+          "crop": [
+            1230,
+            250,
+            1460,
+            400
+          ],
+          "pasteAt": [
+            60,
+            0
+          ]
+        },
+        {
+          "crop": [
+            24,
+            590,
+            156,
+            642
+          ],
+          "pasteAt": [
+            16,
+            174
+          ]
+        },
+        {
+          "crop": [
+            32,
+            676,
+            210,
+            738
+          ],
+          "pasteAt": [
+            0,
+            230
+          ]
+        },
+        {
+          "crop": [
+            700,
+            676,
+            860,
+            738
+          ],
+          "pasteAt": [
+            190,
+            230
+          ]
+        },
+        {
+          "crop": [
+            32,
+            846,
+            210,
+            938
+          ],
+          "pasteAt": [
+            0,
+            292
+          ]
+        },
+        {
+          "crop": [
+            700,
+            846,
+            860,
+            938
+          ],
+          "pasteAt": [
+            190,
+            292
+          ]
+        },
+        {
+          "crop": [
+            32,
+            960,
+            210,
+            1052
+          ],
+          "pasteAt": [
+            0,
+            384
+          ]
+        },
+        {
+          "crop": [
+            700,
+            960,
+            860,
+            1052
+          ],
+          "pasteAt": [
+            190,
+            384
+          ]
+        },
+        {
+          "crop": [
+            32,
+            1080,
+            210,
+            1196
+          ],
+          "pasteAt": [
+            0,
+            476
+          ]
+        },
+        {
+          "crop": [
+            700,
+            1080,
+            860,
+            1196
+          ],
+          "pasteAt": [
+            190,
+            476
+          ]
+        }
+      ],
+      "purposeAndRetainedContext": "Editorial excerpts: Button preview, Controls label, then paired original Name/Control columns for children=Button, variant=solid, and visible size sm/md. Columns remain paired by source y-coordinate; gutters separate selections. Omits onPress, count, other tabs, and blank canvas. Does not reconstruct a Storybook screen or infer additional size options."
+    }
+  ]
+}

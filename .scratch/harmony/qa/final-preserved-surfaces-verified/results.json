@@ -1,0 +1,1138 @@
+{
+  "baseline": "f8f9034fb32de4b7839ac0a003db2bb791af883e",
+  "checks": [
+    {
+      "name": "320/original: hero poster loads and media has positive geometry",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "width": 1440,
+        "height": 900,
+        "renderWidth": 320,
+        "renderHeight": 144.4375,
+        "videoWidth": 1440,
+        "readyState": 4
+      }
+    },
+    {
+      "name": "320/original: keyboard activates Felipe Levi",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/original: keyboard activates \u2190 Back to work",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/original: keyboard activates Work",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/original: keyboard activates About",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/original: keyboard activates Contact",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/original: keyboard activates Billing & Debt Recovery \u2192",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/original: contact available without submission",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/current: hero poster loads and media has positive geometry",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "width": 1440,
+        "height": 900,
+        "renderWidth": 320,
+        "renderHeight": 144.4375,
+        "videoWidth": 1440,
+        "readyState": 4
+      }
+    },
+    {
+      "name": "320/current: keyboard activates Felipe Levi",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/current: keyboard activates \u2190 Back to work",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/current: keyboard activates Work",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/current: keyboard activates About",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/current: keyboard activates Contact",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/current: keyboard activates Billing & Debt Recovery \u2192",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320/current: contact available without submission",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "320: protected rendered text, names, destinations, media and form configuration match original",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/original: hero poster loads and media has positive geometry",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "width": 1440,
+        "height": 900,
+        "renderWidth": 375,
+        "renderHeight": 169.265625,
+        "videoWidth": 1440,
+        "readyState": 4
+      }
+    },
+    {
+      "name": "375/original: keyboard activates Felipe Levi",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/original: keyboard activates \u2190 Back to work",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/original: keyboard activates Work",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/original: keyboard activates About",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/original: keyboard activates Contact",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/original: keyboard activates Billing & Debt Recovery \u2192",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/original: contact available without submission",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/current: hero poster loads and media has positive geometry",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "width": 1440,
+        "height": 900,
+        "renderWidth": 375,
+        "renderHeight": 169.265625,
+        "videoWidth": 1440,
+        "readyState": 4
+      }
+    },
+    {
+      "name": "375/current: keyboard activates Felipe Levi",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/current: keyboard activates \u2190 Back to work",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/current: keyboard activates Work",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/current: keyboard activates About",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/current: keyboard activates Contact",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/current: keyboard activates Billing & Debt Recovery \u2192",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375/current: contact available without submission",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "375: protected rendered text, names, destinations, media and form configuration match original",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/original: hero poster loads and media has positive geometry",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "width": 1440,
+        "height": 900,
+        "renderWidth": 768,
+        "renderHeight": 346.65625,
+        "videoWidth": 1440,
+        "readyState": 4
+      }
+    },
+    {
+      "name": "768/original: keyboard activates Felipe Levi",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/original: keyboard activates \u2190 Back to work",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/original: keyboard activates Work",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/original: keyboard activates About",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/original: keyboard activates Contact",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/original: keyboard activates Billing & Debt Recovery \u2192",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/original: contact available without submission",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/current: hero poster loads and media has positive geometry",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "width": 1440,
+        "height": 900,
+        "renderWidth": 768,
+        "renderHeight": 346.65625,
+        "videoWidth": 1440,
+        "readyState": 4
+      }
+    },
+    {
+      "name": "768/current: keyboard activates Felipe Levi",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/current: keyboard activates \u2190 Back to work",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/current: keyboard activates Work",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/current: keyboard activates About",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/current: keyboard activates Contact",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/current: keyboard activates Billing & Debt Recovery \u2192",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768/current: contact available without submission",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "768: protected rendered text, names, destinations, media and form configuration match original",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/original: hero poster loads and media has positive geometry",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "width": 1440,
+        "height": 900,
+        "renderWidth": 1440,
+        "renderHeight": 650,
+        "videoWidth": 1440,
+        "readyState": 4
+      }
+    },
+    {
+      "name": "1440/original: keyboard activates Felipe Levi",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/original: keyboard activates \u2190 Back to work",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/original: keyboard activates Work",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/original: keyboard activates About",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/original: keyboard activates Contact",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/original: keyboard activates Billing & Debt Recovery \u2192",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/original: contact available without submission",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/current: hero poster loads and media has positive geometry",
+      "ok": true,
+      "detail": {
+        "loaded": true,
+        "width": 1440,
+        "height": 900,
+        "renderWidth": 1440,
+        "renderHeight": 650,
+        "videoWidth": 1440,
+        "readyState": 4
+      }
+    },
+    {
+      "name": "1440/current: keyboard activates Felipe Levi",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/current: keyboard activates \u2190 Back to work",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/current: keyboard activates Work",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/current: keyboard activates About",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/current: keyboard activates Contact",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/current: keyboard activates Billing & Debt Recovery \u2192",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440/current: contact available without submission",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "1440: protected rendered text, names, destinations, media and form configuration match original",
+      "ok": true,
+      "detail": null
+    }
+  ],
+  "comparisons": [
+    {
+      "width": 320,
+      "original": {
+        "title": "Harmony \u2014 Felipe Levi",
+        "header": "Felipe Levi\nWork\nContact\nAbout",
+        "nav": [
+          {
+            "name": "Felipe Levi",
+            "href": "../"
+          },
+          {
+            "name": "Work",
+            "href": "../#work"
+          },
+          {
+            "name": "Contact",
+            "href": "../#contact"
+          },
+          {
+            "name": "About",
+            "href": "../#about"
+          }
+        ],
+        "protectedCopy": [
+          "THE PROBLEM\nSeparate libraries. Repeated decisions.\n\nCASSI's five platforms had separate Figma libraries and no shared governance. That fragmentation showed up in everyday design work:\n\nLibrary updates had to be maintained separately across five platforms.\nTokens and patterns diverged as each library followed a different update cycle.\nTeams revisited component decisions and repeated design work across products.",
+          "MY ROLE\nLeading design, working with development.\n\nI led the design of Harmony, from organizational alignment and governance to components, tokens, and variables. The development team implements the React library in partnership with me. I continue to evolve existing components and design new ones, working with the team to keep the system up to date.",
+          "THE OUTCOME\nAdopted in new projects. Evolving with the team.\n\nHarmony is now the foundation for new projects at CASSI. Existing products are being migrated gradually, so adoption across the ecosystem remains an ongoing effort.\n\nThe work continues through updates to existing components and the design and implementation of new ones. I work with the development team to keep the system aligned as it evolves.",
+          "WORK IN PROGRESS\nPrototyping with AI, exploring the path to React.\n\nI am working with the development team to explore AI-assisted process automation. We are building libraries and skills to support functional HTML, CSS, and JavaScript prototypes for user validation.\n\nWe are also developing and evaluating a way to translate those prototypes into Harmony's React components. This work is still in development."
+        ],
+        "hero": {
+          "class": "cs-hero-image__img",
+          "src": "../assets/images/harmony/harmony-hero.mp4",
+          "poster": "../assets/images/harmony/harmony-hero-poster.webp",
+          "width": "1440",
+          "height": "900",
+          "autoplay": "",
+          "muted": "",
+          "loop": "",
+          "playsinline": ""
+        },
+        "form": {
+          "action": "https://formspree.io/f/mbdqyywl",
+          "method": "post",
+          "fields": [
+            {
+              "tag": "INPUT",
+              "type": "text",
+              "name": "name",
+              "placeholder": "Your name",
+              "label": "Your name",
+              "required": true
+            },
+            {
+              "tag": "INPUT",
+              "type": "email",
+              "name": "email",
+              "placeholder": "Your email",
+              "label": "Your email",
+              "required": true
+            },
+            {
+              "tag": "TEXTAREA",
+              "type": "textarea",
+              "name": "message",
+              "placeholder": "Your message",
+              "label": "Your message",
+              "required": true
+            },
+            {
+              "tag": "BUTTON",
+              "type": "submit",
+              "name": "",
+              "placeholder": null,
+              "label": null,
+              "required": null
+            }
+          ]
+        },
+        "contact": [
+          {
+            "name": "fplevi@gmail.com",
+            "href": "mailto:fplevi@gmail.com"
+          },
+          {
+            "name": "LinkedIn",
+            "href": "https://linkedin.com/in/fplevi"
+          }
+        ],
+        "next": "billing.html"
+      },
+      "current": {
+        "title": "Harmony \u2014 Felipe Levi",
+        "header": "Felipe Levi\nWork\nContact\nAbout",
+        "nav": [
+          {
+            "name": "Felipe Levi",
+            "href": "../"
+          },
+          {
+            "name": "Work",
+            "href": "../#work"
+          },
+          {
+            "name": "Contact",
+            "href": "../#contact"
+          },
+          {
+            "name": "About",
+            "href": "../#about"
+          }
+        ],
+        "protectedCopy": [
+          "THE PROBLEM\nSeparate libraries. Repeated decisions.\n\nCASSI's five platforms had separate Figma libraries and no shared governance. That fragmentation showed up in everyday design work:\n\nLibrary updates had to be maintained separately across five platforms.\nTokens and patterns diverged as each library followed a different update cycle.\nTeams revisited component decisions and repeated design work across products.",
+          "MY ROLE\nLeading design, working with development.\n\nI led the design of Harmony, from organizational alignment and governance to components, tokens, and variables. The development team implements the React library in partnership with me. I continue to evolve existing components and design new ones, working with the team to keep the system up to date.",
+          "THE OUTCOME\nAdopted in new projects. Evolving with the team.\n\nHarmony is now the foundation for new projects at CASSI. Existing products are being migrated gradually, so adoption across the ecosystem remains an ongoing effort.\n\nThe work continues through updates to existing components and the design and implementation of new ones. I work with the development team to keep the system aligned as it evolves.",
+          "WORK IN PROGRESS\nPrototyping with AI, exploring the path to React.\n\nI am working with the development team to explore AI-assisted process automation. We are building libraries and skills to support functional HTML, CSS, and JavaScript prototypes for user validation.\n\nWe are also developing and evaluating a way to translate those prototypes into Harmony's React components. This work is still in development."
+        ],
+        "hero": {
+          "class": "cs-hero-image__img",
+          "src": "../assets/images/harmony/harmony-hero.mp4",
+          "poster": "../assets/images/harmony/harmony-hero-poster.webp",
+          "width": "1440",
+          "height": "900",
+          "autoplay": "",
+          "muted": "",
+          "loop": "",
+          "playsinline": ""
+        },
+        "form": {
+          "action": "https://formspree.io/f/mbdqyywl",
+          "method": "post",
+          "fields": [
+            {
+              "tag": "INPUT",
+              "type": "text",
+              "name": "name",
+              "placeholder": "Your name",
+              "label": "Your name",
+              "required": true
+            },
+            {
+              "tag": "INPUT",
+              "type": "email",
+              "name": "email",
+              "placeholder": "Your email",
+              "label": "Your email",
+              "required": true
+            },
+            {
+              "tag": "TEXTAREA",
+              "type": "textarea",
+              "name": "message",
+              "placeholder": "Your message",
+              "label": "Your message",
+              "required": true
+            },
+            {
+              "tag": "BUTTON",
+              "type": "submit",
+              "name": "",
+              "placeholder": null,
+              "label": null,
+              "required": null
+            }
+          ]
+        },
+        "contact": [
+          {
+            "name": "fplevi@gmail.com",
+            "href": "mailto:fplevi@gmail.com"
+          },
+          {
+            "name": "LinkedIn",
+            "href": "https://linkedin.com/in/fplevi"
+          }
+        ],
+        "next": "billing.html"
+      }
+    },
+    {
+      "width": 375,
+      "original": {
+        "title": "Harmony \u2014 Felipe Levi",
+        "header": "Felipe Levi\nWork\nContact\nAbout",
+        "nav": [
+          {
+            "name": "Felipe Levi",
+            "href": "../"
+          },
+          {
+            "name": "Work",
+            "href": "../#work"
+          },
+          {
+            "name": "Contact",
+            "href": "../#contact"
+          },
+          {
+            "name": "About",
+            "href": "../#about"
+          }
+        ],
+        "protectedCopy": [
+          "THE PROBLEM\nSeparate libraries. Repeated decisions.\n\nCASSI's five platforms had separate Figma libraries and no shared governance. That fragmentation showed up in everyday design work:\n\nLibrary updates had to be maintained separately across five platforms.\nTokens and patterns diverged as each library followed a different update cycle.\nTeams revisited component decisions and repeated design work across products.",
+          "MY ROLE\nLeading design, working with development.\n\nI led the design of Harmony, from organizational alignment and governance to components, tokens, and variables. The development team implements the React library in partnership with me. I continue to evolve existing components and design new ones, working with the team to keep the system up to date.",
+          "THE OUTCOME\nAdopted in new projects. Evolving with the team.\n\nHarmony is now the foundation for new projects at CASSI. Existing products are being migrated gradually, so adoption across the ecosystem remains an ongoing effort.\n\nThe work continues through updates to existing components and the design and implementation of new ones. I work with the development team to keep the system aligned as it evolves.",
+          "WORK IN PROGRESS\nPrototyping with AI, exploring the path to React.\n\nI am working with the development team to explore AI-assisted process automation. We are building libraries and skills to support functional HTML, CSS, and JavaScript prototypes for user validation.\n\nWe are also developing and evaluating a way to translate those prototypes into Harmony's React components. This work is still in development."
+        ],
+        "hero": {
+          "class": "cs-hero-image__img",
+          "src": "../assets/images/harmony/harmony-hero.mp4",
+          "poster": "../assets/images/harmony/harmony-hero-poster.webp",
+          "width": "1440",
+          "height": "900",
+          "autoplay": "",
+          "muted": "",
+          "loop": "",
+          "playsinline": ""
+        },
+        "form": {
+          "action": "https://formspree.io/f/mbdqyywl",
+          "method": "post",
+          "fields": [
+            {
+              "tag": "INPUT",
+              "type": "text",
+              "name": "name",
+              "placeholder": "Your name",
+              "label": "Your name",
+              "required": true
+            },
+            {
+              "tag": "INPUT",
+              "type": "email",
+              "name": "email",
+              "placeholder": "Your email",
+              "label": "Your email",
+              "required": true
+            },
+            {
+              "tag": "TEXTAREA",
+              "type": "textarea",
+              "name": "message",
+              "placeholder": "Your message",
+              "label": "Your message",
+              "required": true
+            },
+            {
+              "tag": "BUTTON",
+              "type": "submit",
+              "name": "",
+              "placeholder": null,
+              "label": null,
+              "required": null
+            }
+          ]
+        },
+        "contact": [
+          {
+            "name": "fplevi@gmail.com",
+            "href": "mailto:fplevi@gmail.com"
+          },
+          {
+            "name": "LinkedIn",
+            "href": "https://linkedin.com/in/fplevi"
+          }
+        ],
+        "next": "billing.html"
+      },
+      "current": {
+        "title": "Harmony \u2014 Felipe Levi",
+        "header": "Felipe Levi\nWork\nContact\nAbout",
+        "nav": [
+          {
+            "name": "Felipe Levi",
+            "href": "../"
+          },
+          {
+            "name": "Work",
+            "href": "../#work"
+          },
+          {
+            "name": "Contact",
+            "href": "../#contact"
+          },
+          {
+            "name": "About",
+            "href": "../#about"
+          }
+        ],
+        "protectedCopy": [
+          "THE PROBLEM\nSeparate libraries. Repeated decisions.\n\nCASSI's five platforms had separate Figma libraries and no shared governance. That fragmentation showed up in everyday design work:\n\nLibrary updates had to be maintained separately across five platforms.\nTokens and patterns diverged as each library followed a different update cycle.\nTeams revisited component decisions and repeated design work across products.",
+          "MY ROLE\nLeading design, working with development.\n\nI led the design of Harmony, from organizational alignment and governance to components, tokens, and variables. The development team implements the React library in partnership with me. I continue to evolve existing components and design new ones, working with the team to keep the system up to date.",
+          "THE OUTCOME\nAdopted in new projects. Evolving with the team.\n\nHarmony is now the foundation for new projects at CASSI. Existing products are being migrated gradually, so adoption across the ecosystem remains an ongoing effort.\n\nThe work continues through updates to existing components and the design and implementation of new ones. I work with the development team to keep the system aligned as it evolves.",
+          "WORK IN PROGRESS\nPrototyping with AI, exploring the path to React.\n\nI am working with the development team to explore AI-assisted process automation. We are building libraries and skills to support functional HTML, CSS, and JavaScript prototypes for user validation.\n\nWe are also developing and evaluating a way to translate those prototypes into Harmony's React components. This work is still in development."
+        ],
+        "hero": {
+          "class": "cs-hero-image__img",
+          "src": "../assets/images/harmony/harmony-hero.mp4",
+          "poster": "../assets/images/harmony/harmony-hero-poster.webp",
+          "width": "1440",
+          "height": "900",
+          "autoplay": "",
+          "muted": "",
+          "loop": "",
+          "playsinline": ""
+        },
+        "form": {
+          "action": "https://formspree.io/f/mbdqyywl",
+          "method": "post",
+          "fields": [
+            {
+              "tag": "INPUT",
+              "type": "text",
+              "name": "name",
+              "placeholder": "Your name",
+              "label": "Your name",
+              "required": true
+            },
+            {
+              "tag": "INPUT",
+              "type": "email",
+              "name": "email",
+              "placeholder": "Your email",
+              "label": "Your email",
+              "required": true
+            },
+            {
+              "tag": "TEXTAREA",
+              "type": "textarea",
+              "name": "message",
+              "placeholder": "Your message",
+              "label": "Your message",
+              "required": true
+            },
+            {
+              "tag": "BUTTON",
+              "type": "submit",
+              "name": "",
+              "placeholder": null,
+              "label": null,
+              "required": null
+            }
+          ]
+        },
+        "contact": [
+          {
+            "name": "fplevi@gmail.com",
+            "href": "mailto:fplevi@gmail.com"
+          },
+          {
+            "name": "LinkedIn",
+            "href": "https://linkedin.com/in/fplevi"
+          }
+        ],
+        "next": "billing.html"
+      }
+    },
+    {
+      "width": 768,
+      "original": {
+        "title": "Harmony \u2014 Felipe Levi",
+        "header": "Felipe Levi\nWork\nContact\nAbout",
+        "nav": [
+          {
+            "name": "Felipe Levi",
+            "href": "../"
+          },
+          {
+            "name": "Work",
+            "href": "../#work"
+          },
+          {
+            "name": "Contact",
+            "href": "../#contact"
+          },
+          {
+            "name": "About",
+            "href": "../#about"
+          }
+        ],
+        "protectedCopy": [
+          "THE PROBLEM\nSeparate libraries. Repeated decisions.\n\nCASSI's five platforms had separate Figma libraries and no shared governance. That fragmentation showed up in everyday design work:\n\nLibrary updates had to be maintained separately across five platforms.\nTokens and patterns diverged as each library followed a different update cycle.\nTeams revisited component decisions and repeated design work across products.",
+          "MY ROLE\nLeading design, working with development.\n\nI led the design of Harmony, from organizational alignment and governance to components, tokens, and variables. The development team implements the React library in partnership with me. I continue to evolve existing components and design new ones, working with the team to keep the system up to date.",
+          "THE OUTCOME\nAdopted in new projects. Evolving with the team.\n\nHarmony is now the foundation for new projects at CASSI. Existing products are being migrated gradually, so adoption across the ecosystem remains an ongoing effort.\n\nThe work continues through updates to existing components and the design and implementation of new ones. I work with the development team to keep the system aligned as it evolves.",
+          "WORK IN PROGRESS\nPrototyping with AI, exploring the path to React.\n\nI am working with the development team to explore AI-assisted process automation. We are building libraries and skills to support functional HTML, CSS, and JavaScript prototypes for user validation.\n\nWe are also developing and evaluating a way to translate those prototypes into Harmony's React components. This work is still in development."
+        ],
+        "hero": {
+          "class": "cs-hero-image__img",
+          "src": "../assets/images/harmony/harmony-hero.mp4",
+          "poster": "../assets/images/harmony/harmony-hero-poster.webp",
+          "width": "1440",
+          "height": "900",
+          "autoplay": "",
+          "muted": "",
+          "loop": "",
+          "playsinline": ""
+        },
+        "form": {
+          "action": "https://formspree.io/f/mbdqyywl",
+          "method": "post",
+          "fields": [
+            {
+              "tag": "INPUT",
+              "type": "text",
+              "name": "name",
+              "placeholder": "Your name",
+              "label": "Your name",
+              "required": true
+            },
+            {
+              "tag": "INPUT",
+              "type": "email",
+              "name": "email",
+              "placeholder": "Your email",
+              "label": "Your email",
+              "required": true
+            },
+            {
+              "tag": "TEXTAREA",
+              "type": "textarea",
+              "name": "message",
+              "placeholder": "Your message",
+              "label": "Your message",
+              "required": true
+            },
+            {
+              "tag": "BUTTON",
+              "type": "submit",
+              "name": "",
+              "placeholder": null,
+              "label": null,
+              "required": null
+            }
+          ]
+        },
+        "contact": [
+          {
+            "name": "fplevi@gmail.com",
+            "href": "mailto:fplevi@gmail.com"
+          },
+          {
+            "name": "LinkedIn",
+            "href": "https://linkedin.com/in/fplevi"
+          }
+        ],
+        "next": "billing.html"
+      },
+      "current": {
+        "title": "Harmony \u2014 Felipe Levi",
+        "header": "Felipe Levi\nWork\nContact\nAbout",
+        "nav": [
+          {
+            "name": "Felipe Levi",
+            "href": "../"
+          },
+          {
+            "name": "Work",
+            "href": "../#work"
+          },
+          {
+            "name": "Contact",
+            "href": "../#contact"
+          },
+          {
+            "name": "About",
+            "href": "../#about"
+          }
+        ],
+        "protectedCopy": [
+          "THE PROBLEM\nSeparate libraries. Repeated decisions.\n\nCASSI's five platforms had separate Figma libraries and no shared governance. That fragmentation showed up in everyday design work:\n\nLibrary updates had to be maintained separately across five platforms.\nTokens and patterns diverged as each library followed a different update cycle.\nTeams revisited component decisions and repeated design work across products.",
+          "MY ROLE\nLeading design, working with development.\n\nI led the design of Harmony, from organizational alignment and governance to components, tokens, and variables. The development team implements the React library in partnership with me. I continue to evolve existing components and design new ones, working with the team to keep the system up to date.",
+          "THE OUTCOME\nAdopted in new projects. Evolving with the team.\n\nHarmony is now the foundation for new projects at CASSI. Existing products are being migrated gradually, so adoption across the ecosystem remains an ongoing effort.\n\nThe work continues through updates to existing components and the design and implementation of new ones. I work with the development team to keep the system aligned as it evolves.",
+          "WORK IN PROGRESS\nPrototyping with AI, exploring the path to React.\n\nI am working with the development team to explore AI-assisted process automation. We are building libraries and skills to support functional HTML, CSS, and JavaScript prototypes for user validation.\n\nWe are also developing and evaluating a way to translate those prototypes into Harmony's React components. This work is still in development."
+        ],
+        "hero": {
+          "class": "cs-hero-image__img",
+          "src": "../assets/images/harmony/harmony-hero.mp4",
+          "poster": "../assets/images/harmony/harmony-hero-poster.webp",
+          "width": "1440",
+          "height": "900",
+          "autoplay": "",
+          "muted": "",
+          "loop": "",
+          "playsinline": ""
+        },
+        "form": {
+          "action": "https://formspree.io/f/mbdqyywl",
+          "method": "post",
+          "fields": [
+            {
+              "tag": "INPUT",
+              "type": "text",
+              "name": "name",
+              "placeholder": "Your name",
+              "label": "Your name",
+              "required": true
+            },
+            {
+              "tag": "INPUT",
+              "type": "email",
+              "name": "email",
+              "placeholder": "Your email",
+              "label": "Your email",
+              "required": true
+            },
+            {
+              "tag": "TEXTAREA",
+              "type": "textarea",
+              "name": "message",
+              "placeholder": "Your message",
+              "label": "Your message",
+              "required": true
+            },
+            {
+              "tag": "BUTTON",
+              "type": "submit",
+              "name": "",
+              "placeholder": null,
+              "label": null,
+              "required": null
+            }
+          ]
+        },
+        "contact": [
+          {
+            "name": "fplevi@gmail.com",
+            "href": "mailto:fplevi@gmail.com"
+          },
+          {
+            "name": "LinkedIn",
+            "href": "https://linkedin.com/in/fplevi"
+          }
+        ],
+        "next": "billing.html"
+      }
+    },
+    {
+      "width": 1440,
+      "original": {
+        "title": "Harmony \u2014 Felipe Levi",
+        "header": "Felipe Levi\nWork\nContact\nAbout",
+        "nav": [
+          {
+            "name": "Felipe Levi",
+            "href": "../"
+          },
+          {
+            "name": "Work",
+            "href": "../#work"
+          },
+          {
+            "name": "Contact",
+            "href": "../#contact"
+          },
+          {
+            "name": "About",
+            "href": "../#about"
+          }
+        ],
+        "protectedCopy": [
+          "THE PROBLEM\nSeparate libraries. Repeated decisions.\n\nCASSI's five platforms had separate Figma libraries and no shared governance. That fragmentation showed up in everyday design work:\n\nLibrary updates had to be maintained separately across five platforms.\nTokens and patterns diverged as each library followed a different update cycle.\nTeams revisited component decisions and repeated design work across products.",
+          "MY ROLE\nLeading design, working with development.\n\nI led the design of Harmony, from organizational alignment and governance to components, tokens, and variables. The development team implements the React library in partnership with me. I continue to evolve existing components and design new ones, working with the team to keep the system up to date.",
+          "THE OUTCOME\nAdopted in new projects. Evolving with the team.\n\nHarmony is now the foundation for new projects at CASSI. Existing products are being migrated gradually, so adoption across the ecosystem remains an ongoing effort.\n\nThe work continues through updates to existing components and the design and implementation of new ones. I work with the development team to keep the system aligned as it evolves.",
+          "WORK IN PROGRESS\nPrototyping with AI, exploring the path to React.\n\nI am working with the development team to explore AI-assisted process automation. We are building libraries and skills to support functional HTML, CSS, and JavaScript prototypes for user validation.\n\nWe are also developing and evaluating a way to translate those prototypes into Harmony's React components. This work is still in development."
+        ],
+        "hero": {
+          "class": "cs-hero-image__img",
+          "src": "../assets/images/harmony/harmony-hero.mp4",
+          "poster": "../assets/images/harmony/harmony-hero-poster.webp",
+          "width": "1440",
+          "height": "900",
+          "autoplay": "",
+          "muted": "",
+          "loop": "",
+          "playsinline": ""
+        },
+        "form": {
+          "action": "https://formspree.io/f/mbdqyywl",
+          "method": "post",
+          "fields": [
+            {
+              "tag": "INPUT",
+              "type": "text",
+              "name": "name",
+              "placeholder": "Your name",
+              "label": "Your name",
+              "required": true
+            },
+            {
+              "tag": "INPUT",
+              "type": "email",
+              "name": "email",
+              "placeholder": "Your email",
+              "label": "Your email",
+              "required": true
+            },
+            {
+              "tag": "TEXTAREA",
+              "type": "textarea",
+              "name": "message",
+              "placeholder": "Your message",
+              "label": "Your message",
+              "required": true
+            },
+            {
+              "tag": "BUTTON",
+              "type": "submit",
+              "name": "",
+              "placeholder": null,
+              "label": null,
+              "required": null
+            }
+          ]
+        },
+        "contact": [
+          {
+            "name": "fplevi@gmail.com",
+            "href": "mailto:fplevi@gmail.com"
+          },
+          {
+            "name": "LinkedIn",
+            "href": "https://linkedin.com/in/fplevi"
+          }
+        ],
+        "next": "billing.html"
+      },
+      "current": {
+        "title": "Harmony \u2014 Felipe Levi",
+        "header": "Felipe Levi\nWork\nContact\nAbout",
+        "nav": [
+          {
+            "name": "Felipe Levi",
+            "href": "../"
+          },
+          {
+            "name": "Work",
+            "href": "../#work"
+          },
+          {
+            "name": "Contact",
+            "href": "../#contact"
+          },
+          {
+            "name": "About",
+            "href": "../#about"
+          }
+        ],
+        "protectedCopy": [
+          "THE PROBLEM\nSeparate libraries. Repeated decisions.\n\nCASSI's five platforms had separate Figma libraries and no shared governance. That fragmentation showed up in everyday design work:\n\nLibrary updates had to be maintained separately across five platforms.\nTokens and patterns diverged as each library followed a different update cycle.\nTeams revisited component decisions and repeated design work across products.",
+          "MY ROLE\nLeading design, working with development.\n\nI led the design of Harmony, from organizational alignment and governance to components, tokens, and variables. The development team implements the React library in partnership with me. I continue to evolve existing components and design new ones, working with the team to keep the system up to date.",
+          "THE OUTCOME\nAdopted in new projects. Evolving with the team.\n\nHarmony is now the foundation for new projects at CASSI. Existing products are being migrated gradually, so adoption across the ecosystem remains an ongoing effort.\n\nThe work continues through updates to existing components and the design and implementation of new ones. I work with the development team to keep the system aligned as it evolves.",
+          "WORK IN PROGRESS\nPrototyping with AI, exploring the path to React.\n\nI am working with the development team to explore AI-assisted process automation. We are building libraries and skills to support functional HTML, CSS, and JavaScript prototypes for user validation.\n\nWe are also developing and evaluating a way to translate those prototypes into Harmony's React components. This work is still in development."
+        ],
+        "hero": {
+          "class": "cs-hero-image__img",
+          "src": "../assets/images/harmony/harmony-hero.mp4",
+          "poster": "../assets/images/harmony/harmony-hero-poster.webp",
+          "width": "1440",
+          "height": "900",
+          "autoplay": "",
+          "muted": "",
+          "loop": "",
+          "playsinline": ""
+        },
+        "form": {
+          "action": "https://formspree.io/f/mbdqyywl",
+          "method": "post",
+          "fields": [
+            {
+              "tag": "INPUT",
+              "type": "text",
+              "name": "name",
+              "placeholder": "Your name",
+              "label": "Your name",
+              "required": true
+            },
+            {
+              "tag": "INPUT",
+              "type": "email",
+              "name": "email",
+              "placeholder": "Your email",
+              "label": "Your email",
+              "required": true
+            },
+            {
+              "tag": "TEXTAREA",
+              "type": "textarea",
+              "name": "message",
+              "placeholder": "Your message",
+              "label": "Your message",
+              "required": true
+            },
+            {
+              "tag": "BUTTON",
+              "type": "submit",
+              "name": "",
+              "placeholder": null,
+              "label": null,
+              "required": null
+            }
+          ]
+        },
+        "contact": [
+          {
+            "name": "fplevi@gmail.com",
+            "href": "mailto:fplevi@gmail.com"
+          },
+          {
+            "name": "LinkedIn",
+            "href": "https://linkedin.com/in/fplevi"
+          }
+        ],
+        "next": "billing.html"
+      }
+    }
+  ],
+  "environment": {
+    "browser": "156.0.8078.4",
+    "currentOrigin": "http://localhost:8044",
+    "baselineOrigin": "http://127.0.0.1:60143",
+    "height": 700,
+    "baseline": "temporary Git HTML + unchanged shared assets"
+  },
+  "summary": {
+    "passed": 68,
+    "failed": 0
+  }
+}

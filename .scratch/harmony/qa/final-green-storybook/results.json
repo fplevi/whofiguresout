@@ -1,0 +1,16 @@
+{
+  "checks": [
+    {
+      "name": "storybook: named evidence and explanatory heading exist",
+      "ok": true,
+      "detail": null
+    }
+  ],
+  "console": [],
+  "failed_requests": [],
+  "environment": {
+    "browser": "156.0.8078.4",
+    "url": "http://localhost:8044/case-studies/harmony.html",
+    "viewportHeight": 700
+  }
+}

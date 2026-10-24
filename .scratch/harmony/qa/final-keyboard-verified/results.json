@@ -1,0 +1,32 @@
+{
+  "checks": [
+    {
+      "name": "320: one h1 and no skipped heading level",
+      "ok": true,
+      "detail": [
+        1,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "console": [],
+  "failed_requests": [],
+  "environment": {
+    "browser": "156.0.8078.4",
+    "url": "http://localhost:8044/case-studies/harmony.html",
+    "viewportHeight": 700
+  }
+}
