@@ -1,6 +1,6 @@
 # Harmony — narrativa visual por camadas
 
-Status: ready-for-agent
+Status: resolved
 
 ## Problem Statement
 
@@ -102,3 +102,7 @@ Distribuir sete evidências, cada uma em uma linha própria com título e explic
 - The full cross-case factual research was read, with Harmony's limits applied. Its earlier interview recommendations have been resolved by the final review and must not reopen the interview. The handoff provides inherited presentation preferences; later approved revisions prevail over its older suggestions and the original Billing disclosure/full-size-link spec.
 - Repository exploration found substantial pre-existing local modifications. Harmony had the visual review, copy draft, and prior validation, with no existing spec or ticket files at authoring time. This spec adds a document without modifying or closing earlier records. Shared-checkout work from other specification conversations must remain untouched.
 - Ticket publication follows the separate granularity/dependency checkpoint in the local to-tickets skill. Tickets will be ready-for-agent with explicit blocking edges, one document per vertical behavior slice; this status is not authorization to execute them in this conversation.
+
+## Completion
+
+2026-10-24: All four tickets and implement-spec step 7 are resolved. See [code review](code-review.md) and [CSS grouping validation](visual-narrative-validation.md#code-review-css-grouping--2026-10-24) for the r1 resolution, checks and limits.

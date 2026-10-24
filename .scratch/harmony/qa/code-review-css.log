@@ -1,0 +1,231 @@
+PASS comparison HTML is unchanged from pre-fix Git tip
+PASS 320/normal/before: wheel reads every image and caption from top to bottom without gating
+PASS 320/normal/before: seven evidence figures and no horizontal overflow
+PASS 320/normal/before/primitives: loaded proportional image, readable associated copy and caption
+PASS 320/normal/before/semantics: loaded proportional image, readable associated copy and caption
+PASS 320/normal/before/responsive: loaded proportional image, readable associated copy and caption
+PASS 320/normal/before/buttons: loaded proportional image, readable associated copy and caption
+PASS 320/normal/before/component-navigation: loaded proportional image, readable associated copy and caption
+PASS 320/normal/before/templates: loaded proportional image, readable associated copy and caption
+PASS 320/normal/before/storybook: loaded proportional image, readable associated copy and caption
+PASS 320/normal/after: wheel reads every image and caption from top to bottom without gating
+PASS 320/normal/after: seven evidence figures and no horizontal overflow
+PASS 320/normal/after/primitives: loaded proportional image, readable associated copy and caption
+PASS 320/normal/after/semantics: loaded proportional image, readable associated copy and caption
+PASS 320/normal/after/responsive: loaded proportional image, readable associated copy and caption
+PASS 320/normal/after/buttons: loaded proportional image, readable associated copy and caption
+PASS 320/normal/after/component-navigation: loaded proportional image, readable associated copy and caption
+PASS 320/normal/after/templates: loaded proportional image, readable associated copy and caption
+PASS 320/normal/after/storybook: loaded proportional image, readable associated copy and caption
+PASS 320/normal: before/after layout, typography, geometry, style, sources and copy unchanged
+PASS 320/reduced/before: wheel reads every image and caption from top to bottom without gating
+PASS 320/reduced/before: seven evidence figures and no horizontal overflow
+PASS 320/reduced/before/primitives: loaded proportional image, readable associated copy and caption
+PASS 320/reduced/before/semantics: loaded proportional image, readable associated copy and caption
+PASS 320/reduced/before/responsive: loaded proportional image, readable associated copy and caption
+PASS 320/reduced/before/buttons: loaded proportional image, readable associated copy and caption
+PASS 320/reduced/before/component-navigation: loaded proportional image, readable associated copy and caption
+PASS 320/reduced/before/templates: loaded proportional image, readable associated copy and caption
+PASS 320/reduced/before/storybook: loaded proportional image, readable associated copy and caption
+PASS 320/reduced/after: wheel reads every image and caption from top to bottom without gating
+PASS 320/reduced/after: seven evidence figures and no horizontal overflow
+PASS 320/reduced/after/primitives: loaded proportional image, readable associated copy and caption
+PASS 320/reduced/after/semantics: loaded proportional image, readable associated copy and caption
+PASS 320/reduced/after/responsive: loaded proportional image, readable associated copy and caption
+PASS 320/reduced/after/buttons: loaded proportional image, readable associated copy and caption
+PASS 320/reduced/after/component-navigation: loaded proportional image, readable associated copy and caption
+PASS 320/reduced/after/templates: loaded proportional image, readable associated copy and caption
+PASS 320/reduced/after/storybook: loaded proportional image, readable associated copy and caption
+PASS 320/reduced: before/after layout, typography, geometry, style, sources and copy unchanged
+PASS 320/no-js/before: wheel reads every image and caption from top to bottom without gating
+PASS 320/no-js/before: seven evidence figures and no horizontal overflow
+PASS 320/no-js/before/primitives: loaded proportional image, readable associated copy and caption
+PASS 320/no-js/before/semantics: loaded proportional image, readable associated copy and caption
+PASS 320/no-js/before/responsive: loaded proportional image, readable associated copy and caption
+PASS 320/no-js/before/buttons: loaded proportional image, readable associated copy and caption
+PASS 320/no-js/before/component-navigation: loaded proportional image, readable associated copy and caption
+PASS 320/no-js/before/templates: loaded proportional image, readable associated copy and caption
+PASS 320/no-js/before/storybook: loaded proportional image, readable associated copy and caption
+PASS 320/no-js/after: wheel reads every image and caption from top to bottom without gating
+PASS 320/no-js/after: seven evidence figures and no horizontal overflow
+PASS 320/no-js/after/primitives: loaded proportional image, readable associated copy and caption
+PASS 320/no-js/after/semantics: loaded proportional image, readable associated copy and caption
+PASS 320/no-js/after/responsive: loaded proportional image, readable associated copy and caption
+PASS 320/no-js/after/buttons: loaded proportional image, readable associated copy and caption
+PASS 320/no-js/after/component-navigation: loaded proportional image, readable associated copy and caption
+PASS 320/no-js/after/templates: loaded proportional image, readable associated copy and caption
+PASS 320/no-js/after/storybook: loaded proportional image, readable associated copy and caption
+PASS 320/no-js: before/after layout, typography, geometry, style, sources and copy unchanged
+PASS 375/normal/before: wheel reads every image and caption from top to bottom without gating
+PASS 375/normal/before: seven evidence figures and no horizontal overflow
+PASS 375/normal/before/primitives: loaded proportional image, readable associated copy and caption
+PASS 375/normal/before/semantics: loaded proportional image, readable associated copy and caption
+PASS 375/normal/before/responsive: loaded proportional image, readable associated copy and caption
+PASS 375/normal/before/buttons: loaded proportional image, readable associated copy and caption
+PASS 375/normal/before/component-navigation: loaded proportional image, readable associated copy and caption
+PASS 375/normal/before/templates: loaded proportional image, readable associated copy and caption
+PASS 375/normal/before/storybook: loaded proportional image, readable associated copy and caption
+PASS 375/normal/after: wheel reads every image and caption from top to bottom without gating
+PASS 375/normal/after: seven evidence figures and no horizontal overflow
+PASS 375/normal/after/primitives: loaded proportional image, readable associated copy and caption
+PASS 375/normal/after/semantics: loaded proportional image, readable associated copy and caption
+PASS 375/normal/after/responsive: loaded proportional image, readable associated copy and caption
+PASS 375/normal/after/buttons: loaded proportional image, readable associated copy and caption
+PASS 375/normal/after/component-navigation: loaded proportional image, readable associated copy and caption
+PASS 375/normal/after/templates: loaded proportional image, readable associated copy and caption
+PASS 375/normal/after/storybook: loaded proportional image, readable associated copy and caption
+PASS 375/normal: before/after layout, typography, geometry, style, sources and copy unchanged
+PASS 375/reduced/before: wheel reads every image and caption from top to bottom without gating
+PASS 375/reduced/before: seven evidence figures and no horizontal overflow
+PASS 375/reduced/before/primitives: loaded proportional image, readable associated copy and caption
+PASS 375/reduced/before/semantics: loaded proportional image, readable associated copy and caption
+PASS 375/reduced/before/responsive: loaded proportional image, readable associated copy and caption
+PASS 375/reduced/before/buttons: loaded proportional image, readable associated copy and caption
+PASS 375/reduced/before/component-navigation: loaded proportional image, readable associated copy and caption
+PASS 375/reduced/before/templates: loaded proportional image, readable associated copy and caption
+PASS 375/reduced/before/storybook: loaded proportional image, readable associated copy and caption
+PASS 375/reduced/after: wheel reads every image and caption from top to bottom without gating
+PASS 375/reduced/after: seven evidence figures and no horizontal overflow
+PASS 375/reduced/after/primitives: loaded proportional image, readable associated copy and caption
+PASS 375/reduced/after/semantics: loaded proportional image, readable associated copy and caption
+PASS 375/reduced/after/responsive: loaded proportional image, readable associated copy and caption
+PASS 375/reduced/after/buttons: loaded proportional image, readable associated copy and caption
+PASS 375/reduced/after/component-navigation: loaded proportional image, readable associated copy and caption
+PASS 375/reduced/after/templates: loaded proportional image, readable associated copy and caption
+PASS 375/reduced/after/storybook: loaded proportional image, readable associated copy and caption
+PASS 375/reduced: before/after layout, typography, geometry, style, sources and copy unchanged
+PASS 375/no-js/before: wheel reads every image and caption from top to bottom without gating
+PASS 375/no-js/before: seven evidence figures and no horizontal overflow
+PASS 375/no-js/before/primitives: loaded proportional image, readable associated copy and caption
+PASS 375/no-js/before/semantics: loaded proportional image, readable associated copy and caption
+PASS 375/no-js/before/responsive: loaded proportional image, readable associated copy and caption
+PASS 375/no-js/before/buttons: loaded proportional image, readable associated copy and caption
+PASS 375/no-js/before/component-navigation: loaded proportional image, readable associated copy and caption
+PASS 375/no-js/before/templates: loaded proportional image, readable associated copy and caption
+PASS 375/no-js/before/storybook: loaded proportional image, readable associated copy and caption
+PASS 375/no-js/after: wheel reads every image and caption from top to bottom without gating
+PASS 375/no-js/after: seven evidence figures and no horizontal overflow
+PASS 375/no-js/after/primitives: loaded proportional image, readable associated copy and caption
+PASS 375/no-js/after/semantics: loaded proportional image, readable associated copy and caption
+PASS 375/no-js/after/responsive: loaded proportional image, readable associated copy and caption
+PASS 375/no-js/after/buttons: loaded proportional image, readable associated copy and caption
+PASS 375/no-js/after/component-navigation: loaded proportional image, readable associated copy and caption
+PASS 375/no-js/after/templates: loaded proportional image, readable associated copy and caption
+PASS 375/no-js/after/storybook: loaded proportional image, readable associated copy and caption
+PASS 375/no-js: before/after layout, typography, geometry, style, sources and copy unchanged
+PASS 768/normal/before: wheel reads every image and caption from top to bottom without gating
+PASS 768/normal/before: seven evidence figures and no horizontal overflow
+PASS 768/normal/before/primitives: loaded proportional image, readable associated copy and caption
+PASS 768/normal/before/semantics: loaded proportional image, readable associated copy and caption
+PASS 768/normal/before/responsive: loaded proportional image, readable associated copy and caption
+PASS 768/normal/before/buttons: loaded proportional image, readable associated copy and caption
+PASS 768/normal/before/component-navigation: loaded proportional image, readable associated copy and caption
+PASS 768/normal/before/templates: loaded proportional image, readable associated copy and caption
+PASS 768/normal/before/storybook: loaded proportional image, readable associated copy and caption
+PASS 768/normal/after: wheel reads every image and caption from top to bottom without gating
+PASS 768/normal/after: seven evidence figures and no horizontal overflow
+PASS 768/normal/after/primitives: loaded proportional image, readable associated copy and caption
+PASS 768/normal/after/semantics: loaded proportional image, readable associated copy and caption
+PASS 768/normal/after/responsive: loaded proportional image, readable associated copy and caption
+PASS 768/normal/after/buttons: loaded proportional image, readable associated copy and caption
+PASS 768/normal/after/component-navigation: loaded proportional image, readable associated copy and caption
+PASS 768/normal/after/templates: loaded proportional image, readable associated copy and caption
+PASS 768/normal/after/storybook: loaded proportional image, readable associated copy and caption
+PASS 768/normal: before/after layout, typography, geometry, style, sources and copy unchanged
+PASS 768/reduced/before: wheel reads every image and caption from top to bottom without gating
+PASS 768/reduced/before: seven evidence figures and no horizontal overflow
+PASS 768/reduced/before/primitives: loaded proportional image, readable associated copy and caption
+PASS 768/reduced/before/semantics: loaded proportional image, readable associated copy and caption
+PASS 768/reduced/before/responsive: loaded proportional image, readable associated copy and caption
+PASS 768/reduced/before/buttons: loaded proportional image, readable associated copy and caption
+PASS 768/reduced/before/component-navigation: loaded proportional image, readable associated copy and caption
+PASS 768/reduced/before/templates: loaded proportional image, readable associated copy and caption
+PASS 768/reduced/before/storybook: loaded proportional image, readable associated copy and caption
+PASS 768/reduced/after: wheel reads every image and caption from top to bottom without gating
+PASS 768/reduced/after: seven evidence figures and no horizontal overflow
+PASS 768/reduced/after/primitives: loaded proportional image, readable associated copy and caption
+PASS 768/reduced/after/semantics: loaded proportional image, readable associated copy and caption
+PASS 768/reduced/after/responsive: loaded proportional image, readable associated copy and caption
+PASS 768/reduced/after/buttons: loaded proportional image, readable associated copy and caption
+PASS 768/reduced/after/component-navigation: loaded proportional image, readable associated copy and caption
+PASS 768/reduced/after/templates: loaded proportional image, readable associated copy and caption
+PASS 768/reduced/after/storybook: loaded proportional image, readable associated copy and caption
+PASS 768/reduced: before/after layout, typography, geometry, style, sources and copy unchanged
+PASS 768/no-js/before: wheel reads every image and caption from top to bottom without gating
+PASS 768/no-js/before: seven evidence figures and no horizontal overflow
+PASS 768/no-js/before/primitives: loaded proportional image, readable associated copy and caption
+PASS 768/no-js/before/semantics: loaded proportional image, readable associated copy and caption
+PASS 768/no-js/before/responsive: loaded proportional image, readable associated copy and caption
+PASS 768/no-js/before/buttons: loaded proportional image, readable associated copy and caption
+PASS 768/no-js/before/component-navigation: loaded proportional image, readable associated copy and caption
+PASS 768/no-js/before/templates: loaded proportional image, readable associated copy and caption
+PASS 768/no-js/before/storybook: loaded proportional image, readable associated copy and caption
+PASS 768/no-js/after: wheel reads every image and caption from top to bottom without gating
+PASS 768/no-js/after: seven evidence figures and no horizontal overflow
+PASS 768/no-js/after/primitives: loaded proportional image, readable associated copy and caption
+PASS 768/no-js/after/semantics: loaded proportional image, readable associated copy and caption
+PASS 768/no-js/after/responsive: loaded proportional image, readable associated copy and caption
+PASS 768/no-js/after/buttons: loaded proportional image, readable associated copy and caption
+PASS 768/no-js/after/component-navigation: loaded proportional image, readable associated copy and caption
+PASS 768/no-js/after/templates: loaded proportional image, readable associated copy and caption
+PASS 768/no-js/after/storybook: loaded proportional image, readable associated copy and caption
+PASS 768/no-js: before/after layout, typography, geometry, style, sources and copy unchanged
+PASS 1440/normal/before: wheel reads every image and caption from top to bottom without gating
+PASS 1440/normal/before: seven evidence figures and no horizontal overflow
+PASS 1440/normal/before/primitives: loaded proportional image, readable associated copy and caption
+PASS 1440/normal/before/semantics: loaded proportional image, readable associated copy and caption
+PASS 1440/normal/before/responsive: loaded proportional image, readable associated copy and caption
+PASS 1440/normal/before/buttons: loaded proportional image, readable associated copy and caption
+PASS 1440/normal/before/component-navigation: loaded proportional image, readable associated copy and caption
+PASS 1440/normal/before/templates: loaded proportional image, readable associated copy and caption
+PASS 1440/normal/before/storybook: loaded proportional image, readable associated copy and caption
+PASS 1440/normal/after: wheel reads every image and caption from top to bottom without gating
+PASS 1440/normal/after: seven evidence figures and no horizontal overflow
+PASS 1440/normal/after/primitives: loaded proportional image, readable associated copy and caption
+PASS 1440/normal/after/semantics: loaded proportional image, readable associated copy and caption
+PASS 1440/normal/after/responsive: loaded proportional image, readable associated copy and caption
+PASS 1440/normal/after/buttons: loaded proportional image, readable associated copy and caption
+PASS 1440/normal/after/component-navigation: loaded proportional image, readable associated copy and caption
+PASS 1440/normal/after/templates: loaded proportional image, readable associated copy and caption
+PASS 1440/normal/after/storybook: loaded proportional image, readable associated copy and caption
+PASS 1440/normal: before/after layout, typography, geometry, style, sources and copy unchanged
+PASS 1440/reduced/before: wheel reads every image and caption from top to bottom without gating
+PASS 1440/reduced/before: seven evidence figures and no horizontal overflow
+PASS 1440/reduced/before/primitives: loaded proportional image, readable associated copy and caption
+PASS 1440/reduced/before/semantics: loaded proportional image, readable associated copy and caption
+PASS 1440/reduced/before/responsive: loaded proportional image, readable associated copy and caption
+PASS 1440/reduced/before/buttons: loaded proportional image, readable associated copy and caption
+PASS 1440/reduced/before/component-navigation: loaded proportional image, readable associated copy and caption
+PASS 1440/reduced/before/templates: loaded proportional image, readable associated copy and caption
+PASS 1440/reduced/before/storybook: loaded proportional image, readable associated copy and caption
+PASS 1440/reduced/after: wheel reads every image and caption from top to bottom without gating
+PASS 1440/reduced/after: seven evidence figures and no horizontal overflow
+PASS 1440/reduced/after/primitives: loaded proportional image, readable associated copy and caption
+PASS 1440/reduced/after/semantics: loaded proportional image, readable associated copy and caption
+PASS 1440/reduced/after/responsive: loaded proportional image, readable associated copy and caption
+PASS 1440/reduced/after/buttons: loaded proportional image, readable associated copy and caption
+PASS 1440/reduced/after/component-navigation: loaded proportional image, readable associated copy and caption
+PASS 1440/reduced/after/templates: loaded proportional image, readable associated copy and caption
+PASS 1440/reduced/after/storybook: loaded proportional image, readable associated copy and caption
+PASS 1440/reduced: before/after layout, typography, geometry, style, sources and copy unchanged
+PASS 1440/no-js/before: wheel reads every image and caption from top to bottom without gating
+PASS 1440/no-js/before: seven evidence figures and no horizontal overflow
+PASS 1440/no-js/before/primitives: loaded proportional image, readable associated copy and caption
+PASS 1440/no-js/before/semantics: loaded proportional image, readable associated copy and caption
+PASS 1440/no-js/before/responsive: loaded proportional image, readable associated copy and caption
+PASS 1440/no-js/before/buttons: loaded proportional image, readable associated copy and caption
+PASS 1440/no-js/before/component-navigation: loaded proportional image, readable associated copy and caption
+PASS 1440/no-js/before/templates: loaded proportional image, readable associated copy and caption
+PASS 1440/no-js/before/storybook: loaded proportional image, readable associated copy and caption
+PASS 1440/no-js/after: wheel reads every image and caption from top to bottom without gating
+PASS 1440/no-js/after: seven evidence figures and no horizontal overflow
+PASS 1440/no-js/after/primitives: loaded proportional image, readable associated copy and caption
+PASS 1440/no-js/after/semantics: loaded proportional image, readable associated copy and caption
+PASS 1440/no-js/after/responsive: loaded proportional image, readable associated copy and caption
+PASS 1440/no-js/after/buttons: loaded proportional image, readable associated copy and caption
+PASS 1440/no-js/after/component-navigation: loaded proportional image, readable associated copy and caption
+PASS 1440/no-js/after/templates: loaded proportional image, readable associated copy and caption
+PASS 1440/no-js/after/storybook: loaded proportional image, readable associated copy and caption
+PASS 1440/no-js: before/after layout, typography, geometry, style, sources and copy unchanged
+PASS no page exceptions or local failed requests/HTTP errors
+{"passed": 230, "failed": 0}

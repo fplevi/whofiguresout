@@ -1,0 +1,870 @@
+{
+  "baseline": "3a466dbb17c20b7522a62128503281fdc0f48a7f",
+  "artifacts": [
+    {
+      "path": ".scratch/harmony/qa/code-review-artifact-integrity.json",
+      "bytes": 133531,
+      "sha256": "8c0eeaeb597fe84bd871edb4475538ceb9ef11640e5fc256454bbb0a25ee4b41"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/after-buttons-1440.png",
+      "bytes": 189916,
+      "sha256": "f1edf1c59c7efce01a92e419a2f5249a96d35ee066659206ed451a954438e9d6"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/after-buttons-320.png",
+      "bytes": 131300,
+      "sha256": "c62aba72fa51976ec1b195a7f238fbef8948972a1bf85efb776f73ef1252a07a"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/after-buttons-375.png",
+      "bytes": 155089,
+      "sha256": "a41b3198d5e75e573a7720d318f6fb413196f7e81d81844909233aca3f4caad2"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/after-buttons-768.png",
+      "bytes": 184843,
+      "sha256": "2aa1930ff52abd37951fc15465f077601b53a79a4e24b6c09ae73147a5518bfc"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/after-component-navigation-1440.png",
+      "bytes": 97948,
+      "sha256": "787cd81023f4e78e920946f425ec56c3675843fe59aa8f401135d58fe4144237"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/after-component-navigation-320.png",
+      "bytes": 89268,
+      "sha256": "9852c54b73cbd5b0d76eeee1da17ded70ffb91a507b9b992391bf569af9ece39"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/after-component-navigation-375.png",
+      "bytes": 90125,
+      "sha256": "d39e54ecbe1023bf5e9a435a77bb29bc16b1cb11e8f75da310d7addeaf041029"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/after-component-navigation-768.png",
+      "bytes": 88599,
+      "sha256": "3498642cb7093c4de161dc9a1cfdd968a1c5caa018d60b14dd98a336f2034177"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/after-primitives-1440.png",
+      "bytes": 73846,
+      "sha256": "3496f2fa15146e0e1ee659228c23b5933e8b3c9c5e8355b98365a4efa8230269"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/after-primitives-320.png",
+      "bytes": 39749,
+      "sha256": "3b0456ce44aa03f84838a520967c1319031f79428c3c44bbed5138b471ff51e6"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/after-primitives-375.png",
+      "bytes": 41011,
+      "sha256": "0dfa57eb6aec69d930bb423242670eeeb144417f32499d4559734b6ffc73929a"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/after-primitives-768.png",
+      "bytes": 38126,
+      "sha256": "ab00e4dd0752141ee4439411253b5cdc7ba50b788eaa86a98038c895b3332dd2"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/after-responsive-1440.png",
+      "bytes": 124728,
+      "sha256": "143270896f0f0acdc96902214896e2e9967c8395aad0772f6b64b627f19ec716"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/after-responsive-320.png",
+      "bytes": 79006,
+      "sha256": "9ab4d74c54f10bb631b3f7be7626da954b64d27d27b5c68da1591807d108f30a"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/after-responsive-375.png",
+      "bytes": 89143,
+      "sha256": "f21ea9eac9809f9e722cb7f04e74776ea8a8446e9209a917f2a3cbd1b53dab96"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/after-responsive-768.png",
+      "bytes": 118159,
+      "sha256": "0eb207791ff212e8b4a077aee61f9222e5874bc184399bf56ef05a314a22ffcc"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/after-semantics-1440.png",
+      "bytes": 89974,
+      "sha256": "ae158d8a4a2cf94eec4802c0c15ebb12e2238372d35773a2d9dd097cb4037774"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/after-semantics-320.png",
+      "bytes": 44376,
+      "sha256": "4f78e51292b6d607979526d66f4adfffb3f1ed5e43309522def41a8bf6f0a8a9"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/after-semantics-375.png",
+      "bytes": 47560,
+      "sha256": "3c20a8ee1a6f8d2f6d8387289629d5d744f5b3891f103a554e5261695a6ec6c5"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/after-semantics-768.png",
+      "bytes": 43637,
+      "sha256": "b8d4c2b764ebcca03bd50516901e129dec7952010cd75a5c05944ff18f0c31f6"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/after-storybook-1440.png",
+      "bytes": 125247,
+      "sha256": "2dbb7263bed1edecbe6e6fb556ee2c1c40c186d12e55ed99af2b800cea94f591"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/after-storybook-320.png",
+      "bytes": 109708,
+      "sha256": "1a9588991c40a9cba8dff7490eedb7d9fb364ccb8224cfaf4fed732ef67942b9"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/after-storybook-375.png",
+      "bytes": 116977,
+      "sha256": "26aa462221779dff22638c3f180a08be0753d43936cec8b67df763fecbbaf32e"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/after-storybook-768.png",
+      "bytes": 114980,
+      "sha256": "f79c3d50ad89f55465da9e4f6684999107703d7e50fda08682cf3d60938dd421"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/after-templates-1440.png",
+      "bytes": 155839,
+      "sha256": "19486fb212452d6ab27a053c64f68651df0715c797caa7df9edd3fa5ce850521"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/after-templates-320.png",
+      "bytes": 116259,
+      "sha256": "c73a7e2ae31781f889c3e3050a0aaaa2011fc1b7e150e728e6aa6e21127c81bd"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/after-templates-375.png",
+      "bytes": 121176,
+      "sha256": "4d1fe862029e6f6d230a29ad46a387e38f811b23d6552ac5d79b3c6afc6c1a9e"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/after-templates-768.png",
+      "bytes": 119444,
+      "sha256": "dff917ef2a9e3f33cf827684f274b1fc3c6c999bce53fec8fba19a265f491d1e"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/before-buttons-1440.png",
+      "bytes": 189916,
+      "sha256": "f1edf1c59c7efce01a92e419a2f5249a96d35ee066659206ed451a954438e9d6"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/before-buttons-320.png",
+      "bytes": 131300,
+      "sha256": "c62aba72fa51976ec1b195a7f238fbef8948972a1bf85efb776f73ef1252a07a"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/before-buttons-375.png",
+      "bytes": 155089,
+      "sha256": "a41b3198d5e75e573a7720d318f6fb413196f7e81d81844909233aca3f4caad2"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/before-buttons-768.png",
+      "bytes": 184843,
+      "sha256": "2aa1930ff52abd37951fc15465f077601b53a79a4e24b6c09ae73147a5518bfc"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/before-component-navigation-1440.png",
+      "bytes": 97948,
+      "sha256": "787cd81023f4e78e920946f425ec56c3675843fe59aa8f401135d58fe4144237"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/before-component-navigation-320.png",
+      "bytes": 89268,
+      "sha256": "9852c54b73cbd5b0d76eeee1da17ded70ffb91a507b9b992391bf569af9ece39"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/before-component-navigation-375.png",
+      "bytes": 90125,
+      "sha256": "d39e54ecbe1023bf5e9a435a77bb29bc16b1cb11e8f75da310d7addeaf041029"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/before-component-navigation-768.png",
+      "bytes": 88599,
+      "sha256": "3498642cb7093c4de161dc9a1cfdd968a1c5caa018d60b14dd98a336f2034177"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/before-primitives-1440.png",
+      "bytes": 73846,
+      "sha256": "3496f2fa15146e0e1ee659228c23b5933e8b3c9c5e8355b98365a4efa8230269"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/before-primitives-320.png",
+      "bytes": 39749,
+      "sha256": "3b0456ce44aa03f84838a520967c1319031f79428c3c44bbed5138b471ff51e6"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/before-primitives-375.png",
+      "bytes": 41011,
+      "sha256": "0dfa57eb6aec69d930bb423242670eeeb144417f32499d4559734b6ffc73929a"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/before-primitives-768.png",
+      "bytes": 38126,
+      "sha256": "ab00e4dd0752141ee4439411253b5cdc7ba50b788eaa86a98038c895b3332dd2"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/before-responsive-1440.png",
+      "bytes": 124728,
+      "sha256": "143270896f0f0acdc96902214896e2e9967c8395aad0772f6b64b627f19ec716"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/before-responsive-320.png",
+      "bytes": 79006,
+      "sha256": "9ab4d74c54f10bb631b3f7be7626da954b64d27d27b5c68da1591807d108f30a"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/before-responsive-375.png",
+      "bytes": 89143,
+      "sha256": "f21ea9eac9809f9e722cb7f04e74776ea8a8446e9209a917f2a3cbd1b53dab96"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/before-responsive-768.png",
+      "bytes": 118159,
+      "sha256": "0eb207791ff212e8b4a077aee61f9222e5874bc184399bf56ef05a314a22ffcc"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/before-semantics-1440.png",
+      "bytes": 89974,
+      "sha256": "ae158d8a4a2cf94eec4802c0c15ebb12e2238372d35773a2d9dd097cb4037774"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/before-semantics-320.png",
+      "bytes": 44376,
+      "sha256": "4f78e51292b6d607979526d66f4adfffb3f1ed5e43309522def41a8bf6f0a8a9"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/before-semantics-375.png",
+      "bytes": 47560,
+      "sha256": "3c20a8ee1a6f8d2f6d8387289629d5d744f5b3891f103a554e5261695a6ec6c5"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/before-semantics-768.png",
+      "bytes": 43637,
+      "sha256": "b8d4c2b764ebcca03bd50516901e129dec7952010cd75a5c05944ff18f0c31f6"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/before-storybook-1440.png",
+      "bytes": 125247,
+      "sha256": "2dbb7263bed1edecbe6e6fb556ee2c1c40c186d12e55ed99af2b800cea94f591"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/before-storybook-320.png",
+      "bytes": 109708,
+      "sha256": "1a9588991c40a9cba8dff7490eedb7d9fb364ccb8224cfaf4fed732ef67942b9"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/before-storybook-375.png",
+      "bytes": 116977,
+      "sha256": "26aa462221779dff22638c3f180a08be0753d43936cec8b67df763fecbbaf32e"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/before-storybook-768.png",
+      "bytes": 114980,
+      "sha256": "f79c3d50ad89f55465da9e4f6684999107703d7e50fda08682cf3d60938dd421"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/before-templates-1440.png",
+      "bytes": 155839,
+      "sha256": "19486fb212452d6ab27a053c64f68651df0715c797caa7df9edd3fa5ce850521"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/before-templates-320.png",
+      "bytes": 116259,
+      "sha256": "c73a7e2ae31781f889c3e3050a0aaaa2011fc1b7e150e728e6aa6e21127c81bd"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/before-templates-375.png",
+      "bytes": 121176,
+      "sha256": "4d1fe862029e6f6d230a29ad46a387e38f811b23d6552ac5d79b3c6afc6c1a9e"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/before-templates-768.png",
+      "bytes": 119444,
+      "sha256": "dff917ef2a9e3f33cf827684f274b1fc3c6c999bce53fec8fba19a265f491d1e"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css/results.json",
+      "bytes": 2123262,
+      "sha256": "6b81bff9f60fdf107574a1aa399927029b70559435cc8e76813c7c701dc73401"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-buttons-1440-caption.png",
+      "bytes": 163209,
+      "sha256": "0528ecaface085c6fbde3d1fc214ae9af781f5157d2b7b7694e256fae9628636"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-buttons-1440-explanation.png",
+      "bytes": 173845,
+      "sha256": "9520812d5ce259284807b1cad5e4f997b5fe7306bc7dba4ca3d33d3eebfaf9e6"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-buttons-320-caption.png",
+      "bytes": 98715,
+      "sha256": "3c7c74ebf99569a69abf6405f3a39c780cb4b5d75e758eca72081e7d4cf13ce2"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-buttons-320-explanation.png",
+      "bytes": 59961,
+      "sha256": "4a414e580199ec744cd5616dede8e94934efcbde40b00a8ef0a8716075a5d43b"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-buttons-375-caption.png",
+      "bytes": 108625,
+      "sha256": "c8957ad4ebe278b1ca7a8e31f21b29a6d5d5a0f834c4c04caa13229dd05fb955"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-buttons-375-explanation.png",
+      "bytes": 91322,
+      "sha256": "cc2089a37d188d22091c6aa9d847a6974864c27d7e18330584f9702914804d33"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-buttons-768-caption.png",
+      "bytes": 122046,
+      "sha256": "1465c17f967393b7ba30f04d0a0be07c86260dc216ce6cf07011e09d9d2931d7"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-buttons-768-explanation.png",
+      "bytes": 118992,
+      "sha256": "04d0bccc2b04a394cd39db06d26526e637939fdf56b1600f9ecb27e334835e02"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-component-navigation-1440-caption.png",
+      "bytes": 86580,
+      "sha256": "ef1a665fd4c8aa668903662055a98b329e66113636e16e1b1cc426afb3e15fdd"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-component-navigation-1440-explanation.png",
+      "bytes": 88803,
+      "sha256": "427466e919915959139f18728c0468226daae2f6ac1b7dd360ceaf9b23a6901a"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-component-navigation-320-caption.png",
+      "bytes": 46179,
+      "sha256": "d7edcebc91239827c71b01854cea7dcab6ed49a0307686272f0baf33b0eb7ce4"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-component-navigation-320-explanation.png",
+      "bytes": 51787,
+      "sha256": "31c6be75641cc3b78c4d5b7949308189e59233a23d49f89bc81dabb9c5939f3c"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-component-navigation-375-caption.png",
+      "bytes": 45122,
+      "sha256": "80b8fc6fee17894cbc43216fe738eb6850437fa1a6d5c26313cb22288db0fa29"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-component-navigation-375-explanation.png",
+      "bytes": 53744,
+      "sha256": "62a174ba88988d72c644652c3433c3595456951a6b27d226aeeb62a711b60f91"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-component-navigation-768-caption.png",
+      "bytes": 51092,
+      "sha256": "63e97b751b0cc974eab29900871ab9fbc8155fe98f8292a03539742001c8b3a6"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-component-navigation-768-explanation.png",
+      "bytes": 71120,
+      "sha256": "c371beda41d9131d4cb7c8a4a68944fc900ec0d413c2c2b5704d6ec8db76327b"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-primitives-1440-caption.png",
+      "bytes": 66947,
+      "sha256": "c59e86ce67e866528094584cc128bb2a2c853675b2f1684942c80a608d717b38"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-primitives-1440-explanation.png",
+      "bytes": 65414,
+      "sha256": "0f244dc73065cb91de092eee44fa52a09acaaa2dcd6c9bd2cbaa13d2af338c0c"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-primitives-320-caption.png",
+      "bytes": 26900,
+      "sha256": "9fada50e16e13629423ce70f4b99570cfeadd30229da2c74b9535d478ccd8921"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-primitives-320-explanation.png",
+      "bytes": 31554,
+      "sha256": "29b2d064e1184b4390d5d80f96725181bb009c9ed8eb85803b4916eceb9706f3"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-primitives-375-caption.png",
+      "bytes": 25282,
+      "sha256": "0142d80413b7b4a6aa78c6316e86a308f1c1d9a0e1a31c84c23a14d0d03dd497"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-primitives-375-explanation.png",
+      "bytes": 31105,
+      "sha256": "3abf440f704519bf09ff7d2958e7c56fd586dda397842e9ceadca1e9264cc443"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-primitives-768-caption.png",
+      "bytes": 29934,
+      "sha256": "064bd8fa0f84db61d42088631f9f60d273d19b2b743e0010b97a06a3acf74da8"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-primitives-768-explanation.png",
+      "bytes": 35949,
+      "sha256": "5e05db3feb9c63b95c332fba8abe890bab70984e8b475dcee31dd5867bed57e4"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-responsive-1440-caption.png",
+      "bytes": 74054,
+      "sha256": "82885eccb237aa83e01286ff4359e39adecf1d6b042dd0c69b8f61cd3e4afcdf"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-responsive-1440-explanation.png",
+      "bytes": 92624,
+      "sha256": "f1d750a95071213d0e4074d08e1b848cc6c5c12aa99b7f8cdedf63c7d6ad4ae9"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-responsive-320-caption.png",
+      "bytes": 34153,
+      "sha256": "d8f6770d2f9ba37bdf2528c7055ab6468f42cfdb65e5a9d10e41134584a5a47b"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-responsive-320-explanation.png",
+      "bytes": 42629,
+      "sha256": "6fb8bc8642a2847975617562a2a0360b5d25018357bd64f5cde638c65b4d1fa3"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-responsive-375-caption.png",
+      "bytes": 37887,
+      "sha256": "d9b9b54ef56e6d4f41f5df53d984802887772542b8f697ab6fb36b78cb284bb5"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-responsive-375-explanation.png",
+      "bytes": 45743,
+      "sha256": "26c62cf169e850eff99813b77aa055884efb40361e3260eaf61852692f089950"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-responsive-768-caption.png",
+      "bytes": 41443,
+      "sha256": "e5b4277b1449c7ff18172d00f4c76370294d93110633c062d2a333d4130b609f"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-responsive-768-explanation.png",
+      "bytes": 55204,
+      "sha256": "c37bf9288aa53bc653cbc53d3e959297d11952ab2a0f9fc216bd91cbbbfac70b"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-semantics-1440-caption.png",
+      "bytes": 91508,
+      "sha256": "e23fd778568a339d5ffd103c50e8b67d730d0fa5a15fc685baf85ff35ef6ca39"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-semantics-1440-explanation.png",
+      "bytes": 79893,
+      "sha256": "3d97a5211f20914b50c8dc897eca2dae7797509006fc2b0f00ae41115b9e9919"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-semantics-320-caption.png",
+      "bytes": 30482,
+      "sha256": "26a69f8361f82b426cae8fa45e44e4b3043362b43155a7ab2485a51d00f933e9"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-semantics-320-explanation.png",
+      "bytes": 35807,
+      "sha256": "c0482fb354645b5915eed3189ea88a36ef3d4874d000b5a6a99d97233f98b567"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-semantics-375-caption.png",
+      "bytes": 26795,
+      "sha256": "92d2dd8d6c619b277b5c6b0d30e0ce98be686be7701a14a7ced72d160135e23f"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-semantics-375-explanation.png",
+      "bytes": 37665,
+      "sha256": "c673c531c3ede54fa643d98965b86ccf867aab321e7025a6da9d5998af675494"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-semantics-768-caption.png",
+      "bytes": 27407,
+      "sha256": "d7d6c532c31154bc3c458ee00daff55e38bbbac9610dc247bf6368c62d83f04a"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-semantics-768-explanation.png",
+      "bytes": 38786,
+      "sha256": "30466dd019acd3fa00d2b9cd6fc072a33c1d7e5d3516553c38c52935edb232cf"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-storybook-1440-caption.png",
+      "bytes": 57995,
+      "sha256": "d752b09e297be35a1d83c78df2a5f5fba75a06d090cc8aead7ae639251f5fffc"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-storybook-1440-explanation.png",
+      "bytes": 67284,
+      "sha256": "62d9e16d2c9d10da4a6148e849d2ca48e91f240915a5b002a163ebea46b651ac"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-storybook-320-caption.png",
+      "bytes": 43486,
+      "sha256": "e878f135639ad580ea983ecd78f6770076f7c5e401934c43f43d62b6e6d11748"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-storybook-320-explanation.png",
+      "bytes": 37535,
+      "sha256": "fda455cf173dc7234df9687afdb62c413c9f72639793a6adec6392b80d392e75"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-storybook-375-caption.png",
+      "bytes": 46682,
+      "sha256": "b4bcbfc35817c010016d0dee99765bcb27c083a5c1d0ee35a73b460fb72a1fc0"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-storybook-375-explanation.png",
+      "bytes": 44886,
+      "sha256": "a17805c954b7bb7f256c7d0d4c75d1d93f12958dc4f893587c1994f3d87b3f3f"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-storybook-768-caption.png",
+      "bytes": 47883,
+      "sha256": "0afc570a56decfd435f01f0504c7b67c6d7bbbb470ddd5c1dea5077423c3b26d"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-storybook-768-explanation.png",
+      "bytes": 68129,
+      "sha256": "dbd966189d86ca23228fd7996d455cc57998a5f4f9a258edc63ce115e5b9d40b"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-templates-1440-caption.png",
+      "bytes": 121141,
+      "sha256": "c18ef9e047ff6265af7bbc84e360befccc18ca4878308472e1b3bde15b0276f9"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-templates-1440-explanation.png",
+      "bytes": 90832,
+      "sha256": "ad4d365539bd464d943f83666f9260befa3792e5ec8afebfde66f92438c9bd65"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-templates-320-caption.png",
+      "bytes": 41301,
+      "sha256": "087ad2bb3a1b45769f8d0c9c1cd0d22cfe0c2d989929028c335a4e871cb859d4"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-templates-320-explanation.png",
+      "bytes": 40036,
+      "sha256": "003f0a87ff3454e9a4e3f2245a1489151dd85f1f50ef6b02d671a9c10a043381"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-templates-375-caption.png",
+      "bytes": 41895,
+      "sha256": "5bbf2a8febb6d61f85dffc6100841531ee88989949e3e42ebe9d44a5879129aa"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-templates-375-explanation.png",
+      "bytes": 42412,
+      "sha256": "beec13fc6f61119fe2991b1875839a530725f368c2b9b9f202c40560365318f0"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-templates-768-caption.png",
+      "bytes": 47835,
+      "sha256": "0880fefa9c40e458c17607590d7a2e76473c3319abf89531d472462727c207d2"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/after-templates-768-explanation.png",
+      "bytes": 67981,
+      "sha256": "762751c761df15810831ea941fd3a912f909e9e1f55ec4633198f4bcd4d1ef76"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-buttons-1440-caption.png",
+      "bytes": 163209,
+      "sha256": "0528ecaface085c6fbde3d1fc214ae9af781f5157d2b7b7694e256fae9628636"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-buttons-1440-explanation.png",
+      "bytes": 173845,
+      "sha256": "9520812d5ce259284807b1cad5e4f997b5fe7306bc7dba4ca3d33d3eebfaf9e6"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-buttons-320-caption.png",
+      "bytes": 98715,
+      "sha256": "3c7c74ebf99569a69abf6405f3a39c780cb4b5d75e758eca72081e7d4cf13ce2"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-buttons-320-explanation.png",
+      "bytes": 59961,
+      "sha256": "4a414e580199ec744cd5616dede8e94934efcbde40b00a8ef0a8716075a5d43b"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-buttons-375-caption.png",
+      "bytes": 108625,
+      "sha256": "c8957ad4ebe278b1ca7a8e31f21b29a6d5d5a0f834c4c04caa13229dd05fb955"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-buttons-375-explanation.png",
+      "bytes": 91322,
+      "sha256": "cc2089a37d188d22091c6aa9d847a6974864c27d7e18330584f9702914804d33"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-buttons-768-caption.png",
+      "bytes": 122046,
+      "sha256": "1465c17f967393b7ba30f04d0a0be07c86260dc216ce6cf07011e09d9d2931d7"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-buttons-768-explanation.png",
+      "bytes": 118992,
+      "sha256": "04d0bccc2b04a394cd39db06d26526e637939fdf56b1600f9ecb27e334835e02"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-component-navigation-1440-caption.png",
+      "bytes": 86580,
+      "sha256": "ef1a665fd4c8aa668903662055a98b329e66113636e16e1b1cc426afb3e15fdd"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-component-navigation-1440-explanation.png",
+      "bytes": 88803,
+      "sha256": "427466e919915959139f18728c0468226daae2f6ac1b7dd360ceaf9b23a6901a"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-component-navigation-320-caption.png",
+      "bytes": 46179,
+      "sha256": "d7edcebc91239827c71b01854cea7dcab6ed49a0307686272f0baf33b0eb7ce4"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-component-navigation-320-explanation.png",
+      "bytes": 51787,
+      "sha256": "31c6be75641cc3b78c4d5b7949308189e59233a23d49f89bc81dabb9c5939f3c"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-component-navigation-375-caption.png",
+      "bytes": 45122,
+      "sha256": "80b8fc6fee17894cbc43216fe738eb6850437fa1a6d5c26313cb22288db0fa29"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-component-navigation-375-explanation.png",
+      "bytes": 53744,
+      "sha256": "62a174ba88988d72c644652c3433c3595456951a6b27d226aeeb62a711b60f91"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-component-navigation-768-caption.png",
+      "bytes": 51092,
+      "sha256": "63e97b751b0cc974eab29900871ab9fbc8155fe98f8292a03539742001c8b3a6"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-component-navigation-768-explanation.png",
+      "bytes": 71120,
+      "sha256": "c371beda41d9131d4cb7c8a4a68944fc900ec0d413c2c2b5704d6ec8db76327b"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-primitives-1440-caption.png",
+      "bytes": 66947,
+      "sha256": "c59e86ce67e866528094584cc128bb2a2c853675b2f1684942c80a608d717b38"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-primitives-1440-explanation.png",
+      "bytes": 65414,
+      "sha256": "0f244dc73065cb91de092eee44fa52a09acaaa2dcd6c9bd2cbaa13d2af338c0c"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-primitives-320-caption.png",
+      "bytes": 26900,
+      "sha256": "9fada50e16e13629423ce70f4b99570cfeadd30229da2c74b9535d478ccd8921"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-primitives-320-explanation.png",
+      "bytes": 31554,
+      "sha256": "29b2d064e1184b4390d5d80f96725181bb009c9ed8eb85803b4916eceb9706f3"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-primitives-375-caption.png",
+      "bytes": 25282,
+      "sha256": "0142d80413b7b4a6aa78c6316e86a308f1c1d9a0e1a31c84c23a14d0d03dd497"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-primitives-375-explanation.png",
+      "bytes": 31105,
+      "sha256": "3abf440f704519bf09ff7d2958e7c56fd586dda397842e9ceadca1e9264cc443"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-primitives-768-caption.png",
+      "bytes": 29934,
+      "sha256": "064bd8fa0f84db61d42088631f9f60d273d19b2b743e0010b97a06a3acf74da8"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-primitives-768-explanation.png",
+      "bytes": 35949,
+      "sha256": "5e05db3feb9c63b95c332fba8abe890bab70984e8b475dcee31dd5867bed57e4"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-responsive-1440-caption.png",
+      "bytes": 74054,
+      "sha256": "82885eccb237aa83e01286ff4359e39adecf1d6b042dd0c69b8f61cd3e4afcdf"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-responsive-1440-explanation.png",
+      "bytes": 92624,
+      "sha256": "f1d750a95071213d0e4074d08e1b848cc6c5c12aa99b7f8cdedf63c7d6ad4ae9"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-responsive-320-caption.png",
+      "bytes": 34153,
+      "sha256": "d8f6770d2f9ba37bdf2528c7055ab6468f42cfdb65e5a9d10e41134584a5a47b"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-responsive-320-explanation.png",
+      "bytes": 42629,
+      "sha256": "6fb8bc8642a2847975617562a2a0360b5d25018357bd64f5cde638c65b4d1fa3"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-responsive-375-caption.png",
+      "bytes": 37887,
+      "sha256": "d9b9b54ef56e6d4f41f5df53d984802887772542b8f697ab6fb36b78cb284bb5"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-responsive-375-explanation.png",
+      "bytes": 45743,
+      "sha256": "26c62cf169e850eff99813b77aa055884efb40361e3260eaf61852692f089950"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-responsive-768-caption.png",
+      "bytes": 41443,
+      "sha256": "e5b4277b1449c7ff18172d00f4c76370294d93110633c062d2a333d4130b609f"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-responsive-768-explanation.png",
+      "bytes": 55204,
+      "sha256": "c37bf9288aa53bc653cbc53d3e959297d11952ab2a0f9fc216bd91cbbbfac70b"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-semantics-1440-caption.png",
+      "bytes": 91508,
+      "sha256": "e23fd778568a339d5ffd103c50e8b67d730d0fa5a15fc685baf85ff35ef6ca39"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-semantics-1440-explanation.png",
+      "bytes": 79893,
+      "sha256": "3d97a5211f20914b50c8dc897eca2dae7797509006fc2b0f00ae41115b9e9919"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-semantics-320-caption.png",
+      "bytes": 30482,
+      "sha256": "26a69f8361f82b426cae8fa45e44e4b3043362b43155a7ab2485a51d00f933e9"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-semantics-320-explanation.png",
+      "bytes": 35807,
+      "sha256": "c0482fb354645b5915eed3189ea88a36ef3d4874d000b5a6a99d97233f98b567"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-semantics-375-caption.png",
+      "bytes": 26795,
+      "sha256": "92d2dd8d6c619b277b5c6b0d30e0ce98be686be7701a14a7ced72d160135e23f"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-semantics-375-explanation.png",
+      "bytes": 37665,
+      "sha256": "c673c531c3ede54fa643d98965b86ccf867aab321e7025a6da9d5998af675494"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-semantics-768-caption.png",
+      "bytes": 27407,
+      "sha256": "d7d6c532c31154bc3c458ee00daff55e38bbbac9610dc247bf6368c62d83f04a"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-semantics-768-explanation.png",
+      "bytes": 38786,
+      "sha256": "30466dd019acd3fa00d2b9cd6fc072a33c1d7e5d3516553c38c52935edb232cf"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-storybook-1440-caption.png",
+      "bytes": 57995,
+      "sha256": "d752b09e297be35a1d83c78df2a5f5fba75a06d090cc8aead7ae639251f5fffc"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-storybook-1440-explanation.png",
+      "bytes": 67284,
+      "sha256": "62d9e16d2c9d10da4a6148e849d2ca48e91f240915a5b002a163ebea46b651ac"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-storybook-320-caption.png",
+      "bytes": 43486,
+      "sha256": "e878f135639ad580ea983ecd78f6770076f7c5e401934c43f43d62b6e6d11748"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-storybook-320-explanation.png",
+      "bytes": 37535,
+      "sha256": "fda455cf173dc7234df9687afdb62c413c9f72639793a6adec6392b80d392e75"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-storybook-375-caption.png",
+      "bytes": 46682,
+      "sha256": "b4bcbfc35817c010016d0dee99765bcb27c083a5c1d0ee35a73b460fb72a1fc0"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-storybook-375-explanation.png",
+      "bytes": 44886,
+      "sha256": "a17805c954b7bb7f256c7d0d4c75d1d93f12958dc4f893587c1994f3d87b3f3f"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-storybook-768-caption.png",
+      "bytes": 47883,
+      "sha256": "0afc570a56decfd435f01f0504c7b67c6d7bbbb470ddd5c1dea5077423c3b26d"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-storybook-768-explanation.png",
+      "bytes": 68129,
+      "sha256": "dbd966189d86ca23228fd7996d455cc57998a5f4f9a258edc63ce115e5b9d40b"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-templates-1440-caption.png",
+      "bytes": 121141,
+      "sha256": "c18ef9e047ff6265af7bbc84e360befccc18ca4878308472e1b3bde15b0276f9"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-templates-1440-explanation.png",
+      "bytes": 90832,
+      "sha256": "ad4d365539bd464d943f83666f9260befa3792e5ec8afebfde66f92438c9bd65"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-templates-320-caption.png",
+      "bytes": 41301,
+      "sha256": "087ad2bb3a1b45769f8d0c9c1cd0d22cfe0c2d989929028c335a4e871cb859d4"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-templates-320-explanation.png",
+      "bytes": 40036,
+      "sha256": "003f0a87ff3454e9a4e3f2245a1489151dd85f1f50ef6b02d671a9c10a043381"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-templates-375-caption.png",
+      "bytes": 41895,
+      "sha256": "5bbf2a8febb6d61f85dffc6100841531ee88989949e3e42ebe9d44a5879129aa"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-templates-375-explanation.png",
+      "bytes": 42412,
+      "sha256": "beec13fc6f61119fe2991b1875839a530725f368c2b9b9f202c40560365318f0"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-templates-768-caption.png",
+      "bytes": 47835,
+      "sha256": "0880fefa9c40e458c17607590d7a2e76473c3319abf89531d472462727c207d2"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/before-templates-768-explanation.png",
+      "bytes": 67981,
+      "sha256": "762751c761df15810831ea941fd3a912f909e9e1f55ec4633198f4bcd4d1ef76"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading/captures.json",
+      "bytes": 18914,
+      "sha256": "9fabe792f558e5dd16e1f18e4ebc655e12aeb8a58e782fafdd21603e2a8e0120"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css-reading.log",
+      "bytes": 67,
+      "sha256": "0098df898676e5209c11cdca42cd55a42b78ff9d192b9b120f1f69acdc6c9940"
+    },
+    {
+      "path": ".scratch/harmony/qa/code-review-css.log",
+      "bytes": 21982,
+      "sha256": "ed2e08eb9369d7d7cd47de4ca26f5b925ebb4aa0320bfc31b134dca4eb22e3be"
+    }
+  ]
+}
