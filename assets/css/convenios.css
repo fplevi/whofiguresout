@@ -62,6 +62,24 @@
   margin-top: var(--space-32);
 }
 
+/* The network phone benefits from a tighter transparent crop and its own
+   media sizing. Keep its explanation first in reading order. */
+.cs-app__feature--network .cs-app__feature-copy {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.cs-app__feature--network .cs-app__figure {
+  grid-column: 1;
+  grid-row: 1;
+  padding: var(--space-16);
+}
+
+.cs-app__feature--network img {
+  max-width: 360px;
+  max-height: none;
+}
+
 .cs-app__stores a {
   display: inline-flex;
   align-items: center;
@@ -91,5 +109,11 @@
 
   .cs-app__figure {
     padding: var(--space-24);
+  }
+
+  .cs-app__feature--network .cs-app__feature-copy,
+  .cs-app__feature--network .cs-app__figure {
+    grid-column: auto;
+    grid-row: auto;
   }
 }
