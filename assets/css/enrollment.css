@@ -21,13 +21,13 @@
   height: auto;
 }
 
-/* Follow Billing's alternating copy/media rows without changing the reading order. */
+/* Copy/media rows like Billing: copy left, media right, top-aligned; stacked below desktop. */
 .enrollment-evidence-row {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
   grid-template-areas: "copy" "media";
   gap: var(--space-24);
-  align-items: center;
+  align-items: start;
 }
 
 .enrollment-evidence-row > figcaption,
@@ -54,10 +54,6 @@
     grid-template-columns: repeat(2, minmax(0, 1fr));
     grid-template-areas: "copy media";
     gap: var(--space-64);
-  }
-
-  .enrollment-evidence-row--media-left {
-    grid-template-areas: "media copy";
   }
 
   .enrollment-evidence-row .cs-section__body,
@@ -103,8 +99,15 @@
   border-radius: var(--radius-surface);
 }
 
-.enrollment-submission-evidence p + p {
-  margin-top: var(--space-16);
+/* Consecutive evidence rows get the same breathing room as Billing and Harmony rows. */
+.enrollment-journey-evidence + .enrollment-journey-evidence {
+  margin-top: var(--space-64);
+}
+
+@media (min-width: 1025px) {
+  .enrollment-journey-evidence + .enrollment-journey-evidence {
+    margin-top: var(--space-80);
+  }
 }
 
 /* Invitation to the production journey; the link keeps the Convenios store-link treatment. */
