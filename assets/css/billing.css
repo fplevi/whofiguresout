@@ -127,8 +127,8 @@
   }
 }
 
-/* Screen rows: one screenshot per row, alternating sides on desktop, copy first in the DOM.
-   Desktop splits the full section width into two equal columns that copy and screens fill. */
+/* Screen rows: one screenshot per row. Desktop splits the section width into two equal
+   columns, copy always on the left; below 1025px copy stacks above the screen. */
 .billing-shipped__intro {
   color: var(--text-secondary-strong);
 }
@@ -143,7 +143,7 @@
   grid-template-columns: repeat(2, minmax(0, 1fr));
   grid-template-areas: "copy media";
   gap: var(--space-64);
-  align-items: center;
+  align-items: start;
 }
 
 .billing-decisions .billing-row {
@@ -165,11 +165,6 @@
 
 .billing-row .billing-shot {
   grid-area: media;
-}
-
-.billing-row--media-left,
-.billing-decisions .billing-row--media-left {
-  grid-template-areas: "media copy";
 }
 
 .billing-row__copy {
@@ -207,22 +202,11 @@
   min-width: 0;
 }
 
-.billing-shot__caption {
-  font-size: var(--size-body-sm);
-  color: var(--text-secondary-strong);
-  line-height: 1.6;
-}
-
 .billing-shot__frame {
   overflow: hidden;
   background-color: var(--background-secondary);
   border: 1px solid var(--background-divider);
   border-radius: var(--radius-surface);
-}
-
-/* The portrait verification crop fills its column up to its native width. */
-.billing-shot--narrow .billing-shot__frame {
-  max-width: 545px;
 }
 
 .billing-shot__img {
@@ -233,9 +217,7 @@
 
 @media (max-width: 1024px) {
   .billing-row,
-  .billing-row--media-left,
-  .billing-decisions .billing-row,
-  .billing-decisions .billing-row--media-left {
+  .billing-decisions .billing-row {
     grid-template-columns: minmax(0, 1fr);
     grid-template-areas:
       "copy"
