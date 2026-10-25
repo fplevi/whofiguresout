@@ -199,10 +199,6 @@
     padding-right: 0;
   }
 
-  .case-card__title {
-    font-size: clamp(36px, 6vw, 72px);
-  }
-
   /* Flatten right column so CTA can be independently ordered */
   .case-card__right {
     display: contents;

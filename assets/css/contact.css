@@ -179,10 +179,6 @@
   .contact {
     padding-inline: var(--space-24);
   }
-
-  .contact__headline {
-    font-size: clamp(40px, 7vw, 80px);
-  }
 }
 
 @media (max-width: 768px) {
