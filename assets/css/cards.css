@@ -212,6 +212,10 @@
     margin-top: var(--space-32);
   }
 
+  .case-card__stat-number {
+    font-size: clamp(40px, 14vw, 72px);
+  }
+
   .case-card__cta {
     order: 10;
     margin-top: var(--space-24);
