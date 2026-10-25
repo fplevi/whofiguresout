@@ -33,7 +33,7 @@
   grid-template-columns: minmax(0, 1fr);
   grid-template-areas: "copy" "media";
   gap: var(--space-32);
-  align-items: center;
+  align-items: start;
   padding-block: var(--space-48);
 }
 
@@ -63,13 +63,6 @@
   height: auto;
   border: 1px solid var(--background-divider);
   border-radius: var(--radius-surface);
-}
-
-.bk-row__caption {
-  margin-top: var(--space-12);
-  font-size: var(--size-body-sm);
-  line-height: 1.6;
-  color: var(--text-secondary);
 }
 
 /* WebGL and SVG renders of the same burger, side by side on one surface. */
@@ -121,16 +114,12 @@
   text-underline-offset: 5px;
 }
 
-/* Desktop splits the full case width into two equal columns and alternates the media side. */
+/* Desktop splits the full case width into two equal columns: copy left, media right. */
 @media (min-width: 1025px) {
   .bk-row {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     grid-template-areas: "copy media";
     gap: var(--space-64);
-  }
-
-  .bk-row--media-left {
-    grid-template-areas: "media copy";
   }
 
   .bk-phones {
