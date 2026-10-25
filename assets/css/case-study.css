@@ -94,8 +94,6 @@
 .cs-meta {
   display: flex;
   gap: 0;
-  border-top: 1px solid var(--background-divider);
-  padding-top: var(--space-24);
 }
 
 .cs-meta__pill {
@@ -151,7 +149,6 @@
   padding-top: var(--space-80);
   padding-bottom: var(--space-80);
   padding-inline: var(--margin);
-  border-top: 1px solid var(--background-divider);
 }
 
 .cs-section__tag {
@@ -241,9 +238,8 @@
   grid-template-columns: 1fr 380px;
   gap: var(--space-64);
   align-items: start;
-  padding-top: var(--space-32);
-  padding-bottom: var(--space-32);
-  border-top: 1px solid var(--background-divider);
+  padding-top: var(--space-48);
+  padding-bottom: var(--space-48);
 }
 
 .cs-decision__left {
@@ -606,6 +602,7 @@
 
   .cs-decision {
     grid-template-columns: 1fr;
+    padding-block: var(--space-32);
   }
 
   .cs-stats {

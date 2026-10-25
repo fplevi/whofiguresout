@@ -111,7 +111,6 @@
 .enrollment-live {
   margin-top: var(--space-64);
   padding-top: var(--space-40);
-  border-top: 1px solid var(--background-divider);
 }
 
 .enrollment-live .cs-section__body {

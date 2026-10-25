@@ -15,7 +15,6 @@
   gap: var(--space-64);
   align-items: center;
   padding-block: var(--space-48);
-  border-top: 1px solid var(--background-divider);
 }
 
 .cs-app__feature-copy {

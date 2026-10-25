@@ -5,7 +5,6 @@
 .harmony-case .harmony-templates,
 .harmony-case .harmony-storybook {
   padding: var(--space-80) var(--margin);
-  border-top: 1px solid var(--background-divider);
 }
 
 .harmony-case .harmony-foundations__intro .cs-section__body {

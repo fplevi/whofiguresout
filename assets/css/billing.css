@@ -152,7 +152,6 @@
 
 .billing-rows .billing-row {
   padding-block: var(--space-48);
-  border-top: 1px solid var(--background-divider);
 }
 
 .billing-row__copy {

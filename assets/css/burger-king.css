@@ -17,7 +17,6 @@
 .bk-disclaimer--footer {
   margin-top: var(--space-64);
   padding-top: var(--space-24);
-  border-top: 1px solid var(--background-divider);
 }
 
 /* Decisions and shipped features share one row: copy, then media. */
@@ -36,7 +35,6 @@
   gap: var(--space-32);
   align-items: center;
   padding-block: var(--space-48);
-  border-top: 1px solid var(--background-divider);
 }
 
 .bk-row__copy {
