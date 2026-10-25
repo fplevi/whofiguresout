@@ -46,7 +46,7 @@
   max-width: 100%;
   height: auto;
   margin-inline: auto;
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-surface);
 }
 
 .harmony-case .harmony-evidence figcaption,

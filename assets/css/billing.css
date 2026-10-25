@@ -37,7 +37,7 @@
   padding: var(--space-20);
   background-color: var(--background-secondary);
   border: 1px solid rgba(242, 242, 245, 0.12);
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-surface);
 }
 
 .billing-flow__step--endpoint {
@@ -217,7 +217,7 @@
   overflow: hidden;
   background-color: var(--background-secondary);
   border: 1px solid var(--background-divider);
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-surface);
 }
 
 /* The portrait verification crop fills its column up to its native width. */

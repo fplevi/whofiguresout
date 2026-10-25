@@ -34,10 +34,9 @@
   --accent-subtle:   rgba(244, 168, 124, 0.12);
 
   /* Border Radius */
-  --radius-sm:   4px;
-  --radius-md:   8px;
-  --radius-lg:   12px;
-  --radius-full: 100px;
+  --radius-control: 4px;    /* buttons, form fields, word-search capsule and chips */
+  --radius-full:    100px;  /* compare-slider grip only */
+  --radius-surface: 0;      /* images, media, cards, tags — everything else */
 
   /* Spacing */
   --space-4:  4px;
@@ -352,7 +351,7 @@ Deploy flow:
 ## Design Fidelity
 - All colors from --variable-name tokens only. Never hardcode hex.
 - All spacing from --space-N tokens only.
-- All border radii from --radius-N tokens only.
+- All border radii from --radius-* tokens only. Only interactive controls are rounded (--radius-control); surfaces are square (--radius-surface).
 - Typography: Fraunces Bold for display/headings, Inter Regular/Medium for body.
 
 ## Hero Interaction

@@ -62,7 +62,7 @@
   width: 100%;
   height: auto;
   border: 1px solid var(--background-divider);
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-surface);
 }
 
 .bk-row__caption {
@@ -83,7 +83,7 @@
   display: block;
   width: 100%;
   height: auto;
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-surface);
 }
 
 .bk-pair__label {
@@ -108,7 +108,7 @@
   width: 100%;
   height: auto;
   border: 1px solid var(--background-divider);
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-surface);
 }
 
 .bk-link {

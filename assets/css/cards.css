@@ -140,7 +140,7 @@
   color: var(--background-primary);
   font-size: var(--size-body-sm);
   font-weight: 500;
-  border-radius: var(--radius-sm);
+  border-radius: var(--radius-control);
   margin-top: var(--space-48);
   align-self: flex-end;
   transition: opacity 0.2s ease;
