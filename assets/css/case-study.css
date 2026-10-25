@@ -10,23 +10,44 @@
   border-bottom: 1px solid var(--background-divider);
 }
 
-.cs-header__back {
+/* Back button and category tag share one row; a long tag wraps beside the button */
+.cs-header__eyebrow {
   display: flex;
   align-items: center;
-  gap: var(--space-8);
-  font-size: var(--size-body-sm);
-  color: var(--accent-primary);
+  gap: var(--space-16);
+  margin-bottom: var(--space-24);
+}
+
+/* Outline button set in the tag's type, so it reads as a pair with it */
+.cs-header__back {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  gap: var(--space-4);
+  padding: var(--space-4) 10px var(--space-4) 6px;
+  border: 1px solid var(--accent-muted);
+  border-radius: var(--radius-sm);
+  font-size: var(--size-label);
   font-weight: 500;
-  margin-bottom: var(--space-48);
-  transition: opacity 0.2s ease;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent-primary);
+  transition: background-color 0.2s ease, border-color 0.2s ease;
 }
 
 .cs-header__back:hover {
-  opacity: 0.75;
+  background-color: var(--accent-subtle);
+  border-color: var(--accent-primary);
 }
 
-.cs-header__tag {
-  margin-bottom: var(--space-24);
+.cs-header__back:focus-visible {
+  outline: 2px solid var(--accent-primary);
+  outline-offset: 2px;
+}
+
+.cs-header__back-icon {
+  width: 1.2em;
+  height: 1.2em;
 }
 
 .cs-header__title {

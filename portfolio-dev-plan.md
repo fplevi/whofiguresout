@@ -139,7 +139,7 @@ portfolio/
 **Sections in order:**
 
 1. **Nav** — Same as homepage, sticky.
-2. **Case Header** — Back link "← Back to work" in accent. Category tag. Title Fraunces Bold 88px. Hook line 22px. Meta row: 3 pills (Role / Timeline / Outcome).
+2. **Case Header** — Outline "Back" button (caret icon, accent) on the category tag's row, in the tag's type; it acts as the browser's Back, falling back to the home's work section when the visitor did not come from the site. Title Fraunces Bold 88px. Hook line 22px. Meta row: 3 pills (Role / Timeline / Outcome).
 3. **Hero Image** — Full bleed, no border, no padding. Edge to edge.
 4. **The Problem** — Tag, title Fraunces 48px, body text, stakes callout box right side.
 5. **My Role** — Tag, title, body.
