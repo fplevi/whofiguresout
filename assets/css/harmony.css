@@ -2,12 +2,14 @@
    section-reveal observer. Copy and images remain available with or without JS. */
 .harmony-case .harmony-foundations,
 .harmony-case .harmony-components,
-.harmony-case .harmony-templates,
-.harmony-case .harmony-storybook {
+.harmony-case .harmony-templates {
   padding: var(--space-80) var(--margin);
 }
 
-.harmony-case .harmony-foundations__intro .cs-section__body {
+/* Every group opens the same way: tag, title, and intro, then its 50/50 rows. */
+.harmony-case .harmony-foundations > .cs-section__body,
+.harmony-case .harmony-components > .cs-section__body,
+.harmony-case .harmony-templates > .cs-section__body {
   color: var(--text-secondary-strong);
 }
 
@@ -32,31 +34,15 @@
   margin-bottom: var(--space-32);
 }
 
-.harmony-case .harmony-evidence figure,
-.harmony-case .harmony-templates figure,
-.harmony-case .harmony-storybook figure {
-  margin: 0;
-}
-
-.harmony-case .harmony-evidence img,
-.harmony-case .harmony-templates img,
-.harmony-case .harmony-storybook img {
+/* One image per evidence, the same at every width: centred in its column and
+   never stretched beyond its native size. */
+.harmony-case .harmony-row img {
   display: block;
   width: auto;
   max-width: 100%;
   height: auto;
   margin-inline: auto;
   border-radius: var(--radius-surface);
-}
-
-.harmony-case .harmony-evidence figcaption,
-.harmony-case .harmony-templates figcaption,
-.harmony-case .harmony-storybook figcaption {
-  max-width: 840px;
-  margin-top: var(--space-16);
-  font-size: var(--size-body-sm);
-  line-height: 1.7;
-  color: var(--text-secondary-strong);
 }
 
 /* Keep the existing contact fields and keyboard path; strengthen their focus
@@ -66,8 +52,7 @@
   outline-offset: 3px;
 }
 
-/* One prose-first row per evidence, following Billing's editorial rhythm.
-   The single-column reading order remains the default below desktop. */
+/* One prose-first row per evidence. Below desktop, text stacks above the image. */
 .harmony-case .harmony-row {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
@@ -88,56 +73,24 @@
 .harmony-case .harmony-row figure {
   grid-area: media;
   min-width: 0;
+  margin: 0;
 }
 
 @media (min-width: 1025px) {
+  /* Text and image split the content width in half, text always on the left. */
   .harmony-case .harmony-row {
     max-width: var(--content-width);
     margin-inline: auto;
-    grid-template-columns: minmax(0, 4fr) minmax(0, 8fr);
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     grid-template-areas: "copy media";
     gap: var(--space-64);
-    align-items: center;
-  }
-
-  .harmony-case .harmony-row--image-left {
-    grid-template-columns: minmax(0, 8fr) minmax(0, 4fr);
-    grid-template-areas: "media copy";
-  }
-
-  /* Cap the media column as well as the row on large desktop monitors.
-     Images retain their intrinsic proportions and never exceed native size. */
-  .harmony-case .harmony-row figure {
-    width: 100%;
-    max-width: 720px;
-    justify-self: end;
-  }
-
-  /* Like Billing, media meets the outer content edge on either side. */
-  .harmony-case .harmony-row--image-left figure {
-    justify-self: start;
-  }
-
-  /* Template and Storybook rows are their sections' whole content, so they
-     span the section's full width like other case-study sections, and their
-     wide compositions fill the media column (never beyond native size). */
-  .harmony-case .harmony-templates > .harmony-row,
-  .harmony-case .harmony-storybook > .harmony-row {
-    max-width: none;
-    margin-inline: 0;
-  }
-
-  .harmony-case .harmony-templates figure,
-  .harmony-case .harmony-storybook figure {
-    max-width: none;
   }
 }
 
 @media (max-width: 1024px) {
   .harmony-case .harmony-foundations,
   .harmony-case .harmony-components,
-  .harmony-case .harmony-templates,
-  .harmony-case .harmony-storybook {
+  .harmony-case .harmony-templates {
     padding-inline: var(--space-24);
   }
 }
