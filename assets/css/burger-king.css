@@ -1,0 +1,152 @@
+/* Burger King concept: shared portfolio typography and spacing, with alternating copy/media rows. */
+.cs-bk {
+  --text-secondary: var(--text-secondary-strong);
+  --text-muted: var(--text-secondary-strong);
+  --text-ghost: var(--text-muted-strong);
+}
+
+/* Plain-text notice that this is a self-initiated study, under the hook and at the end of the case. */
+.bk-disclaimer {
+  max-width: 900px;
+  margin-top: var(--space-16);
+  font-size: var(--size-body-sm);
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+.bk-disclaimer--footer {
+  margin-top: var(--space-64);
+  padding-top: var(--space-24);
+  border-top: 1px solid var(--background-divider);
+}
+
+/* Decisions and shipped features share one row: copy, then media. */
+.bk-decisions {
+  max-width: none;
+}
+
+.bk-features {
+  margin-top: var(--space-48);
+}
+
+.bk-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-areas: "copy" "media";
+  gap: var(--space-32);
+  align-items: center;
+  padding-block: var(--space-48);
+  border-top: 1px solid var(--background-divider);
+}
+
+.bk-row__copy {
+  grid-area: copy;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-16);
+  min-width: 0;
+}
+
+.bk-row__copy .cs-decision__body {
+  max-width: 720px;
+}
+
+.bk-row__media {
+  grid-area: media;
+  min-width: 0;
+  margin: 0;
+}
+
+.bk-row__media > img,
+.bk-video {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--background-divider);
+  border-radius: var(--radius-md);
+}
+
+.bk-row__caption {
+  margin-top: var(--space-12);
+  font-size: var(--size-body-sm);
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+/* WebGL and SVG renders of the same burger, side by side on one surface. */
+.bk-pair {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-16);
+}
+
+.bk-pair__item img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-md);
+}
+
+.bk-pair__label {
+  margin-top: var(--space-12);
+  font-size: var(--size-label);
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+
+/* Two phone captures side by side. */
+.bk-phones {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-16);
+  max-width: 480px;
+}
+
+.bk-phones img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--background-divider);
+  border-radius: var(--radius-md);
+}
+
+.bk-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  margin-top: var(--space-24);
+  color: var(--accent-primary);
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+.cs-bk .contact__field:focus-visible {
+  outline: 2px solid var(--accent-primary);
+  outline-offset: 3px;
+}
+
+/* Desktop splits the full case width into two equal columns and alternates the media side. */
+@media (min-width: 1025px) {
+  .bk-row {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-areas: "copy media";
+    gap: var(--space-64);
+  }
+
+  .bk-row--media-left {
+    grid-template-areas: "media copy";
+  }
+
+  .bk-phones {
+    justify-self: center;
+    width: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .bk-row {
+    padding-block: var(--space-32);
+  }
+}

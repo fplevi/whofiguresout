@@ -125,7 +125,9 @@
 }
 
 .case-card--convenios .case-card__hook,
-.case-card--convenios .case-card__stat-label {
+.case-card--convenios .case-card__stat-label,
+.case-card--burger-king .case-card__hook,
+.case-card--burger-king .case-card__stat-label {
   color: var(--text-secondary-strong);
 }
 
