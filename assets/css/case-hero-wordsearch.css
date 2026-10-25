@@ -18,6 +18,14 @@
   margin-top: var(--space-48);
 }
 
+/* On short, wide screens the width-driven grid would outgrow the viewport: cap the puzzle so
+   the grid plus the nav and the chip row (--wsh-reserve) fit in one screen */
+@media (min-width: 769px) {
+  .wsh__game {
+    max-width: calc((100svh - var(--wsh-reserve, 224px)) * var(--wsh-cols) / var(--wsh-rows));
+  }
+}
+
 /* Styled by .section-tag, like the section tags below */
 .wsh__kicker {
   display: block;

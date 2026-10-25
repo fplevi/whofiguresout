@@ -9,6 +9,12 @@ body {
 }
 
 /* Layout */
+/* Page frame: past --frame-width the page is centered and only the body background widens */
+main {
+  max-width: var(--frame-width);
+  margin-inline: auto;
+}
+
 .container {
   max-width: var(--max-width);
   margin-inline: auto;

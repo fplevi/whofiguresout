@@ -21,6 +21,14 @@
   margin-top: 0;
 }
 
+/* When the height cap narrows the puzzle, keep it centered in the hero */
+@media (min-width: 769px) {
+  .hero .wsh__game {
+    width: 100%;
+    margin-inline: auto;
+  }
+}
+
 /* Without JS there's no grid: show the headline and the subtitle as plain text */
 @media (scripting: none) {
   .hero h1 {

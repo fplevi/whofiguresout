@@ -8,7 +8,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-inline: var(--margin);
+  /* The bar spans the screen; logo and links stay on the page frame's edges */
+  padding-inline: max(var(--margin), calc((100% - var(--frame-width)) / 2 + var(--margin)));
   background-color: transparent;
   transition: background-color 0.3s ease;
   border-bottom: 1px solid transparent;
