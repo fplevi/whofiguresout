@@ -28,8 +28,6 @@
   align-items: center;
   justify-content: center;
   padding: var(--space-32);
-  background-color: var(--background-secondary);
-  border-radius: var(--radius-surface);
 }
 
 .cs-app__figure img {
@@ -51,6 +49,7 @@
    replaces the figure padding. */
 .cs-app__feature--library .cs-app__figure {
   padding: 0;
+  border-radius: var(--radius-surface);
   overflow: hidden;
 }
 
