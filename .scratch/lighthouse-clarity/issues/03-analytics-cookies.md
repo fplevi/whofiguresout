@@ -1,6 +1,6 @@
 # 03 — Investigar cookies do Clarity sem degradar Clarity ou GA4
 
-Status: ready-for-agent
+Status: resolved
 Type: research
 Blocked by: 01
 Executor: Claude
@@ -36,3 +36,4 @@ Comparar estados reais documentados no mesmo navegador/revisão. Identificar eve
 - 2026-10-24: preservar as duas ferramentas e a continuidade do Clarity foi confirmado em Q3–Q4. Nenhuma nova política de consentimento foi aprovada.
 - 2026-10-24: spec confirmado em Q6; executar após concluir 01.
 - 2026-10-24 (Claude): investigação concluída — **limitação residual comprovada do fornecedor**. Em produção, sem CMP, Clarity reporta consentimento concedido por padrão; `CLID` vem no Set-Cookie da resposta do bootstrap `www.clarity.ms/tag/wo2llblzgf` (antes de qualquer JS), MUID/MR/SM/ANONCHK/SRM_B vêm dos pixels `c.gif` de `c.clarity.ms`/`c.bing.com`; motivo de todos os avisos: `WarnThirdPartyPhaseout`. Hipótese `analytics_Storage: granted` + `ad_Storage: denied` (enfileirada antes do bootstrap, só na sessão de teste, com `/collect` abortado): não removeu nenhum cookie de terceiro e o `_clsk` não foi criado. A única via documentada sem cookies de terceiros fragmenta sessões (ADR-0001). Nada foi alterado em consentimento/painel/produção. Não há decisão nova necessária para seguir; adotar banner/CMP seria decisão própria e não garante 100. Evidência: [analytics.md](../evidence/analytics.md). Verificações de painel listadas para o ticket 05.
+- 2026-10-25: fechado a pedido do usuário após a validação em produção (ticket 06).

@@ -1,6 +1,6 @@
 # 06 — Validar resultado em produção e fechar o relatório de aceite
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 01, 02, 03, 04, 05
 Executor: Claude
@@ -32,3 +32,4 @@ O resultado final precisa refletir a experiência publicada, com analytics reais
 - 2026-10-24: spec confirmado em Q6; executar após satisfazer as dependências.
 - 2026-10-24 (Claude): **não executado** — bloqueado pelo ticket 05 (candidato não publicado; produção ainda é `d2d74df`, sem Convênios). Preparado: `tools/run-matrix.mjs production https://www.felipelevi.site ../evidence/final 3`, `tools/summarize.mjs`, `tools/functional-check.mjs`, `tools/contrast-audit.mjs` e `tools/redact.mjs` reproduzem as mesmas condições do baseline. Antes de rodar, conferir que o manifesto publicado corresponde a [candidate/manifest.sha1](../evidence/candidate/manifest.sha1) (ou ao commit registrado no 05).
 - 2026-10-25 (Claude): **executado em produção** sobre `2452375` (263/263 arquivos idênticos ao commit). 36 relatórios (6 páginas × 2 perfis × 3; Burger King incluído). Acessibilidade e SEO 100 em todas as células; Boas práticas 77 só pelos cookies de terceiros do Clarity (limitação residual documentada, ADR-0001); medianas de Performance desktop 98–100 e mobile 99–100, exceto billing mobile (75 por CDN fria logo após o deploy; 4 repetições 98–99). Três execuções com CLS 0,86–1,0 (home/billing/convênios desktop) não se reproduziram em 12 repetições e o filmstrip não mostra deslocamento — tratadas como oscilação de medição. Funcional, contraste e inicialização única ok; evidência de rede de continuidade do Clarity (mesmo usuário/sessão no percurso, usuário reconhecido na visita seguinte) e do GA4 (1 `page_view` por página, sem duplicação). **Aceite de analytics pendente** da confirmação nos painéis (ticket 05). Relatório: [acceptance.md](../evidence/acceptance.md).
+- 2026-10-25: confirmação dos painéis recebida do usuário (ticket 05), então o aceite de analytics deixa de estar pendente. Aceite final conforme [acceptance.md](../evidence/acceptance.md), com Boas práticas 77 como limitação residual do Clarity. Ticket fechado a pedido do usuário.

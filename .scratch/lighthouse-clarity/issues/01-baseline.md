@@ -1,6 +1,6 @@
 # 01 — Estabelecer baseline reproduzível nas cinco páginas
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: nenhum
 Executor: Claude
@@ -34,3 +34,4 @@ Validar formato dos JSONs, presença de todas as células da matriz e consistên
 - 2026-10-24: ticket especificado para execução futura, condicionado à confirmação final do spec.
 - 2026-10-24: spec confirmado em Q6. Ticket pronto para a etapa futura com Claude.
 - 2026-10-24 (Claude): baseline concluído. Lighthouse 13.5.0 fixado em `tools/package.json`, Chrome 156.0.8078.47, Windows 11, headless novo, perfil temporário por execução, sem extensões; comandos em `tools/run-matrix.mjs`. Produção = `d2d74df` (build de Pages 2026-05-08): **24 coletas**, não 30, porque `case-studies/convenios.html` não está publicado (404). Local de partida = HEAD `7c87df3` + alterações do usuário (snapshot fora do repo): 30 coletas. Índice e atribuições em [baseline.md](../evidence/baseline.md). Falhas com peso: contraste (próprio), `errors-in-console` por `/favicon.ico` 404 (próprio), LCP de 19–186 s por GIFs de 23–36 MB (próprio), cookies de terceiros do Clarity (fornecedor). Identificadores de cookies em URLs foram redigidos dos JSON. Painéis não acessíveis pelo agente → ticket 05.
+- 2026-10-25: fechado a pedido do usuário após a validação em produção (ticket 06).

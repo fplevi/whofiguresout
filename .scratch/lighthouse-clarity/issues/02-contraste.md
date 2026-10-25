@@ -1,6 +1,6 @@
 # 02 — Corrigir contraste e preservar o visual nas cinco páginas
 
-Status: ready-for-agent
+Status: resolved
 Type: task
 Blocked by: 01
 Executor: Claude
@@ -33,3 +33,4 @@ Rodar axe/Lighthouse no candidato e inspecionar os estados que a navegação ini
 - 2026-10-24: escopo e permissão visual confirmados pelo usuário em Q1–Q2; implementação ainda não iniciada.
 - 2026-10-24: spec confirmado em Q6; executar após concluir 01.
 - 2026-10-24 (Claude): concluído no candidato local. O Lighthouse só via 5 nós porque as seções começam com `opacity: 0`; no estado final todos os consumidores de `--text-secondary`/`--text-muted` (4,12–4,16:1) e `--text-ghost` (1,74:1) reprovavam na home e nos 3 cases (Convênios já passava). Alteração única em `assets/css/tokens.css`: 0,45 → 0,58 e 0,20 → 0,52 (≥ 4,82:1 em todas as superfícies, hovers e tintas). axe 4.14 no estado final: 0 violações em 5 páginas × 3 larguras × 3 estados; Acessibilidade 100 nas 10 células do candidato. Capturas antes/depois sem mudança de composição/tipografia. Evidência: [contrast.md](../evidence/contrast.md). Pendente: confirmação em produção (06).
+- 2026-10-25: fechado a pedido do usuário após a validação em produção (ticket 06).

@@ -111,3 +111,4 @@ Em 2026-10-24, o usuário confirmou em Q6 o entendimento consolidado, os critér
 
 - 2026-10-24: spec elaborado a partir do relatório anexado, código local, documentação oficial e respostas Q1–Q5. Nenhum código de aplicação alterado.
 - 2026-10-24: Q6 confirmada: “Sim, finalizar o spec e os tickets”. Pacote documental aprovado.
+- 2026-10-25: execução concluída e tickets 01–06 fechados a pedido do usuário. Produção `2452375`: Acessibilidade/SEO 100, Performance 98–100 nas medianas (billing mobile afetado por CDN fria), Boas práticas 77 pela limitação residual do Clarity. Ver [acceptance.md](evidence/acceptance.md).
