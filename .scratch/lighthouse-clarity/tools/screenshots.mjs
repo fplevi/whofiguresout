@@ -5,7 +5,7 @@ import { chromium } from 'playwright-core';
 import { mkdirSync } from 'node:fs';
 
 const [baseUrl, outDir] = process.argv.slice(2);
-const PAGES = { home: '/', billing: '/case-studies/billing.html', convenios: '/case-studies/convenios.html',
+const PAGES = { home: '/', billing: '/case-studies/billing.html', convenios: '/case-studies/convenios.html', 'burger-king': '/case-studies/burger-king.html',
   enrollment: '/case-studies/enrollment.html', harmony: '/case-studies/harmony.html' };
 const VP = { desktop: { width: 1350, height: 940 }, mobile: { width: 412, height: 823 }, narrow: { width: 320, height: 640 } };
 mkdirSync(outDir, { recursive: true });
@@ -18,6 +18,12 @@ for (const [vp, viewport] of Object.entries(VP)) {
     const resp = await page.goto(baseUrl.replace(/\/$/, '') + path, { waitUntil: 'networkidle' });
     if (!resp || resp.status() >= 400) { await ctx.close(); continue; }
     await page.evaluate(() => document.fonts.ready);
+    // Rolar até o fim para carregar imagens lazy, esperar todas decodificarem, voltar ao topo
+    await page.evaluate(async () => {
+      for (let y = 0; y < document.body.scrollHeight; y += 400) { scrollTo(0, y); await new Promise((r) => setTimeout(r, 60)); }
+      await Promise.all([...document.images].map((i) => i.decode().catch(() => {})));
+      scrollTo(0, 0);
+    });
     // Vídeo/GIF: congelar no primeiro quadro para comparação estável
     await page.evaluate(() => document.querySelectorAll('video').forEach((v) => { v.pause(); v.currentTime = 0; }));
     await page.waitForTimeout(1500);

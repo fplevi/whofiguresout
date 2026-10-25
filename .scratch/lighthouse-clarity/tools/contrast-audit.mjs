@@ -11,7 +11,7 @@ import { createRequire } from 'node:module';
 const require = createRequire(import.meta.url);
 const axeSource = readFileSync(require.resolve('axe-core/axe.min.js'), 'utf8');
 const [baseUrl, outFile] = process.argv.slice(2);
-const PAGES = ['/', '/case-studies/billing.html', '/case-studies/convenios.html',
+const PAGES = ['/', '/case-studies/billing.html', '/case-studies/convenios.html', '/case-studies/burger-king.html',
   '/case-studies/enrollment.html', '/case-studies/harmony.html'];
 const VIEWPORTS = { desktop: { width: 1350, height: 940 }, mobile: { width: 412, height: 823 }, narrow: { width: 320, height: 640 } };
 

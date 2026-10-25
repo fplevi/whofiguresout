@@ -35,7 +35,7 @@ function instrument(page, bucket) {
 }
 
 // Páginas individuais
-const PAGES = ['/', '/case-studies/billing.html', '/case-studies/convenios.html', '/case-studies/enrollment.html', '/case-studies/harmony.html'];
+const PAGES = ['/', '/case-studies/billing.html', '/case-studies/convenios.html', '/case-studies/burger-king.html', '/case-studies/enrollment.html', '/case-studies/harmony.html'];
 for (const path of PAGES) {
   const ctx = await newCtx();
   const page = await ctx.newPage();

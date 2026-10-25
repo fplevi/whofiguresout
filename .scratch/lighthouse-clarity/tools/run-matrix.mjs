@@ -16,6 +16,7 @@ const ALL_PAGES = {
   home: '/',
   billing: '/case-studies/billing.html',
   convenios: '/case-studies/convenios.html',
+  'burger-king': '/case-studies/burger-king.html',
   enrollment: '/case-studies/enrollment.html',
   harmony: '/case-studies/harmony.html',
 };
