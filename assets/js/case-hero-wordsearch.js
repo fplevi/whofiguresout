@@ -1,11 +1,15 @@
 // Case hero word search: hover (or drag) over the grid to light up the case's key words.
 // Each found word opens a balloon with its caption. Words and captions live in the HTML legend,
 // so the content is complete without JS, for assistive tech, and with reduced motion.
+// An optional fixed phrase (.wsh__phrase, used by the home hero) sits centered in the grid: it
+// reveals like a word, opens its own balloon, reveals itself after a delay, and stays out of the count.
 
 const REVEAL_RADIUS = 1.5; // in cells
 const BALLOON_MIN_MS = 1500; // a fresh balloon stays at least this long while the pointer moves on
 const MOBILE_QUERY = '(max-width: 768px)';
 const NOISE = 'ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+const PHRASE_AUTO_REVEAL_MS = 10000;
+const PHRASE_STAGGER_MS = 60; // per column
 
 const root = document.querySelector('.wsh');
 if (!root) throw new Error('.wsh not found');
@@ -14,6 +18,7 @@ const grid = root.querySelector('.wsh__grid');
 const count = root.querySelector('.wsh__count');
 const revealBtn = root.querySelector('.wsh__reveal');
 const items = [...root.querySelectorAll('.wsh__item')];
+const phraseEl = root.querySelector('.wsh__phrase');
 const mobile = matchMedia(MOBILE_QUERY);
 const prefersReducedMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
@@ -27,10 +32,32 @@ function mulberry32(seed) {
   };
 }
 
+// The phrase's lines (one set per breakpoint), each centered, the block centered vertically.
+// Its rows are reserved whole, so words never cross it and the space beside it stays noise.
+function layPhrase(cols, rows) {
+  if (!phraseEl) return null;
+  const lines = (mobile.matches ? phraseEl.dataset.linesMobile : phraseEl.dataset.lines).split('|');
+  const top = Math.floor((rows - lines.length) / 2);
+  const cells = lines.flatMap((line, i) => {
+    const left = Math.floor((cols - line.length) / 2);
+    return [...line].map((ch, j) => ({ r: top + i, c: left + j, ch }));
+  });
+  return {
+    li: phraseEl,
+    cells,
+    rowsTaken: lines.map((_, i) => top + i),
+    r0: top,
+    c0: Math.min(...cells.map(cell => cell.c)),
+    endR: top + lines.length,
+    found: false,
+  };
+}
+
 // Places words horizontally/vertically, alternating orientation; overlaps only on equal letters
-function place(cols, rows, seed) {
+function place(cols, rows, seed, phrase) {
   const rand = mulberry32(seed);
   const board = Array.from({ length: rows }, () => Array(cols).fill(null));
+  phrase?.rowsTaken.forEach(r => board[r].fill(RESERVED));
   const words = items
     .map(li => ({ li, word: li.dataset.word }))
     .sort((a, b) => b.word.length - a.word.length);
@@ -53,7 +80,8 @@ function place(cols, rows, seed) {
       }));
       if (cells.every(({ r, c, ch }) => board[r][c] === null || board[r][c] === ch)) {
         cells.forEach(({ r, c, ch }) => { board[r][c] = ch; });
-        Object.assign(w, { dir, r0, c0, cells, found: false });
+        const endR = dir === 'V' ? r0 + w.word.length : r0 + 1;
+        Object.assign(w, { dir, r0, c0, endR, cells, found: false });
         placed = true;
       }
     }
@@ -62,6 +90,8 @@ function place(cols, rows, seed) {
   return { board, words, rand };
 }
 
+const RESERVED = Symbol('reserved');
+
 let state = null;
 let balloon = null;
 let shownWord = null;
@@ -69,36 +99,42 @@ let shownAt = 0;
 
 function build() {
   const found = new Set(state?.words.filter(w => w.found).map(w => w.word));
+  const phraseFound = state?.phrase?.found;
   // Size comes from CSS (--wsh-cols/rows on .wsh), already resolved for the current breakpoint,
   // so the space reserved before this script ran matches the grid built here.
   const gridStyle = getComputedStyle(grid);
   const cols = parseInt(gridStyle.getPropertyValue('--cols'), 10);
   const rows = parseInt(gridStyle.getPropertyValue('--rows'), 10);
+  const phrase = layPhrase(cols, rows);
   let layout = null;
-  for (let seed = Number(root.dataset.seed ?? 7); !layout; seed++) layout = place(cols, rows, seed);
+  for (let seed = Number(root.dataset.seed ?? 7); !layout; seed++) layout = place(cols, rows, seed, phrase);
 
   grid.innerHTML = '';
   balloon = null;
   shownWord = null;
 
   const { board, words, rand } = layout;
+  const phraseAt = new Map(phrase?.cells.map(cell => [cell.r * cols + cell.c, cell.ch]));
   const cells = [];
   for (let r = 0; r < rows; r++) {
     for (let c = 0; c < cols; c++) {
       const el = document.createElement('span');
       el.className = 'wsh__cell';
-      const ch = board[r][c];
-      el.textContent = ch ?? NOISE[Math.floor(rand() * NOISE.length)];
+      // Word letters show from the start (it's a word search); phrase letters stay noise until lit
+      const inPhrase = phraseAt.has(r * cols + c);
+      const ch = inPhrase ? phraseAt.get(r * cols + c) : board[r][c] === RESERVED ? null : board[r][c];
+      el.textContent = ch && !inPhrase ? ch : NOISE[Math.floor(rand() * NOISE.length)];
       el.style.opacity = (rand() * 0.4 + 0.3).toFixed(2);
       if (ch) el.classList.add('is-word');
       grid.appendChild(el);
-      cells.push({ el, r, c, isWord: Boolean(ch), lit: false });
+      cells.push({ el, r, c, ch, isWord: Boolean(ch), lit: false });
     }
   }
-  state = { cols, rows, words, cells, rand };
+  state = { cols, rows, words, phrase, cells, rand };
 
   // Words found before a breakpoint change stay found, without reopening their balloons
   words.filter(w => found.has(w.word)).forEach(w => markFound(w, { quiet: true }));
+  if (phraseFound) markPhraseFound({ quiet: true });
   updateCount();
 }
 
@@ -108,6 +144,7 @@ function lightCell(cell) {
   if (cell.lit) return;
   cell.lit = true;
   if (cell.isWord) {
+    cell.el.textContent = cell.ch;
     cell.el.classList.add('is-lit');
   } else {
     cell.el.textContent = NOISE[Math.floor(state.rand() * NOISE.length)];
@@ -123,12 +160,14 @@ function showBalloon(w) {
     balloon.innerHTML = '<p class="wsh__balloon-cat"></p><p class="wsh__balloon-text"></p>';
     grid.appendChild(balloon);
   }
-  balloon.querySelector('.wsh__balloon-cat').textContent = w.li.querySelector('.wsh__cat').textContent;
+  const cat = balloon.querySelector('.wsh__balloon-cat');
+  cat.textContent = w.li.querySelector('.wsh__cat')?.textContent ?? '';
+  cat.hidden = !cat.textContent;
   balloon.querySelector('.wsh__balloon-text').textContent = w.li.querySelector('.wsh__caption').textContent;
 
   // Below the word if there's room, else above it, else pinned inside the grid's bottom edge
   const { cols, rows } = state;
-  const endR = w.dir === 'V' ? w.r0 + w.word.length : w.r0 + 1;
+  const { endR } = w;
   const widthPct = (balloon.offsetWidth / grid.clientWidth) * 100;
   balloon.style.left = `${Math.max(0, Math.min((w.c0 / cols) * 100, 100 - widthPct))}%`;
   balloon.style.top = '';
@@ -169,6 +208,27 @@ function markFound(w, { quiet = false } = {}) {
   }
 }
 
+function markPhraseFound({ quiet = false } = {}) {
+  const { phrase } = state;
+  if (!phrase || phrase.found) return;
+  phrase.found = true;
+  // The noise beside it fades too, so the headline reads clean
+  phrase.rowsTaken.forEach(r => state.cells.filter(cell => cell.r === r).forEach(lightCell));
+  if (!quiet) showBalloon(phrase);
+}
+
+// Column by column, left to right, so the phrase reads in even for visitors who don't play
+function autoRevealPhrase() {
+  const { phrase, cols } = state;
+  if (!phrase || phrase.found) return;
+  for (let c = 0; c < cols; c++) {
+    setTimeout(() => {
+      state.phrase.rowsTaken.forEach(r => lightCell(cellAt(r, c)));
+    }, c * PHRASE_STAGGER_MS);
+  }
+  setTimeout(() => markPhraseFound({ quiet: true }), cols * PHRASE_STAGGER_MS);
+}
+
 function updateCount() {
   const { words } = state;
   const found = words.filter(w => w.found).length;
@@ -188,10 +248,13 @@ function onPointerMove(e) {
   words.forEach(w => {
     if (!w.found && w.cells.every(({ r, c }) => cellAt(r, c).lit)) markFound(w);
   });
+  const { phrase } = state;
+  if (phrase && !phrase.found && phrase.cells.every(({ r, c }) => cellAt(r, c).lit)) markPhraseFound();
 
   const r = Math.floor(y);
   const c = Math.floor(x);
-  const hovered = words.find(w => w.found && w.cells.some(cell => cell.r === r && cell.c === c));
+  const hovered = [...words, ...(phrase ? [phrase] : [])]
+    .find(w => w.found && w.cells.some(cell => cell.r === r && cell.c === c));
   if (hovered && hovered !== shownWord) showBalloon(hovered);
   else if (!hovered && shownWord && performance.now() - shownAt > BALLOON_MIN_MS) hideBalloon();
 }
@@ -201,6 +264,7 @@ function revealAll(stagger, onDone) {
   pending.forEach((w, i) => setTimeout(() => markFound(w, { quiet: stagger === 0 }), i * stagger));
   setTimeout(() => {
     state.cells.forEach(lightCell);
+    markPhraseFound({ quiet: true });
     updateCount();
     onDone?.();
   }, pending.length * stagger);
@@ -232,3 +296,4 @@ items.forEach(li => {
 mobile.addEventListener('change', build);
 
 if (prefersReducedMotion) revealAll(0);
+else if (phraseEl) setTimeout(() => autoRevealPhrase(), PHRASE_AUTO_REVEAL_MS);

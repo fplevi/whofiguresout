@@ -45,6 +45,7 @@
   <link rel="stylesheet" href="assets/css/tokens.css" />
   <link rel="stylesheet" href="assets/css/global.css" />
   <link rel="stylesheet" href="assets/css/nav.css" />
+  <link rel="stylesheet" href="assets/css/case-hero-wordsearch.css" />
   <link rel="stylesheet" href="assets/css/hero.css" />
   <link rel="stylesheet" href="assets/css/cards.css" />
   <link rel="stylesheet" href="assets/css/contact.css?v=20261024-copy" />
@@ -71,24 +72,51 @@
     <!-- ============================================================
          HERO
     ============================================================ -->
-    <section class="hero" id="hero" aria-labelledby="hero-headline">
+    <!-- Word-search hero (assets/js/case-hero-wordsearch.js): the headline is the grid's fixed
+         phrase, centered, and its balloon carries the subtitle; one decision from each case to find -->
+    <section class="hero wsh" id="hero" aria-labelledby="hero-headline" data-seed="15">
 
       <!-- Visually-hidden h1 always present for assistive tech -->
       <h1 id="hero-headline" class="sr-only">I'm a product designer who figures it out.</h1>
 
-      <!-- Character reveal grid — aria-hidden until revealed -->
-      <div
-        class="hero__grid"
-        id="hero-grid"
-        aria-hidden="true"
-        role="img"
-      ></div>
-
-      <p class="hero__subtitle">
-        <span class="hero__subtitle-sentence">Design is a series of decisions made under <span class="hero__subtitle-keep-together">real constraints.</span></span>
-        <span class="hero__subtitle-sentence">I make them, ship them, and improve them.</span>
+      <p class="wsh__phrase" data-lines="IM A PRODUCT DESIGNER|WHO FIGURES IT OUT" data-lines-mobile="IM A|PRODUCT|DESIGNER|WHO|FIGURES|IT OUT">
+        <span class="wsh__caption">Design is a series of decisions made under real constraints. I make them, ship them, and improve them.</span>
       </p>
 
+      <div class="wsh__game" role="group" aria-label="Five decisions from the work">
+        <div class="wsh__grid" aria-hidden="true"></div>
+        <div class="wsh__row">
+          <p class="wsh__count" aria-live="polite"></p>
+          <ul class="wsh__legend" role="list">
+            <li class="wsh__item" data-word="REACTARIA">
+              <button type="button" class="wsh__chip" disabled><span class="wsh__term-blank" aria-hidden="true">_ _ _ _ _ _ _ _ _</span><span class="wsh__term-text">React Aria</span></button>
+              <span class="wsh__cat">Harmony</span>
+              <span class="wsh__caption">Building on React Aria's accessible components let Harmony focus on CASSI's own visual language, content, and interactions.</span>
+            </li>
+            <li class="wsh__item" data-word="NOACCOUNT">
+              <button type="button" class="wsh__chip" disabled><span class="wsh__term-blank" aria-hidden="true">_ _ _ _ _ _ _ _ _</span><span class="wsh__term-text">No account</span></button>
+              <span class="wsh__cat">Billing &amp; Debt Recovery</span>
+              <span class="wsh__caption">Contract data plus an email or SMS code let cancelled-plan participants in without creating an account.</span>
+            </li>
+            <li class="wsh__item" data-word="EXPLORE">
+              <button type="button" class="wsh__chip" disabled><span class="wsh__term-blank" aria-hidden="true">_ _ _ _ _ _ _</span><span class="wsh__term-text">Explore</span></button>
+              <span class="wsh__cat">Enrollment Journey</span>
+              <span class="wsh__caption">Plan exploration moved ahead of registration, so users could review their options before creating an account.</span>
+            </li>
+            <li class="wsh__item" data-word="SWITCH">
+              <button type="button" class="wsh__chip" disabled><span class="wsh__term-blank" aria-hidden="true">_ _ _ _ _ _</span><span class="wsh__term-text">Switch</span></button>
+              <span class="wsh__cat">CASSI Convênios</span>
+              <span class="wsh__caption">Several accounts stay signed in on one device, so members switch between family or contract profiles without logging out.</span>
+            </li>
+            <li class="wsh__item" data-word="TRAY">
+              <button type="button" class="wsh__chip" disabled><span class="wsh__term-blank" aria-hidden="true">_ _ _ _</span><span class="wsh__term-text">Tray</span></button>
+              <span class="wsh__cat">BK Delivery Concept</span>
+              <span class="wsh__caption">Take an ingredient out, keep it in the tray, and put it back before applying.</span>
+            </li>
+          </ul>
+          <button type="button" class="wsh__reveal">Reveal all</button>
+        </div>
+      </div>
 
     </section>
 
@@ -321,7 +349,7 @@
   </main>
 
   <!-- JS -->
-  <script src="assets/js/hero-reveal.js" type="module"></script>
+  <script src="assets/js/case-hero-wordsearch.js" type="module"></script>
   <script src="assets/js/scroll-animations.js" type="module"></script>
   <script src="assets/js/contact-form.js?v=20261024-clipboard" defer></script>
 

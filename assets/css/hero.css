@@ -8,68 +8,52 @@
   overflow: hidden;
 }
 
-/* Character grid — height and char positions set by JS */
-.hero__grid {
-  position: relative;
-  width: 100%;
-  /* Reserve the height JS sets (6 rows × (width / 22) × 115/57) so the subtitle doesn't shift */
-  aspect-ratio: 1254 / 690;
-  overflow: hidden;
+/* Word-search grid sized for the headline: two centered rows on desktop with four free rows
+   above and below for the decisions; one word per row on mobile */
+.hero.wsh {
+  --wsh-cols: 28;
+  --wsh-rows: 10;
+  --wsh-rows-mobile: 16;
 }
 
-/* Individual char cells — font-size also set by JS */
-.hero__char {
-  position: absolute;
-  font-family: var(--font-display);
-  font-weight: 700;
-  color: var(--accent-primary);
-  display: inline-block;
-  transition: color 0.12s ease-out, opacity 0.12s ease-out;
-  user-select: none;
-  pointer-events: none;
-  white-space: pre; /* preserve spaces */
+/* The hero has no intro above the puzzle */
+.hero .wsh__game {
+  margin-top: 0;
 }
 
-.hero__subtitle {
-  max-width: 540px; /* sentence 1 is ~506px wide at 18px */
-  margin-top: 40px;
-  font-size: 18px;
-  color: var(--text-secondary);
-  line-height: 1.55;
-  text-wrap: balance; /* even lines when a sentence wraps on narrow screens */
-}
+/* Without JS there's no grid: show the headline and the subtitle as plain text */
+@media (scripting: none) {
+  .hero h1 {
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+    white-space: normal;
+    font-family: var(--font-display);
+    font-size: clamp(40px, 6vw, 88px);
+    line-height: 1.1;
+  }
 
-/* One sentence per block, so the break between them never depends on width */
-.hero__subtitle-sentence {
-  display: block;
-}
-
-.hero__subtitle-keep-together {
-  white-space: nowrap;
-}
-
-.hero__scroll-hint {
-  margin-top: 24px;
-  font-size: 11px;
-  font-weight: 500;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--text-ghost);
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .hero__char {
-    transition: none;
+  .hero .wsh__phrase .wsh__caption {
+    position: static;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    clip: auto;
+    white-space: normal;
+    display: block;
+    max-width: 540px;
+    margin-top: 40px;
+    font-size: 18px;
+    line-height: 1.55;
+    color: var(--text-secondary);
   }
 }
 
 @media (max-width: 768px) {
   .hero {
     padding-inline: 24px;
-  }
-
-  .hero__subtitle {
-    max-width: 100%;
-    margin-top: 28px;
   }
 }

@@ -62,7 +62,7 @@ felipelevi/
 │   │   ├── contact.css         — Contact section and form
 │   │   └── footer.css          — About, photo, footer
 │   ├── js/
-│   │   ├── hero-reveal.js      — Hero text reveal on load
+│   │   ├── case-hero-wordsearch.js — Word-search hero (home and cases)
 │   │   ├── scroll-animations.js — Nav scroll, card entrances, parallax, compare slider
 │   │   └── contact-form.js     — Form submission via Formspree
 │   └── images/                 — Case study assets (GIFs, PNGs)
