@@ -33,7 +33,7 @@ body {
 
 /* Display headings: even line lengths instead of a stranded last word */
 .type-display, .type-h1, .type-h2, .type-h3, .type-h4,
-.cs-header__title, .cs-section__title, .cs-next__link, .harmony-evidence__title,
+.cs-header__title, .cs-section__title, .cs-next__title, .harmony-evidence__title,
 .case-card__title, .contact__headline, .contact__success-title {
   text-wrap: balance;
 }

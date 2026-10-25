@@ -146,8 +146,7 @@ portfolio/
 6. **The Decisions** — Tag, intro title, 3 decision cards. Each card: number, title Fraunces 24px, body, tradeoff pill right.
 7. **What Shipped** — Tag, title, image grid (Option B: full-width primary + two columns below).
 8. **The Outcome** — Tag, title, 4 stat boxes.
-9. **Next Project** — "Next project" muted label, next case title in Fraunces 48px with arrow, category tag.
-10. **Contact** — Same as homepage contact section.
+9. **Next Project** — "Next project" muted label, next case title in Fraunces 48px (plain text), then the category tag with an outline "Next" button (caret icon) on its right linking to the next case. The page ends here; contact lives only on the homepage.
 
 **Three instances:**
 - `harmony.html` — Next: Billing & Debt Recovery
