@@ -1,7 +1,7 @@
 /* ============================================================
    CASE HERO — WORD SEARCH
    Intro on top, a full-width puzzle band below, meta row last.
-   Grid size comes from data-cols/rows on .wsh (set per case in HTML).
+   Grid size comes from --wsh-cols/rows (defaults below; override inline on .wsh per case).
 ============================================================ */
 
 .wsh .cs-header__hook {
@@ -54,12 +54,24 @@
 }
 
 /* ---------- Grid ---------- */
+/* Grid size lives only here, so the box is reserved before JS runs and JS builds the same grid
+   (it reads the resolved --cols/--rows). A case can override it inline on .wsh, e.g.
+   style="--wsh-cols: 20; --wsh-rows-mobile: 14". */
+.wsh {
+  --wsh-cols: 24;
+  --wsh-rows: 7;
+  --wsh-cols-mobile: 12;
+  --wsh-rows-mobile: 12;
+}
+
 .wsh__grid {
+  --cols: var(--wsh-cols);
+  --rows: var(--wsh-rows);
   grid-area: grid;
   position: relative;
   display: grid;
-  grid-template-columns: repeat(var(--cols, 24), 1fr);
-  aspect-ratio: var(--cols, 24) / var(--rows, 7);
+  grid-template-columns: repeat(var(--cols), 1fr);
+  aspect-ratio: var(--cols) / var(--rows);
   container-type: inline-size;
   touch-action: pan-y; /* vertical swipes still scroll the page; taps and sideways drags reveal */
   cursor: crosshair;
@@ -74,7 +86,7 @@
   justify-content: center;
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: calc(100cqw / var(--cols, 24) * 0.62);
+  font-size: calc(100cqw / var(--cols) * 0.62);
   line-height: 1;
   color: var(--accent-primary);
   transition: color 0.15s ease-out, opacity 0.15s ease-out;
@@ -171,14 +183,25 @@
 
 /* Category, caption, and not-yet-found terms stay readable to assistive tech only */
 .wsh__cat,
-.wsh__caption,
-.wsh--ready .wsh__item:not(.is-found) .wsh__term-text {
+.wsh__caption {
   position: absolute;
   width: 1px;
   height: 1px;
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
+}
+
+/* With scripting on, show the playable state from the first paint so nothing shifts when JS runs */
+@media (scripting: enabled) {
+  .wsh__item:not(.is-found) .wsh__term-text {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+  }
 }
 
 .wsh__footer {
@@ -197,13 +220,20 @@
 .wsh__reveal[hidden] { display: none; }
 
 /* Without JS the puzzle can't run: show the legend as plain text instead */
-.wsh:not(.wsh--ready) .wsh__grid,
-.wsh:not(.wsh--ready) .wsh__footer,
-.wsh:not(.wsh--ready) .wsh__term-blank {
-  display: none;
+@media (scripting: none) {
+  .wsh__grid,
+  .wsh__footer,
+  .wsh__term-blank {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
+  .wsh__grid {
+    --cols: var(--wsh-cols-mobile);
+    --rows: var(--wsh-rows-mobile);
+  }
+
   .wsh__game {
     grid-template-columns: 1fr;
     grid-template-areas: "head" "grid" "legend" "footer";

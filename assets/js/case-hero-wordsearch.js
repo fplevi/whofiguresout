@@ -69,14 +69,15 @@ let shownAt = 0;
 
 function build() {
   const found = new Set(state?.words.filter(w => w.found).map(w => w.word));
-  const cols = Number(mobile.matches ? root.dataset.colsMobile : root.dataset.cols);
-  const rows = Number(mobile.matches ? root.dataset.rowsMobile : root.dataset.rows);
+  // Size comes from CSS (--wsh-cols/rows on .wsh), already resolved for the current breakpoint,
+  // so the space reserved before this script ran matches the grid built here.
+  const gridStyle = getComputedStyle(grid);
+  const cols = parseInt(gridStyle.getPropertyValue('--cols'), 10);
+  const rows = parseInt(gridStyle.getPropertyValue('--rows'), 10);
   let layout = null;
   for (let seed = Number(root.dataset.seed ?? 7); !layout; seed++) layout = place(cols, rows, seed);
 
   grid.innerHTML = '';
-  grid.style.setProperty('--cols', cols);
-  grid.style.setProperty('--rows', rows);
   balloon = null;
   shownWord = null;
 
