@@ -1,0 +1,50 @@
+    <!-- Contact -->
+    <section class="contact" id="contact" aria-labelledby="contact-heading">
+      <p class="contact__sub">Have a project in mind?</p>
+      <h2 class="contact__headline" id="contact-heading">Let's work together.</h2>
+
+      <div class="contact__links">
+        <span class="contact__email">
+          <a href="mailto:fplevi@gmail.com" class="contact__link">fplevi@gmail.com</a>
+          <button type="button" class="contact__copy" aria-label="Copy email address" title="Copy email address">
+            <svg width="24" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+              <path d="M23 8H5C4.73478 8 4.48043 8.10536 4.29289 8.29289C4.10536 8.48043 4 8.73478 4 9V27C4 27.2652 4.10536 27.5196 4.29289 27.7071C4.48043 27.8946 4.73478 28 5 28H23C23.2652 28 23.5196 27.8946 23.7071 27.7071C23.8946 27.5196 24 27.2652 24 27V9C24 8.73478 23.8946 8.48043 23.7071 8.29289C23.5196 8.10536 23.2652 8 23 8ZM22 26H6V10H22V26ZM28 5V23C28 23.2652 27.8946 23.5196 27.7071 23.7071C27.5196 23.8946 27.2652 24 27 24C26.7348 24 26.4804 23.8946 26.2929 23.7071C26.1054 23.5196 26 23.2652 26 23V6H9C8.73478 6 8.48043 5.89464 8.29289 5.70711C8.10536 5.51957 8 5.26522 8 5C8 4.73478 8.10536 4.48043 8.29289 4.29289C8.48043 4.10536 8.73478 4 9 4H27C27.2652 4 27.5196 4.10536 27.7071 4.29289C27.8946 4.48043 28 4.73478 28 5Z" fill="var(--accent-primary, #F4A87C)" />
+            </svg>
+          </button>
+          <span class="contact__copy-feedback" role="status" aria-live="polite" aria-atomic="true"></span>
+        </span>
+        <span class="contact__separator" aria-hidden="true">·</span>
+        <a href="https://linkedin.com/in/fplevi" class="contact__link" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+
+      <form
+        class="contact__form"
+        id="contact-form"
+        action="https://formspree.io/f/mbdqyywl"
+        method="POST"
+        novalidate
+      >
+        <label for="name" class="sr-only">Your name</label>
+        <input type="text" id="name" name="name" class="contact__field" placeholder="Your name" required autocomplete="name" />
+
+        <label for="email" class="sr-only">Your email</label>
+        <input type="email" id="email" name="email" class="contact__field" placeholder="Your email" required autocomplete="email" />
+
+        <label for="message" class="sr-only">Your message</label>
+        <textarea id="message" name="message" class="contact__field contact__field--textarea" placeholder="Your message" required rows="6"></textarea>
+
+        <div class="contact__form-footer">
+          <p class="contact__error" id="contact-error" role="alert" aria-live="polite"></p>
+          <button type="submit" class="btn-primary contact__submit">Send message</button>
+        </div>
+      </form>
+    </section>
+
+  </main>
+
+  <script src="../assets/js/scroll-animations.js" type="module"></script>
+  <script src="../assets/js/case-hero-wordsearch.js" type="module"></script>
+  <script src="../assets/js/contact-form.js?v=20261024-clipboard" defer></script>
+
+</body>
+</html>

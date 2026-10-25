@@ -1,0 +1,14 @@
+import { createRequire } from 'module';
+const require = createRequire('D:/Projetos/BurguerKingNewSite/prototype/package.json');
+const { chromium } = require('@playwright/test');
+const browser = await chromium.launch({ channel: 'chrome' });
+const page = await browser.newPage({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 2 });
+await page.goto('https://fplevi.github.io/BurguerKingDelivery/'); await page.waitForTimeout(4500);
+await page.locator('section.hero').getByRole('button', { name: /Ver ingredientes/ }).click();
+await page.waitForTimeout(1500);
+await page.locator('#controls').getByRole('button', { name: /Queijo/ }).first().click();
+await page.waitForTimeout(800);
+await page.evaluate(() => { document.activeElement?.blur(); for (const el of [document.scrollingElement, document.getElementById('playground'), ...document.querySelectorAll('#playground *')]) if (el && el.scrollTop) el.scrollTop = 0; });
+await page.waitForTimeout(1200);
+await page.screenshot({ path: 'captures/mobile-ingredients.png' });
+await browser.close();
