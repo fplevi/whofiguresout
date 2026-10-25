@@ -37,6 +37,7 @@
 }
 
 .enrollment-evidence-row > img,
+.enrollment-evidence-row > .img-sources > img,
 .enrollment-evidence-row > .cs-compare {
   grid-area: media;
   min-width: 0;

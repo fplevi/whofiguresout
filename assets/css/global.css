@@ -154,3 +154,12 @@ body {
     scroll-behavior: auto;
   }
 }
+
+/* AVIF/WebP wrapper around content images: no box of its own, so layout sees the <img> */
+.img-sources {
+  display: contents;
+}
+
+.img-sources > source {
+  display: none;
+}

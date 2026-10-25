@@ -58,6 +58,7 @@
 }
 
 .bk-row__media > img,
+.bk-row__media > .img-sources > img,
 .bk-video {
   display: block;
   width: 100%;
