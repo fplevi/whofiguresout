@@ -13,7 +13,7 @@
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   gap: var(--space-64);
-  align-items: center;
+  align-items: start;
   padding-block: var(--space-48);
 }
 
@@ -23,19 +23,19 @@
   gap: var(--space-16);
 }
 
+/* Copy left, media right. Mockups are trimmed to their visible area and sit
+   centred in their half at no more than native size. */
 .cs-app__figure {
   display: flex;
-  align-items: center;
   justify-content: center;
-  padding: var(--space-32);
+  min-width: 0;
 }
 
 .cs-app__figure img {
   display: block;
-  width: 100%;
+  width: auto;
+  max-width: 100%;
   height: auto;
-  max-height: 480px;
-  object-fit: contain;
 }
 
 .cs-app__stores {
@@ -45,58 +45,14 @@
   margin-top: var(--space-32);
 }
 
-/* The full button documentation page fills its column; its own canvas
-   replaces the figure padding. */
+/* The button documentation page fills its column, clipped to the surface radius. */
 .cs-app__feature--library .cs-app__figure {
-  padding: 0;
   border-radius: var(--radius-surface);
   overflow: hidden;
 }
 
 .cs-app__feature--library img {
-  max-height: none;
-}
-
-/* Trim only transparent side margins of the unchanged accounts mockup.
-   A portrait frame keeps the full phone visible at readable mobile scale. */
-.cs-app__feature--accounts .cs-app__figure {
-  padding: 0;
-}
-
-.cs-app__feature--accounts .cs-app__figure img {
   width: 100%;
-  max-width: 384px;
-  height: auto;
-  max-height: none;
-  aspect-ratio: 4 / 5;
-  object-fit: cover;
-  object-position: 45% 50%;
-}
-
-/* The network phone benefits from a tighter transparent crop and its own
-   media sizing. Keep its explanation first in reading order. */
-.cs-app__feature--network .cs-app__figure {
-  padding: var(--space-16);
-}
-
-.cs-app__feature--network img {
-  max-width: 360px;
-  max-height: none;
-}
-
-/* Network and library rows put evidence on the left, so desktop alternates. */
-@media (min-width: 769px) {
-  .cs-app__feature--network .cs-app__feature-copy,
-  .cs-app__feature--library .cs-app__feature-copy {
-    grid-column: 2;
-    grid-row: 1;
-  }
-
-  .cs-app__feature--network .cs-app__figure,
-  .cs-app__feature--library .cs-app__figure {
-    grid-column: 1;
-    grid-row: 1;
-  }
 }
 
 .cs-app__stores a {
@@ -113,14 +69,10 @@
   outline-offset: 3px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .cs-app__feature {
     grid-template-columns: minmax(0, 1fr);
     gap: var(--space-32);
     padding-block: var(--space-32);
-  }
-
-  .cs-app__figure {
-    padding: var(--space-24);
   }
 }
