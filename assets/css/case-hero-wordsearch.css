@@ -12,38 +12,16 @@
   margin-top: var(--space-64);
 }
 
+/* No frame: the puzzle spans the content width, aligned with the title and meta row */
 .wsh__game {
   position: relative;
-  display: grid;
-  grid-template-columns: 1fr auto;
-  grid-template-areas:
-    "head   head"
-    "grid   grid"
-    "legend footer";
-  column-gap: var(--space-24);
-  align-items: end;
   margin-top: var(--space-48);
-  padding: var(--space-32);
-  border: 1px solid var(--background-divider);
-  border-radius: var(--radius-surface);
-  background: var(--background-secondary);
 }
 
-.wsh__game-head {
-  grid-area: head;
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: var(--space-16);
-  margin-bottom: var(--space-16);
-}
-
+/* Styled by .section-tag, like the section tags below */
 .wsh__kicker {
-  font-size: var(--size-label);
-  font-weight: 500;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--text-ghost);
+  display: block;
+  margin-bottom: var(--space-24);
 }
 
 .wsh__count {
@@ -67,7 +45,6 @@
 .wsh__grid {
   --cols: var(--wsh-cols);
   --rows: var(--wsh-rows);
-  grid-area: grid;
   position: relative;
   display: grid;
   grid-template-columns: repeat(var(--cols), 1fr);
@@ -147,13 +124,19 @@
   color: var(--text-primary);
 }
 
-/* ---------- Legend: word chips ---------- */
-.wsh__legend {
-  grid-area: legend;
+/* ---------- Row: count, word chips, reveal ---------- */
+/* The list's box is dissolved so chips, count, and reveal share one wrapping row:
+   when chips wrap, Reveal all follows the last chip. role="list" keeps the semantics. */
+.wsh__row {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--space-8);
+  align-items: center;
+  gap: var(--space-8) var(--space-16); /* 16px apart, so unpadded blanks don't merge into one line */
   margin-top: var(--space-24);
+}
+
+.wsh__legend {
+  display: contents;
   list-style: none;
 }
 
@@ -169,10 +152,13 @@
   transition: background-color 0.2s ease, border-color 0.2s ease;
 }
 
-/* Not found yet: no outline and no pointer, so the chip doesn't read as clickable.
-   The border stays (transparent) so finding the word doesn't resize the chip. */
+/* Not found yet: no outline, no pointer, and no side padding, so the blanks sit flush with the
+   count and keep the row's 16px spacing. Vertical padding and border stay, so the row height
+   holds when a word is found; only the chip's width grows. */
 .wsh__item:not(.is-found) .wsh__chip {
+  padding-inline: 0;
   border-color: transparent;
+  border-inline-width: 0;
   cursor: default;
 }
 
@@ -211,10 +197,6 @@
   }
 }
 
-.wsh__footer {
-  grid-area: footer;
-}
-
 .wsh__reveal {
   font-size: var(--size-body-sm);
   color: var(--text-ghost);
@@ -229,7 +211,8 @@
 /* Without JS the puzzle can't run: show the legend as plain text instead */
 @media (scripting: none) {
   .wsh__grid,
-  .wsh__footer,
+  .wsh__count,
+  .wsh__reveal,
   .wsh__term-blank {
     display: none;
   }
@@ -241,15 +224,16 @@
     --rows: var(--wsh-rows-mobile);
   }
 
-  .wsh__game {
-    grid-template-columns: 1fr;
-    grid-template-areas: "head" "grid" "legend" "footer";
-    padding: var(--space-16);
+  /* Chips first; count and reveal side by side on a line below (the empty break line adds
+     one more 8px gap, so that line sits 16px under the chips) */
+  .wsh__row::before {
+    content: '';
+    flex-basis: 100%;
+    order: 1;
   }
 
-  .wsh__footer {
-    margin-top: var(--space-16);
-  }
+  .wsh__count { order: 2; }
+  .wsh__reveal { order: 3; }
 }
 
 @media (prefers-reduced-motion: reduce) {
