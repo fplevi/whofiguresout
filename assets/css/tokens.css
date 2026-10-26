@@ -56,7 +56,6 @@
 
   /* Layout */
   --frame-width:   1920px; /* the page stops growing here; wider screens only add background */
-  --max-width:     1440px;
   --content-width: 1280px;
   --margin:        80px;
 }

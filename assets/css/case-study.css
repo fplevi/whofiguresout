@@ -116,34 +116,6 @@
   font-weight: 400;
 }
 
-/* Hero image */
-.cs-hero-image {
-  width: 100%;
-  aspect-ratio: 1440 / 650;
-  background-color: var(--background-secondary);
-  overflow: hidden;
-}
-
-.cs-hero-image img,
-.cs-hero-image video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-}
-
-.cs-hero-image__placeholder {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--text-ghost);
-  font-size: var(--size-body-sm);
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
-
 /* Generic case study section */
 .cs-section {
   padding-top: var(--space-80);
@@ -177,14 +149,6 @@
   margin-top: var(--space-24);
 }
 
-/* Problem layout (body + stakes callout side by side) */
-.cs-problem__layout {
-  display: grid;
-  grid-template-columns: 1fr 320px;
-  gap: var(--space-64);
-  align-items: start;
-}
-
 .cs-problem__points {
   max-width: 840px;
   margin-top: var(--space-24);
@@ -201,28 +165,6 @@
 
 .cs-problem__points li::marker {
   color: var(--accent-primary);
-}
-
-/* Stakes callout box */
-.cs-stakes {
-  padding: var(--space-24);
-  border-left: 3px solid var(--accent-primary);
-  background-color: var(--background-secondary);
-}
-
-.cs-stakes__label {
-  font-size: var(--size-label);
-  font-weight: 500;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--accent-primary);
-  margin-bottom: var(--space-16);
-}
-
-.cs-stakes__content {
-  font-size: var(--size-body-sm);
-  color: var(--text-secondary);
-  line-height: 1.7;
 }
 
 /* Decisions */
@@ -306,27 +248,6 @@
 
 .cs-decision__note-icon--components {
   mask-image: url('../icons/tabler/components.svg');
-}
-
-.cs-decision__note-icon--maintenance {
-  mask-image: url('../icons/tabler/tool.svg');
-}
-
-.cs-decision__note-icon--accessibility {
-  mask-image: url('../icons/tabler/accessible.svg');
-}
-
-.cs-decision__tradeoff {
-  display: inline-flex;
-  align-items: center;
-  padding: var(--space-8) var(--space-16);
-  background-color: var(--accent-subtle);
-  border-radius: var(--radius-surface);
-  font-size: var(--size-body-sm);
-  color: var(--accent-primary);
-  font-weight: 500;
-  align-self: flex-start;
-  margin-top: var(--space-8);
 }
 
 /* Before/after comparison slider */
@@ -455,78 +376,6 @@
 .cs-compare__label--before { left: var(--space-16); }
 .cs-compare__label--after  { right: var(--space-16); }
 
-/* What Shipped — image grid */
-.cs-image-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: var(--space-24);
-  margin-top: var(--space-40);
-}
-
-.cs-image-cell {
-  position: relative;
-  background-color: var(--background-secondary);
-  border-radius: var(--radius-surface);
-  overflow: hidden;
-}
-
-.cs-image-cell img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.cs-image-figure {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-12);
-}
-
-.cs-image-caption {
-  font-size: var(--size-body-sm);
-  color: var(--text-ghost);
-  line-height: 1.55;
-}
-
-.cs-image-cell--auto {
-  height: auto;
-}
-
-.cs-image-cell--auto .cs-image-cell__img {
-  width: 100%;
-  height: auto;
-  display: block;
-  object-fit: unset;
-}
-
-.cs-image-cell__placeholder {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--text-ghost);
-  font-size: var(--size-body-sm);
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  text-align: center;
-  padding: var(--space-24);
-}
-
-.cs-image-cell__tag {
-  position: absolute;
-  top: var(--space-16);
-  right: var(--space-16);
-  padding: var(--space-4) var(--space-12);
-  background-color: var(--background-primary);
-  border-radius: var(--radius-surface);
-  font-size: var(--size-label);
-  font-weight: 500;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--text-secondary);
-}
-
 /* Outcome stats */
 .cs-stats {
   display: grid;
@@ -596,10 +445,6 @@
     padding-inline: var(--space-24);
   }
 
-  .cs-problem__layout {
-    grid-template-columns: 1fr;
-  }
-
   .cs-decision {
     grid-template-columns: 1fr;
     padding-block: var(--space-32);
@@ -614,14 +459,6 @@
   .cs-meta {
     flex-direction: column;
     gap: var(--space-24);
-  }
-
-  .cs-image-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .cs-image-cell {
-    height: auto;
   }
 
   .cs-stats {

@@ -12,10 +12,6 @@
   margin-bottom: var(--space-40);
 }
 
-.work__tag {
-  /* uses .section-tag */
-}
-
 .work__cards {
   display: flex;
   flex-direction: column;
@@ -149,33 +145,6 @@
 .case-card:hover .case-card__cta,
 .case-card:focus-visible .case-card__cta {
   opacity: 0.88;
-}
-
-/* All projects footer link */
-.work__footer {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  gap: var(--space-8);
-  margin-top: var(--space-32);
-  padding-top: var(--space-24);
-  border-top: 1px solid var(--background-divider);
-}
-
-.work__footer-muted {
-  font-size: var(--size-body-sm);
-  color: var(--text-ghost);
-}
-
-.work__footer-link {
-  font-size: var(--size-body-sm);
-  color: var(--accent-primary);
-  font-weight: 500;
-  transition: opacity 0.2s ease;
-}
-
-.work__footer-link:hover {
-  opacity: 0.75;
 }
 
 /* Mobile */

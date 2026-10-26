@@ -15,17 +15,6 @@ main {
   margin-inline: auto;
 }
 
-.container {
-  max-width: var(--max-width);
-  margin-inline: auto;
-  padding-inline: var(--margin);
-}
-
-.inner {
-  max-width: var(--content-width);
-  margin-inline: auto;
-}
-
 /* Section tag */
 .section-tag {
   display: inline-block;
@@ -38,72 +27,9 @@ main {
 }
 
 /* Display headings: even line lengths instead of a stranded last word */
-.type-display, .type-h1, .type-h2, .type-h3, .type-h4,
 .cs-header__title, .cs-section__title, .cs-next__title, .harmony-evidence__title,
 .case-card__title, .contact__headline, .contact__success-title {
   text-wrap: balance;
-}
-
-/* Typography scale */
-.type-display {
-  font-family: var(--font-display);
-  font-size: var(--size-display);
-  font-weight: 700;
-  line-height: 1.05;
-  letter-spacing: -0.02em;
-}
-
-.type-h1 {
-  font-family: var(--font-display);
-  font-size: var(--size-h1);
-  font-weight: 700;
-  line-height: 1.05;
-  letter-spacing: -0.02em;
-}
-
-.type-h2 {
-  font-family: var(--font-display);
-  font-size: var(--size-h2);
-  font-weight: 700;
-  line-height: 1.05;
-  letter-spacing: -0.02em;
-}
-
-.type-h3 {
-  font-family: var(--font-display);
-  font-size: var(--size-h3);
-  font-weight: 700;
-  line-height: 1.1;
-  letter-spacing: -0.02em;
-}
-
-.type-h4 {
-  font-family: var(--font-display);
-  font-size: var(--size-h4);
-  font-weight: 700;
-  line-height: 1.15;
-}
-
-.type-body-lg {
-  font-size: var(--size-body-lg);
-  line-height: 1.6;
-}
-
-.type-body-md {
-  font-size: var(--size-body-md);
-  line-height: 1.6;
-}
-
-.type-body-sm {
-  font-size: var(--size-body-sm);
-  line-height: 1.6;
-}
-
-/* Divider line */
-.divider {
-  width: 100%;
-  height: 1px;
-  background: var(--background-divider);
 }
 
 /* Visually hidden (accessibility) */
@@ -123,16 +49,6 @@ main {
 :focus-visible {
   outline: 2px solid var(--accent-primary);
   outline-offset: 3px;
-}
-
-/* Accent links */
-.accent-link {
-  color: var(--accent-primary);
-  transition: opacity 0.2s ease;
-}
-
-.accent-link:hover {
-  opacity: 0.75;
 }
 
 /* Primary button */
