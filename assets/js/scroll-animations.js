@@ -21,6 +21,70 @@ function initNavScroll() {
   }
 }
 
+// Active nav link follows the section being read (homepage only; case pages keep Work fixed)
+function initNavActive() {
+  const links = Array.from(document.querySelectorAll('.nav__link[href^="#"]'));
+  const sections = links.map(link => document.getElementById(link.hash.slice(1)));
+  if (!links.length || sections.some(section => !section)) return;
+
+  let locked = false;
+  let unlockTimer;
+  let ticking = false;
+
+  function setActive(index) {
+    links.forEach((link, i) => {
+      link.classList.toggle('nav__link--active', i === index);
+      if (i === index) link.setAttribute('aria-current', 'true');
+      else link.removeAttribute('aria-current');
+    });
+  }
+
+  // A section takes over once its top crosses a third of the viewport; the hero counts as
+  // the first one, and the last one holds from its top to the end of the page
+  function update() {
+    ticking = false;
+    if (locked) return;
+    const line = window.innerHeight / 3;
+    const atBottom = window.scrollY + window.innerHeight >= document.documentElement.scrollHeight - 2;
+    let index = 0;
+    sections.forEach((section, i) => {
+      if (section.getBoundingClientRect().top <= line) index = i;
+    });
+    setActive(atBottom ? sections.length - 1 : index);
+  }
+
+  // Hold the clicked link through the smooth scroll so the sections it passes don't flash;
+  // release once scroll events stop
+  function scheduleUnlock() {
+    clearTimeout(unlockTimer);
+    unlockTimer = setTimeout(() => {
+      locked = false;
+      update();
+    }, 150);
+  }
+
+  links.forEach((link, i) => {
+    link.addEventListener('click', () => {
+      setActive(i);
+      locked = true;
+      scheduleUnlock();
+    });
+  });
+
+  window.addEventListener('scroll', () => {
+    if (locked) {
+      scheduleUnlock();
+    } else if (!ticking) {
+      requestAnimationFrame(update);
+      ticking = true;
+    }
+  }, { passive: true });
+  window.addEventListener('resize', update, { passive: true });
+  window.addEventListener('load', update);
+
+  update();
+}
+
 // Cards entrance animation
 function initCardAnimations() {
   const cards = document.querySelectorAll('.case-card');
@@ -121,6 +185,7 @@ function initCompareSliders() {
 // Skip animations if user prefers reduced motion
 if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
   initNavScroll();
+  initNavActive();
   initCardAnimations();
   initSectionAnimations();
   initPhotoParallax();
@@ -128,6 +193,7 @@ if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
 } else {
   // Still init nav scroll (no animation, just class toggle)
   initNavScroll();
+  initNavActive();
   initCompareSliders();
   // Make everything visible immediately
   document.querySelectorAll('.case-card, .contact, .about, .photo-name, .footer, .cs-section').forEach(el => {
