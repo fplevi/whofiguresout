@@ -4,7 +4,7 @@
 
 /* Case Header */
 .cs-header {
-  padding-top: calc(64px + var(--space-40)); /* nav height + the gap the home hero shows on desktop */
+  padding-top: calc(64px + var(--space-40)); /* nav height + gap; the home .hero uses the same padding */
   padding-bottom: var(--space-64);
   padding-inline: var(--margin);
   border-bottom: 1px solid var(--background-divider);

@@ -1,10 +1,9 @@
+/* Sized by its content, with the same top and bottom padding as .cs-header, so the home and the
+   cases start the puzzle at the same height */
 .hero {
-  min-height: 100vh;
-  padding-top: 64px; /* nav height */
+  padding-top: calc(64px + var(--space-40)); /* nav height + gap */
+  padding-bottom: var(--space-64);
   padding-inline: var(--margin);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   overflow: hidden;
 }
 
